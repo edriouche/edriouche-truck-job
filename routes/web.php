@@ -1,0 +1,74 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/jobs', function () {
+    return view('jobs');
+});
+
+Route::get('/companies', function () {
+    $companies = \App\Models\Company::all();
+
+    return view('companies', compact('companies'));
+});
+
+Route::get('/cmr', function () { return view('cmr'); });
+Route::get('/training', [\App\Http\Controllers\TrainingController::class, 'index']);
+
+Route::get('/spain', function () {
+    return view('spain');
+});
+
+Route::get('/cap', function () {
+    return view('cap');
+});
+
+Route::get('/spanish-companies', function () {
+    return view('spain-companies');
+});
+
+Route::get('/cv-builder', function () {
+    return view('cv-builder');
+});
+
+Route::get('/truck-checklist', function () {
+    return view('truck-checklist');
+});
+
+Route::get('/driver-documents', function () {
+    return view('driver-documents');
+});
+
+Route::get('/europe-documents', function () {
+    return view('europe-documents');
+});
+
+Route::get('/europe-rules', function () {
+    return view('europe-rules');
+});
+
+Route::get('/tachograph-guide', function () {
+    return view('tachograph-guide');
+});
+
+Route::get('/spain-law', function () {
+    return view('spain-law');
+});
+
+Route::get('/spain-jobs', function () {
+    return view('spain-jobs');
+});
+
+Route::get('/lang/{locale}', function ($locale) {
+    if (in_array($locale, ['ar', 'es', 'fr'])) {
+        session(['locale' => $locale]);
+    }
+
+    return redirect()->back();
+});
+Route::view('/cmr-es', 'cmr-es');
+Route::view('/cmr-fr', 'cmr-fr');
