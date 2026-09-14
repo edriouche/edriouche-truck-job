@@ -1,12 +1,5 @@
 FROM php:8.5-apache
 
-RUN docker-php-ext-install pdo_mysql
-
-COPY . /var/www/html/
-
-WORKDIR /var/www/html
-FROM php:8.5-apache
-
 RUN apt-get update && apt-get install -y \
     git \
     unzip \
@@ -34,25 +27,18 @@ COPY docker/apache.conf /etc/apache2/sites-available/000-default.conf
 
 RUN a2enmod rewrite
 
+RUN sed -i 's/Listen 80/Listen 3000/' /etc/apache2/ports.conf
+
+RUN sed -i 's/<VirtualHost \*:80>/<VirtualHost *:3000>/' /etc/apache2/sites-available/000-default.conf
+
 RUN composer install --no-dev --optimize-autoloader --no-interaction
 
-RUN mkdir -p storage/framework/cache \
-    storage/framework/sessions \
-    storage/framework/views \
-    bootstrap/cache
+RUN mkdir -p storage/framework/cache storage/framework/sessions storage/framework/views bootstrap/cache
 
 RUN chown -R www-data:www-data storage bootstrap/cache
 
 RUN php artisan storage:link || true
 
-EXPOSE 80
+EXPOSE 3000
 
 CMD ["apache2-foreground"]
-
-RUN chown -R www-data:www-data storage bootstrap/cache
-
-RUN a2enmod rewrite
-
-COPY docker/apache.conf /etc/apache2/sites-available/000-default.conf
-
-EXPOSE 80
