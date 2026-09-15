@@ -12,18 +12,21 @@ COPY . /var/www/html/
 
 WORKDIR /var/www/html
 
-RUN composer install --no-dev --optimize-autoloader --no-interaction
-
 RUN mkdir -p \
+    storage/framework/tmp \
     storage/framework/cache \
     storage/framework/sessions \
     storage/framework/views \
     storage/logs \
     bootstrap/cache \
-    /tmp/laravel
+    && chmod -R 777 storage bootstrap/cache \
+    && chmod 1777 /tmp
 
-RUN chmod -R 777 storage bootstrap/cache /tmp/laravel
-RUN chmod 1777 /tmp
+ENV TMPDIR=/var/www/html/storage/framework/tmp
+ENV TEMP=/var/www/html/storage/framework/tmp
+ENV TMP=/var/www/html/storage/framework/tmp
+
+RUN composer install --no-dev --optimize-autoloader --no-interaction
 
 RUN a2enmod rewrite
 
@@ -34,6 +37,3 @@ RUN sed -i 's/Listen 80/Listen 3000/' /etc/apache2/ports.conf
 EXPOSE 3000
 
 ENV PORT=3000
-ENV TMPDIR=/tmp/laravel
-ENV TEMP=/tmp/laravel
-ENV TMP=/tmp/laravel
