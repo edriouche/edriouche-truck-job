@@ -117,13 +117,13 @@
 
 
     <div class="box">
-        <img src="{{ asset("storage/images/founder.jpg") }}" alt="محمد الدريوش - مؤسس الموقع" class="father-photo founder-photo">
+        <img src="{{ asset("images/founder.jpg") }}" alt="محمد الدريوش - مؤسس الموقع" class="father-photo founder-photo">
         <h2>🚛 محمد الدريوش — مؤسس Edriouche Truck Job</h2>
     </div>
 
     <div class="box">
         <img
-            src="{{ asset('storage/images/father.jpg') }}"
+            src="{{ asset('images/father.jpg') }}"
             alt="{{ __('messages.father_alt') }}"
             class="father-photo"
         >
