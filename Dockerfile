@@ -14,7 +14,7 @@ WORKDIR /var/www/html
 
 RUN composer install --no-dev --optimize-autoloader --no-interaction
 
-RUN chown -R www-data:www-data storage bootstrap/cache
+RUN mkdir -p storage/framework/views storage/framework/cache storage/framework/sessions bootstrap/cache && chown -R www-data:www-data storage bootstrap/cache && chmod -R 775 storage bootstrap/cache
 
 RUN a2enmod rewrite
 
