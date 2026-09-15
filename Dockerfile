@@ -25,5 +25,7 @@ RUN sed -i 's/Listen 80/Listen 3000/' /etc/apache2/ports.conf
 EXPOSE 3000
 
 ENV TMPDIR=/tmp
+ENV TEMP=/tmp
+ENV TMP=/tmp
 
 RUN chmod 1777 /tmp
