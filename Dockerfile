@@ -4,7 +4,8 @@ RUN apt-get update && apt-get install -y \
     git \
     unzip \
     libzip-dev \
-    && docker-php-ext-install pdo_mysql zip
+    && docker-php-ext-install pdo_mysql zip \
+    && rm -rf /var/lib/apt/lists/*
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
@@ -25,6 +26,8 @@ RUN mkdir -p \
     && chmod 1777 /tmp
 
 RUN echo "sys_temp_dir=/tmp" > /usr/local/etc/php/conf.d/tempdir.ini
+
+RUN php -i | grep -E "sys_temp_dir|upload_tmp_dir"
 
 RUN a2enmod rewrite
 
