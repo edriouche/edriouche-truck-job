@@ -14,7 +14,17 @@ WORKDIR /var/www/html
 
 RUN composer install --no-dev --optimize-autoloader --no-interaction
 
-RUN mkdir -p storage/framework/views storage/framework/cache storage/framework/sessions bootstrap/cache && chown -R www-data:www-data storage bootstrap/cache && chmod -R 775 storage bootstrap/cache
+RUN mkdir -p \
+    storage/framework/views \
+    storage/framework/cache \
+    storage/framework/sessions \
+    bootstrap/cache \
+    /tmp \
+    && chown -R www-data:www-data storage bootstrap/cache \
+    && chmod -R 775 storage bootstrap/cache \
+    && chmod 1777 /tmp
+
+RUN echo "sys_temp_dir=/tmp" > /usr/local/etc/php/conf.d/tempdir.ini
 
 RUN a2enmod rewrite
 
@@ -22,10 +32,8 @@ COPY docker/apache.conf /etc/apache2/sites-available/000-default.conf
 
 RUN sed -i 's/Listen 80/Listen 3000/' /etc/apache2/ports.conf
 
-EXPOSE 3000
-
 ENV TMPDIR=/tmp
 ENV TEMP=/tmp
 ENV TMP=/tmp
 
-RUN chmod 1777 /tmp
+EXPOSE 3000
