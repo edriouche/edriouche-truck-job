@@ -11,7 +11,4 @@ RUN chown -R www-data:www-data storage bootstrap/cache
 RUN a2enmod rewrite
 
 COPY docker/apache.conf /etc/apache2/sites-available/000-default.conf
-
 EXPOSE 3000
-ENV  TMPDIR=/tmp
-RUN chmod 1777 /tmp
