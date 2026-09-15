@@ -1,4 +1,4 @@
-FROM php:8.5-apache
+7FROM php:8.5-apache
 
 RUN apt-get update && apt-get install -y \
     git \
@@ -37,3 +37,6 @@ ENV TMPDIR=/tmp
 ENV TEMP=/tmp
 ENV TMP=/tmp
 ENV VIEW_COMPILED_PATH=/tmp
+ENV LOG_CHANNEL=stderr
+ENV SESSION_DRIVER=cookie
+ENV CACHE_STORE=array
