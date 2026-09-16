@@ -382,7 +382,7 @@
         </div>
 
         <div class="hero-photo">
-            <img src="{{ asset('images/founder.jpg') }}" alt="محمد الدريوش مؤسس Edriouche Truck Job">
+            <img src="{{ asset('images/founder.jpg').'?v=2' }}" alt="محمد الدريوش مؤسس Edriouche Truck Job">
         </div>
 
     </div>
@@ -499,7 +499,7 @@
 
     <div class="story">
 
-        <img src="{{ asset('images/founder.jpg') }}" alt="محمد الدريوش">
+        <img src="{{ asset('images/founder.jpg').'?v=2' }}" alt="محمد الدريوش">
 
         <div>
             <h2>محمد الدريوش — مؤسس Edriouche Truck Job</h2>
