@@ -65,6 +65,7 @@ Route::get('/spain-jobs', function () {
 Route::get('/lang/{locale}', function ($locale) {
     if (in_array($locale, ['ar', 'es', 'fr'])) {
         session(['locale' => $locale]);
+        app()->setLocale($locale);
     }
 
     return redirect()->back();
