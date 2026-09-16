@@ -220,6 +220,7 @@
 </div>
 </section>
 
+<section style="margin-top:30px;padding:25px;background:#f5f9fc;border-radius:20px;"><h2 style="text-align:center;">🇲🇦 شركات مغربية تبحث عن سائقين</h2><p style="text-align:center;line-height:1.9;">فرص منشورة أو حديثة — تحقق من توفر المنصب قبل إرسال الوثائق.</p><div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;"><h3>🚛 MAROTRANS — طنجة والقنيطرة</h3><p>سائقو شاحنات ثقيلة — رخصة EC وخبرة مهنية.</p><p>🟢 إعلان حديث</p></div><div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;"><h3>🚛 Group Inter Five — طنجة</h3><p>سائق مهني دولي.</p><p>📧 contact@groupinterfive.com</p><p>🟢 إعلان حديث</p></div><div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;"><h3>🚛 GRAVILIS — طنجة</h3><p>سائق شاحنة ثقيلة.</p><p>🟡 تحقق من توفر المنصب قبل التقديم.</p></div></section>
 <footer>
     © 2026 Edriouche Truck Job
 </footer>
