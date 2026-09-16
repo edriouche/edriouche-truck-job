@@ -1,94 +1,5 @@
-@include("partials.language-switcher")
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>شركات النقل - Edriouche Truck Job</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f6f8;
-            color: #222;
-        }
-
-        header {
-            background: #111827;
-            color: white;
-            text-align: center;
-            padding: 25px 15px;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 26px;
-        }
-
-        header p {
-            margin: 8px 0 0;
-        }
-
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 20px 15px;
-        }
-
-        .search {
-            width: 100%;
-            box-sizing: border-box;
-            padding: 14px;
-            margin-bottom: 20px;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            font-size: 16px;
-        }
-
-        .companies {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 16px;
-        }
-
-        .company {
-            background: white;
-            padding: 18px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        }
-
-        .company h2 {
-            margin-top: 0;
-            font-size: 19px;
-        }
-
-        .verified {
-            color: #166534;
-            font-weight: bold;
-        }
-
-        .links a {
-            display: inline-block;
-            margin: 8px 5px 0 0;
-            padding: 8px 12px;
-            background: #e5e7eb;
-            color: #111827;
-            text-decoration: none;
-            border-radius: 7px;
-        }
-
-        .back {
-            display: inline-block;
-            margin-bottom: 18px;
-            color: #111827;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        footer {
-            text-align: center;
+@	
+ķ            text-align: center;
             padding: 25px;
             color: #666;
         }
@@ -193,3 +104,4 @@ function searchCompanies() {
 
 </body>
 </html>
+('
