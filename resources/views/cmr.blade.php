@@ -1,3 +1,4 @@
+@include("partials.language-switcher")
 cd ~/edriouche-truck-job && cat > resources/views/cmr.blade.php <<'EOF'
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">

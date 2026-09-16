@@ -1,3 +1,4 @@
+@include("partials.language-switcher")
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>

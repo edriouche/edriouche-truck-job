@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}" dir="{{ app()->getLocale() === "ar" ? "rtl" : "ltr" }}">
+<html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -26,36 +26,36 @@ footer{text-align:center;padding:25px;color:#666}
 <div class="container">
 
 <div class="hero">
-<h1>🇪🇸 {{ __("messages.spanish_companies") }}</h1>
-<p style="text-align:center"><strong>{{ __("messages.jobs_intro") }}</strong></p>
+<h1>🇪🇸 شركات النقل الإسبانية</h1>
+<p style="text-align:center"><strong>فرص السائقين المهنيين والتقديم المباشر للشركات</strong></p>
 </div>
 
 <div class="hero-es">
-<h2>{{ __("messages.driver_message") }}</h2>
-<p>{{ __("messages.driver_story_title") }}</p>
-<p>{{ __("messages.driver_sacrifice") }}</p>
+<h2>🚛 No mires solo el camión… mira a la persona que está detrás del volante.</h2>
+<p>Detrás de cada camión hay una historia.</p>
+<p>El conductor no conduce solamente un camión… lleva una responsabilidad y una vida entera sobre sus hombros.</p>
 <p>A veces no pudo estar en celebraciones ni en funerales… porque la carretera lo llamaba y detrás de él había una carga, una responsabilidad y un deber profesional.</p>
-<p><strong>{{ __("messages.driver_values") }}</strong></p>
+<p><strong>Honestidad • Confianza • Responsabilidad • Deber profesional</strong></p>
 <p>Detrás de cada camión que llega a su destino, hay una persona que ha hecho muchos sacrificios para que llegue con seguridad.</p>
-<p>{!! __("messages.driver_mission") !!}</p>
-<p>{!! __("messages.driver_morocco_europe") !!}</p>
-<p><strong>{{ __("messages.driver_respect") }}</strong></p>
+<p>Por eso creamos <strong>Edriouche Truck Job</strong>: no solo para buscar trabajo, sino para defender el respeto por la profesión de conductor, ayudar al conductor a encontrar una oportunidad real, conocer sus derechos y protegerse de intermediarios y falsas promesas.</p>
+<p>🇲🇦 De Marruecos a Europa… queremos que el conductor llegue con dignidad, igual que su camión llega con seguridad.</p>
+<p><strong>El conductor profesional merece respeto. 🚛❤️</strong></p>
 </div>
 
 <div class="hero">
-<h2>🚛 {{ __("messages.jobs_title") }}</h2>
-<p>{{ __("messages.jobs_description") }}</p>
-<p>{{ __("messages.recruitment_info") }}</p>
+<h2>🚛 شركات موثوقة للسائقين</h2>
+<p>جمعنا هذه القائمة لمساعدة السائق المغربي على الوصول إلى الشركات الإسبانية مباشرة، بعيدًا عن الوسطاء والعروض غير الموثوقة.</p>
+<p>نميز بوضوح بين <strong>التوظيف النشط</strong> و<strong>الترشيح المفتوح</strong>.</p>
 </div>
 
 <div class="card">
 <h2>🟢 JCARRION</h2>
-<p><span class="badge">{{ __("messages.recruitment_info") }}</span></p>
+<p><span class="badge">توظيف نشط حاليًا</span></p>
 <p>📍 إسبانيا – نقل وطني ودولي</p>
 <p>🚛 المطلوب: C+E</p>
 <p>🎓 المتطلبات: CAP + بطاقة التاكغراف الرقمي</p>
 <p>⭐ توجد حاليًا عروض للسائقين، ومنها عروض لا تشترط الخبرة حسب الإعلان.</p>
-<a class="button" href="https://jobs.jcarrion.es/reclutamiento/" target="_blank">{{ __("messages.official_recruitment") }}</a>
+<a class="button" href="https://jobs.jcarrion.es/reclutamiento/" target="_blank">🔗 التقديم الرسمي</a>
 </div>
 
 <div class="card">
