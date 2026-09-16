@@ -51,11 +51,13 @@
         }
 
         .brand {
+            display: flex; align-items: center; gap: 8px;
             font-size: 22px;
             font-weight: 800;
             color: #0b3a68;
         }
 
+        .brand img { width: 42px; height: 42px; object-fit: cover; border-radius: 8px; }
         .brand span { color: #f59e0b; }
 
         .languages {
@@ -351,7 +353,7 @@
 
 <header>
     <div class="nav">
-        <a class="brand" href="/">🚛 Edriouche <span>Truck Job</span></a>
+        <a class="brand" href="/"><img src="{{ asset('images/truck-volvo-fh-tanker-2022.jpg') }}" alt="Truck"> Edriouche <span>Truck Job</span></a>
 
         <div class="languages">
             <a href="/lang/ar">🇲🇦 العربية</a>
