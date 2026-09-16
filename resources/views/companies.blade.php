@@ -29,6 +29,31 @@
         placeholder="🔎 ابحث عن شركة أو مدينة..."
         onkeyup="searchCompanies()"
     >
+    
+    <div id="companies">
+        <h2>🚛 شركات النقل</h2>
+
+        <div class="company">
+            <h3>TotalEnergies</h3>
+            <p>نقل وتوزيع منتجات الطاقة والوقود.</p>
+        </div>
+
+        <div class="company">
+            <h3>Shell</h3>
+            <p>شركة عالمية في مجال الطاقة والوقود والنقل اللوجستي.</p>
+        </div>
+
+        <div class="company">
+            <h3>Ola</h3>
+            <p>شركة مرتبطة بقطاع النقل واللوجستيك.</p>
+        </div>
+
+        <div class="company">
+            <h3>شركات النقل واللوجستيك</h3>
+            <p>ابحث دائمًا عن الشركة الرسمية ومعلومات التوظيف الرسمية قبل إرسال أي وثائق.</p>
+        </div>
+    </div>
+
 
     <div class="companies">
 
