@@ -31,15 +31,15 @@
     >
     
     <div id="companies">
-<h2>🚛 شركات النقل المغربية</h2>
-<p class="directory-intro">دليل عملي لشركات النقل واللوجستيك المغربية. اضغط على الموقع الرسمي للتحقق من معلومات الشركة وفرص العمل المتاحة.</p>
+<h2>🚛 {{ __('شركات النقل المغربية') }}</h2>
+<p class="directory-intro">{{ __('دليل عملي لشركات النقل واللوجستيك المغربية. اضغط على الموقع الرسمي للتحقق من معلومات الشركة وفرص العمل المتاحة.') }}</p>
 <div class="grid">
 <article class="company">
 <h3>🚛 FTA LOGISTICS</h3>
 <span class="badge">🇲🇦 طنجة</span>
 <p class="meta">نقل دولي ونقل بري ولوجستيك</p>
 <div class="actions">
-<a href="https://www.fta.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://www.fta.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -47,7 +47,7 @@
 <span class="badge">🇲🇦 طنجة</span>
 <p class="meta">نقل بري وطني ودولي ولوجستيك ونقل بحري</p>
 <div class="actions">
-<a href="https://www.fsr.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://www.fsr.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -55,7 +55,7 @@
 <span class="badge">🇲🇦 الدار البيضاء</span>
 <p class="meta">نقل بري للبضائع وتوزيع وطني</p>
 <div class="actions">
-<a href="https://tdl.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://tdl.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -63,7 +63,7 @@
 <span class="badge">🇲🇦 الدار البيضاء</span>
 <p class="meta">نقل بري FTL/LTL ونقل مبرد وADR ومسارات المغرب–أوروبا</p>
 <div class="actions">
-<a href="https://www.sline.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://www.sline.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -71,7 +71,7 @@
 <span class="badge">🇲🇦 طنجة</span>
 <p class="meta">نقل وطني ودولي بري ولوجستيك</p>
 <div class="actions">
-<a href="https://www.ironlog.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://www.ironlog.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -79,7 +79,7 @@
 <span class="badge">🇲🇦 طنجة / الدار البيضاء</span>
 <p class="meta">نقل وطني ودولي ولوجستيك</p>
 <div class="actions">
-<a href="https://www.transunivers.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://www.transunivers.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -87,7 +87,7 @@
 <span class="badge">🇲🇦 المغرب</span>
 <p class="meta">نقل بري وترانزيت وخدمات لوجستية</p>
 <div class="actions">
-<a href="https://www.logictransport.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://www.logictransport.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -95,7 +95,7 @@
 <span class="badge">🇲🇦 طنجة</span>
 <p class="meta">نقل بري دولي المغرب–أوروبا</p>
 <div class="actions">
-<a href="https://liferoadlogitrans.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://liferoadlogitrans.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -103,7 +103,7 @@
 <span class="badge">🇲🇦 المغرب</span>
 <p class="meta">نقل بري دولي ولوجستيك</p>
 <div class="actions">
-<a href="https://www.malogistics.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://www.malogistics.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -111,7 +111,7 @@
 <span class="badge">🇲🇦 المغرب</span>
 <p class="meta">نقل بري وبحري وجوي ونقل استثنائي</p>
 <div class="actions">
-<a href="https://m2tc.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://m2tc.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -119,7 +119,7 @@
 <span class="badge">🇲🇦 المغرب</span>
 <p class="meta">نقل بري وخدمات لوجستية</p>
 <div class="actions">
-<a href="https://www.transload.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://www.transload.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -127,7 +127,7 @@
 <span class="badge">🇲🇦 المغرب / أوروبا</span>
 <p class="meta">مجموعة نقل وعمليات نقل وطني ودولي</p>
 <div class="actions">
-<a href="https://mabya.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://mabya.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -135,7 +135,7 @@
 <span class="badge">🇲🇦 الدار البيضاء</span>
 <p class="meta">ترانزيت ونقل وتسليم للبضائع</p>
 <div class="actions">
-<a href="https://transines.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://transines.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -143,7 +143,7 @@
 <span class="badge">🇲🇦 أكادير / الدار البيضاء / طنجة</span>
 <p class="meta">ترانزيت ونقل دولي ولوجستيك</p>
 <div class="actions">
-<a href="https://sntctransit.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://sntctransit.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -151,7 +151,7 @@
 <span class="badge">🇲🇦 المغرب</span>
 <p class="meta">نقل دولي بري وبحري وجوي</p>
 <div class="actions">
-<a href="https://chronotruck.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://chronotruck.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -159,7 +159,7 @@
 <span class="badge">🇲🇦 طنجة</span>
 <p class="meta">نقل مهني ونقل حاويات</p>
 <div class="actions">
-<a href="https://energico.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://energico.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -167,7 +167,7 @@
 <span class="badge">🇲🇦 الدار البيضاء / طنجة</span>
 <p class="meta">لوجستيك دولي وشحن ونقل وترانزيت</p>
 <div class="actions">
-<a href="https://mmragtrans.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://mmragtrans.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -175,7 +175,7 @@
 <span class="badge">🇲🇦 طنجة</span>
 <p class="meta">ترانزيت ونقل دولي ونقل بري</p>
 <div class="actions">
-<a href="https://fwmtransit.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://fwmtransit.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -183,7 +183,7 @@
 <span class="badge">🇲🇦 الدار البيضاء / طنجة</span>
 <p class="meta">نقل بري وخدمات لوجستية وطنية ودولية</p>
 <div class="actions">
-<a href="https://www.alp.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://www.alp.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
@@ -191,17 +191,17 @@
 <span class="badge">🇲🇦 الدار البيضاء</span>
 <p class="meta">ترانزيت ونقل بري وبحري وجوي</p>
 <div class="actions">
-<a href="https://elmaroizygroupe.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+<a href="https://elmaroizygroupe.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 </div>
 </div>
 
 <div class="note">
-<strong>🛡️ مهم للسائق:</strong>
-وجود الشركة في هذا الدليل لا يعني وجود وظيفة شاغرة حاليًا.
-تحقق دائمًا من الموقع الرسمي أو قسم التوظيف قبل إرسال CV أو وثائق شخصية.
-لا تدفع المال لأي وسيط مقابل وعد بالتوظيف.
+<strong>🛡️ {{ __('مهم للسائق:') }}</strong>
+{{ __('وجود الشركة في هذا الدليل لا يعني وجود وظيفة شاغرة حاليًا.') }}
+{{ __('تحقق دائمًا من الموقع الرسمي أو قسم التوظيف قبل إرسال CV أو وثائق شخصية.') }}
+{{ __('لا تدفع المال لأي وسيط مقابل وعد بالتوظيف.') }}
 </div>
 
 <div class="companies">
@@ -211,7 +211,7 @@
 
 
 <section style="margin-top:40px;padding:28px;background:#f7f9fc;border-radius:20px;">
-<h2 style="text-align:center;">🚛 دليل السائق المغربي: من المبتدئ إلى الاحتراف</h2>
+<h2 style="text-align:center;">🚛 {{ __('دليل السائق المغربي: من المبتدئ إلى الاحتراف') }}</h2>
 <p style="text-align:center;line-height:1.9;font-size:17px;">هذا الدليل يساعد السائق على تجهيز نفسه للبحث عن العمل والتقدم إلى الشركات بطريقة مهنية ومنظمة.</p>
 
 <div style="margin-top:25px;">
@@ -253,7 +253,7 @@
 <p style="line-height:2;">الاسم الكامل — الهاتف — المدينة — فئات الرخص — سنوات الخبرة — أنواع الشاحنات — نوع النقل — الشهادات والتكوين — اللغات — معلومات إضافية مفيدة للعمل.</p>
 </div>
 
-<div style="text-align:center;margin-top:25px;"><a href="/cv-builder" style="display:inline-block;padding:14px 24px;background:#0b7a75;color:white;text-decoration:none;border-radius:12px;font-weight:bold;font-size:17px;">📝 إنشاء CV للسائق</a></div>
+<div style="text-align:center;margin-top:25px;"><a href="/cv-builder" style="display:inline-block;padding:14px 24px;background:#0b7a75;color:white;text-decoration:none;border-radius:12px;font-weight:bold;font-size:17px;">📝 {{ __('إنشاء CV للسائق') }}</a></div>
 
     <p style="text-align:center;font-weight:bold;font-size:18px;margin-top:25px;">Edriouche Truck Job — نساعد السائق على تجهيز ملفه والوصول إلى فرصة عمل حقيقية بطريقة مهنية.</p>
 </div>
