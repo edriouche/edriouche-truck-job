@@ -1,169 +1,609 @@
 <!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}" dir="{{ app()->getLocale() === 'ar' ? 'rtl' : 'ltr' }}">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edriouche Truck Job</title>
+    <meta name="description" content="Edriouche Truck Job - فرص العمل والمعلومات المهنية للسائقين من المغرب إلى أوروبا.">
+
     <style>
+        * { box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; }
+
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f6f8;
-            color: #222;
+            font-family: Arial, "Tahoma", sans-serif;
+            background: #f5f7fa;
+            color: #172033;
+            line-height: 1.8;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .topbar {
+            background: #0b3a68;
+            color: #fff;
+            text-align: center;
+            padding: 8px 15px;
+            font-size: 14px;
         }
 
         header {
-            background: #111827;
-            color: white;
-            padding: 30px 20px;
-            text-align: center;
+            background: #ffffff;
+            border-bottom: 1px solid #e5e7eb;
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
 
-        header h1 {
-            margin: 0 0 10px;
+        .nav {
+            max-width: 1150px;
+            margin: auto;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
         }
 
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
+        .brand {
+            font-size: 22px;
+            font-weight: 800;
+            color: #0b3a68;
         }
 
-        .box {
-            background: white;
-            padding: 25px;
-            margin-bottom: 20px;
-            border-radius: 12px;
-            text-align: center;
+        .brand span { color: #f59e0b; }
+
+        .languages {
+            display: flex;
+            gap: 7px;
+            flex-wrap: wrap;
         }
 
-        .father-photo { display:block; width:100%; max-width:300px; height:auto; margin:20px auto; border-radius:16px; border:4px solid #d4af37; box-shadow:0 8px 24px rgba(0,0,0,.25); object-fit:cover; }
-        .founder-photo { width:180px; max-width:180px; }
+        .languages a {
+            background: #f1f5f9;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
 
-        .button {
+        .hero {
+            background: linear-gradient(135deg, #0b3a68, #145b91);
+            color: #fff;
+            padding: 65px 20px;
+        }
+
+        .hero-inner {
+            max-width: 1100px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1.2fr .8fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            line-height: 1.25;
+            margin: 0 0 15px;
+        }
+
+        .hero h1 span { color: #fbbf24; }
+
+        .hero p {
+            font-size: 19px;
+            margin: 0 0 25px;
+            color: #e5eef8;
+        }
+
+        .hero-photo img {
+            width: 100%;
+            max-width: 330px;
+            display: block;
+            margin: auto;
+            border-radius: 22px;
+            border: 5px solid rgba(255,255,255,.2);
+        }
+
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .btn {
             display: inline-block;
-            margin: 8px;
-            padding: 12px 22px;
-            background: #111827;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
+            padding: 11px 18px;
+            border-radius: 10px;
+            font-weight: 700;
+            background: #f59e0b;
+            color: #172033;
         }
 
-        .button:hover {
-            background: #1f2937;
+        .btn.secondary {
+            background: #fff;
+            color: #0b3a68;
+        }
+
+        .section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 55px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .section-title h2 {
+            margin: 0 0 8px;
+            font-size: 30px;
+            color: #0b3a68;
+        }
+
+        .section-title p {
+            margin: 0;
+            color: #64748b;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+        }
+
+        .card {
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 16px;
+            padding: 22px;
+            box-shadow: 0 5px 18px rgba(15,23,42,.06);
+            transition: transform .2s;
+        }
+
+        .card:hover { transform: translateY(-3px); }
+
+        .card .icon {
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+
+        .card h3 {
+            margin: 0 0 7px;
+            color: #0b3a68;
+            font-size: 19px;
+        }
+
+        .card p {
+            margin: 0 0 12px;
+            color: #64748b;
+            font-size: 15px;
+        }
+
+        .card a {
+            color: #0b3a68;
+            font-weight: 700;
+        }
+
+        .spain {
+            background: #eaf3fb;
+            border-radius: 22px;
+            padding: 35px;
+        }
+
+        .spain-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .spain a {
+            background: #fff;
+            padding: 18px;
+            border-radius: 12px;
+            font-weight: 700;
+            color: #0b3a68;
+            border: 1px solid #dbe7f2;
+        }
+
+        .story {
+            background: #fff;
+            border-radius: 22px;
+            padding: 35px;
+            display: grid;
+            grid-template-columns: 230px 1fr;
+            gap: 30px;
+            align-items: center;
+            box-shadow: 0 5px 20px rgba(15,23,42,.06);
+        }
+
+        .story img {
+            width: 210px;
+            height: 210px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: block;
+            margin: auto;
+        }
+
+        .story h2 {
+            color: #0b3a68;
+            margin-top: 0;
+        }
+
+        .story p { color: #475569; }
+
+        .father {
+            background: #172033;
+            color: #fff;
+            border-radius: 22px;
+            padding: 35px;
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .father img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 16px;
+            margin: auto;
+        }
+
+        .father h2 { margin-top: 0; color: #fbbf24; }
+
+        .message {
+            text-align: center;
+            background: #fff;
+            border-radius: 22px;
+            padding: 40px 25px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .message blockquote {
+            margin: 20px auto;
+            max-width: 800px;
+            font-size: 23px;
+            font-weight: 700;
+            color: #0b3a68;
         }
 
         footer {
+            background: #0b1627;
+            color: #cbd5e1;
+            padding: 35px 20px;
             text-align: center;
-            padding: 20px;
-            color: #666;
+        }
+
+        footer strong { color: #fff; }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 18px;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+
+        @media (max-width: 800px) {
+            .hero-inner,
+            .story,
+            .father {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero h1 { font-size: 32px; }
+
+            .buttons { justify-content: center; }
+
+            .cards,
+            .spain-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .story img,
+            .father img {
+                width: 170px;
+                height: 170px;
+            }
+        }
+
+        @media (max-width: 520px) {
+            .nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .cards,
+            .spain-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero { padding: 45px 18px; }
+
+            .section { padding: 40px 15px; }
+
+            .hero p { font-size: 17px; }
+
+            .spain,
+            .story,
+            .father {
+                padding: 25px 18px;
+            }
         }
     </style>
 </head>
 
 <body>
-<section id="edriouche-profile-intro" style="max-width:1100px;margin:30px auto;padding:28px;border-radius:18px;background:#f7fbff;box-shadow:0 4px 18px rgba(0,0,0,.08);line-height:1.9;text-align:right;">
-<h2 style="color:#1261a0;text-align:center;">محمد الدريوش</h2>
-<h3 style="text-align:center;">سائق مهني… تعلّم المهنة من الطريق ومن أستاذه الأول</h3>
-<h3>🇲🇦 العربية</h3>
-<p>أنا <strong>محمد الدريوش</strong>، سائق مهني مغربي بدأت مسيرتي في عالم الشاحنات سنة <strong>1994</strong>. لم أتعلم هذه المهنة من الكتب وحدها، بل تعلمتها من الطريق، ومن المسؤولية، ومن أستاذي الأول في المهنة: <strong>والدي رحمه الله</strong>.</p>
-<p>كان والدي من سائقي الجيل القديم في نقل المحروقات والغاز، وكان بالنسبة لي أكثر من والد؛ كان <strong>أستاذي ومرشدي في المهنة</strong>. منه تعلمت احترام الطريق، والسلامة، والمسؤولية، والالتزام بالحمولة والمواعيد والوثائق.</p>
-<p>رحل والدي في حادثة سير سنة <strong>2002</strong>، لكن ما علّمني إياه بقي معي إلى اليوم.</p>
-<p>بعد سنوات من العمل في نقل المحروقات بالمغرب، انتقلت منذ سنة <strong>2020</strong> إلى النقل الدولي بين المغرب وأوروبا.</p>
-<p>اليوم أشارك خبرتي من خلال <strong>Edriouche Truck Jobs</strong> لمساعدة السائقين، وخاصة الشباب المغاربة، على دخول عالم النقل المهني بطريقة صحيحة، بعيداً عن السماسرة والوعود الكاذبة.</p>
-<p style="text-align:center;font-weight:bold;color:#1261a0;">من تجربة الطريق إلى خدمة السائق.</p>
-<hr>
-<div dir="ltr" style="text-align:left;">
-<h3>🇪🇸 Español</h3>
-<p>Soy <strong>Mohamed Edriouche</strong>, conductor profesional marroquí. Comencé mi trayectoria en el transporte por carretera en <strong>1994</strong>. No aprendí esta profesión solamente de los libros, sino de la carretera, de la responsabilidad y de mi primer maestro: <strong>mi padre, que en paz descanse</strong>.</p>
-<p>Mi padre pertenecía a la antigua generación de conductores profesionales de transporte de combustibles y gas. Para mí fue mucho más que un padre: fue <strong>mi maestro y mi guía en esta profesión</strong>.</p>
-<p>Falleció en un accidente de carretera en <strong>2002</strong>, pero sus enseñanzas siguen acompañándome hasta hoy.</p>
-<p>Después de años trabajando en el transporte de productos petrolíferos en Marruecos, desde <strong>2020</strong> trabajo en el transporte internacional entre Marruecos y Europa.</p>
-<p>Hoy comparto mi experiencia a través de <strong>Edriouche Truck Jobs</strong>, para ayudar a los conductores, especialmente a los jóvenes marroquíes, a entrar correctamente en el mundo del transporte profesional, lejos de intermediarios y falsas promesas.</p>
-<p style="text-align:center;font-weight:bold;color:#1261a0;">De la experiencia de la carretera al servicio del conductor.</p>
-<hr>
-<h3>🇫🇷 Français</h3>
-<p>Je suis <strong>Mohamed Edriouche</strong>, chauffeur professionnel marocain. J’ai commencé ma carrière dans le transport routier en <strong>1994</strong>. Je n’ai pas appris ce métier uniquement dans les livres, mais sur la route, à travers la responsabilité et auprès de mon premier maître : <strong>mon père, que Dieu ait son âme</strong>.</p>
-<p>Mon père appartenait à l’ancienne génération de chauffeurs professionnels spécialisés dans le transport des carburants et du gaz. Pour moi, il était bien plus qu’un père : il était <strong>mon maître et mon guide dans ce métier</strong>.</p>
-<p>Il est décédé dans un accident de la route en <strong>2002</strong>, mais ses enseignements continuent de m’accompagner encore aujourd’hui.</p>
-<p>Après plusieurs années dans le transport des produits pétroliers au Maroc, je travaille depuis <strong>2020</strong> dans le transport international entre le Maroc et l’Europe.</p>
-<p>Aujourd’hui, je partage mon expérience à travers <strong>Edriouche Truck Jobs</strong>, afin d’aider les conducteurs, notamment les jeunes Marocains, à entrer correctement dans le monde du transport professionnel, loin des intermédiaires et des fausses promesses.</p>
-<p style="text-align:center;font-weight:bold;color:#1261a0;">De l’expérience de la route au service du conducteur.</p>
+
+<div class="topbar">
+    🚛 من المغرب إلى أوروبا — خدمة السائق بالمعلومة المهنية الموثوقة
 </div>
-</section>
 
 <header>
-    <div style="text-align:center;margin:10px 0;font-size:18px;">
-        <a href="/lang/ar" style="margin:0 8px;">🇲🇦 العربية</a>
-        <a href="/lang/es" style="margin:0 8px;">🇪🇸 Español</a>
-        <a href="/lang/fr" style="margin:0 8px;">🇫🇷 Français</a>
-    </div>
-    <h1>🚛 {{ __("messages.site_name") }}</h1>
-    <p>{{ __('messages.job_intro') }}</p>
-</header>
+    <div class="nav">
+        <a class="brand" href="/">🚛 Edriouche <span>Truck Job</span></a>
 
-<div class="container">
-    <div class="box" style="border-top:6px solid #d4af37;background:linear-gradient(135deg,#ffffff,#f8fafc);">
-        <h2 style="font-size:28px;line-height:1.5;">🚛 {{ __('messages.driver_message') }}</h2>
-        <h3>{{ __('messages.driver_story_title') }}</h3>
-        <p style="line-height:2;font-size:20px;font-weight:bold;">{!! __('messages.driver_absence') !!}</p>
-        <p style="line-height:2;font-size:20px;font-weight:bold;">{{ __('messages.driver_values') }}</p>
-        <p style="line-height:2;font-size:18px;font-weight:bold;">{{ __('messages.driver_sacrifice') }}</p>
-        <p style="line-height:2;font-size:17px;">{!! __('messages.driver_mission') !!}</p>
-        <p style="line-height:2;font-size:19px;font-weight:bold;">{!! __('messages.driver_morocco_europe') !!}</p>
-        <p style="font-size:22px;font-weight:bold;">{{ __('messages.driver_respect') }}</p>
-    </div>
-
-
-    <div class="box">
-        <img src="{{ asset("images/founder.jpg") }}" alt="محمد الدريوش - مؤسس الموقع" class="father-photo founder-photo">
-        <h2>🚛 محمد الدريوش — مؤسس Edriouche Truck Job</h2>
-    </div>
-
-    <div class="box">
-        <img
-            src="{{ asset('images/father.jpg') }}"
-            alt="{{ __('messages.father_alt') }}"
-            class="father-photo"
-        >
-
-        <h2>🤲 {{ __('messages.father_memory') }}</h2>
-
-        <p>{{ __('messages.father_teacher') }}</p>
-
-        <p>
-            {{ __('messages.father_story') }}
-            {{ __('messages.father_legacy') }}
-        </p>
-    </div>
-
-    <div class="box">
-        <h2>{{ __('messages.jobs_title') }}</h2>
-
-        <p>
-            {{ __('messages.jobs_description') }}
-        </p>
-
-        <a href="/jobs" class="button">{{ __("messages.jobs") }}</a>
-        <a href="/companies" class="button">{{ __("messages.companies") }}</a>
-        <a href="/training" class="button">{{ __("messages.training") }}</a>
-        <div style="margin-top:25px;padding:18px;background:#f5f7fa;border-radius:16px;">
-            <h2 style="margin-top:0;">🇪🇺 {{ __('messages.professional_driver_services') }}</h2>
-            <a href="/spain" class="button">🇪🇸 {{ __('messages.work_in_spain') }}</a>
-            <a href="/spanish-companies" class="button">🇪🇸 {{ __('messages.spanish_companies') }}</a>
-            <a href="/spain-law" class="button">⚖️ {{ __('messages.spain_law_short') }}</a>
-            <a href="/driver-documents" class="button">📄 {{ __('messages.driver_documents_short') }}</a>
-            <a href="/cv-builder" class="button">📝 {{ __('messages.cv_create') }}</a>
-            <a href="/truck-checklist" class="button">🚛 {{ __('messages.truck_check') }}</a>
-            <a href="/cmr" class="button">📄 النقل الدولي — CMR</a>
+        <div class="languages">
+            <a href="/lang/ar">🇲🇦 العربية</a>
+            <a href="/lang/es">🇪🇸 Español</a>
+            <a href="/lang/fr">🇫🇷 Français</a>
         </div>
     </div>
+</header>
 
-</div>
+<section class="hero">
+    <div class="hero-inner">
+
+        <div>
+            <h1>من <span>الطريق</span> إلى خدمة السائق</h1>
+
+            <p>
+                منصة أنشأها سائق مهني لمساعدة السائقين،
+                وخاصة الشباب المغاربة، على الوصول إلى فرص العمل
+                والمعلومات المهنية في النقل الطرقي، بعيدًا عن السماسرة
+                والوعود الكاذبة.
+            </p>
+
+            <div class="buttons">
+                <a class="btn" href="/jobs">🔎 عروض العمل</a>
+                <a class="btn secondary" href="/companies">🏢 شركات النقل</a>
+                <a class="btn secondary" href="/spain-jobs">🇪🇸 العمل في إسبانيا</a>
+            </div>
+        </div>
+
+        <div class="hero-photo">
+            <img src="{{ asset('images/founder.jpg') }}" alt="محمد الدريوش مؤسس Edriouche Truck Job">
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+
+    <div class="section-title">
+        <h2>🚛 خدمات السائق المهني</h2>
+        <p>أدوات ومعلومات تساعدك في مسيرتك المهنية</p>
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🔎</div>
+            <h3>عروض العمل</h3>
+            <p>فرص عمل ومعلومات تساعد السائق على الوصول إلى الشركات.</p>
+            <a href="/jobs">اكتشف العروض ←</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">🏢</div>
+            <h3>شركات النقل</h3>
+            <p>التعرف على شركات النقل وطرق التواصل الرسمية.</p>
+            <a href="/companies">الشركات ←</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">🎓</div>
+            <h3>التكوين والتدريب</h3>
+            <p>مسارات التكوين والتطوير المهني للسائقين.</p>
+            <a href="/training">التكوين ←</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">📄</div>
+            <h3>وثائق السائق</h3>
+            <p>معلومات حول الوثائق المهنية المطلوبة للسائق.</p>
+            <a href="/driver-documents">الوثائق ←</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">📝</div>
+            <h3>إنشاء CV</h3>
+            <p>ساعد نفسك على تقديم خبرتك المهنية بطريقة منظمة.</p>
+            <a href="/cv-builder">إنشاء CV ←</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">🚛</div>
+            <h3>فحص الشاحنة</h3>
+            <p>قائمة عملية للمساعدة في فحص الشاحنة قبل الانطلاق.</p>
+            <a href="/truck-checklist">ابدأ الفحص ←</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">📄</div>
+            <h3>النقل الدولي — CMR</h3>
+            <p>معلومات أساسية حول وثيقة النقل الدولي للبضائع.</p>
+            <a href="/cmr">تعرف على CMR ←</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">🌍</div>
+            <h3>وثائق أوروبا</h3>
+            <p>معلومات تساعد السائق في فهم الوثائق المطلوبة للنقل الدولي.</p>
+            <a href="/europe-documents">وثائق أوروبا ←</a>
+        </div>
+
+        <div class="card">
+            <div class="icon">📚</div>
+            <h3>قواعد النقل في أوروبا</h3>
+            <p>معلومات عملية حول القواعد والالتزامات المهنية.</p>
+            <a href="/europe-rules">القواعد ←</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+
+<section class="section">
+    <div class="section-title">
+        <h2>🚛 تطور الشاحنات عبر الزمن</h2>
+        <p>من شاحنات السبعينيات إلى الشاحنات الحديثة، رحلة تطور القوة والراحة والسلامة والتكنولوجيا في مهنة النقل الطرقي.</p>
+    </div>
+    <div class="cards">
+        <div class="card"><img src="{{ asset('images/truck-volvo-f88-1970.jpg') }}" alt="Volvo F88 1970" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>1970 — Volvo F88</h3><p>شاحنة من جيل السبعينيات، عُرفت بالقوة والبساطة ومثّلت مرحلة مهمة في تطور النقل الثقيل.</p></div>
+        <div class="card"><img src="{{ asset('images/truck-volvo-f10.jpg') }}" alt="Volvo F10" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>الثمانينيات — Volvo F10</h3><p>من شاحنات الثمانينيات، جمعت بين قوة المحرك وتحسين راحة السائق في الرحلات الطويلة.</p></div>
+        <div class="card"><img src="{{ asset('images/truck-volvo-fh-1993.jpg') }}" alt="Volvo FH 1993" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>1993 — Volvo FH</h3><p>ظهر عام 1993، وبدأ معه جيل جديد من Volvo FH مع تطور واضح في الأداء والراحة والسلامة.</p></div>
+        <div class="card"><img src="{{ asset('images/truck-volvo-fh-tanker-2009.jpg') }}" alt="Volvo FH 400 مع ناقلة صهريجية 2009" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>2009 — Volvo FH 400 ومقطورة صهريجية</h3><p>شاحنة مهيأة للنقل الدولي، ومعها أصبحت المقطورات الصهريجية جزءًا مهمًا من نقل المحروقات لمسافات طويلة.</p></div>
+        <div class="card"><img src="{{ asset('images/truck-volvo-fh-tanker-2022.jpg') }}" alt="Volvo FH 460 مع مقطورة صهريجية 2022" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>2022–اليوم — Volvo FH مع مقطورة صهريجية</h3><p>جيل حديث يجمع بين الراحة والتكنولوجيا والسلامة، ويخدم النقل الدولي مع المقطورات الصهريجية.</p></div>
+    </div>
+</section>
+
+    <div class="spain">
+
+        <div class="section-title">
+            <h2>🇪🇸 العمل في إسبانيا</h2>
+            <p>قسم خاص بالسائقين الراغبين في فهم الطريق المهني نحو إسبانيا</p>
+        </div>
+
+        <div class="spain-grid">
+            <a href="/spain-jobs">🇪🇸 عروض العمل في إسبانيا</a>
+            <a href="/spanish-companies">🏢 الشركات الإسبانية</a>
+            <a href="/spain-law">⚖️ قانون النقل في إسبانيا</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+
+    <div class="story">
+
+        <img src="{{ asset('images/founder.jpg') }}" alt="محمد الدريوش">
+
+        <div>
+            <h2>محمد الدريوش — مؤسس Edriouche Truck Job</h2>
+
+            <p>
+                أنا محمد الدريوش، سائق مهني مغربي بدأت مسيرتي في عالم
+                الشاحنات سنة 1994. تعلمت المهنة من الطريق، ومن المسؤولية،
+                ومن أستاذي الأول في المهنة: والدي رحمه الله.
+            </p>
+
+            <p>
+                بعد سنوات من العمل في نقل المحروقات بالمغرب، انتقلت منذ
+                سنة 2020 إلى النقل الدولي بين المغرب وأوروبا.
+            </p>
+
+            <p>
+                اليوم أشارك خبرتي لمساعدة السائقين، وخاصة الشباب المغاربة،
+                على دخول عالم النقل المهني بطريقة صحيحة، بعيدًا عن السماسرة
+                والوعود الكاذبة.
+            </p>
+
+            <strong>من تجربة الطريق إلى خدمة السائق.</strong>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section">
+
+    <div class="father">
+
+        <img src="{{ asset('images/father.jpg') }}" alt="ذكرى والد محمد الدريوش">
+
+        <div>
+            <h2>🤲 ذكرى والدي رحمه الله</h2>
+
+            <p>
+                كان والدي من سائقي الجيل القديم في نقل المحروقات والغاز،
+                وكان أستاذي ومرشدي في المهنة. منه تعلمت احترام الطريق،
+                والسلامة، والمسؤولية والالتزام بالعمل.
+            </p>
+
+            <p>
+                رحل في حادثة سير سنة 2002، لكن ما علّمني إياه بقي معي
+                إلى اليوم.
+            </p>
+
+            <strong>أستاذي الأول في مهنة النقل والشاحنات.</strong>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section">
+
+    <div class="message">
+
+        <h2>🛡️ رسالة Edriouche Truck Job</h2>
+
+        <blockquote>
+            خلف كل شاحنة تصل إلى وجهتها، هناك إنسان ومسؤولية وعائلة تنتظر عودته سالمًا.
+        </blockquote>
+
+        <p>
+            هدفنا ليس فقط البحث عن وظيفة، بل مساعدة السائق على معرفة حقوقه،
+            الوصول إلى المعلومات الصحيحة، والتواصل مع الشركات بطريقة واضحة.
+        </p>
+
+        <p>
+            <strong>Edriouche Truck Job لا يطلب من السائق دفع أموال مقابل وعد بالتوظيف.</strong>
+        </p>
+
+        <p>
+            من المغرب إلى أوروبا… نريد أن يصل السائق بكرامته،
+            كما تصل شاحنته بسلام.
+        </p>
+
+        <div class="buttons" style="justify-content:center;">
+            <a class="btn" href="/jobs">🔎 ابدأ من عروض العمل</a>
+            <a class="btn secondary" href="/training">🎓 ابدأ من التكوين</a>
+        </div>
+
+    </div>
+
+</section>
 
 <footer>
-    Edriouche Truck Job © 2026
+
+    <strong>🚛 Edriouche Truck Job</strong>
+
+    <div class="footer-links">
+        <a href="/">الرئيسية</a>
+        <a href="/jobs">عروض العمل</a>
+        <a href="/companies">شركات النقل</a>
+        <a href="/training">التكوين</a>
+        <a href="/spain-jobs">إسبانيا</a>
+        <a href="/cmr">CMR</a>
+    </div>
+
+    <div>السائق المحترف يستحق الاحترام.</div>
+    <div>© 2026 Edriouche Truck Job</div>
+
 </footer>
 
 </body>
