@@ -120,52 +120,6 @@
 
     <div class="companies">
 
-        @foreach($companies as $company)
-
-            <div class="company">
-
-                <h2>🏢 {{ $company->name }}</h2>
-
-                @if($company->verified)
-                    <div class="verified">✅ تم التحقق</div>
-                @endif
-
-                @if($company->city)
-                    <p>📍 {{ $company->city }}</p>
-                @endif
-
-                @if($company->country)
-                    <p>🌍 {{ $company->country }}</p>
-                @endif
-
-                @if($company->phone)
-                    <p>📞 {{ $company->phone }}</p>
-                @endif
-
-                @if($company->email)
-                    <p>📧 {{ $company->email }}</p>
-                @endif
-
-                <div class="links">
-
-                    @if($company->website)
-                        <a href="{{ $company->website }}" target="_blank">
-                            🌐 موقع الشركة
-                        </a>
-                    @endif
-
-                    @if($company->job_link)
-                        <a href="{{ $company->job_link }}" target="_blank">
-                            💼 فرص العمل
-                        </a>
-                    @endif
-
-                </div>
-
-            </div>
-
-        @endforeach
-
     </div>
 
 </div>
