@@ -9,6 +9,74 @@
 .links a:active{transform:scale(.97);}
 @media(max-width:600px){.links a{flex:1 1 100%;}}
     </style>
+
+<style>
+body{
+    font-size:18px;
+}
+.container{
+    font-size:18px;
+}
+.company{
+    font-size:18px;
+}
+.company h3{
+    font-size:21px;
+    line-height:1.5;
+    margin-bottom:10px;
+}
+.company .meta{
+    font-size:18px;
+    line-height:1.9;
+}
+.company .badge{
+    font-size:16px;
+}
+.company .actions a,
+.links a{
+    font-size:17px;
+}
+#companies p,
+section p{
+    font-size:18px;
+    line-height:2;
+}
+section h2{
+    font-size:26px;
+    line-height:1.6;
+}
+section h3{
+    font-size:21px;
+    line-height:1.6;
+}
+.note{
+    font-size:18px;
+    line-height:2;
+}
+@media(max-width:600px){
+    body,
+    .container{
+        font-size:18px;
+    }
+    .company h3{
+        font-size:20px;
+    }
+    .company .meta,
+    #companies p,
+    section p,
+    .note{
+        font-size:18px;
+        line-height:2;
+    }
+    section h2{
+        font-size:24px;
+    }
+    section h3{
+        font-size:20px;
+    }
+}
+</style>
+
 </head>
 
 <body>
