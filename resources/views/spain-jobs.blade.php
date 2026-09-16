@@ -22,6 +22,7 @@ footer{text-align:center;padding:25px;color:#666}
 </head>
 
 <body>
+@include("partials.language-switcher")
 <div class="container">
 
 <div class="hero">
