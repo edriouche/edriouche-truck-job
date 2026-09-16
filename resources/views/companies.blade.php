@@ -31,33 +31,181 @@
     >
     
     <div id="companies">
-        <h2>🚛 شركات النقل</h2>
+<h2>🚛 شركات النقل المغربية</h2>
+<p class="directory-intro">دليل عملي لشركات النقل واللوجستيك المغربية. اضغط على الموقع الرسمي للتحقق من معلومات الشركة وفرص العمل المتاحة.</p>
+<div class="grid">
+<article class="company">
+<h3>🚛 FTA LOGISTICS</h3>
+<span class="badge">🇲🇦 طنجة</span>
+<p class="meta">نقل دولي ونقل بري ولوجستيك</p>
+<div class="actions">
+<a href="https://www.fta.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 FSR – Fret Service Rood</h3>
+<span class="badge">🇲🇦 طنجة</span>
+<p class="meta">نقل بري وطني ودولي ولوجستيك ونقل بحري</p>
+<div class="actions">
+<a href="https://www.fsr.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 TDL LOGISTICS</h3>
+<span class="badge">🇲🇦 الدار البيضاء</span>
+<p class="meta">نقل بري للبضائع وتوزيع وطني</p>
+<div class="actions">
+<a href="https://tdl.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 SLINE</h3>
+<span class="badge">🇲🇦 الدار البيضاء</span>
+<p class="meta">نقل بري FTL/LTL ونقل مبرد وADR ومسارات المغرب–أوروبا</p>
+<div class="actions">
+<a href="https://www.sline.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 IRONLOG</h3>
+<span class="badge">🇲🇦 طنجة</span>
+<p class="meta">نقل وطني ودولي بري ولوجستيك</p>
+<div class="actions">
+<a href="https://www.ironlog.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 TRANSUNIVERS</h3>
+<span class="badge">🇲🇦 طنجة / الدار البيضاء</span>
+<p class="meta">نقل وطني ودولي ولوجستيك</p>
+<div class="actions">
+<a href="https://www.transunivers.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 LOGIC TRANSPORT</h3>
+<span class="badge">🇲🇦 المغرب</span>
+<p class="meta">نقل بري وترانزيت وخدمات لوجستية</p>
+<div class="actions">
+<a href="https://www.logictransport.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 LIFEROAD LOGITRANS</h3>
+<span class="badge">🇲🇦 طنجة</span>
+<p class="meta">نقل بري دولي المغرب–أوروبا</p>
+<div class="actions">
+<a href="https://liferoadlogitrans.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 MA LOGISTICS</h3>
+<span class="badge">🇲🇦 المغرب</span>
+<p class="meta">نقل بري دولي ولوجستيك</p>
+<div class="actions">
+<a href="https://www.malogistics.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 M2TC</h3>
+<span class="badge">🇲🇦 المغرب</span>
+<p class="meta">نقل بري وبحري وجوي ونقل استثنائي</p>
+<div class="actions">
+<a href="https://m2tc.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 TRANSLOAD</h3>
+<span class="badge">🇲🇦 المغرب</span>
+<p class="meta">نقل بري وخدمات لوجستية</p>
+<div class="actions">
+<a href="https://www.transload.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 MABYA</h3>
+<span class="badge">🇲🇦 المغرب / أوروبا</span>
+<p class="meta">مجموعة نقل وعمليات نقل وطني ودولي</p>
+<div class="actions">
+<a href="https://mabya.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 TRANSINES</h3>
+<span class="badge">🇲🇦 الدار البيضاء</span>
+<p class="meta">ترانزيت ونقل وتسليم للبضائع</p>
+<div class="actions">
+<a href="https://transines.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 SNTC</h3>
+<span class="badge">🇲🇦 أكادير / الدار البيضاء / طنجة</span>
+<p class="meta">ترانزيت ونقل دولي ولوجستيك</p>
+<div class="actions">
+<a href="https://sntctransit.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 CHRONO TRUCK</h3>
+<span class="badge">🇲🇦 المغرب</span>
+<p class="meta">نقل دولي بري وبحري وجوي</p>
+<div class="actions">
+<a href="https://chronotruck.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 ENERGICO TRAVAUX & TRANSPORT</h3>
+<span class="badge">🇲🇦 طنجة</span>
+<p class="meta">نقل مهني ونقل حاويات</p>
+<div class="actions">
+<a href="https://energico.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 M&M RAG TRANS</h3>
+<span class="badge">🇲🇦 الدار البيضاء / طنجة</span>
+<p class="meta">لوجستيك دولي وشحن ونقل وترانزيت</p>
+<div class="actions">
+<a href="https://mmragtrans.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 FWM TRANSIT</h3>
+<span class="badge">🇲🇦 طنجة</span>
+<p class="meta">ترانزيت ونقل دولي ونقل بري</p>
+<div class="actions">
+<a href="https://fwmtransit.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 AFRICA LOGISTICS PARTNER</h3>
+<span class="badge">🇲🇦 الدار البيضاء / طنجة</span>
+<p class="meta">نقل بري وخدمات لوجستية وطنية ودولية</p>
+<div class="actions">
+<a href="https://www.alp.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+<article class="company">
+<h3>🚛 TRANSIT EL MAROIZY</h3>
+<span class="badge">🇲🇦 الدار البيضاء</span>
+<p class="meta">ترانزيت ونقل بري وبحري وجوي</p>
+<div class="actions">
+<a href="https://elmaroizygroupe.ma" target="_blank" rel="noopener">🌐 الموقع الرسمي</a>
+</div>
+</article>
+</div>
+</div>
 
-        <div class="company">
-            <h3>TotalEnergies</h3>
-            <p>نقل وتوزيع منتجات الطاقة والوقود.</p>
-        </div>
+<div class="note">
+<strong>🛡️ مهم للسائق:</strong>
+وجود الشركة في هذا الدليل لا يعني وجود وظيفة شاغرة حاليًا.
+تحقق دائمًا من الموقع الرسمي أو قسم التوظيف قبل إرسال CV أو وثائق شخصية.
+لا تدفع المال لأي وسيط مقابل وعد بالتوظيف.
+</div>
 
-        <div class="company">
-            <h3>Shell</h3>
-            <p>شركة عالمية في مجال الطاقة والوقود والنقل اللوجستي.</p>
-        </div>
-
-        <div class="company">
-            <h3>Ola</h3>
-            <p>شركة مرتبطة بقطاع النقل واللوجستيك.</p>
-        </div>
-
-        <div class="company">
-            <h3>شركات النقل واللوجستيك</h3>
-            <p>ابحث دائمًا عن الشركة الرسمية ومعلومات التوظيف الرسمية قبل إرسال أي وثائق.</p>
-        </div>
-    </div>
-
-
-    <div class="companies">
-
-    </div>
+<div class="companies">
+</div>
 
 </div>
 
