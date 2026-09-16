@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}" dir="{{ app()->getLocale() === "ar" ? "rtl" : "ltr" }}">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,13 +51,11 @@
         }
 
         .brand {
-            display: flex; align-items: center; gap: 8px;
             font-size: 22px;
             font-weight: 800;
             color: #0b3a68;
         }
 
-        .brand img { width: 42px; height: 42px; object-fit: cover; border-radius: 8px; }
         .brand span { color: #f59e0b; }
 
         .languages {
@@ -353,7 +351,7 @@
 
 <header>
     <div class="nav">
-        <a class="brand" href="/"><img src="{{ asset('images/truck-volvo-fh-tanker-2022.jpg') }}" alt="Truck"> Edriouche <span>Truck Job</span></a>
+        <a class="brand" href="/">🚛 Edriouche <span>Truck Job</span></a>
 
         <div class="languages">
             <a href="/lang/ar">🇲🇦 العربية</a>
@@ -365,52 +363,36 @@
 
 <section class="hero">
     <div class="hero-inner">
+
         <div>
-            @if(app()->getLocale() === "es")
-                <h1>Del <span>camino</span> al servicio del conductor</h1>
-                <p>Plataforma creada por un conductor profesional para ayudar a los conductores, especialmente a los jóvenes marroquíes, a encontrar oportunidades de trabajo e información profesional en el transporte por carretera, lejos de intermediarios y falsas promesas.</p>
-                <div class="buttons">
-                    <a class="btn" href="/jobs">🔎 Ofertas de trabajo</a>
-                    <a class="btn secondary" href="/companies">🏢 Empresas de transporte</a>
-                    <a class="btn secondary" href="/spain-jobs">🇪🇸 Trabajo en España</a>
-                </div>
-            @elseif(app()->getLocale() === "fr")
-                <h1>De la <span>route</span> au service du conducteur</h1>
-                <p>Une plateforme créée par un conducteur professionnel pour aider les conducteurs, notamment les jeunes Marocains, à accéder aux opportunités d’emploi et aux informations professionnelles dans le transport routier, loin des intermédiaires et des fausses promesses.</p>
-                <div class="buttons">
-                    <a class="btn" href="/jobs">🔎 Offres d’emploi</a>
-                    <a class="btn secondary" href="/companies">🏢 Entreprises de transport</a>
-                    <a class="btn secondary" href="/spain-jobs">🇪🇸 Travail en Espagne</a>
-                </div>
-            @else
-                <h1>من <span>الطريق</span> إلى خدمة السائق</h1>
-                <p>منصة أنشأها سائق مهني لمساعدة السائقين، وخاصة الشباب المغاربة، على الوصول إلى فرص العمل والمعلومات المهنية في النقل الطرقي، بعيدًا عن السماسرة والوعود الكاذبة.</p>
-                <div class="buttons">
-                    <a class="btn" href="/jobs">🔎 عروض العمل</a>
-                    <a class="btn secondary" href="/companies">🏢 شركات النقل</a>
-                    <a class="btn secondary" href="/spain-jobs">🇪🇸 العمل في إسبانيا</a>
-                </div>
-            @endif
+            <h1>من <span>الطريق</span> إلى خدمة السائق</h1>
+
+            <p>
+                منصة أنشأها سائق مهني لمساعدة السائقين،
+                وخاصة الشباب المغاربة، على الوصول إلى فرص العمل
+                والمعلومات المهنية في النقل الطرقي، بعيدًا عن السماسرة
+                والوعود الكاذبة.
+            </p>
+
+            <div class="buttons">
+                <a class="btn" href="/jobs">🔎 عروض العمل</a>
+                <a class="btn secondary" href="/companies">🏢 شركات النقل</a>
+                <a class="btn secondary" href="/spain-jobs">🇪🇸 العمل في إسبانيا</a>
+            </div>
         </div>
+
         <div class="hero-photo">
-            <img src="{{ asset('images/founder.jpg').'?v=2' }}" alt="محمد الدريوش مؤسس Edriouche Truck Job">
+            <img src="{{ asset('images/founder.jpg') }}" alt="محمد الدريوش مؤسس Edriouche Truck Job">
         </div>
+
     </div>
 </section>
 
 <section class="section">
 
     <div class="section-title">
-        @if(app()->getLocale() === "es")
-            <h2>🚛 Servicios para conductores profesionales</h2>
-            <p>Herramientas e información para ayudarte en tu carrera profesional.</p>
-        @elseif(app()->getLocale() === "fr")
-            <h2>🚛 Services pour conducteurs professionnels</h2>
-            <p>Outils et informations pour vous accompagner dans votre parcours professionnel.</p>
-        @else
-            <h2>🚛 خدمات السائق المهني</h2>
-            <p>أدوات ومعلومات تساعدك في مسيرتك المهنية.</p>
-        @endif
+        <h2>🚛 خدمات السائق المهني</h2>
+        <p>أدوات ومعلومات تساعدك في مسيرتك المهنية</p>
     </div>
 
     <div class="cards">
@@ -478,45 +460,17 @@
             <a href="/europe-rules">القواعد ←</a>
         </div>
 
-
-<section class="section">
-
-<section class="section">
-    <div class="section-title">
-        @if(app()->getLocale() === "es")
-            <h2>🚛 Servicios para conductores profesionales</h2>
-            <p>Herramientas e información para ayudarte en tu carrera profesional.</p>
-        @elseif(app()->getLocale() === "fr")
-            <h2>🚛 Services pour conducteurs professionnels</h2>
-            <p>Outils et informations pour vous accompagner dans votre parcours professionnel.</p>
-        @else
-            <h2>🚛 خدمات السائق المهني</h2>
-            <p>أدوات ومعلومات تساعدك في مسيرتك المهنية.</p>
-        @endif
-    </div>
-    <div class="cards">
-        <div class="card"><img src="{{ asset('images/truck-volvo-f88-1970.jpg') }}" alt="Volvo F88 1970" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>1970 — Volvo F88</h3><p>شاحنة من جيل السبعينيات، عُرفت بالقوة والبساطة ومثّلت مرحلة مهمة في تطور النقل الثقيل.</p></div>
-        <div class="card"><img src="{{ asset('images/truck-volvo-f10.jpg') }}" alt="Volvo F10" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>الثمانينيات — Volvo F10</h3><p>من شاحنات الثمانينيات، جمعت بين قوة المحرك وتحسين راحة السائق في الرحلات الطويلة.</p></div>
-        <div class="card"><img src="{{ asset('images/truck-volvo-fh-1993.jpg') }}" alt="Volvo FH 1993" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>1993 — Volvo FH</h3><p>ظهر عام 1993، وبدأ معه جيل جديد من Volvo FH مع تطور واضح في الأداء والراحة والسلامة.</p></div>
-        <div class="card"><img src="{{ asset('images/truck-volvo-fh-tanker-2009.jpg') }}" alt="Volvo FH 400 مع ناقلة صهريجية 2009" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>2009 — Volvo FH 400 ومقطورة صهريجية</h3><p>شاحنة مهيأة للنقل الدولي، ومعها أصبحت المقطورات الصهريجية جزءًا مهمًا من نقل المحروقات لمسافات طويلة.</p></div>
-        <div class="card"><img src="{{ asset('images/truck-volvo-fh-tanker-2022.jpg') }}" alt="Volvo FH 460 مع مقطورة صهريجية 2022" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>2022–اليوم — Volvo FH مع مقطورة صهريجية</h3><p>جيل حديث يجمع بين الراحة والتكنولوجيا والسلامة، ويخدم النقل الدولي مع المقطورات الصهريجية.</p></div>
     </div>
 </section>
 
+<section class="section">
+
     <div class="spain">
 
-    <div class="section-title">
-        @if(app()->getLocale() === "es")
-            <h2>🚛 Servicios para conductores profesionales</h2>
-            <p>Herramientas e información para ayudarte en tu carrera profesional.</p>
-        @elseif(app()->getLocale() === "fr")
-            <h2>🚛 Services pour conducteurs professionnels</h2>
-            <p>Outils et informations pour vous accompagner dans votre parcours professionnel.</p>
-        @else
-            <h2>🚛 خدمات السائق المهني</h2>
-            <p>أدوات ومعلومات تساعدك في مسيرتك المهنية.</p>
-        @endif
-    </div>
+        <div class="section-title">
+            <h2>🇪🇸 العمل في إسبانيا</h2>
+            <p>قسم خاص بالسائقين الراغبين في فهم الطريق المهني نحو إسبانيا</p>
+        </div>
 
         <div class="spain-grid">
             <a href="/spain-jobs">🇪🇸 عروض العمل في إسبانيا</a>
@@ -531,7 +485,7 @@
 
     <div class="story">
 
-        <img src="{{ asset('images/founder.jpg').'?v=2' }}" alt="محمد الدريوش">
+        <img src="{{ asset('images/founder.jpg') }}" alt="محمد الدريوش">
 
         <div>
             <h2>محمد الدريوش — مؤسس Edriouche Truck Job</h2>
