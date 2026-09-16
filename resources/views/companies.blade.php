@@ -8,7 +8,22 @@
 .links a:hover{transform:translateY(-2px);box-shadow:0 7px 16px rgba(0,0,0,.22);filter:brightness(1.08);}
 .links a:active{transform:scale(.97);}
 @media(max-width:600px){.links a{flex:1 1 100%;}}
-    </style>
+    
+/* Companies page readability improvement */
+body{font-size:18px;line-height:1.7}
+h1{font-size:clamp(28px,5vw,38px)}
+h2{font-size:clamp(24px,4vw,32px)}
+h3{font-size:clamp(21px,3.5vw,27px)}
+p{font-size:18px;line-height:1.8}
+.links a{font-size:18px;min-height:52px;padding:12px 18px}
+input,button{font-size:18px}
+@media(max-width:600px){
+body{font-size:17px}
+p{font-size:17px;line-height:1.75}
+.links a{font-size:18px;min-height:54px}
+}
+
+</style>
 
 <style>
 body{
@@ -342,6 +357,21 @@ function searchCompanies() {
     });
 }
 </script>
+
+
+<style id="companies-readability">
+body{font-size:18px!important;line-height:1.7!important}
+p{font-size:18px!important;line-height:1.8!important}
+h1{font-size:clamp(28px,5vw,38px)!important}
+h2{font-size:clamp(24px,4vw,32px)!important}
+h3{font-size:clamp(21px,3.5vw,27px)!important}
+.links a{font-size:18px!important;min-height:52px!important;padding:12px 18px!important}
+@media(max-width:600px){
+body{font-size:17px!important}
+p{font-size:17px!important;line-height:1.75!important}
+.links a{font-size:18px!important;min-height:54px!important}
+}
+</style>
 
 </body>
 </html>
