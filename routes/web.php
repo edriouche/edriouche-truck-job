@@ -11,9 +11,8 @@ Route::get('/jobs', function () {
 });
 
 Route::get('/companies', function () {
-    $companies = \App\Models\Company::all();
 
-    return view('companies', compact('companies'));
+    return view('companies');
 });
 
 Route::get('/cmr', function () { return view('cmr'); });
