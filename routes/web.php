@@ -50,6 +50,9 @@ Route::get('/europe-rules', function () {
     return view('europe-rules');
 });
 
+Route::view('/europe-rules-es', 'europe-rules-es');
+Route::view('/europe-rules-fr', 'europe-rules-fr');
+
 Route::get('/tachograph-guide', function () {
     return view('tachograph-guide');
 });
