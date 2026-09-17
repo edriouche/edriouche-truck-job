@@ -1,21 +1,67 @@
-@include("partials.language-switcher")
-<!DOCTYPE html><html lang="fr" dir="ltr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Règles de conduite, repos, temps de travail et tachygraphe en Europe | Edriouche Truck Job</title><style>body{font-family:Arial,sans-serif;background:#eef3f7;margin:0;padding:20px;color:#222}.container{max-width:950px;margin:auto;background:#fff;padding:25px;border-radius:20px}h1{text-align:center;color:#123b5d;line-height:1.6}h2{color:#0b6b68;margin-top:30px}.card{background:#f7f9fc;padding:20px;margin:15px 0;border-radius:15px;line-height:2}.example{background:#eef8f5;padding:18px;margin:15px 0;border-left:5px solid #0b6b68;border-radius:12px;line-height:2}.warning{background:#fff4d6;padding:20px;border-radius:15px;margin-top:25px;line-height:2}.danger{background:#ffe9e9;padding:20px;border-radius:15px;margin-top:20px;line-height:2}.table{width:100%;border-collapse:collapse;margin-top:15px}.table th,.table td{border:1px solid #ddd;padding:12px;text-align:left;line-height:1.8}.table th{background:#e9f0f5}.footer{text-align:center;margin-top:30px;font-weight:bold;line-height:2}</style></head><body><div class="container">
-<h1>🇪🇺 Règles de conduite, repos, temps de travail et tachygraphe en Europe</h1>
-<p style="text-align:center;line-height:2;font-size:17px">Guide pratique pour le conducteur professionnel marocain afin de comprendre la différence entre temps de conduite, temps de travail, pauses et repos quotidiens et hebdomadaires.</p>
-<div class="warning"><strong>⚠️ Note importante:</strong><br>Las règles de conduite y repos no significan que el conducteur pueda conducir durante todo el tiempo de travail. Existen règles independientes para la conduite, el tiempo de travail, las pauses y los reposs. Siempre deben respetarse las normas nacionales o los convenios colectivos más protectores cuando sean aplicables.</div>
-<div class="card"><h2>🚛 1. Limite maximal de conduite quotidienne</h2><p>La conduite quotidienne normale ne doit pas dépasser <strong>9 heures</strong>. Puede ampliarse a <strong>10 heures dos veces por semaine</strong>.</p><div class="example">📌 <strong>Exemple :</strong><br>Si conduces 4 heures y después haces una pause de 45 minutos, puedes continuar conduciendo. Sin embargo, el total de conduite de ese día sigue sujeto a los límites diarios y semaineles.</div></div>
-<div class="card"><h2>📅 2. Limite hebdomadaire et sur deux semaines</h2><p>El límite máximo de conduite es de <strong>56 heures en una semaine</strong>. No se pueden superar <strong>90 heures durante dos semaines consecutivas</strong>.</p><table class="table"><tr><th>Periodo</th><th>Límite máximo</th></tr><tr><td>Un día</td><td>9 heures; 10 heures dos veces por semaine</td></tr><tr><td>Una semaine</td><td>56 heures</td></tr><tr><td>Dos semaines consecutivas</td><td>90 heures</td></tr></table></div>
-<div class="card"><h2>☕ 3. Pause après la conduite</h2><p>Después de un máximo de <strong>4 heures y 30 minutos de conduite</strong> debe hacerse una pause de al menos <strong>45 minutos</strong>, salvo que comience un periodo de repos.</p><p>La pause de 45 minutos puede dividirse en <strong>15 minutos + 30 minutos</strong>.</p><div class="example">📌 <strong>Exemple :</strong><br>Conducción 4:30 → pause 45 minutos → continuar conduciendo.<br><br>📌 <strong>División:</strong><br>Conducción → pause 15 minutos → conduite → pause 30 minutos.</div></div>
-<div class="card"><h2>🛏️ 4. Repos quotidien</h2><p>Durante cada periodo de 24 heures desde el inicio del servicio debe obtenerse el repos diario requerido. El repos diario normal es de al menos <strong>11 heures</strong>.</p><p>Puede dividirse en <strong>3 heures + 9 heures = 12 heures</strong>.</p><p>También puede utilizarse un repos diario reducido de <strong>9 heures</strong>, como máximo tres veces entre dos periodos de repos semainel.</p><div class="example">📌 <strong>Exemple :</strong><br>Cuando termina tu jornada y comienza el repos diario, debes organizar el tiempo suficiente para obtener el repos requerido antes de iniciar el siguiente periodo de travail.</div></div>
-<div class="card"><h2>📆 5. Repos hebdomadaire</h2><p>El repos semainel normal es de al menos <strong>45 heures consecutivas</strong>. En los casos permitidos puede reducirse a <strong>24 heures</strong> como mínimo, con la compensación correspondiente.</p><p>En general, el siguiente repos semainel debe comenzar antes de que hayan transcurrido <strong>seis periodos consecutivos de 24 heures</strong> desde el final del repos semainel anterior.</p><div class="example">📌 <strong>Exemple :</strong><br>Después del repos semainel anterior, el conducteur no puede continuar indefinidamente; debe organizar el siguiente repos dentro del periodo légal.</div></div>
-<div class="card"><h2>🏨 6. Repos hebdomadaire de 45 heures dentro del camion</h2><p>El repos semainel normal de <strong>45 heures o más</strong> no puede realizarse dentro de la cabine del camion. Debe proporcionarse un alojamiento adecuado.</p><p>Algunos reposs diarios o reposs semaineles reducidos pueden realizarse en el vehículo cuando se cumplen las condiciones légales y el camion está estacionado.</p></div>
-<div class="card"><h2>👷 7. Quelle est la différence entre temps de conduite et temps de travail ?</h2><p><strong>El tiempo de conduite no es lo mismo que el tiempo de travail.</strong></p><p>El tiempo de travail puede incluir, según el caso:</p><ul style="line-height:2.2"><li>🚛 Conducción del camion.</li><li>📦 Carga y deschargement de marchandises.</li><li>🔧 Determinados travails de mantenimiento y tareas técnicas.</li><li>📋 Supervisión de la chargement y deschargement.</li><li>📝 Determinados procedimientos administrativos relacionados con el transporte.</li></ul><div class="example">📌 <strong>Exemple pratique :</strong><br>Si empiezas a trabajar a las 08:00, conduces 4 heures, después pasas 2 heures chargementndo y deschargementndo y luego conduces otras 2 heures, tu jornada de travail no son solo 6 heures. La chargement y deschargement forman parte del tiempo de travail, mientras que el cálculo del tiempo de conduite es independiente.</div></div>
-<div class="card"><h2>⏰ 8. Limite maximal du temps de travail</h2><p>El tiempo medio de travail no debe superar <strong>48 heures por semaine</strong>. Puede llegar a <strong>60 heures en una semaine</strong> si el promedio se mantiene en 48 heures o menos durante el periodo de referencia aplicable; la regla europea general utiliza un periodo de referencia de 4 meses.</p><p>Por ello, la regla de 60 heures semaineles no significa que se pueda trabajar 60 heures todas las semaines de forma continua.</p></div>
-<div class="card"><h2>☕ 9. Pauses du temps de travail</h2><p>También existen règles específicas para las pauses del <strong>tiempo de travail</strong>, que no son lo mismo que la pause de 45 minutos relacionada con la conduite.</p><p>Según las règles europeas sobre tiempo de travail, no se debería trabajar más de <strong>6 heures consecutivas sin una pause</strong>. Existen règles adicionales sobre la duración de las pauses según las heures trabajadas y deben tenerse en cuenta las normas nacionales y los convenios colectivos aplicables.</p><div class="example">📌 <strong>Important :</strong><br>La pause de 45 minutos después de 4 heures y 30 minutos de conduite no debe confundirse con todas las règles sobre pauses del tiempo de travail.</div></div>
-<div class="card"><h2>🌙 10. Travail de nuit</h2><p>Cuando el conducteur realiza travail nocturno existen límites específicos sobre el tiempo de travail. La regla europea general establece que el travail no debe superar <strong>10 heures en cualquier periodo de 24 heures</strong> cuando existe travail nocturno, teniendo en cuenta las normas nacionales y su aplicación légal.</p></div>
-<div class="card"><h2>👥 11. Conduite à deux conducteurs</h2><p>Cuando hay dos o más conducteures en el vehículo conforme a las condiciones de conduite en equipo (<strong>multi-manning</strong>), existen règles especiales que pueden permitir organizar el repos diario dentro de un periodo superior a 24 heures.</p><p>Esta regla solo debe aplicarse cuando se cumplen las condiciones légales de conduite en equipo.</p></div>
-<div class="card"><h2>⛴️ 12. Ferry ou train</h2><p>Existen règles especiales cuando el camion es transportado en ferry o tren. En determinados casos pueden permitir interrupciones de algunos periodos de repos bajo condiciones específicas, incluida la disponibilidad de un lugar adecuado para dormir.</p><p>Es una situación especial y no significa que el conducteur pueda interrumpir el repos cuando quiera.</p></div>
-<div class="card"><h2>⏱️ 13. Tachygraphe</h2><p>El tacógrafo registra la conduite, las pauses, los reposs, el travail y los periodos de disponibilidad. El conducteur debe utilizarlo correctamente y registrar la actividad correspondiente.</p><ul style="line-height:2.2"><li>🚛 Conducción.</li><li>🔨 Otro travail.</li><li>☕ Pausa.</li><li>🛏️ Descanso.</li><li>⏳ Periodos de disponibilidad cuando corresponda.</li></ul><p>Con un tacógrafo digital, el conducteur debe utilizar su tarjeta personal antes de conducir y no prestarla a otro conducteur.</p></div>
-<div class="danger"><h2>🚨 14. Erreurs graves à éviter</h2><ul style="line-height:2.2"><li>❌ Conducir después de superar el límite légal.</li><li>❌ Olvidar la pause de 45 minutos después de 4 heures y 30 minutos de conduite.</li><li>❌ Registrar una actividad incorrecta en el tacógrafo.</li><li>❌ Utilizar la tarjeta de conducteur de otra persona.</li><li>❌ Considerar automáticamente la chargement y deschargement como repos.</li><li>❌ Considerar las 60 heures semaineles como un derecho fijo cada semaine.</li><li>❌ Pasar el repos semainel normal de 45 heures dentro de la cabine.</li></ul></div>
-<div class="card"><h2>🇲🇦 15. Conseil au conducteur marocain</h2><p>Antes de trabajar con una entreprise europea, aprende bien estas règles y pregunta a la entreprise cómo organiza el travail, la conduite, los reposs y el tacógrafo.</p><p>No dependas de frases como: «Todos los conducteures lo hacen». La loi es la referencia, y la entreprise y el conducteur tienen responsabilidades según las normas aplicables.</p><p>También debes diferenciar entre: <strong>permiso de conducir + cualificación profesional + carte de tachygraphe + droit de travailler et de résider</strong>. Tener un solo document no sustituye a los demás documents o requisitos.</p></div>
-</div><div class="footer">Edriouche Truck Job — El conocimiento protege al conducteur y le ayuda a trabajar de forma légal y segura.</div></body></html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Règles européennes pour les conducteurs professionnels</title>
+<style>
+body{font-family:Arial,sans-serif;line-height:1.7;max-width:900px;margin:auto;padding:20px;background:#f5f7fa;color:#222}
+.card{background:white;padding:22px;margin:15px 0;border-radius:12px;box-shadow:0 2px 8px #ddd}
+h1{color:#0b4f9c}h2{color:#174a7e}
+</style>
+</head>
+<body>
+@include('partials.language-switcher')
+
+<h1>Règles européennes pour les conducteurs professionnels</h1>
+<p>Guide pratique pour les conducteurs routiers qui travaillent ou souhaitent travailler en Europe.</p>
+
+<div class="card"><h2>1. Durée maximale de conduite quotidienne</h2>
+<p>La durée maximale de conduite quotidienne est de 9 heures. Elle peut être portée à 10 heures au maximum deux fois par semaine.</p></div>
+
+<div class="card"><h2>2. Durée de conduite hebdomadaire</h2>
+<p>La durée maximale hebdomadaire est de 56 heures. Sur deux semaines consécutives, la durée totale ne doit pas dépasser 90 heures.</p></div>
+
+<div class="card"><h2>3. Pause de conduite</h2>
+<p>Après un maximum de 4 heures et 30 minutes de conduite, le conducteur doit prendre une pause de 45 minutes. Elle peut être fractionnée en 15 minutes + 30 minutes.</p></div>
+
+<div class="card"><h2>4. Repos quotidien</h2>
+<p>Le repos quotidien normal est de 11 heures. Il peut être fractionné en 3 + 9 heures. Le repos réduit à 9 heures est limité entre les périodes de repos hebdomadaire.</p></div>
+
+<div class="card"><h2>5. Repos hebdomadaire</h2>
+<p>Le repos hebdomadaire normal est de 45 heures. Dans certaines conditions, il peut être réduit à 24 heures, avec la compensation correspondante.</p></div>
+
+<div class="card"><h2>6. Repos dans la cabine</h2>
+<p>Un repos hebdomadaire normal de 45 heures ou plus ne doit pas être pris dans la cabine du véhicule. Certains repos quotidiens et repos hebdomadaires réduits peuvent être pris dans le véhicule lorsque les conditions légales sont respectées.</p></div>
+
+<div class="card"><h2>7. Temps de conduite et temps de travail</h2>
+<p>Le temps de travail peut comprendre le chargement et le déchargement, l'entretien, les travaux techniques, la surveillance et certaines tâches administratives. Il ne faut pas le confondre avec le temps de conduite.</p></div>
+
+<div class="card"><h2>8. Temps de travail hebdomadaire</h2>
+<p>La durée moyenne du travail est de 48 heures par semaine. Elle peut atteindre 60 heures au cours d'une semaine si la moyenne sur la période de référence applicable ne dépasse pas 48 heures.</p></div>
+
+<div class="card"><h2>9. Pauses pendant le travail</h2>
+<p>Les pauses liées au temps de travail sont différentes de la pause de conduite de 45 minutes. Les règles précises dépendent également de la législation nationale et des conventions applicables.</p></div>
+
+<div class="card"><h2>10. Travail de nuit</h2>
+<p>Lorsque le travail de nuit est effectué, des limites spécifiques du temps de travail sur une période de 24 heures peuvent s'appliquer, conformément aux règles européennes et nationales en vigueur.</p></div>
+
+<div class="card"><h2>11. Conduite en équipage</h2>
+<p>La conduite avec plusieurs conducteurs est soumise à des règles particulières concernant les périodes de repos et l'organisation du travail.</p></div>
+
+<div class="card"><h2>12. Ferry et train</h2>
+<p>Des règles particulières peuvent s'appliquer à certains repos pendant les trajets en ferry ou en train, lorsque les conditions prévues par la réglementation sont respectées.</p></div>
+
+<div class="card"><h2>13. Tachygraphe</h2>
+<p>Le tachygraphe enregistre la conduite, les pauses, les repos, le travail et la disponibilité. Le conducteur doit utiliser sa propre carte de conducteur et ne jamais la prêter à une autre personne.</p></div>
+
+<div class="card"><h2>14. Erreurs graves à éviter</h2>
+<p>Ne pas dépasser les limites de conduite, ne pas manipuler le tachygraphe, respecter les périodes de repos et conserver correctement les documents professionnels.</p></div>
+
+<div class="card"><h2>15. Conseil au conducteur marocain</h2>
+<p>Pour travailler légalement en Europe, il faut distinguer le permis de conduire, la qualification professionnelle, la carte de tachygraphe et le droit légal de travailler et de résider.</p></div>
+
+<div class="card"><p><strong>Important :</strong> cette page est informative. Le conducteur doit toujours vérifier la réglementation européenne et nationale en vigueur selon sa situation.</p></div>
+
+</body>
+</html>
