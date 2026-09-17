@@ -4,7 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edriouche Truck Job</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PJJ9CPZRBW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag("js", new Date());
+      gtag("config", "G-PJJ9CPZRBW");
+    </script>
+<title>Edriouche Truck Job</title>
     <meta name="description" content="Edriouche Truck Job - فرص العمل والمعلومات المهنية للسائقين من المغرب إلى أوروبا.">
 
     <style>
