@@ -11,7 +11,11 @@ h1{color:#0b4f9c}h2{color:#174a7e}
 </style>
 </head>
 <body>
-@include('partials.language-switcher')
+<nav style="text-align:center;margin-bottom:25px;font-size:18px;">
+<a href="/europe-rules">🇲🇦 العربية</a> |
+<a href="/europe-rules-es">🇪🇸 Español</a> |
+<a href="/europe-rules-fr">🇫🇷 Français</a>
+</nav>
 
 <h1>Reglas europeas para conductores profesionales</h1>
 <p>Guía práctica para conductores de camión que trabajan o desean trabajar en Europa.</p>
