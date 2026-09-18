@@ -80,7 +80,7 @@ Route::get('/lang/{locale}', function ($locale) {
         cookie()->queue('locale', $locale, 60 * 24 * 365);
     }
 
-    return redirect('/spain-law');
+    return redirect(request()->query('redirect', '/'));
 });
 Route::view('/cmr-es', 'cmr-es');
 Route::view('/cmr-fr', 'cmr-fr');
