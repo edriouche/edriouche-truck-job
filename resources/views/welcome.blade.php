@@ -198,8 +198,21 @@
         }
 
         .card a {
-            color: #0b3a68;
+            display: block;
+            margin-top: 10px;
+            padding: 11px 14px;
+            border-radius: 10px;
+            background: #0b3a68;
+            color: #fff;
             font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+            transition: .2s;
+        }
+
+        .card a:hover {
+            background: #f59e0b;
+            color: #172033;
         }
 
         .spain {
@@ -378,30 +391,15 @@
             @if(app()->getLocale() === "es")
                 <h1>Del <span>camino</span> al servicio del conductor</h1>
                 <p>Plataforma creada por un conductor profesional para ayudar a los conductores, especialmente a los jóvenes marroquíes, a encontrar oportunidades de trabajo e información profesional en el transporte por carretera, lejos de intermediarios y falsas promesas.</p>
-                <div class="buttons">
-                    <a class="btn" href="/jobs">🔎 Ofertas de trabajo</a>
-                    <a class="btn secondary" href="/companies">🏢 Empresas de transporte</a>
-                    <a class="btn secondary" href="/morocco-transport-training">🇲🇦 Transporte y formación en Marruecos</a>
-                    <a class="btn secondary" href="/spain-jobs">🇪🇸 Trabajo en España</a>
-                </div>
+
             @elseif(app()->getLocale() === "fr")
                 <h1>De la <span>route</span> au service du conducteur</h1>
                 <p>Une plateforme créée par un conducteur professionnel pour aider les conducteurs, notamment les jeunes Marocains, à accéder aux opportunités d’emploi et aux informations professionnelles dans le transport routier, loin des intermédiaires et des fausses promesses.</p>
-                <div class="buttons">
-                    <a class="btn" href="/jobs">🔎 Offres d’emploi</a>
-                    <a class="btn secondary" href="/companies">🏢 Entreprises de transport</a>
-                    <a class="btn secondary" href="/morocco-transport-training">🇲🇦 Transport et formation au Maroc</a>
-                    <a class="btn secondary" href="/spain-jobs">🇪🇸 Travail en Espagne</a>
-                </div>
+
             @else
                 <h1>من <span>الطريق</span> إلى خدمة السائق</h1>
                 <p>منصة أنشأها سائق مهني لمساعدة السائقين، وخاصة الشباب المغاربة، على الوصول إلى فرص العمل والمعلومات المهنية في النقل الطرقي، بعيدًا عن السماسرة والوعود الكاذبة.</p>
-                <div class="buttons">
-                    <a class="btn" href="/jobs">🔎 عروض العمل</a>
-                    <a class="btn secondary" href="/companies">🏢 شركات النقل</a>
-                    <a class="btn secondary" href="/morocco-transport-training">🇲🇦 شركات النقل ومراكز تدريب السائقين بالمغرب</a>
-                    <a class="btn secondary" href="/spain-jobs">🇪🇸 العمل في إسبانيا</a>
-                </div>
+
             @endif
         </div>
         <div class="hero-photo">
@@ -409,15 +407,116 @@
 
 <section style="text-align:center;margin:25px 0;">
     <h2>🏢 شركات النقل واللوجستيك</h2>
-    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
-        <a class="btn secondary" href="/companies">🇲🇦 الشركات المغربية<br><small>شركات النقل واللوجستيك في المغرب</small></a>
-        <a class="btn secondary" href="/spain-companies">🇪🇸 الشركات الإسبانية<br><small>شركات النقل واللوجستيك في إسبانيا</small></a>
-    </div>
+
 </section>
         </div>
     </div>
 </section>
 
+<section class="section" style="padding-top:10px;">
+    <div class="section-title">
+        @if(app()->getLocale() === 'es')
+            <h2>🎯 ¿Qué buscas?</h2>
+            <p>Accede directamente a la información que necesitas.</p>
+        @elseif(app()->getLocale() === 'fr')
+            <h2>🎯 Que cherchez-vous ?</h2>
+            <p>Accédez directement aux informations dont vous avez besoin.</p>
+        @else
+            <h2>🎯 ماذا تبحث؟</h2>
+            <p>توجه مباشرة إلى المعلومة التي تحتاجها.</p>
+        @endif
+    </div>
+
+    <div class="cards">
+        @if(app()->getLocale() === 'es')
+        <div class="card">
+            <div class="icon">💼</div>
+            <h3>Trabajo y empresas</h3>
+            <a href="/jobs">🔎 Ofertas de trabajo</a><br>
+            <a href="/companies">🏢 Empresas de transporte</a><br>
+            <a href="/morocco-transport-training">🇲🇦 Transporte y formación en Marruecos</a><br>
+            <a href="/spain-jobs">🇪🇸 Trabajo en España</a><br>
+            <a href="/spanish-companies">🏢 Empresas españolas</a>
+        </div>
+        <div class="card">
+            <div class="icon">📚</div>
+            <h3>Formación y reglas</h3>
+            <a href="/training">🎓 Formación</a><br>
+            <a href="/training-centers">🏫 Centros de formación</a><br>
+            <a href="/spain-law">⚖️ Ley del transporte en España</a><br>
+            <a href="/europe-rules">📚 Reglas del transporte en Europa</a><br>
+            <a href="/tachograph-guide">🧭 Guía del conductor marroquí en Europa</a>
+        </div>
+        <div class="card">
+            <div class="icon">📄</div>
+            <h3>Documentos y herramientas</h3>
+            <a href="/driver-documents">📄 Documentos del conductor</a><br>
+            <a href="/europe-documents">🌍 Documentos para Europa</a><br>
+            <a href="/cmr">📄 Transporte internacional — CMR</a><br>
+            <a href="/cv-builder">📝 Crear CV</a><br>
+            <a href="/truck-checklist">🚛 Inspección del camión</a>
+        </div>
+
+        @elseif(app()->getLocale() === 'fr')
+        <div class="card">
+            <div class="icon">💼</div>
+            <h3>Emploi et entreprises</h3>
+            <a href="/jobs">🔎 Offres d’emploi</a><br>
+            <a href="/companies">🏢 Entreprises de transport</a><br>
+            <a href="/morocco-transport-training">🇲🇦 Transport et formation au Maroc</a><br>
+            <a href="/spain-jobs">🇪🇸 Travail en Espagne</a><br>
+            <a href="/spanish-companies">🏢 Entreprises espagnoles</a>
+        </div>
+        <div class="card">
+            <div class="icon">📚</div>
+            <h3>Formation et règles</h3>
+            <a href="/training">🎓 Formation</a><br>
+            <a href="/training-centers">🏫 Centres de formation</a><br>
+            <a href="/spain-law">⚖️ Loi du transport en Espagne</a><br>
+            <a href="/europe-rules">📚 Règles du transport en Europe</a><br>
+            <a href="/tachograph-guide">🧭 Guide du conducteur marocain en Europe</a>
+        </div>
+        <div class="card">
+            <div class="icon">📄</div>
+            <h3>Documents et outils</h3>
+            <a href="/driver-documents">📄 Documents du conducteur</a><br>
+            <a href="/europe-documents">🌍 Documents pour l’Europe</a><br>
+            <a href="/cmr">📄 Transport international — CMR</a><br>
+            <a href="/cv-builder">📝 Créer un CV</a><br>
+            <a href="/truck-checklist">🚛 Inspection du camion</a>
+        </div>
+
+        @else
+        <div class="card">
+            <div class="icon">💼</div>
+            <h3>العمل والشركات</h3>
+            <a href="/jobs">🔎 عروض العمل</a><br>
+            <a href="/companies">🏢 شركات النقل</a><br>
+            <a href="/morocco-transport-training">🇲🇦 النقل والتكوين بالمغرب</a><br>
+            <a href="/spain-jobs">🇪🇸 العمل في إسبانيا</a><br>
+            <a href="/spanish-companies">🏢 الشركات الإسبانية</a>
+        </div>
+        <div class="card">
+            <div class="icon">📚</div>
+            <h3>التكوين والقواعد</h3>
+            <a href="/training">🎓 التكوين</a><br>
+            <a href="/training-centers">🏫 مراكز وشركات تكوين السائقين</a><br>
+            <a href="/spain-law">⚖️ قانون النقل في إسبانيا</a><br>
+            <a href="/europe-rules">📚 قواعد النقل في أوروبا</a><br>
+            <a href="/tachograph-guide">🧭 بوصلة السائق المغربي في أوروبا</a>
+        </div>
+        <div class="card">
+            <div class="icon">📄</div>
+            <h3>الوثائق والأدوات</h3>
+            <a href="/driver-documents">📄 وثائق السائق</a><br>
+            <a href="/europe-documents">🌍 وثائق أوروبا</a><br>
+            <a href="/cmr">📄 النقل الدولي — CMR</a><br>
+            <a href="/cv-builder">📝 إنشاء CV</a><br>
+            <a href="/truck-checklist">🚛 فحص الشاحنة</a>
+        </div>
+        @endif
+    </div>
+</section>
 <section class="section">
 
     <div class="section-title">
@@ -441,64 +540,55 @@
             <div class="icon">🔎</div>
             <h3>Ofertas de trabajo</h3>
             <p>Oportunidades e información para ayudar al conductor a contactar con empresas.</p>
-            <a href="/jobs">Ver ofertas ←</a>
         </div>
 
         <div class="card">
             <div class="icon">🏢</div>
             <h3>Empresas de transporte</h3>
             <p>Conoce empresas de transporte y sus medios oficiales de contacto.</p>
-            <a href="/companies">Empresas ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">🎓</div>
             <h3>Formación y capacitación</h3>
             <p>Formación y desarrollo profesional para conductores.</p>
-            <a href="/training">Formación ←</a>
-<a href="/training-centers">🏫 Centros y empresas de formación ←</a>
         </div>
 
         <div class="card">
             <div class="icon">📄</div>
             <h3>Documentos del conductor</h3>
             <p>Información sobre los documentos profesionales necesarios.</p>
-            <a href="/driver-documents">Documentos ←</a>
         </div>
 
         <div class="card">
             <div class="icon">📝</div>
             <h3>Crear CV</h3>
             <p>Presenta tu experiencia profesional de forma organizada.</p>
-            <a href="/cv-builder">Crear CV ←</a>
         </div>
 
         <div class="card">
             <div class="icon">🚛</div>
             <h3>Inspección del camión</h3>
             <p>Lista práctica para revisar el camión antes de salir.</p>
-            <a href="/truck-checklist">Empezar inspección ←</a>
         </div>
 
         <div class="card">
             <div class="icon">📄</div>
             <h3>Transporte internacional — CMR</h3>
             <p>Información básica sobre el documento de transporte internacional de mercancías.</p>
-            <a href="/cmr">Conocer el CMR ←</a>
         </div>
 
         <div class="card">
             <div class="icon">🌍</div>
             <h3>Documentos de Europa</h3>
             <p>Información para comprender los documentos necesarios para el transporte internacional.</p>
-            <a href="/europe-documents">Documentos de Europa ←</a>
         </div>
 
         <div class="card">
             <div class="icon">📚</div>
             <h3>Reglas del transporte en Europa</h3>
             <p>Información práctica sobre las normas y obligaciones profesionales.</p>
-            <a href="/europe-rules">Reglas ←</a>
         </div>
 
         @elseif(app()->getLocale() === "fr")
@@ -507,64 +597,64 @@
             <div class="icon">🔎</div>
             <h3>Offres d’emploi</h3>
             <p>Des opportunités et des informations pour aider le conducteur à contacter les entreprises.</p>
-            <a href="/jobs">Voir les offres ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">🏢</div>
             <h3>Entreprises de transport</h3>
             <p>Découvrez les entreprises de transport et leurs moyens de contact officiels.</p>
-            <a href="/companies">Entreprises ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">🎓</div>
             <h3>Formation et perfectionnement</h3>
             <p>Formation et développement professionnel pour les conducteurs.</p>
-            <a href="/training">Formation ←</a>
-<a href="/training-centers">🏫 Centres et entreprises de formation ←</a>
+
+
         </div>
 
         <div class="card">
             <div class="icon">📄</div>
             <h3>Documents du conducteur</h3>
             <p>Informations sur les documents professionnels nécessaires.</p>
-            <a href="/driver-documents">Documents ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">📝</div>
             <h3>Créer un CV</h3>
             <p>Présentez votre expérience professionnelle de manière organisée.</p>
-            <a href="/cv-builder">Créer un CV ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">🚛</div>
             <h3>Inspection du camion</h3>
             <p>Liste pratique pour vérifier le camion avant le départ.</p>
-            <a href="/truck-checklist">Commencer l’inspection ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">📄</div>
             <h3>Transport international — CMR</h3>
             <p>Informations essentielles sur le document de transport international des marchandises.</p>
-            <a href="/cmr">Découvrir le CMR ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">🌍</div>
             <h3>Documents pour l’Europe</h3>
             <p>Informations pour comprendre les documents nécessaires au transport international.</p>
-            <a href="/europe-documents">Documents Europe ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">📚</div>
             <h3>Règles du transport en Europe</h3>
             <p>Informations pratiques sur les règles et obligations professionnelles.</p>
-            <a href="/europe-rules">Règles ←</a>
+
         </div>
 
         @else
@@ -573,64 +663,64 @@
             <div class="icon">🔎</div>
             <h3>عروض العمل</h3>
             <p>فرص عمل ومعلومات تساعد السائق على الوصول إلى الشركات.</p>
-            <a href="/jobs">اكتشف العروض ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">🏢</div>
             <h3>شركات النقل</h3>
             <p>التعرف على شركات النقل وطرق التواصل الرسمية.</p>
-            <a href="/companies">الشركات ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">🎓</div>
             <h3>التكوين والتدريب</h3>
             <p>مسارات التكوين والتطوير المهني للسائقين.</p>
-            <a href="/training">التكوين ←</a>
-<a href="/training-centers">🏫 شركات ومراكز تكوين السائقين ←</a>
+
+
         </div>
 
         <div class="card">
             <div class="icon">📄</div>
             <h3>وثائق السائق</h3>
             <p>معلومات حول الوثائق المهنية المطلوبة للسائق.</p>
-            <a href="/driver-documents">الوثائق ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">📝</div>
             <h3>إنشاء CV</h3>
             <p>ساعد نفسك على تقديم خبرتك المهنية بطريقة منظمة.</p>
-            <a href="/cv-builder">إنشاء CV ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">🚛</div>
             <h3>فحص الشاحنة</h3>
             <p>قائمة عملية للمساعدة في فحص الشاحنة قبل الانطلاق.</p>
-            <a href="/truck-checklist">ابدأ الفحص ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">📄</div>
             <h3>النقل الدولي — CMR</h3>
             <p>معلومات أساسية حول وثيقة النقل الدولي للبضائع.</p>
-            <a href="/cmr">تعرف على CMR ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">🌍</div>
             <h3>وثائق أوروبا</h3>
             <p>معلومات تساعد السائق في فهم الوثائق المطلوبة للنقل الدولي.</p>
-            <a href="/europe-documents">وثائق أوروبا ←</a>
+
         </div>
 
         <div class="card">
             <div class="icon">📚</div>
             <h3>قواعد النقل في أوروبا</h3>
             <p>معلومات عملية حول القواعد والالتزامات المهنية.</p>
-            <a href="/europe-rules">القواعد ←</a>
+
         </div>
 
         @endif
@@ -708,21 +798,7 @@
         @endif
     </div>
 
-        <div class="spain-grid">
-            @if(app()->getLocale() === "es")
-                <a href="/spain-jobs">🇪🇸 Ofertas de trabajo en España</a>
-                <a href="/spanish-companies">🏢 Empresas españolas</a>
-                <a href="/spain-law">⚖️ Ley del transporte en España</a>
-            @elseif(app()->getLocale() === "fr")
-                <a href="/spain-jobs">🇪🇸 Offres d’emploi en Espagne</a>
-                <a href="/spanish-companies">🏢 Entreprises espagnoles</a>
-                <a href="/spain-law">⚖️ Loi du transport en Espagne</a>
-            @else
-                <a href="/spain-jobs">🇪🇸 عروض العمل في إسبانيا</a>
-                <a href="/spanish-companies">🏢 الشركات الإسبانية</a>
-                <a href="/spain-law">⚖️ قانون النقل في إسبانيا</a>
-            @endif
-        </div>
+
 
     </div>
 </section>
@@ -899,8 +975,8 @@
             </p>
 
             <div class="buttons" style="justify-content:center;">
-                <a class="btn" href="/jobs">🔎 Empezar por las ofertas de trabajo</a>
-                <a class="btn secondary" href="/training">🎓 Empezar por la formación</a>
+
+
             </div>
 
         @elseif(app()->getLocale() === "fr")
@@ -926,8 +1002,8 @@
             </p>
 
             <div class="buttons" style="justify-content:center;">
-                <a class="btn" href="/jobs">🔎 Commencer par les offres d’emploi</a>
-                <a class="btn secondary" href="/training">🎓 Commencer par la formation</a>
+
+
             </div>
 
         @else
@@ -952,8 +1028,8 @@
             </p>
 
             <div class="buttons" style="justify-content:center;">
-                <a class="btn" href="/jobs">🔎 ابدأ من عروض العمل</a>
-                <a class="btn secondary" href="/training">🎓 ابدأ من التكوين</a>
+
+
             </div>
         @endif
 
@@ -965,30 +1041,7 @@
 
     <strong>🚛 Edriouche Truck Job</strong>
 
-    <div class="footer-links">
-        @if(app()->getLocale() === "es")
-            <a href="/">Inicio</a>
-            <a href="/jobs">Ofertas de trabajo</a>
-            <a href="/companies">Empresas de transporte</a>
-            <a href="/training">Formación</a>
-            <a href="/spain-jobs">España</a>
-            <a href="/cmr">CMR</a>
-        @elseif(app()->getLocale() === "fr")
-            <a href="/">Accueil</a>
-            <a href="/jobs">Offres d’emploi</a>
-            <a href="/companies">Entreprises de transport</a>
-            <a href="/training">Formation</a>
-            <a href="/spain-jobs">Espagne</a>
-            <a href="/cmr">CMR</a>
-        @else
-            <a href="/">الرئيسية</a>
-            <a href="/jobs">عروض العمل</a>
-            <a href="/companies">شركات النقل</a>
-            <a href="/training">التكوين</a>
-            <a href="/spain-jobs">إسبانيا</a>
-            <a href="/cmr">CMR</a>
-        @endif
-    </div>
+    <div class="footer-links"></div>
 
     @if(app()->getLocale() === "es")
         <div>El conductor profesional merece respeto.</div>
@@ -1002,10 +1055,6 @@
 
 </footer>
 
-<div style="text-align:center;margin:25px 0;">
-<a href="/tachograph-guide" style="display:inline-block;background:#075aaa;color:white;padding:13px 22px;border-radius:8px;text-decoration:none;font-weight:bold;">
-🧭 بوصلة السائق المغربي في أوروبا
-</a>
-</div>
+
 </body>
 </html>
