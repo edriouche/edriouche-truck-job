@@ -59,6 +59,18 @@ li{margin:7px 0}
 <div class="article">يسجل فترات القيادة، الراحة والتوقف، والعمل الآخر، والتوفر وفق نوع الجهاز وطريقة استخدامه.</div>
 </div>
 
+<div class="card">
+<h2>3️⃣ ماذا أسجل أثناء يوم العمل؟</h2>
+<table>
+<tr><th>النشاط</th><th>ماذا يعني؟</th></tr>
+<tr><td>🚛 القيادة</td><td>عندما تكون الشاحنة تتحرك وأنت تقود.</td></tr>
+<tr><td>🔧 عمل آخر</td><td>تحميل، تفريغ، فحص الشاحنة، أعمال مهنية وغيرها.</td></tr>
+<tr><td>⏳ التوفر</td><td>فترة تكون فيها متاحاً للعمل ولكن لا تقوم بعمل فعلي.</td></tr>
+<tr><td>☕ استراحة</td><td>فترة لا تقوم فيها بالقيادة أو عمل آخر وتستعملها للاستراحة.</td></tr>
+<tr><td>😴 راحة</td><td>فترة تستطيع فيها التصرف بحرية في وقتك حسب شروط الراحة القانونية.</td></tr>
+</table>
+</div>
+
 <div class="card"><h2>4️⃣ قاعدة 4 ساعات و30 دقيقة</h2>
 <div class="article">بعد مدة قيادة تراكمية تبلغ 4 ساعات و30 دقيقة، يجب أخذ استراحة وفق القواعد الأوروبية قبل مواصلة القيادة. القاعدة العامة هي استراحة لا تقل عن 45 دقيقة، ويمكن تقسيمها بالطريقة التي تسمح بها القواعد.</div>
 </div>
@@ -66,6 +78,18 @@ li{margin:7px 0}
 <div class="card"><h2>5️⃣ حدود القيادة</h2>
 <div class="article">القاعدة العامة الأوروبية هي حد أقصى قدره 9 ساعات قيادة يوميًا، ويمكن تمديده إلى 10 ساعات مرتين في الأسبوع.</div>
 <div class="article">كما توجد حدود أسبوعية: لا تتجاوز القيادة 56 ساعة في أسبوع واحد و90 ساعة خلال أسبوعين متتاليين.</div>
+</div>
+
+<div class="card">
+<h2>5️⃣ حدود القيادة اليومية والأسبوعية</h2>
+<table>
+<tr><th>الفترة</th><th>الحد</th></tr>
+<tr><td>اليوم</td><td>9 ساعات عادةً</td></tr>
+<tr><td>تمديد اليوم</td><td>حتى 10 ساعات، بحد أقصى مرتين في الأسبوع</td></tr>
+<tr><td>أسبوع واحد</td><td>56 ساعة قيادة كحد أقصى</td></tr>
+<tr><td>أسبوعان متتاليان</td><td>90 ساعة قيادة كحد أقصى</td></tr>
+</table>
+<p>هذه الأرقام تتعلق بوقت القيادة وليست مجموع كل ساعات العمل.</p>
 </div>
 
 <div class="card"><h2>6️⃣ الراحة اليومية</h2>
@@ -147,6 +171,18 @@ li{margin:7px 0}
 <div class="card"><h2>3️⃣ ¿Qué registra?</h2>
 <div class="article">Registra los periodos de conducción, descanso, pausas y otras actividades, según el tipo de aparato y su utilización.</div></div>
 
+<div class="card">
+<h2>3️⃣ ¿Qué registro durante la jornada?</h2>
+<table>
+<tr><th>Actividad</th><th>¿Qué significa?</th></tr>
+<tr><td>🚛 Conducción</td><td>Cuando el camión está en movimiento y usted conduce.</td></tr>
+<tr><td>🔧 Otro trabajo</td><td>Carga, descarga, revisión del vehículo y otras tareas profesionales.</td></tr>
+<tr><td>⏳ Disponibilidad</td><td>Periodo en el que está disponible para trabajar pero no realiza trabajo efectivo.</td></tr>
+<tr><td>☕ Pausa</td><td>Periodo en el que no conduce ni realiza otro trabajo y lo utiliza para descansar.</td></tr>
+<tr><td>😴 Descanso</td><td>Periodo durante el cual puede disponer libremente de su tiempo según las condiciones legales.</td></tr>
+</table>
+</div>
+
 <div class="card"><h2>4️⃣ La regla de 4 horas y 30 minutos</h2>
 <div class="article">Después de un periodo acumulado de conducción de 4 horas y 30 minutos, el conductor debe realizar una pausa conforme a las reglas europeas antes de continuar conduciendo. La regla general es una pausa de al menos 45 minutos, con las posibilidades de fraccionamiento permitidas por la normativa.</div>
 </div>
@@ -154,6 +190,18 @@ li{margin:7px 0}
 <div class="card"><h2>5️⃣ Límites de conducción</h2>
 <div class="article">La regla general europea establece un máximo de 9 horas de conducción diaria, que puede ampliarse a 10 horas dos veces por semana.</div>
 <div class="article">También existen límites semanales: máximo 56 horas en una semana y 90 horas durante dos semanas consecutivas.</div>
+</div>
+
+<div class="card">
+<h2>5️⃣ Límites diarios y semanales de conducción</h2>
+<table>
+<tr><th>Periodo</th><th>Límite</th></tr>
+<tr><td>Día</td><td>9 horas normalmente</td></tr>
+<tr><td>Extensión diaria</td><td>Hasta 10 horas, como máximo dos veces por semana</td></tr>
+<tr><td>Una semana</td><td>Máximo 56 horas de conducción</td></tr>
+<tr><td>Dos semanas consecutivas</td><td>Máximo 90 horas de conducción</td></tr>
+</table>
+<p>Estas cifras se refieren al tiempo de conducción, no al total de horas de trabajo.</p>
 </div>
 
 <div class="card"><h2>6️⃣ Descanso diario</h2>
@@ -235,6 +283,18 @@ li{margin:7px 0}
 <div class="card"><h2>3️⃣ Que mesure-t-il ?</h2>
 <div class="article">Il enregistre les périodes de conduite, de repos, les pauses et les autres activités, selon le type d'appareil et son utilisation.</div></div>
 
+<div class="card">
+<h2>3️⃣ Que dois-je enregistrer pendant la journée de travail ?</h2>
+<table>
+<tr><th>Activité</th><th>Signification</th></tr>
+<tr><td>🚛 Conduite</td><td>Lorsque le camion est en mouvement et que vous conduisez.</td></tr>
+<tr><td>🔧 Autre travail</td><td>Chargement, déchargement, contrôle du véhicule et autres tâches professionnelles.</td></tr>
+<tr><td>⏳ Disponibilité</td><td>Période pendant laquelle vous êtes disponible pour travailler sans effectuer de travail effectif.</td></tr>
+<tr><td>☕ Pause</td><td>Période pendant laquelle vous ne conduisez pas et n'effectuez pas d'autre travail afin de faire une pause.</td></tr>
+<tr><td>😴 Repos</td><td>Période pendant laquelle vous pouvez disposer librement de votre temps selon les conditions légales de repos.</td></tr>
+</table>
+</div>
+
 <div class="card"><h2>4️⃣ La règle des 4 h 30</h2>
 <div class="article">Après une période cumulée de conduite de 4 heures 30, le conducteur doit prendre une pause conformément aux règles européennes avant de continuer à conduire. La règle générale prévoit une pause d'au moins 45 minutes, avec les possibilités de fractionnement autorisées par la réglementation.</div>
 </div>
@@ -242,6 +302,18 @@ li{margin:7px 0}
 <div class="card"><h2>5️⃣ Limites de conduite</h2>
 <div class="article">La règle européenne générale prévoit un maximum de 9 heures de conduite par jour, pouvant être porté à 10 heures deux fois par semaine.</div>
 <div class="article">Il existe également des limites hebdomadaires : 56 heures maximum sur une semaine et 90 heures sur deux semaines consécutives.</div>
+</div>
+
+<div class="card">
+<h2>5️⃣ Limites quotidiennes et hebdomadaires de conduite</h2>
+<table>
+<tr><th>Période</th><th>Limite</th></tr>
+<tr><td>Jour</td><td>9 heures normalement</td></tr>
+<tr><td>Prolongation quotidienne</td><td>Jusqu'à 10 heures, au maximum deux fois par semaine</td></tr>
+<tr><td>Une semaine</td><td>Maximum 56 heures de conduite</td></tr>
+<tr><td>Deux semaines consécutives</td><td>Maximum 90 heures de conduite</td></tr>
+</table>
+<p>Ces chiffres concernent le temps de conduite et non le total des heures de travail.</p>
 </div>
 
 <div class="card"><h2>6️⃣ Repos journalier</h2>
