@@ -1,0 +1,107 @@
+@	
+ķ            text-align: center;
+            padding: 25px;
+            color: #666;
+        }
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:15px;}
+.links a{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:10px 16px;border-radius:12px;text-decoration:none;font-weight:700;color:#fff!important;background:linear-gradient(135deg,#1f4e79,#2e75b6);box-shadow:0 4px 10px rgba(0,0,0,.15);transition:.25s;box-sizing:border-box;}
+.links a:hover{transform:translateY(-2px);box-shadow:0 7px 16px rgba(0,0,0,.22);filter:brightness(1.08);}
+.links a:active{transform:scale(.97);}
+@media(max-width:600px){.links a{flex:1 1 100%;}}
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🚛 Edriouche Truck Job</h1>
+    <p>🏢 شركات النقل</p>
+</header>
+
+<div class="container">
+
+    <a class="back" href="/">⬅️ العودة إلى الرئيسية</a>
+
+    <input
+        class="search"
+        id="search"
+        type="text"
+        placeholder="🔎 ابحث عن شركة أو مدينة..."
+        onkeyup="searchCompanies()"
+    >
+
+    <div class="companies">
+
+    </div>
+
+</div>
+
+
+<section style="margin-top:40px;padding:28px;background:#f7f9fc;border-radius:20px;">
+<h2 style="text-align:center;">🚛 دليل السائق المغربي: من المبتدئ إلى الاحتراف</h2>
+<p style="text-align:center;line-height:1.9;font-size:17px;">هذا الدليل يساعد السائق على تجهيز نفسه للبحث عن العمل والتقدم إلى الشركات بطريقة مهنية ومنظمة.</p>
+
+<div style="margin-top:25px;">
+<h3>🟢 1. كيف تبدأ كسائق شاحنة؟</h3>
+<p style="line-height:2;">ابدأ بالتأكد من فئة رخصة السياقة المناسبة، ثم اكتسب التكوين والخبرة تدريجيًا. لا تبحث عن أول وظيفة فقط؛ ابحث عن المكان الذي يساعدك على بناء خبرة مهنية حقيقية.</p>
+
+<h3>📄 2. جهّز ملفك المهني</h3>
+<p style="line-height:2;">جهّز ملفًا مرتبًا يحتوي على السيرة الذاتية، صورة مهنية، رخصة السياقة، بطاقة السائق المهنية، شهادات التكوين والخبرة، وأي شهادات إضافية مطلوبة لنوع النقل الذي تريد العمل فيه.</p>
+
+<h3>📝 3. كيف تكتب CV احترافيًا؟</h3>
+<p style="line-height:2;">اكتب الاسم ووسائل الاتصال والمدينة، فئات الرخص، سنوات الخبرة، أنواع الشاحنات التي قدتها، أنواع النقل التي مارستها، الشهادات والتكوينات، واللغات. اجعل المعلومات واضحة وصادقة ومختصرة.</p>
+
+<h3>📸 4. الصورة المهنية</h3>
+<p style="line-height:2;">استعمل صورة حديثة وواضحة وملائمة للعمل، بخلفية بسيطة وملابس محترمة. تجنب الصور العائلية أو الصور غير الواضحة داخل CV.</p>
+
+<h3>📑 5. رتّب وثائقك</h3>
+<p style="line-height:2;">احتفظ بنسخ واضحة ومنظمة من وثائقك. وعند طلب الشركة ملف PDF، اجمع الوثائق المطلوبة فقط وبترتيب واضح.</p>
+
+<h3>🔎 6. كيف تبحث عن شركة مناسبة؟</h3>
+<p style="line-height:2;">ابدأ بموقع الشركة الرسمي وصفحة التوظيف الرسمية. تحقق من اسم الشركة ونشاطها ومعلومات الاتصال قبل إرسال طلبك. لا تعتمد على إعلان مجهول المصدر.</p>
+
+<h3>📧 7. كيف ترسل طلب العمل؟</h3>
+<p style="line-height:2;">اكتب رسالة قصيرة ومحترمة، اذكر فيها الوظيفة التي ترغب فيها، وأرفق CV والوثائق المطلوبة. استعمل البريد الإلكتروني أو منصة التوظيف الرسمية للشركة متى كانت متاحة.</p>
+
+<h3>🤝 8. كيف تستعد لمقابلة العمل؟</h3>
+<p style="line-height:2;">راجع معلومات الشركة، واعرف نوع الشاحنة والعمل والمسار المتوقع. حضّر وثائقك، وأجب بصدق عن خبرتك وقدرتك على تحمل مسؤولية الشاحنة والحمولة.</p>
+
+<h3>🚚 9. نصائح للسائق في أول عمل</h3>
+<p style="line-height:2;">افحص الشاحنة قبل الانطلاق، اهتم بالسلامة وتثبيت الحمولة، احترم تعليمات الشركة وقواعد الطريق، وسجّل الأعطال والملاحظات وأبلغ المسؤول عنها.</p>
+
+<h3>⚠️ 10. أخطاء يجب تجنبها</h3>
+<p style="line-height:2;">لا تضع خبرة غير حقيقية في CV، ولا ترسل وثائقك إلى أشخاص مجهولين، ولا تقبل شروطًا لا تفهمها. لا تدفع المال لشخص مقابل وعد بالتوظيف.</p>
+
+<h3>🛡️ 11. احمِ نفسك من السماسرة</h3>
+<p style="line-height:2;">تعامل مباشرة مع الشركة كلما أمكن. تحقق من البريد الإلكتروني والموقع الرسمي واسم الشركة قبل أي خطوة، ولا تعتبر العقد أو العرض حقيقيًا إلا بعد التحقق من مصدره.</p>
+
+<div style="margin-top:25px;padding:20px;background:#ffffff;border-radius:15px;">
+<h3 style="text-align:center;">📋 نموذج مختصر لمعلومات CV السائق</h3>
+<p style="line-height:2;">الاسم الكامل — الهاتف — المدينة — فئات الرخص — سنوات الخبرة — أنواع الشاحنات — نوع النقل — الشهادات والتكوين — اللغات — معلومات إضافية مفيدة للعمل.</p>
+</div>
+
+<div style="text-align:center;margin-top:25px;"><a href="/cv-builder" style="display:inline-block;padding:14px 24px;background:#0b7a75;color:white;text-decoration:none;border-radius:12px;font-weight:bold;font-size:17px;">📝 إنشاء CV للسائق</a></div>
+
+    <p style="text-align:center;font-weight:bold;font-size:18px;margin-top:25px;">Edriouche Truck Job — نساعد السائق على تجهيز ملفه والوصول إلى فرصة عمل حقيقية بطريقة مهنية.</p>
+</div>
+</section>
+
+<section style="margin-top:30px;padding:25px;background:#f5f9fc;border-radius:20px;"><h2 style="text-align:center;">🇲🇦 شركات مغربية تبحث عن سائقين</h2><p style="text-align:center;line-height:1.9;">فرص منشورة أو حديثة — تحقق من توفر المنصب قبل إرسال الوثائق.</p><div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;"><h3>🚛 MAROTRANS — طنجة والقنيطرة</h3><p>سائقو شاحنات ثقيلة — رخصة EC وخبرة مهنية.</p><p>🟢 إعلان حديث</p></div><div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;"><h3>🚛 Group Inter Five — طنجة</h3><p>سائق مهني دولي.</p><p>📧 contact@groupinterfive.com</p><p>🟢 إعلان حديث</p></div><div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;"><h3>🚛 GRAVILIS — طنجة</h3><p>سائق شاحنة ثقيلة.</p><p>🟡 تحقق من توفر المنصب قبل التقديم.</p></div></section>
+<footer>
+    © 2026 Edriouche Truck Job
+</footer>
+
+<script>
+function searchCompanies() {
+    let value = document.getElementById("search").value.toLowerCase();
+
+    document.querySelectorAll(".company").forEach(function(company) {
+        company.style.display =
+            company.innerText.toLowerCase().includes(value) ? "" : "none";
+    });
+}
+</script>
+
+</body>
+</html>
+('
