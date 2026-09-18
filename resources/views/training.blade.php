@@ -61,6 +61,47 @@
 <h2>🎓 Formación profesional para conductores</h2>
 <p>Esta sección ofrece conocimientos prácticos para conductores principiantes y profesionales. El objetivo es mejorar la seguridad, el control del vehículo, el ahorro de combustible y la responsabilidad profesional.</p>
 <a class="button" href="https://www.ofppt.ma/" target="_blank">🌐 Sitio oficial OFPPT</a>
+<a class="button" href="{{ url('/training-centers') }}">🏫 شركات ومراكز تكوين السائقين</a>
+</div>
+
+
+<div class="card">
+@if(app()->getLocale() === 'es')
+    <h2>🏫 Centros y empresas de formación para conductores</h2>
+    <p>Además de OFPPT, aquí encontrarás centros y empresas especializados en la formación de conductores profesionales.</p>
+
+    <div class="center">
+        <h3>🚛 GENADEC</h3>
+        <p>Formación para conductores profesionales de transporte de mercancías y viajeros, además de módulos de conducción defensiva, conducción económica y ADR.</p>
+        <p>📍 Centro en Tánger: Gueznaya</p>
+        <a class="button" href="https://genadec.com/" target="_blank">🌐 Sitio oficial GENADEC</a>
+        <a class="button" href="https://genadec.com/pf/conducteurs-professionnels/" target="_blank">📚 Formación de conductores</a>
+    </div>
+
+@elseif(app()->getLocale() === 'fr')
+    <h2>🏫 Centres et entreprises de formation des conducteurs</h2>
+    <p>En plus de l'OFPPT, vous trouverez ici des centres et entreprises spécialisés dans la formation des conducteurs professionnels.</p>
+
+    <div class="center">
+        <h3>🚛 GENADEC</h3>
+        <p>Formation des conducteurs professionnels de transport de marchandises et de voyageurs, avec des modules de conduite défensive, éco-conduite et ADR.</p>
+        <p>📍 Centre à Tanger : Gueznaya</p>
+        <a class="button" href="https://genadec.com/" target="_blank">🌐 Site officiel GENADEC</a>
+        <a class="button" href="https://genadec.com/pf/conducteurs-professionnels/" target="_blank">📚 Formation des conducteurs</a>
+    </div>
+
+@else
+    <h2>🏫 شركات ومراكز تكوين السائقين</h2>
+    <p>بالإضافة إلى OFPPT، تجد هنا مراكز وشركات متخصصة في تكوين السائقين المهنيين.</p>
+
+    <div class="center">
+        <h3>🚛 GENADEC</h3>
+        <p>تكوين السائقين المهنيين في نقل البضائع والمسافرين، إضافة إلى التكوين في القيادة الدفاعية والقيادة الاقتصادية ونقل المواد الخطرة ADR.</p>
+        <p>📍 مركز طنجة: كزناية</p>
+        <a class="button" href="https://genadec.com/" target="_blank">🌐 الموقع الرسمي GENADEC</a>
+        <a class="button" href="https://genadec.com/pf/conducteurs-professionnels/" target="_blank">📚 تكوين السائقين</a>
+    </div>
+@endif
 </div>
 
 <div class="training-note"><strong>Importante:</strong> La formación en esta página es educativa. Siempre deben respetarse las leyes, las instrucciones del fabricante, las normas de la empresa y las condiciones reales de la carretera.</div>
@@ -260,6 +301,89 @@
 <div class="card">
 <h2>🏫 التكوين المهني OFPPT</h2>
 <p>يوفر OFPPT تكوينات مرتبطة بالنقل الطرقي واللوجستيك. يجب التأكد مباشرة من الشعب والمقاعد المتاحة قبل التسجيل.</p>
+</div>
+
+<div class="card">
+@if(app()->getLocale() === 'es')
+<h2>🚛 Formación e integración de conductores principiantes en Marruecos</h2>
+
+<h3>🟢 JEB Training Center</h3>
+<p>🌐 <a href="https://www.jebtrainingcenter.com/" target="_blank" rel="noopener noreferrer">Sitio web oficial de JEB Training Center</a></p>
+<p>Centro de formación profesional en transporte y logística. Sus programas internacionales se dirigen principalmente a personas que entran por primera vez en el sector del transporte profesional.</p>
+<p><strong>Ciudad:</strong> Casablanca</p>
+<p><strong>Estado:</strong> Formación para principiantes. La integración laboral debe verificarse según el programa disponible.</p>
+
+<h3>🟢 ALSA – Centro de Formación</h3>
+<p>🌐 <a href="https://www.alsa.ma/ar/centre-de-formation" target="_blank" rel="noopener noreferrer">Sitio web oficial de ALSA – Centro de Formación</a></p>
+<p>Centro reconocido por el Ministerio de Equipamiento y Transporte para la formación de conductores profesionales. Ofrece FQIMO y FCO, incluida la formación para el transporte de mercancías.</p>
+<p><strong>Estado:</strong> Formación profesional. No presentamos el empleo posterior como garantizado.</p>
+
+<h3>🟢 Toogo + EFE-Maroc</h3>
+<h2>🏫 مؤسسات وشركات تكوين السائقين</h2>
+<p>روابط مباشرة لمؤسسات وبرامج التكوين والإدماج المهني للسائقين:</p>
+<p>🌐 <a href="https://www.ofppt.ma/" target="_blank" rel="noopener noreferrer">الموقع الرسمي لـ OFPPT</a></p>
+<p>🌐 <a href="https://toogo.ma/" target="_blank" rel="noopener noreferrer">الموقع الرسمي لـ Toogo</a></p>
+<p>🌐 <a href="https://efemaroc.org/" target="_blank" rel="noopener noreferrer">الموقع الرسمي لـ EFE-Maroc</a></p>
+<p>🌐 <a href="https://toogo.ma/" target="_blank" rel="noopener noreferrer">Sitio web oficial de Toogo</a> | <a href="https://efemaroc.org/" target="_blank" rel="noopener noreferrer">Sitio web oficial de EFE-Maroc</a></p>
+<p>🌐 <a href="https://toogo.ma/" target="_blank" rel="noopener noreferrer">الموقع الرسمي لـ Toogo</a> | <a href="https://efemaroc.org/" target="_blank" rel="noopener noreferrer">الموقع الرسمي لـ EFE-Maroc</a></p>
+<p>En 2026 se anunció un programa para identificar, formar y acompañar a más de 500 jóvenes hacia la profesión de conductor, con preparación para el empleo e integración profesional.</p>
+<p><strong>Ciudades iniciales:</strong> Casablanca, Rabat, Salé y Kénitra.</p>
+
+<h3>🔵 OFPPT / IFTL</h3>
+<p>Formación profesional relacionada con el transporte por carretera y la logística. Compruebe directamente las plazas, condiciones y programas disponibles.</p>
+
+@elseif(app()->getLocale() === 'fr')
+<h2>🚛 Formation et intégration des chauffeurs débutants au Maroc</h2>
+
+<h3>🟢 JEB Training Center</h3>
+<p>🌐 <a href="https://www.jebtrainingcenter.com/" target="_blank" rel="noopener noreferrer">Site officiel de JEB Training Center</a></p>
+<p>Centre de formation professionnelle dans le transport et la logistique. Ses programmes internationaux s'adressent principalement aux personnes qui entrent pour la première fois dans le secteur du transport professionnel.</p>
+<p><strong>Ville :</strong> Casablanca</p>
+<p><strong>Statut :</strong> Formation pour débutants. L'insertion professionnelle doit être vérifiée selon le programme disponible.</p>
+
+<h3>🟢 ALSA – Centre de Formation</h3>
+<p>🌐 <a href="https://www.alsa.ma/ar/centre-de-formation" target="_blank" rel="noopener noreferrer">Site officiel d’ALSA – Centre de Formation</a></p>
+<p>Centre reconnu par le Ministère de l'Équipement et du Transport pour la formation des conducteurs professionnels. Il propose la FQIMO et la FCO, notamment pour le transport de marchandises.</p>
+<p><strong>Statut :</strong> Formation professionnelle. Nous ne présentons pas l'emploi après formation comme garanti.</p>
+
+<h3>🟢 Toogo + EFE-Maroc</h3>
+<p>En 2026, un programme a été annoncé pour identifier, former et accompagner plus de 500 jeunes vers le métier de chauffeur, avec préparation à l'emploi et parcours d'intégration professionnelle.</p>
+<p><strong>Premières villes :</strong> Casablanca, Rabat, Salé et Kénitra.</p>
+
+<h3>🔵 OFPPT / IFTL</h3>
+<p>Formation professionnelle liée au transport routier et à la logistique. Vérifiez directement les places, conditions et programmes disponibles.</p>
+
+@else
+<h2>🚛 تكوين وإدماج السائقين المبتدئين في المغرب</h2>
+
+<h3>🟢 JEB Training Center</h3>
+<p>🌐 <a href="https://www.jebtrainingcenter.com/" target="_blank" rel="noopener noreferrer">الموقع الرسمي لـ JEB Training Center</a></p>
+<p>مركز للتكوين المهني في النقل واللوجستيك. برامجه الدولية موجهة أيضًا للأشخاص الذين يدخلون قطاع النقل المهني لأول مرة.</p>
+<p><strong>المدينة:</strong> الدار البيضاء</p>
+<p><strong>الحالة:</strong> تكوين مناسب للمبتدئين. يجب التحقق من الإدماج المهني حسب البرنامج المتاح.</p>
+
+<h3>🟢 ALSA – مركز التكوين</h3>
+<p>🌐 <a href="https://www.alsa.ma/ar/centre-de-formation" target="_blank" rel="noopener noreferrer">الموقع الرسمي لـ ALSA – مركز التكوين</a></p>
+<p>مركز معترف به من وزارة التجهيز والنقل لتكوين السائقين المهنيين. يقدم FQIMO وFCO، بما في ذلك تكوين نقل البضائع.</p>
+<p><strong>الحالة:</strong> تكوين مهني. لا نعتبر التوظيف بعد التكوين مضمونًا.</p>
+
+<h3>🟢 Toogo + EFE-Maroc</h3>
+<p>أُعلن في سنة 2026 عن برنامج لتحديد وتكوين ومواكبة أكثر من 500 شاب نحو مهنة السائق، مع التحضير للعمل ومسار للإدماج المهني.</p>
+<p><strong>المدن الأولى:</strong> الدار البيضاء، الرباط، سلا والقنيطرة.</p>
+
+<h3>🔵 OFPPT / IFTL</h3>
+<p>تكوين مهني مرتبط بالنقل الطرقي واللوجستيك. يجب التأكد مباشرة من المقاعد والشروط والبرامج المتاحة.</p>
+@endif
+
+<div class="warning">
+@if(app()->getLocale() === 'es')
+<p>⚠️ Edriouche Truck Job no garantiza la contratación. Compruebe siempre la información directamente con la institución antes de desplazarse o enviar documentos.</p>
+@elseif(app()->getLocale() === 'fr')
+<p>⚠️ Edriouche Truck Job ne garantit pas l'embauche. Vérifiez toujours les informations directement auprès de l'organisme avant de vous déplacer ou d'envoyer des documents.</p>
+@else
+<p>⚠️ Edriouche Truck Job لا يضمن التوظيف. تحقق دائمًا من المعلومات مباشرة مع المؤسسة قبل التنقل أو إرسال الوثائق.</p>
+@endif
+</div>
 </div>
 
 @endif

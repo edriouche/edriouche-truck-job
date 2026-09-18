@@ -356,7 +356,6 @@
 </head>
 
 <body>
-
 <div class="topbar">
     🚛 من المغرب إلى أوروبا — خدمة السائق بالمعلومة المهنية الموثوقة
 </div>
@@ -382,6 +381,7 @@
                 <div class="buttons">
                     <a class="btn" href="/jobs">🔎 Ofertas de trabajo</a>
                     <a class="btn secondary" href="/companies">🏢 Empresas de transporte</a>
+                    <a class="btn secondary" href="/morocco-transport-training">🇲🇦 Transporte y formación en Marruecos</a>
                     <a class="btn secondary" href="/spain-jobs">🇪🇸 Trabajo en España</a>
                 </div>
             @elseif(app()->getLocale() === "fr")
@@ -390,6 +390,7 @@
                 <div class="buttons">
                     <a class="btn" href="/jobs">🔎 Offres d’emploi</a>
                     <a class="btn secondary" href="/companies">🏢 Entreprises de transport</a>
+                    <a class="btn secondary" href="/morocco-transport-training">🇲🇦 Transport et formation au Maroc</a>
                     <a class="btn secondary" href="/spain-jobs">🇪🇸 Travail en Espagne</a>
                 </div>
             @else
@@ -398,12 +399,21 @@
                 <div class="buttons">
                     <a class="btn" href="/jobs">🔎 عروض العمل</a>
                     <a class="btn secondary" href="/companies">🏢 شركات النقل</a>
+                    <a class="btn secondary" href="/morocco-transport-training">🇲🇦 شركات النقل ومراكز تدريب السائقين بالمغرب</a>
                     <a class="btn secondary" href="/spain-jobs">🇪🇸 العمل في إسبانيا</a>
                 </div>
             @endif
         </div>
         <div class="hero-photo">
             <img src="{{ asset('images/founder.jpg').'?v=2' }}" alt="محمد الدريوش مؤسس Edriouche Truck Job">
+
+<section style="text-align:center;margin:25px 0;">
+    <h2>🏢 شركات النقل واللوجستيك</h2>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+        <a class="btn secondary" href="/companies">🇲🇦 الشركات المغربية<br><small>شركات النقل واللوجستيك في المغرب</small></a>
+        <a class="btn secondary" href="/spain-companies">🇪🇸 الشركات الإسبانية<br><small>شركات النقل واللوجستيك في إسبانيا</small></a>
+    </div>
+</section>
         </div>
     </div>
 </section>
@@ -446,6 +456,7 @@
             <h3>Formación y capacitación</h3>
             <p>Formación y desarrollo profesional para conductores.</p>
             <a href="/training">Formación ←</a>
+<a href="/training-centers">🏫 Centros y empresas de formación ←</a>
         </div>
 
         <div class="card">
@@ -511,6 +522,7 @@
             <h3>Formation et perfectionnement</h3>
             <p>Formation et développement professionnel pour les conducteurs.</p>
             <a href="/training">Formation ←</a>
+<a href="/training-centers">🏫 Centres et entreprises de formation ←</a>
         </div>
 
         <div class="card">
@@ -576,6 +588,7 @@
             <h3>التكوين والتدريب</h3>
             <p>مسارات التكوين والتطوير المهني للسائقين.</p>
             <a href="/training">التكوين ←</a>
+<a href="/training-centers">🏫 شركات ومراكز تكوين السائقين ←</a>
         </div>
 
         <div class="card">

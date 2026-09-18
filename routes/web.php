@@ -26,7 +26,7 @@ Route::get('/cap', function () {
     return view('cap');
 });
 
-Route::get('/spanish-companies', function () {
+Route::get('/spain-companies', function () {
     return view('spain-companies');
 });
 
@@ -58,20 +58,41 @@ Route::get('/tachograph-guide', function () {
 });
 
 Route::get('/spain-law', function () {
-    return view('spain-law');
+    return match (app()->getLocale()) {
+        'es' => view('spain-law-es'),
+        'fr' => view('spain-law-fr'),
+        default => view('spain-law'),
+    };
 });
 
 Route::get('/spain-jobs', function () {
     return view('spain-jobs');
 });
 
+Route::get('/training-centers', function () {
+    return view('training-centers');
+});
+
 Route::get('/lang/{locale}', function ($locale) {
     if (in_array($locale, ['ar', 'es', 'fr'])) {
         session(['locale' => $locale]);
         app()->setLocale($locale);
+        cookie()->queue('locale', $locale, 60 * 24 * 365);
     }
 
-    return redirect()->back();
+    return redirect('/spain-law');
 });
 Route::view('/cmr-es', 'cmr-es');
 Route::view('/cmr-fr', 'cmr-fr');
+
+Route::view('/spain-law-es', 'spain-law-es');
+Route::view('/spain-law-fr', 'spain-law-fr');
+
+Route::get('/morocco-transport-training', function () {
+    return match (app()->getLocale()) {
+        'es' => view('morocco-transport-training-es'),
+        'fr' => view('morocco-transport-training-fr'),
+        default => view('morocco-transport-training'),
+    };
+});
+

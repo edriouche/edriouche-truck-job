@@ -1,10 +1,10 @@
 @include("partials.language-switcher")
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="{{ app()->getLocale() }}" dir="{{ app()->getLocale() === "ar" ? "rtl" : "ltr" }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مراكز CAP في إسبانيا | Edriouche Truck Job</title>
+    <title>{{ __("messages.cap_title") }} | Edriouche Truck Job</title>
 
     <style>
         body {
@@ -86,14 +86,14 @@
 <body>
 
 <header>
-    <h1>🇪🇸 مراكز CAP في إسبانيا</h1>
-    <p>مراكز التكوين الرسمية للسائقين المهنيين</p>
+    <h1>{{ __("messages.cap_title") }}</h1>
+    <p>{{ __("messages.cap_subtitle") }}</p>
 </header>
 
 <div class="container">
 
     <div class="card">
-        <h2>🎓 ما هو CAP؟</h2>
+        <h2>{{ __("messages.cap_what") }}</h2>
         <p>
             CAP هو التأهيل المهني المطلوب للسائقين المهنيين في إسبانيا
             وفق الحالات التي ينص عليها القانون، ويشمل تكوين السائقين
@@ -102,7 +102,7 @@
     </div>
 
     <div class="card official">
-        <h2>🏛️ القائمة الرسمية للمراكز</h2>
+        <h2>{{ __("messages.cap_official") }}</h2>
 
         <p>
             تنشر وزارة النقل والتنقل المستدام الإسبانية قائمة بالمراكز
@@ -117,27 +117,27 @@
         <a class="button"
            href="https://cdn.transportes.gob.es/portal-web-transportes/transporte-terrestre/estadisticas-tt/webcentros.pdf"
            target="_blank">
-            📄 فتح القائمة الرسمية لمراكز CAP
+            {{ __("messages.cap_official_link") }}
         </a>
     </div>
 
     <div class="card">
-        <h2>📚 أنواع التكوين</h2>
+        <h2>{{ __("messages.cap_types") }}</h2>
 
         <ul>
-            <li>CAP التكوين الأولي</li>
-            <li>CAP التكوين المستمر</li>
-            <li>🚛 نقل البضائع للسائقين المهنيين</li>
-            <li>🚌 نقل الركاب</li>
-            <li>🛣️ السلامة والقيادة العقلانية</li>
-            <li>⏱️ أوقات القيادة والراحة</li>
-            <li>📟 استعمال جهاز التاكغراف</li>
-            <li>📦 تثبيت وحماية الحمولة</li>
+            <li>{{ __("messages.cap_initial") }}</li>
+            <li>{{ __("messages.cap_continuous") }}</li>
+            <li>{{ __("messages.cap_goods") }}</li>
+            <li>{{ __("messages.cap_passengers") }}</li>
+            <li>{{ __("messages.cap_safety") }}</li>
+            <li>{{ __("messages.cap_driving_rest") }}</li>
+            <li>{{ __("messages.cap_tachograph") }}</li>
+            <li>{{ __("messages.cap_load") }}</li>
         </ul>
     </div>
 
     <div class="card warning">
-        <h2>⚠️ تنبيه مهم للسائق المغربي</h2>
+        <h2>{{ __("messages.cap_warning") }}</h2>
 
         <p>
             لا تدفع لأي شخص يدعي أنه يستطيع بيعك CAP أو عقد عمل أو
@@ -151,15 +151,15 @@
     </div>
 
     <div class="card">
-        <h2>🔎 Edriouche Truck Job</h2>
+        <h2>{{ __("messages.cap_goal") }}</h2>
 
         <p>
             هدفنا هو مساعدة السائق المغربي على الوصول إلى المعلومات
             الرسمية، وتجنب الوسطاء والعروض الوهمية.
         </p>
 
-        <a class="button back" href="/spain">⬅️ العودة إلى دليل إسبانيا</a>
-        <a class="button back" href="/">🏠 الرئيسية</a>
+        <a class="button back" href="/spain">{{ __("messages.back_spain") }}</a>
+        <a class="button back" href="/">{{ __("messages.home") }}</a>
     </div>
 
 </div>

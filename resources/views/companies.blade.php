@@ -1,103 +1,27 @@
-@	
-ķ            text-align: center;
-            padding: 25px;
-            color: #666;
-        }
-.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:15px;}
-.links a{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:10px 16px;border-radius:12px;text-decoration:none;font-weight:700;color:#fff!important;background:linear-gradient(135deg,#1f4e79,#2e75b6);box-shadow:0 4px 10px rgba(0,0,0,.15);transition:.25s;box-sizing:border-box;}
-.links a:hover{transform:translateY(-2px);box-shadow:0 7px 16px rgba(0,0,0,.22);filter:brightness(1.08);}
-.links a:active{transform:scale(.97);}
-@media(max-width:600px){.links a{flex:1 1 100%;}}
-    
-/* Companies page readability improvement */
-body{font-size:18px;line-height:1.7}
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#1f4e79">
+<title>شركات النقل | Edriouche Truck Job</title>
+<style>
+body{text-align:center;padding:25px;color:#666;font-size:18px;line-height:1.7}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:15px}
+.links a{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:700;color:#fff!important;background:linear-gradient(135deg,#1f4e79,#2e75b6);box-shadow:0 4px 10px rgba(0,0,0,.15);transition:.25s;box-sizing:border-box;font-size:18px}
+.links a:hover{transform:translateY(-2px);box-shadow:0 7px 16px rgba(0,0,0,.22);filter:brightness(1.08)}
+.links a:active{transform:scale(.97)}
 h1{font-size:clamp(28px,5vw,38px)}
 h2{font-size:clamp(24px,4vw,32px)}
 h3{font-size:clamp(21px,3.5vw,27px)}
 p{font-size:18px;line-height:1.8}
-.links a{font-size:18px;min-height:52px;padding:12px 18px}
 input,button{font-size:18px}
-@media(max-width:600px){
-body{font-size:17px}
-p{font-size:17px;line-height:1.75}
-.links a{font-size:18px;min-height:54px}
-}
-
+@media(max-width:600px){body{font-size:17px;padding:15px}p{font-size:17px;line-height:1.75}.links a{flex:1 1 100%;font-size:18px;min-height:54px}}
 </style>
-
-<style>
-body{
-    font-size:18px;
-}
-.container{
-    font-size:18px;
-}
-.company{
-    font-size:18px;
-}
-.company h3{
-    font-size:21px;
-    line-height:1.5;
-    margin-bottom:10px;
-}
-.company .meta{
-    font-size:18px;
-    line-height:1.9;
-}
-.company .badge{
-    font-size:16px;
-}
-.company .actions a,
-.links a{
-    font-size:17px;
-}
-#companies p,
-section p{
-    font-size:18px;
-    line-height:2;
-}
-section h2{
-    font-size:26px;
-    line-height:1.6;
-}
-section h3{
-    font-size:21px;
-    line-height:1.6;
-}
-.note{
-    font-size:18px;
-    line-height:2;
-}
-@media(max-width:600px){
-    body,
-    .container{
-        font-size:18px;
-    }
-    .company h3{
-        font-size:20px;
-    }
-    .company .meta,
-    #companies p,
-    section p,
-    .note{
-        font-size:18px;
-        line-height:2;
-    }
-    section h2{
-        font-size:24px;
-    }
-    section h3{
-        font-size:20px;
-    }
-}
-</style>
-
 </head>
-
 <body>
-
 <header>
-    <h1>🚛 Edriouche Truck Job</h1>
+<h1>🚛 Edriouche Truck Job</h1>
     <p>🏢 شركات النقل</p>
 </header>
 
