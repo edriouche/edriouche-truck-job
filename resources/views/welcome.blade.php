@@ -1002,5 +1002,10 @@
 
 </footer>
 
+<div style="text-align:center;margin:25px 0;">
+<a href="/tachograph-guide" style="display:inline-block;background:#075aaa;color:white;padding:13px 22px;border-radius:8px;text-decoration:none;font-weight:bold;">
+🧭 بوصلة السائق المغربي في أوروبا
+</a>
+</div>
 </body>
 </html>
