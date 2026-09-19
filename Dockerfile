@@ -30,8 +30,6 @@ COPY docker/apache.conf /etc/apache2/sites-available/000-default.conf
 
 RUN sed -i 's/Listen 80/Listen 3000/' /etc/apache2/ports.conf
 
-RUN sed -i 's/^export APACHE_RUN_USER=.*/export APACHE_RUN_USER=root/' /etc/apache2/envvars && \
-    sed -i 's/^export APACHE_RUN_GROUP=.*/export APACHE_RUN_GROUP=root/' /etc/apache2/envvars
 
 EXPOSE 3000
 
