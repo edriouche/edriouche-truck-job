@@ -407,7 +407,13 @@
 
 <section style="text-align:center;margin:25px 0;">
     <h2>🏢 شركات النقل واللوجستيك</h2>
-
+    @if(app()->getLocale() === "es")
+        <a href="/gallery">📸 Galería de fotos y vídeos</a>
+    @elseif(app()->getLocale() === "fr")
+        <a href="/gallery">📸 Galerie photos et vidéos</a>
+    @else
+        <a href="/gallery">📸 معرض الصور والفيديوهات</a>
+    @endif
 </section>
         </div>
     </div>
@@ -436,7 +442,7 @@
             <a href="/companies">🏢 Empresas de transporte</a><br>
             <a href="/morocco-transport-training">🇲🇦 Transporte y formación en Marruecos</a><br>
             <a href="/spain-jobs">🇪🇸 Trabajo en España</a><br>
-            <a href="/spanish-companies">🏢 Empresas españolas</a>
+            <a href="/spain-companies">🏢 Empresas españolas</a>
         </div>
         <div class="card">
             <div class="icon">📚</div>
@@ -465,7 +471,7 @@
             <a href="/companies">🏢 Entreprises de transport</a><br>
             <a href="/morocco-transport-training">🇲🇦 Transport et formation au Maroc</a><br>
             <a href="/spain-jobs">🇪🇸 Travail en Espagne</a><br>
-            <a href="/spanish-companies">🏢 Entreprises espagnoles</a>
+            <a href="/spain-companies">🏢 Entreprises espagnoles</a>
         </div>
         <div class="card">
             <div class="icon">📚</div>
@@ -494,7 +500,7 @@
             <a href="/companies">🏢 شركات النقل</a><br>
             <a href="/morocco-transport-training">🇲🇦 النقل والتكوين بالمغرب</a><br>
             <a href="/spain-jobs">🇪🇸 العمل في إسبانيا</a><br>
-            <a href="/spanish-companies">🏢 الشركات الإسبانية</a>
+            <a href="/spain-companies">🏢 الشركات الإسبانية</a>
         </div>
         <div class="card">
             <div class="icon">📚</div>
@@ -1056,5 +1062,8 @@
 </footer>
 
 
+<div style="text-align:center; margin:20px 0;">
+    <img src="{{ asset('storage/images/file_00000000f1fc81f4b24badb6cdf22b78.png') }}" alt="Edriouche Truck Job" style="max-width:100%; height:auto;">
+</div>
 </body>
 </html>

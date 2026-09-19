@@ -96,3 +96,14 @@ Route::get('/morocco-transport-training', function () {
     };
 });
 
+
+Route::view('/spanish-companies', 'spanish-companies')->name('spanish-companies');
+
+Route::get('/gallery', [\App\Http\Controllers\GalleryController::class, 'index'])->name('gallery');
+
+Route::post('/gallery', [\App\Http\Controllers\GalleryController::class, 'store'])->middleware('auth')->name('gallery.store');
+Route::delete('/gallery/{galleryItem}', [\App\Http\Controllers\GalleryController::class, 'destroy'])->middleware('auth')->name('gallery.destroy');
+
+Route::get('/gallery/login', [\App\Http\Controllers\GalleryAuthController::class, 'login'])->name('login');
+Route::post('/gallery/login', [\App\Http\Controllers\GalleryAuthController::class, 'authenticate'])->name('gallery.authenticate');
+Route::post('/gallery/logout', [\App\Http\Controllers\GalleryAuthController::class, 'logout'])->name('gallery.logout');
