@@ -3,8 +3,8 @@ FROM php:8.5-apache
 RUN apt-get update && apt-get install -y \
     git \
     unzip \
-    libzip-dev \
-    && docker-php-ext-install pdo_mysql zip
+    libzip-dev libsqlite3-dev \
+    && docker-php-ext-install pdo_mysql pdo_sqlite zip
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
@@ -43,3 +43,7 @@ ENV VIEW_COMPILED_PATH=/tmp
 ENV LOG_CHANNEL=stderr
 ENV SESSION_DRIVER=cookie
 ENV CACHE_STORE=array
+
+COPY docker/start.sh /usr/local/bin/start.sh
+RUN chmod +x /usr/local/bin/start.sh
+CMD ["/usr/local/bin/start.sh"]
