@@ -7,6 +7,8 @@ mkdir -p /data
 
 export DB_CONNECTION=sqlite
 export DB_DATABASE=/data/database.sqlite
+export GALLERY_STORAGE_PATH=/data/gallery
+mkdir -p /data/gallery
 
 if [ ! -f /data/database.sqlite ]; then
     cp /var/www/html/database/database.sqlite /data/database.sqlite
