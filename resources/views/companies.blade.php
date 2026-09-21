@@ -20,6 +20,7 @@ input,button{font-size:18px}
 </style>
 </head>
 <body>
+<div style="text-align:center;padding:12px;font-size:16px;">🇲🇦 العربية | <a href="/lang/es?redirect=companies">🇪🇸 Español</a> | <a href="/lang/fr?redirect=companies">🇫🇷 Français</a></div>
 <header>
 <h1>🚛 Edriouche Truck Job</h1>
     <p>🏢 شركات النقل</p>
@@ -217,6 +218,100 @@ input,button{font-size:18px}
 </div>
 
 
+
+<section style="margin-top:40px;padding:28px;background:#eef5fb;border-radius:20px;">
+<h2 style="text-align:center;">👨‍🚛 {{ __('فرص السائقين: مبتدئ وخبرة') }}</h2>
+
+@if(app()->getLocale() === 'es')
+<p style="text-align:center;line-height:1.9;">Ofertas y contactos verificados recientemente. Comprueba siempre que la vacante siga abierta antes de enviar documentos.</p>
+@elseif(app()->getLocale() === 'fr')
+<p style="text-align:center;line-height:1.9;">Offres et contacts vérifiés récemment. Vérifiez toujours que le poste est encore ouvert avant d’envoyer vos documents.</p>
+@else
+<p style="text-align:center;line-height:1.9;">عروض واتصالات تم التحقق منها مؤخراً. تأكد دائماً من استمرار العرض قبل إرسال وثائقك.</p>
+@endif
+
+<div style="display:grid;gap:18px;margin-top:25px;">
+
+<article style="background:#fff;padding:20px;border-radius:16px;">
+<h3>🟢 ELITE INTERIM MAROC</h3>
+@if(app()->getLocale() === 'es')
+<p>📍 Casablanca — Conductor de vehículo pesado. El anuncio publicado el 15/09/2026 incluye candidatos desde menos de 2 años de experiencia.</p>
+<p>👨‍🚛 Perfil: principiante y experiencia según la oferta.</p>
+<a href="https://www.emploi.ma/offre-emploi-maroc/chauffeur-poids-lourd-casablanca-9584987" target="_blank" rel="noopener">📄 Ver oferta</a>
+<a href="https://eliteinterim.ma/" target="_blank" rel="noopener">📞 Contacto / candidatura</a>
+@elseif(app()->getLocale() === 'fr')
+<p>📍 Casablanca — Chauffeur Poids Lourd. L’annonce publiée le 15/09/2026 indique des profils à partir de moins de 2 ans d’expérience.</p>
+<p>👨‍🚛 Profil : débutant et expérimenté selon l’offre.</p>
+<a href="https://www.emploi.ma/offre-emploi-maroc/chauffeur-poids-lourd-casablanca-9584987" target="_blank" rel="noopener">📄 Voir l’offre</a>
+<a href="https://eliteinterim.ma/" target="_blank" rel="noopener">📞 Contact / candidature</a>
+@else
+<p>📍 الدار البيضاء — سائق شاحنة. إعلان منشور بتاريخ 15/09/2026 ويشمل مستوى خبرة أقل من سنتين.</p>
+<p>👨‍🚛 النوع: مبتدئ وخبرة حسب العرض.</p>
+<a href="https://www.emploi.ma/offre-emploi-maroc/chauffeur-poids-lourd-casablanca-9584987" target="_blank" rel="noopener">📄 الاطلاع على العرض</a>
+<a href="https://eliteinterim.ma/" target="_blank" rel="noopener">📞 التواصل / الترشيح</a>
+@endif
+</article>
+
+<article style="background:#fff;padding:20px;border-radius:16px;">
+<h3>🟢 TECTRA RECRUTEMENT MAROC</h3>
+@if(app()->getLocale() === 'es')
+<p>📍 Casablanca — Conductor con permisos C/D. Oferta publicada el 08/09/2026 y clasificada para principiantes con menos de 2 años.</p>
+<a href="https://www.emploi.ma/offre-emploi-maroc/chauffeur-permis-c-casablanca-9572153" target="_blank" rel="noopener">📄 Ver oferta</a>
+<a href="https://tectra.ma/candidature.php" target="_blank" rel="noopener">📞 Candidatura</a>
+@elseif(app()->getLocale() === 'fr')
+<p>📍 Casablanca — Chauffeur permis C/D. Offre publiée le 08/09/2026 et classée pour débutants avec moins de 2 ans d’expérience.</p>
+<a href="https://www.emploi.ma/offre-emploi-maroc/chauffeur-permis-c-casablanca-9572153" target="_blank" rel="noopener">📄 Voir l’offre</a>
+<a href="https://tectra.ma/candidature.php" target="_blank" rel="noopener">📞 Candidature</a>
+@else
+<p>📍 الدار البيضاء — سائق برخصة C/D. عرض منشور بتاريخ 08/09/2026 ومصنف للمبتدئين أقل من سنتين.</p>
+<a href="https://www.emploi.ma/offre-emploi-maroc/chauffeur-permis-c-casablanca-9572153" target="_blank" rel="noopener">📄 الاطلاع على العرض</a>
+<a href="https://tectra.ma/candidature.php" target="_blank" rel="noopener">📞 الترشيح المباشر</a>
+@endif
+</article>
+
+<article style="background:#fff;padding:20px;border-radius:16px;">
+<h3>🔵 JANOU TRANSPORT</h3>
+@if(app()->getLocale() === 'es')
+<p>🌍 Transporte internacional — Permiso C/EC + FCO/FCI + tarjeta de conductor. La oferta publicada el 02/09/2026 exige experiencia confirmada en transporte internacional.</p>
+<p>📧 recrutement@janoutransport.com</p>
+@elseif(app()->getLocale() === 'fr')
+<p>🌍 Transport international — Permis C/EC + FCO/FCI + carte conducteur. L’offre publiée le 02/09/2026 demande une expérience confirmée en transport international.</p>
+<p>📧 recrutement@janoutransport.com</p>
+@else
+<p>🌍 نقل دولي — رخصة C/EC + FCO/FCI + بطاقة السائق. العرض المنشور بتاريخ 02/09/2026 يطلب خبرة مؤكدة في النقل الدولي.</p>
+<p>📧 recrutement@janoutransport.com</p>
+@endif
+<a href="mailto:recrutement@janoutransport.com">📧 {{ __('التواصل / Contact / Contacto') }}</a>
+</article>
+
+<article style="background:#fff;padding:20px;border-radius:16px;">
+<h3>🔵 Transports Naceur (STN)</h3>
+@if(app()->getLocale() === 'es')
+<p>📍 Casablanca + nacional — Conductor de vehículo pesado ADR. C/EC + ADR obligatorio y mínimo 3 años de experiencia.</p>
+<a href="https://www.stn.ma/recrutement.html" target="_blank" rel="noopener">📄 Ver ofertas y candidatura</a>
+<a href="mailto:recrutement@stn.ma">📧 recrutement@stn.ma</a>
+@elseif(app()->getLocale() === 'fr')
+<p>📍 Casablanca + national — Chauffeur Poids Lourd ADR. Permis C/EC + ADR obligatoire et minimum 3 ans d’expérience.</p>
+<a href="https://www.stn.ma/recrutement.html" target="_blank" rel="noopener">📄 Offres et candidature</a>
+<a href="mailto:recrutement@stn.ma">📧 recrutement@stn.ma</a>
+@else
+<p>📍 الدار البيضاء + وطني — سائق شاحنة ADR. رخصة C/EC + ADR إلزامية وخبرة لا تقل عن 3 سنوات.</p>
+<a href="https://www.stn.ma/recrutement.html" target="_blank" rel="noopener">📄 عروض العمل والترشيح</a>
+<a href="mailto:recrutement@stn.ma">📧 recrutement@stn.ma</a>
+@endif
+</article>
+
+</div>
+
+@if(app()->getLocale() === 'es')
+<p style="margin-top:20px;font-size:15px;">⚠️ Una oferta puede cerrarse o cambiar. No pagues a intermediarios por una promesa de empleo.</p>
+@elseif(app()->getLocale() === 'fr')
+<p style="margin-top:20px;font-size:15px;">⚠️ Une offre peut être clôturée ou modifiée. Ne payez jamais un intermédiaire pour une promesse d’emploi.</p>
+@else
+<p style="margin-top:20px;font-size:15px;">⚠️ يمكن أن يغلق العرض أو يتغير. لا تدفع لأي وسيط مقابل وعد بالتوظيف.</p>
+@endif
+</section>
+
 <section style="margin-top:40px;padding:28px;background:#f7f9fc;border-radius:20px;">
 <h2 style="text-align:center;">🚛 {{ __('دليل السائق المغربي: من المبتدئ إلى الاحتراف') }}</h2>
 <p style="text-align:center;line-height:1.9;font-size:17px;">هذا الدليل يساعد السائق على تجهيز نفسه للبحث عن العمل والتقدم إلى الشركات بطريقة مهنية ومنظمة.</p>
@@ -266,7 +361,30 @@ input,button{font-size:18px}
 </div>
 </section>
 
-<section style="margin-top:30px;padding:25px;background:#f5f9fc;border-radius:20px;"><h2 style="text-align:center;">🇲🇦 شركات مغربية تبحث عن سائقين</h2><p style="text-align:center;line-height:1.9;">فرص منشورة أو حديثة — تحقق من توفر المنصب قبل إرسال الوثائق.</p><div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;"><h3>🚛 MAROTRANS — طنجة والقنيطرة</h3><p>سائقو شاحنات ثقيلة — رخصة EC وخبرة مهنية.</p><p>🟢 إعلان حديث</p></div><div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;"><h3>🚛 Group Inter Five — طنجة</h3><p>سائق مهني دولي.</p><p>📧 contact@groupinterfive.com</p><p>🟢 إعلان حديث</p></div><div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;"><h3>🚛 GRAVILIS — طنجة</h3><p>سائق شاحنة ثقيلة.</p><p>🟡 تحقق من توفر المنصب قبل التقديم.</p></div></section>
+<section style="margin-top:30px;padding:25px;background:#f5f9fc;border-radius:20px;">
+<h2 style="text-align:center;">🇲🇦 شركات مغربية: فرص ومتابعة التوظيف</h2>
+<p style="text-align:center;line-height:1.9;">معلومات منشورة أو حديثة. تحقق دائمًا من استمرار العرض قبل إرسال الوثائق.</p>
+
+<div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;">
+<h3>🚛 MAROTRANS — طنجة / القنيطرة</h3>
+<p>سائقو شاحنات ثقيلة — رخصة EC وخبرة مهنية مطلوبة حسب العرض.</p>
+<p>🔵 تحقق من شروط الخبرة وتوفر المنصب قبل التقديم.</p>
+<a href="https://www.jobsquare.ma/job/15504/chauffeurs-poids-lourds-h-f-permis-ec-k%C3%A9nitra/" target="_blank" rel="noopener">📄 مصدر العرض</a>
+</div>
+
+<div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;">
+<h3>🚛 Group Inter Five — طنجة</h3>
+<p>شركة مرتبطة بالنقل الدولي والسائقين المهنيين.</p>
+<p>⚪ لا نعتبر وجود وظيفة حالية مؤكدًا هنا. تحقق من الشركة مباشرة قبل التقديم.</p>
+</div>
+
+<div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;">
+<h3>🚛 GRAVILIS — طنجة</h3>
+<p>نشاط مرتبط بالنقل والشاحنات.</p>
+<p>⚪ لا نعتبر وجود وظيفة حالية مؤكدًا هنا. تحقق من توفر المنصب قبل التقديم.</p>
+</div>
+
+</section>
 <footer>
     © 2026 Edriouche Truck Job
 </footer>
