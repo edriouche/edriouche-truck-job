@@ -1,6 +1,8 @@
 #!/bin/sh
 set -e
 
+echo "START.SH IS RUNNING" >&2
+
 mkdir -p /data
 
 export DB_CONNECTION=sqlite

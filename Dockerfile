@@ -30,7 +30,6 @@ COPY docker/apache.conf /etc/apache2/sites-available/000-default.conf
 
 RUN sed -i 's/Listen 80/Listen 3000/' /etc/apache2/ports.conf
 
-
 EXPOSE 3000
 
 ENV PORT=3000
@@ -44,4 +43,7 @@ ENV CACHE_STORE=array
 
 COPY docker/start.sh /usr/local/bin/start.sh
 RUN chmod +x /usr/local/bin/start.sh
+
+RUN sed -i 's/^export APACHE_RUN_USER=.*/export APACHE_RUN_USER=root/' /etc/apache2/envvars && sed -i 's/^export APACHE_RUN_GROUP=.*/export APACHE_RUN_GROUP=root/' /etc/apache2/envvars
+
 CMD ["/usr/local/bin/start.sh"]
