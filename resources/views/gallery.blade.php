@@ -83,6 +83,16 @@
     <h1>📸 معرض الصور والفيديوهات</h1>
     <p class="intro">صور وفيديوهات من عالم النقل والشاحنات.</p>
 
+    <form action="{{ route('gallery.store') }}" method="POST" enctype="multipart/form-data" style="background:#fff;padding:18px;border-radius:12px;margin-bottom:25px;text-align:center;">
+        @csrf
+        <h3>📤 إضافة صور أو فيديوهات</h3>
+        <input type="file" name="media[]" accept="image/*,video/*" multiple required>
+        <br><br>
+        <button type="submit" style="padding:10px 20px;border:0;border-radius:8px;cursor:pointer;">
+            رفع الملفات
+        </button>
+    </form>
+
     @if($items->count())
         <div class="gallery">
 
