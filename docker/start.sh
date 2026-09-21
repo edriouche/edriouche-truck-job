@@ -10,6 +10,9 @@ export DB_DATABASE=/data/database.sqlite
 export GALLERY_STORAGE_PATH=/data/gallery
 mkdir -p /data/gallery
 
+rm -rf /var/www/html/public/storage
+ln -s /data/gallery /var/www/html/public/storage
+
 if [ ! -f /data/database.sqlite ]; then
     cp /var/www/html/database/database.sqlite /data/database.sqlite
 fi
