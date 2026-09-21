@@ -4,9 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>معرض الصور والفيديوهات - Edriouche Truck Job</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .intro {
+            text-align: center;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+
+        .item {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,.12);
+        }
+
+        .item img,
+        .item video {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+            background: #111;
+        }
+
+        .empty {
+            text-align: center;
+            background: #fff;
+            padding: 35px 20px;
+            border-radius: 12px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 12px;
+            }
+
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+
+            .item img,
+            .item video {
+                height: 170px;
+            }
+        }
+    </style>
 </head>
+
 <body>
+<div class="container">
+
     <h1>📸 معرض الصور والفيديوهات</h1>
-    <p>صور وفيديوهات من عالم النقل والشاحنات.</p>
+    <p class="intro">صور وفيديوهات من عالم النقل والشاحنات.</p>
+
+    @if($items->count())
+        <div class="gallery">
+
+            @foreach($items as $item)
+                <div class="item">
+
+                    @if($item->type === 'video')
+                        <video controls preload="metadata">
+                            <source src="{{ asset('storage/' . $item->path) }}">
+                            متصفحك لا يدعم تشغيل الفيديو.
+                        </video>
+                    @else
+                        <a href="{{ asset('storage/' . $item->path) }}" target="_blank">
+                            <img
+                                src="{{ asset('storage/' . $item->path) }}"
+                                alt="صورة من Edriouche Truck Job"
+                                loading="lazy"
+                            >
+                        </a>
+                    @endif
+
+                </div>
+            @endforeach
+
+        </div>
+    @else
+        <div class="empty">
+            <h2>📷 لا توجد صور أو فيديوهات حالياً</h2>
+            <p>سيتم إضافة محتوى المعرض هنا.</p>
+        </div>
+    @endif
+
+</div>
 </body>
 </html>
