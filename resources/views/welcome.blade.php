@@ -518,7 +518,8 @@
             <a href="/europe-documents">🌍 وثائق أوروبا</a><br>
             <a href="/cmr">📄 النقل الدولي — CMR</a><br>
             <a href="/cv-builder">📝 إنشاء CV</a><br>
-            <a href="/truck-checklist">🚛 فحص الشاحنة</a>
+            <a href="/truck-checklist">🚛 فحص الشاحنة</a><br>
+            <a href="/constat-amiable">🤝 المعاينة الودية</a>
         </div>
         @endif
     </div>
