@@ -107,3 +107,5 @@ Route::delete('/gallery/{galleryItem}', [\App\Http\Controllers\GalleryController
 Route::get('/gallery/login', [\App\Http\Controllers\GalleryAuthController::class, 'login'])->name('login');
 Route::post('/gallery/login', [\App\Http\Controllers\GalleryAuthController::class, 'authenticate'])->name('gallery.authenticate');
 Route::post('/gallery/logout', [\App\Http\Controllers\GalleryAuthController::class, 'logout'])->name('gallery.logout');
+
+Route::view('/constat-amiable', 'constat-amiable');
