@@ -98,7 +98,15 @@
 
             @foreach($items as $item)
                 <div class="item">
-
+<form action="{{ route('gallery.destroy', $item) }}" method="POST" style="margin-top:8px;text-align:center;">
+    @csrf
+    @method('DELETE')
+    <button type="submit"
+            onclick="return confirm('هل تريد حذف هذا الملف؟');"
+            style="background:#dc3545;color:white;border:0;padding:8px 14px;border-radius:8px;cursor:pointer;">
+        🗑️ حذف
+    </button>
+</form>
                     @if($item->type === 'video')
                         <video controls preload="metadata">
                             <source src="{{ asset('storage/' . $item->path) }}">
