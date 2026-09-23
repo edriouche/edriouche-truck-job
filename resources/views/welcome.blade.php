@@ -1063,8 +1063,37 @@
 </footer>
 
 
+@php
+    $homeImage = 'images/file_00000000f1fc81f4b24badb6cdf22b78.png';
+    $homeImageExists = \Illuminate\Support\Facades\Storage::disk('public')->exists($homeImage);
+
+    $caption = \Illuminate\Support\Facades\Storage::disk('public')->exists('images/home_image_caption.txt')
+        ? \Illuminate\Support\Facades\Storage::disk('public')->get('images/home_image_caption.txt')
+        : '';
+@endphp
+
+@if($homeImageExists)
 <div style="text-align:center; margin:20px 0;">
-    <img src="{{ asset('storage/images/file_00000000f1fc81f4b24badb6cdf22b78.png') }}" alt="Edriouche Truck Job" style="max-width:100%; height:auto;">
+    <img src="{{ asset('storage/' . $homeImage) }}" alt="Edriouche Truck Job" style="max-width:100%; height:auto;">
+
+    @if($caption)
+        <div style="margin-top:10px;">{{ $caption }}</div>
+    @endif
+
+    @auth
+        <form method="POST" action="{{ route('home-image.caption') }}" style="margin-top:10px;">
+            @csrf
+            <input type="text" name="caption" value="{{ $caption }}" placeholder="اكتب موضوع الصورة" maxlength="200" style="width:80%;padding:8px;">
+            <button type="submit">✏️ حفظ الموضوع</button>
+        </form>
+
+        <form method="POST" action="{{ route('home-image.destroy') }}" style="margin-top:8px;">
+            @csrf
+            @method('DELETE')
+            <button type="submit" onclick="return confirm('هل تريد حذف الصورة وموضوعها؟')">🗑️ حذف الصورة</button>
+        </form>
+    @endauth
 </div>
+@endif
 </body>
 </html>
