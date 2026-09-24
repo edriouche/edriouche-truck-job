@@ -9,5 +9,6 @@ class GalleryItem extends Model
     protected $fillable = [
         'type',
         'path',
+        'caption',
     ];
 }

@@ -35,6 +35,19 @@ class GalleryController extends Controller
         return redirect()->route('gallery');
     }
 
+    public function updateCaption(Request $request, GalleryItem $galleryItem)
+    {
+        $request->validate([
+            'caption' => ['nullable', 'string', 'max:500'],
+        ]);
+
+        $galleryItem->update([
+            'caption' => $request->input('caption'),
+        ]);
+
+        return redirect()->route('gallery');
+    }
+
     public function destroy(GalleryItem $galleryItem)
     {
         Storage::disk('public')->delete($galleryItem->path);

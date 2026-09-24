@@ -103,6 +103,7 @@ Route::get('/gallery', [\App\Http\Controllers\GalleryController::class, 'index']
 
 Route::post('/gallery', [\App\Http\Controllers\GalleryController::class, 'store'])->middleware('auth')->name('gallery.store');
 Route::delete('/gallery/{galleryItem}', [\App\Http\Controllers\GalleryController::class, 'destroy'])->middleware('auth')->name('gallery.destroy');
+Route::post('/gallery/{galleryItem}/caption', [\App\Http\Controllers\GalleryController::class, 'updateCaption'])->middleware('auth')->name('gallery.caption');
 
 Route::get('/gallery/login', [\App\Http\Controllers\GalleryAuthController::class, 'login'])->name('login');
 Route::post('/gallery/login', [\App\Http\Controllers\GalleryAuthController::class, 'authenticate'])->name('gallery.authenticate');

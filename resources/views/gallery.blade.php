@@ -83,6 +83,7 @@
     <h1>📸 معرض الصور والفيديوهات</h1>
     <p class="intro">صور وفيديوهات من عالم النقل والشاحنات.</p>
 
+    @auth
     <form action="{{ route('gallery.store') }}" method="POST" enctype="multipart/form-data" style="background:#fff;padding:18px;border-radius:12px;margin-bottom:25px;text-align:center;">
         @csrf
         <h3>📤 إضافة صور أو فيديوهات</h3>
@@ -92,21 +93,40 @@
             رفع الملفات
         </button>
     </form>
+    @endauth
 
     @if($items->count())
         <div class="gallery">
 
             @foreach($items as $item)
                 <div class="item">
-<form action="{{ route('gallery.destroy', $item) }}" method="POST" style="margin-top:8px;text-align:center;">
-    @csrf
-    @method('DELETE')
-    <button type="submit"
-            onclick="return confirm('هل تريد حذف هذا الملف؟');"
-            style="background:#dc3545;color:white;border:0;padding:8px 14px;border-radius:8px;cursor:pointer;">
-        🗑️ حذف
-    </button>
-</form>
+                    @auth
+                    <div style="padding:10px;text-align:center;">
+                        <form action="{{ route('gallery.caption', $item) }}" method="POST">
+                            @csrf
+                            <textarea name="caption"
+                                      rows="2"
+                                      maxlength="500"
+                                      placeholder="✏️ اكتب وصفًا أو نصًا للصورة..."
+                                      style="width:100%;box-sizing:border-box;padding:8px;border:1px solid #ddd;border-radius:8px;resize:vertical;">{{ $item->caption }}</textarea>
+                            <button type="submit"
+                                    style="margin-top:8px;background:#198754;color:white;border:0;padding:8px 14px;border-radius:8px;cursor:pointer;">
+                                ✏️ حفظ الكتابة
+                            </button>
+                        </form>
+
+                        <form action="{{ route('gallery.destroy', $item) }}" method="POST" style="margin-top:8px;">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit"
+                                    onclick="return confirm('هل تريد حذف هذا الملف؟');"
+                                    style="background:#dc3545;color:white;border:0;padding:8px 14px;border-radius:8px;cursor:pointer;">
+                                🗑️ حذف
+                            </button>
+                        </form>
+                    </div>
+                    @endauth
+
                     @if($item->type === 'video')
                         <video controls preload="metadata">
                             <source src="{{ asset('storage/' . $item->path) }}">
