@@ -1064,12 +1064,9 @@
 
 
 @php
-    $homeImage = 'images/file_00000000f1fc81f4b24badb6cdf22b78.png';
-    $homeImageExists = \Illuminate\Support\Facades\Storage::disk('public')->exists($homeImage);
-
-    $caption = \Illuminate\Support\Facades\Storage::disk('public')->exists('images/home_image_caption.txt')
-        ? \Illuminate\Support\Facades\Storage::disk('public')->get('images/home_image_caption.txt')
-        : '';
+    $homeImage = null;
+    $homeImageExists = false;
+    $caption = '';
 @endphp
 
 @if($homeImageExists)
