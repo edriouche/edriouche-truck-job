@@ -81,6 +81,9 @@
 <div class="container">
 
     <h1>📸 معرض الصور والفيديوهات</h1>
+    <a href="{{ url('/') }}" style="display:inline-block;margin:10px 0 20px;padding:10px 18px;background:#198754;color:white;text-decoration:none;border-radius:8px;">
+        🏠 العودة إلى الصفحة الرئيسية
+    </a>
     <p class="intro">صور وفيديوهات من عالم النقل والشاحنات.</p>
 
     @auth
