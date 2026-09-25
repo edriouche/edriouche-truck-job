@@ -105,6 +105,7 @@ Route::get('/morocco-transport-training', function () {
 Route::view('/spanish-companies', 'spanish-companies')->name('spanish-companies');
 
 Route::get('/gallery', [\App\Http\Controllers\GalleryController::class, 'index'])->name('gallery');
+Route::get('/gallery-media/{galleryItem}', [\App\Http\Controllers\GalleryController::class, 'media'])->name('gallery.media');
 
 Route::post('/gallery', [\App\Http\Controllers\GalleryController::class, 'store'])->middleware('auth')->name('gallery.store');
 Route::delete('/gallery/{galleryItem}', [\App\Http\Controllers\GalleryController::class, 'destroy'])->middleware('auth')->name('gallery.destroy');

@@ -35,6 +35,14 @@ class GalleryController extends Controller
         return redirect()->route('gallery');
     }
 
+    public function media(\Illuminate\Http\Request $request, GalleryItem $galleryItem)
+    {
+        return \Illuminate\Support\Facades\Storage::disk('public')->serve(
+            $request,
+            $galleryItem->path
+        );
+    }
+
     public function updateCaption(Request $request, GalleryItem $galleryItem)
     {
         $request->validate([

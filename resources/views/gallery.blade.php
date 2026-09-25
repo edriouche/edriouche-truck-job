@@ -224,13 +224,13 @@
 
                     @if($item->type === 'video')
                         <video controls preload="metadata">
-                            <source src="{{ url('/storage/' . $item->path) }}">
+                            <source src="{{ route('gallery.media', $item) }}">
                             متصفحك لا يدعم تشغيل الفيديو.
                         </video>
                     @else
-                        <a href="{{ url('/storage/' . $item->path) }}" target="_blank">
+                        <a href="{{ route('gallery.media', $item) }}" target="_blank">
                             <img
-                                src="{{ url('/storage/' . $item->path) }}"
+                                src="{{ route('gallery.media', $item) }}"
                                 alt="صورة من Edriouche Truck Job"
                                 loading="lazy"
                             >
