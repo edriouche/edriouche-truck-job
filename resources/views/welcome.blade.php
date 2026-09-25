@@ -405,14 +405,26 @@
         <div class="hero-photo">
             <img src="{{ asset('images/founder.jpg').'?v=2' }}" alt="محمد الدريوش مؤسس Edriouche Truck Job">
 
-<section style="text-align:center;margin:25px 0;">
+<section style="text-align:center;margin:30px 0;">
     <h2>🏢 شركات النقل واللوجستيك</h2>
     @if(app()->getLocale() === "es")
-        <a href="/gallery">📸 Galería de fotos y vídeos</a>
+        <a href="/gallery" style="display:inline-block;padding:18px 28px;border-radius:16px;background:#0b3a68;color:#fff;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.18);">
+            <div style="font-size:36px;">📸</div>
+            <div style="font-size:22px;font-weight:800;">Galería de fotos y vídeos</div>
+            <div style="font-size:14px;margin-top:6px;">Descubre fotos y vídeos del mundo del transporte y los camiones.</div>
+        </a>
     @elseif(app()->getLocale() === "fr")
-        <a href="/gallery">📸 Galerie photos et vidéos</a>
+        <a href="/gallery" style="display:inline-block;padding:18px 28px;border-radius:16px;background:#0b3a68;color:#fff;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.18);">
+            <div style="font-size:36px;">📸</div>
+            <div style="font-size:22px;font-weight:800;">Galerie photos et vidéos</div>
+            <div style="font-size:14px;margin-top:6px;">Découvrez des photos et vidéos du monde du transport et des camions.</div>
+        </a>
     @else
-        <a href="/gallery">📸 معرض الصور والفيديوهات</a>
+        <a href="/gallery" style="display:inline-block;padding:18px 28px;border-radius:16px;background:#0b3a68;color:#fff;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,.18);">
+            <div style="font-size:36px;">📸</div>
+            <div style="font-size:22px;font-weight:800;">معرض الصور والفيديوهات</div>
+            <div style="font-size:14px;margin-top:6px;">شاهد صورًا وفيديوهات من عالم النقل والشاحنات.</div>
+        </a>
     @endif
 </section>
         </div>
