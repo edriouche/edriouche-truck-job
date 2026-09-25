@@ -30,6 +30,64 @@
             margin-bottom: 25px;
         }
 
+        .actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 18px;
+            border: 0;
+            border-radius: 8px;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .home {
+            background: #198754;
+        }
+
+        .login {
+            background: #0d6efd;
+        }
+
+        .logout {
+            background: #6c757d;
+        }
+
+        .upload-box {
+            background: #fff;
+            padding: 18px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,.12);
+        }
+
+        .upload-box h2 {
+            margin-top: 0;
+        }
+
+        .upload-box input[type="file"] {
+            width: 100%;
+            box-sizing: border-box;
+            margin: 10px 0;
+        }
+
+        .upload-button {
+            background: #198754;
+        }
+
+        .help {
+            color: #666;
+            font-size: 14px;
+        }
+
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -50,6 +108,29 @@
             object-fit: cover;
             display: block;
             background: #111;
+        }
+
+        .caption-box {
+            padding: 10px;
+        }
+
+        .caption-box textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            resize: vertical;
+        }
+
+        .save-button {
+            margin-top: 8px;
+            background: #198754;
+        }
+
+        .delete-button {
+            margin-top: 8px;
+            background: #dc3545;
         }
 
         .empty {
@@ -81,49 +162,114 @@
 <div class="container">
 
     <h1>📸 معرض الصور والفيديوهات</h1>
-    <a href="{{ url('/') }}" style="display:inline-block;margin:10px 0 20px;padding:10px 18px;background:#198754;color:white;text-decoration:none;border-radius:8px;">
-        🏠 العودة إلى الصفحة الرئيسية
-    </a>
+
+    <div class="actions">
+        <a href="{{ url('/') }}" class="button home">
+            🏠 العودة إلى الصفحة الرئيسية
+        </a>
+
+        @auth
+            <form action="{{ route('gallery.logout') }}" method="POST">
+                @csrf
+                <button type="submit" class="button logout">
+                    🚪 تسجيل الخروج
+                </button>
+            </form>
+        @else
+            <a href="{{ route('login') }}" class="button login">
+                🔐 دخول إدارة المعرض
+            </a>
+        @endauth
+    </div>
+
     <p class="intro">صور وفيديوهات من عالم النقل والشاحنات.</p>
 
+    @auth
+        <div class="upload-box">
+            <h2>📤 رفع صور وفيديوهات</h2>
+
+            <form action="{{ route('gallery.store') }}" method="POST" enctype="multipart/form-data">
+                @csrf
+
+                <input
+                    type="file"
+                    name="media[]"
+                    accept="image/jpeg,image/png,image/webp,video/mp4,video/quicktime,video/webm"
+                    multiple
+                    required
+                >
+
+                <p class="help">
+                    يمكنك اختيار حتى 20 ملفًا. الحد الأقصى لكل ملف 50MB.
+                </p>
+
+                @if ($errors->any())
+                    <div style="color:#dc3545;margin-bottom:10px;">
+                        {{ $errors->first() }}
+                    </div>
+                @endif
+
+                <button type="submit" class="button upload-button">
+                    📤 رفع الملفات
+                </button>
+            </form>
+        </div>
+    @endauth
 
     @if($items->count())
         <div class="gallery">
 
             @foreach($items as $item)
                 <div class="item">
-                    @auth
-                    <div style="padding:10px;text-align:center;">
-                        <form action="{{ route('gallery.caption', $item) }}" method="POST">
-                            @csrf
-                            <textarea name="caption"
-                                      rows="2"
-                                      maxlength="500"
-                                      placeholder="✏️ اكتب وصفًا أو نصًا للصورة..."
-                                      style="width:100%;box-sizing:border-box;padding:8px;border:1px solid #ddd;border-radius:8px;resize:vertical;">{{ $item->caption }}</textarea>
-                            <button type="submit"
-                                    style="margin-top:8px;background:#198754;color:white;border:0;padding:8px 14px;border-radius:8px;cursor:pointer;">
-                                ✏️ حفظ الكتابة
-                            </button>
-                        </form>
-
-                    </div>
-                    @endauth
 
                     @if($item->type === 'video')
                         <video controls preload="metadata">
-                            <source src="{{ asset('storage/' . $item->path) }}">
+                            <source src="{{ url('/storage/' . $item->path) }}">
                             متصفحك لا يدعم تشغيل الفيديو.
                         </video>
                     @else
-                        <a href="{{ asset('storage/' . $item->path) }}" target="_blank">
+                        <a href="{{ url('/storage/' . $item->path) }}" target="_blank">
                             <img
-                                src="{{ asset('storage/' . $item->path) }}"
+                                src="{{ url('/storage/' . $item->path) }}"
                                 alt="صورة من Edriouche Truck Job"
                                 loading="lazy"
                             >
                         </a>
                     @endif
+
+                    @auth
+                        <div class="caption-box">
+
+                            <form action="{{ route('gallery.caption', $item) }}" method="POST">
+                                @csrf
+
+                                <textarea
+                                    name="caption"
+                                    rows="2"
+                                    maxlength="500"
+                                    placeholder="✏️ اكتب وصفًا أو نصًا للصورة..."
+                                >{{ $item->caption }}</textarea>
+
+                                <button type="submit" class="button save-button">
+                                    ✏️ حفظ الكتابة
+                                </button>
+                            </form>
+
+                            <form
+                                action="{{ route('gallery.destroy', $item) }}"
+                                method="POST"
+                                onsubmit="return confirm('هل تريد حذف هذه الصورة أو الفيديو؟');"
+                            >
+                                @csrf
+                                @method('DELETE')
+
+                                <button type="submit" class="button delete-button">
+                                    🗑️ حذف
+                                </button>
+                            </form>
+
+                        </div>
+                    @endauth
 
                 </div>
             @endforeach
