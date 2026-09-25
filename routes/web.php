@@ -14,9 +14,6 @@ Route::get('/driver-guide', function () {
     };
 });
 
-Route::get('/jobs', function () {
-    return view('jobs');
-});
 
 Route::get('/companies', function () {
 
