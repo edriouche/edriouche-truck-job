@@ -438,11 +438,9 @@
         <div class="card">
             <div class="icon">💼</div>
             <h3>Trabajo y empresas</h3>
-            <a href="/driver-guide">🔎 Ofertas de trabajo</a><br>
-            <a href="/companies">🏢 Empresas de transporte</a><br>
             <a href="/morocco-transport-training">🇲🇦 Transporte y formación en Marruecos</a><br>
-            <a href="/spain-jobs">🇪🇸 Trabajo en España</a><br>
-            <a href="/spain-companies">🏢 Empresas españolas</a>
+            <a href="/companies">🇲🇦 Ofertas de trabajo en Marruecos</a><br>
+            <a href="/spain-companies">🇪🇸 Ofertas de trabajo en España</a>
         </div>
         <div class="card">
             <div class="icon">📚</div>
@@ -467,11 +465,9 @@
         <div class="card">
             <div class="icon">💼</div>
             <h3>Emploi et entreprises</h3>
-            <a href="/driver-guide">🔎 Offres d’emploi</a><br>
-            <a href="/companies">🏢 Entreprises de transport</a><br>
             <a href="/morocco-transport-training">🇲🇦 Transport et formation au Maroc</a><br>
-            <a href="/spain-jobs">🇪🇸 Travail en Espagne</a><br>
-            <a href="/spain-companies">🏢 Entreprises espagnoles</a>
+            <a href="/companies">🇲🇦 Offres d’emploi au Maroc</a><br>
+            <a href="/spain-companies">🇪🇸 Offres d’emploi en Espagne</a>
         </div>
         <div class="card">
             <div class="icon">📚</div>
@@ -496,11 +492,9 @@
         <div class="card">
             <div class="icon">💼</div>
             <h3>العمل والشركات</h3>
-            <a href="/driver-guide">🔎 عروض العمل</a><br>
-            <a href="/companies">🏢 شركات النقل</a><br>
             <a href="/morocco-transport-training">🇲🇦 النقل والتكوين بالمغرب</a><br>
-            <a href="/spain-jobs">🇪🇸 العمل في إسبانيا</a><br>
-            <a href="/spain-companies">🏢 الشركات الإسبانية</a>
+            <a href="/companies">🇲🇦 عروض العمل في المغرب</a><br>
+            <a href="/spain-companies">🇪🇸 عروض العمل في إسبانيا</a>
         </div>
         <div class="card">
             <div class="icon">📚</div>
