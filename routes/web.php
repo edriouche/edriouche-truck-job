@@ -6,6 +6,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/driver-guide', function () {
+    return match (app()->getLocale()) {
+        'es' => view('driver-guide-es'),
+        'fr' => view('driver-guide-fr'),
+        default => view('driver-guide-ar'),
+    };
+});
+
 Route::get('/jobs', function () {
     return view('jobs');
 });
