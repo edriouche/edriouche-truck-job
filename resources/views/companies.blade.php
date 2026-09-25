@@ -20,7 +20,7 @@ input,button{font-size:18px}
 </style>
 </head>
 <body>
-<div style="text-align:center;padding:12px;font-size:16px;">🇲🇦 العربية | <a href="/lang/es?redirect=companies">🇪🇸 Español</a> | <a href="/lang/fr?redirect=companies">🇫🇷 Français</a></div>
+<div style="text-align:center;padding:12px;font-size:16px;"><a href="/lang/ar?redirect=companies">🇲🇦 العربية</a> | <a href="/lang/es?redirect=companies">🇪🇸 Español</a> | <a href="/lang/fr?redirect=companies">🇫🇷 Français</a></div>
 <header>
 <h1>🚛 Edriouche Truck Job</h1>
     <p>🏢 شركات النقل</p>
@@ -44,47 +44,135 @@ input,button{font-size:18px}
 <div class="grid">
 <article class="company">
 <h3>🚛 FTA LOGISTICS</h3>
-<span class="badge">🇲🇦 طنجة</span>
-<p class="meta">نقل دولي ونقل بري ولوجستيك</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Tánger
+@elseif(app()->getLocale() === 'fr')
+Tanger
+@else
+طنجة
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Transporte internacional, transporte terrestre y logística
+@elseif(app()->getLocale() === 'fr')
+Transport international, transport routier et logistique
+@else
+نقل دولي ونقل بري ولوجستيك
+@endif
+</p>
 <div class="actions">
 <a href="https://www.fta.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 FSR – Fret Service Rood</h3>
-<span class="badge">🇲🇦 طنجة</span>
-<p class="meta">نقل بري وطني ودولي ولوجستيك ونقل بحري</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Tánger
+@elseif(app()->getLocale() === 'fr')
+Tanger
+@else
+طنجة
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Transporte terrestre nacional e internacional, logística y transporte marítimo
+@elseif(app()->getLocale() === 'fr')
+Transport routier national et international, logistique et transport maritime
+@else
+نقل بري وطني ودولي ولوجستيك ونقل بحري
+@endif
+</p>
 <div class="actions">
 <a href="https://www.fsr.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 TDL LOGISTICS</h3>
-<span class="badge">🇲🇦 الدار البيضاء</span>
-<p class="meta">نقل بري للبضائع وتوزيع وطني</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Casablanca
+@elseif(app()->getLocale() === 'fr')
+Casablanca
+@else
+الدار البيضاء
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Transporte terrestre de mercancías y distribución nacional
+@elseif(app()->getLocale() === 'fr')
+Transport routier de marchandises et distribution nationale
+@else
+نقل بري للبضائع وتوزيع وطني
+@endif
+</p>
 <div class="actions">
 <a href="https://tdl.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 SLINE</h3>
-<span class="badge">🇲🇦 الدار البيضاء</span>
-<p class="meta">نقل بري FTL/LTL ونقل مبرد وADR ومسارات المغرب–أوروبا</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Casablanca
+@elseif(app()->getLocale() === 'fr')
+Casablanca
+@else
+الدار البيضاء
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Transporte terrestre FTL/LTL, transporte refrigerado, ADR y rutas Marruecos–Europa
+@elseif(app()->getLocale() === 'fr')
+Transport routier FTL/LTL, transport frigorifique, ADR et lignes Maroc–Europe
+@else
+نقل بري FTL/LTL ونقل مبرد وADR ومسارات المغرب–أوروبا
+@endif
+</p>
 <div class="actions">
 <a href="https://www.sline.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 IRONLOG</h3>
-<span class="badge">🇲🇦 طنجة</span>
-<p class="meta">نقل وطني ودولي بري ولوجستيك</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Tánger
+@elseif(app()->getLocale() === 'fr')
+Tanger
+@else
+طنجة
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Transporte terrestre nacional e internacional y logística
+@elseif(app()->getLocale() === 'fr')
+Transport routier national et international et logistique
+@else
+نقل وطني ودولي بري ولوجستيك
+@endif
+</p>
 <div class="actions">
 <a href="https://www.ironlog.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 TRANSUNIVERS</h3>
-<span class="badge">🇲🇦 طنجة / الدار البيضاء</span>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Tánger / Casablanca
+@elseif(app()->getLocale() === 'fr')
+Tanger / Casablanca
+@else
+طنجة / الدار البيضاء
+@endif
+</span>
 <p class="meta">نقل وطني ودولي ولوجستيك</p>
 <div class="actions">
 <a href="https://www.transunivers.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
@@ -92,112 +180,336 @@ input,button{font-size:18px}
 </article>
 <article class="company">
 <h3>🚛 LOGIC TRANSPORT</h3>
-<span class="badge">🇲🇦 المغرب</span>
-<p class="meta">نقل بري وترانزيت وخدمات لوجستية</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Marruecos
+@elseif(app()->getLocale() === 'fr')
+Maroc
+@else
+المغرب
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Transporte terrestre, tránsito y servicios logísticos
+@elseif(app()->getLocale() === 'fr')
+Transport routier, transit et services logistiques
+@else
+نقل بري وترانزيت وخدمات لوجستية
+@endif
+</p>
 <div class="actions">
 <a href="https://www.logictransport.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 LIFEROAD LOGITRANS</h3>
-<span class="badge">🇲🇦 طنجة</span>
-<p class="meta">نقل بري دولي المغرب–أوروبا</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Tánger
+@elseif(app()->getLocale() === 'fr')
+Tanger
+@else
+طنجة
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Transporte terrestre internacional Marruecos–Europa
+@elseif(app()->getLocale() === 'fr')
+Transport routier international Maroc–Europe
+@else
+نقل بري دولي المغرب–أوروبا
+@endif
+</p>
 <div class="actions">
 <a href="https://liferoadlogitrans.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 MA LOGISTICS</h3>
-<span class="badge">🇲🇦 المغرب</span>
-<p class="meta">نقل بري دولي ولوجستيك</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Marruecos
+@elseif(app()->getLocale() === 'fr')
+Maroc
+@else
+المغرب
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Transporte terrestre internacional y logística
+@elseif(app()->getLocale() === 'fr')
+Transport routier international et logistique
+@else
+نقل بري دولي ولوجستيك
+@endif
+</p>
 <div class="actions">
 <a href="https://www.malogistics.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 M2TC</h3>
-<span class="badge">🇲🇦 المغرب</span>
-<p class="meta">نقل بري وبحري وجوي ونقل استثنائي</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Marruecos
+@elseif(app()->getLocale() === 'fr')
+Maroc
+@else
+المغرب
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Transporte terrestre, marítimo y aéreo y transporte excepcional
+@elseif(app()->getLocale() === 'fr')
+Transport routier, maritime et aérien et transport exceptionnel
+@else
+نقل بري وبحري وجوي ونقل استثنائي
+@endif
+</p>
 <div class="actions">
 <a href="https://m2tc.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 TRANSLOAD</h3>
-<span class="badge">🇲🇦 المغرب</span>
-<p class="meta">نقل بري وخدمات لوجستية</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Marruecos
+@elseif(app()->getLocale() === 'fr')
+Maroc
+@else
+المغرب
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Transporte terrestre y servicios logísticos
+@elseif(app()->getLocale() === 'fr')
+Transport routier et services logistiques
+@else
+نقل بري وخدمات لوجستية
+@endif
+</p>
 <div class="actions">
 <a href="https://www.transload.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 MABYA</h3>
-<span class="badge">🇲🇦 المغرب / أوروبا</span>
-<p class="meta">مجموعة نقل وعمليات نقل وطني ودولي</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Marruecos / Europa
+@elseif(app()->getLocale() === 'fr')
+Maroc / Europe
+@else
+المغرب / أوروبا
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Grupo de transporte y operaciones nacionales e internacionales
+@elseif(app()->getLocale() === 'fr')
+Groupe de transport et opérations nationales et internationales
+@else
+مجموعة نقل وعمليات نقل وطني ودولي
+@endif
+</p>
 <div class="actions">
 <a href="https://mabya.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 TRANSINES</h3>
-<span class="badge">🇲🇦 الدار البيضاء</span>
-<p class="meta">ترانزيت ونقل وتسليم للبضائع</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Casablanca
+@elseif(app()->getLocale() === 'fr')
+Casablanca
+@else
+الدار البيضاء
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Tránsito, transporte y entrega de mercancías
+@elseif(app()->getLocale() === 'fr')
+Transit, transport et livraison de marchandises
+@else
+ترانزيت ونقل وتسليم للبضائع
+@endif
+</p>
 <div class="actions">
 <a href="https://transines.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 SNTC</h3>
-<span class="badge">🇲🇦 أكادير / الدار البيضاء / طنجة</span>
-<p class="meta">ترانزيت ونقل دولي ولوجستيك</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Agadir / Casablanca / Tánger
+@elseif(app()->getLocale() === 'fr')
+Agadir / Casablanca / Tanger
+@else
+أكادير / الدار البيضاء / طنجة
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Tránsito, transporte internacional y logística
+@elseif(app()->getLocale() === 'fr')
+Transit, transport international et logistique
+@else
+ترانزيت ونقل دولي ولوجستيك
+@endif
+</p>
 <div class="actions">
 <a href="https://sntctransit.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 CHRONO TRUCK</h3>
-<span class="badge">🇲🇦 المغرب</span>
-<p class="meta">نقل دولي بري وبحري وجوي</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Marruecos
+@elseif(app()->getLocale() === 'fr')
+Maroc
+@else
+المغرب
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Transporte internacional terrestre, marítimo y aéreo
+@elseif(app()->getLocale() === 'fr')
+Transport international routier, maritime et aérien
+@else
+نقل دولي بري وبحري وجوي
+@endif
+</p>
 <div class="actions">
 <a href="https://chronotruck.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 ENERGICO TRAVAUX & TRANSPORT</h3>
-<span class="badge">🇲🇦 طنجة</span>
-<p class="meta">نقل مهني ونقل حاويات</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Tánger
+@elseif(app()->getLocale() === 'fr')
+Tanger
+@else
+طنجة
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Transporte profesional y transporte de contenedores
+@elseif(app()->getLocale() === 'fr')
+Transport professionnel et transport de conteneurs
+@else
+نقل مهني ونقل حاويات
+@endif
+</p>
 <div class="actions">
 <a href="https://energico.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 M&M RAG TRANS</h3>
-<span class="badge">🇲🇦 الدار البيضاء / طنجة</span>
-<p class="meta">لوجستيك دولي وشحن ونقل وترانزيت</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Casablanca / Tánger
+@elseif(app()->getLocale() === 'fr')
+Casablanca / Tanger
+@else
+الدار البيضاء / طنجة
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Logística internacional, carga, transporte y tránsito
+@elseif(app()->getLocale() === 'fr')
+Logistique internationale, fret, transport et transit
+@else
+لوجستيك دولي وشحن ونقل وترانزيت
+@endif
+</p>
 <div class="actions">
 <a href="https://mmragtrans.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 FWM TRANSIT</h3>
-<span class="badge">🇲🇦 طنجة</span>
-<p class="meta">ترانزيت ونقل دولي ونقل بري</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Tánger
+@elseif(app()->getLocale() === 'fr')
+Tanger
+@else
+طنجة
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Tránsito, transporte internacional y transporte terrestre
+@elseif(app()->getLocale() === 'fr')
+Transit, transport international et transport routier
+@else
+ترانزيت ونقل دولي ونقل بري
+@endif
+</p>
 <div class="actions">
 <a href="https://fwmtransit.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 AFRICA LOGISTICS PARTNER</h3>
-<span class="badge">🇲🇦 الدار البيضاء / طنجة</span>
-<p class="meta">نقل بري وخدمات لوجستية وطنية ودولية</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Casablanca / Tánger
+@elseif(app()->getLocale() === 'fr')
+Casablanca / Tanger
+@else
+الدار البيضاء / طنجة
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Transporte terrestre y servicios logísticos nacionales e internacionales
+@elseif(app()->getLocale() === 'fr')
+Transport routier et services logistiques nationaux et internationaux
+@else
+نقل بري وخدمات لوجستية وطنية ودولية
+@endif
+</p>
 <div class="actions">
 <a href="https://www.alp.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
 </article>
 <article class="company">
 <h3>🚛 TRANSIT EL MAROIZY</h3>
-<span class="badge">🇲🇦 الدار البيضاء</span>
-<p class="meta">ترانزيت ونقل بري وبحري وجوي</p>
+<span class="badge">🇲🇦
+@if(app()->getLocale() === 'es')
+Casablanca
+@elseif(app()->getLocale() === 'fr')
+Casablanca
+@else
+الدار البيضاء
+@endif
+</span>
+<p class="meta">
+@if(app()->getLocale() === 'es')
+Tránsito y transporte terrestre, marítimo y aéreo
+@elseif(app()->getLocale() === 'fr')
+Transit et transport routier, maritime et aérien
+@else
+ترانزيت ونقل بري وبحري وجوي
+@endif
+</p>
 <div class="actions">
 <a href="https://elmaroizygroupe.ma" target="_blank" rel="noopener">🌐 {{ __('الموقع الرسمي') }}</a>
 </div>
@@ -313,75 +625,106 @@ input,button{font-size:18px}
 </section>
 
 <section style="margin-top:40px;padding:28px;background:#f7f9fc;border-radius:20px;">
-<h2 style="text-align:center;">🚛 {{ __('دليل السائق المغربي: من المبتدئ إلى الاحتراف') }}</h2>
-<p style="text-align:center;line-height:1.9;font-size:17px;">هذا الدليل يساعد السائق على تجهيز نفسه للبحث عن العمل والتقدم إلى الشركات بطريقة مهنية ومنظمة.</p>
-
-<div style="margin-top:25px;">
-<h3>🟢 1. كيف تبدأ كسائق شاحنة؟</h3>
-<p style="line-height:2;">ابدأ بالتأكد من فئة رخصة السياقة المناسبة، ثم اكتسب التكوين والخبرة تدريجيًا. لا تبحث عن أول وظيفة فقط؛ ابحث عن المكان الذي يساعدك على بناء خبرة مهنية حقيقية.</p>
-
-<h3>📄 2. جهّز ملفك المهني</h3>
-<p style="line-height:2;">جهّز ملفًا مرتبًا يحتوي على السيرة الذاتية، صورة مهنية، رخصة السياقة، بطاقة السائق المهنية، شهادات التكوين والخبرة، وأي شهادات إضافية مطلوبة لنوع النقل الذي تريد العمل فيه.</p>
-
-<h3>📝 3. كيف تكتب CV احترافيًا؟</h3>
-<p style="line-height:2;">اكتب الاسم ووسائل الاتصال والمدينة، فئات الرخص، سنوات الخبرة، أنواع الشاحنات التي قدتها، أنواع النقل التي مارستها، الشهادات والتكوينات، واللغات. اجعل المعلومات واضحة وصادقة ومختصرة.</p>
-
-<h3>📸 4. الصورة المهنية</h3>
-<p style="line-height:2;">استعمل صورة حديثة وواضحة وملائمة للعمل، بخلفية بسيطة وملابس محترمة. تجنب الصور العائلية أو الصور غير الواضحة داخل CV.</p>
-
-<h3>📑 5. رتّب وثائقك</h3>
-<p style="line-height:2;">احتفظ بنسخ واضحة ومنظمة من وثائقك. وعند طلب الشركة ملف PDF، اجمع الوثائق المطلوبة فقط وبترتيب واضح.</p>
-
-<h3>🔎 6. كيف تبحث عن شركة مناسبة؟</h3>
-<p style="line-height:2;">ابدأ بموقع الشركة الرسمي وصفحة التوظيف الرسمية. تحقق من اسم الشركة ونشاطها ومعلومات الاتصال قبل إرسال طلبك. لا تعتمد على إعلان مجهول المصدر.</p>
-
-<h3>📧 7. كيف ترسل طلب العمل؟</h3>
-<p style="line-height:2;">اكتب رسالة قصيرة ومحترمة، اذكر فيها الوظيفة التي ترغب فيها، وأرفق CV والوثائق المطلوبة. استعمل البريد الإلكتروني أو منصة التوظيف الرسمية للشركة متى كانت متاحة.</p>
-
-<h3>🤝 8. كيف تستعد لمقابلة العمل؟</h3>
-<p style="line-height:2;">راجع معلومات الشركة، واعرف نوع الشاحنة والعمل والمسار المتوقع. حضّر وثائقك، وأجب بصدق عن خبرتك وقدرتك على تحمل مسؤولية الشاحنة والحمولة.</p>
-
-<h3>🚚 9. نصائح للسائق في أول عمل</h3>
-<p style="line-height:2;">افحص الشاحنة قبل الانطلاق، اهتم بالسلامة وتثبيت الحمولة، احترم تعليمات الشركة وقواعد الطريق، وسجّل الأعطال والملاحظات وأبلغ المسؤول عنها.</p>
-
-<h3>⚠️ 10. أخطاء يجب تجنبها</h3>
-<p style="line-height:2;">لا تضع خبرة غير حقيقية في CV، ولا ترسل وثائقك إلى أشخاص مجهولين، ولا تقبل شروطًا لا تفهمها. لا تدفع المال لشخص مقابل وعد بالتوظيف.</p>
-
-<h3>🛡️ 11. احمِ نفسك من السماسرة</h3>
-<p style="line-height:2;">تعامل مباشرة مع الشركة كلما أمكن. تحقق من البريد الإلكتروني والموقع الرسمي واسم الشركة قبل أي خطوة، ولا تعتبر العقد أو العرض حقيقيًا إلا بعد التحقق من مصدره.</p>
-
-<div style="margin-top:25px;padding:20px;background:#ffffff;border-radius:15px;">
-<h3 style="text-align:center;">📋 نموذج مختصر لمعلومات CV السائق</h3>
-<p style="line-height:2;">الاسم الكامل — الهاتف — المدينة — فئات الرخص — سنوات الخبرة — أنواع الشاحنات — نوع النقل — الشهادات والتكوين — اللغات — معلومات إضافية مفيدة للعمل.</p>
-</div>
-
-<div style="text-align:center;margin-top:25px;"><a href="/cv-builder" style="display:inline-block;padding:14px 24px;background:#0b7a75;color:white;text-decoration:none;border-radius:12px;font-weight:bold;font-size:17px;">📝 {{ __('إنشاء CV للسائق') }}</a></div>
-
-    <p style="text-align:center;font-weight:bold;font-size:18px;margin-top:25px;">Edriouche Truck Job — نساعد السائق على تجهيز ملفه والوصول إلى فرصة عمل حقيقية بطريقة مهنية.</p>
-</div>
+@if(app()->getLocale() === 'es')
+    @include('driver-guide-es')
+@elseif(app()->getLocale() === 'fr')
+    @include('driver-guide-fr')
+@else
+    @include('driver-guide-ar')
+@endif
 </section>
 
 <section style="margin-top:30px;padding:25px;background:#f5f9fc;border-radius:20px;">
-<h2 style="text-align:center;">🇲🇦 شركات مغربية: فرص ومتابعة التوظيف</h2>
-<p style="text-align:center;line-height:1.9;">معلومات منشورة أو حديثة. تحقق دائمًا من استمرار العرض قبل إرسال الوثائق.</p>
+<h2 style="text-align:center;">
+@if(app()->getLocale() === 'es')
+🇲🇦 Empresas marroquíes: ofertas y seguimiento de contratación
+@elseif(app()->getLocale() === 'fr')
+🇲🇦 Entreprises marocaines : offres et suivi du recrutement
+@else
+🇲🇦 شركات مغربية: فرص ومتابعة التوظيف
+@endif
+</h2>
+
+<p style="text-align:center;line-height:1.9;">
+@if(app()->getLocale() === 'es')
+Información publicada o reciente. Compruebe siempre que la oferta siga vigente antes de enviar sus documentos.
+@elseif(app()->getLocale() === 'fr')
+Informations publiées ou récentes. Vérifiez toujours que l'offre est toujours valable avant d'envoyer vos documents.
+@else
+معلومات منشورة أو حديثة. تحقق دائمًا من استمرار العرض قبل إرسال الوثائق.
+@endif
+</p>
 
 <div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;">
-<h3>🚛 MAROTRANS — طنجة / القنيطرة</h3>
-<p>سائقو شاحنات ثقيلة — رخصة EC وخبرة مهنية مطلوبة حسب العرض.</p>
-<p>🔵 تحقق من شروط الخبرة وتوفر المنصب قبل التقديم.</p>
-<a href="https://www.jobsquare.ma/job/15504/chauffeurs-poids-lourds-h-f-permis-ec-k%C3%A9nitra/" target="_blank" rel="noopener">📄 مصدر العرض</a>
+<h3>🚛 MAROTRANS — @if(app()->getLocale() === 'es')Tánger / Kenitra @elseif(app()->getLocale() === 'fr')Tanger / Kénitra @else طنجة / القنيطرة @endif</h3>
+<p>
+@if(app()->getLocale() === 'es')
+Conductores de camiones pesados — permiso EC y experiencia profesional requeridos según la oferta.
+@elseif(app()->getLocale() === 'fr')
+Chauffeurs de poids lourds — permis EC et expérience professionnelle requis selon l'offre.
+@else
+سائقو شاحنات ثقيلة — رخصة EC وخبرة مهنية مطلوبة حسب العرض.
+@endif
+</p>
+<p>
+@if(app()->getLocale() === 'es')
+🔵 Compruebe los requisitos de experiencia y la disponibilidad del puesto antes de presentar su candidatura.
+@elseif(app()->getLocale() === 'fr')
+🔵 Vérifiez les conditions d'expérience et la disponibilité du poste avant de postuler.
+@else
+🔵 تحقق من شروط الخبرة وتوفر المنصب قبل التقديم.
+@endif
+</p>
+<a href="https://www.jobsquare.ma/job/15504/chauffeurs-poids-lourds-h-f-permis-ec-k%C3%A9nitra/" target="_blank" rel="noopener">📄
+@if(app()->getLocale() === 'es') Fuente de la oferta
+@elseif(app()->getLocale() === 'fr') Source de l'offre
+@else مصدر العرض
+@endif
+</a>
 </div>
 
 <div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;">
-<h3>🚛 Group Inter Five — طنجة</h3>
-<p>شركة مرتبطة بالنقل الدولي والسائقين المهنيين.</p>
-<p>⚪ لا نعتبر وجود وظيفة حالية مؤكدًا هنا. تحقق من الشركة مباشرة قبل التقديم.</p>
+<h3>🚛 Group Inter Five — @if(app()->getLocale() === 'es')Tánger @elseif(app()->getLocale() === 'fr')Tanger @else طنجة @endif</h3>
+<p>
+@if(app()->getLocale() === 'es')
+Empresa relacionada con el transporte internacional y los conductores profesionales.
+@elseif(app()->getLocale() === 'fr')
+Entreprise liée au transport international et aux chauffeurs professionnels.
+@else
+شركة مرتبطة بالنقل الدولي والسائقين المهنيين.
+@endif
+</p>
+<p>
+@if(app()->getLocale() === 'es')
+⚪ No consideramos confirmada la existencia de una vacante actual. Consulte directamente con la empresa antes de presentar su candidatura.
+@elseif(app()->getLocale() === 'fr')
+⚪ Nous ne considérons pas comme confirmée l'existence d'un poste actuellement disponible. Vérifiez directement auprès de l'entreprise avant de postuler.
+@else
+⚪ لا نعتبر وجود وظيفة حالية مؤكدًا هنا. تحقق من الشركة مباشرة قبل التقديم.
+@endif
+</p>
 </div>
 
 <div class="company" style="background:white;padding:20px;margin:15px 0;border-radius:15px;">
-<h3>🚛 GRAVILIS — طنجة</h3>
-<p>نشاط مرتبط بالنقل والشاحنات.</p>
-<p>⚪ لا نعتبر وجود وظيفة حالية مؤكدًا هنا. تحقق من توفر المنصب قبل التقديم.</p>
+<h3>🚛 GRAVILIS — @if(app()->getLocale() === 'es')Tánger @elseif(app()->getLocale() === 'fr')Tanger @else طنجة @endif</h3>
+<p>
+@if(app()->getLocale() === 'es')
+Actividad relacionada con el transporte y los camiones.
+@elseif(app()->getLocale() === 'fr')
+Activité liée au transport et aux camions.
+@else
+نشاط مرتبط بالنقل والشاحنات.
+@endif
+</p>
+<p>
+@if(app()->getLocale() === 'es')
+⚪ No consideramos confirmada la existencia de una vacante actual. Compruebe la disponibilidad del puesto antes de presentar su candidatura.
+@elseif(app()->getLocale() === 'fr')
+⚪ Nous ne considérons pas comme confirmée l'existence d'un poste actuellement disponible. Vérifiez la disponibilité du poste avant de postuler.
+@else
+⚪ لا نعتبر وجود وظيفة حالية مؤكدًا هنا. تحقق من توفر المنصب قبل التقديم.
+@endif
+</p>
 </div>
 
 </section>
