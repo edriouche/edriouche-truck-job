@@ -1,5 +1,6 @@
-@include("partials.language-switcher")
-cd ~/edriouche-truck-job && cat > resources/views/cmr.blade.php <<'EOF'
+<div style="text-align:center;padding:12px">
+<a href="/cmr">🇲🇦 العربية</a> | <a href="/cmr-es">🇪🇸 Español</a> | <a href="/cmr-fr">🇫🇷 Français</a>
+</div>
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
