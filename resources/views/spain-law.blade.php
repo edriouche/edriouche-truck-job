@@ -285,7 +285,7 @@ target="_blank">
 📅 Real Decreto 487/2026
 </a>
 
-<a class="button" href="/spanish-companies">
+<a class="button" href="/spain-companies">
 🇪🇸 شركات النقل الإسبانية
 </a>
 

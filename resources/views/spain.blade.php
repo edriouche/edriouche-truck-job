@@ -221,7 +221,7 @@
     <div style="text-align:center;">
         <a class="button" href="/jobs">🚛 عروض العمل</a>
         <a class="button" href="/companies">🇲🇦 شركات النقل في المغرب</a>
-        <a class="button" href="/spanish-companies">🇪🇸 شركات النقل في إسبانيا</a>
+        <a class="button" href="/spain-companies">🇪🇸 شركات النقل في إسبانيا</a>
         <a class="button" href="/training">🎓 التكوين</a>
     </div>
 
