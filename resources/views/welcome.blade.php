@@ -760,39 +760,39 @@
 
         @if(app()->getLocale() === "es")
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-f88-1970.jpg') }}" alt="Volvo F88 1970" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>1970 — Volvo F88</h3><p>Camión de los años setenta, conocido por su fuerza y sencillez, y que representó una etapa importante en la evolución del transporte pesado.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-f88-1970.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-f88-1970.jpg') }}" alt="Volvo F88 1970" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-f10.jpg') }}" alt="Volvo F10" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>Años 80 — Volvo F10</h3><p>Camión de los años ochenta que combinó la potencia del motor con una mayor comodidad para el conductor en los viajes largos.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-f10.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-f10.jpg') }}" alt="Volvo F10" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-fh-1993.jpg') }}" alt="Volvo FH 1993" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>1993 — Volvo FH</h3><p>Apareció en 1993 e inició una nueva generación del Volvo FH, con importantes avances en rendimiento, comodidad y seguridad.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-fh-1993.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-fh-1993.jpg') }}" alt="Volvo FH 1993" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-fh-tanker-2009.jpg') }}" alt="Volvo FH 400 con cisterna 2009" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>2009 — Volvo FH 400 con semirremolque cisterna</h3><p>Camión preparado para el transporte internacional, acompañado por cisternas importantes para el transporte de combustibles a larga distancia.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-fh-tanker-2009.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-fh-tanker-2009.jpg') }}" alt="Volvo FH 400 con cisterna 2009" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-fh-tanker-2022.jpg') }}" alt="Volvo FH con cisterna 2022" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>2022–hoy — Volvo FH con semirremolque cisterna</h3><p>Generación moderna que combina comodidad, tecnología y seguridad para el transporte internacional con semirremolques cisterna.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-fh-tanker-2022.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-fh-tanker-2022.jpg') }}" alt="Volvo FH con cisterna 2022" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
         @elseif(app()->getLocale() === "fr")
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-f88-1970.jpg') }}" alt="Volvo F88 1970" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>1970 — Volvo F88</h3><p>Camion des années 1970, connu pour sa puissance et sa simplicité, représentant une étape importante dans l’évolution du transport lourd.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-f88-1970.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-f88-1970.jpg') }}" alt="Volvo F88 1970" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-f10.jpg') }}" alt="Volvo F10" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>Années 1980 — Volvo F10</h3><p>Camion des années 1980 qui associait la puissance du moteur à un meilleur confort du conducteur lors des longs trajets.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-f10.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-f10.jpg') }}" alt="Volvo F10" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-fh-1993.jpg') }}" alt="Volvo FH 1993" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>1993 — Volvo FH</h3><p>Apparu en 1993, il a marqué une nouvelle génération du Volvo FH avec des progrès importants en performance, confort et sécurité.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-fh-1993.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-fh-1993.jpg') }}" alt="Volvo FH 1993" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-fh-tanker-2009.jpg') }}" alt="Volvo FH 400 avec citerne 2009" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>2009 — Volvo FH 400 avec semi-remorque citerne</h3><p>Camion adapté au transport international, avec des citernes importantes pour le transport des carburants sur de longues distances.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-fh-tanker-2009.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-fh-tanker-2009.jpg') }}" alt="Volvo FH 400 avec citerne 2009" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-fh-tanker-2022.jpg') }}" alt="Volvo FH avec citerne 2022" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>2022–aujourd’hui — Volvo FH avec semi-remorque citerne</h3><p>Génération moderne combinant confort, technologie et sécurité pour le transport international avec des semi-remorques citernes.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-fh-tanker-2022.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-fh-tanker-2022.jpg') }}" alt="Volvo FH avec citerne 2022" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
         @else
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-f88-1970.jpg') }}" alt="Volvo F88 1970" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>1970 — Volvo F88</h3><p>شاحنة من جيل السبعينيات، عُرفت بالقوة والبساطة ومثّلت مرحلة مهمة في تطور النقل الثقيل.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-f88-1970.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-f88-1970.jpg') }}" alt="Volvo F88 1970" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-f10.jpg') }}" alt="Volvo F10" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>الثمانينيات — Volvo F10</h3><p>من شاحنات الثمانينيات، جمعت بين قوة المحرك وتحسين راحة السائق في الرحلات الطويلة.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-f10.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-f10.jpg') }}" alt="Volvo F10" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-fh-1993.jpg') }}" alt="Volvo FH 1993" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>1993 — Volvo FH</h3><p>ظهر عام 1993، وبدأ معه جيل جديد من Volvo FH مع تطور واضح في الأداء والراحة والسلامة.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-fh-1993.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-fh-1993.jpg') }}" alt="Volvo FH 1993" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-fh-tanker-2009.jpg') }}" alt="Volvo FH 400 مع ناقلة صهريجية 2009" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>2009 — Volvo FH 400 ومقطورة صهريجية</h3><p>شاحنة مهيأة للنقل الدولي، ومعها أصبحت المقطورات الصهريجية جزءًا مهمًا من نقل المحروقات لمسافات طويلة.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-fh-tanker-2009.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-fh-tanker-2009.jpg') }}" alt="Volvo FH 400 مع ناقلة صهريجية 2009" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
-        <div class="card"><img src="{{ asset('images/truck-volvo-fh-tanker-2022.jpg') }}" alt="Volvo FH 460 مع مقطورة صهريجية 2022" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"><h3>2022–اليوم — Volvo FH مع مقطورة صهريجية</h3><p>جيل حديث يجمع بين الراحة والتكنولوجيا والسلامة، ويخدم النقل الدولي مع المقطورات الصهريجية.</p></div>
+        <div class="card"><a href="{{ asset('images/truck-volvo-fh-tanker-2022.jpg') }}" target="_blank"><img src="{{ asset('images/truck-volvo-fh-tanker-2022.jpg') }}" alt="Volvo FH 460 مع مقطورة صهريجية 2022" style="width:100%;height:220px;object-fit:cover;border-radius:14px;"></a></div>
 
         @endif
     </div>
