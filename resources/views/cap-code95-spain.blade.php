@@ -29,6 +29,7 @@ a{color:#b71c1c}
 
 @include('partials.language-switcher')
 
+<p><a href="/">⬅️ العودة إلى الرئيسية</a></p>
 <header>
 <h1>🇪🇺 CAP / Code 95 والعمل في إسبانيا</h1>
 <p>توضيح قانوني وعملي للسائق المغربي</p>
