@@ -460,6 +460,7 @@
             <a href="/training">🎓 Formación</a><br>
             <a href="/training-centers">🏫 Centros de formación</a><br>
             <a href="/spain-law">⚖️ Ley del transporte en España</a><br>
+            <a href="/cap-code95-spain">🇪🇺 CAP / Code 95 — Polonia, Lituania y trabajo en España</a><br>
             <a href="/europe-rules">📚 Reglas del transporte en Europa</a><br>
             <a href="/tachograph-guide">🧭 Guía del conductor marroquí en Europa</a>
         </div>
@@ -487,6 +488,7 @@
             <a href="/training">🎓 Formation</a><br>
             <a href="/training-centers">🏫 Centres de formation</a><br>
             <a href="/spain-law">⚖️ Loi du transport en Espagne</a><br>
+            <a href="/cap-code95-spain">🇪🇺 CAP / Code 95 — Pologne, Lituanie et travail en Espagne</a><br>
             <a href="/europe-rules">📚 Règles du transport en Europe</a><br>
             <a href="/tachograph-guide">🧭 Guide du conducteur marocain en Europe</a>
         </div>
@@ -514,6 +516,7 @@
             <a href="/training">🎓 التكوين</a><br>
             <a href="/training-centers">🏫 مراكز وشركات تكوين السائقين</a><br>
             <a href="/spain-law">⚖️ قانون النقل في إسبانيا</a><br>
+            <a href="/cap-code95-spain">🇪🇺 CAP / Code 95 — بولونيا وليتوانيا والعمل في إسبانيا</a><br>
             <a href="/europe-rules">📚 قواعد النقل في أوروبا</a><br>
             <a href="/tachograph-guide">🧭 بوصلة السائق المغربي في أوروبا</a>
         </div>
