@@ -1,17 +1,29 @@
 @include("partials.language-switcher")
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="{{ app()->getLocale() }}" dir="{{ app()->getLocale() === 'ar' ? 'rtl' : 'ltr' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ __('messages.jobs_heading') }} - Edriouche Truck Job</title>
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
         body {
             margin: 0;
             font-family: Arial, sans-serif;
             background: #f4f6f8;
             color: #222;
+            word-wrap: break-word;
+            overflow-wrap: anywhere;
         
 
         header {
@@ -25,6 +37,7 @@
         
 
         .container {
+            width: 100%;
             max-width: 1000px;
             margin: auto;
             padding: 30px 20px;
@@ -72,6 +85,45 @@
             padding: 20px;
             margin-top: 20px;
         
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 23px;
+            }
+
+            .container {
+                width: 100%;
+                max-width: 100%;
+                padding: 18px 12px;
+            }
+
+            .intro,
+            .job {
+                width: 100%;
+                max-width: 100%;
+                padding: 18px 14px;
+                overflow: hidden;
+            }
+
+            .job h2 {
+                font-size: 20px;
+                line-height: 1.4;
+            }
+
+            .job p,
+            .intro p {
+                line-height: 1.8;
+                overflow-wrap: anywhere;
+                word-break: break-word;
+            }
+
+            .official,
+            .back {
+                max-width: 100%;
+                overflow-wrap: anywhere;
+            }
+        }
+
     </style>
 </head>
 
@@ -157,6 +209,85 @@
         <a href="https://www.al7.ma/" class="official" target="_blank">
             {{ __('messages.apply_official') }}
         </a>
+    </div>
+
+
+    <!-- MOROCCO DIRECT COMPANIES -->
+    <div class="intro">
+        <h2>{{ __('messages.morocco_direct_title') }}</h2>
+        <p>{{ __('messages.morocco_direct_intro') }}</p>
+    </div>
+
+    <div class="job">
+        <span class="badge">{{ __('messages.morocco') }}</span>
+        <h2>DACHSER Morocco</h2>
+        <p>{{ __('messages.dachser_desc') }}</p>
+        <p>📞 +212 522 675 850</p>
+        <a href="https://www.dachser.ma/fr/" class="official" target="_blank" rel="noopener">
+            {{ __('messages.website') }}
+        </a>
+    </div>
+
+    <div class="job">
+        <span class="badge">{{ __('messages.morocco') }}</span>
+        <h2>Calsina Carré</h2>
+        <p>{{ __('messages.calsina_desc') }}</p>
+        <p>📞 +212 539 39 06 73 / +212 539 32 17 21</p>
+        <p>✉️ info.ccm@calsina-carre.com</p>
+        <a href="https://www.calsina-carre.com/" class="official" target="_blank" rel="noopener">
+            {{ __('messages.website') }}
+        </a>
+    </div>
+
+    <div class="job">
+        <span class="badge">{{ __('messages.morocco') }}</span>
+        <h2>Julia Trans</h2>
+        <p>{{ __('messages.julia_desc') }}</p>
+        <p>📍 Casablanca</p>
+        <p>📞 +212 522 47 50 35</p>
+        <p>✉️ contact@juliatransport.com</p>
+        <a href="https://juliatransport.com/" class="official" target="_blank" rel="noopener">
+            {{ __('messages.website') }}
+        </a>
+    </div>
+
+    <div class="job">
+        <span class="badge">{{ __('messages.morocco') }}</span>
+        <h2>JL Transit</h2>
+        <p>{{ __('messages.jl_desc') }}</p>
+        <p>📍 Casablanca</p>
+        <p>📞 +212 522 304 655</p>
+        <p>✉️ contact@jltransit.ma</p>
+        <a href="https://www.jltransit.ma/" class="official" target="_blank" rel="noopener">
+            {{ __('messages.website') }}
+        </a>
+    </div>
+
+    <div class="job">
+        <span class="badge">{{ __('messages.morocco') }}</span>
+        <h2>Gold Bridge Express</h2>
+        <p>{{ __('messages.gbe_desc') }}</p>
+        <p>📍 Casablanca</p>
+        <p>📞 +212 522 247 373</p>
+        <p>✉️ marketing@gbe.ma</p>
+        <a href="https://gbe.ma/" class="official" target="_blank" rel="noopener">
+            {{ __('messages.website') }}
+        </a>
+    </div>
+
+    <div class="job">
+        <span class="badge">{{ __('messages.morocco') }}</span>
+        <h2>DISTRANS Express Maroc</h2>
+        <p>{{ __('messages.distrans_desc') }}</p>
+        <p>📞 +212 522 353 650</p>
+        <a href="https://www.distransexpress.com/" class="official" target="_blank" rel="noopener">
+            {{ __('messages.website') }}
+        </a>
+    </div>
+
+    <div class="intro">
+        <p><strong>{{ __('messages.no_guarantee') }}</strong></p>
+        <p>{{ __('messages.last_check') }}</p>
     </div>
 
 </div>
