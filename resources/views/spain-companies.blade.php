@@ -310,6 +310,74 @@
         <a class="button" href="https://disfrimur.com/rrhh/trabaja-con-nosotros/" target="_blank">🔗 {{ $lang === 'es' ? 'Sitio oficial' : ($lang === 'fr' ? 'Site officiel' : 'الموقع الرسمي') }}</a>
     </div>
 
+
+    <!-- 10 Eurotransportes -->
+    <div class="company-card">
+        <span class="status open">🔵 {{ $lang === 'es' ? 'Envío de CV' : ($lang === 'fr' ? 'Envoi de CV' : 'إرسال السيرة الذاتية') }}</span>
+        <h2>🏢 Eurotransportes</h2>
+        <div class="info">
+            <p><span class="label">🚛 {{ $lang === 'es' ? 'Actividad:' : ($lang === 'fr' ? 'Activité :' : 'المجال:') }}</span> {{ $lang === 'es' ? 'Transporte y logística por carretera' : ($lang === 'fr' ? 'Transport et logistique routière' : 'النقل واللوجستيك عبر الطرق') }}</p>
+            <p><span class="label">👨‍✈️ {{ $lang === 'es' ? 'Para conductores:' : ($lang === 'fr' ? 'Pour les chauffeurs :' : 'للسائقين:') }}</span> {{ $lang === 'es' ? 'Buscan conductores de camión y permiten enviar CV mediante su formulario oficial.' : ($lang === 'fr' ? 'Recherche de chauffeurs routiers avec dépôt de CV via le formulaire officiel.' : 'تستقبل طلبات سائقي الشاحنات عبر نموذجها الرسمي.') }}</p>
+        </div>
+        <a class="button" href="https://www.eurotransportes.com/es/empleo" target="_blank" rel="noopener">🔗 {{ $lang === 'es' ? 'Empleo oficial' : ($lang === 'fr' ? 'Emploi officiel' : 'التوظيف الرسمي') }}</a>
+    </div>
+
+    <!-- 11 Fiatrans -->
+    <div class="company-card">
+        <span class="status active">🟢 {{ $lang === 'es' ? 'Oferta de conductor' : ($lang === 'fr' ? 'Offre chauffeur' : 'عرض للسائقين') }}</span>
+        <h2>🏢 Fiatrans</h2>
+        <div class="info">
+            <p><span class="label">🚛 {{ $lang === 'es' ? 'Puesto:' : ($lang === 'fr' ? 'Poste :' : 'الوظيفة:') }}</span> {{ $lang === 'es' ? 'Conductor/a de tráiler' : ($lang === 'fr' ? 'Conducteur de semi-remorque' : 'سائق شاحنة مقطورة') }}</p>
+            <p><span class="label">🚚 {{ $lang === 'es' ? 'Requisitos:' : ($lang === 'fr' ? 'Exigences :' : 'المتطلبات:') }}</span> C+E + CAP</p>
+        </div>
+        <a class="button" href="https://www.fiatrans.com/trabaja-con-nosotros" target="_blank" rel="noopener">🔗 {{ $lang === 'es' ? 'Oferta y candidatura' : ($lang === 'fr' ? 'Offre et candidature' : 'العرض والتقديم') }}</a>
+    </div>
+
+    <!-- 12 Transportes Argo -->
+    <div class="company-card">
+        <span class="status open">🔵 {{ $lang === 'es' ? 'Recepción de CV' : ($lang === 'fr' ? 'Réception de CV' : 'استقبال السير الذاتية') }}</span>
+        <h2>🏢 Transportes Argo</h2>
+        <div class="info">
+            <p><span class="label">🚛 {{ $lang === 'es' ? 'Puesto:' : ($lang === 'fr' ? 'Poste :' : 'الوظيفة:') }}</span> {{ $lang === 'es' ? 'Chófer / Conductor profesional' : ($lang === 'fr' ? 'Chauffeur professionnel' : 'سائق مهني') }}</p>
+            <p><span class="label">🚚 {{ $lang === 'es' ? 'Requisitos:' : ($lang === 'fr' ? 'Exigences :' : 'المتطلبات:') }}</span> C+E + {{ $lang === 'es' ? '2 años de experiencia' : ($lang === 'fr' ? '2 ans d’expérience' : 'سنتان من الخبرة') }}</p>
+            <p><span class="label">📍</span> Madrid · Barcelona · Valencia · Algeciras</p>
+        </div>
+        <a class="button" href="https://argovlc.es/trabaja-con-nosotros/" target="_blank" rel="noopener">🔗 {{ $lang === 'es' ? 'Trabaja con nosotros' : ($lang === 'fr' ? 'Travailler avec nous' : 'العمل معنا') }}</a>
+    </div>
+
+    <!-- 13 Transportes Zaivan -->
+    <div class="company-card">
+        <span class="status active">🟢 {{ $lang === 'es' ? 'Búsqueda de conductores' : ($lang === 'fr' ? 'Recherche de chauffeurs' : 'بحث عن سائقين') }}</span>
+        <h2>🏢 Transportes Zaivan</h2>
+        <div class="info">
+            <p><span class="label">🚛 {{ $lang === 'es' ? 'Actividad:' : ($lang === 'fr' ? 'Activité :' : 'المجال:') }}</span> {{ $lang === 'es' ? 'Transporte frigorífico nacional' : ($lang === 'fr' ? 'Transport frigorifique national' : 'النقل المبرد الوطني') }}</p>
+            <p><span class="label">🚚 {{ $lang === 'es' ? 'Requisitos:' : ($lang === 'fr' ? 'Exigences :' : 'المتطلبات:') }}</span> {{ $lang === 'es' ? 'Carnet C + CAP + tacógrafo digital' : ($lang === 'fr' ? 'Permis C + CAP + tachygraphe numérique' : 'رخصة C + CAP + تاكوغراف رقمي') }}</p>
+        </div>
+        <a class="button" href="https://www.transporteszaivan.es/trabaja-con-nosotros/" target="_blank" rel="noopener">🔗 {{ $lang === 'es' ? 'Oferta oficial' : ($lang === 'fr' ? 'Offre officielle' : 'العرض الرسمي') }}</a>
+    </div>
+
+    <!-- 14 Domingo Laredo -->
+    <div class="company-card">
+        <span class="status open">🔵 {{ $lang === 'es' ? 'Puestos para conductores' : ($lang === 'fr' ? 'Postes chauffeurs' : 'وظائف للسائقين') }}</span>
+        <h2>🏢 Domingo Laredo</h2>
+        <div class="info">
+            <p><span class="label">🚛 {{ $lang === 'es' ? 'Puestos:' : ($lang === 'fr' ? 'Postes :' : 'الوظائف:') }}</span> {{ $lang === 'es' ? 'Conductores de camiones de 3 ejes y bañeras con experiencia.' : ($lang === 'fr' ? 'Chauffeurs de camions 3 essieux et bennes avec expérience.' : 'سائقو شاحنات 3 محاور وشاحنات قلاب مع الخبرة.') }}</p>
+            <p><span class="label">📍 {{ $lang === 'es' ? 'Zonas:' : ($lang === 'fr' ? 'Zones :' : 'المناطق:') }}</span> Madrid · Granada · Palencia · Almería</p>
+        </div>
+        <a class="button" href="https://dlaredo.com/trabaja-con-nosotros/" target="_blank" rel="noopener">🔗 {{ $lang === 'es' ? 'Trabajo oficial' : ($lang === 'fr' ? 'Emploi officiel' : 'العمل الرسمي') }}</a>
+    </div>
+
+    <!-- 15 Danuri Logistics -->
+    <div class="company-card">
+        <span class="status open">🔵 {{ $lang === 'es' ? 'Conductores en plantilla' : ($lang === 'fr' ? 'Chauffeurs salariés' : 'سائقون بعقد') }}</span>
+        <h2>🏢 Danuri Logistics</h2>
+        <div class="info">
+            <p><span class="label">🚛 {{ $lang === 'es' ? 'Perfil:' : ($lang === 'fr' ? 'Profil :' : 'الملف المطلوب:') }}</span> C+E + CAP + {{ $lang === 'es' ? 'tarjeta de tacógrafo digital' : ($lang === 'fr' ? 'carte tachygraphe numérique' : 'بطاقة تاكوغراف رقمية') }}</p>
+            <p><span class="label">📍</span> {{ $lang === 'es' ? 'Madrid y rutas por España y Portugal' : ($lang === 'fr' ? 'Madrid et itinéraires en Espagne et au Portugal' : 'مدريد ومسارات في إسبانيا والبرتغال') }}</p>
+        </div>
+        <a class="button" href="https://danurilogistics.com/trabaja-con-nosotros.html" target="_blank" rel="noopener">🔗 {{ $lang === 'es' ? 'Trabaja con nosotros' : ($lang === 'fr' ? 'Travailler avec nous' : 'العمل معنا') }}</a>
+    </div>
+
     <div class="intro" style="border-top:5px solid #1f4e79;">
         <h2>🇪🇸 دليل السائق المغربي في إسبانيا</h2>
         <p>كل ما يحتاجه السائق للبحث عن عمل وتكوين ومعلومات موثوقة في مكان واحد.</p>
