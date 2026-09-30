@@ -183,10 +183,10 @@
             @endif
         </div>
 
-        <h2>🚛 شركات موثوقة للسائقين</h2>
+        <h2>🚛 شركات النقل وفرص التقديم في إسبانيا</h2>
 
         <p>
-            {{ $lang === 'es' ? 'Hemos reunido esta lista para ayudar al conductor marroquí a contactar directamente con empresas españolas, lejos de intermediarios y ofertas poco fiables.' : ($lang === 'fr' ? 'Nous avons réuni cette liste pour aider le conducteur marocain à contacter directement les entreprises espagnoles, loin des intermédiaires et des offres peu fiables.' : 'جمعنا هذه القائمة لمساعدة السائق المغربي على الوصول إلى الشركات الإسبانية مباشرة، بعيدًا عن الوسطاء والعروض غير الموثوقة.') }}
+            {{ $lang === 'es' ? 'Hemos reunido esta lista para ayudar al conductor marroquí a contactar directamente con empresas españolas, lejos de intermediarios y ofertas poco fiables.' : ($lang === 'fr' ? 'Nous avons réuni cette liste pour aider le conducteur marocain à contacter directement les entreprises espagnoles, loin des intermédiaires et des offres peu fiables.' : 'جمعنا هذه القائمة لمساعدة السائق المغربي على الوصول إلى شركات النقل واللوجستيك في إسبانيا مباشرة، والتعرف على طرق التقديم الرسمية بعيدًا عن الوسطاء والوعود الكاذبة.') }}
         </p>
 
         <p>
