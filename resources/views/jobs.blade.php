@@ -298,3 +298,30 @@
 
 </body>
 </html>
+
+
+<!-- MOROCCO TRANSPORT COMPANIES -->
+<div class="intro">
+    <h2>{{ __('jobs.direct') }}</h2>
+    <p>{{ __('jobs.direct_intro') }}</p>
+</div>
+
+@foreach(__('jobs.companies') as $company)
+    <div class="job">
+        <span class="badge">{{ __('jobs.morocco') }}</span>
+        <h2>{{ $company[0] }}</h2>
+        <p>{{ $company[1] }}</p>
+        @if(!empty($company[2]))
+            <p>📞 {{ $company[2] }}</p>
+        @endif
+        @if(!empty($company[3]))
+            <p>✉️ {{ $company[3] }}</p>
+        @endif
+        @if(!empty($company[4]))
+            <a href="{{ $company[4] }}" class="official" target="_blank" rel="noopener">{{ __('jobs.website') }}</a>
+        @else
+            <p>📌 {{ __('jobs.call') }}</p>
+        @endif
+    </div>
+@endforeach
+
