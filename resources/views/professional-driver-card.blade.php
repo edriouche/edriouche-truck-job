@@ -78,6 +78,12 @@ Para los conductores titulares de la tarjeta profesional que no son taxistas, el
 
 <hr>
 
+<h2>2022–2024 — Régimen específico y debate sobre la protección social</h2>
+<p>En 2022, el Decreto nº 2.22.190 estableció un régimen específico de seguro obligatorio de enfermedad y de pensiones para los conductores profesionales titulares de la tarjeta profesional, excepto los conductores de taxi.</p>
+<p>El régimen preveía la afiliación a la protección social y la declaración de las cotizaciones correspondientes. Su aplicación planteó posteriormente cuestiones prácticas relacionadas con el registro, las cotizaciones y el acceso a la cobertura.</p>
+<p>En 2023, estas dificultades también fueron objeto de debate parlamentario. El Proyecto de Ley nº 41.23, procedente de la Cámara de Representantes y examinado por la Cámara de Consejeros, trató la situación de determinadas deudas de cotizaciones, recargos, gastos y multas frente a la CNSS.</p>
+<p>Este debate parlamentario es importante para la historia de la tarjeta profesional: muestra que las dificultades de aplicación de la protección social fueron discutidas institucionalmente y no deben atribuirse automáticamente a la tarjeta profesional en sí.</p>
+
 📌 Fuente: textos legales oficiales publicados a través del portal jurídico del Ministerio de Justicia de Marruecos.
 </p>
 
@@ -156,6 +162,12 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 
 <hr>
 
+<h2>2022–2024 — Régime spécifique et débat sur la protection sociale</h2>
+<p>En 2022, le décret n° 2.22.190 a établi un régime spécifique d'assurance maladie obligatoire et de retraite pour les conducteurs professionnels titulaires de la carte professionnelle, à l'exception des conducteurs de taxi.</p>
+<p>Ce régime prévoyait l'affiliation à la protection sociale ainsi que la déclaration des cotisations correspondantes. Son application a ensuite soulevé des questions pratiques liées à l'inscription, aux cotisations et à l'accès à la couverture.</p>
+<p>En 2023, ces difficultés ont également fait l'objet de débats parlementaires. Le projet de loi n° 41.23, provenant de la Chambre des représentants et examiné par la Chambre des conseillers, concernait notamment certaines dettes de cotisations, majorations, frais et amendes envers la CNSS.</p>
+<p>Ce débat parlementaire est important dans l'histoire de la carte professionnelle : il montre que les difficultés de mise en œuvre de la protection sociale ont été discutées au niveau institutionnel et ne doivent pas être attribuées automatiquement à la carte professionnelle elle-même.</p>
+
 📌 Source : textes juridiques officiels publiés sur le portail juridique du ministère marocain de la Justice.
 </p>
 
@@ -233,6 +245,12 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 </p>
 
 <hr>
+
+<h2>2022–2024 — النظام الخاص ومناقشة مشاكل الحماية الاجتماعية</h2>
+<p>في سنة 2022، صدر المرسوم رقم 2.22.190 الذي أرسى نظامًا خاصًا للتأمين الإجباري عن المرض والتقاعد لفائدة السائقين المهنيين الحاملين للبطاقة المهنية، باستثناء سائقي سيارات الأجرة.</p>
+<p>وقد نص هذا النظام على الانخراط في الحماية الاجتماعية والتصريح بالاشتراكات المتعلقة بها. وظهرت بعد ذلك إشكالات عملية مرتبطة بالتسجيل والاشتراكات والاستفادة من التغطية.</p>
+<p>وفي سنة 2023، أصبحت هذه الإشكالات أيضًا موضوع نقاش داخل البرلمان. فقد أحيل مشروع القانون رقم 41.23 من مجلس النواب إلى مجلس المستشارين، وتناول، من بين أمور أخرى، بعض ديون الاشتراكات والزيادات والمصاريف والغرامات المستحقة للصندوق الوطني للضمان الاجتماعي.</p>
+<p>وتكتسي هذه المناقشات البرلمانية أهمية في تاريخ البطاقة المهنية، لأنها توثق أن صعوبات تطبيق الحماية الاجتماعية نوقشت على المستوى المؤسساتي، ولا ينبغي نسبتها تلقائيًا إلى البطاقة المهنية نفسها.</p>
 
 📌 المصدر: النصوص القانونية الرسمية المنشورة عبر البوابة القانونية لوزارة العدل المغربية.
 </p>
