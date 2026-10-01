@@ -59,6 +59,25 @@ Esta etapa planteó también retos relacionados con la disponibilidad de centros
 <hr>
 
 <p style="font-size:30px;line-height:2.2;">
+
+<h2 style="font-size:36px;line-height:1.8;text-align:center;">
+2019–2021 — La transición hacia la protección social
+</h2>
+
+<p style="font-size:36px;line-height:2.3;">
+Durante este período se desarrolló el marco jurídico de protección social destinado a los profesionales, trabajadores independientes y personas no asalariadas, mediante las leyes nº 98.15 y 99.15.
+</p>
+
+<p style="font-size:36px;line-height:2.3;">
+En 2021 se adoptó el Decreto nº 2.21.929, dentro de la aplicación de estos dos sistemas de protección social.
+</p>
+
+<p style="font-size:36px;line-height:2.3;">
+Para los conductores titulares de la tarjeta profesional que no son taxistas, el régimen específico se estableció posteriormente mediante el Decreto nº 2.22.190 de 29 de marzo de 2022.
+</p>
+
+<hr>
+
 📌 Fuente: textos legales oficiales publicados a través del portal jurídico del Ministerio de Justicia de Marruecos.
 </p>
 
@@ -118,6 +137,25 @@ Cette étape a également posé des défis liés à la disponibilité des centre
 <hr>
 
 <p style="font-size:30px;line-height:2.2;">
+
+<h2 style="font-size:36px;line-height:1.8;text-align:center;">
+2019–2021 — La transition vers la protection sociale
+</h2>
+
+<p style="font-size:36px;line-height:2.3;">
+Durant cette période, le cadre juridique de la protection sociale destiné aux professionnels, aux travailleurs indépendants et aux personnes non salariées s'est développé à travers les lois n° 98.15 et 99.15.
+</p>
+
+<p style="font-size:36px;line-height:2.3;">
+En 2021, le décret n° 2.21.929 a été adopté dans le cadre de l'application de ces deux régimes de protection sociale.
+</p>
+
+<p style="font-size:36px;line-height:2.3;">
+Pour les conducteurs titulaires de la carte professionnelle autres que les chauffeurs de taxi, le régime spécifique a été établi ultérieurement par le décret n° 2.22.190 du 29 mars 2022.
+</p>
+
+<hr>
+
 📌 Source : textes juridiques officiels publiés sur le portail juridique du ministère marocain de la Justice.
 </p>
 
@@ -177,6 +215,25 @@ Cette étape a également posé des défis liés à la disponibilité des centre
 <hr>
 
 <p style="font-size:30px;line-height:2.2;">
+
+<h2 style="font-size:36px;line-height:1.8;text-align:center;">
+2019–2021 — الانتقال نحو الحماية الاجتماعية
+</h2>
+
+<p style="font-size:36px;line-height:2.3;">
+خلال هذه المرحلة تطور الإطار القانوني للحماية الاجتماعية الخاص بالمهنيين والعمال المستقلين والأشخاص غير الأجراء، من خلال القانونين رقم 98.15 و99.15.
+</p>
+
+<p style="font-size:36px;line-height:2.3;">
+وفي سنة 2021 صدر المرسوم رقم 2.21.929 في إطار تطبيق هذين النظامين للحماية الاجتماعية.
+</p>
+
+<p style="font-size:36px;line-height:2.3;">
+أما السائقون الحاملون للبطاقة المهنية، غير سائقي سيارات الأجرة، فقد تم تحديد نظامهم الخاص لاحقاً بموجب المرسوم رقم 2.22.190 الصادر في 29 مارس 2022.
+</p>
+
+<hr>
+
 📌 المصدر: النصوص القانونية الرسمية المنشورة عبر البوابة القانونية لوزارة العدل المغربية.
 </p>
 
