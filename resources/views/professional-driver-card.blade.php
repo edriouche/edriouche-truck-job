@@ -91,6 +91,20 @@ Para los conductores titulares de la tarjeta profesional que no son taxistas, el
 <p>Estas cuestiones parlamentarias no significan que todos los conductores se encuentren en la misma situación. Muestran, sin embargo, que la aplicación práctica del sistema de protección social para esta categoría continúa siendo objeto de seguimiento institucional.</p>
 <p><strong>Importante:</strong> la tarjeta profesional, por sí sola, no debe confundirse con un contrato de trabajo, una afiliación salarial a la CNSS o una situación automática de trabajador no asalariado. La situación debe analizarse según la relación laboral y el régimen de protección social aplicable.</p>
 
+<h2>🛠️ ¿Qué debe hacer el conductor si pierde su trabajo o aparecen cotizaciones?</h2>
+<p>Perder el empleo no significa automáticamente que las cotizaciones de protección social se detengan. La situación depende del régimen en el que el conductor esté registrado y de su situación profesional real.</p>
+<ol style="font-size:36px;line-height:2.3;">
+<li>Comprobar primero su situación registrada ante la CNSS.</li>
+<li>Si trabajaba como asalariado, comprobar que el empleador haya declarado correctamente el fin de la relación laboral.</li>
+<li>Si aparece como trabajador no asalariado, comprobar por qué fue inscrito en ese régimen y desde qué fecha.</li>
+<li>Si existen cotizaciones reclamadas durante un período sin actividad, solicitar la explicación y la revisión de la situación con los documentos que demuestren la situación profesional real.</li>
+<li>No ignorar una notificación de la CNSS. Conviene conservar todas las notificaciones, contratos, certificados de trabajo y documentos relacionados con la actividad.</li>
+<li>Si existe una deuda, no asumir que la tarjeta profesional por sí sola demuestra que la deuda es correcta o incorrecta: primero debe determinarse la condición profesional y el régimen aplicable.</li>
+<li>Si la empresa declara al conductor solo por determinados días de trabajo, pero la situación de cobertura sanitaria AMO no aparece correctamente, el conductor debe comprobar su historial de afiliación y declaraciones ante la CNSS y solicitar la regularización si existe una diferencia entre el trabajo realmente realizado y lo declarado.</li>
+<li>También puede ocurrir que un conductor reciba una reclamación de AMO como trabajador no asalariado mientras sostiene que trabajaba como asalariado para una empresa. Esta situación debe verificarse según los documentos y el régimen de afiliación aplicable.</li>
+</ol>
+<p><strong>Regla práctica:</strong> tarjeta profesional ≠ contrato de trabajo ≠ afiliación como asalariado ≠ condición automática de trabajador no asalariado.</p>
+
 📌 Fuente: textos legales oficiales publicados a través del portal jurídico del Ministerio de Justicia de Marruecos.
 </p>
 
@@ -182,6 +196,18 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 <p>Ces questions parlementaires ne signifient pas que tous les conducteurs se trouvent dans la même situation. Elles montrent toutefois que l'application pratique du système de protection sociale pour cette catégorie continue de faire l'objet d'un suivi institutionnel.</p>
 <p><strong>Important :</strong> la carte professionnelle, à elle seule, ne doit pas être confondue avec un contrat de travail, une affiliation salariale à la CNSS ou une qualité automatique de travailleur non salarié. La situation doit être examinée selon la relation de travail et le régime de protection sociale applicable.</p>
 
+<h2>🛠️ Que doit faire le conducteur s’il perd son emploi ou si des cotisations apparaissent ?</h2>
+<p>La perte d'un emploi ne signifie pas automatiquement l'arrêt des cotisations de protection sociale. La situation dépend du régime auquel le conducteur est enregistré et de sa situation professionnelle réelle.</p>
+<ol style="font-size:36px;line-height:2.3;">
+<li>Vérifier d'abord sa situation enregistrée auprès de la CNSS.</li>
+<li>S'il travaillait comme salarié, vérifier que l'employeur a correctement déclaré la fin de la relation de travail.</li>
+<li>S'il apparaît comme travailleur non salarié, vérifier pourquoi il a été inscrit dans ce régime et à partir de quelle date.</li>
+<li>Si des cotisations sont réclamées pour une période sans activité, demander une explication et la vérification de la situation avec les documents prouvant la situation professionnelle réelle.</li>
+<li>Ne pas ignorer une notification de la CNSS. Conserver les notifications, contrats, attestations de travail et documents liés à l'activité.</li>
+<li>En cas de dette, ne pas considérer que la carte professionnelle suffit à elle seule pour prouver que la dette est correcte ou incorrecte : il faut d'abord déterminer le statut professionnel et le régime applicable.</li>
+</ol>
+<p><strong>Règle pratique :</strong> carte professionnelle ≠ contrat de travail ≠ affiliation comme salarié ≠ qualité automatique de travailleur non salarié.</p>
+
 📌 Source : textes juridiques officiels publiés sur le portail juridique du ministère marocain de la Justice.
 </p>
 
@@ -261,19 +287,160 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 <hr>
 
 <h2>2022–2024 — النظام الخاص ومناقشة مشاكل الحماية الاجتماعية</h2>
-<p>في سنة 2022، صدر المرسوم رقم 2.22.190 الذي أرسى نظامًا خاصًا للتأمين الإجباري عن المرض والتقاعد لفائدة السائقين المهنيين الحاملين للبطاقة المهنية، باستثناء سائقي سيارات الأجرة.</p>
-<p>وقد نص هذا النظام على الانخراط في الحماية الاجتماعية والتصريح بالاشتراكات المتعلقة بها. وظهرت بعد ذلك إشكالات عملية مرتبطة بالتسجيل والاشتراكات والاستفادة من التغطية.</p>
-<p>وفي سنة 2023، أصبحت هذه الإشكالات أيضًا موضوع نقاش داخل البرلمان. فقد أحيل مشروع القانون رقم 41.23 من مجلس النواب إلى مجلس المستشارين، وتناول، من بين أمور أخرى، بعض ديون الاشتراكات والزيادات والمصاريف والغرامات المستحقة للصندوق الوطني للضمان الاجتماعي.</p>
-<p>وتكتسي هذه المناقشات البرلمانية أهمية في تاريخ البطاقة المهنية، لأنها توثق أن صعوبات تطبيق الحماية الاجتماعية نوقشت على المستوى المؤسساتي، ولا ينبغي نسبتها تلقائيًا إلى البطاقة المهنية نفسها.</p>
+<p style="font-size:36px;line-height:2.3;">في سنة 2022, صدر المرسوم رقم 2.22.190 الذي أرسى نظامًا خاصًا للتأمين الإجباري عن المرض والتقاعد لفائدة السائقين المهنيين الحاملين للبطاقة المهنية، باستثناء سائقي سيارات الأجرة.</p>
+<p style="font-size:36px;line-height:2.3;">وقد نص هذا النظام على الانخراط في الحماية الاجتماعية والتصريح بالاشتراكات المتعلقة بها. وظهرت بعد ذلك إشكالات عملية مرتبطة بالتسجيل والاشتراكات والاستفادة من التغطية.</p>
+<p style="font-size:36px;line-height:2.3;">وفي سنة 2023، أصبحت هذه الإشكالات أيضًا موضوع نقاش داخل البرلمان. فقد أحيل مشروع القانون رقم 41.23 من مجلس النواب إلى مجلس المستشارين، وتناول، من بين أمور أخرى، بعض ديون الاشتراكات والزيادات والمصاريف والغرامات المستحقة للصندوق الوطني للضمان الاجتماعي.</p>
+<p style="font-size:36px;line-height:2.3;">وتكتسي هذه المناقشات البرلمانية أهمية في تاريخ البطاقة المهنية، لأنها توثق أن صعوبات تطبيق الحماية الاجتماعية نوقشت على المستوى المؤسساتي، ولا ينبغي نسبتها تلقائيًا إلى البطاقة المهنية نفسها.</p>
 
 <h2>2025–2026 — المشاكل الحالية والنقاش البرلماني</h2>
-<p>خلال 2025–2026، استمرت الإشكالات المرتبطة بالحماية الاجتماعية للسائقين المهنيين في الظهور ضمن الأسئلة والمناقشات البرلمانية.</p>
-<p>فقد طُرحت في مجلس النواب أسئلة حول حالات محتملة للازدواجية في التسجيل والاشتراكات، عندما يعمل السائق لدى شركة مسجلة في الصندوق الوطني للضمان الاجتماعي، بينما يظهر أيضًا ضمن نظام العمال غير الأجراء.</p>
-<p>كما طُرحت مسائل تتعلق بالسائقين الموجودين مؤقتًا في وضعية بطالة أو في مرحلة التكوين المهني، وما قد يترتب عن ذلك من مطالبات بالاشتراكات، إضافة إلى تراكم الديون وطرق تسويتها.</p>
-<p>ولا تعني هذه الأسئلة البرلمانية أن جميع السائقين يوجدون في الوضعية نفسها، لكنها توثق استمرار تتبع الإشكالات العملية المرتبطة بتطبيق نظام الحماية الاجتماعية لهذه الفئة على المستوى المؤسساتي.</p>
-<p><strong>مهم:</strong> لا ينبغي الخلط بين البطاقة المهنية في حد ذاتها وبين عقد العمل أو التسجيل كأجير لدى الصندوق الوطني للضمان الاجتماعي أو اكتساب صفة العامل غير الأجير تلقائيًا. يجب تحديد الوضعية حسب علاقة العمل والنظام الاجتماعي المطبق.</p>
+<p style="font-size:36px;line-height:2.3;">خلال 2025–2026، استمرت الإشكالات المرتبطة بالحماية الاجتماعية للسائقين المهنيين في الظهور ضمن الأسئلة والمناقشات البرلمانية.</p>
+<p style="font-size:36px;line-height:2.3;">فقد طُرحت في مجلس النواب أسئلة حول حالات محتملة للازدواجية في التسجيل والاشتراكات، عندما يعمل السائق لدى شركة مسجلة في الصندوق الوطني للضمان الاجتماعي، بينما يظهر أيضًا ضمن نظام العمال غير الأجراء.</p>
+<p style="font-size:36px;line-height:2.3;">كما طُرحت مسائل تتعلق بالسائقين الموجودين مؤقتًا في وضعية بطالة أو في مرحلة التكوين المهني، وما قد يترتب عن ذلك من مطالبات بالاشتراكات، إضافة إلى تراكم الديون وطرق تسويتها.</p>
+<p style="font-size:36px;line-height:2.3;">ولا تعني هذه الأسئلة البرلمانية أن جميع السائقين يوجدون في الوضعية نفسها، لكنها توثق استمرار تتبع الإشكالات العملية المرتبطة بتطبيق نظام الحماية الاجتماعية لهذه الفئة على المستوى المؤسساتي.</p>
+<p style="font-size:36px;line-height:2.3;"><strong>مهم:</strong> لا ينبغي الخلط بين البطاقة المهنية في حد ذاتها وبين عقد العمل أو التسجيل كأجير لدى الصندوق الوطني للضمان الاجتماعي أو اكتساب صفة العامل غير الأجير تلقائيًا. يجب تحديد الوضعية حسب علاقة العمل والنظام الاجتماعي المطبق.</p>
 
+<h2>🛠️ ماذا يفعل السائق إذا فقد العمل أو ظهرت عليه اشتراكات؟</h2>
+
+<p style="font-size:36px;line-height:2.3;">فقدان العمل لا يعني تلقائيًا توقف اشتراكات الحماية الاجتماعية. فالوضعية تعتمد على النظام الذي يوجد فيه السائق مسجلًا وعلى وضعيته المهنية الحقيقية.</p>
+
+<ol style="font-size:36px;line-height:2.3;">
+<li>التحقق أولًا من الوضعية المسجلة لدى الصندوق الوطني للضمان الاجتماعي.</li>
+<li>إذا كان السائق يعمل كأجير، التأكد من أن المشغل صرّح بشكل صحيح بانتهاء علاقة العمل.</li>
+<li>إذا ظهر السائق كعامل غير أجير، يجب معرفة سبب تسجيله في هذا النظام وتاريخ بداية التسجيل.</li>
+<li>إذا ظهرت اشتراكات عن فترة كان فيها السائق بدون عمل، يجب طلب توضيح ومراجعة الوضعية مع تقديم الوثائق التي تثبت الوضعية المهنية الحقيقية.</li>
+<li>عدم تجاهل أي إشعار صادر عن الصندوق الوطني للضمان الاجتماعي، والاحتفاظ بالإشعارات والعقود وشهادات العمل والوثائق المرتبطة بالنشاط.</li>
+<li>إذا ظهرت ديون، فلا ينبغي اعتبار البطاقة المهنية وحدها دليلًا على صحة الدين أو عدم صحته؛ يجب أولًا تحديد الصفة المهنية والنظام الاجتماعي المطبق.</li>
+<li>إذا كانت الشركة تصرّح بالسائق عن بعض أيام العمل فقط، بينما لا تظهر وضعية التغطية الصحية AMO بشكل صحيح، فعلى السائق التحقق من سجل التسجيل والتصريحات لدى الصندوق الوطني للضمان الاجتماعي، وطلب تسوية الوضعية إذا كان هناك اختلاف بين العمل الذي قام به فعليًا والتصريحات المسجلة.</li>
+<li>وقد يجد السائق نفسه أيضًا أمام مطالبة باشتراكات AMO باعتباره عاملًا غير أجير، رغم أنه يقول إنه كان يعمل كأجير لدى شركة. في هذه الحالة يجب التحقق من الوثائق ومن النظام الذي كان يجب أن يكون مسجلًا فيه.</li>
+</ol>
+
+<p style="font-size:36px;line-height:2.3;"><strong>قاعدة عملية:</strong> البطاقة المهنية ≠ عقد العمل ≠ التسجيل كأجير ≠ اكتساب صفة العامل غير الأجير تلقائيًا.</p>
+
+<p style="font-size:30px;line-height:2.2;text-align:center;">
 📌 المصدر: النصوص القانونية الرسمية المنشورة عبر البوابة القانونية لوزارة العدل المغربية.
+</p>
+
+<hr>
+
+<h2 style="font-size:36px;line-height:1.8;text-align:center;">
+1️⃣ فقدان العمل واستمرار ظهور اشتراكات CNSS / AMO
+</h2>
+
+<p style="font-size:36px;line-height:2.3;">
+من الإشكالات التي قد يواجهها السائق المهني بعد فقدان العمل أن يجد، عند الاطلاع على وضعيته لدى الصندوق الوطني للضمان الاجتماعي (CNSS)، اشتراكات أو مبالغ مستحقة عن فترة لم يكن خلالها يشتغل فعليًا.
+</p>
+
+<h3 style="font-size:34px;line-height:1.8;">
+⚖️ ماذا يقول القانون؟
+</h3>
+
+<p style="font-size:36px;line-height:2.3;">
+ينظم المرسوم رقم 2.22.190 الصادر في 29 مارس 2022 وضعية السائقين الحاملين لبطاقة سائق مهني، باستثناء سائقي سيارات الأجرة، في ما يتعلق بنظام التأمين الإجباري الأساسي عن المرض ونظام المعاشات الخاصين بالفئات المهنية والعمال المستقلين والأشخاص غير الأجراء.
+</p>
+
+<p style="font-size:36px;line-height:2.3;">
+ويحدد هذا الإطار القانوني شروط الخضوع للنظام وكيفية التسجيل والاشتراكات بالنسبة إلى الفئة المعنية.
+</p>
+
+<h3 style="font-size:34px;line-height:1.8;">
+⚠️ فقدان العمل لا يكفي وحده للحكم على الاشتراكات
+</h3>
+
+<p style="font-size:36px;line-height:2.3;">
+فقدان العمل لا يعني تلقائيًا أن الاشتراكات تتوقف، كما لا يعني تلقائيًا أنها تستمر. يجب أولًا تحديد الصفة المهنية للسائق، والنظام الذي يوجد فيه مسجلًا، والفترة التي تطالب عنها الاشتراكات، والأساس القانوني للتسجيل.
+</p>
+
+<p style="font-size:36px;line-height:2.3;">
+لذلك، إذا فقد السائق عمله ثم ظهرت في وضعيته لدى CNSS اشتراكات أو ديون، فمن الضروري التحقق من الوضعية المسجلة بدل افتراض أن المبلغ صحيح أو غير صحيح بمجرد ظهوره في الحساب.
+</p>
+
+<h3 style="font-size:34px;line-height:1.8;">
+🧾 ماذا يفعل السائق؟
+</h3>
+
+<ol style="font-size:36px;line-height:2.3;">
+<li>التحقق من الوضعية المسجلة لدى الصندوق الوطني للضمان الاجتماعي.</li>
+<li>تحديد تاريخ انتهاء العمل الفعلي.</li>
+<li>إذا كان السائق أجيرًا، التأكد من أن المشغل صرّح بشكل صحيح بانتهاء علاقة العمل.</li>
+<li>إذا ظهر السائق ضمن نظام غير الأجراء، طلب معرفة سبب وتاريخ بداية هذا التسجيل.</li>
+<li>مقارنة الاشتراكات المطلوبة مع الفترة التي كان فيها السائق يعمل فعليًا.</li>
+<li>تقديم الوثائق التي تثبت الوضعية المهنية عند طلب مراجعة الحساب.</li>
+<li>الاحتفاظ بعقد العمل وشهادة العمل ووثائق انتهاء العمل والإشعارات الصادرة عن CNSS.</li>
+<li>طلب توضيح أو مراجعة الوضعية إذا وُجد اختلاف بين الوضعية المهنية الحقيقية والتسجيل لدى الصندوق.</li>
+</ol>
+
+<p style="font-size:36px;line-height:2.3;">
+<strong>📌 قاعدة عملية:</strong>
+فقدان العمل ≠ حذف التسجيل تلقائيًا.
+</p>
+
+<p style="font-size:36px;line-height:2.3;">
+<strong>البطاقة المهنية ≠ عقد العمل ≠ التسجيل كأجير ≠ اكتساب صفة العامل غير الأجير تلقائيًا.</strong>
+</p>
+
+<p style="font-size:30px;line-height:2.2;text-align:center;">
+📚 <strong>المرجع القانوني:</strong> المرسوم رقم 2.22.190 الصادر في 29 مارس 2022، المتعلق بتطبيق القانونين رقم 98.15 و99.15 فيما يخص السائقين الحاملين لبطاقة سائق مهني، باستثناء سائقي سيارات الأجرة.
+</p>
+
+<hr>
+
+<h2 style="font-size:36px;line-height:1.8;text-align:center;">
+2️⃣ الازدواجية في التسجيل والاشتراكات
+</h2>
+
+<p style="font-size:36px;line-height:2.3;">
+من الإشكالات التي قد تظهر في وضعية بعض السائقين وجود تسجيلات أو اشتراكات مرتبطة بأكثر من صفة أو نظام اجتماعي خلال الفترة نفسها، خصوصًا عندما يكون السائق يعمل كأجير لدى شركة، وفي الوقت نفسه تظهر له وضعية ضمن نظام المهنيين والعمال المستقلين والأشخاص غير الأجراء.
+</p>
+
+<h3 style="font-size:34px;line-height:1.8;">
+⚖️ ماذا يقول القانون؟
+</h3>
+
+<p style="font-size:36px;line-height:2.3;">
+المرسوم رقم 2.22.190 الصادر في 29 مارس 2022 يحدد كيفيات تطبيق نظام التأمين الإجباري الأساسي عن المرض ونظام المعاشات على السائقين الحاملين لبطاقة سائق مهني، باستثناء سائقي سيارات الأجرة، وذلك في إطار القانونين رقم 98.15 و99.15.
+</p>
+
+<p style="font-size:36px;line-height:2.3;">
+وفي المقابل، يخضع الأجير لنظام الحماية الاجتماعية المرتبط بعلاقة الشغل والتصريح به من طرف المشغل. لذلك يجب التمييز بين وضعية السائق كأجير وبين خضوعه لنظام الأشخاص غير الأجراء.
+</p>
+
+<h3 style="font-size:34px;line-height:1.8;">
+⚠️ ماذا تعني الازدواجية؟
+</h3>
+
+<p style="font-size:36px;line-height:2.3;">
+ظهور تسجيلين أو مطالبتين بالاشتراكات لا يعني تلقائيًا أن هناك خطأ قانونيًا، كما لا يعني تلقائيًا أن جميع المبالغ صحيحة. يجب فحص الصفة المهنية، والفترة المعنية، وطبيعة النشاط، والأساس الذي بني عليه كل تسجيل.
+</p>
+
+<p style="font-size:36px;line-height:2.3;">
+إذا كان السائق يعمل فعليًا كأجير لدى شركة، ثم ظهرت في الوقت نفسه مطالبات مرتبطة بنظام غير الأجراء، فمن حقه طلب توضيح سبب هذا التسجيل والفترة التي تغطيها الاشتراكات، ومقارنة ذلك مع الوثائق التي تثبت علاقته المهنية.
+</p>
+
+<h3 style="font-size:34px;line-height:1.8;">
+🧾 ماذا يفعل السائق؟
+</h3>
+
+<ol style="font-size:36px;line-height:2.3;">
+<li>طلب كشف واضح عن وضعيته وتسجيلاته لدى الصندوق الوطني للضمان الاجتماعي.</li>
+<li>تحديد الصفة المسجلة: أجير أم ضمن نظام غير الأجراء.</li>
+<li>تحديد تاريخ بداية كل تسجيل والفترات التي تتعلق بها الاشتراكات.</li>
+<li>مقارنة هذه الفترات مع عقود العمل والتصريحات وشهادات العمل.</li>
+<li>إذا وُجد تداخل في التسجيلات، طلب توضيح الأساس القانوني لكل تسجيل.</li>
+<li>تقديم الوثائق التي تثبت الوضعية المهنية الحقيقية عند طلب مراجعة أو تصحيح البيانات.</li>
+<li>الاحتفاظ بكل الإشعارات وكشوف الاشتراكات والوثائق المتعلقة بالعمل والبطاقة المهنية.</li>
+</ol>
+
+<p style="font-size:36px;line-height:2.3;">
+<strong>📌 قاعدة عملية:</strong>
+البطاقة المهنية لا تعني وحدها أن السائق أجير، ولا تعني وحدها أن كل وضعية للسائق تدخل تلقائيًا في نظام غير الأجراء.
+</p>
+
+<p style="font-size:36px;line-height:2.3;">
+<strong>وجود تسجيلين ≠ إثبات تلقائي لوجود خطأ، ووجود مطالبة بالاشتراك ≠ إعفاء السائق من حقه في طلب التوضيح والمراجعة.</strong>
+</p>
+
+<p style="font-size:30px;line-height:2.2;text-align:center;">
+📚 <strong>المرجع القانوني:</strong> القانون رقم 98.15، والقانون رقم 99.15، والمرسوم رقم 2.22.190 المتعلق بالسائقين الحاملين لبطاقة سائق مهني غير سائقي سيارات الأجرة.
 </p>
 
 @endif

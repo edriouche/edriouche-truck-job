@@ -285,21 +285,6 @@
         </a>
     </div>
 
-    <div class="intro">
-        <p><strong>{{ __('messages.no_guarantee') }}</strong></p>
-        <p>{{ __('messages.last_check') }}</p>
-    </div>
-
-</div>
-
-<footer>
-    © 2026 Edriouche Truck Job
-</footer>
-
-</body>
-</html>
-
-
 <!-- MOROCCO TRANSPORT COMPANIES -->
 <div class="intro">
     <h2>{{ __('jobs.direct') }}</h2>
@@ -325,3 +310,18 @@
     </div>
 @endforeach
 
+
+
+    <div class="intro">
+        <p><strong>{{ __('messages.no_guarantee') }}</strong></p>
+        <p>{{ __('messages.last_check') }}</p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Edriouche Truck Job
+</footer>
+
+</body>
+</html>

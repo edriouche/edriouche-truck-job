@@ -118,3 +118,5 @@ Route::post('/gallery/logout', [\App\Http\Controllers\GalleryAuthController::cla
 Route::view('/constat-amiable', 'constat-amiable');
 
 Route::get('/cap-code95-spain', function () { return match(app()->getLocale()) { 'es' => view('cap-code95-spain-es'), 'fr' => view('cap-code95-spain-fr'), default => view('cap-code95-spain'), }; });
+
+Route::view('/professional-driver-card', 'professional-driver-card');
