@@ -79,20 +79,20 @@ Para los conductores titulares de la tarjeta profesional que no son taxistas, el
 <hr>
 
 <h2>2022–2024 — Régimen específico y debate sobre la protección social</h2>
-<p>En 2022, el Decreto nº 2.22.190 estableció un régimen específico de seguro obligatorio de enfermedad y de pensiones para los conductores profesionales titulares de la tarjeta profesional, excepto los conductores de taxi.</p>
-<p>El régimen preveía la afiliación a la protección social y la declaración de las cotizaciones correspondientes. Su aplicación planteó posteriormente cuestiones prácticas relacionadas con el registro, las cotizaciones y el acceso a la cobertura.</p>
-<p>En 2023, estas dificultades también fueron objeto de debate parlamentario. El Proyecto de Ley nº 41.23, procedente de la Cámara de Representantes y examinado por la Cámara de Consejeros, trató la situación de determinadas deudas de cotizaciones, recargos, gastos y multas frente a la CNSS.</p>
-<p>Este debate parlamentario es importante para la historia de la tarjeta profesional: muestra que las dificultades de aplicación de la protección social fueron discutidas institucionalmente y no deben atribuirse automáticamente a la tarjeta profesional en sí.</p>
+<p style="font-size:36px;line-height:2.3;">En 2022, el Decreto nº 2.22.190 estableció un régimen específico de seguro obligatorio de enfermedad y de pensiones para los conductores profesionales titulares de la tarjeta profesional, excepto los conductores de taxi.</p>
+<p style="font-size:36px;line-height:2.3;">El régimen preveía la afiliación a la protección social y la declaración de las cotizaciones correspondientes. Su aplicación planteó posteriormente cuestiones prácticas relacionadas con el registro, las cotizaciones y el acceso a la cobertura.</p>
+<p style="font-size:36px;line-height:2.3;">En 2023, estas dificultades también fueron objeto de debate parlamentario. El Proyecto de Ley nº 41.23, procedente de la Cámara de Representantes y examinado por la Cámara de Consejeros, trató la situación de determinadas deudas de cotizaciones, recargos, gastos y multas frente a la CNSS.</p>
+<p style="font-size:36px;line-height:2.3;">Este debate parlamentario es importante para la historia de la tarjeta profesional: muestra que las dificultades de aplicación de la protección social fueron discutidas institucionalmente y no deben atribuirse automáticamente a la tarjeta profesional en sí.</p>
 
 <h2>2025–2026 — Problemas actuales y debate parlamentario</h2>
-<p>En 2025–2026, las dificultades relacionadas con la protección social de los conductores profesionales continuaron siendo objeto de preguntas parlamentarias.</p>
-<p>En la Cámara de Representantes se plantearon preguntas sobre posibles situaciones de doble afiliación y doble cotización cuando un conductor trabaja para una empresa registrada en la CNSS pero aparece también como trabajador no asalariado.</p>
-<p>También se plantearon cuestiones sobre conductores temporalmente desempleados o en formación profesional que pueden recibir reclamaciones de cotizaciones, así como sobre la acumulación de deudas y las modalidades de regularización.</p>
-<p>Estas cuestiones parlamentarias no significan que todos los conductores se encuentren en la misma situación. Muestran, sin embargo, que la aplicación práctica del sistema de protección social para esta categoría continúa siendo objeto de seguimiento institucional.</p>
-<p><strong>Importante:</strong> la tarjeta profesional, por sí sola, no debe confundirse con un contrato de trabajo, una afiliación salarial a la CNSS o una situación automática de trabajador no asalariado. La situación debe analizarse según la relación laboral y el régimen de protección social aplicable.</p>
+<p style="font-size:36px;line-height:2.3;">En 2025–2026, las dificultades relacionadas con la protección social de los conductores profesionales continuaron siendo objeto de preguntas parlamentarias.</p>
+<p style="font-size:36px;line-height:2.3;">En la Cámara de Representantes se plantearon preguntas sobre posibles situaciones de doble afiliación y doble cotización cuando un conductor trabaja para una empresa registrada en la CNSS pero aparece también como trabajador no asalariado.</p>
+<p style="font-size:36px;line-height:2.3;">También se plantearon cuestiones sobre conductores temporalmente desempleados o en formación profesional que pueden recibir reclamaciones de cotizaciones, así como sobre la acumulación de deudas y las modalidades de regularización.</p>
+<p style="font-size:36px;line-height:2.3;">Estas cuestiones parlamentarias no significan que todos los conductores se encuentren en la misma situación. Muestran, sin embargo, que la aplicación práctica del sistema de protección social para esta categoría continúa siendo objeto de seguimiento institucional.</p>
+<p style="font-size:36px;line-height:2.3;"><strong>Importante:</strong> la tarjeta profesional, por sí sola, no debe confundirse con un contrato de trabajo, una afiliación salarial a la CNSS o una situación automática de trabajador no asalariado. La situación debe analizarse según la relación laboral y el régimen de protección social aplicable.</p>
 
 <h2>🛠️ ¿Qué debe hacer el conductor si pierde su trabajo o aparecen cotizaciones?</h2>
-<p>Perder el empleo no significa automáticamente que las cotizaciones de protección social se detengan. La situación depende del régimen en el que el conductor esté registrado y de su situación profesional real.</p>
+<p style="font-size:36px;line-height:2.3;">Perder el empleo no significa automáticamente que las cotizaciones de protección social se detengan. La situación depende del régimen en el que el conductor esté registrado y de su situación profesional real.</p>
 <ol style="font-size:36px;line-height:2.3;">
 <li>Comprobar primero su situación registrada ante la CNSS.</li>
 <li>Si trabajaba como asalariado, comprobar que el empleador haya declarado correctamente el fin de la relación laboral.</li>
@@ -103,7 +103,7 @@ Para los conductores titulares de la tarjeta profesional que no son taxistas, el
 <li>Si la empresa declara al conductor solo por determinados días de trabajo, pero la situación de cobertura sanitaria AMO no aparece correctamente, el conductor debe comprobar su historial de afiliación y declaraciones ante la CNSS y solicitar la regularización si existe una diferencia entre el trabajo realmente realizado y lo declarado.</li>
 <li>También puede ocurrir que un conductor reciba una reclamación de AMO como trabajador no asalariado mientras sostiene que trabajaba como asalariado para una empresa. Esta situación debe verificarse según los documentos y el régimen de afiliación aplicable.</li>
 </ol>
-<p><strong>Regla práctica:</strong> tarjeta profesional ≠ contrato de trabajo ≠ afiliación como asalariado ≠ condición automática de trabajador no asalariado.</p>
+<p style="font-size:36px;line-height:2.3;"><strong>Regla práctica:</strong> tarjeta profesional ≠ contrato de trabajo ≠ afiliación como asalariado ≠ condición automática de trabajador no asalariado.</p>
 
 📌 Fuente: textos legales oficiales publicados a través del portal jurídico del Ministerio de Justicia de Marruecos.
 </p>
@@ -184,17 +184,17 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 <hr>
 
 <h2>2022–2024 — Régime spécifique et débat sur la protection sociale</h2>
-<p>En 2022, le décret n° 2.22.190 a établi un régime spécifique d'assurance maladie obligatoire et de retraite pour les conducteurs professionnels titulaires de la carte professionnelle, à l'exception des conducteurs de taxi.</p>
-<p>Ce régime prévoyait l'affiliation à la protection sociale ainsi que la déclaration des cotisations correspondantes. Son application a ensuite soulevé des questions pratiques liées à l'inscription, aux cotisations et à l'accès à la couverture.</p>
-<p>En 2023, ces difficultés ont également fait l'objet de débats parlementaires. Le projet de loi n° 41.23, provenant de la Chambre des représentants et examiné par la Chambre des conseillers, concernait notamment certaines dettes de cotisations, majorations, frais et amendes envers la CNSS.</p>
-<p>Ce débat parlementaire est important dans l'histoire de la carte professionnelle : il montre que les difficultés de mise en œuvre de la protection sociale ont été discutées au niveau institutionnel et ne doivent pas être attribuées automatiquement à la carte professionnelle elle-même.</p>
+<p style="font-size:36px;line-height:2.3;">En 2022, le décret n° 2.22.190 a établi un régime spécifique d'assurance maladie obligatoire et de retraite pour les conducteurs professionnels titulaires de la carte professionnelle, à l'exception des conducteurs de taxi.</p>
+<p style="font-size:36px;line-height:2.3;">Ce régime prévoyait l'affiliation à la protection sociale ainsi que la déclaration des cotisations correspondantes. Son application a ensuite soulevé des questions pratiques liées à l'inscription, aux cotisations et à l'accès à la couverture.</p>
+<p style="font-size:36px;line-height:2.3;">En 2023, ces difficultés ont également fait l'objet de débats parlementaires. Le projet de loi n° 41.23, provenant de la Chambre des représentants et examiné par la Chambre des conseillers, concernait notamment certaines dettes de cotisations, majorations, frais et amendes envers la CNSS.</p>
+<p style="font-size:36px;line-height:2.3;">Ce débat parlementaire est important dans l'histoire de la carte professionnelle : il montre que les difficultés de mise en œuvre de la protection sociale ont été discutées au niveau institutionnel et ne doivent pas être attribuées automatiquement à la carte professionnelle elle-même.</p>
 
 <h2>2025–2026 — Problèmes actuels et débat parlementaire</h2>
-<p>En 2025–2026, les difficultés liées à la protection sociale des conducteurs professionnels ont continué à faire l'objet de questions parlementaires.</p>
-<p>À la Chambre des représentants, des questions ont été posées concernant d'éventuelles situations de double affiliation et de double cotisation lorsqu'un conducteur travaille pour une entreprise déclarée à la CNSS mais apparaît également comme travailleur non salarié.</p>
-<p>Des questions ont également porté sur les conducteurs temporairement sans emploi ou en formation professionnelle qui peuvent recevoir des demandes de cotisations, ainsi que sur l'accumulation des dettes et les modalités de régularisation.</p>
-<p>Ces questions parlementaires ne signifient pas que tous les conducteurs se trouvent dans la même situation. Elles montrent toutefois que l'application pratique du système de protection sociale pour cette catégorie continue de faire l'objet d'un suivi institutionnel.</p>
-<p><strong>Important :</strong> la carte professionnelle, à elle seule, ne doit pas être confondue avec un contrat de travail, une affiliation salariale à la CNSS ou une qualité automatique de travailleur non salarié. La situation doit être examinée selon la relation de travail et le régime de protection sociale applicable.</p>
+<p style="font-size:36px;line-height:2.3;">En 2025–2026, les difficultés liées à la protection sociale des conducteurs professionnels ont continué à faire l'objet de questions parlementaires.</p>
+<p style="font-size:36px;line-height:2.3;">À la Chambre des représentants, des questions ont été posées concernant d'éventuelles situations de double affiliation et de double cotisation lorsqu'un conducteur travaille pour une entreprise déclarée à la CNSS mais apparaît également comme travailleur non salarié.</p>
+<p style="font-size:36px;line-height:2.3;">Des questions ont également porté sur les conducteurs temporairement sans emploi ou en formation professionnelle qui peuvent recevoir des demandes de cotisations, ainsi que sur l'accumulation des dettes et les modalités de régularisation.</p>
+<p style="font-size:36px;line-height:2.3;">Ces questions parlementaires ne signifient pas que tous les conducteurs se trouvent dans la même situation. Elles montrent toutefois que l'application pratique du système de protection sociale pour cette catégorie continue de faire l'objet d'un suivi institutionnel.</p>
+<p style="font-size:36px;line-height:2.3;"><strong>Important :</strong> la carte professionnelle, à elle seule, ne doit pas être confondue avec un contrat de travail, une affiliation salariale à la CNSS ou une qualité automatique de travailleur non salarié. La situation doit être examinée selon la relation de travail et le régime de protection sociale applicable.</p>
 
 <h2>🛠️ Que doit faire le conducteur s’il perd son emploi ou si des cotisations apparaissent ?</h2>
 <p style="font-size:36px;line-height:2.3;">La perte d'un emploi ne signifie pas automatiquement l'arrêt des cotisations de protection sociale. La situation dépend du régime auquel le conducteur est enregistré et de sa situation professionnelle réelle.</p>
@@ -206,7 +206,7 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 <li>Ne pas ignorer une notification de la CNSS. Conserver les notifications, contrats, attestations de travail et documents liés à l'activité.</li>
 <li>En cas de dette, ne pas considérer que la carte professionnelle suffit à elle seule pour prouver que la dette est correcte ou incorrecte : il faut d'abord déterminer le statut professionnel et le régime applicable.</li>
 </ol>
-<p><strong>Règle pratique :</strong> carte professionnelle ≠ contrat de travail ≠ affiliation comme salarié ≠ qualité automatique de travailleur non salarié.</p>
+<p style="font-size:36px;line-height:2.3;"><strong>Règle pratique :</strong> carte professionnelle ≠ contrat de travail ≠ affiliation comme salarié ≠ qualité automatique de travailleur non salarié.</p>
 
 📌 Source : textes juridiques officiels publiés sur le portail juridique du ministère marocain de la Justice.
 </p>
