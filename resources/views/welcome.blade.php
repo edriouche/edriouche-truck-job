@@ -462,7 +462,7 @@
             <a href="/spain-law">⚖️ Ley del transporte en España</a><br>
             <a href="/cap-code95-spain">🇪🇺 CAP / Code 95 — Polonia, Lituania y trabajo en España</a><br>
             <a href="/professional-driver-card">🇲🇦 Tarjeta profesional del conductor en Marruecos</a><br>
-            <a href="/open-letter" style="display:inline-block;padding:12px 22px;background:#c9a227;color:white;border-radius:10px;text-decoration:none;margin:8px;">📜 رسالة مفتوحة إلى وزارة النقل واللوجستيك</a><br>
+            <a href="/open-letter" style="display:inline-block;padding:12px 22px;background:linear-gradient(135deg,#8b6914,#d4af37,#8b6914);color:white;border:2px solid #f5d76e;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.25);font-weight:bold;text-decoration:none;margin:8px;">📜 رسالة مفتوحة إلى وزارة النقل واللوجستيك</a><br>
             <a href="/europe-rules">📚 Reglas del transporte en Europa</a><br>
             <a href="/tachograph-guide">🧭 Guía del conductor marroquí en Europa</a>
         </div>
@@ -492,7 +492,7 @@
             <a href="/spain-law">⚖️ Loi du transport en Espagne</a><br>
             <a href="/cap-code95-spain">🇪🇺 CAP / Code 95 — Pologne, Lituanie et travail en Espagne</a><br>
             <a href="/professional-driver-card">🇲🇦 Carte professionnelle du conducteur au Maroc</a><br>
-            <a href="/open-letter" style="display:inline-block;padding:12px 22px;background:#c9a227;color:white;border-radius:10px;text-decoration:none;margin:8px;">📜 رسالة مفتوحة إلى وزارة النقل واللوجستيك</a><br>
+            <a href="/open-letter" style="display:inline-block;padding:12px 22px;background:linear-gradient(135deg,#8b6914,#d4af37,#8b6914);color:white;border:2px solid #f5d76e;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.25);font-weight:bold;text-decoration:none;margin:8px;">📜 رسالة مفتوحة إلى وزارة النقل واللوجستيك</a><br>
             <a href="/europe-rules">📚 Règles du transport en Europe</a><br>
             <a href="/tachograph-guide">🧭 Guide du conducteur marocain en Europe</a>
         </div>
@@ -522,7 +522,7 @@
             <a href="/spain-law">⚖️ قانون النقل في إسبانيا</a><br>
             <a href="/cap-code95-spain">🇪🇺 CAP / Code 95 — بولونيا وليتوانيا والعمل في إسبانيا</a><br>
             <a href="/professional-driver-card">🇲🇦 البطاقة المهنية للسائق المغربي</a><br>
-            <a href="/open-letter" style="display:inline-block;padding:12px 22px;background:#c9a227;color:white;border-radius:10px;text-decoration:none;margin:8px;">📜 رسالة مفتوحة إلى وزارة النقل واللوجستيك</a><br>
+            <a href="/open-letter" style="display:inline-block;padding:12px 22px;background:linear-gradient(135deg,#8b6914,#d4af37,#8b6914);color:white;border:2px solid #f5d76e;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.25);font-weight:bold;text-decoration:none;margin:8px;">📜 رسالة مفتوحة إلى وزارة النقل واللوجستيك</a><br>
             <a href="/europe-rules">📚 قواعد النقل في أوروبا</a><br>
             <a href="/tachograph-guide">🧭 بوصلة السائق المغربي في أوروبا</a>
         </div>
