@@ -58,7 +58,7 @@ Esta etapa planteó también retos relacionados con la disponibilidad de centros
 
 <hr>
 
-<p style="font-size:30px;line-height:2.2;">
+<p style="font-size:32px;line-height:2.2;">
 
 <h2 style="font-size:36px;line-height:1.8;text-align:center;">
 2019–2021 — La transición hacia la protección social
@@ -163,7 +163,7 @@ Cette étape a également posé des défis liés à la disponibilité des centre
 
 <hr>
 
-<p style="font-size:30px;line-height:2.2;">
+<p style="font-size:32px;line-height:2.2;">
 
 <h2 style="font-size:36px;line-height:1.8;text-align:center;">
 2019–2021 — La transition vers la protection sociale
@@ -266,7 +266,7 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 
 <hr>
 
-<p style="font-size:30px;line-height:2.2;">
+<p style="font-size:32px;line-height:2.2;">
 
 <h2 style="font-size:36px;line-height:1.8;text-align:center;">
 2019–2021 — الانتقال نحو الحماية الاجتماعية
@@ -316,7 +316,7 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 
 <p style="font-size:36px;line-height:2.3;"><strong>قاعدة عملية:</strong> البطاقة المهنية ≠ عقد العمل ≠ التسجيل كأجير ≠ اكتساب صفة العامل غير الأجير تلقائيًا.</p>
 
-<p style="font-size:30px;line-height:2.2;text-align:center;">
+<p style="font-size:32px;line-height:2.2;text-align:center;">
 📌 المصدر: النصوص القانونية الرسمية المنشورة عبر البوابة القانونية لوزارة العدل المغربية.
 </p>
 
@@ -419,7 +419,7 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 <strong>البطاقة المهنية ≠ عقد العمل ≠ التسجيل كأجير ≠ اكتساب صفة العامل غير الأجير تلقائيًا.</strong>
 </p>
 
-<p style="font-size:30px;line-height:2.2;text-align:center;">
+<p style="font-size:32px;line-height:2.2;text-align:center;">
 📚 <strong>المرجع القانوني:</strong> المرسوم رقم 2.22.190 الصادر في 29 مارس 2022، المتعلق بتطبيق القانونين رقم 98.15 و99.15 فيما يخص السائقين الحاملين لبطاقة سائق مهني، باستثناء سائقي سيارات الأجرة.
 </p>
 
@@ -519,7 +519,7 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 <strong>وجود تسجيلين ≠ إثبات تلقائي لوجود خطأ، ووجود مطالبة بالاشتراك ≠ إعفاء السائق من حقه في طلب التوضيح والمراجعة.</strong>
 </p>
 
-<p style="font-size:30px;line-height:2.2;text-align:center;">
+<p style="font-size:32px;line-height:2.2;text-align:center;">
 📚 <strong>المرجع القانوني:</strong> القانون رقم 98.15، والقانون رقم 99.15، والمرسوم رقم 2.22.190 المتعلق بالسائقين الحاملين لبطاقة سائق مهني غير سائقي سيارات الأجرة.
 </p>
 
@@ -620,19 +620,19 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 🎓 التكوين المستمر وتجديد بطاقة السائق المهني
 </h2>
 
-<p style="font-size:32px;line-height:2.2;">
+<p style="font-size:36px;line-height:2.2;">
 يجب على حامل بطاقة السائق المهني متابعة التكوين المستمر كل خمس سنوات من أجل تجديد البطاقة، ويكون التكوين خلال السنة الأخيرة من مدة صلاحية البطاقة.
 </p>
 
-<p style="font-size:32px;line-height:2.2;">
+<p style="font-size:36px;line-height:2.2;">
 وينص التنظيم على إيداع طلب التكوين لدى مؤسسة معتمدة في أجل أقصاه ثلاثة أشهر قبل انتهاء مدة صلاحية البطاقة.
 </p>
 
-<p style="font-size:32px;line-height:2.2;">
+<p style="font-size:36px;line-height:2.2;">
 <strong>الحل العملي للسائق:</strong>
 </p>
 
-<ul style="font-size:32px;line-height:2.2;">
+<ul style="font-size:36px;line-height:2.2;">
 <li>التأكد من تاريخ انتهاء البطاقة وعدم الانتظار إلى آخر لحظة.</li>
 <li>الاحتفاظ بشهادة كل تكوين مستمر.</li>
 <li>التأكد من أن التكوين يتم لدى جهة معتمدة.</li>
@@ -640,7 +640,7 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 <li>إذا كان موعد التكوين بعد تاريخ انتهاء البطاقة، الاستفسار عن المسطرة القانونية المتعلقة بتمديد الصلاحية.</li>
 </ul>
 
-<p style="font-size:32px;line-height:2.2;">
+<p style="font-size:36px;line-height:2.2;">
 ⚠️ شهادة التكوين تثبت متابعة التكوين، لكنها لا تعني وحدها أن جميع شروط التجديد مستوفاة؛ فالملف يخضع للتحقق وفق المسطرة المعمول بها.
 </p>
 
@@ -650,11 +650,11 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 🛡️ خلاصة الحلول العملية لحماية حقوق السائق المهني
 </h2>
 
-<p style="font-size:32px;line-height:2.2;">
+<p style="font-size:36px;line-height:2.2;">
 عند مواجهة أي مشكلة مرتبطة بالبطاقة المهنية أو الوضعية الاجتماعية أو المهنية، لا ينبغي للسائق الاكتفاء بالتواصل الشفهي. الأفضل أن يحدد مشكلته بدقة، ويجمع الوثائق المتعلقة بها، ويطلب جوابًا واضحًا من الجهة المختصة.
 </p>
 
-<ul style="font-size:32px;line-height:2.2;">
+<ul style="font-size:36px;line-height:2.2;">
 <li>تحديد صفة السائق والفترة المعنية بالمشكلة.</li>
 <li>جمع الوثائق التي تثبت العمل أو التوقف عن العمل أو التكوين أو الوضعية الاجتماعية.</li>
 <li>طلب كشف أو توضيح رسمي عندما تكون هناك اشتراكات أو مبالغ أو تسجيلات غير واضحة.</li>
@@ -668,20 +668,20 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 📢 إلى من يمكن للسائق توجيه شكايته أو طلبه؟
 </h3>
 
-<p style="font-size:32px;line-height:2.2;">
+<p style="font-size:36px;line-height:2.2;">
 بحسب طبيعة المشكلة، يمكن للسائق التوجه إلى الجهة الإدارية المختصة، مثل مصالح النقل الطرقي بالنسبة للمسائل المتعلقة بالبطاقة المهنية، أو الصندوق الوطني للضمان الاجتماعي بالنسبة للمسائل المتعلقة بالتسجيل والاشتراكات والتغطية الاجتماعية، مع استعمال قنوات الشكايات والمواعيد الرسمية المتاحة.
 </p>
 
-<p style="font-size:32px;line-height:2.2;">
+<p style="font-size:36px;line-height:2.2;">
 كما يمكن للسائق استعمال البوابة الوطنية للشكايات عندما تكون المسألة ذات طبيعة إدارية وتستدعي تقديم تظلم أو طلب تتبع، مع إرفاق الوثائق التي تثبت الوقائع.
 </p>
 
-<p style="font-size:32px;line-height:2.2;">
+<p style="font-size:36px;line-height:2.2;">
 ⚠️ هذا الموقع يهدف إلى توعية السائقين وتوثيق المشاكل والحلول الممكنة، ولا يحل محل الإدارة المختصة أو الاستشارة القانونية. القرار النهائي في كل ملف يعود إلى الجهة المختصة وفق القوانين والإجراءات المعمول بها.
 </p>
 
 <p style="text-align:center;margin-top:30px;">
-<a href="{{ url('/') }}" style="font-size:30px;font-weight:bold;">
+<a href="{{ url('/') }}" style="font-size:32px;font-weight:bold;">
 ⬅️ {{ app()->getLocale() === 'es' ? 'Volver a la página principal' : (app()->getLocale() === 'fr' ? '⬅️ Retour à la page d’accueil' : 'العودة إلى الصفحة الرئيسية') }}
 </a>
 </p>
