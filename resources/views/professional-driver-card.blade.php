@@ -197,7 +197,7 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 <p><strong>Important :</strong> la carte professionnelle, à elle seule, ne doit pas être confondue avec un contrat de travail, une affiliation salariale à la CNSS ou une qualité automatique de travailleur non salarié. La situation doit être examinée selon la relation de travail et le régime de protection sociale applicable.</p>
 
 <h2>🛠️ Que doit faire le conducteur s’il perd son emploi ou si des cotisations apparaissent ?</h2>
-<p>La perte d'un emploi ne signifie pas automatiquement l'arrêt des cotisations de protection sociale. La situation dépend du régime auquel le conducteur est enregistré et de sa situation professionnelle réelle.</p>
+<p style="font-size:36px;line-height:2.3;">La perte d'un emploi ne signifie pas automatiquement l'arrêt des cotisations de protection sociale. La situation dépend du régime auquel le conducteur est enregistré et de sa situation professionnelle réelle.</p>
 <ol style="font-size:36px;line-height:2.3;">
 <li>Vérifier d'abord sa situation enregistrée auprès de la CNSS.</li>
 <li>S'il travaillait comme salarié, vérifier que l'employeur a correctement déclaré la fin de la relation de travail.</li>
