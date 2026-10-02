@@ -523,7 +523,6 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 📚 <strong>المرجع القانوني:</strong> القانون رقم 98.15، والقانون رقم 99.15، والمرسوم رقم 2.22.190 المتعلق بالسائقين الحاملين لبطاقة سائق مهني غير سائقي سيارات الأجرة.
 </p>
 
-@endif
 
 
 <hr>
@@ -687,3 +686,5 @@ Pour les conducteurs titulaires de la carte professionnelle autres que les chauf
 </p>
 
 </div>
+
+@endif
