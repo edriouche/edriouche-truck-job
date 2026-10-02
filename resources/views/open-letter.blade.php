@@ -19,6 +19,7 @@ p,li{font-size:21px}
 
 <body>
 <main>
+<div style="text-align:center;margin-bottom:25px;font-size:20px;"><a href="/lang/ar?redirect=/open-letter">🇲🇦 العربية</a> | <a href="/lang/es?redirect=/open-letter">🇪🇸 Español</a> | <a href="/lang/fr?redirect=/open-letter">🇫🇷 Français</a></div>
 
 @if(app()->getLocale() === 'es')
 
