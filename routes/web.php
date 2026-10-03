@@ -121,3 +121,53 @@ Route::get('/cap-code95-spain', function () { return match(app()->getLocale()) {
 
 Route::view('/professional-driver-card', 'professional-driver-card');
 Route::view('open-letter', 'open-letter');
+
+Route::view('/for-companies', 'for-companies');
+
+Route::get('/admin/company-requests', function () {
+    $requests = \App\Models\CompanyAdvertisingRequest::latest()->get();
+    return view('admin.company-requests', compact('requests'));
+})->middleware('admin');
+
+
+Route::put('/admin/company-requests/{id}', function (\Illuminate\Http\Request $request, $id) {
+    $data = $request->validate([
+        'advertising_price' => 'required|numeric|min:0',
+        'amount_paid' => 'required|numeric|min:0',
+        'payment_status' => 'required|in:unpaid,partial,paid',
+        'status' => 'required|in:pending,approved,rejected,completed',
+        'ad_start_date' => 'nullable|date',
+        'ad_end_date' => 'nullable|date|after_or_equal:ad_start_date',
+        'admin_notes' => 'nullable|string|max:5000',
+    ]);
+
+    if ((float) $data['amount_paid'] > (float) $data['advertising_price']) {
+        return back()->withErrors([
+            'amount_paid' => 'المبلغ المدفوع لا يمكن أن يكون أكبر من ثمن الإعلان.'
+        ])->withInput();
+    }
+
+    $companyRequest = \App\Models\CompanyAdvertisingRequest::findOrFail($id);
+    $companyRequest->update($data);
+
+    return back()->with('success', 'تم حفظ البيانات المالية بنجاح.');
+})->middleware('admin');
+
+
+use Illuminate\Http\Request;
+use App\Models\CompanyAdvertisingRequest;
+
+Route::post('/for-companies/request', function (Request $request) {
+    $data = $request->validate([
+        'company' => 'required|string|max:150',
+        'contact' => 'required|string|max:150',
+        'phone' => 'required|string|max:50',
+        'email' => 'nullable|email|max:150',
+        'message' => 'required|string|max:2000',
+    ]);
+
+    CompanyAdvertisingRequest::create($data);
+
+    return back()->with('success', 'تم إرسال طلبكم بنجاح. سيتم التواصل معكم بعد مراجعة المعلومات.');
+})->name('company.request');
+
