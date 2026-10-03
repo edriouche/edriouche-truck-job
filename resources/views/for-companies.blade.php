@@ -24,9 +24,9 @@
 <body>
 
 <div class="languages">
-    <a href="/lang/ar">🇲🇦 العربية</a>
-    <a href="/lang/es">🇪🇸 Español</a>
-    <a href="/lang/fr">🇫🇷 Français</a>
+    <a href="/lang/ar?redirect=/for-companies">🇲🇦 العربية</a>
+    <a href="/lang/es?redirect=/for-companies">🇪🇸 Español</a>
+    <a href="/lang/fr?redirect=/for-companies">🇫🇷 Français</a>
 </div>
 
 <h1>🚛 Edriouche Truck Job</h1>

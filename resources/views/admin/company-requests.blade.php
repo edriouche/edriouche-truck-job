@@ -127,7 +127,7 @@
     <h1>طلبات الشركات</h1>
 
     <div class="top-actions">
-        <form method="POST" action="/admin/logout">
+        <form method="POST" action="{{ route('gallery.logout') }}">
             @csrf
             <button type="submit" class="logout">تسجيل الخروج</button>
         </form>
