@@ -168,21 +168,105 @@ strong{color:#333}
 </div>
 
 <div class="card">
-<h2>🚨 3. المخالفات في إسبانيا</h2>
+<h2>🚨 3. المخالفات والغرامات في إسبانيا</h2>
 
 <div class="article">
-<strong>LOTT — Ley 16/1987:</strong>
-تنظم إسبانيا النقل البري ونظام الرقابة والعقوبات، وتتضمن المواد <strong>140 و141</strong> تصنيفات للمخالفات، ومنها مخالفات مرتبطة بأوقات القيادة والراحة والتاكغراف.
+<strong>⚖️ LOTT — Ley 16/1987:</strong>
+ينظم القانون الإسباني للنقل البري نظام المخالفات والعقوبات في النقل المهني، بما في ذلك المخالفات المرتبطة بأوقات القيادة والراحة والتاكغراف والوثائق والرقابة.
 </div>
 
 <div class="article">
-<strong>⚠️ درجة المخالفة مهمة:</strong>
-لا يكفي القول إن المخالفة "مخالفة تاكغراف" أو "مخالفة راحة"، لأن التصنيف والعقوبة يعتمدان على نوع المخالفة والوقائع والنص القانوني الساري.
+<strong>📋 جدول الغرامات المعمول بها:</strong>
+المبالغ التالية مبنية على شرائح العقوبات المنصوص عليها في المادة <strong>143 من LOTT</strong> وفق الصيغة السارية بعد تعديل سنة 2026. يجب دائمًا تحديد المادة والفقرة ونوع المخالفة قبل معرفة الغرامة النهائية.
+</div>
+
+<div style="overflow-x:auto;margin:25px 0;">
+<table style="width:100%;border-collapse:collapse;text-align:center;font-size:24px;line-height:1.6;">
+<thead>
+<tr style="background:#123b63;color:#fff;">
+<th style="padding:14px;border:1px solid #ccc;">المرجع القانوني</th>
+<th style="padding:14px;border:1px solid #ccc;">نطاق الغرامة</th>
+<th style="padding:14px;border:1px solid #ccc;">ملاحظة</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 142</strong><br>مخالفات محددة</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>100–200 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">النقاط 13–18 من المادة 142.</td>
+</tr>
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 142</strong><br>مخالفات محددة</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>201–300 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">النقاط 8–12 من المادة 142.</td>
+</tr>
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 142</strong><br>مخالفات محددة</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>301–400 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">النقاط 1–7 من المادة 142.</td>
+</tr>
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 141</strong><br>مخالفات محددة</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>401–600 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">تطبق على الفئات المحددة في المادة 143.1(d).</td>
+</tr>
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 141</strong><br>مخالفات محددة</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>601–800 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">تطبق على الفئات المحددة في المادة 143.1(e).</td>
+</tr>
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 141</strong><br>مخالفات محددة</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>801–1,000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">تطبق على الفئات المحددة في المادة 143.1(f).</td>
+</tr>
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 140</strong><br>مخالفات محددة</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>1,001–2,000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">تطبق على الفئات المحددة في المادة 143.1(g).</td>
+</tr>
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 140</strong><br>مخالفات محددة</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>2,001–4,000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">تطبق على الفئات المحددة في المادة 143.1(h).</td>
+</tr>
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 140</strong><br>مخالفات محددة</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>4,001–6,000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">تطبق على الفئات المحددة في المادة 143.1(i).</td>
+</tr>
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>تكرار بعض المخالفات</strong></td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>6,001–18,000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">في الحالات والشروط المحددة في المادة 143.1(j).</td>
+</tr>
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>حالة خاصة</strong></td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>حتى 30,000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">حالة محددة في المادة 140.40 وفق شروط المادة 143.1(j).</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="warning">
+<strong>⚠️ مهم جدًا للسائق المهني:</strong>
+لا توجد غرامة واحدة ثابتة لكل مخالفات التاكغراف أو القيادة والراحة. يجب معرفة نوع المخالفة ورقم المادة والفقرة ودرجة الخطورة والظروف والتكرار، ثم تطبيق جدول العقوبات الساري وقت الواقعة.
 </div>
 
 <div class="article">
-<strong>❗ لا تعتمد على مبلغ غرامة قديم:</strong>
-لا نضع في هذه الصفحة مبالغ ثابتة للغرامات لأن القواعد والتصنيفات قد تتغير، وقد تختلف النتيجة حسب نوع المخالفة والظروف القانونية.
+<strong>🕒 القيادة والراحة والتاكغراف:</strong>
+تشمل الرقابة مخالفات أوقات القيادة والراحة واستخدام بطاقة السائق والتاكغراف والتلاعب بالسجلات أو استخدامه بطريقة غير صحيحة. وتحدد جداول الرقابة الرسمية مستوى خطورة كل نوع من هذه المخالفات.
+</div>
+
+<div class="article">
+<strong>📌 مثال مهم:</strong>
+التلاعب بالتّاكغراف أو استعمال بطاقة سائق مزورة أو بطاقة تخص سائقًا آخر قد يدخل ضمن المخالفات شديدة الخطورة، لذلك لا ينبغي الاكتفاء بعبارة "غرامة التاكغراف" دون تحديد الواقعة القانونية.
+</div>
+
+<div class="info">
+<strong>🔎 مصدر المعلومات:</strong>
+تم إعداد هذا القسم بالرجوع إلى نظام العقوبات في LOTT وإلى جداول المخالفات والرقابة الرسمية الخاصة بالنقل البري والتاكغراف. يجب الرجوع إلى النص الرسمي الساري وقت الواقعة عند وجود مخالفة فعلية أو نزاع.
 </div>
 
 </div>

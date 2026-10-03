@@ -168,21 +168,117 @@ Existen normas europeas progresivas para equipar los vehículos con tacógrafo i
 </div>
 
 <div class="card">
-<h2>🚨 3. Infracciones en España</h2>
+<h2>🚨 3. Infracciones y multas en España</h2>
 
 <div class="article">
-<strong>LOTT — Ley 16/1987:</strong>
-En España, la Ley 16/1987 regula el transporte terrestre, el sistema de control y el régimen sancionador. Sus artículos <strong>140 y 141</strong> incluyen clasificaciones de infracciones, entre ellas las relacionadas con los tiempos de conducción y descanso y con el tacógrafo.
+<strong>⚖️ LOTT — Ley 16/1987:</strong>
+La legislación española del transporte terrestre establece el régimen de infracciones y sanciones aplicable al transporte profesional, incluidas las infracciones relacionadas con los tiempos de conducción y descanso, el tacógrafo, las tarjetas de conductor, la documentación y los controles.
 </div>
 
 <div class="article">
-<strong>⚠️ La gravedad de la infracción es importante:</strong>
-No basta con decir que se trata de una "infracción del tacógrafo" o una "infracción de descanso", porque la clasificación y la sanción dependen del tipo de infracción, de los hechos y de la normativa vigente.
+<strong>📋 Tabla de importes de las multas:</strong>
+Los siguientes importes se basan en los tramos de sanciones establecidos en el <strong>artículo 143 de la LOTT</strong>, según la redacción vigente tras la modificación de 2026. Para determinar la multa concreta siempre hay que identificar el artículo, el apartado, el tipo de infracción y las circunstancias del caso.
+</div>
+
+<div style="overflow-x:auto;margin:25px 0;">
+<table style="width:100%;border-collapse:collapse;text-align:center;font-size:24px;line-height:1.6;">
+<thead>
+<tr style="background:#123b63;color:#fff;">
+<th style="padding:14px;border:1px solid #ccc;">Referencia legal</th>
+<th style="padding:14px;border:1px solid #ccc;">Importe de la multa</th>
+<th style="padding:14px;border:1px solid #ccc;">Observación</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 142</strong><br>Infracciones determinadas</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>100–200 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Apartados 13–18 del artículo 142.</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 142</strong><br>Infracciones determinadas</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>201–300 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Apartados 8–12 del artículo 142.</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 142</strong><br>Infracciones determinadas</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>301–400 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Apartados 1–7 del artículo 142.</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 141</strong><br>Infracciones determinadas</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>401–600 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Categorías indicadas en el artículo 143.1(d).</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 141</strong><br>Infracciones determinadas</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>601–800 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Categorías indicadas en el artículo 143.1(e).</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 141</strong><br>Infracciones determinadas</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>801–1.000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Categorías indicadas en el artículo 143.1(f).</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 140</strong><br>Infracciones determinadas</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>1.001–2.000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Categorías indicadas en el artículo 143.1(g).</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 140</strong><br>Infracciones determinadas</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>2.001–4.000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Categorías indicadas en el artículo 143.1(h).</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 140</strong><br>Infracciones determinadas</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>4.001–6.000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Categorías indicadas en el artículo 143.1(i).</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Reincidencia en determinadas infracciones</strong></td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>6.001–18.000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">En los casos y condiciones establecidos en el artículo 143.1(j).</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Caso especial</strong></td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Hasta 30.000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Supuesto específico del artículo 140.40 conforme a las condiciones del artículo 143.1(j).</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+
+<div class="warning">
+<strong>⚠️ Muy importante para el conductor profesional:</strong>
+No existe una única multa fija para todas las infracciones relacionadas con el tacógrafo, la conducción o los descansos. Hay que identificar el tipo de infracción, el artículo y apartado aplicables, su gravedad, las circunstancias y, cuando corresponda, la reincidencia.
 </div>
 
 <div class="article">
-<strong>❗ No te bases en una cuantía de multa antigua:</strong>
-No indicamos en esta página cantidades fijas de multas porque las normas y las clasificaciones pueden cambiar y el resultado puede variar según el tipo de infracción y las circunstancias legales.
+<strong>🕒 Conducción, descansos y tacógrafo:</strong>
+Los controles pueden incluir los tiempos de conducción y descanso, el uso de la tarjeta de conductor, el funcionamiento y utilización del tacógrafo y posibles manipulaciones o registros incorrectos. La normativa oficial clasifica las diferentes infracciones según su gravedad.
+</div>
+
+<div class="article">
+<strong>📌 Ejemplo importante:</strong>
+La manipulación del tacógrafo, el uso de una tarjeta de conductor falsificada o el uso de una tarjeta perteneciente a otro conductor pueden constituir infracciones muy graves. Por ello, no debe hablarse simplemente de una "multa del tacógrafo" sin identificar los hechos y la base legal aplicable.
+</div>
+
+<div class="info">
+<strong>🔎 Fuente de la información:</strong>
+Este apartado se ha elaborado tomando como referencia el régimen sancionador de la LOTT y las normas oficiales aplicables al transporte terrestre y al tacógrafo. Ante una infracción real o una reclamación, debe consultarse siempre el texto legal vigente y la resolución de la autoridad competente.
 </div>
 
 </div>

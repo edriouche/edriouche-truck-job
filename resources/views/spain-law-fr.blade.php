@@ -168,21 +168,117 @@ Des règles européennes prévoient une mise en place progressive du tachygraphe
 </div>
 
 <div class="card">
-<h2>🚨 3. Infractions en Espagne</h2>
+<h2>🚨 3. Infractions et amendes en Espagne</h2>
 
 <div class="article">
-<strong>LOTT — Ley 16/1987:</strong>
-En Espagne, la Ley 16/1987 réglemente le transport routier, le système de contrôle et le régime des sanctions. Ses articles <strong>140 et 141</strong> comprennent des classifications d’infractions, notamment celles liées aux temps de conduite et de repos et au tachygraphe.
+<strong>⚖️ LOTT — Ley 16/1987 :</strong>
+La législation espagnole sur le transport routier établit le régime des infractions et des sanctions applicable au transport professionnel, notamment pour les temps de conduite et de repos, le tachygraphe, les cartes de conducteur, les documents et les contrôles.
 </div>
 
 <div class="article">
-<strong>⚠️ La gravité de l’infraction est importante :</strong>
-Il ne suffit pas de dire qu’il s’agit d’une « infraction au tachygraphe » ou d’une « infraction relative au repos », car la classification et la sanction dépendent du type d’infraction, des faits et de la réglementation en vigueur.
+<strong>📋 Tableau des montants des amendes :</strong>
+Les montants suivants sont fondés sur les tranches de sanctions prévues par l’<strong>article 143 de la LOTT</strong>, selon la rédaction en vigueur après la modification de 2026. Pour déterminer l’amende concrète, il faut toujours identifier l’article, le paragraphe, le type d’infraction et les circonstances du cas.
+</div>
+
+<div style="overflow-x:auto;margin:25px 0;">
+<table style="width:100%;border-collapse:collapse;text-align:center;font-size:24px;line-height:1.6;">
+<thead>
+<tr style="background:#123b63;color:#fff;">
+<th style="padding:14px;border:1px solid #ccc;">Référence légale</th>
+<th style="padding:14px;border:1px solid #ccc;">Montant de l’amende</th>
+<th style="padding:14px;border:1px solid #ccc;">Observation</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 142</strong><br>Infractions déterminées</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>100–200 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Paragraphes 13–18 de l’article 142.</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 142</strong><br>Infractions déterminées</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>201–300 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Paragraphes 8–12 de l’article 142.</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 142</strong><br>Infractions déterminées</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>301–400 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Paragraphes 1–7 de l’article 142.</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 141</strong><br>Infractions déterminées</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>401–600 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Catégories indiquées à l’article 143.1(d).</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 141</strong><br>Infractions déterminées</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>601–800 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Catégories indiquées à l’article 143.1(e).</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 141</strong><br>Infractions déterminées</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>801–1 000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Catégories indiquées à l’article 143.1(f).</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 140</strong><br>Infractions déterminées</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>1 001–2 000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Catégories indiquées à l’article 143.1(g).</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 140</strong><br>Infractions déterminées</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>2 001–4 000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Catégories indiquées à l’article 143.1(h).</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Art. 140</strong><br>Infractions déterminées</td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>4 001–6 000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Catégories indiquées à l’article 143.1(i).</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Récidive pour certaines infractions</strong></td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>6 001–18 000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Dans les cas et conditions prévus à l’article 143.1(j).</td>
+</tr>
+
+<tr>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Cas particulier</strong></td>
+<td style="padding:14px;border:1px solid #ccc;"><strong>Jusqu’à 30 000 €</strong></td>
+<td style="padding:14px;border:1px solid #ccc;">Cas spécifique de l’article 140.40 selon les conditions de l’article 143.1(j).</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+
+<div class="warning">
+<strong>⚠️ Très important pour le conducteur professionnel :</strong>
+Il n’existe pas une seule amende fixe pour toutes les infractions liées au tachygraphe, à la conduite ou aux repos. Il faut identifier le type d’infraction, l’article et le paragraphe applicables, sa gravité, les circonstances et, le cas échéant, la récidive.
 </div>
 
 <div class="article">
-<strong>❗ Ne vous fiez pas à un ancien montant d’amende :</strong>
-Nous n’indiquons pas de montants fixes d’amendes sur cette page, car les règles et les classifications peuvent évoluer et le résultat peut varier selon le type d’infraction et les circonstances juridiques.
+<strong>🕒 Conduite, repos et tachygraphe :</strong>
+Les contrôles peuvent porter sur les temps de conduite et de repos, l’utilisation de la carte de conducteur, le fonctionnement et l’utilisation du tachygraphe ainsi que les éventuelles manipulations ou les enregistrements incorrects. La réglementation officielle classe les différentes infractions selon leur gravité.
+</div>
+
+<div class="article">
+<strong>📌 Exemple important :</strong>
+La manipulation du tachygraphe, l’utilisation d’une carte de conducteur falsifiée ou l’utilisation d’une carte appartenant à un autre conducteur peuvent constituer des infractions très graves. Il ne faut donc pas parler simplement d’une « amende du tachygraphe » sans identifier les faits et la base juridique applicable.
+</div>
+
+<div class="info">
+<strong>🔎 Source de l’information :</strong>
+Cette section a été élaborée à partir du régime des sanctions de la LOTT et des règles officielles applicables au transport routier et au tachygraphe. En cas d’infraction réelle ou de contestation, il convient toujours de consulter le texte légal en vigueur et la décision de l’autorité compétente.
 </div>
 
 </div>
