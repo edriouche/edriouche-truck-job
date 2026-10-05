@@ -18,7 +18,7 @@
         .languages a{display:inline-block;padding:8px 13px;margin:4px;border-radius:8px;background:#222;color:white;text-decoration:none}
         .box{padding:20px;border-radius:15px;background:#f5f5f5;margin:20px 0}
         input,textarea{box-sizing:border-box;border:1px solid #ccc;border-radius:8px}
-        .btn{display:inline-block;padding:12px 22px;border-radius:10px;background:#222;color:white;text-decoration:none;border:0;cursor:pointer}
+        .btn{display:inline-block;padding:12px 22px;border-radius:10px;background:#222;color:white;text-decoration:none;border:0;cursor:pointer}.notice{padding:18px;border-radius:15px;background:#fff8e1;border:1px solid #e0b84f;margin:20px 0}.safe{padding:18px;border-radius:15px;background:#f7f7f7;border:1px solid #ddd;margin:20px 0}
     </style>
 </head>
 <body>
@@ -91,7 +91,7 @@
             </p>
 
             <p>
-                <label>Detalles de la oferta</label><br>
+                <label>Detalles de la oferta (país, ciudad, puesto, salario, requisitos y condiciones)</label><br>
                 <textarea name="message" required rows="6" style="width:100%;padding:12px"></textarea>
             </p>
 
@@ -161,7 +161,7 @@
             </p>
 
             <p>
-                <label>Détails de l’offre</label><br>
+                <label>Détails de l’offre (pays, ville, poste, salaire, exigences et conditions)</label><br>
                 <textarea name="message" required rows="6" style="width:100%;padding:12px"></textarea>
             </p>
 
@@ -231,7 +231,7 @@
             </p>
 
             <p>
-                <label>تفاصيل الوظيفة</label><br>
+                <label>تفاصيل الوظيفة (الدولة، المدينة، الوظيفة، الراتب، الشروط والمتطلبات)</label><br>
                 <textarea name="message" required rows="6" style="width:100%;padding:12px"></textarea>
             </p>
 
