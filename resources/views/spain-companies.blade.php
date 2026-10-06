@@ -455,7 +455,9 @@
 
 
 <!-- EDRIOUCHE_LODISNA_BAHI_GEN_ADEC_2026 -->
-@php($lang = session('locale', 'ar'))
+@php
+    $lang = session('locale', 'ar');
+@endphp
 
 @php
     $newCompanies = [
