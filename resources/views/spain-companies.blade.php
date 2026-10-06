@@ -201,7 +201,9 @@
         </div>
     </div>
 
-    @php($lang = app()->getLocale())
+    @php
+    $lang = app()->getLocale();
+@endphp
 
     <!-- 1 JCARRION -->
     <div class="company-card">
