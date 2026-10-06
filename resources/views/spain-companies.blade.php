@@ -1,5 +1,7 @@
 @include("partials.language-switcher")
-@php($lang = session('locale', 'ar'))
+@php
+    $lang = session('locale', 'ar');
+@endphp
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
