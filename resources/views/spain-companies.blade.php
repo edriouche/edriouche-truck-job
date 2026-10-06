@@ -449,5 +449,142 @@
     © 2026 Edriouche Truck Job — من السائق إلى السائق 🚛
 </footer>
 
+
+<!-- EDRIOUCHE_LODISNA_BAHI_GEN_ADEC_2026 -->
+@php($lang = session('locale', 'ar'))
+
+@php
+    $newCompanies = [
+        'ar' => [
+            'title' => '⭐ شركات تستحق اهتمام السائق المغربي',
+            'lodisna_title' => '🇪🇸 Lodisna',
+            'lodisna_sub' => 'فرصة مهمة للسائقين المغاربة C+E',
+            'lodisna_1' => 'شركة إسبانية للنقل تبحث عن سائقي الشاحنات C+E، وتوفر تكويناً مستمراً للسائقين.',
+            'lodisna_2' => 'وفق معلومات الشركة الرسمية، يمكنها عند الحاجة مساعدة المرشحين في الحصول على E وCAP وبطاقة التاكوجراف اللازمة للعمل لديها.',
+            'lodisna_3' => 'كما أن للشركة مكتباً في طنجة بالمغرب، وهو ما يجعلها من الشركات المهمة التي يمكن للسائق المغربي التواصل معها مباشرة.',
+            'lodisna_warn' => 'المساعدة في CAP أو الوثائق تكون حسب حالة المرشح وشروط الشركة، ولا تعني ضمان عقد عمل أو تأشيرة.',
+            'job_link' => 'صفحة التوظيف الرسمية',
+            'bahi_title' => '🇪🇸 Bahí Grup',
+            'bahi_sub' => 'النقل الدولي — سائقي C+E',
+            'bahi_1' => 'شركة إسبانية تبحث عن سائقي النقل الدولي، وتطلب رخصة E وخبرة في النقل.',
+            'bahi_2' => 'استمارة التوظيف الرسمية تتضمن النقل الدولي، Trailer وCisterna وFrigorífico، كما تتضمن المغرب ضمن البلدان التي يمكن للسائق أن يكون قد عمل فيها.',
+            'bahi_3' => 'مناسبة للسائق المغربي ذي الخبرة في النقل الدولي، خصوصاً المغرب–أوروبا.',
+            'bahi_warn' => 'وجود المغرب في استمارة التوظيف لا يعني أن الشركة أعلنت ضمان توظيف كل سائق مغربي؛ يجب التأكد من الشروط والشواغر الحالية مباشرة مع الشركة.',
+            'genadec_title' => '🇲🇦🤝🇪🇸 مسار GENADEC – ASTIC',
+            'genadec_sub' => 'التكوين والربط مع فرص العمل في إسبانيا',
+            'genadec_1' => 'توجد شراكة مذكورة في تقرير ASTIC لتسهيل توظيف السائقين المغاربة، وتشمل البحث عن المرشحين وانتقاءهم والمقابلات والتكوين والإجراءات المرتبطة بالهجرة والتصاريح وCAP.',
+            'genadec_2' => 'كما تقدم GENADEC المغربية برنامجاً للسائقين المهنيين المتجهين إلى الأسواق الدولية، ومنها إسبانيا، مع التكوين في القواعد الأوروبية والاستعداد لـ Code 95.',
+            'genadec_link' => 'برنامج GENADEC للسائقين المهنيين',
+            'warning_title' => '⚠️ تنبيه للسائقين',
+            'warning_1' => 'وجود الشركة في هذه الصفحة لا يعني وجود شاغر متاح دائماً، ولا يعني ضمان عقد عمل أو تأشيرة أو قبول السائق بدون CAP.',
+            'warning_2' => 'تحقق دائماً من شروط الشركة مباشرة، ولا تدفع المال لأي وسيط مقابل وعد بعقد أو تأشيرة قبل التأكد من الجهة الرسمية.',
+            'goal' => '🎯 هدف Edriouche Truck Job: الوصول إلى فرص حقيقية وقانونية للسائقين المغاربة، بدون وسطاء وبدون وعود كاذبة.'
+        ],
+        'es' => [
+            'title' => '⭐ Empresas de especial interés para conductores marroquíes',
+            'lodisna_title' => '🇪🇸 Lodisna',
+            'lodisna_sub' => 'Una oportunidad importante para conductores marroquíes C+E',
+            'lodisna_1' => 'Empresa española de transporte que busca conductores de camión C+E y ofrece formación continua.',
+            'lodisna_2' => 'Según la información oficial de la empresa, puede ayudar, cuando sea necesario, a los candidatos a obtener E, CAP y la tarjeta de tacógrafo necesaria para incorporarse a la empresa.',
+            'lodisna_3' => 'La empresa también dispone de una oficina en Tánger, Marruecos, lo que facilita el contacto directo de los conductores marroquíes.',
+            'lodisna_warn' => 'La ayuda con CAP o documentación depende de la situación del candidato y de las condiciones de la empresa; no significa garantía de contrato o visado.',
+            'job_link' => 'Página oficial de empleo',
+            'bahi_title' => '🇪🇸 Bahí Grup',
+            'bahi_sub' => 'Transporte internacional — conductores C+E',
+            'bahi_1' => 'Empresa española que busca conductores para transporte internacional y solicita permiso E y experiencia en transporte.',
+            'bahi_2' => 'El formulario oficial incluye transporte internacional, tráiler, cisterna y frigorífico, y también incluye Marruecos entre los países en los que el conductor puede haber trabajado.',
+            'bahi_3' => 'Puede ser de interés para conductores marroquíes con experiencia en transporte internacional, especialmente Marruecos–Europa.',
+            'bahi_warn' => 'La presencia de Marruecos en el formulario no significa que la empresa garantice la contratación de todos los conductores marroquíes; hay que confirmar las condiciones y vacantes directamente.',
+            'genadec_title' => '🇲🇦🤝🇪🇸 Vía GENADEC – ASTIC',
+            'genadec_sub' => 'Formación y conexión con oportunidades de empleo en España',
+            'genadec_1' => 'El informe de ASTIC menciona una colaboración para facilitar la contratación de conductores marroquíes, incluyendo búsqueda, selección, entrevistas, formación y procedimientos relacionados con inmigración, permisos y CAP.',
+            'genadec_2' => 'GENADEC también ofrece un programa para conductores profesionales orientados a mercados internacionales, incluido España, con formación sobre normas europeas y preparación para Code 95.',
+            'genadec_link' => 'Programa oficial de GENADEC para conductores profesionales',
+            'warning_title' => '⚠️ Aviso para los conductores',
+            'warning_1' => 'La presencia de una empresa en esta página no significa que exista siempre una vacante disponible, ni garantiza contrato, visado o aceptación de conductores sin CAP.',
+            'warning_2' => 'Comprueba siempre las condiciones directamente con la empresa y no pagues a intermediarios por promesas de contrato o visado sin verificar primero la entidad oficial.',
+            'goal' => '🎯 Objetivo de Edriouche Truck Job: encontrar oportunidades reales y legales para conductores marroquíes, sin intermediarios ni falsas promesas.'
+        ],
+        'fr' => [
+            'title' => '⭐ Entreprises particulièrement intéressantes pour les conducteurs marocains',
+            'lodisna_title' => '🇪🇸 Lodisna',
+            'lodisna_sub' => 'Une opportunité importante pour les conducteurs marocains C+E',
+            'lodisna_1' => 'Entreprise espagnole de transport qui recherche des conducteurs de poids lourds C+E et propose une formation continue.',
+            'lodisna_2' => 'Selon les informations officielles de l’entreprise, elle peut, si nécessaire, aider les candidats à obtenir E, CAP et la carte tachygraphe nécessaires pour rejoindre l’entreprise.',
+            'lodisna_3' => 'L’entreprise dispose également d’un bureau à Tanger, au Maroc, ce qui facilite le contact direct avec les conducteurs marocains.',
+            'lodisna_warn' => 'L’aide concernant le CAP ou les documents dépend de la situation du candidat et des conditions de l’entreprise ; elle ne constitue pas une garantie de contrat ou de visa.',
+            'job_link' => 'Page officielle de recrutement',
+            'bahi_title' => '🇪🇸 Bahí Grup',
+            'bahi_sub' => 'Transport international — conducteurs C+E',
+            'bahi_1' => 'Entreprise espagnole qui recherche des conducteurs pour le transport international et demande le permis E ainsi qu’une expérience dans le transport.',
+            'bahi_2' => 'Le formulaire officiel comprend le transport international, la remorque, la citerne et le frigorifique, et mentionne également le Maroc parmi les pays dans lesquels le conducteur peut avoir travaillé.',
+            'bahi_3' => 'Peut être intéressante pour les conducteurs marocains ayant une expérience du transport international, notamment Maroc–Europe.',
+            'bahi_warn' => 'La présence du Maroc dans le formulaire ne signifie pas que l’entreprise garantit l’embauche de tous les conducteurs marocains ; les conditions et les postes disponibles doivent être vérifiés directement.',
+            'genadec_title' => '🇲🇦🤝🇪🇸 Parcours GENADEC – ASTIC',
+            'genadec_sub' => 'Formation et mise en relation avec des opportunités d’emploi en Espagne',
+            'genadec_1' => 'Le rapport d’ASTIC mentionne une collaboration visant à faciliter le recrutement de conducteurs marocains, notamment la recherche, la sélection, les entretiens, la formation et les démarches liées à l’immigration, aux autorisations et au CAP.',
+            'genadec_2' => 'GENADEC propose également un programme destiné aux conducteurs professionnels orientés vers les marchés internationaux, dont l’Espagne, avec une formation aux règles européennes et une préparation au Code 95.',
+            'genadec_link' => 'Programme officiel de GENADEC pour les conducteurs professionnels',
+            'warning_title' => '⚠️ Avertissement aux conducteurs',
+            'warning_1' => 'La présence d’une entreprise sur cette page ne signifie pas qu’un poste est toujours disponible et ne garantit ni contrat de travail, ni visa, ni acceptation d’un conducteur sans CAP.',
+            'warning_2' => 'Vérifiez toujours les conditions directement auprès de l’entreprise et ne payez aucun intermédiaire pour une promesse de contrat ou de visa sans vérifier d’abord l’organisme officiel.',
+            'goal' => '🎯 Objectif d’Edriouche Truck Job : trouver des opportunités réelles et légales pour les conducteurs marocains, sans intermédiaires ni fausses promesses.'
+        ]
+    ];
+    $t = $newCompanies[$lang] ?? $newCompanies['ar'];
+@endphp
+
+<section style="max-width:1000px;margin:40px auto;padding:25px;background:#fffaf0;border:2px solid #d2a84a;border-radius:18px;direction:{{ $lang === 'ar' ? 'rtl' : 'ltr' }};text-align:{{ $lang === 'ar' ? 'right' : 'left' }};line-height:2;">
+
+    <h2 style="color:#6b4c07;text-align:center;">{{ $t['title'] }}</h2>
+
+    <div style="margin-top:25px;padding:22px;background:#ffffff;border:1px solid #d2a84a;border-radius:15px;">
+        <h2>{{ $t['lodisna_title'] }}</h2>
+        <p><strong>{{ $t['lodisna_sub'] }}</strong></p>
+        <p>{{ $t['lodisna_1'] }}</p>
+        <p>{{ $t['lodisna_2'] }}</p>
+        <p>{{ $t['lodisna_3'] }}</p>
+        <p><strong>⚠️ {{ $t['lodisna_warn'] }}</strong></p>
+        <p>
+            🌐 <a href="https://lodisna.com/contratacion/" target="_blank" rel="noopener">{{ $t['job_link'] }}</a>
+            <br>
+            📍 +212 539 940 932
+            <br>
+            ✉️ infoma@lodisna.com
+        </p>
+    </div>
+
+    <div style="margin-top:25px;padding:22px;background:#ffffff;border:1px solid #d2a84a;border-radius:15px;">
+        <h2>{{ $t['bahi_title'] }}</h2>
+        <p><strong>{{ $t['bahi_sub'] }}</strong></p>
+        <p>{{ $t['bahi_1'] }}</p>
+        <p>{{ $t['bahi_2'] }}</p>
+        <p><strong>{{ $t['bahi_3'] }}</strong></p>
+        <p><strong>⚠️ {{ $t['bahi_warn'] }}</strong></p>
+        <p>
+            🌐 <a href="https://www.bahisa.es/es/buscamos-profesionales/" target="_blank" rel="noopener">{{ $t['job_link'] }}</a>
+        </p>
+    </div>
+
+    <div style="margin-top:25px;padding:22px;background:#f8f1e7;border:2px solid #b08d2c;border-radius:15px;">
+        <h2>{{ $t['genadec_title'] }}</h2>
+        <p><strong>{{ $t['genadec_sub'] }}</strong></p>
+        <p>{{ $t['genadec_1'] }}</p>
+        <p>{{ $t['genadec_2'] }}</p>
+        <p>
+            🌐 <a href="https://genadec.com/pf/conducteurs-professionnels-a-linternational/" target="_blank" rel="noopener">{{ $t['genadec_link'] }}</a>
+        </p>
+    </div>
+
+    <div style="margin-top:25px;padding:20px;background:#fff3cd;border:2px solid #d6a800;border-radius:15px;">
+        <p><strong>{{ $t['warning_title'] }}</strong></p>
+        <p>{{ $t['warning_1'] }}</p>
+        <p>{{ $t['warning_2'] }}</p>
+        <p><strong>{{ $t['goal'] }}</strong></p>
+    </div>
+
+</section>
+<!-- /EDRIOUCHE_LODISNA_BAHI_GEN_ADEC_2026 -->
+
 </body>
 </html>
