@@ -12,7 +12,7 @@ h1{color:#0b4f9c}h2{color:#174a7e}
 </head>
 <body>
 <nav style="text-align:center;margin-bottom:25px;font-size:18px;">
-<a href="/europe-rules">🇲🇦 العربية</a> |
+<a href="/lang/ar?redirect=/europe-rules">🇲🇦 العربية</a> |
 <a href="/europe-rules-es">🇪🇸 Español</a> |
 <a href="/europe-rules-fr">🇫🇷 Français</a>
 </nav>
