@@ -3,7 +3,7 @@
     $lang = session('locale', 'ar');
 @endphp
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="{{ $lang }}" dir="{{ $lang === 'ar' ? 'rtl' : 'ltr' }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -140,14 +140,14 @@
 <body>
 
 <header>
-    <h1>🇪🇸 شركات النقل الإسبانية</h1>
-    <p>فرص السائقين المهنيين والتقديم المباشر للشركات</p>
+    <h1>🇪🇸 {{ $lang === "es" ? "Empresas de transporte españolas" : ($lang === "fr" ? "Entreprises de transport espagnoles" : "شركات النقل الإسبانية") }}</h1>
+    <p>{{ $lang === "es" ? "Oportunidades para conductores profesionales y candidatura directa a las empresas" : ($lang === "fr" ? "Opportunités pour conducteurs professionnels et candidature directe auprès des entreprises" : "فرص السائقين المهنيين والتقديم المباشر للشركات") }}</p>
 </header>
 
 <div class="container">
 <div style="text-align:center;margin:20px 0;">
-    <a class="button" href="/spain-jobs">🚛 🇪🇸 عروض العمل في إسبانيا</a>
-<a class="button" href="/spain-law">⚖️ 🇪🇸 القانون الإسباني للسائق المهني</a>
+    <a class="button" href="/spain-jobs">🚛 🇪🇸 {{ $lang === "es" ? "Ofertas de trabajo en España" : ($lang === "fr" ? "Offres d’emploi en Espagne" : "عروض العمل في إسبانيا") }}</a>
+<a class="button" href="/spain-law">⚖️ 🇪🇸 {{ $lang === "es" ? "Ley española para el conductor profesional" : ($lang === "fr" ? "Loi espagnole pour le conducteur professionnel" : "القانون الإسباني للسائق المهني") }}</a>
 </div>
 
     <div class="intro">
@@ -185,7 +185,7 @@
             @endif
         </div>
 
-        <h2>🚛 شركات النقل وفرص التقديم في إسبانيا</h2>
+        <h2>🚛 {{ $lang === "es" ? "Empresas de transporte y oportunidades de candidatura en España" : ($lang === "fr" ? "Entreprises de transport et opportunités de candidature en Espagne" : "شركات النقل وفرص التقديم في إسبانيا") }}</h2>
 
         <p>
             {{ $lang === 'es' ? 'Hemos reunido esta lista para ayudar al conductor marroquí a contactar directamente con empresas españolas, lejos de intermediarios y ofertas poco fiables.' : ($lang === 'fr' ? 'Nous avons réuni cette liste pour aider le conducteur marocain à contacter directement les entreprises espagnoles, loin des intermédiaires et des offres peu fiables.' : 'جمعنا هذه القائمة لمساعدة السائق المغربي على الوصول إلى شركات النقل واللوجستيك في إسبانيا مباشرة، والتعرف على طرق التقديم الرسمية بعيدًا عن الوسطاء والوعود الكاذبة.') }}
@@ -202,7 +202,7 @@
     </div>
 
     @php
-    $lang = app()->getLocale();
+    $lang = session('locale', 'ar');
 @endphp
 
     <!-- 1 JCARRION -->
@@ -383,45 +383,45 @@
     </div>
 
     <div class="intro" style="border-top:5px solid #1f4e79;">
-        <h2>🇪🇸 دليل السائق المغربي في إسبانيا</h2>
-        <p>كل ما يحتاجه السائق للبحث عن عمل وتكوين ومعلومات موثوقة في مكان واحد.</p>
+        <h2>🇪🇸 {{ $lang === "es" ? "Guía del conductor marroquí en España" : ($lang === "fr" ? "Guide du conducteur marocain en Espagne" : "دليل السائق المغربي في إسبانيا") }}</h2>
+        <p>{{ $lang === "es" ? "Todo lo que el conductor necesita para buscar empleo, formación e información fiable en un solo lugar." : ($lang === "fr" ? "Tout ce dont le conducteur a besoin pour rechercher un emploi, une formation et des informations fiables au même endroit." : "كل ما يحتاجه السائق للبحث عن عمل وتكوين ومعلومات موثوقة في مكان واحد.") }}</p>
         <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:20px;">
-            <a class="button" href="/jobs">💼 عروض العمل</a>
-            <a class="button" href="/training">🎓 التكوين والتدريب</a>
-            <a class="button" href="/cap">🇪🇸 مراكز CAP</a>
-            <a class="button" href="/spain">🇪🇸 دليل العمل في إسبانيا</a>
-            <a class="button" href="/driver-documents">🪪 وثائق السائق</a>
-            <a class="button" href="/europe-documents">📑 وثائق أوروبا</a>
-            <a class="button" href="/europe-rules">🕐 قوانين القيادة والراحة</a>
-            <a class="button" href="/tachograph-guide">⏱️ دليل التاكوغراف</a>
-            <a class="button" href="/cv-builder">📝 إنشاء CV للسائق</a>
+            <a class="button" href="/jobs">{{ $lang === "es" ? "💼 Ofertas de trabajo" : ($lang === "fr" ? "💼 Offres d’emploi" : "💼 عروض العمل") }}</a>
+            <a class="button" href="/training">{{ $lang === "es" ? "🎓 Formación y capacitación" : ($lang === "fr" ? "🎓 Formation et perfectionnement" : "🎓 التكوين والتدريب") }}</a>
+            <a class="button" href="/cap">{{ $lang === "es" ? "🇪🇸 Centros CAP" : ($lang === "fr" ? "🇪🇸 Centres CAP" : "🇪🇸 مراكز CAP") }}</a>
+            <a class="button" href="/spain">{{ $lang === "es" ? "🇪🇸 Guía de trabajo en España" : ($lang === "fr" ? "🇪🇸 Guide du travail en Espagne" : "🇪🇸 دليل العمل في إسبانيا") }}</a>
+            <a class="button" href="/driver-documents">{{ $lang === "es" ? "🪪 Documentos del conductor" : ($lang === "fr" ? "🪪 Documents du conducteur" : "🪪 وثائق السائق") }}</a>
+            <a class="button" href="/europe-documents">{{ $lang === "es" ? "📑 Documentos europeos" : ($lang === "fr" ? "📑 Documents européens" : "📑 وثائق أوروبا") }}</a>
+            <a class="button" href="/europe-rules">{{ $lang === "es" ? "🕐 Reglas de conducción y descanso" : ($lang === "fr" ? "🕐 Règles de conduite et de repos" : "🕐 قوانين القيادة والراحة") }}</a>
+            <a class="button" href="/tachograph-guide">{{ $lang === "es" ? "⏱️ Guía del tacógrafo" : ($lang === "fr" ? "⏱️ Guide du tachygraphe" : "⏱️ دليل التاكوغراف") }}</a>
+            <a class="button" href="/cv-builder">{{ $lang === "es" ? "📝 Crear CV del conductor" : ($lang === "fr" ? "📝 Créer le CV du conducteur" : "📝 إنشاء CV للسائق") }}</a>
         </div>
     </div>
 
     <div class="intro" style="border-top:5px solid #d4af37;">
-        <h2>🚛 أنواع النقل التي يبحث عنها السائقون</h2>
-        <p>النقل الدولي • النقل الوطني • النقل المبرد • اللوجستيك • مواد البناء • الحاويات • نقل البضائع • النقل المتخصص</p>
-        <p><strong>ملاحظة:</strong> نضيف كل نوع من النقل عندما تتوفر لدينا معلومات موثوقة ورابط رسمي.</p>
+        <h2>🚛 {{ $lang === "es" ? "Tipos de transporte que buscan los conductores" : ($lang === "fr" ? "Types de transport recherchés par les conducteurs" : "أنواع النقل التي يبحث عنها السائقون") }}</h2>
+        <p>{{ $lang === "es" ? "Transporte internacional • transporte nacional • transporte frigorífico • logística • materiales de construcción • contenedores • transporte de mercancías • transporte especializado" : ($lang === "fr" ? "Transport international • transport national • transport frigorifique • logistique • matériaux de construction • conteneurs • transport de marchandises • transport spécialisé" : "النقل الدولي • النقل الوطني • النقل المبرد • اللوجستيك • مواد البناء • الحاويات • نقل البضائع • النقل المتخصص") }}</p>
+        <p><strong>{{ $lang === "es" ? "Nota:" : ($lang === "fr" ? "Remarque :" : "ملاحظة:") }}</strong> {{ $lang === "es" ? "Añadimos cada tipo de transporte cuando disponemos de información fiable y un enlace oficial." : ($lang === "fr" ? "Nous ajoutons chaque type de transport lorsque nous disposons d’informations fiables et d’un lien officiel." : "نضيف كل نوع من النقل عندما تتوفر لدينا معلومات موثوقة ورابط رسمي.") }}</p>
     </div>
 
     <div class="intro" style="border-top:5px solid #2e7d32;">
-        <h2>🏙️ مدن ومناطق النقل في إسبانيا</h2>
-        <p>مدريد • برشلونة • فالنسيا • سرقسطة • مورسيا • مالقة • إشبيلية • بلباو • ألميريا • هويلفا • مدريد والمناطق اللوجستية الأخرى</p>
-        <p>يمكنك البحث عن الشركة حسب المدينة من خلال صفحات التوظيف الرسمية للشركات.</p>
+        <h2>🏙️ {{ $lang === "es" ? "Ciudades y zonas de transporte en España" : ($lang === "fr" ? "Villes et zones de transport en Espagne" : "مدن ومناطق النقل في إسبانيا") }}</h2>
+        <p>{{ $lang === "es" ? "Madrid • Barcelona • Valencia • Zaragoza • Murcia • Málaga • Sevilla • Bilbao • Almería • Huelva • Madrid y otras zonas logísticas" : ($lang === "fr" ? "Madrid • Barcelone • Valence • Saragosse • Murcie • Malaga • Séville • Bilbao • Almería • Huelva • Madrid et autres zones logistiques" : "مدريد • برشلونة • فالنسيا • سرقسطة • مورسيا • مالقة • إشبيلية • بلباو • ألميريا • هويلفا • مدريد والمناطق اللوجستية الأخرى") }}</p>
+        <p>{{ $lang === "es" ? "Puedes buscar una empresa por ciudad a través de las páginas oficiales de empleo de las empresas." : ($lang === "fr" ? "Vous pouvez rechercher une entreprise par ville via les pages officielles de recrutement des entreprises." : "يمكنك البحث عن الشركة حسب المدينة من خلال صفحات التوظيف الرسمية للشركات.") }}</p>
     </div>
 
     <div class="intro" style="border-top:5px solid #7b1fa2;">
-        <h2>🔗 مصادر رسمية للسائق</h2>
-        <p>نعتمد قدر الإمكان على المصادر الرسمية، وليس على الوسطاء أو الحسابات المجهولة.</p>
+        <h2>🔗 {{ $lang === "es" ? "Fuentes oficiales para el conductor" : ($lang === "fr" ? "Sources officielles pour le conducteur" : "مصادر رسمية للسائق") }}</h2>
+        <p>{{ $lang === "es" ? "Utilizamos, siempre que sea posible, fuentes oficiales y no intermediarios ni cuentas desconocidas." : ($lang === "fr" ? "Nous nous appuyons autant que possible sur les sources officielles, et non sur des intermédiaires ou des comptes inconnus." : "نعتمد قدر الإمكان على المصادر الرسمية، وليس على الوسطاء أو الحسابات المجهولة.") }}</p>
         <p>
-            <a class="button" href="https://sede.transportes.gob.es/" target="_blank">🇪🇸 وزارة النقل الإسبانية</a>
+            <a class="button" href="https://sede.transportes.gob.es/" target="_blank">🇪🇸 {{ $lang === "es" ? "Ministerio de Transportes de España" : ($lang === "fr" ? "Ministère espagnol des Transports" : "وزارة النقل الإسبانية") }}</a>
             <a class="button" href="https://eures.europa.eu/" target="_blank">🇪🇺 EURES</a>
         </p>
     </div>
 
 
     <div class="intro warning">
-        <h2>⚠️ تنبيه للسائق المغربي</h2>
+        <h2>⚠️ {{ $lang === "es" ? "Aviso para el conductor marroquí" : ($lang === "fr" ? "Avertissement au conducteur marocain" : "تنبيه للسائق المغربي") }}</h2>
 
         <p>
             Edriouche Truck Job لا يبيع عقود العمل ولا يطلب من السائق
@@ -429,21 +429,21 @@
         </p>
 
         <p>
-            قبل إرسال وثائقك أو دفع أي مبلغ، تحقق من الشركة ومن رابط
+            {{ $lang === "es" ? "Antes de enviar tus documentos o pagar cualquier cantidad" : ($lang === "fr" ? "Avant d’envoyer vos documents ou de payer une quelconque somme" : "قبل إرسال وثائقك أو دفع أي مبلغ") }}، تحقق من الشركة ومن رابط
             التقديم الرسمي. لا تعتمد على وسيط مجهول أو حساب شخصي في
             مواقع التواصل الاجتماعي.
         </p>
 
         <a class="button back" href="/spain">
-            🇪🇸 العودة إلى دليل إسبانيا
+            🇪🇸 {{ $lang === "es" ? "Volver a la guía de España" : ($lang === "fr" ? "Retour au guide de l’Espagne" : "العودة إلى دليل إسبانيا") }}
         </a>
 
         <a class="button back" href="/cap">
-            🎓 مراكز CAP
+            🎓 {{ $lang === "es" ? "Centros CAP" : ($lang === "fr" ? "Centres CAP" : "مراكز CAP") }}
         </a>
 
         <a class="button back" href="/">
-            🏠 الرئيسية
+            🏠 {{ $lang === "es" ? "Inicio" : ($lang === "fr" ? "Accueil" : "الرئيسية") }}
         </a>
     </div>
 
