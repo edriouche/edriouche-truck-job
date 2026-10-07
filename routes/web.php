@@ -53,6 +53,16 @@ Route::get('/europe-documents', function () {
 });
 
 Route::get('/europe-rules', function () {
+    $locale = session('locale', 'ar');
+
+    if ($locale === 'es') {
+        return view('europe-rules-es');
+    }
+
+    if ($locale === 'fr') {
+        return view('europe-rules-fr');
+    }
+
     return view('europe-rules');
 });
 
