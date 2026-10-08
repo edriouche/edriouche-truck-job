@@ -266,6 +266,13 @@
 </div>
 </div>
 
+<div style="max-width:1000px;margin:30px auto;padding:24px;background:#f8f1e7;border:2px solid #d2a84a;border-radius:16px;text-align:center;direction:rtl;">
+<h2 style="margin-top:0;">🇲🇦 ANAPEC — الوكالة الوطنية لإنعاش التشغيل والكفاءات</h2>
+<p style="font-size:18px;line-height:1.8;">مصدر رسمي للبحث عن فرص العمل وخدمات التشغيل في المغرب. خدمات الوكالة للباحثين عن العمل مجانية.</p>
+<a href="https://www.anapec.ma/" target="_blank" rel="noopener" style="display:inline-block;background:#d2a84a;color:#111;padding:14px 28px;border-radius:10px;text-decoration:none;font-weight:bold;font-size:18px;">🔎 زيارة موقع ANAPEC الرسمي</a>
+<p style="font-size:14px;margin-bottom:0;">تنبيه: وجود عرض في ANAPEC لا يعني تلقائياً الحصول على عقد عمل أو تأشيرة أو توظيف.</p>
+</div>
+
 <!-- MOROCCO DIRECT COMPANIES -->
     <div class="intro">
         <h2>{{ __('messages.morocco_direct_title') }}</h2>
