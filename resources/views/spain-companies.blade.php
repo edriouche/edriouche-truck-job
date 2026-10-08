@@ -592,5 +592,27 @@
 </section>
 <!-- /EDRIOUCHE_LODISNA_BAHI_GEN_ADEC_2026 -->
 
+<section style="max-width:1000px;margin:35px auto;padding:24px;background:#f8f1e7;border:2px solid #d2a84a;border-radius:16px;direction:rtl;">
+@php $locale=app()->getLocale(); @endphp
+
+<h2 style="text-align:center;">🇪🇸 {{ $locale==="es" ? "Empresas con oportunidades para conductores" : ($locale==="fr" ? "Entreprises proposant des opportunités aux conducteurs" : "شركات لديها فرص للسائقين") }}</h2>
+
+<div style="background:#fff;padding:18px;border-radius:12px;margin:15px 0;">
+<h3>🚛 Grupo Sesé</h3>
+<p>{{ $locale==="es" ? "Grupo de transporte y logística con portal oficial de empleo y puestos publicados en España." : ($locale==="fr" ? "Groupe de transport et logistique avec portail officiel d’emploi et des postes publiés en Espagne." : "مجموعة للنقل واللوجستيك لديها بوابة توظيف رسمية وفرص منشورة في إسبانيا.") }}</p>
+<a href="https://empleo.gruposese.com/" target="_blank" rel="noopener" style="display:inline-block;background:#d2a84a;color:#111;padding:11px 20px;border-radius:9px;text-decoration:none;font-weight:bold;">{{ $locale==="es" ? "Ver ofertas oficiales" : ($locale==="fr" ? "Voir les offres officielles" : "عرض عروض العمل الرسمية") }}</a>
+</div>
+
+<h2 style="text-align:center;margin-top:30px;">🎓 {{ $locale==="es" ? "Formación y empleo para conductores" : ($locale==="fr" ? "Formation et emploi pour conducteurs" : "تكوين وتوظيف السائقين") }}</h2>
+
+<div style="background:#fff;padding:18px;border-radius:12px;margin:15px 0;">
+<h3>🎓 Centro de Formación RUTA</h3>
+<p>{{ $locale==="es" ? "Centro de formación para permisos C y C+E y cursos CAP. RUTA también dispone de un servicio de empleo para alumnos y antiguos alumnos, con ofertas de empresas de transporte." : ($locale==="fr" ? "Centre de formation pour les permis C et C+E et les cours CAP. RUTA dispose également d’un service d’emploi pour ses élèves et anciens élèves, avec des offres d’entreprises de transport." : "مركز للتكوين في رخص C وC+E ودورات CAP. كما تتوفر لدى RUTA خدمة توظيف للطلاب والخريجين السابقين، مع عروض من شركات النقل.") }}</p>
+<a href="https://centrodeformacionruta.es/empleo/" target="_blank" rel="noopener" style="display:inline-block;background:#d2a84a;color:#111;padding:11px 20px;border-radius:9px;text-decoration:none;font-weight:bold;">{{ $locale==="es" ? "Ver formación y empleo" : ($locale==="fr" ? "Voir la formation et l’emploi" : "عرض التكوين والتوظيف") }}</a>
+</div>
+
+<p style="font-size:14px;text-align:center;margin-top:22px;">{{ $locale==="es" ? "Aviso: aparecer en esta página no significa que exista una vacante para todos los candidatos ni garantiza contrato, visado o contratación." : ($locale==="fr" ? "Attention : la présence sur cette page ne garantit pas un poste pour chaque candidat, ni un contrat, un visa ou un recrutement." : "تنبيه: إدراج الجهة في هذه الصفحة لا يعني وجود شاغر لكل المتقدمين ولا يضمن عقد عمل أو تأشيرة أو توظيفًا.") }}</p>
+</section>
+
 </body>
 </html>
