@@ -758,6 +758,15 @@ p{font-size:17px!important;line-height:1.75!important}
 }
 </style>
 
+<section style="max-width:1000px;margin:30px auto;padding:22px;background:#f8f1e7;border:2px solid #d2a84a;border-radius:16px;direction:rtl;">
+@php $locale=app()->getLocale(); @endphp
+<h2 style="text-align:center;">🇲🇦 {{ $locale==="es" ? "ANAPEC — Agencia Nacional de Promoción del Empleo y las Competencias" : ($locale==="fr" ? "ANAPEC — Agence Nationale de Promotion de l’Emploi et des Compétences" : "ANAPEC — الوكالة الوطنية لإنعاش التشغيل والكفاءات") }}</h2>
+<p style="text-align:center;">{{ $locale==="es" ? "Portal oficial marroquí de empleo y orientación profesional. Consulte las ofertas y servicios directamente en el sitio oficial." : ($locale==="fr" ? "Portail officiel marocain de l’emploi et de l’orientation professionnelle. Consultez les offres et services directement sur le site officiel." : "البوابة الرسمية المغربية للتشغيل والتوجيه المهني. اطلع على عروض العمل والخدمات مباشرة من الموقع الرسمي.") }}</p>
+<div style="text-align:center;margin-top:18px;">
+<a href="https://www.anapec.ma/" target="_blank" rel="noopener" style="display:inline-block;background:#d2a84a;color:#111;padding:12px 22px;border-radius:9px;text-decoration:none;font-weight:bold;">{{ $locale==="es" ? "🔎 Visitar el sitio oficial de ANAPEC" : ($locale==="fr" ? "🔎 Visiter le site officiel de l’ANAPEC" : "🔎 زيارة موقع ANAPEC الرسمي") }}</a>
+</div>
+</section>
+
 </body>
 </html>
 ('
