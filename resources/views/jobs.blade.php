@@ -267,10 +267,13 @@
 </div>
 
 <div style="max-width:1000px;margin:30px auto;padding:24px;background:#f8f1e7;border:2px solid #d2a84a;border-radius:16px;text-align:center;direction:rtl;">
-<h2 style="margin-top:0;">🇲🇦 ANAPEC — الوكالة الوطنية لإنعاش التشغيل والكفاءات</h2>
-<p style="font-size:18px;line-height:1.8;">مصدر رسمي للبحث عن فرص العمل وخدمات التشغيل في المغرب. خدمات الوكالة للباحثين عن العمل مجانية.</p>
-<a href="https://www.anapec.ma/" target="_blank" rel="noopener" style="display:inline-block;background:#d2a84a;color:#111;padding:14px 28px;border-radius:10px;text-decoration:none;font-weight:bold;font-size:18px;">🔎 زيارة موقع ANAPEC الرسمي</a>
-<p style="font-size:14px;margin-bottom:0;">تنبيه: وجود عرض في ANAPEC لا يعني تلقائياً الحصول على عقد عمل أو تأشيرة أو توظيف.</p>
+@php
+$locale = app()->getLocale();
+@endphp
+<h2 style="margin-top:0;">🇲🇦 ANAPEC — {{ $locale === "es" ? "Agencia Nacional de Promoción del Empleo y las Competencias" : ($locale === "fr" ? "Agence Nationale de Promotion de l’Emploi et des Compétences" : "الوكالة الوطنية لإنعاش التشغيل والكفاءات") }}</h2>
+<p style="font-size:18px;line-height:1.8;">{{ $locale === "es" ? "Fuente oficial para buscar oportunidades de empleo y servicios de empleo en Marruecos. Los servicios de ANAPEC para los solicitantes de empleo son gratuitos." : ($locale === "fr" ? "Source officielle pour rechercher des offres d’emploi et des services d’emploi au Maroc. Les services de l’ANAPEC pour les demandeurs d’emploi sont gratuits." : "مصدر رسمي للبحث عن فرص العمل وخدمات التشغيل في المغرب. خدمات الوكالة للباحثين عن العمل مجانية.") }}</p>
+<a href="https://www.anapec.ma/" target="_blank" rel="noopener" style="display:inline-block;background:#d2a84a;color:#111;padding:14px 28px;border-radius:10px;text-decoration:none;font-weight:bold;font-size:18px;">{{ $locale === "es" ? "🔎 Visitar el sitio oficial de ANAPEC" : ($locale === "fr" ? "🔎 Visiter le site officiel de l’ANAPEC" : "🔎 زيارة موقع ANAPEC الرسمي") }}</a>
+<p style="font-size:14px;margin-bottom:0;">{{ $locale === "es" ? "Aviso: una oferta publicada en ANAPEC no garantiza automáticamente un contrato, visado ni contratación." : ($locale === "fr" ? "Attention : une offre publiée par l’ANAPEC ne garantit pas automatiquement un contrat, un visa ou un recrutement." : "تنبيه: وجود عرض في ANAPEC لا يعني تلقائياً الحصول على عقد عمل أو تأشيرة أو توظيف.") }}</p>
 </div>
 
 <!-- MOROCCO DIRECT COMPANIES -->
