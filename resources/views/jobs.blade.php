@@ -212,7 +212,61 @@
     </div>
 
 
-    <!-- MOROCCO DIRECT COMPANIES -->
+    <!-- LATEST VERIFIED MOROCCO DRIVER OFFERS -->
+<div class="container" style="margin-top:35px;">
+<div class="intro">
+<h2>🇲🇦 عروض حديثة لسائقي الشاحنات في المغرب</h2>
+<p>آخر تحقق: 8 أكتوبر 2026 — يجب التحقق مباشرة من الشركة قبل إرسال الوثائق أو السفر.</p>
+</div>
+<div class="job">
+<span class="badge">المغرب</span>
+<h2>LaLac – Chauffeur poids lourd</h2>
+<p>📍 طنجة – تطوان – الحسيمة</p>
+<p>🚛 نقل البضائع بالشاحنات</p>
+<p>📄 رخصة مناسبة للشاحنات + خبرة في النقل الطرقي</p>
+<p>💼 دوام كامل</p>
+<a href="https://ma.linkedin.com/jobs/view/chauffeur-at-lalac-4476535337" target="_blank" rel="noopener noreferrer">المصدر</a>
+</div>
+<div class="job">
+<span class="badge">المغرب</span>
+<h2>Casagains Logistique – Chauffeur de camion</h2>
+<p>📍 الدار البيضاء</p>
+<p>🚛 نقل وتوزيع البضائع</p>
+<p>📄 رخصة مهنية للشاحنات + خبرة مؤكدة</p>
+<p>💼 دوام كامل</p>
+<a href="https://ma.linkedin.com/jobs/view/chauffeur-de-camion-4472433984" target="_blank" rel="noopener noreferrer">المصدر</a>
+</div>
+<div class="job">
+<span class="badge">المغرب</span>
+<h2>Chauffeur poids lourd – Rabat</h2>
+<p>📍 الرباط</p>
+<p>🚛 قيادة الشاحنات والرحلات الطويلة</p>
+<p>📄 رخصة الشاحنات + خبرة مؤكدة</p>
+<p>💼 دوام كامل</p>
+<a href="https://ma.linkedin.com/jobs/view/chauffeur-de-camion-at-chauffeur-b-c-d-4464936285" target="_blank" rel="noopener noreferrer">المصدر</a>
+</div>
+<div class="job">
+<span class="badge">المغرب</span>
+<h2>Coliaty – Chauffeur poids lourd</h2>
+<p>📍 الدار البيضاء ↔ أكادير</p>
+<p>🚛 نقل البضائع</p>
+<p>📄 Permis C أو EC + خبرة 1 إلى 2 سنة + وثائق محدثة</p>
+<p>💼 CDI / CDD – الراتب حسب الخبرة</p>
+<a href="https://ma.linkedin.com/jobs/view/chauffeur-at-coliaty-4444733699" target="_blank" rel="noopener noreferrer">المصدر</a>
+</div>
+<div class="job">
+<span class="badge">المغرب ↔ أوروبا</span>
+<h2>A Plus Transport Maroc – Chauffeur routier international</h2>
+<p>📍 المغرب ↔ أوروبا</p>
+<p>🚛 نقل دولي بالشاحنات</p>
+<p>📄 Permis CE + خبرة في النقل الدولي + معرفة القوانين الأوروبية</p>
+<p>⭐ تأشيرة شنغن ميزة وليست ضماناً للتوظيف أو التأشيرة</p>
+<p>📧 contact@aplustransport.ma</p>
+<a href="https://ma.linkedin.com/in/amine-aztob" target="_blank" rel="noopener noreferrer">المصدر</a>
+</div>
+</div>
+
+<!-- MOROCCO DIRECT COMPANIES -->
     <div class="intro">
         <h2>{{ __('messages.morocco_direct_title') }}</h2>
         <p>{{ __('messages.morocco_direct_intro') }}</p>
