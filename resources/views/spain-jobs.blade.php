@@ -70,11 +70,15 @@ footer{text-align:center;padding:25px;color:#666}
 
 <div class="card">
 <h2>🟢 STEF</h2>
-<p><span class="badge">توظيف نشط حاليًا</span></p>
-<p>🚛 النقل واللوجستيك، خصوصًا المنتجات الغذائية المبردة.</p>
-<p>🚚 توجد وظائف سائق C+E في إسبانيا، ومنها Alcalá de Henares.</p>
-<p>🎓 المتطلبات تختلف حسب الإعلان.</p>
-<a class="button" href="https://stef.jobs/es/envia-mi-solicitud/" target="_blank">🔗 وظائف STEF الرسمية</a>
+<p><span class="badge">{{ __("messages.stef_offer_badge") }}</span></p>
+<p>{{ __("messages.stef_company_intro") }}</p>
+<p>🚚 {{ __("messages.stef_offer_title") }}</p>
+<p>📍 {{ __("messages.stef_offer_location") }}</p>
+<p>📅 {{ __("messages.stef_offer_date") }}</p>
+<p>📄 {{ __("messages.stef_offer_contract") }}</p>
+<p>{{ __("messages.stef_offer_notice") }}</p>
+<a class="button" href="https://apply.stef.jobs/go/CDI-CDD-%28ES%29/4509901/40/?q=&amp;sortColumn=sort_shifttype&amp;sortDirection=asc" target="_blank" rel="noopener">{{ __("messages.stef_offer_button") }}</a>
+<a class="button" href="https://stef.jobs/es/envia-mi-solicitud/" target="_blank" rel="noopener">{{ __("messages.official_recruitment") }}</a>
 </div>
 
 <div class="card">
