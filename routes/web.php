@@ -181,3 +181,4 @@ Route::post('/for-companies/request', function (Request $request) {
     return back()->with('success', 'تم إرسال طلبكم بنجاح. سيتم التواصل معكم بعد مراجعة المعلومات.');
 })->name('company.request');
 
+Route::view('/youth-drivers-morocco', 'youth-drivers-morocco');
