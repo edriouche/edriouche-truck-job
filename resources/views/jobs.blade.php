@@ -138,6 +138,12 @@
 
     <a href="/" class="back">{{ __('messages.back_home') }}</a>
 
+<div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:18px 0 26px;">
+<a href="/companies" class="official">{{ app()->getLocale() === 'es' ? '🏢 Directorio de empresas de transporte de Marruecos' : (app()->getLocale() === 'fr' ? '🏢 Annuaire des entreprises de transport au Maroc' : '🏢 دليل شركات النقل بالمغرب') }}</a>
+<a href="/youth-drivers-morocco" class="official">{{ app()->getLocale() === 'es' ? '🎓 Guía para jóvenes conductores marroquíes' : (app()->getLocale() === 'fr' ? '🎓 Guide pour les jeunes conducteurs marocains' : '🎓 دليل الشباب السائقين المغاربة') }}</a>
+</div>
+
+
     <div class="intro">
         <h2>{{ __('messages.jobs_available') }}</h2>
         <p>
