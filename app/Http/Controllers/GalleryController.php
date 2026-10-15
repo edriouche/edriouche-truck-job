@@ -19,7 +19,7 @@ class GalleryController extends Controller
     {
         $request->validate([
             'media' => ['required', 'array', 'max:20'],
-            'media.*' => ['file', 'mimes:jpg,jpeg,png,webp,mp4,mov,webm', 'max:51200'],
+            'media.*' => ['file', 'mimes:jpg,jpeg,png,gif,webp,bmp,tif,tiff,avif,heic,heif,mp4,mov,webm', 'max:102400'],
         ]);
 
         foreach ($request->file('media') as $file) {

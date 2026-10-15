@@ -6,6 +6,8 @@ RUN apt-get update && apt-get install -y \
     libzip-dev libsqlite3-dev \
     && docker-php-ext-install pdo_mysql pdo_sqlite zip
 
+RUN printf 'file_uploads=On\nupload_max_filesize=100M\npost_max_size=110M\nmax_file_uploads=20\nmax_execution_time=120\nmax_input_time=120\n' > /usr/local/etc/php/conf.d/uploads.ini
+
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 COPY . /var/www/html/

@@ -194,13 +194,13 @@
                 <input
                     type="file"
                     name="media[]"
-                    accept="image/jpeg,image/png,image/webp,video/mp4,video/quicktime,video/webm"
+                    accept="image/*,video/mp4,video/quicktime,video/webm"
                     multiple
                     required
                 >
 
                 <p class="help">
-                    يمكنك اختيار حتى 20 ملفًا. الحد الأقصى لكل ملف 50MB.
+                    يمكنك اختيار حتى 20 ملفًا. الحد الأقصى لكل ملف 100MB.
                 </p>
 
                 @if ($errors->any())
