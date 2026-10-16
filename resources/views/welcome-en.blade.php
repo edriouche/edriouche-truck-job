@@ -49,6 +49,11 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 <a href="/cap-code95-spain">CAP / Code 95 Information</a>
 <a href="/for-companies">For Transport Companies</a>
 </nav>
+<section class="founder">
+<img src="/images/father.jpg" alt="In loving memory of Mohammed Edriouche's father">
+<div><h2>In Loving Memory of My Father</h2>
+<p>My father was one of the veteran drivers who transported fuel and gas. He was my first teacher in this profession, and his dedication continues to inspire my journey.</p></div>
+</section>
 <h2>🚛 Trucks through the years</h2>
 <div class="truck-gallery">
 <img src="/images/truck-volvo-f88-1970.jpg" alt="Volvo F88, 1970">
