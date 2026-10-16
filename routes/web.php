@@ -84,7 +84,9 @@ Route::get('/spain-law', function () {
 });
 
 Route::get('/spain-jobs', function () {
-    return view('spain-jobs');
+    return app()->getLocale() === 'en'
+        ? view('spain-jobs-en')
+        : view('spain-jobs');
 });
 
 Route::get('/training-centers', function () {
@@ -98,7 +100,14 @@ Route::get('/lang/{locale}', function ($locale) {
         cookie()->queue('locale', $locale, 60 * 24 * 365);
     }
 
-    return redirect(request()->query('redirect', '/'));
+    $target = (string) request()->query('redirect', '/');
+    if (!str_starts_with($target, '/') || str_starts_with($target, '//')) {
+        $target = '/' . ltrim($target, '/');
+    }
+    if (str_starts_with($target, '//')) {
+        $target = '/';
+    }
+    return redirect($target);
 });
 Route::view('/cmr-es', 'cmr-es');
 Route::view('/cmr-fr', 'cmr-fr');
