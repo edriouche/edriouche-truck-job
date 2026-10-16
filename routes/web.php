@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return app()->getLocale() === 'en'
+        ? view('welcome-en')
+        : view('welcome');
 });
 
 Route::get('/driver-guide', function () {
@@ -90,7 +92,7 @@ Route::get('/training-centers', function () {
 });
 
 Route::get('/lang/{locale}', function ($locale) {
-    if (in_array($locale, ['ar', 'es', 'fr'])) {
+    if (in_array($locale, ['ar', 'es', 'fr', 'en'])) {
         session(['locale' => $locale]);
         app()->setLocale($locale);
         cookie()->queue('locale', $locale, 60 * 24 * 365);

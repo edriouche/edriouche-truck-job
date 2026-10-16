@@ -381,6 +381,7 @@
             <a href="/lang/ar">🇲🇦 العربية</a>
             <a href="/lang/es">🇪🇸 Español</a>
             <a href="/lang/fr">🇫🇷 Français</a>
+            <a href="/lang/en">🇬🇧 English</a>
         </div>
     </div>
 </header>
