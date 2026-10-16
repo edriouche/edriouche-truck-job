@@ -8,6 +8,11 @@
 <style>
 body{font-family:Arial,sans-serif;line-height:1.7;margin:0;background:#f4f7fa;color:#17212b}
 header,main,footer{max-width:900px;margin:auto;padding:22px}
+.hero-truck{width:100%;max-height:300px;object-fit:cover;border-radius:12px;margin-top:12px}
+.founder{display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin:24px 0}
+.founder img{width:150px;height:150px;object-fit:cover;border-radius:50%}
+.truck-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:24px 0}
+.truck-gallery img{width:100%;height:150px;object-fit:cover;border-radius:10px}
 header{background:#12304a;color:white;max-width:none;text-align:center}
 main{background:white;margin-top:20px;border-radius:12px}
 nav{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:22px 0}
@@ -21,6 +26,7 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 <header>
 <h1>🚛 Edriouche Truck Job</h1>
 <p>Connecting Moroccan truck drivers with job and training opportunities.</p>
+<img class="hero-truck" src="/images/truck-volvo-fh-tanker-2022.jpg" alt="Volvo FH tanker truck">
 </header>
 <main>
 <div class="languages">
@@ -29,6 +35,10 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 <a href="/lang/fr?redirect=%2F">🇫🇷 Français</a> |
 <strong>🇬🇧 English</strong>
 </div>
+<section class="founder">
+<img src="/images/founder.jpg?v=2" alt="Mohammed Edriouche, founder of Edriouche Truck Job">
+<div><h2>Created by a professional driver</h2><p>Built to share reliable information and help truck drivers access lawful opportunities.</p></div>
+</section>
 <h2>Explore jobs, training and driver resources</h2>
 <p>Find information about transport companies, professional training and opportunities for truck drivers in Morocco and Europe.</p>
 <nav>
@@ -39,6 +49,14 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 <a href="/cap-code95-spain">CAP / Code 95 Information</a>
 <a href="/for-companies">For Transport Companies</a>
 </nav>
+<h2>🚛 Trucks through the years</h2>
+<div class="truck-gallery">
+<img src="/images/truck-volvo-f88-1970.jpg" alt="Volvo F88, 1970">
+<img src="/images/truck-volvo-f10.jpg" alt="Volvo F10">
+<img src="/images/truck-volvo-f12-1980.jpg" alt="Volvo F12, 1980">
+<img src="/images/truck-volvo-fh-1993.jpg" alt="Volvo FH, 1993">
+<img src="/images/truck-volvo-fh-tanker-2009.jpg" alt="Volvo FH tanker, 2009">
+</div>
 <div class="notice">
 <strong>Important:</strong> This website provides information. A company listing does not confirm a vacancy, and we do not guarantee employment, visas or work permits. Verify offers directly with official companies and authorities. Do not pay intermediaries for promises of a job or visa.
 </div>
