@@ -49,6 +49,8 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 <a href="/cap-code95-spain">CAP / Code 95 Information</a>
 <a href="/for-companies">For Transport Companies</a>
 </nav>
+@include('partials.home-gallery')
+
 <section class="founder">
 <img src="/images/father.jpg" alt="In loving memory of Mohammed Edriouche's father">
 <div><h2>In Loving Memory of My Father</h2>

@@ -32,7 +32,14 @@ class GalleryController extends Controller
             ]);
         }
 
-        return redirect()->route('gallery');
+        return $this->redirectToSource($request);
+    }
+
+    private function redirectToSource(Request $request)
+    {
+        return $request->input('return_to') === '/'
+            ? redirect('/')
+            : redirect()->route('gallery');
     }
 
     public function media(\Illuminate\Http\Request $request, GalleryItem $galleryItem)
@@ -53,14 +60,14 @@ class GalleryController extends Controller
             'caption' => $request->input('caption'),
         ]);
 
-        return redirect()->route('gallery');
+        return $this->redirectToSource($request);
     }
 
-    public function destroy(GalleryItem $galleryItem)
+    public function destroy(Request $request, GalleryItem $galleryItem)
     {
         Storage::disk('public')->delete($galleryItem->path);
         $galleryItem->delete();
 
-        return redirect()->route('gallery');
+        return $this->redirectToSource($request);
     }
 }

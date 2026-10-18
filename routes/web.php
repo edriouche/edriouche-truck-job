@@ -3,13 +3,16 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
+    $galleryItems = \App\Models\GalleryItem::latest()->take(6)->get();
+
     return app()->getLocale() === 'en'
-        ? view('welcome-en')
-        : view('welcome');
+        ? view('welcome-en', compact('galleryItems'))
+        : view('welcome', compact('galleryItems'));
 });
 
 Route::get('/driver-guide', function () {
     return match (app()->getLocale()) {
+        'en' => view('driver-guide-en'),
         'es' => view('driver-guide-es'),
         'fr' => view('driver-guide-fr'),
         default => view('driver-guide-ar'),
@@ -19,7 +22,9 @@ Route::get('/driver-guide', function () {
 
 Route::get('/jobs', function () { return view('jobs'); });
 Route::get('/companies', function () {
-
+    if (app()->getLocale() === 'en') {
+        return view('companies-en');
+    }
     return view('companies');
 });
 
@@ -55,17 +60,12 @@ Route::get('/europe-documents', function () {
 });
 
 Route::get('/europe-rules', function () {
-    $locale = session('locale', 'ar');
-
-    if ($locale === 'es') {
-        return view('europe-rules-es');
-    }
-
-    if ($locale === 'fr') {
-        return view('europe-rules-fr');
-    }
-
-    return view('europe-rules');
+    return match (app()->getLocale()) {
+        'en' => view('europe-rules-en'),
+        'es' => view('europe-rules-es'),
+        'fr' => view('europe-rules-fr'),
+        default => view('europe-rules'),
+    };
 });
 
 Route::view('/europe-rules-es', 'europe-rules-es');
@@ -128,9 +128,9 @@ Route::get('/morocco-transport-training', function () {
 Route::get('/gallery', [\App\Http\Controllers\GalleryController::class, 'index'])->name('gallery');
 Route::get('/gallery-media/{galleryItem}', [\App\Http\Controllers\GalleryController::class, 'media'])->name('gallery.media');
 
-Route::post('/gallery', [\App\Http\Controllers\GalleryController::class, 'store'])->middleware('auth')->name('gallery.store');
-Route::delete('/gallery/{galleryItem}', [\App\Http\Controllers\GalleryController::class, 'destroy'])->middleware('auth')->name('gallery.destroy');
-Route::post('/gallery/{galleryItem}/caption', [\App\Http\Controllers\GalleryController::class, 'updateCaption'])->middleware('auth')->name('gallery.caption');
+Route::post('/gallery', [\App\Http\Controllers\GalleryController::class, 'store'])->middleware(['auth', 'admin'])->name('gallery.store');
+Route::delete('/gallery/{galleryItem}', [\App\Http\Controllers\GalleryController::class, 'destroy'])->middleware(['auth', 'admin'])->name('gallery.destroy');
+Route::post('/gallery/{galleryItem}/caption', [\App\Http\Controllers\GalleryController::class, 'updateCaption'])->middleware(['auth', 'admin'])->name('gallery.caption');
 
 Route::get('/gallery/login', [\App\Http\Controllers\GalleryAuthController::class, 'login'])->name('login');
 Route::post('/gallery/login', [\App\Http\Controllers\GalleryAuthController::class, 'authenticate'])->name('gallery.authenticate');
@@ -138,7 +138,7 @@ Route::post('/gallery/logout', [\App\Http\Controllers\GalleryAuthController::cla
 
 Route::view('/constat-amiable', 'constat-amiable');
 
-Route::get('/cap-code95-spain', function () { return match(app()->getLocale()) { 'es' => view('cap-code95-spain-es'), 'fr' => view('cap-code95-spain-fr'), default => view('cap-code95-spain'), }; });
+Route::get('/cap-code95-spain', function () { return match(app()->getLocale()) { 'en' => view('cap-code95-spain-en'), 'es' => view('cap-code95-spain-es'), 'fr' => view('cap-code95-spain-fr'), default => view('cap-code95-spain'), }; });
 
 Route::view('/professional-driver-card', 'professional-driver-card');
 Route::view('open-letter', 'open-letter');
