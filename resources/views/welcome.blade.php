@@ -413,6 +413,74 @@
 
 @include('partials.home-gallery')
 
+<section id="loyal-driver-meeting" style="margin:28px auto;padding:24px 16px;max-width:1100px;border:1px solid #d8e2e8;border-radius:16px;background:#f7fafc;color:#173042;">
+    <div style="text-align:center;margin-bottom:22px;">
+        <p style="margin:0 0 8px;font-weight:bold;color:#16704a;">Edriouche Truck Job × LOYAL DRIVER</p>
+        @if(app()->getLocale() === 'es')
+            <h2 style="margin:8px 0;">Encuentro profesional abierto a todos</h2>
+            <p>Mohammed Edriouche, fundador de Edriouche Truck Job, y Anna, directora de LOYAL DRIVER, invitan a conductores, jóvenes, empresas y a todas las personas interesadas en la formación y el transporte por carretera.</p>
+        @elseif(app()->getLocale() === 'fr')
+            <h2 style="margin:8px 0;">Rencontre professionnelle ouverte à tous</h2>
+            <p>Mohammed Edriouche, fondateur d’Edriouche Truck Job, et Anna, directrice de LOYAL DRIVER, invitent les conducteurs, les jeunes, les entreprises et toutes les personnes intéressées par la formation et le transport routier.</p>
+        @else
+            <h2 style="margin:8px 0;">لقاء مهني مفتوح للجميع</h2>
+            <p>يلتقي محمد الدريوش، مؤسس Edriouche Truck Job، مع آنا، صاحبة ومديرة LOYAL DRIVER، في لقاء مفتوح للسائقين والشباب والشركات ولكل المهتمين بالتكوين والنقل الطرقي.</p>
+        @endif
+    </div>
+
+    <div style="display:flex;flex-wrap:wrap;gap:14px;justify-content:center;">
+        <div style="box-sizing:border-box;flex:1 1 260px;padding:18px;border-radius:12px;background:#fff;border:1px solid #d8e2e8;">
+            @if(app()->getLocale() === 'es')
+                <h3 style="margin-top:0;">📍 Marrakech</h3>
+                <p><strong>Fecha:</strong> 23 de octubre de 2026</p>
+                <p><strong>Lugar:</strong> Sala Al Harithi</p>
+                <p><strong>Hora:</strong> 16:00</p>
+            @elseif(app()->getLocale() === 'fr')
+                <h3 style="margin-top:0;">📍 Marrakech</h3>
+                <p><strong>Date :</strong> 23 octobre 2026</p>
+                <p><strong>Lieu :</strong> Salle Al Harithi</p>
+                <p><strong>Heure :</strong> 16 h 00</p>
+            @else
+                <h3 style="margin-top:0;">📍 مراكش</h3>
+                <p><strong>التاريخ:</strong> 23 أكتوبر 2026</p>
+                <p><strong>المكان:</strong> قاعة الحارثي</p>
+                <p><strong>الساعة:</strong> 16:00</p>
+            @endif
+        </div>
+
+        <div style="box-sizing:border-box;flex:1 1 260px;padding:18px;border-radius:12px;background:#fff;border:1px solid #d8e2e8;">
+            @if(app()->getLocale() === 'es')
+                <h3 style="margin-top:0;">📍 Casablanca</h3>
+                <p><strong>Fecha:</strong> 24 de octubre de 2026</p>
+                <p><strong>Lugar:</strong> Sala Aya, Sidi Othman</p>
+                <p><strong>Hora:</strong> 16:00</p>
+            @elseif(app()->getLocale() === 'fr')
+                <h3 style="margin-top:0;">📍 Casablanca</h3>
+                <p><strong>Date :</strong> 24 octobre 2026</p>
+                <p><strong>Lieu :</strong> Salle Aya, Sidi Othman</p>
+                <p><strong>Heure :</strong> 16 h 00</p>
+            @else
+                <h3 style="margin-top:0;">📍 الدار البيضاء</h3>
+                <p><strong>التاريخ:</strong> 24 أكتوبر 2026</p>
+                <p><strong>المكان:</strong> قاعة آية، سيدي عثمان</p>
+                <p><strong>الساعة:</strong> 16:00</p>
+            @endif
+        </div>
+    </div>
+
+    <div style="text-align:center;margin-top:18px;">
+        @if(app()->getLocale() === 'es')
+            <p><strong>Entrada abierta a todos.</strong> Consulta nuestra plataforma para información profesional.</p>
+        @elseif(app()->getLocale() === 'fr')
+            <p><strong>Rencontre ouverte à tous.</strong> Consultez notre plateforme pour des informations professionnelles.</p>
+        @else
+            <p><strong>الدعوة مفتوحة للجميع.</strong> زوروا منصتنا للاطلاع على المعلومات المهنية.</p>
+        @endif
+        <a href="https://www.edriouchetruckjobs.ma" style="display:inline-block;margin-top:6px;padding:11px 20px;border-radius:8px;background:#176b4d;color:#fff;text-decoration:none;font-weight:bold;">www.edriouchetruckjobs.ma</a>
+    </div>
+</section>
+
+
 <section class="section" style="padding-top:10px;">
     <div class="section-title">
         @if(app()->getLocale() === 'es')
