@@ -55,7 +55,8 @@ footer{text-align:center;padding:25px;color:#666}
 <p>🚛 المطلوب: C+E</p>
 <p>🎓 المتطلبات: CAP + بطاقة التاكغراف الرقمي</p>
 <p>⭐ توجد حاليًا عروض للسائقين، ومنها عروض لا تشترط الخبرة حسب الإعلان.</p>
-<a class="button" href="https://jobs.jcarrion.es/reclutamiento/" target="_blank">{{ __("messages.official_recruitment") }}</a>
+<a class="button" href="https://ofertas.jcarrion.es/jobs/conductor-a-c-e-ruta-internacional-fcabfd30-bbdb-4edd-9740-d20be90443fd?displayed_form=true" target="_blank" rel="noopener">🔗 إعلان سائق C+E</a>
+<a class="button" href="https://jobs.jcarrion.es/reclutamiento/" target="_blank" rel="noopener">{{ __("messages.official_recruitment") }}</a>
 </div>
 
 <div class="card">
@@ -83,11 +84,10 @@ footer{text-align:center;padding:25px;color:#666}
 
 <div class="card">
 <h2>🟢 CONTANK</h2>
-<p><span class="badge">توظيف نشط حاليًا</span></p>
-<p>🚛 نقل البضائع والمقطورات</p>
-<p>🚚 C+E</p>
-<p>🎓 CAP + بطاقة تاكوغراف حسب الوظيفة</p>
-<p>🔗 تحقق دائمًا من الإعلان الرسمي قبل إرسال الوثائق.</p>
+<p><span class="badge">تحقق من الشروط في الإعلان الرسمي</span></p>
+<p>🚛 إعلان سائق شاحنة/مقطورة.</p>
+<p>🎓 قد يشترط الإعلان C+E وCAP وADR الأساسي والخزانات، مع أقدمية رخصة C+E لثلاث سنوات؛ والخبرة لسنتين على الأقل مفضّلة حسب الإعلان. تحقق من الشروط الحالية.</p>
+<a class="button" href="https://contank.com/career/" target="_blank" rel="noopener">🔗 عروض CONTANK الرسمية</a>
 </div>
 
 <div class="card">
@@ -96,7 +96,8 @@ footer{text-align:center;padding:25px;color:#666}
 <p>🚛 النقل الوطني والدولي واللوجستيك</p>
 <p>🚚 C+E حسب الوظيفة</p>
 <p>🎓 CAP وخبرة حسب الوظيفة</p>
-<p>🔗 التقديم يكون عبر قنوات الشركة الرسمية فقط.</p>
+<p>🔗 نموذج الشركة الرسمي للتوظيف والترشيح؛ لا يضمن وجود شاغر محدد.</p>
+<a class="button" href="https://www.gruposgt.com/trabaja-con-nosotros" target="_blank" rel="noopener">🔗 التقديم الرسمي لدى Grupo SGT</a>
 </div>
 
 <div class="card">
@@ -104,30 +105,32 @@ footer{text-align:center;padding:25px;color:#666}
 <p><span class="badge">ترشيح مفتوح</span></p>
 <p>🚛 النقل المبرد واللوجستيك</p>
 <p>🌍 إسبانيا وأوروبا</p>
-<p>👨‍✈️ يمكن إرسال طلب ترشيح مباشر عبر قنوات الشركة الرسمية.</p>
+<p>👨‍✈️ يمكن إرسال طلب ترشيح عبر القناة الرسمية؛ وهذا لا يؤكد وجود وظيفة شاغرة محددة.</p>
+<a class="button" href="https://www.primafrio.com/trabaja-con-nosotros//" target="_blank" rel="noopener">🔗 التقديم الرسمي لدى Primafrio</a>
 </div>
 
 <div class="card">
 <h2>🔵 Logista</h2>
 <p><span class="badge">ترشيح مفتوح</span></p>
 <p>🚛 النقل واللوجستيك والتوزيع</p>
-<p>👨‍✈️ توجد قنوات رسمية للتوظيف والترشيح حسب النشاط.</p>
+<p>👨‍✈️ نموذج رسمي مرتبط بالسائقين والتوصيل؛ تحقق من نوع العمل وشروطه قبل التقديم.</p>
+<a class="button" href="https://www.logista.com/es/home/pages/contacta-parcel-drivers.html" target="_blank" rel="noopener">🔗 نموذج السائق الرسمي لدى Logista</a>
 </div>
 
 <div class="card">
 <h2>🟢 Grupo Hiemesa</h2>
-<p><span class="badge">توظيف نشط حاليًا</span></p>
-<p>🚛 نقل البضائع والمقطورات</p>
-<p>🚚 C+E</p>
-<p>🎓 CAP + بطاقة تاكوغراف حسب الوظيفة.</p>
+<p><span class="badge">راجع عروض الشركة الرسمية</span></p>
+<p>🚛 تحقق من المدينة والمتطلبات في كل إعلان سائق.</p>
+<a class="button" href="https://www.hiemesa.com/Trabaja" target="_blank" rel="noopener">🔗 عروض Grupo Hiemesa الرسمية</a>
 </div>
 
 <div class="card">
 <h2>🔵 Disfrimur</h2>
-<p><span class="badge">ترشيح مفتوح</span></p>
-<p>🚛 النقل المبرد واللوجستيك</p>
-<p>🎓 لدى الشركة برنامج Escuela de Conductores لتكوين السائقين.</p>
-<p>🚚 الفئات: C و C+E حسب البرنامج والفرص المتاحة.</p>
+<p><span class="badge">تحقق من العروض الحالية</span></p>
+<p>🚛 النقل بالشاحنات والنقل المبرد.</p>
+<p>🎓 توجد معلومات رسمية عن برنامج Escuela de Conductores؛ تحقق من شروط التسجيل وتوفره حاليًا.</p>
+<a class="button" href="https://www.disfrimur.com/en/86-la-empresa/232-oferta-de-empleo" target="_blank" rel="noopener">🔗 عروض Disfrimur الرسمية</a>
+<a class="button" href="https://www.disfrimur.com/es/blog/noticias/367-disfrimur-incorpora-a-los-primeros-profesionales-del-programa-escuela-de-conductores" target="_blank" rel="noopener">🔗 معلومات برنامج تكوين السائقين</a>
 </div>
 
 <div class="hero">

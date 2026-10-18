@@ -26,7 +26,7 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 <header>
 <h1>🚛 Edriouche Truck Job</h1>
 <p>Connecting Moroccan truck drivers with job and training opportunities.</p>
-<img class="hero-truck" src="/images/truck-volvo-fh-tanker-2022.jpg" alt="Volvo FH tanker truck">
+
 </header>
 <main>
 <div class="languages">

@@ -375,7 +375,7 @@
 
 <header>
     <div class="nav">
-        <a class="brand" href="/"><img src="{{ asset('images/truck-volvo-fh-tanker-2022.jpg') }}" alt="Truck"> Edriouche <span>Truck Job</span></a>
+        <a class="brand" href="/">Edriouche <span>Truck Job</span></a>
 
         <div class="languages">
             <a href="/lang/ar">🇲🇦 العربية</a>
