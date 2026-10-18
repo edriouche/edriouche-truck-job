@@ -227,7 +227,7 @@ $emptyCaption = match ($locale) {
                                 </button>
                             </form>
                             <form action="{{ route('gallery.destroy', $item) }}" method="POST"
-                                  onsubmit="return confirm(@json(match($locale) {'en' => 'Delete this photo or video?', 'es' => '¿Eliminar esta foto o vídeo?', 'fr' => 'Supprimer cette photo ou vidéo ?', default => 'هل تريد حذف هذه الصورة أو الفيديو؟'}));">
+                                  onsubmit="return confirm('{{ $locale === 'en' ? 'Delete this photo or video?' : ($locale === 'es' ? '¿Eliminar esta foto o vídeo?' : ($locale === 'fr' ? 'Supprimer cette photo ou vidéo ?' : 'هل تريد حذف هذه الصورة أو الفيديو؟')) }}');">
                                 @csrf
                                 @method('DELETE')
                                 <input type="hidden" name="return_to" value="/">
