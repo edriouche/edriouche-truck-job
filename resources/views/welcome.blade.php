@@ -415,16 +415,16 @@
 
 <section id="loyal-driver-meeting" style="margin:28px auto;padding:24px 16px;max-width:1100px;border:1px solid #d8e2e8;border-radius:16px;background:#f7fafc;color:#173042;">
     <div style="text-align:center;margin-bottom:22px;">
-        <p style="margin:0 0 8px;font-weight:bold;color:#16704a;">Edriouche Truck Job × LOYAL DRIVER</p>
+        <p style="margin:0 0 8px;font-weight:bold;color:#16704a;">Edriouche Truck Job | معلومات للسائقين</p>
         @if(app()->getLocale() === 'es')
-            <h2 style="margin:8px 0;">Encuentro profesional abierto a todos</h2>
-            <p>Mohammed Edriouche, fundador de Edriouche Truck Job, y Anna, directora de LOYAL DRIVER, invitan a conductores, jóvenes, empresas y a todas las personas interesadas en la formación y el transporte por carretera.</p>
+            <h2 style="margin:8px 0;">Información para conductores profesionales — Encuentro LOYAL DRIVER</h2>
+            <p>Durante una visita a la institución LOYAL DRIVER, Mohammed Edriouche, fundador de Edriouche Truck Job, conoció a Anna y recibió información sobre este encuentro. Comparte esta información con los conductores profesionales a través de su plataforma. No organiza el encuentro ni participa en él. La información está dirigida a conductores profesionales.</p>
         @elseif(app()->getLocale() === 'fr')
-            <h2 style="margin:8px 0;">Rencontre professionnelle ouverte à tous</h2>
-            <p>Mohammed Edriouche, fondateur d’Edriouche Truck Job, et Anna, directrice de LOYAL DRIVER, invitent les conducteurs, les jeunes, les entreprises et toutes les personnes intéressées par la formation et le transport routier.</p>
+            <h2 style="margin:8px 0;">Information pour les conducteurs professionnels — Rencontre LOYAL DRIVER</h2>
+            <p>Lors d’une visite à l’institution LOYAL DRIVER, Mohammed Edriouche, fondateur d’Edriouche Truck Job, a rencontré Anna et obtenu des informations sur cette rencontre. Il transmet ces informations aux conducteurs professionnels via sa plateforme. Il n’organise pas la rencontre et n’y participe pas. L’information est destinée aux conducteurs professionnels.</p>
         @else
-            <h2 style="margin:8px 0;">لقاء مهني مفتوح للجميع</h2>
-            <p>يلتقي محمد الدريوش، مؤسس Edriouche Truck Job، مع آنا، صاحبة ومديرة LOYAL DRIVER، في لقاء مفتوح للسائقين والشباب والشركات ولكل المهتمين بالتكوين والنقل الطرقي.</p>
+            <h2 style="margin:8px 0;">معلومة للسائقين المهنيين حول ملتقى LOYAL DRIVER</h2>
+            <p>خلال زيارة محمد الدريوش، مؤسس Edriouche Truck Job، إلى مؤسسة LOYAL DRIVER، التقى بآنا وتعرّف هناك على معلومات هذا الملتقى. ينقل محمد هذه المعلومة إلى السائقين المهنيين عبر منصته خدمةً لهم. للتوضيح: محمد ليس منظّمًا للملتقى ولا يشارك فيه؛ ودور الموقع هو إخبار السائقين بالمعلومة فقط.</p>
         @endif
     </div>
 
@@ -470,11 +470,11 @@
 
     <div style="text-align:center;margin-top:18px;">
         @if(app()->getLocale() === 'es')
-            <p><strong>Entrada abierta a todos.</strong> Consulta nuestra plataforma para información profesional.</p>
+            <p>Información destinada a conductores profesionales. Edriouche Truck Job comparte el aviso; no organiza este encuentro.</p>
         @elseif(app()->getLocale() === 'fr')
-            <p><strong>Rencontre ouverte à tous.</strong> Consultez notre plateforme pour des informations professionnelles.</p>
+            <p>Information destinée aux conducteurs professionnels. Edriouche Truck Job transmet l’information ; la plateforme n’organise pas cette rencontre.</p>
         @else
-            <p><strong>الدعوة مفتوحة للجميع.</strong> زوروا منصتنا للاطلاع على المعلومات المهنية.</p>
+            <p>هذه المعلومة موجهة للسائقين المهنيين. ينقل Edriouche Truck Job الخبر ولا ينظّم هذا الملتقى.</p>
         @endif
         <a href="https://www.edriouchetruckjobs.ma" style="display:inline-block;margin-top:6px;padding:11px 20px;border-radius:8px;background:#176b4d;color:#fff;text-decoration:none;font-weight:bold;">www.edriouchetruckjobs.ma</a>
     </div>

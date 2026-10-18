@@ -53,9 +53,9 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 
 <section id="loyal-driver-meeting" style="margin:28px auto;padding:24px 16px;max-width:1100px;border:1px solid #d8e2e8;border-radius:16px;background:#f7fafc;color:#173042;">
     <div style="text-align:center;margin-bottom:22px;">
-        <p style="margin:0 0 8px;font-weight:bold;color:#16704a;">Edriouche Truck Job × LOYAL DRIVER</p>
-        <h2 style="margin:8px 0;">Professional Meeting — Open to Everyone</h2>
-        <p>Mohammed Edriouche, founder of Edriouche Truck Job, and Anna, founder and director of LOYAL DRIVER, welcome professional drivers, young people, companies, and everyone interested in driver training and road transport.</p>
+        <p style="margin:0 0 8px;font-weight:bold;color:#16704a;">Edriouche Truck Job | Driver Information</p>
+        <h2 style="margin:8px 0;">Information for Professional Drivers — LOYAL DRIVER Meeting</h2>
+        <p>During a visit to the LOYAL DRIVER institution, Mohammed Edriouche, founder of Edriouche Truck Job, met Anna and learned about this meeting. He is sharing the information with professional drivers through his platform. He is not organizing the meeting and is not participating in it. This information is intended for professional drivers.</p>
     </div>
     <div style="display:flex;flex-wrap:wrap;gap:14px;justify-content:center;">
         <div style="box-sizing:border-box;flex:1 1 260px;padding:18px;border-radius:12px;background:#fff;border:1px solid #d8e2e8;">
@@ -72,7 +72,7 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
         </div>
     </div>
     <div style="text-align:center;margin-top:18px;">
-        <p><strong>Everyone is welcome.</strong> Visit our platform for professional information about road transport and driver opportunities.</p>
+        <p>This information is for professional drivers. Edriouche Truck Job shares the announcement; it does not organize the meeting.</p>
         <a href="https://www.edriouchetruckjobs.ma" style="display:inline-block;margin-top:6px;padding:11px 20px;border-radius:8px;background:#176b4d;color:#fff;text-decoration:none;font-weight:bold;">www.edriouchetruckjobs.ma</a>
     </div>
 </section>
