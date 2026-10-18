@@ -411,7 +411,7 @@
     </div>
 </section>
 
-    <a href="/gallery" style="display:block;max-width:520px;margin:24px auto;padding:16px 20px;border:2px solid #176b87;border-radius:14px;background:#eef8fb;color:#12475b;text-align:center;text-decoration:none;font-weight:700;font-size:18px;">📸 معرض الصور والفيديوهات</a>
+    @include('partials.home-gallery')
 
 <section id="loyal-driver-meeting" style="margin:28px auto;padding:24px 16px;max-width:1100px;border:1px solid #d8e2e8;border-radius:16px;background:#f7fafc;color:#173042;">
     <div style="text-align:center;margin-bottom:22px;">
