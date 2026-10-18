@@ -49,7 +49,7 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 <a href="/cap-code95-spain">CAP / Code 95 Information</a>
 <a href="/for-companies">For Transport Companies</a>
 </nav>
-@include('partials.home-gallery')
+    <a href="/gallery" style="display:block;max-width:520px;margin:24px auto;padding:16px 20px;border:2px solid #176b87;border-radius:14px;background:#eef8fb;color:#12475b;text-align:center;text-decoration:none;font-weight:700;font-size:18px;">📸 Open Photo &amp; Video Gallery</a>
 
 <section id="loyal-driver-meeting" style="margin:28px auto;padding:24px 16px;max-width:1100px;border:1px solid #d8e2e8;border-radius:16px;background:#f7fafc;color:#173042;">
     <div style="text-align:center;margin-bottom:22px;">
@@ -83,14 +83,7 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 <div><h2>In Loving Memory of My Father</h2>
 <p>My father was one of the veteran drivers who transported fuel and gas. He was my first teacher in this profession, and his dedication continues to inspire my journey.</p></div>
 </section>
-<h2>🚛 Trucks through the years</h2>
-<div class="truck-gallery">
-<img src="/images/truck-volvo-f88-1970.jpg" alt="Volvo F88, 1970">
-<img src="/images/truck-volvo-f10.jpg" alt="Volvo F10">
-<img src="/images/truck-volvo-f12-1980.jpg" alt="Volvo F12, 1980">
-<img src="/images/truck-volvo-fh-1993.jpg" alt="Volvo FH, 1993">
-<img src="/images/truck-volvo-fh-tanker-2009.jpg" alt="Volvo FH tanker, 2009">
-</div>
+
 <div class="notice">
 <strong>Important:</strong> This website provides information. A company listing does not confirm a vacancy, and we do not guarantee employment, visas or work permits. Verify offers directly with official companies and authorities. Do not pay intermediaries for promises of a job or visa.
 </div>
