@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Spanish Transport Companies | Edriouche Truck Job</title>
+<title>{{ __("messages.spain_jobs_title") }} | Edriouche Truck Job</title>
 <style>
 body{font-family:Arial,sans-serif;background:#f5f7fa;margin:0;color:#222;line-height:1.8}
 .container{max-width:900px;margin:auto;padding:15px}
@@ -26,17 +26,16 @@ footer{text-align:center;padding:25px;color:#666}
 <div class="container">
 
 <div class="hero">
-<h1>🇪🇸 {{ __("messages.spanish_companies") }}</h1>
+<h1>🇪🇸 {{ __("messages.spain_jobs_title") }}</h1>
 <p style="text-align:center"><strong>{{ __("messages.jobs_intro") }}</strong></p>
 </div>
 
 <div class="hero-es">
 <h2>{{ __("messages.driver_message") }}</h2>
 <p>{{ __("messages.driver_story_title") }}</p>
+<p>{{ __("messages.driver_family_sacrifice") }}</p>
 <p>{{ __("messages.driver_sacrifice") }}</p>
-<p>A veces no pudo estar en celebraciones ni en funerales… porque la carretera lo llamaba y detrás de él había una carga, una responsabilidad y un deber profesional.</p>
 <p><strong>{{ __("messages.driver_values") }}</strong></p>
-<p>Detrás de cada camión que llega a su destino, hay una persona que ha hecho muchos sacrificios para que llegue con seguridad.</p>
 <p>{!! __("messages.driver_mission") !!}</p>
 <p>{!! __("messages.driver_morocco_europe") !!}</p>
 <p><strong>{{ __("messages.driver_respect") }}</strong></p>

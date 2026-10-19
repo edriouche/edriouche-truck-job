@@ -137,4 +137,6 @@ return [
     'stef_offer_contract' => 'Type de contrat indiqué : CDI',
     'stef_offer_notice' => 'Cette annonce ne confirme ni l’acceptation d’un permis marocain ni l’obtention d’une autorisation de travail ou d’un visa. Vérifiez directement auprès de l’entreprise les conditions et votre admissibilité.',
     'stef_offer_button' => 'Voir cette offre STEF',
+    'spain_jobs_title' => 'Offres d’emploi pour conducteurs de poids lourds en Espagne',
+    'driver_family_sacrifice' => 'Parfois, il ne pouvait assister aux fêtes de famille ni aux funérailles, car la route l’appelait et qu’il avait une cargaison, une responsabilité et un devoir professionnel à assumer.',
 ];

@@ -137,4 +137,6 @@ return [
     'stef_offer_contract' => 'Tipo de contrato publicado: CDI',
     'stef_offer_notice' => 'La oferta no confirma la aceptación de un permiso de conducir marroquí ni la obtención de autorización de trabajo o visado. Confirme directamente con la empresa los requisitos y la elegibilidad.',
     'stef_offer_button' => 'Ver esta oferta de STEF',
+    'spain_jobs_title' => 'Ofertas de empleo para conductores de camión en España',
+    'driver_family_sacrifice' => 'A veces no pudo asistir a celebraciones familiares ni a funerales, porque la carretera lo llamaba y llevaba consigo una carga, una responsabilidad y un deber profesional.',
 ];

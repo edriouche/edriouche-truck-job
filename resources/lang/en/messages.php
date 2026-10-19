@@ -91,4 +91,6 @@ return [
     'cap_warning_text2' => 'Always verify the centre through official sources and check the registration and training requirements before paying any money.',
     'cap_goal' => '🔎 Edriouche Truck Job',
     'cap_goal_text' => 'Our goal is to help Moroccan drivers access official information and avoid intermediaries and misleading offers.',
+    'spain_jobs_title' => 'Truck Driver Jobs in Spain',
+    'driver_family_sacrifice' => 'Sometimes he could not attend family celebrations or funerals because the road was calling, and he carried a load, a responsibility and a professional duty.',
 ];
