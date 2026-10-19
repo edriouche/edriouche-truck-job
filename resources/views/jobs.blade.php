@@ -282,6 +282,30 @@ $locale = app()->getLocale();
 <p style="font-size:14px;margin-bottom:0;">{{ $locale === "en" ? "Notice: a listing on ANAPEC does not guarantee a job contract, visa or recruitment." : ($locale === "es" ? "Aviso: una oferta publicada en ANAPEC no garantiza automáticamente un contrato, visado ni contratación." : ($locale === "fr" ? "Attention : une offre publiée par l’ANAPEC ne garantit pas automatiquement un contrat, un visa ou un recrutement." : "تنبيه: وجود عرض في ANAPEC لا يعني تلقائياً الحصول على عقد عمل أو تأشيرة أو توظيف.")) }}</p>
 </div>
 
+
+<!-- MOROCCO ANAPEC TRUCK OFFERS OCT 2026 -->
+@php($moroccoOffers = __('morocco_jobs.offers'))
+<div class="intro">
+    <h2>{{ __('morocco_jobs.title') }}</h2>
+    <p>{{ __('morocco_jobs.review') }}</p>
+    <p>{{ __('morocco_jobs.warning') }}</p>
+</div>
+@foreach ($moroccoOffers as $offer)
+<div class="job">
+    <span class="badge">{{ $offer[0] }}</span>
+    <h2>{{ $offer[1] }} — {{ __('morocco_jobs.reference') }} {{ $offer[2] }}</h2>
+    <p>{{ __('morocco_jobs.date') }}: {{ $offer[3] }}</p>
+    <p>👥 {{ $offer[4] }}</p>
+    @if (!empty($offer[5])) <p>{{ $offer[5] }}</p> @endif
+    @if (!empty($offer[6])) <p>{{ $offer[6] }}</p> @endif
+    @if (!empty($offer[7])) <p>{{ $offer[7] }}</p> @endif
+    <p>{{ __('morocco_jobs.salary') }}</p>
+    <p>{{ __('morocco_jobs.status') }}</p>
+    <a href="{{ $offer[array_key_last($offer)] }}" class="official" target="_blank" rel="noopener noreferrer">{{ __('morocco_jobs.source') }}</a>
+</div>
+@endforeach
+
+
 <!-- MOROCCO DIRECT COMPANIES -->
     <div class="intro">
         <h2>{{ __('messages.morocco_direct_title') }}</h2>
