@@ -51,33 +51,6 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 </nav>
     @include('partials.home-gallery')
 
-<section id="loyal-driver-meeting" style="margin:28px auto;padding:24px 16px;max-width:1100px;border:1px solid #d8e2e8;border-radius:16px;background:#f7fafc;color:#173042;">
-    <div style="text-align:center;margin-bottom:22px;">
-        <p style="margin:0 0 8px;font-weight:bold;color:#16704a;">Edriouche Truck Job | Driver Information</p>
-        <h2 style="margin:8px 0;">Information for Professional Drivers — LOYAL DRIVER Meeting</h2>
-        <p>During a visit to the LOYAL DRIVER institution, Mohammed Edriouche, founder of Edriouche Truck Job, met Anna and learned about this meeting. He is sharing the information with professional drivers through his platform. He is not organizing the meeting and is not participating in it. This information is intended for professional drivers.</p>
-    </div>
-    <div style="display:flex;flex-wrap:wrap;gap:14px;justify-content:center;">
-        <div style="box-sizing:border-box;flex:1 1 260px;padding:18px;border-radius:12px;background:#fff;border:1px solid #d8e2e8;">
-            <h3 style="margin-top:0;">📍 Marrakech</h3>
-            <p><strong>Date:</strong> October 23, 2026</p>
-            <p><strong>Venue:</strong> Al Harithi Hall</p>
-            <p><strong>Time:</strong> 16:00 (4:00 PM)</p>
-        </div>
-        <div style="box-sizing:border-box;flex:1 1 260px;padding:18px;border-radius:12px;background:#fff;border:1px solid #d8e2e8;">
-            <h3 style="margin-top:0;">📍 Casablanca</h3>
-            <p><strong>Date:</strong> October 24, 2026</p>
-            <p><strong>Venue:</strong> Aya Hall, Sidi Othman</p>
-            <p><strong>Time:</strong> 16:00 (4:00 PM)</p>
-        </div>
-    </div>
-    <div style="text-align:center;margin-top:18px;">
-        <p>This information is for professional drivers. Edriouche Truck Job shares the announcement; it does not organize the meeting.</p>
-        <a href="https://www.edriouchetruckjobs.ma" style="display:inline-block;margin-top:6px;padding:11px 20px;border-radius:8px;background:#176b4d;color:#fff;text-decoration:none;font-weight:bold;">www.edriouchetruckjobs.ma</a>
-    </div>
-</section>
-
-
 <section class="founder">
 <img src="/images/father.jpg" alt="In loving memory of Mohammed Edriouche's father">
 <div><h2>In Loving Memory of My Father</h2>
