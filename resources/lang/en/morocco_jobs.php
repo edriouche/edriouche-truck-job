@@ -30,6 +30,7 @@ return [
             '60 advertised positions | fixed-term CDD contract',
             '🚛 Category C and D licences according to the listing.',
             '📋 3–5 years of experience, mechanical knowledge and intermediate French.',
+            '',
             'https://www.wadifapublic.ma/ar/anapec/c4553596-cd20-4f2c-82b1-c09302f029a3'
         ],
         [
