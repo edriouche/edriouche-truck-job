@@ -10,6 +10,8 @@ Route::get('/', function () {
         : view('welcome', compact('galleryItems'));
 });
 
+Route::get('/canada-jobs', function () { return view('canada-jobs'); });
+
 Route::get('/driver-guide', function () {
     return match (app()->getLocale()) {
         'en' => view('driver-guide-en'),
