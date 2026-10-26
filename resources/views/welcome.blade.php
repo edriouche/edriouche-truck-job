@@ -411,6 +411,60 @@
     </div>
 </section>
 
+
+<section class="section loyal-drivers-announcement" dir="rtl" style="max-width:1000px;margin:25px auto;padding:24px;background:#f0f7ff;border:1px solid #cbdff2;border-radius:14px;line-height:1.9;">
+    @if(app()->getLocale() === 'es')
+        <h2 dir="ltr" style="text-align:center;color:#12304a;">📢 Anuncio de LOYAL DRIVERS 🚛🇪🇺</h2>
+    @elseif(app()->getLocale() === 'fr')
+        <h2 dir="ltr" style="text-align:center;color:#12304a;">📢 Annonce de LOYAL DRIVERS 🚛🇪🇺</h2>
+    @else
+        <h2 dir="rtl" style="text-align:center;color:#12304a;">📢 إعلان صادر عن LOYAL DRIVERS 🚛🇪🇺</h2>
+    @endif
+    @if(app()->getLocale() === 'es')
+        <p>Hola a todos los conductores:</p>
+        <p>Para todos los conductores interesados en oportunidades de trabajo con empresas europeas, por favor, enviadnos los siguientes documentos e información:</p>
+        <p>✅ <strong>1. CV en inglés</strong>, actualizado e incluyendo toda vuestra información y experiencia profesional.</p>
+        <p>✅ <strong>2. Un vídeo breve de presentación</strong>, en el que cada persona se presente en inglés e indique:</p>
+        <ul><li>Nombre completo y edad.</li><li>Años de experiencia en conducción profesional.</li><li>Tipos de camiones conducidos (C o CE).</li><li>Países en los que ha trabajado, si tiene experiencia internacional.</li><li>Nivel de inglés.</li></ul>
+        <p>📌 El vídeo debe ser claro y breve (de uno a dos minutos), con voz clara y una presentación profesional.</p>
+        <p>📩 Enviad el CV y el vídeo directamente por WhatsApp.</p>
+        <p>Esta información ayudará a LOYAL DRIVERS a conocer mejor vuestro perfil y presentar vuestras candidaturas a empresas europeas según vuestra experiencia y cualificaciones.</p>
+        <p><strong>Importante:</strong> todos deben enviar el CV y el vídeo. Incluso quienes ya enviaron el CV deben enviar también el vídeo.</p>
+        <p>Gracias por vuestra colaboración y confianza en <strong>LOYAL DRIVERS</strong>. 🚛🇪🇺</p>
+    @elseif(app()->getLocale() === 'fr')
+        <p>Bonjour à tous les conducteurs,</p>
+        <p>Pour tous ceux qui s’intéressent aux opportunités d’emploi auprès d’entreprises européennes, veuillez nous envoyer les documents et informations suivants :</p>
+        <p>✅ <strong>1. Un CV en anglais</strong>, à jour et contenant toutes vos informations et votre expérience professionnelle.</p>
+        <p>✅ <strong>2. Une courte vidéo de présentation</strong>, dans laquelle chacun se présente en anglais et indique :</p>
+        <ul><li>Nom complet et âge.</li><li>Nombre d’années d’expérience en conduite professionnelle.</li><li>Types de camions conduits (C ou CE).</li><li>Pays dans lesquels vous avez travaillé, si vous avez une expérience internationale.</li><li>Niveau d’anglais.</li></ul>
+        <p>📌 La vidéo doit être claire et courte (une à deux minutes), avec une voix audible et une présentation professionnelle.</p>
+        <p>📩 Envoyez directement le CV et la vidéo par WhatsApp.</p>
+        <p>Ces informations aideront LOYAL DRIVERS à mieux connaître votre profil et à présenter vos candidatures aux entreprises européennes selon vos qualifications et votre expérience.</p>
+        <p><strong>Important :</strong> tout le monde doit envoyer son CV et sa vidéo. Même si vous avez déjà envoyé votre CV, vous devez également envoyer la vidéo.</p>
+        <p>Merci pour votre coopération et votre confiance en <strong>LOYAL DRIVERS</strong>. 🚛🇪🇺</p>
+    @else
+        <p>السلام عليكم الإخوان،</p>
+        <p>بالنسبة لجميع السائقين المهتمين بفرص العمل مع الشركات الأوروبية، المرجو منكم تصيفطو لينا هاد الوثائق والمعلومات:</p>
+        <p>✅ <strong>1. CV باللغة الإنجليزية</strong>، يكون محدّث وفيه جميع المعلومات ديالكم والتجربة المهنية ديالكم.</p>
+        <p>✅ <strong>2. فيديو تقديمي قصير</strong>، كل واحد يصوّر راسو بالفيديو ويقدّم فيه راسو باللغة الإنجليزية، ويذكر:</p>
+        <ul><li>الاسم الكامل والسن.</li><li>شحال من عام ديال التجربة فالسياقة المهنية.</li><li>أنواع الشاحنات اللي سبق ليه خدم بها (C أو CE).</li><li>البلدان اللي سبق ليه خدم فيها، إلا كانت عندو تجربة دولية.</li><li>المستوى ديالو فاللغة الإنجليزية.</li></ul>
+        <p>📌 المرجو يكون الفيديو واضح، قصير (من دقيقة حتى لجوج دقايق)، وتكونو كتهضرو بصوت واضح وبطريقة مهنية.</p>
+        <p>📩 صيفطو لينا الـ CV والفيديو مباشرة فـ WhatsApp.</p>
+        <p>هاد المعلومات غادي تعاوننا نتعرفو عليكم مزيان ونقدمو ملفاتكم للشركات الأوروبية حسب المؤهلات والتجربة ديال كل واحد.</p>
+        <p><strong>مهم:</strong> المرجو من الجميع يرسل الـ CV والفيديو، حتى اللي سبق ليه صيفط الـ CV، خاصو يصيفط الفيديو حتى هو.</p>
+        <p>شكراً على تعاونكم وثقتكم في <strong>LOYAL DRIVERS</strong>. 🚛🇪🇺</p>
+    @endif
+    @if(app()->getLocale() === 'es')
+        <p dir="ltr" style="font-size:0.9em;color:#475569;">Nota: este anuncio procede de LOYAL DRIVERS. Contactad directamente con ellos para confirmar el número de WhatsApp y cómo enviar los documentos.</p>
+    @elseif(app()->getLocale() === 'fr')
+        <p dir="ltr" style="font-size:0.9em;color:#475569;">Remarque : cette annonce provient de LOYAL DRIVERS. Contactez-les directement pour confirmer le numéro WhatsApp et les modalités d’envoi des documents.</p>
+    @elseif(app()->getLocale() === 'en')
+        <p dir="ltr" style="font-size:0.9em;color:#475569;">Note: this announcement is from LOYAL DRIVERS. Contact them directly to confirm the WhatsApp number and document-submission instructions.</p>
+    @else
+        <p dir="rtl" style="font-size:0.9em;color:#475569;">ملاحظة: الإعلان صادر عن LOYAL DRIVERS. يُرجى التواصل معهم مباشرة لمعرفة طريقة إرسال الوثائق ورقم WhatsApp المعتمد.</p>
+    @endif
+</section>
+
     @include('partials.home-gallery')
 
 <section class="section" style="padding-top:10px;">

@@ -49,6 +49,22 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 <a href="/cap-code95-spain">CAP / Code 95 Information</a>
 <a href="/for-companies">For Transport Companies</a>
 </nav>
+
+<section class="loyal-drivers-announcement" style="max-width:1000px;margin:25px auto;padding:24px;background:#f0f7ff;border:1px solid #cbdff2;border-radius:14px;line-height:1.9;">
+<h2 style="text-align:center;color:#12304a;">📢 Announcement from LOYAL DRIVERS 🚛🇪🇺</h2>
+<p>Hello, drivers!</p>
+<p>For all drivers interested in job opportunities with European companies, please send us the following documents and information:</p>
+<p>✅ <strong>1. An up-to-date CV in English</strong>, including all your information and professional experience.</p>
+<p>✅ <strong>2. A short introduction video</strong>, in which you introduce yourself in English and mention:</p>
+<ul><li>Full name and age.</li><li>Years of professional driving experience.</li><li>Types of trucks driven (C or CE).</li><li>Countries where you have worked, if you have international experience.</li><li>Your English-language level.</li></ul>
+<p>📌 Please make the video clear and short (one to two minutes), speaking clearly and professionally.</p>
+<p>📩 Send your CV and video directly via WhatsApp.</p>
+<p>This information will help LOYAL DRIVERS learn more about your profile and present your applications to European companies according to your qualifications and experience.</p>
+<p><strong>Important:</strong> everyone should send both the CV and the video. If you have already sent your CV, you must still send the video.</p>
+<p>Thank you for your cooperation and trust in <strong>LOYAL DRIVERS</strong>. 🚛🇪🇺</p>
+<p style="font-size:0.9em;color:#475569;">Note: This announcement is from LOYAL DRIVERS. Contact them directly for the approved WhatsApp number and submission instructions.</p>
+</section>
+
     @include('partials.home-gallery')
 
 <section class="founder">
