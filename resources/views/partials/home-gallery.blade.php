@@ -139,17 +139,7 @@ $emptyCaption = match ($locale) {
         @endif
     </p>
 
-    @unless(auth()->check() && auth()->user()->is_admin)
-        <div style="text-align:center;margin:0 0 22px;">
-            <a href="{{ route('login') }}" style="display:inline-block;background:#0b3a68;color:#fff;padding:10px 18px;border-radius:9px;font-weight:700;text-decoration:none;">
-                @if($locale === 'en') 🔐 Admin login
-                @elseif($locale === 'es') 🔐 Acceso de administración
-                @elseif($locale === 'fr') 🔐 Connexion administrateur
-                @else 🔐 دخول إدارة المعرض
-                @endif
-            </a>
-        </div>
-    @endunless
+
 
     @if(auth()->check() && auth()->user()->is_admin)
         <div class="home-gallery-admin">
