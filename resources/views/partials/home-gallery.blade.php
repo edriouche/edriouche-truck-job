@@ -142,6 +142,15 @@ $emptyCaption = match ($locale) {
 
 
     @if(auth()->check() && auth()->user()->is_admin)
+        <div style="text-align:center;margin:0 0 18px;">
+            <a href="{{ route('gallery') }}" style="display:inline-block;background:#0b3a68;color:#fff;padding:10px 18px;border-radius:9px;font-weight:700;text-decoration:none;">
+                @if($locale === 'en') 🔐 Manage photo gallery
+                @elseif($locale === 'es') 🔐 Administrar la galería
+                @elseif($locale === 'fr') 🔐 Gérer la galerie photos
+                @else 🔐 إدارة معرض الصور
+                @endif
+            </a>
+        </div>
         <div class="home-gallery-admin">
             <h3>
                 @if($locale === 'en') Manage gallery
