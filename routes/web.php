@@ -195,3 +195,5 @@ Route::post('/for-companies/request', function (Request $request) {
 })->name('company.request');
 
 Route::view('/youth-drivers-morocco', 'youth-drivers-morocco');
+
+Route::get('training', function () { return view('training'); });
