@@ -1,75 +1,86 @@
 @php $locale = app()->getLocale(); @endphp
-<div class="container py-4" dir="{{ $locale == 'ar' ? 'rtl' : 'ltr' }}">
+<div class="container py-4" dir="{{ $locale == 'ar' ? 'rtl' : 'ltr' }}" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;">
 
-    <!-- هيدر الصفحة بخط واضح وكبير -->
-    <div class="text-center mb-4 p-4 rounded-4 bg-primary text-white shadow">
-        <h1 class="fw-bold mb-3 fs-3">
-            @if($locale == 'es') 🎓 Academia del Conductor Profesional
-            @elseif($locale == 'fr') 🎓 Académie du Chauffeur Professionnel
-            @elseif($locale == 'en') 🎓 Professional Driver Academy
-            @else 🎓 أكاديمية السائق المهني وتطوير المهارات
-            @endif
+    <!-- هيدر الصفحة -->
+    <div class="text-center mb-4 p-4 rounded-4 bg-primary text-white shadow-sm">
+        <h1 class="fw-bold mb-3 fs-2" style="line-height: 1.4;">
+            🎓 أكاديمية السائق المهني وتطوير المهارات
         </h1>
-        <p class="mb-0 fs-6 opacity-90">
-            @if($locale == 'es') Guía práctica y seguridad vial para conductores profesionales.
-            @elseif($locale == 'fr') Guide pratique et sécurité routière pour chauffeurs professionnels.
-            @elseif($locale == 'en') Practical guide and road safety for professional drivers.
-            @else دليل عملي، بصري، ومبسط لتعزيز السلامة، الاقتصاد في الوقود، والتحكم في الشاحنة والمقطورة.
-            @endif
+        <p class="mb-0 fs-5 opacity-90" style="line-height: 1.6;">
+            دليل عملي، بصري، ومبسط لتعزيز السلامة، الاقتصاد في الوقود، والتحكم في الشاحنة والمقطورة.
         </p>
     </div>
 
-    <!-- الرسوم البصرية التوضيحية (Infographic) -->
-    <div class="row mb-5">
-        <div class="col-12">
-            <div class="card shadow border-0 rounded-4 overflow-hidden p-3 bg-white text-center">
-                <img src="{{ asset('images/blind-spots-checklist-infographic.svg') }}" 
-                     alt="دليل السائق المهني: النقاط العمياء وقائمة الفحص" 
-                     class="img-fluid rounded-4 mx-auto" 
-                     style="max-height: 500px; width: auto; object-fit: contain;">
-                <p class="text-muted small mt-2 mb-0">💡 رسم توضيحي احترافي للنقاط العمياء وحطوات الفحص اليومي (SVG).</p>
-            </div>
+    <!-- الرسم البصري المباشر (Inline SVG) -->
+    <div class="card shadow border-0 rounded-4 p-3 mb-4 bg-white text-center">
+        <h3 class="text-dark fw-bold fs-4 mb-3">⚠️ رسم توضيحي: النقاط العمياء وقائمة الفحص اليومي</h3>
+        
+        <div class="table-responsive">
+            <svg viewBox="0 0 800 400" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg" style="max-width: 750px; margin: 0 auto; display: block;">
+                <rect x="10" y="10" width="780" height="380" rx="15" fill="#f8f9fa" stroke="#dee2e6" stroke-width="2"/>
+                
+                <!-- الشاحنة -->
+                <rect x="340" y="150" width="120" height="90" rx="8" fill="#0d6efd"/>
+                <rect x="420" y="160" width="35" height="70" rx="4" fill="#6c757d"/>
+                <rect x="140" y="140" width="190" height="110" rx="6" fill="#343a40"/>
+                
+                <!-- المناطق العمياء -->
+                <polygon points="460,150 560,110 560,290 460,240" fill="#dc3545" opacity="0.35"/>
+                <text x="480" y="205" fill="#dc3545" font-size="16" font-weight="bold">منطقة عمياء أمامية</text>
+                
+                <polygon points="140,140 40,100 40,300 140,250" fill="#dc3545" opacity="0.35"/>
+                <text x="50" y="205" fill="#dc3545" font-size="16" font-weight="bold">منطقة عمياء خلفية</text>
+                
+                <polygon points="340,140 440,50 200,50 140,140" fill="#dc3545" opacity="0.35"/>
+                <text x="250" y="100" fill="#dc3545" font-size="15" font-weight="bold">منطقة عمياء جانبية</text>
+
+                <polygon points="340,240 440,330 200,330 140,240" fill="#dc3545" opacity="0.35"/>
+                <text x="250" y="300" fill="#dc3545" font-size="15" font-weight="bold">منطقة عمياء جانبية</text>
+
+                <polygon points="430,160 500,70 440,50" fill="#198754" opacity="0.4"/>
+                <polygon points="430,230 500,320 440,330" fill="#198754" opacity="0.4"/>
+            </svg>
         </div>
+        <p class="text-muted fs-6 mt-3 mb-0">💡 المناطق باللون الأحمر هي نقاط عمياء يصعب على السائق رؤيتها بالمرايا مباشرة.</p>
     </div>
 
-    <!-- الأقسام التعليمية في بطاقات واضحة ومتباعدة -->
+    <!-- البطاقات التعليمية -->
     <div class="row g-4">
-        
-        <!-- 1. السياقة الدفاعية -->
-        <div class="col-12 col-lg-6">
-            <div class="card h-100 shadow-sm border-0 rounded-4 p-4 bg-white">
-                <h3 class="text-primary fw-bold fs-4 mb-3">🛡️ 1. السياقة الدفاعية (Conducción Defensiva)</h3>
-                <p class="text-dark fs-6">توقع المخاطر وعدم افتراض أن مستعملي الطريق الآخرين سيتصرفون بالشكل الصحيح.</p>
-                <ul class="text-secondary fs-6 ps-3">
-                    <li class="mb-2">الحفاظ على مسافة أمان كافية مع المركبة الأمامية.</li>
-                    <li class="mb-2">تكييف السرعة حسب الحمولة، الطقس، وحالة الطريق.</li>
-                    <li class="mb-2">مراقبة المرايا والنقاط العمياء باستمرار قبل أي مناورة.</li>
-                    <li>تجنب القيادة أثناء التعب أو التشتت.</li>
+        <div class="col-12">
+            <div class="card shadow-sm border-0 rounded-4 p-4 bg-white">
+                <h2 class="text-primary fw-bold fs-3 mb-3">🛡️ 1. السياقة الدفاعية (Conducción Defensiva)</h2>
+                <p class="text-dark fs-5 fw-medium mb-3" style="line-height: 1.7;">
+                    السياقة الدفاعية تعني توقع المخاطر وعدم افتراض أن مستعملي الطريق الآخرين سيتصرفون دائمًا بالشكل الصحيح.
+                </p>
+                <ul class="text-secondary fs-5 lh-lg ps-3 mb-0">
+                    <li class="mb-2"><strong class="text-dark">مسافة الأمان:</strong> الحفاظ على مسافة أمان مناسبة كافية للتوقف المفاجئ.</li>
+                    <li class="mb-2"><strong class="text-dark">السرعة:</strong> تكييف السرعة مع الحمولة، حالة الطريق، المرور، والطقس.</li>
+                    <li class="mb-2"><strong class="text-dark">المراقبة:</strong> مراقبة المرايا والنقاط العمياء باستمرار قبل أي انعطاف أو تغيير للمسار.</li>
+                    <li><strong class="text-dark">الانتباه:</strong> عدم القيادة مع التعب، النعاس، أو التشتت مع توقع أخطاء الآخرين.</li>
                 </ul>
             </div>
         </div>
 
-        <!-- 2. السياقة الاقتصادية -->
-        <div class="col-12 col-lg-6">
-            <div class="card h-100 shadow-sm border-0 rounded-4 p-4 bg-white">
-                <h3 class="text-primary fw-bold fs-4 mb-3">⛽ 2. السياقة الاقتصادية (Conducción Eficiente)</h3>
-                <p class="text-dark fs-6">تقليل استهلاك الوقود وتآكل الشاحنة دون التأثير على السلامة.</p>
-                <ul class="text-secondary fs-6 ps-3">
-                    <li class="mb-2">التسارع بشكل تدريجي وتجنب الضغط المفاجئ على الوقود.</li>
-                    <li class="mb-2">الحفاظ على سرعة مستقرة واستخدام نظام التباطؤ (Retardeur).</li>
-                    <li>فحص ضغط الإطارات بانتظام لتقليل استهلاك الوقود.</li>
+        <div class="col-12">
+            <div class="card shadow-sm border-0 rounded-4 p-4 bg-white">
+                <h2 class="text-primary fw-bold fs-3 mb-3">⛽ 2. السياقة الاقتصادية (Conducción Eficiente)</h2>
+                <p class="text-dark fs-5 fw-medium mb-3" style="line-height: 1.7;">
+                    تهدف إلى تقليل استهلاك الوقود وتآكل الشاحنة والمكونات الميكانيكية دون التضحية بالسلامة.
+                </p>
+                <ul class="text-secondary fs-5 lh-lg ps-3 mb-0">
+                    <li class="mb-2"><strong class="text-dark">التسارع:</strong> التسارع تدريجيًا وتجنب الضغط المفاجئ على دواسة الوقود.</li>
+                    <li class="mb-2"><strong class="text-dark">أنظمة التباطؤ:</strong> استعمال السرعات وأنظمة التباطؤ (Retardeur) بطريقة صحيحة في المنحدرات.</li>
+                    <li><strong class="text-dark">الصيانة الإطارات:</strong> فحص ضغط الإطارات والصيانة الدورية لتقليل الاحتكاك واستهلاك الوقود.</li>
                 </ul>
             </div>
         </div>
 
-        <!-- 3. مراكز التكوين المهني -->
-        <div class="col-12 col-lg-12">
+        <div class="col-12">
             <div class="card shadow-sm border-0 rounded-4 p-4 bg-light">
-                <h3 class="text-primary fw-bold fs-4 mb-3">🏫 مراكز وتكوينات السائقين المهنيين بالمغرب</h3>
-                <p class="text-dark fs-6">معلومات عن مؤسسات التكوين والإدماج (OFPPT, JEB Training Center, ALSA, Toogo + EFE-Maroc).</p>
-                <p class="text-muted small mb-0">⚠️ تحقق دائماً من الشروط والمقاعد المتاحة مباشرة مع المؤسسات قبل التنقل.</p>
+                <h2 class="text-primary fw-bold fs-3 mb-3">🏫 مراكز وتكوينات السائقين المهنيين بالمغرب</h2>
+                <p class="text-dark fs-5 mb-2">تكوينات وإدماج السائقين المبتدئين والمهنيين (OFPPT, JEB Training Center, ALSA, Toogo + EFE-Maroc).</p>
+                <p class="text-danger fw-bold fs-6 mb-0">⚠️ تحقق دائماً من الشروط والمقاعد المتاحة مباشرة مع المؤسسات قبل التنقل.</p>
             </div>
         </div>
-
     </div>
 </div>
