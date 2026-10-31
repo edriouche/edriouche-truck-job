@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Truck driving jobs and training information for Moroccan drivers seeking opportunities in Morocco and Europe.">
+<title>Edriouche Truck Job | Driver Jobs & Training</title>
+<style>
+body{font-family:Arial,sans-serif;line-height:1.7;margin:0;background:#f4f7fa;color:#17212b}
+header,main,footer{max-width:900px;margin:auto;padding:22px}
+.hero-truck{width:100%;max-height:300px;object-fit:cover;border-radius:12px;margin-top:12px}
+.founder{display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin:24px 0}
+.founder img{width:150px;height:150px;object-fit:cover;border-radius:50%}
+.truck-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:24px 0}
+.truck-gallery img{width:100%;height:150px;object-fit:cover;border-radius:10px}
+header{background:#12304a;color:white;max-width:none;text-align:center}
+main{background:white;margin-top:20px;border-radius:12px}
+nav{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:22px 0}
+a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8px;text-decoration:none}
+.notice{background:#fff5d9;padding:14px;border-radius:8px}
+.languages{text-align:center;padding:14px}
+.languages a{margin:6px}
+</style>
+</head>
+<body>
+<header>
+<h1>🚛 Edriouche Truck Job</h1>
+<p>Connecting Moroccan truck drivers with job and training opportunities.</p>
+
+</header>
+<main>
+<div class="languages">
+<a href="/lang/ar?redirect=%2F">🇲🇦 العربية</a> |
+<a href="/lang/es?redirect=%2F">🇪🇸 Español</a> |
+<a href="/lang/fr?redirect=%2F">🇫🇷 Français</a> |
+<strong>🇬🇧 English</strong>
+</div>
+<section class="founder">
+<img src="/images/founder.jpg?v=2" alt="Mohammed Edriouche, founder of Edriouche Truck Job">
+<div><h2>Created by a professional driver</h2><p>Built to share reliable information and help truck drivers access lawful opportunities.</p></div>
+</section>
+<h2>Explore jobs, training and driver resources</h2>
+<p>Find information about transport companies, professional training and opportunities for truck drivers in Morocco and Europe.</p>
+<nav>
+<a href="/jobs">Jobs in Morocco</a>
+<a href="/spain-companies">Transport Companies in Spain</a>
+<a href="/spain-jobs">Jobs in Spain</a>
+<a href="/youth-drivers-morocco">Young Drivers in Morocco</a>
+<a href="/cap-code95-spain">CAP / Code 95 Information</a>
+<a href="/for-companies">For Transport Companies</a>
+</nav>
+    @include('partials.home-gallery')
+
+<section id="loyal-driver-meeting" style="margin:28px auto;padding:24px 16px;max-width:1100px;border:1px solid #d8e2e8;border-radius:16px;background:#f7fafc;color:#173042;">
+    <div style="text-align:center;margin-bottom:22px;">
+        <p style="margin:0 0 8px;font-weight:bold;color:#16704a;">Edriouche Truck Job | Driver Information</p>
+        <h2 style="margin:8px 0;">Information for Professional Drivers — LOYAL DRIVER Meeting</h2>
+        <p>During a visit to the LOYAL DRIVER institution, Mohammed Edriouche, founder of Edriouche Truck Job, met Anna and learned about this meeting. He is sharing the information with professional drivers through his platform. He is not organizing the meeting and is not participating in it. This information is intended for professional drivers.</p>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:14px;justify-content:center;">
+        <div style="box-sizing:border-box;flex:1 1 260px;padding:18px;border-radius:12px;background:#fff;border:1px solid #d8e2e8;">
+            <h3 style="margin-top:0;">📍 Marrakech</h3>
+            <p><strong>Date:</strong> October 23, 2026</p>
+            <p><strong>Venue:</strong> Al Harithi Hall</p>
+            <p><strong>Time:</strong> 16:00 (4:00 PM)</p>
+        </div>
+        <div style="box-sizing:border-box;flex:1 1 260px;padding:18px;border-radius:12px;background:#fff;border:1px solid #d8e2e8;">
+            <h3 style="margin-top:0;">📍 Casablanca</h3>
+            <p><strong>Date:</strong> October 24, 2026</p>
+            <p><strong>Venue:</strong> Aya Hall, Sidi Othman</p>
+            <p><strong>Time:</strong> 16:00 (4:00 PM)</p>
+        </div>
+    </div>
+    <div style="text-align:center;margin-top:18px;">
+        <p>This information is for professional drivers. Edriouche Truck Job shares the announcement; it does not organize the meeting.</p>
+        <a href="https://www.edriouchetruckjobs.ma" style="display:inline-block;margin-top:6px;padding:11px 20px;border-radius:8px;background:#176b4d;color:#fff;text-decoration:none;font-weight:bold;">www.edriouchetruckjobs.ma</a>
+    </div>
+</section>
+
+
+<section class="founder">
+<img src="/images/father.jpg" alt="In loving memory of Mohammed Edriouche's father">
+<div><h2>In Loving Memory of My Father</h2>
+<p>My father was one of the veteran drivers who transported fuel and gas. He was my first teacher in this profession, and his dedication continues to inspire my journey.</p></div>
+</section>
+
+<div class="notice">
+<strong>Important:</strong> This website provides information. A company listing does not confirm a vacancy, and we do not guarantee employment, visas or work permits. Verify offers directly with official companies and authorities. Do not pay intermediaries for promises of a job or visa.
+</div>
+<p>Our goal is to help drivers access useful information and to encourage safe, lawful and transparent recruitment.</p>
+</main>
+<footer><p style="text-align:center">Edriouche Truck Job · Information and opportunities for professional drivers</p></footer>
+</body>
+</html>

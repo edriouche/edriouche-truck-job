@@ -47,6 +47,7 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 <a href="/spain-jobs">Jobs in Spain</a>
 <a href="/canada-jobs">🇨🇦 Truck Driver Jobs in Canada</a>
 <a href="/youth-drivers-morocco">Young Drivers in Morocco</a>
+<a href="/training">🎓 Professional Driver Academy</a>
 <a href="/cap-code95-spain">CAP / Code 95 Information</a>
 <a href="/for-companies">For Transport Companies</a>
 </nav>

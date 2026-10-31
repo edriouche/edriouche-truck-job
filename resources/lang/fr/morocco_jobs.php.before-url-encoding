@@ -1,0 +1,80 @@
+<?php
+
+return [
+    'reference' => 'référence',
+    'title' => '🇲🇦 Offres ANAPEC pour conducteurs de poids lourds — octobre 2026',
+    'review' => 'Liens vérifiés le 19 octobre 2026. Il s’agit d’annonces publiées sur des sites regroupant des offres d’emploi ; cela ne confirme pas que les postes sont toujours vacants. Vérifiez la référence auprès de l’ANAPEC avant de postuler.',
+    'warning' => '⚠️ Postulez par les canaux officiels. Ne payez aucun intermédiaire en échange d’une promesse d’embauche.',
+    'date' => '📅 Date de l’annonce',
+    'positions' => 'postes annoncés',
+    'salary' => '💰 Salaire non précisé.',
+    'status' => '🟡 Statut : la disponibilité actuelle n’est pas confirmée. Vérifiez auprès de l’ANAPEC si les candidatures sont toujours ouvertes et quelles sont les conditions.',
+    'source' => 'Détails et source de l’offre',
+    'offers' => [
+        [
+            'Casablanca — Anfa',
+            'Conducteur de poids lourd',
+            'ANAPEC-1171270',
+            '22 septembre 2026',
+            '1 poste | CDI',
+            '🚛 Permis C obligatoire.',
+            '📋 1 à 2 ans d’expérience et niveau baccalauréat selon l’annonce.',
+            '♻️ Collecte et transport des déchets ; respect des règles de sécurité et de qualité.',
+            'https://www.wadifapublic.ma/fr/anapec/258c45cd-dc21-4c0d-9de3-ee64a3bdaed0'
+        ],
+        [
+            'Casablanca — Aïn Sebaâ, Hay Mohammadi',
+            'Conducteur de camion de marchandises',
+            'AI1108261157690',
+            '11 août 2026',
+            '60 postes annoncés | CDD',
+            '🚛 Permis C et D selon l’annonce.',
+            '📋 3 à 5 ans d’expérience, connaissances en mécanique et français de niveau intermédiaire.',
+            'https://www.wadifapublic.ma/ar/anapec/c4553596-cd20-4f2c-82b1-c09302f029a3'
+        ],
+        [
+            'Agadir',
+            'Conducteur de camion de livraison',
+            'AG2408261159822',
+            '24 août 2026',
+            '2 postes annoncés | CDI',
+            '🚛 Formation professionnelle qualifiante en transport de marchandises demandée.',
+            '📋 Transport et livraison de marchandises, contrôle du véhicule. Arabe requis et français intermédiaire.',
+            '',
+            'https://www.wadifapublic.ma/fr/anapec/6c0da2a1-c403-4648-8e3a-9abf31d38a82'
+        ],
+        [
+            'Taourirt',
+            'Conducteur de camion',
+            'TA2809261176177',
+            '28 septembre 2026',
+            '2 postes annoncés | contrat d’insertion CI',
+            '🚛 Permis B et C ; notions de base en mécanique.',
+            '⚠️ Âge requis : moins de 40 ans.',
+            '',
+            'https://www.wadifapublic.ma/fr/anapec/05abab58-2f3d-47f3-a835-d24508ad9e19'
+        ],
+        [
+            'Guercif',
+            'Conducteur de camion',
+            'GU2509261175241',
+            '25 septembre 2026',
+            '2 postes annoncés | contrat d’insertion CI',
+            '🚛 Permis B et C et connaissances en mécanique ; les débutants seraient acceptés selon l’annonce.',
+            '⚠️ Vérifiez auprès de l’ANAPEC les conditions d’âge et de qualification avant de postuler.',
+            '',
+            'https://www.wadifapublic.ma/ar/anapec/70536447-1472-4fb0-9620-eab60f92e5d3'
+        ],
+        [
+            'Berkane',
+            'Conducteur de camion de marchandises',
+            'BE2509261175271',
+            '25 septembre 2026',
+            '3 postes annoncés | contrat d’insertion CI',
+            '🚛 Vérifiez auprès de l’ANAPEC le permis et la qualification requis.',
+            '⚠️ L’annonce publiée indique un âge inférieur à 40 ans.',
+            '',
+            'https://www.wadifa-info.com/عرض-عمل-انابيك/11824/سائق-شاحنة-لنقل-البضائع'
+        ]
+    ]
+];

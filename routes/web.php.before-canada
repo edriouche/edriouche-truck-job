@@ -1,0 +1,195 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', function () {
+    $galleryItems = \App\Models\GalleryItem::latest()->take(6)->get();
+
+    return app()->getLocale() === 'en'
+        ? view('welcome-en', compact('galleryItems'))
+        : view('welcome', compact('galleryItems'));
+});
+
+Route::get('/driver-guide', function () {
+    return match (app()->getLocale()) {
+        'en' => view('driver-guide-en'),
+        'es' => view('driver-guide-es'),
+        'fr' => view('driver-guide-fr'),
+        default => view('driver-guide-ar'),
+    };
+});
+
+
+Route::get('/jobs', function () { return view('jobs'); });
+Route::get('/companies', function () {
+    if (app()->getLocale() === 'en') {
+        return view('companies-en');
+    }
+    return view('companies');
+});
+
+Route::get('/cmr', function () { return view('cmr'); });
+Route::get('/training', [\App\Http\Controllers\TrainingController::class, 'index']);
+
+Route::get('/spain', function () {
+    return view('spain');
+});
+
+Route::get('/cap', function () {
+    return view('cap');
+});
+
+Route::get('/spain-companies', function () {
+    return view('spain-companies');
+});
+
+Route::get('/cv-builder', function () {
+    return view('cv-builder');
+});
+
+Route::get('/truck-checklist', function () {
+    return view('truck-checklist');
+});
+
+Route::get('/driver-documents', function () {
+    return view('driver-documents');
+});
+
+Route::get('/europe-documents', function () {
+    return view('europe-documents');
+});
+
+Route::get('/europe-rules', function () {
+    return match (app()->getLocale()) {
+        'en' => view('europe-rules-en'),
+        'es' => view('europe-rules-es'),
+        'fr' => view('europe-rules-fr'),
+        default => view('europe-rules'),
+    };
+});
+
+Route::view('/europe-rules-es', 'europe-rules-es');
+Route::view('/europe-rules-fr', 'europe-rules-fr');
+
+Route::get('/tachograph-guide', function () {
+    return view('tachograph-guide');
+});
+
+Route::get('/spain-law', function () {
+    return match (app()->getLocale()) {
+        'es' => view('spain-law-es'),
+        'fr' => view('spain-law-fr'),
+        default => view('spain-law'),
+    };
+});
+
+Route::get('/spain-jobs', function () {
+    return app()->getLocale() === 'en'
+        ? view('spain-jobs-en')
+        : view('spain-jobs');
+});
+
+Route::get('/training-centers', function () {
+    return view('training-centers');
+});
+
+Route::get('/lang/{locale}', function ($locale) {
+    if (in_array($locale, ['ar', 'es', 'fr', 'en'])) {
+        session(['locale' => $locale]);
+        app()->setLocale($locale);
+        cookie()->queue('locale', $locale, 60 * 24 * 365);
+    }
+
+    $target = (string) request()->query('redirect', '/');
+    if (!str_starts_with($target, '/') || str_starts_with($target, '//')) {
+        $target = '/' . ltrim($target, '/');
+    }
+    if (str_starts_with($target, '//')) {
+        $target = '/';
+    }
+    return redirect($target);
+});
+Route::view('/cmr-es', 'cmr-es');
+Route::view('/cmr-fr', 'cmr-fr');
+
+Route::view('/spain-law-es', 'spain-law-es');
+Route::view('/spain-law-fr', 'spain-law-fr');
+
+Route::get('/morocco-transport-training', function () {
+    return match (app()->getLocale()) {
+        'es' => view('morocco-transport-training-es'),
+        'fr' => view('morocco-transport-training-fr'),
+        default => view('morocco-transport-training'),
+    };
+});
+
+
+
+Route::get('/gallery', [\App\Http\Controllers\GalleryController::class, 'index'])->name('gallery');
+Route::get('/gallery-media/{galleryItem}', [\App\Http\Controllers\GalleryController::class, 'media'])->name('gallery.media');
+
+Route::post('/gallery', [\App\Http\Controllers\GalleryController::class, 'store'])->middleware(['auth', 'admin'])->name('gallery.store');
+Route::delete('/gallery/{galleryItem}', [\App\Http\Controllers\GalleryController::class, 'destroy'])->middleware(['auth', 'admin'])->name('gallery.destroy');
+Route::post('/gallery/{galleryItem}/caption', [\App\Http\Controllers\GalleryController::class, 'updateCaption'])->middleware(['auth', 'admin'])->name('gallery.caption');
+
+Route::get('/gallery/login', [\App\Http\Controllers\GalleryAuthController::class, 'login'])->name('login');
+Route::post('/gallery/login', [\App\Http\Controllers\GalleryAuthController::class, 'authenticate'])->name('gallery.authenticate');
+Route::post('/gallery/logout', [\App\Http\Controllers\GalleryAuthController::class, 'logout'])->name('gallery.logout');
+
+Route::view('/constat-amiable', 'constat-amiable');
+
+Route::get('/cap-code95-spain', function () { return match(app()->getLocale()) { 'en' => view('cap-code95-spain-en'), 'es' => view('cap-code95-spain-es'), 'fr' => view('cap-code95-spain-fr'), default => view('cap-code95-spain'), }; });
+
+Route::view('/professional-driver-card', 'professional-driver-card');
+Route::view('open-letter', 'open-letter');
+
+Route::view('/for-companies', 'for-companies');
+
+Route::get('/admin/company-requests', function () {
+    $requests = \App\Models\CompanyAdvertisingRequest::latest()->get();
+    return view('admin.company-requests', compact('requests'));
+})->middleware('admin');
+
+
+Route::put('/admin/company-requests/{id}', function (\Illuminate\Http\Request $request, $id) {
+    $data = $request->validate([
+        'advertising_price' => 'required|numeric|min:0',
+        'amount_paid' => 'required|numeric|min:0',
+        'payment_status' => 'required|in:unpaid,partial,paid',
+        'status' => 'required|in:pending,approved,rejected,completed',
+        'ad_start_date' => 'nullable|date',
+        'ad_end_date' => 'nullable|date|after_or_equal:ad_start_date',
+        'admin_notes' => 'nullable|string|max:5000',
+    ]);
+
+    if ((float) $data['amount_paid'] > (float) $data['advertising_price']) {
+        return back()->withErrors([
+            'amount_paid' => 'المبلغ المدفوع لا يمكن أن يكون أكبر من ثمن الإعلان.'
+        ])->withInput();
+    }
+
+    $companyRequest = \App\Models\CompanyAdvertisingRequest::findOrFail($id);
+    $companyRequest->update($data);
+
+    return back()->with('success', 'تم حفظ البيانات المالية بنجاح.');
+})->middleware('admin');
+
+
+use Illuminate\Http\Request;
+use App\Models\CompanyAdvertisingRequest;
+
+Route::post('/for-companies/request', function (Request $request) {
+    $data = $request->validate([
+        'company' => 'required|string|max:150',
+        'contact' => 'required|string|max:150',
+        'phone' => 'required|string|max:50',
+        'email' => 'nullable|email|max:150',
+        'message' => 'required|string|max:2000',
+    ]);
+
+    CompanyAdvertisingRequest::create($data);
+
+    return back()->with('success', 'تم إرسال طلبكم بنجاح. سيتم التواصل معكم بعد مراجعة المعلومات.');
+})->name('company.request');
+
+Route::view('/youth-drivers-morocco', 'youth-drivers-morocco');

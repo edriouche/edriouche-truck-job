@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ __("messages.spain_jobs_title") }} | Edriouche Truck Job</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f5f7fa;margin:0;color:#222;line-height:1.8}
+.container{max-width:900px;margin:auto;padding:15px}
+.hero,.card,.warning{background:#fff;border-radius:14px;padding:20px;margin:15px 0;box-shadow:0 3px 12px rgba(0,0,0,.08)}
+h1,h2{color:#0756a8}
+h1{text-align:center}
+.hero-es{direction:ltr;text-align:left;border-right:5px solid #0756a8}
+.card{border-right:6px solid #18a957}
+.open{color:#138a43;font-weight:bold}
+.openbox{color:#0756a8;font-weight:bold}
+.badge{display:inline-block;padding:3px 10px;border-radius:20px;background:#e9f7ee}
+a.button{display:inline-block;background:#0756a8;color:#fff;text-decoration:none;padding:8px 16px;border-radius:8px;margin-top:8px}
+.warning{border-right:6px solid #e0a000;background:#fffaf0}
+footer{text-align:center;padding:25px;color:#666}
+</style>
+</head>
+
+<body>
+@include("partials.language-switcher")
+<div class="container">
+
+<div class="hero">
+<h1>🇪🇸 {{ __("messages.spain_jobs_title") }}</h1>
+<p style="text-align:center"><strong>{{ __("messages.jobs_intro") }}</strong></p>
+</div>
+
+<div class="hero-es">
+<h2>{{ __("messages.driver_message") }}</h2>
+<p>{{ __("messages.driver_story_title") }}</p>
+<p>{{ __("messages.driver_sacrifice") }}</p>
+<p>A veces no pudo estar en celebraciones ni en funerales… porque la carretera lo llamaba y detrás de él había una carga, una responsabilidad y un deber profesional.</p>
+<p><strong>{{ __("messages.driver_values") }}</strong></p>
+<p>Detrás de cada camión que llega a su destino, hay una persona que ha hecho muchos sacrificios para que llegue con seguridad.</p>
+<p>{!! __("messages.driver_mission") !!}</p>
+<p>{!! __("messages.driver_morocco_europe") !!}</p>
+<p><strong>{{ __("messages.driver_respect") }}</strong></p>
+</div>
+
+<div class="hero">
+<h2>🚛 {{ __("messages.jobs_title") }}</h2>
+<p>{{ __("messages.jobs_description") }}</p>
+<p>{{ __("messages.recruitment_info") }}</p>
+</div>
+
+<div class="card">
+<h2>🟢 JCARRION</h2>
+<p><span class="badge">{{ __("messages.recruitment_info") }}</span></p>
+<p>📍 Spain – domestic and international transport</p>
+<p>🚛 Required licence: C+E</p>
+<p>🎓 Requirements: CAP + digital tachograph card</p>
+<p>⭐ Driver vacancies may be available, including some that do not require experience. Check each official advert.</p>
+<a class="button" href="https://ofertas.jcarrion.es/jobs/conductor-a-c-e-ruta-internacional-fcabfd30-bbdb-4edd-9740-d20be90443fd?displayed_form=true" target="_blank" rel="noopener">🔗 C+E driver vacancy</a>
+<a class="button" href="https://jobs.jcarrion.es/reclutamiento/" target="_blank" rel="noopener">{{ __("messages.official_recruitment") }}</a>
+</div>
+
+<div class="card">
+<h2>🟢 Doseguer</h2>
+<p><span class="badge">Recruitment information available</span></p>
+<p>📍 Almería · Granada · Murcia</p>
+<p>🚛 Refrigerated and general freight – domestic and international</p>
+<p>🎓 C+E + CAP + digital tachograph card</p>
+<p>⭐ The company accepts applications and may offer refrigerated-transport training to candidates who meet the basic requirements.</p>
+<a class="button" href="https://www.doseguer.com/trabaja-con-nosotros/" target="_blank">🔗 Official application</a>
+</div>
+
+<div class="card">
+<h2>🟢 STEF</h2>
+<p><span class="badge">{{ __("messages.stef_offer_badge") }}</span></p>
+<p>{{ __("messages.stef_company_intro") }}</p>
+<p>🚚 {{ __("messages.stef_offer_title") }}</p>
+<p>📍 {{ __("messages.stef_offer_location") }}</p>
+<p>📅 {{ __("messages.stef_offer_date") }}</p>
+<p>📄 {{ __("messages.stef_offer_contract") }}</p>
+<p>{{ __("messages.stef_offer_notice") }}</p>
+<a class="button" href="https://apply.stef.jobs/go/CDI-CDD-%28ES%29/4509901/40/?q=&amp;sortColumn=sort_shifttype&amp;sortDirection=asc" target="_blank" rel="noopener">{{ __("messages.stef_offer_button") }}</a>
+<a class="button" href="https://stef.jobs/es/envia-mi-solicitud/" target="_blank" rel="noopener">{{ __("messages.official_recruitment") }}</a>
+</div>
+
+<div class="card">
+<h2>🟢 CONTANK</h2>
+<p><span class="badge">Check the official advert requirements</span></p>
+<p>🚛 Truck and trailer driver vacancy information.</p>
+<p>🎓 The advert may require C+E, CAP, basic ADR and tank qualifications, and a C+E licence held for three years. Two years of experience may be preferred. Check the current requirements.</p>
+<a class="button" href="https://contank.com/career/" target="_blank" rel="noopener">🔗 Official CONTANK vacancies</a>
+</div>
+
+<div class="card">
+<h2>🔵 Grupo SGT</h2>
+<p><span class="badge">Applications may be submitted</span></p>
+<p>🚛 Domestic and international transport and logistics</p>
+<p>🚚 C+E, depending on the position</p>
+<p>🎓 CAP and experience, depending on the position</p>
+<p>🔗 Official company recruitment form; it does not guarantee that a specific vacancy is available.</p>
+<a class="button" href="https://www.gruposgt.com/trabaja-con-nosotros" target="_blank" rel="noopener">🔗 Official application to Grupo SGT</a>
+</div>
+
+<div class="card">
+<h2>🔵 Primafrio</h2>
+<p><span class="badge">Applications may be submitted</span></p>
+<p>🚛 Refrigerated transport and logistics</p>
+<p>🌍 Spain and Europe</p>
+<p>👨‍✈️ You can apply through the official channel; this does not confirm that a specific vacancy is available.</p>
+<a class="button" href="https://www.primafrio.com/trabaja-con-nosotros//" target="_blank" rel="noopener">🔗 Official application to Primafrio</a>
+</div>
+
+<div class="card">
+<h2>🔵 Logista</h2>
+<p><span class="badge">Applications may be submitted</span></p>
+<p>🚛 Transport, logistics and distribution</p>
+<p>👨‍✈️ Official form related to drivers and deliveries. Check the role and requirements before applying.</p>
+<a class="button" href="https://www.logista.com/es/home/pages/contacta-parcel-drivers.html" target="_blank" rel="noopener">🔗 Official Logista driver form</a>
+</div>
+
+<div class="card">
+<h2>🟢 Grupo Hiemesa</h2>
+<p><span class="badge">Check the company’s official vacancies</span></p>
+<p>🚛 Check the location and requirements in each driver advert.</p>
+<a class="button" href="https://www.hiemesa.com/Trabaja" target="_blank" rel="noopener">🔗 Official Grupo Hiemesa vacancies</a>
+</div>
+
+<div class="card">
+<h2>🔵 Disfrimur</h2>
+<p><span class="badge">Check current vacancies</span></p>
+<p>🚛 Trucking and refrigerated transport.</p>
+<p>🎓 Official information is available about the Escuela de Conductores (Driver School) programme. Check current availability and entry requirements.</p>
+<a class="button" href="https://www.disfrimur.com/en/86-la-empresa/232-oferta-de-empleo" target="_blank" rel="noopener">🔗 Official Disfrimur vacancies</a>
+<a class="button" href="https://www.disfrimur.com/es/blog/noticias/367-disfrimur-incorpora-a-los-primeros-profesionales-del-programa-escuela-de-conductores" target="_blank" rel="noopener">🔗 Driver training programme information</a>
+</div>
+
+<div class="hero">
+<h2>🇪🇸 Moroccan Driver Guide to Spain</h2>
+<p>Job-search guidance, training and reliable resources for drivers in one place.</p>
+<p>💼 Job vacancies</p>
+<p>🎓 Training and professional development</p>
+<p>🇪🇸 CAP training centres</p>
+<p>🇪🇸 Working in Spain guide</p>
+<p>🪪 Driver documents</p>
+<p>📑 European documents</p>
+<p>🕐 Driving and rest-time rules</p>
+<p>⏱️ Tachograph guide</p>
+<p>📝 Create a driver CV</p>
+</div>
+
+<div class="hero">
+<h2>🚛 Types of transport</h2>
+<p>International transport • Domestic transport • Refrigerated transport • Logistics • Building materials • Containers • Freight • Specialised transport</p>
+<p>Note: We add transport categories when reliable information and an official link are available.</p>
+</div>
+
+<div class="hero">
+<h2>🏙️ Spanish transport cities and regions</h2>
+<p>Madrid • Barcelona • Valencia • Zaragoza • Murcia • Málaga • Seville • Bilbao • Almería • Huelva and other logistics regions.</p>
+</div>
+
+<div class="hero">
+<h2>💶 Driver salaries in Spain</h2>
+<p>Company names are not repeated here. See each company section above for information and official links.</p>
+<p>We publish salaries only when clearly stated in a reliable official advert. If no salary is listed, we will not guess or present an amount as guaranteed.</p>
+<p><strong>⚠️ Note:</strong> Actual pay depends on the advert, employment contract and applicable collective agreement.</p>
+</div>
+<div class="warning">
+<h2>⚠️ Important notice for Moroccan drivers</h2>
+<p><strong>Edriouche Truck Job does not sell employment contracts or ask drivers to pay to obtain a job.</strong></p>
+<p>Before sending documents or paying money, verify the company and its official application link.</p>
+<p>Do not rely on unknown intermediaries or personal social-media accounts.</p>
+<p>Recruitment status can change. Verify the official advert before applying.</p>
+</div>
+
+<div class="hero">
+<h2>🇪🇸 Official resources for drivers</h2>
+<p>Where possible, we rely on official sources rather than intermediaries or unknown accounts.</p>
+<p>🇪🇸 Spanish Ministry of Transport 🇪🇺 EURES</p>
+</div>
+
+<footer>
+🇪🇸 Back to the Spain guide · 🎓 CAP training centres · 🏠 Home
+<br><br>
+© 2026 Edriouche Truck Job — From drivers, for drivers 🚛
+</footer>
+
+</div>
+</body>
+</html>

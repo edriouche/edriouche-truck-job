@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'spanish_companies' => 'Spanish transport companies',
+    'jobs_intro' => 'We gather truck-driver job opportunities here, prioritising official sources and avoiding fraudulent offers.',
+    'driver_message' => '🚛 Do not look only at the truck… look at the person behind the wheel.',
+    'driver_mission' => 'That is why we created <strong>Edriouche Truck Job</strong>: not only to help drivers look for work, but also to respect the profession, share genuine opportunities, explain drivers’ rights and protect them from intermediaries and false promises.',
+    'driver_morocco_europe' => '🇲🇦 From Morocco to Europe…<br>We want every driver to reach their destination with dignity, just as their truck arrives safely.',
+    'driver_respect' => 'Professional drivers deserve respect. 🚛❤️',
+    'driver_sacrifice' => 'Behind every truck that reaches its destination is a person who has made many sacrifices to deliver the load safely.',
+    'driver_story_title' => 'Behind every truck… a driver’s story',
+    'driver_values' => 'Honesty • Trust • Responsibility • Professional duty',
+    'jobs_description' => 'We help professional drivers find genuine opportunities and contact reliable transport companies while avoiding scams and intermediaries.',
+    'jobs_title' => '🔎 Job opportunities',
+    'official_recruitment' => '🔗 Official recruitment page',
+    'recruitment_info' => '📩 Recruitment information and applications through the official company website',
+    'stef_company_intro' => 'Transport and logistics, particularly refrigerated food products.',
+    'stef_offer_badge' => 'Official listing visible when checked — 10 October 2026',
+    'stef_offer_title' => 'CONDUCTOR/A LOCAL TRAILER H/M 1',
+    'stef_offer_location' => 'Location: Olot, Girona, Spain',
+    'stef_offer_date' => 'Publication date stated: 9 October 2026',
+    'stef_offer_contract' => 'Published contract type: CDI (permanent contract)',
+    'stef_offer_notice' => 'This listing does not confirm acceptance of a Moroccan driving licence or eligibility for a work permit or visa. Confirm the requirements and your eligibility directly with the company.',
+    'stef_offer_button' => 'View this STEF job listing',
+];

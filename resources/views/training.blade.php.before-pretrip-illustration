@@ -1,0 +1,533 @@
+@include("partials.language-switcher")
+<!DOCTYPE html>
+<html lang="{{ app()->getLocale() }}" dir="{{ app()->getLocale() === 'ar' ? 'rtl' : 'ltr' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    @if(app()->getLocale() === 'es')
+        <title>Formación para conductores | Edriouche Truck Job</title>
+    @elseif(app()->getLocale() === 'fr')
+        <title>Formation des conducteurs | Edriouche Truck Job</title>
+    @elseif(app()->getLocale() === 'en')
+        <title>Professional Driver Training | Edriouche Truck Job</title>
+    @else
+        <title>تكوين السائقين | Edriouche Truck Job</title>
+    @endif
+
+    <style>
+        body{margin:0;font-family:Arial,sans-serif;background:#f4f6f8;color:#222;line-height:1.8}
+        header{background:#111827;color:white;text-align:center;padding:30px 20px}
+        header h1{margin:0 0 10px}
+        .container{max-width:1050px;margin:20px auto;padding:20px}
+        .back{display:inline-block;margin-bottom:20px;color:#111827;text-decoration:none;font-weight:bold}
+        .intro,.card,.warning{background:white;padding:22px;margin-bottom:20px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+        .card h2{margin-top:0;color:#0b3a68}
+        .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+        .center{background:#fff;padding:18px;margin-bottom:12px;border-radius:10px}
+        .button{display:inline-block;margin:8px 4px;padding:11px 18px;background:#111827;color:white;text-decoration:none;border-radius:8px}
+        .warning{border-right:5px solid #d4af37}
+        ul,ol{padding-inline-start:28px}
+        .training-note{background:#eef6ff;border-right:5px solid #0b3a68;padding:18px;border-radius:10px;margin-bottom:20px}
+        footer{text-align:center;padding:25px;color:#666}
+    </style>
+</head>
+
+<body>
+
+<header>
+@if(app()->getLocale() === 'es')
+    <h1>🚛 Formación y desarrollo profesional de conductores</h1>
+    <p>Edriouche Truck Job</p>
+@elseif(app()->getLocale() === 'fr')
+    <h1>🚛 Formation et développement professionnel des conducteurs</h1>
+    <p>Edriouche Truck Job</p>
+@elseif(app()->getLocale() === 'en')
+    <h1>🚛 Professional Driver Training and Development</h1>
+    <p>Edriouche Truck Job</p>
+@else
+    <h1>🚛 تكوين وتطوير السائقين المهنيين</h1>
+    <p>Edriouche Truck Job</p>
+@endif
+</header>
+
+<div class="container">
+
+<a class="back" href="/">
+@if(app()->getLocale() === 'es') ⬅️ Volver a la página principal
+@elseif(app()->getLocale() === 'fr') ⬅️ Retour à l'accueil
+@elseif(app()->getLocale() === 'en') ⬅️ Back to homepage
+@else ⬅️ العودة إلى الرئيسية
+@endif
+</a>
+
+@if(app()->getLocale() === 'es')
+
+<div class="intro">
+<h2>🎓 Formación profesional para conductores</h2>
+<p>Esta sección ofrece conocimientos prácticos para conductores principiantes y profesionales. El objetivo es mejorar la seguridad, el control del vehículo, el ahorro de combustible y la responsabilidad profesional.</p>
+<a class="button" href="https://www.ofppt.ma/" target="_blank">🌐 Sitio oficial OFPPT</a>
+<a class="button" href="{{ url('/training-centers') }}">🏫 شركات ومراكز تكوين السائقين</a>
+</div>
+
+
+<div class="card">
+@if(app()->getLocale() === 'es')
+    <h2>🏫 Centros y empresas de formación para conductores</h2>
+    <p>Además de OFPPT, aquí encontrarás centros y empresas especializados en la formación de conductores profesionales.</p>
+
+    <div class="center">
+        <h3>🚛 GENADEC</h3>
+        <p>Formación para conductores profesionales de transporte de mercancías y viajeros, además de módulos de conducción defensiva, conducción económica y ADR.</p>
+        <p>📍 Centro en Tánger: Gueznaya</p>
+        <a class="button" href="https://genadec.com/" target="_blank">🌐 Sitio oficial GENADEC</a>
+        <a class="button" href="https://genadec.com/pf/conducteurs-professionnels/" target="_blank">📚 Formación de conductores</a>
+    </div>
+
+@elseif(app()->getLocale() === 'fr')
+    <h2>🏫 Centres et entreprises de formation des conducteurs</h2>
+    <p>En plus de l'OFPPT, vous trouverez ici des centres et entreprises spécialisés dans la formation des conducteurs professionnels.</p>
+
+    <div class="center">
+        <h3>🚛 GENADEC</h3>
+        <p>Formation des conducteurs professionnels de transport de marchandises et de voyageurs, avec des modules de conduite défensive, éco-conduite et ADR.</p>
+        <p>📍 Centre à Tanger : Gueznaya</p>
+        <a class="button" href="https://genadec.com/" target="_blank">🌐 Site officiel GENADEC</a>
+        <a class="button" href="https://genadec.com/pf/conducteurs-professionnels/" target="_blank">📚 Formation des conducteurs</a>
+    </div>
+
+@elseif(app()->getLocale() === 'en')
+    <h2>🏫 Driver training centres and organisations</h2>
+    <p>Alongside OFPPT, you can contact specialist organisations offering professional driver training.</p>
+    <div class="center">
+        <h3>🚛 GENADEC</h3>
+        <p>Professional driver training in goods and passenger transport, with modules that may include defensive driving, economical driving and ADR. Confirm current courses directly.</p>
+        <p>📍 Training centre: Gueznaya, Tangier</p>
+        <a class="button" href="https://genadec.com/" target="_blank" rel="noopener noreferrer">🌐 Official GENADEC website</a>
+        <a class="button" href="https://genadec.com/pf/conducteurs-professionnels/" target="_blank" rel="noopener noreferrer">📚 Driver training</a>
+    </div>
+@else
+    <h2>🏫 شركات ومراكز تكوين السائقين</h2>
+    <p>بالإضافة إلى OFPPT، تجد هنا مراكز وشركات متخصصة في تكوين السائقين المهنيين.</p>
+
+    <div class="center">
+        <h3>🚛 GENADEC</h3>
+        <p>تكوين السائقين المهنيين في نقل البضائع والمسافرين، إضافة إلى التكوين في القيادة الدفاعية والقيادة الاقتصادية ونقل المواد الخطرة ADR.</p>
+        <p>📍 مركز طنجة: كزناية</p>
+        <a class="button" href="https://genadec.com/" target="_blank">🌐 الموقع الرسمي GENADEC</a>
+        <a class="button" href="https://genadec.com/pf/conducteurs-professionnels/" target="_blank">📚 تكوين السائقين</a>
+    </div>
+@endif
+</div>
+
+<div class="training-note">
+@if(app()->getLocale() === 'es')
+<strong>Importante:</strong> Esta página tiene fines educativos. Respete siempre las leyes, las instrucciones del fabricante, las normas de la empresa y las condiciones reales de la carretera.
+@elseif(app()->getLocale() === 'fr')
+<strong>Important :</strong> Cette page est destinée à la formation. Respectez toujours les lois, les instructions du constructeur, les règles de l'entreprise et les conditions réelles de la route.
+@elseif(app()->getLocale() === 'en')
+<strong>Important:</strong> This page is for educational purposes. Always follow the law, manufacturer instructions, company procedures and actual road conditions.
+@else
+<strong>مهم:</strong> هذه الصفحة للتكوين والتوعية. يجب احترام القوانين وتعليمات المصنّع وقواعد الشركة وظروف الطريق الفعلية.
+@endif
+</div>
+
+<div class="cards">
+
+<div class="card"><h2>🛡️ 1. Conducción defensiva</h2>
+<p>La conducción defensiva consiste en anticiparse a los riesgos y no depender de que los demás usuarios actúen correctamente.</p>
+<ul><li>Mantener una distancia de seguridad suficiente.</li><li>Adaptar la velocidad a la carga, carretera, tráfico y meteorología.</li><li>Controlar regularmente los espejos y los ángulos muertos.</li><li>Anticipar frenadas, cambios de carril y errores de otros usuarios.</li><li>No conducir con fatiga, somnolencia o distracciones.</li><li>En una situación peligrosa, reducir la velocidad y buscar una salida segura.</li></ul>
+</div>
+
+<div class="card"><h2>⛽ 2. Conducción económica</h2>
+<p>La conducción económica busca reducir el consumo y el desgaste sin comprometer la seguridad.</p>
+<ul><li>Acelerar progresivamente y evitar aceleraciones innecesarias.</li><li>Mantener una velocidad estable cuando las condiciones lo permitan.</li><li>Usar correctamente las marchas y los sistemas de retención.</li><li>Evitar frenadas y aceleraciones repetidas que podrían anticiparse.</li><li>Comprobar la presión de los neumáticos.</li><li>Realizar el mantenimiento correctamente.</li><li>No buscar ahorro mediante una conducción peligrosa.</li></ul>
+</div>
+
+<div class="card"><h2>↩️ 3. Marcha atrás con camión y remolque</h2>
+<p>La marcha atrás requiere paciencia, velocidad muy baja y control constante.</p>
+<ul><li>Comprobar la zona antes de comenzar.</li><li>Ajustar los espejos y conocer los ángulos muertos.</li><li>Comprender que el remolque puede desplazarse en dirección contraria al movimiento inicial del volante.</li><li>Hacer maniobras pequeñas y corregir progresivamente.</li><li>Usar un señalista cuando sea necesario.</li><li>Detenerse inmediatamente si se pierde la visibilidad o existe duda.</li><li>No sacrificar la seguridad para terminar rápidamente la maniobra.</li></ul>
+</div>
+
+<div class="card"><h2>🛑 4. Frenado y control del camión</h2>
+<p>El peso y la carga influyen directamente en la distancia de frenado y el comportamiento del vehículo.</p>
+<ul><li>Mantener una distancia suficiente.</li><li>Anticipar las situaciones que requieren frenado.</li><li>Usar correctamente el freno motor o retarder cuando el vehículo disponga de ellos.</li><li>En descensos prolongados, evitar depender únicamente del freno de servicio.</li><li>Controlar la velocidad antes de entrar en una curva o descenso.</li></ul>
+</div>
+
+<div class="card"><h2>⚖️ 5. Carga y distribución del peso</h2>
+<p>Una carga mal distribuida puede afectar a la estabilidad, frenado y comportamiento del conjunto.</p>
+<ul><li>Respetar los límites legales de peso.</li><li>Distribuir la carga correctamente.</li><li>Asegurar la mercancía según su naturaleza.</li><li>Comprobar puertas, cierres y elementos de sujeción.</li><li>Volver a comprobar la carga después de una parada cuando sea necesario.</li></ul>
+</div>
+
+<div class="card"><h2>🔧 6. Inspección antes de salir</h2>
+<p>Antes de iniciar un viaje, el conductor debe comprobar que el vehículo y el remolque están en condiciones adecuadas.</p>
+<ul><li>Neumáticos y posibles daños.</li><li>Frenos y conexiones.</li><li>Luces e indicadores.</li><li>Niveles y posibles fugas.</li><li>Espejos, puertas y elementos de seguridad.</li><li>Conexiones entre tractor y remolque.</li></ul>
+</div>
+
+<div class="card"><h2>🌧️ 7. Conducción en condiciones difíciles</h2>
+<p>La lluvia, niebla, viento, nieve y carreteras de montaña requieren adaptación de velocidad y distancia.</p>
+<ul><li>Reducir la velocidad cuando disminuye la visibilidad o adherencia.</li><li>Aumentar la distancia de seguridad.</li><li>Prestar especial atención al viento lateral con vehículos altos.</li><li>Evitar maniobras bruscas.</li><li>En condiciones peligrosas, detenerse en un lugar seguro si continuar no es razonable.</li></ul>
+</div>
+
+<div class="card"><h2>🪞 8. Espejos y ángulos muertos</h2>
+<p>Los vehículos pesados tienen zonas que el conductor no puede observar directamente.</p>
+<ul><li>Revisar los espejos antes de cambiar de dirección o carril.</li><li>No confiar únicamente en un espejo.</li><li>Comprobar cuidadosamente antes de girar a la derecha.</li><li>Recordar que motocicletas, bicicletas y peatones pueden quedar ocultos.</li><li>Utilizar correctamente los sistemas de asistencia disponibles.</li></ul>
+</div>
+
+<div class="card"><h2>📋 9. Documentos y responsabilidad profesional</h2>
+<p>El conductor profesional debe conocer y controlar la documentación necesaria para su viaje.</p>
+<ul><li>Documentación personal y permiso de conducción.</li><li>Documentos del vehículo y remolque.</li><li>Documentos relacionados con la mercancía.</li><li>Documentación exigida para el transporte internacional cuando corresponda.</li><li>Comprobar la información antes de salir y comunicar cualquier irregularidad.</li></ul>
+</div>
+
+<div class="card"><h2>🎓 10. Test del conductor</h2>
+<p>Después de estudiar los temas, el conductor puede comprobar sus conocimientos con preguntas sobre seguridad, frenado, carga, marcha atrás, consumo y documentación.</p>
+<ol><li>¿Qué debe hacer si pierde la visión durante una maniobra marcha atrás?</li><li>¿Por qué es importante aumentar la distancia de seguridad con un vehículo pesado?</li><li>¿Qué elementos deben revisarse antes de iniciar un viaje?</li><li>¿Cómo influye una carga mal distribuida?</li><li>¿Por qué no debe buscarse el ahorro de combustible mediante una conducción peligrosa?</li></ol>
+</div>
+
+</div>
+
+<div class="card">
+<h2>🏫 Formación OFPPT</h2>
+<p>OFPPT ofrece formación profesional relacionada con transporte por carretera y logística. Deben comprobarse directamente las especialidades y plazas disponibles.</p>
+</div>
+
+@elseif(app()->getLocale() === 'fr')
+
+<div class="intro">
+<h2>🎓 Formation professionnelle des conducteurs</h2>
+<p>Cette section présente des connaissances pratiques pour les conducteurs débutants et professionnels. L'objectif est d'améliorer la sécurité, le contrôle du véhicule, l'économie de carburant et la responsabilité professionnelle.</p>
+<a class="button" href="https://www.ofppt.ma/" target="_blank">🌐 Site officiel OFPPT</a>
+</div>
+
+<div class="training-note"><strong>Important :</strong> Ces informations sont éducatives. Il faut toujours respecter la législation, les instructions du constructeur, les règles de l'entreprise et les conditions réelles de circulation.</div>
+
+<div class="cards">
+
+<div class="card"><h2>🛡️ 1. Conduite défensive</h2>
+<p>La conduite défensive consiste à anticiper les risques et à ne pas supposer que les autres usagers agiront toujours correctement.</p>
+<ul><li>Maintenir une distance de sécurité suffisante.</li><li>Adapter la vitesse à la charge, à la route, au trafic et à la météo.</li><li>Contrôler régulièrement les rétroviseurs et les angles morts.</li><li>Anticiper les freinages, changements de voie et erreurs des autres usagers.</li><li>Ne pas conduire en cas de fatigue, somnolence ou distraction.</li><li>En situation dangereuse, ralentir et rechercher une solution sûre.</li></ul>
+</div>
+
+<div class="card"><h2>⛽ 2. Conduite économique</h2>
+<p>La conduite économique vise à réduire la consommation et l'usure sans compromettre la sécurité.</p>
+<ul><li>Accélérer progressivement.</li><li>Maintenir une vitesse régulière lorsque les conditions le permettent.</li><li>Utiliser correctement les rapports et les systèmes de ralentissement.</li><li>Éviter les accélérations et freinages inutiles.</li><li>Contrôler la pression des pneus.</li><li>Respecter l'entretien du véhicule.</li><li>Ne jamais rechercher l'économie au détriment de la sécurité.</li></ul>
+</div>
+
+<div class="card"><h2>↩️ 3. Marche arrière avec camion et remorque</h2>
+<p>La marche arrière exige patience, très faible vitesse et contrôle permanent.</p>
+<ul><li>Vérifier la zone avant de commencer.</li><li>Régler les rétroviseurs et connaître les angles morts.</li><li>Comprendre la réaction de la remorque aux mouvements du volant.</li><li>Effectuer de petites corrections progressives.</li><li>Utiliser un guide lorsque cela est nécessaire.</li><li>S'arrêter immédiatement en cas de perte de visibilité ou de doute.</li><li>Ne jamais privilégier la rapidité au détriment de la sécurité.</li></ul>
+</div>
+
+<div class="card"><h2>🛑 4. Freinage et contrôle du camion</h2>
+<p>Le poids et la charge influencent directement la distance de freinage et le comportement du véhicule.</p>
+<ul><li>Conserver une distance suffisante.</li><li>Anticiper les situations nécessitant un freinage.</li><li>Utiliser correctement le frein moteur ou le ralentisseur lorsque le véhicule en est équipé.</li><li>Dans les longues descentes, ne pas dépendre uniquement du frein de service.</li><li>Contrôler la vitesse avant les virages et les descentes.</li></ul>
+</div>
+
+<div class="card"><h2>⚖️ Charge et répartition du poids</h2>
+<p>Une charge mal répartie peut affecter la stabilité, le freinage et le comportement de l'ensemble routier.</p>
+<ul><li>Respecter les limites légales de poids.</li><li>Répartir correctement la charge.</li><li>Arrimer la marchandise selon sa nature.</li><li>Contrôler les portes, fermetures et dispositifs d'arrimage.</li><li>Vérifier la charge après un arrêt lorsque cela est nécessaire.</li></ul>
+</div>
+
+<div class="card"><h2>🔧 Contrôle avant le départ</h2>
+<p>Avant un trajet, le conducteur doit vérifier que le véhicule et la remorque sont en état approprié.</p>
+<ul><li>Pneus et dommages éventuels.</li><li>Freins et connexions.</li><li>Feux et indicateurs.</li><li>Niveaux et éventuelles fuites.</li><li>Rétroviseurs, portes et éléments de sécurité.</li><li>Connexions entre le tracteur et la remorque.</li></ul>
+</div>
+
+<div class="card"><h2>🌧️ Conduite dans des conditions difficiles</h2>
+<p>La pluie, le brouillard, le vent, la neige et les routes montagneuses nécessitent une adaptation de la vitesse et des distances.</p>
+<ul><li>Réduire la vitesse lorsque la visibilité ou l'adhérence diminuent.</li><li>Augmenter la distance de sécurité.</li><li>Être particulièrement attentif au vent latéral avec les véhicules hauts.</li><li>Éviter les manœuvres brusques.</li><li>Si les conditions deviennent dangereuses, s'arrêter dans un endroit sûr.</li></ul>
+</div>
+
+<div class="card"><h2>🪞 Rétroviseurs et angles morts</h2>
+<p>Les véhicules lourds possèdent des zones qui ne peuvent pas être observées directement par le conducteur.</p>
+<ul><li>Vérifier les rétroviseurs avant un changement de direction ou de voie.</li><li>Ne pas dépendre d'un seul rétroviseur.</li><li>Être particulièrement prudent lors des virages à droite.</li><li>Se rappeler que les motos, vélos et piétons peuvent être masqués.</li><li>Utiliser correctement les systèmes d'assistance disponibles.</li></ul>
+</div>
+
+<div class="card"><h2>📋 Documents et responsabilité professionnelle</h2>
+<p>Le conducteur professionnel doit connaître et contrôler les documents nécessaires à son trajet.</p>
+<ul><li>Documents personnels et permis de conduire.</li><li>Documents du véhicule et de la remorque.</li><li>Documents liés à la marchandise.</li><li>Documents requis pour le transport international lorsque cela s'applique.</li><li>Vérifier les informations avant le départ et signaler toute anomalie.</li></ul>
+</div>
+
+<div class="card"><h2>🎓 Test du conducteur</h2>
+<p>Après l'étude des thèmes, le conducteur peut vérifier ses connaissances avec des questions sur la sécurité, le freinage, la charge, la marche arrière, la consommation et les documents.</p>
+<ol><li>Que faire si la visibilité est perdue pendant une marche arrière ?</li><li>Pourquoi augmenter la distance de sécurité avec un poids lourd ?</li><li>Quels éléments contrôler avant un trajet ?</li><li>Comment une mauvaise répartition de la charge influence-t-elle le véhicule ?</li><li>Pourquoi ne faut-il jamais économiser du carburant au détriment de la sécurité ?</li></ol>
+</div>
+
+</div>
+
+<div class="card">
+<h2>🏫 Formation OFPPT</h2>
+<p>L'OFPPT propose des formations liées au transport routier et à la logistique. Il faut vérifier directement les spécialités et les places disponibles.</p>
+</div>
+
+@elseif(app()->getLocale() === 'en')
+
+<div class="intro">
+<h2>🎓 Professional training for truck drivers</h2>
+<p>Practical learning for new and experienced drivers, focused on road safety, vehicle control, fuel efficiency and professional responsibility.</p>
+<a class="button" href="https://www.ofppt.ma/" target="_blank" rel="noopener noreferrer">🌐 Official OFPPT website</a>
+<a class="button" href="{{ url('/training-centers') }}">🏫 Training centres</a>
+</div>
+
+<div class="training-note"><strong>Important:</strong> This page is for education and awareness. Always follow applicable laws, vehicle manufacturer instructions, company procedures and actual road conditions.</div>
+
+<div class="cards">
+<div class="card"><h2>🛡️ 1. Defensive driving</h2>
+<p>Anticipate hazards and drive safely without assuming that other road users will always act correctly.</p>
+<ul><li>Maintain a safe following distance.</li><li>Adjust speed to the load, road, traffic and weather.</li><li>Check mirrors and blind spots regularly.</li><li>Anticipate braking and lane changes.</li><li>Never drive when fatigued, sleepy or distracted.</li></ul></div>
+
+<div class="card"><h2>⛽ 2. Economical driving</h2>
+<p>Reduce fuel consumption and vehicle wear without compromising safety.</p>
+<ul><li>Accelerate smoothly.</li><li>Maintain a steady speed when conditions allow.</li><li>Use gears and retarders correctly.</li><li>Avoid unnecessary braking and acceleration.</li><li>Check tyre pressure and maintain the vehicle regularly.</li></ul></div>
+
+<div class="card"><h2>↩️ 3. Reversing with a truck and trailer</h2>
+<p>Reversing requires patience, low speed and constant observation.</p>
+<ul><li>Inspect the area before manoeuvring.</li><li>Adjust mirrors and identify blind spots.</li><li>Understand how the trailer responds to steering.</li><li>Make small, gradual corrections.</li><li>Use a guide when necessary.</li><li>Stop immediately if you lose sight or are unsure.</li></ul></div>
+
+<div class="card"><h2>🛑 4. Braking and vehicle control</h2>
+<p>Vehicle weight and load directly affect stopping distance and stability.</p>
+<ul><li>Keep a sufficient safety distance.</li><li>Anticipate situations requiring braking.</li><li>Use engine braking or a retarder correctly when fitted.</li><li>Do not rely only on service brakes on long descents.</li><li>Reduce speed before bends and downhill sections.</li></ul></div>
+
+<div class="card"><h2>⚖️ 5. Cargo and weight distribution</h2>
+<p>Poorly distributed cargo can affect stability, braking and vehicle control.</p>
+<ul><li>Respect legal weight limits.</li><li>Distribute the load correctly.</li><li>Secure cargo according to its type.</li><li>Check doors, locks and securing equipment.</li><li>Recheck the load when necessary during the journey.</li></ul></div>
+
+<div class="card"><h2>🔧 6. Pre-trip vehicle inspection</h2>
+<p>Check that the truck and trailer are safe and roadworthy before departure.</p>
+<ul><li>Tyres and visible damage.</li><li>Brakes and connections.</li><li>Lights and indicators.</li><li>Fluid levels and possible leaks.</li><li>Mirrors, doors and safety equipment.</li><li>Coupling between truck and trailer.</li></ul></div>
+
+<div class="card"><h2>🌧️ 7. Driving in difficult conditions</h2>
+<p>Rain, fog, wind, snow and mountain roads require adjusted speed and safety distance.</p>
+<ul><li>Reduce speed when visibility or grip is poor.</li><li>Increase the following distance.</li><li>Watch for crosswinds, especially with high-sided vehicles.</li><li>Avoid sudden manoeuvres.</li><li>Stop in a safe place if conditions become dangerous.</li></ul></div>
+
+<div class="card"><h2>🪞 8. Mirrors and blind spots</h2>
+<p>Trucks and trailers have areas that the driver cannot see directly.</p>
+<ul><li>Check mirrors before changing direction or lane.</li><li>Never rely on only one mirror.</li><li>Pay special attention when turning right.</li><li>Look out for cyclists, pedestrians and small vehicles.</li><li>Use vehicle assistance systems correctly.</li></ul></div>
+
+<div class="card"><h2>📋 9. Documents and professional responsibility</h2>
+<p>Professional drivers must know and check the documents required for each journey.</p>
+<ul><li>Personal documents and driving licence.</li><li>Truck and trailer documents.</li><li>Cargo documents.</li><li>International transport documents where applicable.</li><li>Check details before departure and report irregularities.</li></ul></div>
+
+<div class="card"><h2>🎓 10. Driver knowledge test</h2>
+<p>Test your knowledge of safety, braking, cargo, reversing, fuel consumption and documents.</p>
+<ol><li>What should you do if you lose sight while reversing?</li><li>Why does a heavy vehicle need a greater safety distance?</li><li>What should be checked before a journey?</li><li>How can poorly distributed cargo affect a vehicle?</li><li>Why must fuel saving never come at the expense of safety?</li></ol></div>
+</div>
+
+<div class="card">
+<h2>🏫 OFPPT vocational training</h2>
+<p>OFPPT offers training related to road transport and logistics. Check available courses and places directly with the institution before registering.</p>
+</div>
+
+@else
+
+<div class="intro">
+<h2>🎓 التكوين المهني للسائقين</h2>
+<p>هذه الصفحة تقدم معلومات عملية للسائقين المبتدئين والمهنيين بهدف تحسين السلامة، التحكم في الشاحنة، الاقتصاد في الوقود والمسؤولية المهنية.</p>
+<a class="button" href="https://www.ofppt.ma/" target="_blank">🌐 الموقع الرسمي لـ OFPPT</a>
+</div>
+
+<div class="training-note"><strong>مهم:</strong> هذه المعلومات للتكوين والتوعية. يجب دائمًا احترام القوانين، وتعليمات الشركة والمُصنّع، وظروف الطريق الفعلية.</div>
+
+<div class="cards">
+
+<div class="card"><h2>🛡️ 1. السياقة الدفاعية</h2>
+<p>السياقة الدفاعية تعني توقع المخاطر وعدم افتراض أن مستعملي الطريق الآخرين سيتصرفون دائمًا بالشكل الصحيح.</p>
+<ul><li>الحفاظ على مسافة أمان مناسبة.</li><li>تكييف السرعة مع الحمولة والطريق والمرور والطقس.</li><li>مراقبة المرايا والنقاط العمياء باستمرار.</li><li>توقع الفرملة وتغيير المسار وأخطاء الآخرين.</li><li>عدم القيادة مع التعب أو النعاس أو التشتت.</li><li>عند الخطر: تخفيف السرعة والبحث عن تصرف آمن.</li></ul>
+</div>
+
+<div class="card"><h2>⛽ 2. السياقة الاقتصادية</h2>
+<p>السياقة الاقتصادية تهدف إلى تقليل استهلاك الوقود وتآكل الشاحنة دون التضحية بالسلامة.</p>
+<ul><li>التسارع تدريجيًا وتجنب التسارع غير الضروري.</li><li>الحفاظ على سرعة مستقرة عندما تسمح الظروف.</li><li>استعمال السرعات وأنظمة التباطؤ بطريقة صحيحة.</li><li>تجنب الفرملة والتسارع المتكرر الذي يمكن توقعه.</li><li>فحص ضغط الإطارات.</li><li>الالتزام بالصيانة الدورية.</li><li>عدم محاولة توفير الوقود بطريقة تعرض السائق أو الآخرين للخطر.</li></ul>
+</div>
+
+<div class="card"><h2>↩️ 3. الرجوع إلى الخلف بالشاحنة والمقطورة</h2>
+<p>الرجوع إلى الخلف يحتاج إلى الصبر والسرعة البطيئة والتحكم المستمر.</p>
+<ul><li>فحص المنطقة قبل بداية المناورة.</li><li>ضبط المرايا ومعرفة النقاط العمياء.</li><li>فهم حركة المقطورة عند تحريك المقود.</li><li>إجراء تصحيحات صغيرة وتدريجية.</li><li>الاستعانة بمراقب عند الحاجة.</li><li>التوقف فورًا عند فقدان الرؤية أو وجود شك.</li><li>عدم التضحية بالسلامة من أجل إنهاء المناورة بسرعة.</li></ul>
+</div>
+
+<div class="card"><h2>🛑 4. الفرملة والتحكم في الشاحنة</h2>
+<p>وزن الشاحنة والحمولة يؤثران مباشرة على مسافة التوقف وسلوك المركبة.</p>
+<ul><li>الحفاظ على مسافة أمان كافية.</li><li>توقع الحالات التي تحتاج إلى الفرملة.</li><li>استعمال فرامل المحرك أو الريتاردر بطريقة صحيحة إذا كانت الشاحنة مجهزة بهما.</li><li>في المنحدرات الطويلة لا تعتمد فقط على فرامل الخدمة.</li><li>التحكم في السرعة قبل المنعطفات والمنحدرات.</li></ul>
+</div>
+
+<div class="card"><h2>⚖️ 5. الحمولة وتوزيع الوزن</h2>
+<p>الحمولة غير المتوازنة قد تؤثر على الثبات والفرملة والتحكم في الشاحنة والمقطورة.</p>
+<ul><li>احترام حدود الوزن القانونية.</li><li>توزيع الحمولة بشكل صحيح.</li><li>تثبيت البضائع حسب طبيعتها.</li><li>فحص الأبواب وأدوات الإغلاق والتثبيت.</li><li>إعادة فحص الحمولة بعد التوقف عند الحاجة.</li></ul>
+</div>
+
+<div class="card"><h2>🔧 6. فحص الشاحنة قبل الانطلاق</h2>
+<p>قبل الرحلة يجب التأكد من أن الشاحنة والمقطورة في حالة مناسبة وآمنة للسير.</p>
+<ul><li>الإطارات وأي أضرار ظاهرة.</li><li>الفرامل والوصلات.</li><li>الأضواء والإشارات.</li><li>مستويات السوائل وأي تسرب.</li><li>المرايا والأبواب وعناصر السلامة.</li><li>وصلات الجر بين الشاحنة والمقطورة.</li></ul>
+</div>
+
+<div class="card"><h2>🌧️ 7. القيادة في الظروف الصعبة</h2>
+<p>المطر والضباب والرياح والثلوج والطرق الجبلية تحتاج إلى تكييف السرعة ومسافة الأمان.</p>
+<ul><li>تخفيض السرعة عند انخفاض الرؤية أو تماسك الطريق.</li><li>زيادة مسافة الأمان.</li><li>الانتباه بشكل خاص للرياح الجانبية مع المركبات المرتفعة.</li><li>تجنب المناورات المفاجئة.</li><li>إذا أصبحت الظروف خطيرة، التوقف في مكان آمن عند الحاجة.</li></ul>
+</div>
+
+<div class="card"><h2>🪞 8. المرايا والنقاط العمياء</h2>
+<p>الشاحنات والمقطورات تحتوي على مناطق لا يستطيع السائق رؤيتها مباشرة.</p>
+<ul><li>فحص المرايا قبل تغيير الاتجاه أو المسار.</li><li>عدم الاعتماد على مرآة واحدة فقط.</li><li>الانتباه بشكل خاص عند الانعطاف إلى اليمين.</li><li>تذكر أن الدراجات والراجلين والسيارات الصغيرة قد تختفي في النقاط العمياء.</li><li>استعمال أنظمة المساعدة الموجودة في المركبة بشكل صحيح.</li></ul>
+</div>
+
+<div class="card"><h2>📋 9. الوثائق والمسؤولية المهنية</h2>
+<p>السائق المهني مسؤول عن معرفة ومراقبة الوثائق المطلوبة لرحلته.</p>
+<ul><li>الوثائق الشخصية ورخصة السياقة.</li><li>وثائق الشاحنة والمقطورة.</li><li>الوثائق المتعلقة بالحمولة.</li><li>الوثائق المطلوبة للنقل الدولي عندما تنطبق.</li><li>التحقق من المعلومات قبل الانطلاق وإبلاغ المسؤول عن أي خلل.</li></ul>
+</div>
+
+<div class="card"><h2>🎓 10. اختبار السائق</h2>
+<p>بعد دراسة المحاور يمكن للسائق اختبار معلوماته بأسئلة حول السلامة والفرملة والحمولة والرجوع إلى الخلف والاستهلاك والوثائق.</p>
+<ol><li>ماذا تفعل إذا فقدت الرؤية أثناء الرجوع إلى الخلف؟</li><li>لماذا يجب زيادة مسافة الأمان مع الشاحنة؟</li><li>ما العناصر التي يجب فحصها قبل الرحلة؟</li><li>كيف تؤثر الحمولة غير المتوازنة على المركبة؟</li><li>لماذا لا يجب توفير الوقود على حساب السلامة؟</li></ol>
+</div>
+
+</div>
+
+<div class="card">
+<h2>🏫 التكوين المهني OFPPT</h2>
+<p>يوفر OFPPT تكوينات مرتبطة بالنقل الطرقي واللوجستيك. يجب التأكد مباشرة من الشعب والمقاعد المتاحة قبل التسجيل.</p>
+</div>
+
+
+
+@endif
+
+<div class="card">
+@if(app()->getLocale() === 'es')
+<h2>🚛 Formación e integración de conductores principiantes en Marruecos</h2>
+
+<h3>🟢 JEB Training Center</h3>
+<p>🌐 <a href="https://www.jebtrainingcenter.com/" target="_blank" rel="noopener noreferrer">Sitio web oficial de JEB Training Center</a></p>
+<p>Centro de formación profesional en transporte y logística. Sus programas internacionales se dirigen principalmente a personas que entran por primera vez en el sector del transporte profesional.</p>
+<p><strong>Ciudad:</strong> Casablanca</p>
+<p><strong>Estado:</strong> Formación para principiantes. La integración laboral debe verificarse según el programa disponible.</p>
+
+<h3>🟢 ALSA – Centro de Formación</h3>
+<p>🌐 <a href="https://www.alsa.ma/ar/centre-de-formation" target="_blank" rel="noopener noreferrer">Sitio web oficial de ALSA – Centro de Formación</a></p>
+<p>Centro reconocido por el Ministerio de Equipamiento y Transporte para la formación de conductores profesionales. Ofrece FQIMO y FCO, incluida la formación para el transporte de mercancías.</p>
+<p><strong>Estado:</strong> Formación profesional. No presentamos el empleo posterior como garantizado.</p>
+
+<h3>🟢 Toogo + EFE-Maroc</h3>
+<h3>🔵 OFPPT / IFTL</h3>
+<p>Formación profesional relacionada con el transporte por carretera y la logística. Compruebe directamente los programas y plazas disponibles.</p>
+<p>🌐 <a href="https://www.ofppt.ma/" target="_blank" rel="noopener noreferrer">Sitio oficial de OFPPT</a></p>
+<p>🌐 <a href="https://toogo.ma/" target="_blank" rel="noopener noreferrer">Sitio web oficial de Toogo</a> | <a href="https://efemaroc.org/" target="_blank" rel="noopener noreferrer">Sitio web oficial de EFE-Maroc</a></p>
+<p>🌐 <a href="https://toogo.ma/" target="_blank" rel="noopener noreferrer">Sitio oficial de Toogo</a> | <a href="https://efemaroc.org/" target="_blank" rel="noopener noreferrer">Sitio oficial de EFE-Maroc</a></p>
+<p>En 2026 se anunció un programa para identificar, formar y acompañar a más de 500 jóvenes hacia la profesión de conductor, con preparación para el empleo e integración profesional.</p>
+<p><strong>Ciudades iniciales:</strong> Casablanca, Rabat, Salé y Kénitra.</p>
+
+<h3>🔵 OFPPT / IFTL</h3>
+<p>Formación profesional relacionada con el transporte por carretera y la logística. Compruebe directamente las plazas, condiciones y programas disponibles.</p>
+
+@elseif(app()->getLocale() === 'fr')
+<h2>🚛 Formation et intégration des chauffeurs débutants au Maroc</h2>
+
+<h3>🟢 JEB Training Center</h3>
+<p>🌐 <a href="https://www.jebtrainingcenter.com/" target="_blank" rel="noopener noreferrer">Site officiel de JEB Training Center</a></p>
+<p>Centre de formation professionnelle dans le transport et la logistique. Ses programmes internationaux s'adressent principalement aux personnes qui entrent pour la première fois dans le secteur du transport professionnel.</p>
+<p><strong>Ville :</strong> Casablanca</p>
+<p><strong>Statut :</strong> Formation pour débutants. L'insertion professionnelle doit être vérifiée selon le programme disponible.</p>
+
+<h3>🟢 ALSA – Centre de Formation</h3>
+<p>🌐 <a href="https://www.alsa.ma/ar/centre-de-formation" target="_blank" rel="noopener noreferrer">Site officiel d’ALSA – Centre de Formation</a></p>
+<p>Centre reconnu par le Ministère de l'Équipement et du Transport pour la formation des conducteurs professionnels. Il propose la FQIMO et la FCO, notamment pour le transport de marchandises.</p>
+<p><strong>Statut :</strong> Formation professionnelle. Nous ne présentons pas l'emploi après formation comme garanti.</p>
+
+<h3>🟢 Toogo + EFE-Maroc</h3>
+<p>En 2026, un programme a été annoncé pour identifier, former et accompagner plus de 500 jeunes vers le métier de chauffeur, avec préparation à l'emploi et parcours d'intégration professionnelle.</p>
+<p><strong>Premières villes :</strong> Casablanca, Rabat, Salé et Kénitra.</p>
+
+<h3>🔵 OFPPT / IFTL</h3>
+<p>Formation professionnelle liée au transport routier et à la logistique. Vérifiez directement les places, conditions et programmes disponibles.</p>
+
+@elseif(app()->getLocale() === 'en')
+<h2>🚛 Beginner driver training and professional integration in Morocco</h2>
+
+<h3>🟢 JEB Training Center</h3>
+<p>🌐 <a href="https://www.jebtrainingcenter.com/" target="_blank" rel="noopener noreferrer">Official JEB Training Center website</a></p>
+<p>Professional training centre in transport and logistics. Contact the centre directly to confirm current courses and admission conditions.</p>
+<p><strong>City:</strong> Casablanca</p>
+
+<h3>🟢 ALSA – Training Centre</h3>
+<p>🌐 <a href="https://www.alsa.ma/ar/centre-de-formation" target="_blank" rel="noopener noreferrer">Official ALSA training centre page</a></p>
+<p>Contact the centre directly to confirm available professional driver courses, eligibility and current recognition status.</p>
+
+<h3>🟢 Toogo + EFE-Maroc</h3>
+<p>These organisations may publish training and employment-support programmes. Check their current announcements, locations and eligibility directly before applying.</p>
+<p>🌐 <a href="https://toogo.ma/" target="_blank" rel="noopener noreferrer">Official Toogo website</a> | <a href="https://efemaroc.org/" target="_blank" rel="noopener noreferrer">Official EFE-Maroc website</a></p>
+
+<h3>🔵 OFPPT / IFTL</h3>
+<p>Training related to road transport and logistics. Check available courses and places directly with the institutions.</p>
+
+@else
+<h2>🚛 تكوين وإدماج السائقين المبتدئين في المغرب</h2>
+
+<h3>🟢 JEB Training Center</h3>
+<p>🌐 <a href="https://www.jebtrainingcenter.com/" target="_blank" rel="noopener noreferrer">الموقع الرسمي لـ JEB Training Center</a></p>
+<p>مركز للتكوين المهني في النقل واللوجستيك. برامجه الدولية موجهة أيضًا للأشخاص الذين يدخلون قطاع النقل المهني لأول مرة.</p>
+<p><strong>المدينة:</strong> الدار البيضاء</p>
+<p><strong>الحالة:</strong> تكوين مناسب للمبتدئين. يجب التحقق من الإدماج المهني حسب البرنامج المتاح.</p>
+
+<h3>🟢 ALSA – مركز التكوين</h3>
+<p>🌐 <a href="https://www.alsa.ma/ar/centre-de-formation" target="_blank" rel="noopener noreferrer">الموقع الرسمي لـ ALSA – مركز التكوين</a></p>
+<p>مركز معترف به من وزارة التجهيز والنقل لتكوين السائقين المهنيين. يقدم FQIMO وFCO، بما في ذلك تكوين نقل البضائع.</p>
+<p><strong>الحالة:</strong> تكوين مهني. لا نعتبر التوظيف بعد التكوين مضمونًا.</p>
+
+<h3>🟢 Toogo + EFE-Maroc</h3>
+<p>أُعلن في سنة 2026 عن برنامج لتحديد وتكوين ومواكبة أكثر من 500 شاب نحو مهنة السائق، مع التحضير للعمل ومسار للإدماج المهني.</p>
+<p><strong>المدن الأولى:</strong> الدار البيضاء، الرباط، سلا والقنيطرة.</p>
+
+<h3>🔵 OFPPT / IFTL</h3>
+<p>تكوين مهني مرتبط بالنقل الطرقي واللوجستيك. يجب التأكد مباشرة من المقاعد والشروط والبرامج المتاحة.</p>
+@endif
+
+<div class="warning">
+@if(app()->getLocale() === 'es')
+<p>⚠️ Edriouche Truck Job no garantiza la contratación. Compruebe siempre la información directamente con la institución antes de desplazarse o enviar documentos.</p>
+@elseif(app()->getLocale() === 'fr')
+<p>⚠️ Edriouche Truck Job ne garantit pas l'embauche. Vérifiez toujours les informations directement auprès de l'organisme avant de vous déplacer ou d'envoyer des documents.</p>
+@elseif(app()->getLocale() === 'en')
+<p>⚠️ Edriouche Truck Job does not guarantee employment. Always verify information directly with the institution before travelling or sending documents.</p>
+@else
+<p>⚠️ Edriouche Truck Job لا يضمن التوظيف. تحقق دائمًا من المعلومات مباشرة مع المؤسسة قبل التنقل أو إرسال الوثائق.</p>
+@endif
+</div>
+</div>
+
+@if(app()->getLocale() === 'ar')
+<div class="card"><h2>📚 ماذا يتعلم سائق نقل البضائع؟</h2>
+<ul><li>🛡️ السلامة المهنية والوقاية من المخاطر</li><li>🔧 فحص المركبة والتعامل مع الأعطال البسيطة</li><li>📦 تحميل وتثبيت البضائع</li><li>🌍 النقل الدولي والأنظمة الجمركية</li><li>🇫🇷 الفرنسية و🇪🇸 الإسبانية المطبقتان في المهنة</li><li>⚠️ أساسيات نقل المواد الخطرة</li><li>⛽ السياقة الاقتصادية</li><li>💼 الإدماج في وسط العمل</li></ul></div>
+<div class="warning"><h2>🛡️ تنبيه مهم للسائقين</h2><p>Edriouche Truck Job لا يطلب من السائق دفع أموال مقابل وعد بالتوظيف. تحقق دائمًا من الشركة والعنوان ورقم الهاتف والبريد الإلكتروني قبل إرسال وثائقك أو دفع أي مبلغ.</p></div>
+@elseif(app()->getLocale() === 'es')
+<div class="warning"><h2>🛡️ Aviso importante</h2><p>Edriouche Truck Job no pide dinero a los conductores a cambio de una promesa de empleo. Verifique siempre la empresa, dirección, teléfono y correo electrónico antes de enviar documentos o realizar cualquier pago.</p></div>
+@elseif(app()->getLocale() === 'en')
+<div class="warning"><h2>🛡️ Important warning</h2><p>Edriouche Truck Job never asks drivers to pay money in exchange for a promise of employment. Always verify the company, address, phone number and email before sending documents or making any payment.</p></div>
+@else
+<div class="warning"><h2>🛡️ Avertissement important</h2><p>Edriouche Truck Job ne demande pas d'argent aux conducteurs en échange d'une promesse d'emploi. Vérifiez toujours l'entreprise, l'adresse, le téléphone et l'e-mail avant d'envoyer vos documents ou d'effectuer un paiement.</p></div>
+@endif
+
+<div style="text-align:center;">
+@if(app()->getLocale() === 'es')
+<a class="button" href="/jobs">🚛 Ofertas de empleo</a>
+<a class="button" href="/companies">🏢 Empresas de transport</a>
+<a class="button" href="/">🏠 Inicio</a>
+@elseif(app()->getLocale() === 'fr')
+<a class="button" href="/jobs">🚛 Offres d'emploi</a>
+<a class="button" href="/companies">🏢 Entreprises de transport</a>
+<a class="button" href="/">🏠 Accueil</a>
+@elseif(app()->getLocale() === 'en')
+<a class="button" href="/jobs">🚛 Job offers</a>
+<a class="button" href="/companies">🏢 Transport companies</a>
+<a class="button" href="/">🏠 Home</a>
+@else
+<a class="button" href="/jobs">🚛 عروض العمل</a>
+<a class="button" href="/companies">🏢 شركات النقل</a>
+<a class="button" href="/">🏠 الرئيسية</a>
+@endif
+</div>
+
+</div>
+
+<footer>© 2026 Edriouche Truck Job</footer>
+
+</body>
+</html>

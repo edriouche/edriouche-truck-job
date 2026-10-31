@@ -496,8 +496,7 @@
         <div class="card">
             <div class="icon">📚</div>
             <h3>Formación y reglas</h3>
-            <a href="/training">🎓 Formación</a><br>
-            <a href="/training-centers">🏫 Centros de formación</a><br>
+            <a href="/training">🎓 Academia del Conductor Profesional</a><br>
             <a href="/spain-law">⚖️ Ley del transporte en España</a><br>
             <a href="/cap-code95-spain">🇪🇺 CAP / Code 95 — Polonia, Lituania y trabajo en España</a><br>
             <a href="/professional-driver-card">🇲🇦 Tarjeta profesional del conductor en Marruecos</a><br>
@@ -529,8 +528,7 @@
         <div class="card">
             <div class="icon">📚</div>
             <h3>Formation et règles</h3>
-            <a href="/training">🎓 Formation</a><br>
-            <a href="/training-centers">🏫 Centres de formation</a><br>
+            <a href="/training">🎓 Académie du Conducteur Professionnel</a><br>
             <a href="/spain-law">⚖️ Loi du transport en Espagne</a><br>
             <a href="/cap-code95-spain">🇪🇺 CAP / Code 95 — Pologne, Lituanie et travail en Espagne</a><br>
             <a href="/professional-driver-card">🇲🇦 Carte professionnelle du conducteur au Maroc</a><br>
@@ -562,8 +560,7 @@
         <div class="card">
             <div class="icon">📚</div>
             <h3>التكوين والقواعد</h3>
-            <a href="/training">🎓 التكوين</a><br>
-            <a href="/training-centers">🏫 مراكز وشركات تكوين السائقين</a><br>
+            <a href="/training">🎓 أكاديمية السائق المحترف</a><br>
             <a href="/spain-law">⚖️ قانون النقل في إسبانيا</a><br>
             <a href="/cap-code95-spain">🇪🇺 CAP / Code 95 — بولونيا وليتوانيا والعمل في إسبانيا</a><br>
             <a href="/professional-driver-card">🇲🇦 البطاقة المهنية للسائق المغربي</a><br>

@@ -9,6 +9,8 @@
         <title>Formación para conductores | Edriouche Truck Job</title>
     @elseif(app()->getLocale() === 'fr')
         <title>Formation des conducteurs | Edriouche Truck Job</title>
+    @elseif(app()->getLocale() === 'en')
+        <title>Professional Driver Training | Edriouche Truck Job</title>
     @else
         <title>تكوين السائقين | Edriouche Truck Job</title>
     @endif
@@ -40,6 +42,9 @@
 @elseif(app()->getLocale() === 'fr')
     <h1>🚛 Formation et développement professionnel des conducteurs</h1>
     <p>Edriouche Truck Job</p>
+@elseif(app()->getLocale() === 'en')
+    <h1>🚛 Professional Driver Training and Development</h1>
+    <p>Edriouche Truck Job</p>
 @else
     <h1>🚛 تكوين وتطوير السائقين المهنيين</h1>
     <p>Edriouche Truck Job</p>
@@ -51,6 +56,7 @@
 <a class="back" href="/">
 @if(app()->getLocale() === 'es') ⬅️ Volver a la página principal
 @elseif(app()->getLocale() === 'fr') ⬅️ Retour à l'accueil
+@elseif(app()->getLocale() === 'en') ⬅️ Back to homepage
 @else ⬅️ العودة إلى الرئيسية
 @endif
 </a>
@@ -90,6 +96,16 @@
         <a class="button" href="https://genadec.com/pf/conducteurs-professionnels/" target="_blank">📚 Formation des conducteurs</a>
     </div>
 
+@elseif(app()->getLocale() === 'en')
+    <h2>🏫 Driver training centres and organisations</h2>
+    <p>Alongside OFPPT, you can contact specialist organisations offering professional driver training.</p>
+    <div class="center">
+        <h3>🚛 GENADEC</h3>
+        <p>Professional driver training in goods and passenger transport, with modules that may include defensive driving, economical driving and ADR. Confirm current courses directly.</p>
+        <p>📍 Training centre: Gueznaya, Tangier</p>
+        <a class="button" href="https://genadec.com/" target="_blank" rel="noopener noreferrer">🌐 Official GENADEC website</a>
+        <a class="button" href="https://genadec.com/pf/conducteurs-professionnels/" target="_blank" rel="noopener noreferrer">📚 Driver training</a>
+    </div>
 @else
     <h2>🏫 شركات ومراكز تكوين السائقين</h2>
     <p>بالإضافة إلى OFPPT، تجد هنا مراكز وشركات متخصصة في تكوين السائقين المهنيين.</p>
@@ -104,7 +120,17 @@
 @endif
 </div>
 
-<div class="training-note"><strong>Importante:</strong> La formación en esta página es educativa. Siempre deben respetarse las leyes, las instrucciones del fabricante, las normas de la empresa y las condiciones reales de la carretera.</div>
+<div class="training-note">
+@if(app()->getLocale() === 'es')
+<strong>Importante:</strong> Esta página tiene fines educativos. Respete siempre las leyes, las instrucciones del fabricante, las normas de la empresa y las condiciones reales de la carretera.
+@elseif(app()->getLocale() === 'fr')
+<strong>Important :</strong> Cette page est destinée à la formation. Respectez toujours les lois, les instructions du constructeur, les règles de l'entreprise et les conditions réelles de la route.
+@elseif(app()->getLocale() === 'en')
+<strong>Important:</strong> This page is for educational purposes. Always follow the law, manufacturer instructions, company procedures and actual road conditions.
+@else
+<strong>مهم:</strong> هذه الصفحة للتكوين والتوعية. يجب احترام القوانين وتعليمات المصنّع وقواعد الشركة وظروف الطريق الفعلية.
+@endif
+</div>
 
 <div class="cards">
 
@@ -113,6 +139,36 @@
 <ul><li>Mantener una distancia de seguridad suficiente.</li><li>Adaptar la velocidad a la carga, carretera, tráfico y meteorología.</li><li>Controlar regularmente los espejos y los ángulos muertos.</li><li>Anticipar frenadas, cambios de carril y errores de otros usuarios.</li><li>No conducir con fatiga, somnolencia o distracciones.</li><li>En una situación peligrosa, reducir la velocidad y buscar una salida segura.</li></ul>
 </div>
 
+<section class="card quiz-card" data-quiz="es" style="margin:20px 0;padding:18px;border:2px solid #287a52;border-radius:12px;">
+<h2>📝 اختبار القيادة الدفاعية</h2>
+<p>اختر إجابة واحدة لكل سؤال، ثم اضغط على زر التصحيح.</p>
+<fieldset data-correct="b" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>1. ¿Por qué debemos mantener una distancia de seguridad?</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="es_q1" value="a"> Para ahorrar combustible</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="es_q1" value="b"> Para poder detenernos con seguridad</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="es_q1" value="c"> Para conducir más rápido</label>
+</fieldset>
+<fieldset data-correct="a" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>2. ¿Qué hacemos cuando cambian el clima o las condiciones de la carretera?</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="es_q2" value="a"> Adaptamos la velocidad</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="es_q2" value="b"> Mantenemos siempre la misma velocidad</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="es_q2" value="c"> Aceleramos</label>
+</fieldset>
+<fieldset data-correct="b" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>3. ¿Qué debemos comprobar antes de cambiar de carril?</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="es_q3" value="a"> Solo el velocímetro</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="es_q3" value="b"> Los espejos y los ángulos muertos</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="es_q3" value="c"> La radio</label>
+</fieldset>
+<fieldset data-correct="c" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>4. ¿Qué hacemos si sentimos sueño al conducir?</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="es_q4" value="a"> Seguimos conduciendo</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="es_q4" value="b"> Abrimos la ventana y continuamos</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="es_q4" value="c"> Paramos en un lugar seguro y descansamos</label>
+</fieldset>
+<button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">تصحيح الإجابات</button>
+<p class="quiz-result" aria-live="polite" style="font-weight:bold;margin-top:14px;"></p>
+</section>
 <div class="card"><h2>⛽ 2. Conducción económica</h2>
 <p>La conducción económica busca reducir el consumo y el desgaste sin comprometer la seguridad.</p>
 <ul><li>Acelerar progresivamente y evitar aceleraciones innecesarias.</li><li>Mantener una velocidad estable cuando las condiciones lo permitan.</li><li>Usar correctamente las marchas y los sistemas de retención.</li><li>Evitar frenadas y aceleraciones repetidas que podrían anticiparse.</li><li>Comprobar la presión de los neumáticos.</li><li>Realizar el mantenimiento correctamente.</li><li>No buscar ahorro mediante una conducción peligrosa.</li></ul>
@@ -135,6 +191,7 @@
 
 <div class="card"><h2>🔧 6. Inspección antes de salir</h2>
 <p>Antes de iniciar un viaje, el conductor debe comprobar que el vehículo y el remolque están en condiciones adecuadas.</p>
+<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/truck-pretrip-inspection.svg') }}" alt="Inspección visual: neumáticos, frenos, luces, espejos, fugas y acoplamiento." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Inspección visual: neumáticos, frenos, luces, espejos, fugas y acoplamiento.</figcaption></figure>
 <ul><li>Neumáticos y posibles daños.</li><li>Frenos y conexiones.</li><li>Luces e indicadores.</li><li>Niveles y posibles fugas.</li><li>Espejos, puertas y elementos de seguridad.</li><li>Conexiones entre tractor y remolque.</li></ul>
 </div>
 
@@ -145,6 +202,7 @@
 
 <div class="card"><h2>🪞 8. Espejos y ángulos muertos</h2>
 <p>Los vehículos pesados tienen zonas que el conductor no puede observar directamente.</p>
+<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/blind-spots-truck.svg') }}" alt="Zonas ciegas alrededor del camión y el remolque." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.95em;line-height:1.7;">Los ángulos muertos son zonas que no se ven directamente ni con los espejos. Antes de cambiar de carril, girar o dar marcha atrás, revisa los espejos y comprueba que la zona esté libre. Usa las cámaras si están disponibles, pero no dependas solo de ellas.</figcaption></figure>
 <ul><li>Revisar los espejos antes de cambiar de dirección o carril.</li><li>No confiar únicamente en un espejo.</li><li>Comprobar cuidadosamente antes de girar a la derecha.</li><li>Recordar que motocicletas, bicicletas y peatones pueden quedar ocultos.</li><li>Utilizar correctamente los sistemas de asistencia disponibles.</li></ul>
 </div>
 
@@ -182,6 +240,36 @@
 <ul><li>Maintenir une distance de sécurité suffisante.</li><li>Adapter la vitesse à la charge, à la route, au trafic et à la météo.</li><li>Contrôler régulièrement les rétroviseurs et les angles morts.</li><li>Anticiper les freinages, changements de voie et erreurs des autres usagers.</li><li>Ne pas conduire en cas de fatigue, somnolence ou distraction.</li><li>En situation dangereuse, ralentir et rechercher une solution sûre.</li></ul>
 </div>
 
+<section class="card quiz-card" data-quiz="fr" style="margin:20px 0;padding:18px;border:2px solid #287a52;border-radius:12px;">
+<h2>📝 Quiz de conduite défensive</h2>
+<p>اختر إجابة واحدة لكل سؤال، ثم اضغط على زر التصحيح.</p>
+<fieldset data-correct="b" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>1. Pourquoi garder une distance de sécurité ?</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="fr_q1" value="a"> Pour économiser du carburant</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="fr_q1" value="b"> Pour pouvoir s'arrêter en sécurité</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="fr_q1" value="c"> Pour rouler plus vite</label>
+</fieldset>
+<fieldset data-correct="a" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>2. Que faire si la météo ou la route change ?</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="fr_q2" value="a"> Adapter sa vitesse</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="fr_q2" value="b"> Garder toujours la même vitesse</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="fr_q2" value="c"> Accélérer</label>
+</fieldset>
+<fieldset data-correct="b" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>3. Que vérifier avant de changer de voie ?</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="fr_q3" value="a"> Seulement le compteur</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="fr_q3" value="b"> Les rétroviseurs et les angles morts</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="fr_q3" value="c"> La radio</label>
+</fieldset>
+<fieldset data-correct="c" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>4. Que faire en cas de somnolence ?</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="fr_q4" value="a"> Continuer à conduire</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="fr_q4" value="b"> Ouvrir la fenêtre et continuer</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="fr_q4" value="c"> S'arrêter en sécurité et se reposer</label>
+</fieldset>
+<button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">تصحيح الإجابات</button>
+<p class="quiz-result" aria-live="polite" style="font-weight:bold;margin-top:14px;"></p>
+</section>
 <div class="card"><h2>⛽ 2. Conduite économique</h2>
 <p>La conduite économique vise à réduire la consommation et l'usure sans compromettre la sécurité.</p>
 <ul><li>Accélérer progressivement.</li><li>Maintenir une vitesse régulière lorsque les conditions le permettent.</li><li>Utiliser correctement les rapports et les systèmes de ralentissement.</li><li>Éviter les accélérations et freinages inutiles.</li><li>Contrôler la pression des pneus.</li><li>Respecter l'entretien du véhicule.</li><li>Ne jamais rechercher l'économie au détriment de la sécurité.</li></ul>
@@ -204,6 +292,7 @@
 
 <div class="card"><h2>🔧 Contrôle avant le départ</h2>
 <p>Avant un trajet, le conducteur doit vérifier que le véhicule et la remorque sont en état approprié.</p>
+<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/truck-pretrip-inspection.svg') }}" alt="Contrôle visuel : pneus, freins, feux, rétroviseurs, fuites et attelage." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Contrôle visuel : pneus, freins, feux, rétroviseurs, fuites et attelage.</figcaption></figure>
 <ul><li>Pneus et dommages éventuels.</li><li>Freins et connexions.</li><li>Feux et indicateurs.</li><li>Niveaux et éventuelles fuites.</li><li>Rétroviseurs, portes et éléments de sécurité.</li><li>Connexions entre le tracteur et la remorque.</li></ul>
 </div>
 
@@ -214,6 +303,7 @@
 
 <div class="card"><h2>🪞 Rétroviseurs et angles morts</h2>
 <p>Les véhicules lourds possèdent des zones qui ne peuvent pas être observées directement par le conducteur.</p>
+<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/blind-spots-truck.svg') }}" alt="Zones aveugles autour du camion et de la remorque." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.95em;line-height:1.7;">Les angles morts sont des zones que le conducteur ne voit ni directement ni dans les rétroviseurs. Avant de changer de voie, de tourner ou de reculer, vérifiez les rétroviseurs et assurez-vous que la zone est libre. Utilisez les caméras si elles existent, sans vous y fier uniquement.</figcaption></figure>
 <ul><li>Vérifier les rétroviseurs avant un changement de direction ou de voie.</li><li>Ne pas dépendre d'un seul rétroviseur.</li><li>Être particulièrement prudent lors des virages à droite.</li><li>Se rappeler que les motos, vélos et piétons peuvent être masqués.</li><li>Utiliser correctement les systèmes d'assistance disponibles.</li></ul>
 </div>
 
@@ -234,6 +324,96 @@
 <p>L'OFPPT propose des formations liées au transport routier et à la logistique. Il faut vérifier directement les spécialités et les places disponibles.</p>
 </div>
 
+@elseif(app()->getLocale() === 'en')
+
+<div class="intro">
+<h2>🎓 Professional training for truck drivers</h2>
+<p>Practical learning for new and experienced drivers, focused on road safety, vehicle control, fuel efficiency and professional responsibility.</p>
+<a class="button" href="https://www.ofppt.ma/" target="_blank" rel="noopener noreferrer">🌐 Official OFPPT website</a>
+<a class="button" href="{{ url('/training-centers') }}">🏫 Training centres</a>
+</div>
+
+<div class="training-note"><strong>Important:</strong> This page is for education and awareness. Always follow applicable laws, vehicle manufacturer instructions, company procedures and actual road conditions.</div>
+
+<div class="cards">
+<div class="card"><h2>🛡️ 1. Defensive driving</h2>
+<p>Anticipate hazards and drive safely without assuming that other road users will always act correctly.</p>
+<ul><li>Maintain a safe following distance.</li><li>Adjust speed to the load, road, traffic and weather.</li><li>Check mirrors and blind spots regularly.</li><li>Anticipate braking and lane changes.</li><li>Never drive when fatigued, sleepy or distracted.</li></ul></div>
+
+<section class="card quiz-card" data-quiz="en" style="margin:20px 0;padding:18px;border:2px solid #287a52;border-radius:12px;">
+<h2>📝 Defensive Driving Quiz</h2>
+<p>اختر إجابة واحدة لكل سؤال، ثم اضغط على زر التصحيح.</p>
+<fieldset data-correct="b" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>1. Why should we keep a safe following distance?</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="en_q1" value="a"> To save fuel</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="en_q1" value="b"> To stop safely when needed</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="en_q1" value="c"> To drive faster</label>
+</fieldset>
+<fieldset data-correct="a" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>2. What should we do when weather or road conditions change?</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="en_q2" value="a"> Adjust our speed</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="en_q2" value="b"> Always keep the same speed</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="en_q2" value="c"> Accelerate</label>
+</fieldset>
+<fieldset data-correct="b" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>3. What should we check before changing lanes?</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="en_q3" value="a"> Only the speedometer</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="en_q3" value="b"> Mirrors and blind spots</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="en_q3" value="c"> The radio</label>
+</fieldset>
+<fieldset data-correct="c" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>4. What should we do if we feel sleepy while driving?</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="en_q4" value="a"> Keep driving</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="en_q4" value="b"> Open the window and continue</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="en_q4" value="c"> Stop somewhere safe and rest</label>
+</fieldset>
+<button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">تصحيح الإجابات</button>
+<p class="quiz-result" aria-live="polite" style="font-weight:bold;margin-top:14px;"></p>
+</section>
+<div class="card"><h2>⛽ 2. Economical driving</h2>
+<p>Reduce fuel consumption and vehicle wear without compromising safety.</p>
+<ul><li>Accelerate smoothly.</li><li>Maintain a steady speed when conditions allow.</li><li>Use gears and retarders correctly.</li><li>Avoid unnecessary braking and acceleration.</li><li>Check tyre pressure and maintain the vehicle regularly.</li></ul></div>
+
+<div class="card"><h2>↩️ 3. Reversing with a truck and trailer</h2>
+<p>Reversing requires patience, low speed and constant observation.</p>
+<ul><li>Inspect the area before manoeuvring.</li><li>Adjust mirrors and identify blind spots.</li><li>Understand how the trailer responds to steering.</li><li>Make small, gradual corrections.</li><li>Use a guide when necessary.</li><li>Stop immediately if you lose sight or are unsure.</li></ul></div>
+
+<div class="card"><h2>🛑 4. Braking and vehicle control</h2>
+<p>Vehicle weight and load directly affect stopping distance and stability.</p>
+<ul><li>Keep a sufficient safety distance.</li><li>Anticipate situations requiring braking.</li><li>Use engine braking or a retarder correctly when fitted.</li><li>Do not rely only on service brakes on long descents.</li><li>Reduce speed before bends and downhill sections.</li></ul></div>
+
+<div class="card"><h2>⚖️ 5. Cargo and weight distribution</h2>
+<p>Poorly distributed cargo can affect stability, braking and vehicle control.</p>
+<ul><li>Respect legal weight limits.</li><li>Distribute the load correctly.</li><li>Secure cargo according to its type.</li><li>Check doors, locks and securing equipment.</li><li>Recheck the load when necessary during the journey.</li></ul></div>
+
+<div class="card"><h2>🔧 6. Pre-trip vehicle inspection</h2>
+<p>Check that the truck and trailer are safe and roadworthy before departure.</p>
+<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/truck-pretrip-inspection.svg') }}" alt="Visual check: tyres, brakes, lights, mirrors, leaks and trailer coupling." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Visual check: tyres, brakes, lights, mirrors, leaks and trailer coupling.</figcaption></figure>
+<ul><li>Tyres and visible damage.</li><li>Brakes and connections.</li><li>Lights and indicators.</li><li>Fluid levels and possible leaks.</li><li>Mirrors, doors and safety equipment.</li><li>Coupling between truck and trailer.</li></ul></div>
+
+<div class="card"><h2>🌧️ 7. Driving in difficult conditions</h2>
+<p>Rain, fog, wind, snow and mountain roads require adjusted speed and safety distance.</p>
+<ul><li>Reduce speed when visibility or grip is poor.</li><li>Increase the following distance.</li><li>Watch for crosswinds, especially with high-sided vehicles.</li><li>Avoid sudden manoeuvres.</li><li>Stop in a safe place if conditions become dangerous.</li></ul></div>
+
+<div class="card"><h2>🪞 8. Mirrors and blind spots</h2>
+<p>Trucks and trailers have areas that the driver cannot see directly.</p>
+<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/blind-spots-truck.svg') }}" alt="Blind spots around the truck and trailer." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.95em;line-height:1.7;">Blind spots are areas the driver cannot see directly or in the mirrors. Before changing lanes, turning or reversing, check the mirrors and make sure the area is clear. Use cameras if available, but never rely on them alone.</figcaption></figure>
+<ul><li>Check mirrors before changing direction or lane.</li><li>Never rely on only one mirror.</li><li>Pay special attention when turning right.</li><li>Look out for cyclists, pedestrians and small vehicles.</li><li>Use vehicle assistance systems correctly.</li></ul></div>
+
+<div class="card"><h2>📋 9. Documents and professional responsibility</h2>
+<p>Professional drivers must know and check the documents required for each journey.</p>
+<ul><li>Personal documents and driving licence.</li><li>Truck and trailer documents.</li><li>Cargo documents.</li><li>International transport documents where applicable.</li><li>Check details before departure and report irregularities.</li></ul></div>
+
+<div class="card"><h2>🎓 10. Driver knowledge test</h2>
+<p>Test your knowledge of safety, braking, cargo, reversing, fuel consumption and documents.</p>
+<ol><li>What should you do if you lose sight while reversing?</li><li>Why does a heavy vehicle need a greater safety distance?</li><li>What should be checked before a journey?</li><li>How can poorly distributed cargo affect a vehicle?</li><li>Why must fuel saving never come at the expense of safety?</li></ol></div>
+</div>
+
+<div class="card">
+<h2>🏫 OFPPT vocational training</h2>
+<p>OFPPT offers training related to road transport and logistics. Check available courses and places directly with the institution before registering.</p>
+</div>
+
 @else
 
 <div class="intro">
@@ -251,6 +431,36 @@
 <ul><li>الحفاظ على مسافة أمان مناسبة.</li><li>تكييف السرعة مع الحمولة والطريق والمرور والطقس.</li><li>مراقبة المرايا والنقاط العمياء باستمرار.</li><li>توقع الفرملة وتغيير المسار وأخطاء الآخرين.</li><li>عدم القيادة مع التعب أو النعاس أو التشتت.</li><li>عند الخطر: تخفيف السرعة والبحث عن تصرف آمن.</li></ul>
 </div>
 
+<section class="card quiz-card" data-quiz="ar" style="margin:20px 0;padding:18px;border:2px solid #287a52;border-radius:12px;">
+<h2>📝 اختبار السياقة الدفاعية</h2>
+<p>اختر إجابة واحدة لكل سؤال، ثم اضغط على زر التصحيح.</p>
+<fieldset data-correct="b" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>1. لماذا نترك مسافة أمان بين الشاحنات؟</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="ar_q1" value="a"> لتوفير الوقود</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="ar_q1" value="b"> لإتاحة التوقف بأمان</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="ar_q1" value="c"> للقيادة بسرعة أكبر</label>
+</fieldset>
+<fieldset data-correct="a" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>2. ماذا نفعل عندما يتغير الطقس أو وضع الطريق؟</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="ar_q2" value="a"> نكيّف السرعة مع الظروف</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="ar_q2" value="b"> نحافظ دائماً على السرعة نفسها</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="ar_q2" value="c"> نزيد السرعة</label>
+</fieldset>
+<fieldset data-correct="b" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>3. ماذا نفحص قبل تغيير المسار؟</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="ar_q3" value="a"> عداد السرعة فقط</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="ar_q3" value="b"> المرايا والنقاط العمياء</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="ar_q3" value="c"> جهاز الراديو</label>
+</fieldset>
+<fieldset data-correct="c" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
+<legend><strong>4. ماذا نفعل إذا شعرنا بالنعاس أثناء القيادة؟</strong></legend>
+<label style="display:block;margin:9px 0;"><input type="radio" name="ar_q4" value="a"> نواصل القيادة</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="ar_q4" value="b"> نفتح النافذة ونواصل</label>
+<label style="display:block;margin:9px 0;"><input type="radio" name="ar_q4" value="c"> نتوقف في مكان آمن ونأخذ قسطاً من الراحة</label>
+</fieldset>
+<button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">تصحيح الإجابات</button>
+<p class="quiz-result" aria-live="polite" style="font-weight:bold;margin-top:14px;"></p>
+</section>
 <div class="card"><h2>⛽ 2. السياقة الاقتصادية</h2>
 <p>السياقة الاقتصادية تهدف إلى تقليل استهلاك الوقود وتآكل الشاحنة دون التضحية بالسلامة.</p>
 <ul><li>التسارع تدريجيًا وتجنب التسارع غير الضروري.</li><li>الحفاظ على سرعة مستقرة عندما تسمح الظروف.</li><li>استعمال السرعات وأنظمة التباطؤ بطريقة صحيحة.</li><li>تجنب الفرملة والتسارع المتكرر الذي يمكن توقعه.</li><li>فحص ضغط الإطارات.</li><li>الالتزام بالصيانة الدورية.</li><li>عدم محاولة توفير الوقود بطريقة تعرض السائق أو الآخرين للخطر.</li></ul>
@@ -266,13 +476,14 @@
 <ul><li>الحفاظ على مسافة أمان كافية.</li><li>توقع الحالات التي تحتاج إلى الفرملة.</li><li>استعمال فرامل المحرك أو الريتاردر بطريقة صحيحة إذا كانت الشاحنة مجهزة بهما.</li><li>في المنحدرات الطويلة لا تعتمد فقط على فرامل الخدمة.</li><li>التحكم في السرعة قبل المنعطفات والمنحدرات.</li></ul>
 </div>
 
-<div class="card"><h2>⚖️ الحمولة وتوزيع الوزن</h2>
+<div class="card"><h2>⚖️ 5. الحمولة وتوزيع الوزن</h2>
 <p>الحمولة غير المتوازنة قد تؤثر على الثبات والفرملة والتحكم في الشاحنة والمقطورة.</p>
 <ul><li>احترام حدود الوزن القانونية.</li><li>توزيع الحمولة بشكل صحيح.</li><li>تثبيت البضائع حسب طبيعتها.</li><li>فحص الأبواب وأدوات الإغلاق والتثبيت.</li><li>إعادة فحص الحمولة بعد التوقف عند الحاجة.</li></ul>
 </div>
 
 <div class="card"><h2>🔧 6. فحص الشاحنة قبل الانطلاق</h2>
 <p>قبل الرحلة يجب التأكد من أن الشاحنة والمقطورة في حالة مناسبة وآمنة للسير.</p>
+<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/truck-pretrip-inspection.svg') }}" alt="افحص بصرياً الإطارات والفرامل والأضواء والمرايا والتسربات ووصلات المقطورة." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">افحص بصرياً الإطارات والفرامل والأضواء والمرايا والتسربات ووصلات المقطورة.</figcaption></figure>
 <ul><li>الإطارات وأي أضرار ظاهرة.</li><li>الفرامل والوصلات.</li><li>الأضواء والإشارات.</li><li>مستويات السوائل وأي تسرب.</li><li>المرايا والأبواب وعناصر السلامة.</li><li>وصلات الجر بين الشاحنة والمقطورة.</li></ul>
 </div>
 
@@ -283,6 +494,7 @@
 
 <div class="card"><h2>🪞 8. المرايا والنقاط العمياء</h2>
 <p>الشاحنات والمقطورات تحتوي على مناطق لا يستطيع السائق رؤيتها مباشرة.</p>
+<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/blind-spots-truck.svg') }}" alt="النقاط العمياء حول الشاحنة والمقطورة." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.95em;line-height:1.9;">النقاط العمياء هي مناطق حول الشاحنة لا يستطيع السائق رؤيتها مباشرة أو من خلال المرايا. قبل تغيير المسار أو الانعطاف أو الرجوع إلى الخلف، افحص المرايا جيداً وتأكد من خلو المنطقة. استعمل الكاميرات إن وُجدت، ولا تعتمد على المرايا وحدها.</figcaption></figure>
 <ul><li>فحص المرايا قبل تغيير الاتجاه أو المسار.</li><li>عدم الاعتماد على مرآة واحدة فقط.</li><li>الانتباه بشكل خاص عند الانعطاف إلى اليمين.</li><li>تذكر أن الدراجات والراجلين والسيارات الصغيرة قد تختفي في النقاط العمياء.</li><li>استعمال أنظمة المساعدة الموجودة في المركبة بشكل صحيح.</li></ul>
 </div>
 
@@ -303,6 +515,10 @@
 <p>يوفر OFPPT تكوينات مرتبطة بالنقل الطرقي واللوجستيك. يجب التأكد مباشرة من الشعب والمقاعد المتاحة قبل التسجيل.</p>
 </div>
 
+
+
+@endif
+
 <div class="card">
 @if(app()->getLocale() === 'es')
 <h2>🚛 Formación e integración de conductores principiantes en Marruecos</h2>
@@ -319,13 +535,11 @@
 <p><strong>Estado:</strong> Formación profesional. No presentamos el empleo posterior como garantizado.</p>
 
 <h3>🟢 Toogo + EFE-Maroc</h3>
-<h2>🏫 مؤسسات وشركات تكوين السائقين</h2>
-<p>روابط مباشرة لمؤسسات وبرامج التكوين والإدماج المهني للسائقين:</p>
-<p>🌐 <a href="https://www.ofppt.ma/" target="_blank" rel="noopener noreferrer">الموقع الرسمي لـ OFPPT</a></p>
-<p>🌐 <a href="https://toogo.ma/" target="_blank" rel="noopener noreferrer">الموقع الرسمي لـ Toogo</a></p>
-<p>🌐 <a href="https://efemaroc.org/" target="_blank" rel="noopener noreferrer">الموقع الرسمي لـ EFE-Maroc</a></p>
+<h3>🔵 OFPPT / IFTL</h3>
+<p>Formación profesional relacionada con el transporte por carretera y la logística. Compruebe directamente los programas y plazas disponibles.</p>
+<p>🌐 <a href="https://www.ofppt.ma/" target="_blank" rel="noopener noreferrer">Sitio oficial de OFPPT</a></p>
 <p>🌐 <a href="https://toogo.ma/" target="_blank" rel="noopener noreferrer">Sitio web oficial de Toogo</a> | <a href="https://efemaroc.org/" target="_blank" rel="noopener noreferrer">Sitio web oficial de EFE-Maroc</a></p>
-<p>🌐 <a href="https://toogo.ma/" target="_blank" rel="noopener noreferrer">الموقع الرسمي لـ Toogo</a> | <a href="https://efemaroc.org/" target="_blank" rel="noopener noreferrer">الموقع الرسمي لـ EFE-Maroc</a></p>
+<p>🌐 <a href="https://toogo.ma/" target="_blank" rel="noopener noreferrer">Sitio oficial de Toogo</a> | <a href="https://efemaroc.org/" target="_blank" rel="noopener noreferrer">Sitio oficial de EFE-Maroc</a></p>
 <p>En 2026 se anunció un programa para identificar, formar y acompañar a más de 500 jóvenes hacia la profesión de conductor, con preparación para el empleo e integración profesional.</p>
 <p><strong>Ciudades iniciales:</strong> Casablanca, Rabat, Salé y Kénitra.</p>
 
@@ -352,6 +566,25 @@
 
 <h3>🔵 OFPPT / IFTL</h3>
 <p>Formation professionnelle liée au transport routier et à la logistique. Vérifiez directement les places, conditions et programmes disponibles.</p>
+
+@elseif(app()->getLocale() === 'en')
+<h2>🚛 Beginner driver training and professional integration in Morocco</h2>
+
+<h3>🟢 JEB Training Center</h3>
+<p>🌐 <a href="https://www.jebtrainingcenter.com/" target="_blank" rel="noopener noreferrer">Official JEB Training Center website</a></p>
+<p>Professional training centre in transport and logistics. Contact the centre directly to confirm current courses and admission conditions.</p>
+<p><strong>City:</strong> Casablanca</p>
+
+<h3>🟢 ALSA – Training Centre</h3>
+<p>🌐 <a href="https://www.alsa.ma/ar/centre-de-formation" target="_blank" rel="noopener noreferrer">Official ALSA training centre page</a></p>
+<p>Contact the centre directly to confirm available professional driver courses, eligibility and current recognition status.</p>
+
+<h3>🟢 Toogo + EFE-Maroc</h3>
+<p>These organisations may publish training and employment-support programmes. Check their current announcements, locations and eligibility directly before applying.</p>
+<p>🌐 <a href="https://toogo.ma/" target="_blank" rel="noopener noreferrer">Official Toogo website</a> | <a href="https://efemaroc.org/" target="_blank" rel="noopener noreferrer">Official EFE-Maroc website</a></p>
+
+<h3>🔵 OFPPT / IFTL</h3>
+<p>Training related to road transport and logistics. Check available courses and places directly with the institutions.</p>
 
 @else
 <h2>🚛 تكوين وإدماج السائقين المبتدئين في المغرب</h2>
@@ -380,13 +613,13 @@
 <p>⚠️ Edriouche Truck Job no garantiza la contratación. Compruebe siempre la información directamente con la institución antes de desplazarse o enviar documentos.</p>
 @elseif(app()->getLocale() === 'fr')
 <p>⚠️ Edriouche Truck Job ne garantit pas l'embauche. Vérifiez toujours les informations directement auprès de l'organisme avant de vous déplacer ou d'envoyer des documents.</p>
+@elseif(app()->getLocale() === 'en')
+<p>⚠️ Edriouche Truck Job does not guarantee employment. Always verify information directly with the institution before travelling or sending documents.</p>
 @else
 <p>⚠️ Edriouche Truck Job لا يضمن التوظيف. تحقق دائمًا من المعلومات مباشرة مع المؤسسة قبل التنقل أو إرسال الوثائق.</p>
 @endif
 </div>
 </div>
-
-@endif
 
 @if(app()->getLocale() === 'ar')
 <div class="card"><h2>📚 ماذا يتعلم سائق نقل البضائع؟</h2>
@@ -394,6 +627,8 @@
 <div class="warning"><h2>🛡️ تنبيه مهم للسائقين</h2><p>Edriouche Truck Job لا يطلب من السائق دفع أموال مقابل وعد بالتوظيف. تحقق دائمًا من الشركة والعنوان ورقم الهاتف والبريد الإلكتروني قبل إرسال وثائقك أو دفع أي مبلغ.</p></div>
 @elseif(app()->getLocale() === 'es')
 <div class="warning"><h2>🛡️ Aviso importante</h2><p>Edriouche Truck Job no pide dinero a los conductores a cambio de una promesa de empleo. Verifique siempre la empresa, dirección, teléfono y correo electrónico antes de enviar documentos o realizar cualquier pago.</p></div>
+@elseif(app()->getLocale() === 'en')
+<div class="warning"><h2>🛡️ Important warning</h2><p>Edriouche Truck Job never asks drivers to pay money in exchange for a promise of employment. Always verify the company, address, phone number and email before sending documents or making any payment.</p></div>
 @else
 <div class="warning"><h2>🛡️ Avertissement important</h2><p>Edriouche Truck Job ne demande pas d'argent aux conducteurs en échange d'une promesse d'emploi. Vérifiez toujours l'entreprise, l'adresse, le téléphone et l'e-mail avant d'envoyer vos documents ou d'effectuer un paiement.</p></div>
 @endif
@@ -407,6 +642,10 @@
 <a class="button" href="/jobs">🚛 Offres d'emploi</a>
 <a class="button" href="/companies">🏢 Entreprises de transport</a>
 <a class="button" href="/">🏠 Accueil</a>
+@elseif(app()->getLocale() === 'en')
+<a class="button" href="/jobs">🚛 Job offers</a>
+<a class="button" href="/companies">🏢 Transport companies</a>
+<a class="button" href="/">🏠 Home</a>
 @else
 <a class="button" href="/jobs">🚛 عروض العمل</a>
 <a class="button" href="/companies">🏢 شركات النقل</a>
@@ -417,6 +656,45 @@
 </div>
 
 <footer>© 2026 Edriouche Truck Job</footer>
+
+
+<script>
+document.querySelectorAll('.quiz-card').forEach(function(card) {
+    const button = card.querySelector('.quiz-submit');
+    const result = card.querySelector('.quiz-result');
+
+    button.addEventListener('click', function() {
+        const questions = Array.from(card.querySelectorAll('fieldset'));
+        let score = 0;
+        let unanswered = false;
+
+        questions.forEach(function(question) {
+            const selected = question.querySelector('input[type="radio"]:checked');
+            if (!selected) {
+                unanswered = true;
+                question.style.borderColor = '#c58b24';
+                return;
+            }
+            if (selected.value === question.dataset.correct) {
+                score++;
+                question.style.borderColor = '#287a52';
+            } else {
+                question.style.borderColor = '#c0392b';
+            }
+        });
+
+        if (unanswered) {
+            result.textContent = 'يرجى الإجابة عن جميع الأسئلة أولاً.';
+            return;
+        }
+
+        result.textContent = 'النتيجة: ' + score + ' من ' + questions.length +
+            ' — ' + (score === questions.length
+                ? 'ممتاز! جميع إجاباتك صحيحة.'
+                : 'راجع الأسئلة ذات الإطار الأحمر وحاول مرة أخرى.');
+    });
+});
+</script>
 
 </body>
 </html>
