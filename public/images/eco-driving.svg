@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<rect width="1200" height="700" rx="28" fill="#f1f7fb"/>
+<text x="600" y="65" text-anchor="middle" font-size="38" font-weight="bold" fill="#17324d">ECO DRIVING</text>
+<text x="300" y="125" text-anchor="middle" font-size="27" font-weight="bold" fill="#16834a">SMOOTH DRIVING</text>
+<text x="900" y="125" text-anchor="middle" font-size="27" font-weight="bold" fill="#c0392b">HARSH DRIVING</text>
+<rect x="65" y="155" width="470" height="390" rx="22" fill="#fff" stroke="#16834a" stroke-width="5"/>
+<rect x="665" y="155" width="470" height="390" rx="22" fill="#fff" stroke="#c0392b" stroke-width="5"/>
+<path d="M100 430 L500 430" stroke="#8295a5" stroke-width="5"/>
+<path d="M700 430 L1100 430" stroke="#8295a5" stroke-width="5"/>
+<g transform="translate(140 300)">
+<rect x="0" y="35" width="190" height="70" rx="12" fill="#2878b9"/>
+<rect x="135" y="0" width="70" height="70" rx="9" fill="#55a6d9"/>
+<rect x="148" y="10" width="42" height="28" fill="#d9f1ff"/>
+<circle cx="42" cy="110" r="20" fill="#243746"/><circle cx="160" cy="110" r="20" fill="#243746"/>
+</g>
+<path d="M110 250 Q230 205 340 250 T490 250" fill="none" stroke="#16834a" stroke-width="9" stroke-linecap="round"/>
+<path d="M470 230 L495 250 L465 270" fill="none" stroke="#16834a" stroke-width="8"/>
+<text x="300" y="490" text-anchor="middle" font-size="25" fill="#17324d">Gentle acceleration</text>
+<text x="300" y="525" text-anchor="middle" font-size="22" fill="#16834a">Steady speed • Look ahead</text>
+<g transform="translate(740 300)">
+<rect x="0" y="35" width="190" height="70" rx="12" fill="#b94b42"/>
+<rect x="135" y="0" width="70" height="70" rx="9" fill="#df756b"/>
+<rect x="148" y="10" width="42" height="28" fill="#ffe4df"/>
+<circle cx="42" cy="110" r="20" fill="#243746"/><circle cx="160" cy="110" r="20" fill="#243746"/>
+</g>
+<path d="M700 250 L770 195 L820 275 L900 185 L960 260 L1090 190" fill="none" stroke="#c0392b" stroke-width="9" stroke-linejoin="round"/>
+<text x="900" y="490" text-anchor="middle" font-size="25" fill="#17324d">Sudden acceleration</text>
+<text x="900" y="525" text-anchor="middle" font-size="22" fill="#c0392b">More fuel • More wear</text>
+<rect x="110" y="590" width="980" height="65" rx="18" fill="#17324d"/>
+<text x="600" y="632" text-anchor="middle" font-size="25" font-weight="bold" fill="#fff">Anticipate • Maintain distance • Avoid unnecessary braking</text>
+</svg>

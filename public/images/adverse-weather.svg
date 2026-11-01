@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Truck driver training illustration">
+
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f4f8fc"/><stop offset="1" stop-color="#e5eef7"/></linearGradient>
+ <linearGradient id="blue" x2="0" y2="1"><stop stop-color="#1769aa"/><stop offset="1" stop-color="#123b65"/></linearGradient>
+ <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="#e5a52b"/></marker>
+</defs>
+<rect width="900" height="520" rx="28" fill="url(#bg)"/>
+<rect x="28" y="26" width="844" height="62" rx="16" fill="url(#blue)"/>
+<text x="450" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="23" font-weight="bold" fill="white">EDRIOUCHE TRUCK JOB  •  DRIVER ACADEMY</text>
+
+
+<path d="M90 405H810" stroke="#64798c" stroke-width="7"/>
+<path d="M90 405H810" stroke="white" stroke-width="3" stroke-dasharray="30 20"/>
+<g transform="translate(300 260) scale(.85)">
+<g transform="translate(0,0)">
+ <rect x="0" y="35" width="205" height="95" rx="9" fill="#f8fafc" stroke="#244c70" stroke-width="5"/>
+ <path d="M205 62h65l35 38v30H205z" fill="#e7a52b" stroke="#244c70" stroke-width="5"/>
+ <path d="M220 70h42l25 29h-67z" fill="#9ed4ef" stroke="#244c70" stroke-width="3"/>
+ <rect x="15" y="48" width="170" height="9" rx="4" fill="#d4e1ec"/>
+ <circle cx="55" cy="139" r="19" fill="#243b53"/><circle cx="55" cy="139" r="8" fill="#dce6ee"/>
+ <circle cx="235" cy="139" r="19" fill="#243b53"/><circle cx="235" cy="139" r="8" fill="#dce6ee"/>
+</g>
+</g>
+<g fill="#8eb8d4" stroke="#4d8eb8" stroke-width="4">
+ <path d="M180 180c-55 0-60-65-5-75 20-55 95-45 105 0 55 0 55 75 0 75z"/>
+ <path d="M610 165c-45 0-50-55-5-65 18-45 80-35 90 0 45 0 45 65 0 65z"/>
+</g>
+<g stroke="#4d8eb8" stroke-width="7" stroke-linecap="round">
+ <path d="M190 205l-18 42m55-42-18 42m55-42-18 42M620 190l-18 42m55-42-18 42m55-42-18 42"/>
+</g>
+<path d="M90 290q70-45 140 0t140 0" fill="none" stroke="#e5a52b" stroke-width="8"/>
+<path d="M90 315q70-45 140 0t140 0" fill="none" stroke="#e5a52b" stroke-width="5"/>
+
+<rect x="28" y="465" width="844" height="28" rx="10" fill="#dce7ef"/>
+<text x="450" y="485" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" fill="#31536f">SAFETY • PROFESSIONAL DRIVING • ROAD AWARENESS</text>
+</svg>
