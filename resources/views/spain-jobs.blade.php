@@ -82,6 +82,20 @@ footer{text-align:center;padding:25px;color:#666}
 </div>
 
 <div class="card">
+<h2>🟢 STEF — Torrejón de Ardoz</h2>
+<p><span class="badge">{{ __("messages.stef_new_offer_badge") }}</span></p>
+<p>{{ __("messages.stef_company_intro") }}</p>
+<p>🚚 {{ __("messages.stef_new_offer_title") }}</p>
+<p>📍 {{ __("messages.stef_new_offer_location") }}</p>
+<p>📅 {{ __("messages.stef_new_offer_date") }}</p>
+<p>📄 {{ __("messages.stef_new_offer_contract") }}</p>
+<p>🎓 {{ __("messages.stef_new_offer_requirements") }}</p>
+<p>🕒 {{ __("messages.stef_new_offer_schedule") }}</p>
+<p>{{ __("messages.stef_new_offer_notice") }}</p>
+<a class="button" href="https://apply.stef.jobs/job/TORREJ%C3%93N-DE-ARDOZ-CONDUCTORA-LOCAL-TRAILER-HM-Madr-28850/1443226833/" target="_blank" rel="noopener">{{ __("messages.stef_new_offer_button") }}</a>
+</div>
+
+<div class="card">
 <h2>🟢 CONTANK</h2>
 <p><span class="badge">تحقق من الشروط في الإعلان الرسمي</span></p>
 <p>🚛 إعلان سائق شاحنة/مقطورة.</p>
