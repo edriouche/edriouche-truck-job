@@ -239,7 +239,9 @@
 <ul><li>Documentación personal y permiso de conducción.</li><li>Documentos del vehículo y remolque.</li><li>Documentos relacionados con la mercancía.</li><li>Documentación exigida para el transporte internacional cuando corresponda.</li><li>Comprobar la información antes de salir y comunicar cualquier irregularidad.</li></ul>
 </div>
 
-<div class="card"><h2>🎓 10. Test del conductor</h2>
+@include('partials.semi-trailer-coupling-lesson')
+
+<div class="card"><h2>🎓 11. Test del conductor</h2>
 <p>Después de estudiar los temas, el conductor puede comprobar sus conocimientos con preguntas sobre seguridad, frenado, carga, marcha atrás, consumo y documentación.</p>
 <ol><li>¿Qué debe hacer si pierde la visión durante una maniobra marcha atrás?</li><li>¿Por qué es importante aumentar la distancia de seguridad con un vehículo pesado?</li><li>¿Qué elementos deben revisarse antes de iniciar un viaje?</li><li>¿Cómo influye una carga mal distribuida?</li><li>¿Por qué no debe buscarse el ahorro de combustible mediante una conducción peligrosa?</li></ol>
 </div>
@@ -368,7 +370,9 @@
 <ul><li>Documents personnels et permis de conduire.</li><li>Documents du véhicule et de la remorque.</li><li>Documents liés à la marchandise.</li><li>Documents requis pour le transport international lorsque cela s'applique.</li><li>Vérifier les informations avant le départ et signaler toute anomalie.</li></ul>
 </div>
 
-<div class="card"><h2>🎓 Test du conducteur</h2>
+@include('partials.semi-trailer-coupling-lesson')
+
+<div class="card"><h2>🎓 11. Test du conducteur</h2>
 <p>Après l'étude des thèmes, le conducteur peut vérifier ses connaissances avec des questions sur la sécurité, le freinage, la charge, la marche arrière, la consommation et les documents.</p>
 <ol><li>Que faire si la visibilité est perdue pendant une marche arrière ?</li><li>Pourquoi augmenter la distance de sécurité avec un poids lourd ?</li><li>Quels éléments contrôler avant un trajet ?</li><li>Comment une mauvaise répartition de la charge influence-t-elle le véhicule ?</li><li>Pourquoi ne faut-il jamais économiser du carburant au détriment de la sécurité ?</li></ol>
 </div>
@@ -488,7 +492,9 @@
 
 <ul><li>Personal documents and driving licence.</li><li>Truck and trailer documents.</li><li>Cargo documents.</li><li>International transport documents where applicable.</li><li>Check details before departure and report irregularities.</li></ul></div>
 
-<div class="card"><h2>🎓 10. Driver knowledge test</h2>
+@include('partials.semi-trailer-coupling-lesson')
+
+<div class="card"><h2>🎓 11. Driver knowledge test</h2>
 <p>Test your knowledge of safety, braking, cargo, reversing, fuel consumption and documents.</p>
 <ol><li>What should you do if you lose sight while reversing?</li><li>Why does a heavy vehicle need a greater safety distance?</li><li>What should be checked before a journey?</li><li>How can poorly distributed cargo affect a vehicle?</li><li>Why must fuel saving never come at the expense of safety?</li></ol></div>
 </div>
@@ -615,7 +621,9 @@
 <ul><li>الوثائق الشخصية ورخصة السياقة.</li><li>وثائق الشاحنة والمقطورة.</li><li>الوثائق المتعلقة بالحمولة.</li><li>الوثائق المطلوبة للنقل الدولي عندما تنطبق.</li><li>التحقق من المعلومات قبل الانطلاق وإبلاغ المسؤول عن أي خلل.</li></ul>
 </div>
 
-<div class="card"><h2>🎓 10. اختبار السائق</h2>
+@include('partials.semi-trailer-coupling-lesson')
+
+<div class="card"><h2>🎓 11. اختبار السائق</h2>
 <p>بعد دراسة المحاور يمكن للسائق اختبار معلوماته بأسئلة حول السلامة والفرملة والحمولة والرجوع إلى الخلف والاستهلاك والوثائق.</p>
 <ol><li>ماذا تفعل إذا فقدت الرؤية أثناء الرجوع إلى الخلف؟</li><li>لماذا يجب زيادة مسافة الأمان مع الشاحنة؟</li><li>ما العناصر التي يجب فحصها قبل الرحلة؟</li><li>كيف تؤثر الحمولة غير المتوازنة على المركبة؟</li><li>لماذا لا يجب توفير الوقود على حساب السلامة؟</li></ol>
 </div>
