@@ -22,7 +22,6 @@
 </ol>
 <p><strong>Errores que deben evitarse:</strong> salir sin confirmar el bloqueo del perno rey; olvidar las conexiones o las patas de apoyo; liberar la quinta rueda antes de asegurar el semirremolque; situarse entre vehículos durante una maniobra; continuar si el acoplamiento no parece correcto.</p>
 <p><strong>Importante:</strong> esta guía es educativa. La posición de mandos, el diseño de la quinta rueda y el procedimiento pueden variar. Siga siempre el manual del fabricante, las normas de la empresa y la formación práctica supervisada.</p>
-<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/semi-trailer-coupling.svg') }}" alt="Esquema educativo del acoplamiento entre tractor y semirremolque" loading="lazy" style="width:100%;height:auto;border:1px solid #dbe3ec;border-radius:12px;"><figcaption>Esquema simplificado: quinta rueda, perno rey, patas de apoyo y conexiones. No sustituye la inspección real.</figcaption></figure>
 <p><strong>Referencias visuales del fabricante:</strong> <a href="https://safholland.com/us/en/service/download-center/document/resource/environment/project1_p/documents/documentationP/2026/2026_01/XL-FW20231UM-en-US%2520Rev-_web.pdf" target="_blank" rel="noopener">manual ilustrado SAF-HOLLAND</a> · <a href="https://vimeopro.com/safholland/service-operational" target="_blank" rel="noopener">vídeos paso a paso de acoplamiento y desacoplamiento</a>.</p>
 @elseif($locale === 'fr')
 <h2>🔗 10. Attelage et dételage de la semi-remorque</h2>
@@ -46,7 +45,6 @@
 </ol>
 <p><strong>Erreurs à éviter :</strong> partir sans confirmer le verrouillage du pivot ; oublier les raccordements ou les béquilles ; libérer la sellette avant d'avoir stabilisé la semi-remorque ; se placer entre les véhicules pendant une manœuvre ; continuer si l'attelage semble incorrect.</p>
 <p><strong>Important :</strong> ce guide est éducatif. Les commandes, la sellette et la procédure peuvent varier. Respectez le manuel du constructeur, les règles de l'entreprise et la formation pratique encadrée.</p>
-<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/semi-trailer-coupling.svg') }}" alt="Schéma éducatif de l'attelage entre tracteur et semi-remorque" loading="lazy" style="width:100%;height:auto;border:1px solid #dbe3ec;border-radius:12px;"><figcaption>Schéma simplifié : sellette, pivot d'attelage, béquilles et raccordements. Il ne remplace pas le contrôle réel.</figcaption></figure>
 <p><strong>Références visuelles du constructeur :</strong> <a href="https://safholland.com/us/en/service/download-center/document/resource/environment/project1_p/documents/documentationP/2026/2026_01/XL-FW20231UM-en-US%2520Rev-_web.pdf" target="_blank" rel="noopener">manuel illustré SAF-HOLLAND</a> · <a href="https://vimeopro.com/safholland/service-operational" target="_blank" rel="noopener">vidéos étape par étape d'attelage et de dételage</a>.</p>
 @elseif($locale === 'en')
 <h2>🔗 10. Coupling and uncoupling a semi-trailer</h2>
@@ -70,7 +68,6 @@
 </ol>
 <p><strong>Common errors to avoid:</strong> driving away without confirming kingpin lock; forgetting connections or landing legs; releasing the fifth wheel before supporting the trailer; standing between vehicles during a manoeuvre; continuing when the coupling looks incorrect.</p>
 <p><strong>Important:</strong> this is educational guidance. Controls, fifth-wheel designs and procedures vary. Always follow the manufacturer's manual, company procedures and supervised practical training.</p>
-<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/semi-trailer-coupling.svg') }}" alt="Educational diagram of tractor unit and semi-trailer coupling" loading="lazy" style="width:100%;height:auto;border:1px solid #dbe3ec;border-radius:12px;"><figcaption>Simplified diagram: fifth wheel, kingpin, landing legs and connections. It does not replace a real inspection.</figcaption></figure>
 <p><strong>Manufacturer visual references:</strong> <a href="https://safholland.com/us/en/service/download-center/document/resource/environment/project1_p/documents/documentationP/2026/2026_01/XL-FW20231UM-en-US%2520Rev-_web.pdf" target="_blank" rel="noopener">SAF-HOLLAND illustrated coupling manual</a> · <a href="https://vimeopro.com/safholland/service-operational" target="_blank" rel="noopener">step-by-step coupling and uncoupling videos</a>.</p>
 @else
 <h2>🔗 10. ربط وفصل نصف المقطورة (السيمي)</h2>
@@ -94,7 +91,6 @@
 </ol>
 <p><strong>أخطاء خطيرة يجب تجنبها:</strong> الانطلاق دون التأكد من قفل مسمار الجر؛ نسيان الوصلات أو أرجل الدعم؛ تحرير القرص الخامس قبل تثبيت المقطورة؛ الوقوف بين المركبتين أثناء المناورة؛ مواصلة العمل إذا بدا الربط غير صحيح.</p>
 <p><strong>تنبيه:</strong> هذا شرح تعليمي. تختلف أدوات التحكم وتصاميم الأقراص الخامسة والإجراءات حسب المركبة. اتبع دائماً دليل المصنّع وإجراءات الشركة والتكوين التطبيقي تحت إشراف مختص.</p>
-<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/semi-trailer-coupling.svg') }}" alt="رسم تعليمي لربط الشاحنة بنصف المقطورة" loading="lazy" style="width:100%;height:auto;border:1px solid #dbe3ec;border-radius:12px;"><figcaption>رسم مبسط يوضح القرص الخامس ومسمار الجر وأرجل الدعم والوصلات. لا يغني عن الفحص الحقيقي.</figcaption></figure>
 <p><strong>مراجع مصوّرة من الشركة المصنّعة:</strong> <a href="https://safholland.com/us/en/service/download-center/document/resource/environment/project1_p/documents/documentationP/2026/2026_01/XL-FW20231UM-en-US%2520Rev-_web.pdf" target="_blank" rel="noopener">دليل SAF-HOLLAND المصوّر لعملية الربط</a> · <a href="https://vimeopro.com/safholland/service-operational" target="_blank" rel="noopener">فيديوهات تطبيقية خطوة بخطوة للربط والفصل</a>.</p>
 @endif
 </section>
