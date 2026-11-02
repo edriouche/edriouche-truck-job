@@ -139,4 +139,15 @@ return [
     'stef_offer_button' => 'Voir cette offre STEF',
     'spain_jobs_title' => 'Offres d’emploi pour conducteurs de poids lourds en Espagne',
     'driver_family_sacrifice' => 'Parfois, il ne pouvait assister aux fêtes de famille ni aux funérailles, car la route l’appelait et qu’il avait une cargaison, une responsabilité et un devoir professionnel à assumer.',
+
+    'stef_new_offer_badge' => 'Nouvelle offre officielle — publiée le 30 octobre 2026',
+    'stef_new_offer_title' => 'CONDUCTOR/A LOCAL TRAILER H/M — tournées locales',
+    'stef_new_offer_location' => 'Lieu : Torrejón de Ardoz, Madrid, Espagne',
+    'stef_new_offer_date' => 'Publication : 30 octobre 2026',
+    'stef_new_offer_contract' => 'L’en-tête du portail indique CDI, mais le texte des conditions mentionne un contrat temporaire ; à confirmer auprès de STEF.',
+    'stef_new_offer_requirements' => 'Exigences publiées : permis C+E et expérience en transport frigorifique sur tournées locales.',
+    'stef_new_offer_schedule' => 'Horaires : du lundi au vendredi, environ de 14 h à 22 h ; salaire selon la convention collective.',
+    'stef_new_offer_notice' => 'L’annonce ne confirme ni l’acceptation d’un permis marocain, ni un recrutement depuis le Maroc, ni une autorisation de travail ou un visa. Elle ne précise pas non plus le CAP ou la carte tachygraphe. Vérifiez directement auprès de STEF.',
+    'stef_new_offer_button' => 'Ouvrir l’offre officielle STEF',
+
 ];
