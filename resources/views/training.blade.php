@@ -73,7 +73,7 @@
 <h2>🎓 Formación profesional para conductores</h2>
 <p>Esta sección ofrece conocimientos prácticos para conductores principiantes y profesionales. El objetivo es mejorar la seguridad, el control del vehículo, el ahorro de combustible y la responsabilidad profesional.</p>
 <a class="button" href="https://www.ofppt.ma/" target="_blank">🌐 Sitio oficial OFPPT</a>
-<a class="button" href="{{ url('/training-centers') }}">🏫 شركات ومراكز تكوين السائقين</a>
+<a class="button" href="{{ url('/training-centers') }}">🏫 Centros de formación para conductores</a>
 </div>
 
 
@@ -685,16 +685,13 @@
 <p><strong>Estado:</strong> Formación profesional. No presentamos el empleo posterior como garantizado.</p>
 
 <h3>🟢 Toogo + EFE-Maroc</h3>
-<h3>🔵 OFPPT / IFTL</h3>
-<p>Formación profesional relacionada con el transporte por carretera y la logística. Compruebe directamente los programas y plazas disponibles.</p>
-<p>🌐 <a href="https://www.ofppt.ma/" target="_blank" rel="noopener noreferrer">Sitio oficial de OFPPT</a></p>
-<p>🌐 <a href="https://toogo.ma/" target="_blank" rel="noopener noreferrer">Sitio web oficial de Toogo</a> | <a href="https://efemaroc.org/" target="_blank" rel="noopener noreferrer">Sitio web oficial de EFE-Maroc</a></p>
-<p>🌐 <a href="https://toogo.ma/" target="_blank" rel="noopener noreferrer">Sitio oficial de Toogo</a> | <a href="https://efemaroc.org/" target="_blank" rel="noopener noreferrer">Sitio oficial de EFE-Maroc</a></p>
-<p>En 2026 se anunció un programa para identificar, formar y acompañar a más de 500 jóvenes hacia la profesión de conductor, con preparación para el empleo e integración profesional.</p>
+<p>En 2026 se anunció un programa para identificar, formar y acompañar a más de 500 jóvenes hacia la profesión de conductor, con preparación para el empleo e integración profesional. Confirme directamente las condiciones y la disponibilidad del programa.</p>
 <p><strong>Ciudades iniciales:</strong> Casablanca, Rabat, Salé y Kénitra.</p>
+<p>🌐 <a href="https://toogo.ma/" target="_blank" rel="noopener noreferrer">Sitio oficial de Toogo</a> | <a href="https://efemaroc.org/" target="_blank" rel="noopener noreferrer">Sitio oficial de EFE-Maroc</a></p>
 
 <h3>🔵 OFPPT / IFTL</h3>
 <p>Formación profesional relacionada con el transporte por carretera y la logística. Compruebe directamente las plazas, condiciones y programas disponibles.</p>
+<p>🌐 <a href="https://www.ofppt.ma/" target="_blank" rel="noopener noreferrer">Sitio oficial de OFPPT</a></p>
 
 @elseif(app()->getLocale() === 'fr')
 <h2>🚛 Formation et intégration des chauffeurs débutants au Maroc</h2>
