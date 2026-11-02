@@ -161,7 +161,7 @@
 
 <section class="card quiz-card" data-quiz="es" style="margin:20px 0;padding:18px;border:2px solid #287a52;border-radius:12px;">
 <h2>📝 اختبار القيادة الدفاعية</h2>
-<p>Choisissez une réponse par question, puis cliquez sur le bouton de correction.</p>
+<p>Elige una respuesta para cada pregunta y pulsa el botón para corregir.</p>
 <fieldset data-correct="b" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
 <legend><strong>1. ¿Por qué debemos mantener una distancia de seguridad?</strong></legend>
 <label style="display:block;margin:9px 0;"><input type="radio" name="es_q1" value="a"> Para ahorrar combustible</label>
@@ -186,7 +186,7 @@
 <label style="display:block;margin:9px 0;"><input type="radio" name="es_q4" value="b"> Abrimos la ventana y continuamos</label>
 <label style="display:block;margin:9px 0;"><input type="radio" name="es_q4" value="c"> Paramos en un lugar seguro y descansamos</label>
 </fieldset>
-<button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">Corriger les réponses</button>
+<button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">Corregir respuestas</button>
 <p class="quiz-result" aria-live="polite" style="font-weight:bold;margin-top:14px;"></p>
 </section>
 <div class="card" id="lesson-2"><h2>⛽ 2. Conducción económica</h2>
@@ -299,7 +299,7 @@
 
 <section class="card quiz-card" data-quiz="fr" style="margin:20px 0;padding:18px;border:2px solid #287a52;border-radius:12px;">
 <h2>📝 Quiz de conduite défensive</h2>
-<p>Select one answer for each question, then click the correction button.</p>
+<p>Choisissez une réponse par question, puis cliquez sur le bouton de correction.</p>
 <fieldset data-correct="b" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
 <legend><strong>1. Pourquoi garder une distance de sécurité ?</strong></legend>
 <label style="display:block;margin:9px 0;"><input type="radio" name="fr_q1" value="a"> Pour économiser du carburant</label>
@@ -324,7 +324,7 @@
 <label style="display:block;margin:9px 0;"><input type="radio" name="fr_q4" value="b"> Ouvrir la fenêtre et continuer</label>
 <label style="display:block;margin:9px 0;"><input type="radio" name="fr_q4" value="c"> S'arrêter en sécurité et se reposer</label>
 </fieldset>
-<button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">Check answers</button>
+<button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">Corriger les réponses</button>
 <p class="quiz-result" aria-live="polite" style="font-weight:bold;margin-top:14px;"></p>
 </section>
 <div class="card" id="lesson-2"><h2>⛽ 2. Conduite économique</h2>
@@ -431,7 +431,7 @@
 
 <section class="card quiz-card" data-quiz="en" style="margin:20px 0;padding:18px;border:2px solid #287a52;border-radius:12px;">
 <h2>📝 Defensive Driving Quiz</h2>
-<p>اختر إجابة واحدة لكل سؤال، ثم اضغط على زر التصحيح.</p>
+<p>Select one answer for each question, then click the check answers button.</p>
 <fieldset data-correct="b" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
 <legend><strong>1. Why should we keep a safe following distance?</strong></legend>
 <label style="display:block;margin:9px 0;"><input type="radio" name="en_q1" value="a"> To save fuel</label>
@@ -456,7 +456,7 @@
 <label style="display:block;margin:9px 0;"><input type="radio" name="en_q4" value="b"> Open the window and continue</label>
 <label style="display:block;margin:9px 0;"><input type="radio" name="en_q4" value="c"> Stop somewhere safe and rest</label>
 </fieldset>
-<button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">تصحيح الإجابات</button>
+<button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">Check answers</button>
 <p class="quiz-result" aria-live="polite" style="font-weight:bold;margin-top:14px;"></p>
 </section>
 <div class="card" id="lesson-2"><h2>⛽ 2. Economical driving</h2>
