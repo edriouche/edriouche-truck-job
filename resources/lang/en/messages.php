@@ -94,10 +94,10 @@ return [
     'spain_jobs_title' => 'Truck Driver Jobs in Spain',
     'driver_family_sacrifice' => 'Sometimes he could not attend family celebrations or funerals because the road was calling, and he carried a load, a responsibility and a professional duty.',
 
-    'stef_new_offer_badge' => 'Official listing — posted 30 October and checked on 2 November 2026',
+    'stef_new_offer_badge' => 'Official listing — posted 1 October and checked on 2 November 2026',
     'stef_new_offer_title' => 'CONDUCTOR/A LOCAL TRAILER H/M — local routes',
     'stef_new_offer_location' => 'Location: Torrejón de Ardoz, Madrid, Spain',
-    'stef_new_offer_date' => 'Posted: 30 October 2026',
+    'stef_new_offer_date' => 'Posted: 1 October 2026',
     'stef_new_offer_contract' => 'The portal heading says CDI, but the conditions text says temporary contract; confirm the contract type with STEF.',
     'stef_new_offer_requirements' => 'Published requirements: C+E licence and experience with refrigerated vehicles on local routes.',
     'stef_new_offer_schedule' => 'Schedule: Monday to Friday, approximately 14:00–22:00; pay according to the applicable collective agreement.',
