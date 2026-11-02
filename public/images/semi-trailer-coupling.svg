@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+<title id="title">Tractor unit and semi-trailer coupling diagram</title>
+<desc id="desc">Text-free educational side view showing tractor, semi-trailer, fifth wheel, kingpin area, landing legs and air and electrical connections.</desc>
+<rect width="1000" height="560" rx="24" fill="#f4f8fc"/>
+<path d="M55 440H945" stroke="#536579" stroke-width="8" stroke-linecap="round"/>
+<!-- trailer body -->
+<path d="M400 150H900Q918 150 918 170V365H400Z" fill="#dbe8f4" stroke="#183b5b" stroke-width="8"/>
+<path d="M420 180H890" stroke="#fff" stroke-width="8" opacity=".9"/>
+<!-- trailer wheels -->
+<circle cx="730" cy="405" r="42" fill="#263544"/><circle cx="730" cy="405" r="18" fill="#aab8c5"/>
+<circle cx="850" cy="405" r="42" fill="#263544"/><circle cx="850" cy="405" r="18" fill="#aab8c5"/>
+<!-- tractor cab -->
+<path d="M95 270Q95 240 130 225L205 195H320Q355 195 375 230L405 330V390H95Z" fill="#1d5b89" stroke="#123650" stroke-width="8"/>
+<path d="M220 212H315Q333 212 347 238L370 300H220Z" fill="#c8e6f7" stroke="#123650" stroke-width="6"/>
+<path d="M110 300H390V365H110Z" fill="#2d79ad"/>
+<!-- tractor wheels -->
+<circle cx="170" cy="405" r="44" fill="#263544"/><circle cx="170" cy="405" r="19" fill="#aab8c5"/>
+<circle cx="355" cy="405" r="44" fill="#263544"/><circle cx="355" cy="405" r="19" fill="#aab8c5"/>
+<!-- fifth wheel plate and kingpin interface -->
+<path d="M365 335L445 335L465 355L450 370H375Z" fill="#475569" stroke="#172b3c" stroke-width="6"/>
+<path d="M420 325V350" stroke="#d97706" stroke-width="12" stroke-linecap="round"/>
+<path d="M415 320L425 320" stroke="#7c2d12" stroke-width="7"/>
+<!-- landing legs -->
+<path d="M610 365V432M650 365V432" stroke="#475569" stroke-width="12" stroke-linecap="round"/>
+<path d="M592 432H628M632 432H668" stroke="#475569" stroke-width="10" stroke-linecap="round"/>
+<!-- air/electrical lines -->
+<path d="M382 275C410 245 430 255 450 280" fill="none" stroke="#d97706" stroke-width="9" stroke-linecap="round"/>
+<path d="M382 292C412 270 432 278 452 300" fill="none" stroke="#2563eb" stroke-width="9" stroke-linecap="round"/>
+<!-- callout lines with numbered circles -->
+<g fill="none" stroke="#0f3b5b" stroke-width="4">
+<path d="M420 340L480 95H540"/><path d="M425 327L480 125H660"/><path d="M635 395L665 485H760"/><path d="M420 280L300 110H180"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="28" font-weight="700" text-anchor="middle">
+<circle cx="565" cy="95" r="24" fill="#0f3b5b"/><text x="565" y="105" fill="#fff">1</text>
+<circle cx="685" cy="125" r="24" fill="#0f3b5b"/><text x="685" y="135" fill="#fff">2</text>
+<circle cx="785" cy="485" r="24" fill="#0f3b5b"/><text x="785" y="495" fill="#fff">3</text>
+<circle cx="155" cy="110" r="24" fill="#0f3b5b"/><text x="155" y="120" fill="#fff">4</text>
+</g>
+</svg>
