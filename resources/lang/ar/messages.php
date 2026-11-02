@@ -140,7 +140,7 @@ return [
     'spain_jobs_title' => 'وظائف سائقي الشاحنات في إسبانيا',
     'driver_family_sacrifice' => 'أحيانًا لم يستطع حضور المناسبات العائلية أو الجنازات، لأن الطريق كان يناديه، وكانت خلفه حمولة ومسؤولية وواجب مهني.',
 
-    'stef_new_offer_badge' => 'إعلان رسمي جديد — نُشر 30 أكتوبر 2026',
+    'stef_new_offer_badge' => 'إعلان رسمي — نُشر 30 أكتوبر، وتم التحقق منه في 2 نوفمبر 2026',
     'stef_new_offer_title' => 'CONDUCTOR/A LOCAL TRAILER H/M — سائق مقطورة للطرق المحلية',
     'stef_new_offer_location' => 'المكان: Torrejón de Ardoz، مدريد، إسبانيا',
     'stef_new_offer_date' => 'تاريخ النشر: 30 أكتوبر 2026',
