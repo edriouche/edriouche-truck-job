@@ -159,7 +159,10 @@
             {{ __('messages.naceur_licence') }}<br>
             {{ __('messages.naceur_experience') }}<br>
             {{ __('messages.naceur_adr') }}<br>
-            {{ __('messages.naceur_contract') }}<br>
+            {{ __('messages.naceur_contract') }}<br>            {{ __('messages.naceur_salary') }}<br>
+            {{ __('messages.naceur_checked') }}<br>
+            {{ __('messages.naceur_adr_note') }}<br>
+
         </p>
         <p>{{ __('messages.naceur_classification') }}</p>
         <a href="https://www.stn.ma/recrutement.html" class="official" target="_blank">
