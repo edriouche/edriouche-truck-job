@@ -139,4 +139,15 @@ return [
     'stef_offer_button' => 'Ver esta oferta de STEF',
     'spain_jobs_title' => 'Ofertas de empleo para conductores de camión en España',
     'driver_family_sacrifice' => 'A veces no pudo asistir a celebraciones familiares ni a funerales, porque la carretera lo llamaba y llevaba consigo una carga, una responsabilidad y un deber profesional.',
+
+    'stef_new_offer_badge' => 'Nueva oferta oficial — publicada el 30 de octubre de 2026',
+    'stef_new_offer_title' => 'CONDUCTOR/A LOCAL TRAILER H/M — rutas locales',
+    'stef_new_offer_location' => 'Ubicación: Torrejón de Ardoz, Madrid, España',
+    'stef_new_offer_date' => 'Publicada: 30 de octubre de 2026',
+    'stef_new_offer_contract' => 'El encabezado del portal indica CDI, pero el texto de las condiciones dice contrato temporal; confirmar con STEF.',
+    'stef_new_offer_requirements' => 'Requisitos publicados: permiso C+E y experiencia con frigoríficos en rutas locales.',
+    'stef_new_offer_schedule' => 'Horario: de lunes a viernes, aproximadamente de 14:00 a 22:00; salario según convenio.',
+    'stef_new_offer_notice' => 'El anuncio no confirma la aceptación de un permiso marroquí, la contratación desde Marruecos, una autorización de trabajo ni un visado. Tampoco aclara CAP o tarjeta de tacógrafo. Confirme estos puntos directamente con STEF.',
+    'stef_new_offer_button' => 'Abrir la oferta oficial de STEF',
+
 ];
