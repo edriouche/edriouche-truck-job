@@ -161,7 +161,7 @@
 
 <section class="card quiz-card" data-quiz="es" style="margin:20px 0;padding:18px;border:2px solid #287a52;border-radius:12px;">
 <h2>📝 اختبار القيادة الدفاعية</h2>
-<p>اختر إجابة واحدة لكل سؤال، ثم اضغط على زر التصحيح.</p>
+<p>Choisissez une réponse par question, puis cliquez sur le bouton de correction.</p>
 <fieldset data-correct="b" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
 <legend><strong>1. ¿Por qué debemos mantener una distancia de seguridad?</strong></legend>
 <label style="display:block;margin:9px 0;"><input type="radio" name="es_q1" value="a"> Para ahorrar combustible</label>
@@ -186,7 +186,7 @@
 <label style="display:block;margin:9px 0;"><input type="radio" name="es_q4" value="b"> Abrimos la ventana y continuamos</label>
 <label style="display:block;margin:9px 0;"><input type="radio" name="es_q4" value="c"> Paramos en un lugar seguro y descansamos</label>
 </fieldset>
-<button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">تصحيح الإجابات</button>
+<button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">Corriger les réponses</button>
 <p class="quiz-result" aria-live="polite" style="font-weight:bold;margin-top:14px;"></p>
 </section>
 <div class="card" id="lesson-2"><h2>⛽ 2. Conducción económica</h2>
@@ -299,7 +299,7 @@
 
 <section class="card quiz-card" data-quiz="fr" style="margin:20px 0;padding:18px;border:2px solid #287a52;border-radius:12px;">
 <h2>📝 Quiz de conduite défensive</h2>
-<p>اختر إجابة واحدة لكل سؤال، ثم اضغط على زر التصحيح.</p>
+<p>Select one answer for each question, then click the correction button.</p>
 <fieldset data-correct="b" style="margin:14px 0;padding:12px;border:1px solid #bbb;border-radius:8px;">
 <legend><strong>1. Pourquoi garder une distance de sécurité ?</strong></legend>
 <label style="display:block;margin:9px 0;"><input type="radio" name="fr_q1" value="a"> Pour économiser du carburant</label>
@@ -324,7 +324,7 @@
 <label style="display:block;margin:9px 0;"><input type="radio" name="fr_q4" value="b"> Ouvrir la fenêtre et continuer</label>
 <label style="display:block;margin:9px 0;"><input type="radio" name="fr_q4" value="c"> S'arrêter en sécurité et se reposer</label>
 </fieldset>
-<button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">تصحيح الإجابات</button>
+<button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">Check answers</button>
 <p class="quiz-result" aria-live="polite" style="font-weight:bold;margin-top:14px;"></p>
 </section>
 <div class="card" id="lesson-2"><h2>⛽ 2. Conduite économique</h2>
@@ -809,6 +809,14 @@
 document.querySelectorAll('.quiz-card').forEach(function(card) {
     const button = card.querySelector('.quiz-submit');
     const result = card.querySelector('.quiz-result');
+    const lang = card.dataset.quiz || 'ar';
+    const messages = {
+        ar: {missing:'يرجى الإجابة عن جميع الأسئلة أولاً.', score:'النتيجة', of:'من', perfect:'ممتاز! جميع إجاباتك صحيحة.', review:'راجع الإجابات الصحيحة الموضحة أدناه ثم حاول مرة أخرى.', correct:'الإجابة الصحيحة: ', right:'إجابة صحيحة.', wrong:'إجابة غير صحيحة.'},
+        es: {missing:'Responde primero a todas las preguntas.', score:'Resultado', of:'de', perfect:'¡Excelente! Todas tus respuestas son correctas.', review:'Revisa las respuestas correctas indicadas y vuelve a intentarlo.', correct:'Respuesta correcta: ', right:'Respuesta correcta.', wrong:'Respuesta incorrecta.'},
+        fr: {missing:'Veuillez répondre à toutes les questions.', score:'Résultat', of:'sur', perfect:'Excellent ! Toutes vos réponses sont correctes.', review:'Consultez les bonnes réponses indiquées puis réessayez.', correct:'Bonne réponse : ', right:'Bonne réponse.', wrong:'Réponse incorrecte.'},
+        en: {missing:'Please answer all questions first.', score:'Score', of:'out of', perfect:'Excellent! All your answers are correct.', review:'Review the correct answers shown below and try again.', correct:'Correct answer: ', right:'Correct answer.', wrong:'Incorrect answer.'}
+    };
+    const msg = messages[lang] || messages.ar;
 
     button.addEventListener('click', function() {
         const questions = Array.from(card.querySelectorAll('fieldset'));
@@ -817,28 +825,43 @@ document.querySelectorAll('.quiz-card').forEach(function(card) {
 
         questions.forEach(function(question) {
             const selected = question.querySelector('input[type="radio"]:checked');
+            const correct = question.dataset.correct;
+            const correctInput = question.querySelector('input[value="' + correct + '"]');
+            const correctLabel = correctInput ? correctInput.closest('label') : null;
+            let feedback = question.querySelector('.quiz-feedback');
+            if (!feedback) {
+                feedback = document.createElement('p');
+                feedback.className = 'quiz-feedback';
+                feedback.style.marginTop = '10px';
+                feedback.style.fontWeight = 'bold';
+                question.appendChild(feedback);
+            }
             if (!selected) {
                 unanswered = true;
                 question.style.borderColor = '#c58b24';
+                feedback.textContent = msg.correct + (correctLabel ? correctLabel.textContent.trim() : '');
+                feedback.style.color = '#9a6700';
                 return;
             }
-            if (selected.value === question.dataset.correct) {
+            if (selected.value === correct) {
                 score++;
                 question.style.borderColor = '#287a52';
+                feedback.textContent = msg.right;
+                feedback.style.color = '#287a52';
             } else {
                 question.style.borderColor = '#c0392b';
+                feedback.textContent = msg.wrong + ' ' + msg.correct + (correctLabel ? correctLabel.textContent.trim() : '');
+                feedback.style.color = '#c0392b';
             }
         });
 
         if (unanswered) {
-            result.textContent = 'يرجى الإجابة عن جميع الأسئلة أولاً.';
+            result.textContent = msg.missing;
             return;
         }
-
-        result.textContent = 'النتيجة: ' + score + ' من ' + questions.length +
-            ' — ' + (score === questions.length
-                ? 'ممتاز! جميع إجاباتك صحيحة.'
-                : 'راجع الأسئلة ذات الإطار الأحمر وحاول مرة أخرى.');
+        result.textContent = msg.score + ': ' + score + ' ' + msg.of + ' ' + questions.length +
+            ' (' + Math.round(score / questions.length * 100) + '%). ' +
+            (score === questions.length ? msg.perfect : msg.review);
     });
 });
 </script>
