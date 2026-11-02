@@ -33,6 +33,10 @@ return [
     'naceur_experience' => '⚠️ At least 3 years of experience transporting dangerous goods',
     'naceur_adr' => '🛡️ ADR certificate: class 2 or 3 required',
     'naceur_contract' => '💼 Full-time permanent contract (CDI)',
+
+    'naceur_salary' => '💰 Advertised salary: MAD 8,000–12,000 per month; the website does not say whether this is net or gross.',
+    'naceur_checked' => '📅 Checked on the official recruitment page on 2 November 2026; the company lists three open positions, including the ADR driver role.',
+    'naceur_adr_note' => '⚠️ The listing requires an ADR class 2 or 3 certificate. The company mentions ongoing training but does not confirm that it will train a driver who does not yet hold the certificate; ask HR before applying.',
     'naceur_classification' => '<strong>Classification:</strong> 🔵 Experience required',
     'marotrans_title' => 'MAROTRANS — Truck drivers',
     'tangier_kenitra' => '📍 Tangier / Kenitra',
