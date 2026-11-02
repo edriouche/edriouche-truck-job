@@ -346,7 +346,7 @@
 <ul><li>Conserver une distance suffisante.</li><li>Anticiper les situations nécessitant un freinage.</li><li>Utiliser correctement le frein moteur ou le ralentisseur lorsque le véhicule en est équipé.</li><li>Dans les longues descentes, ne pas dépendre uniquement du frein de service.</li><li>Contrôler la vitesse avant les virages et les descentes.</li></ul>
 </div>
 
-<div class="card"><h2>⚖️ Charge et répartition du poids</h2>
+<div class="card" id="lesson-5"><h2>⚖️ Charge et répartition du poids</h2>
 <p>Une charge mal répartie peut affecter la stabilité, le freinage et le comportement de l'ensemble routier.</p>
 <!-- academy-image:fr:5 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/load-securing.svg') }}" alt="Illustration du chargement : répartition du poids et arrimage des marchandises." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Illustration du chargement : répartition du poids et arrimage des marchandises.</figcaption></figure>
@@ -355,13 +355,13 @@
 <ul><li>Respecter les limites légales de poids.</li><li>Répartir correctement la charge.</li><li>Arrimer la marchandise selon sa nature.</li><li>Contrôler les portes, fermetures et dispositifs d'arrimage.</li><li>Vérifier la charge après un arrêt lorsque cela est nécessaire.</li></ul>
 </div>
 
-<div class="card"><h2>🔧 Contrôle avant le départ</h2>
+<div class="card" id="lesson-6"><h2>🔧 Contrôle avant le départ</h2>
 <p>Avant un trajet, le conducteur doit vérifier que le véhicule et la remorque sont en état approprié.</p>
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/truck-pretrip-inspection.svg') }}" alt="Contrôle visuel : pneus, freins, feux, rétroviseurs, fuites et attelage." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Contrôle visuel : pneus, freins, feux, rétroviseurs, fuites et attelage.</figcaption></figure>
 <ul><li>Pneus et dommages éventuels.</li><li>Freins et connexions.</li><li>Feux et indicateurs.</li><li>Niveaux et éventuelles fuites.</li><li>Rétroviseurs, portes et éléments de sécurité.</li><li>Connexions entre le tracteur et la remorque.</li></ul>
 </div>
 
-<div class="card"><h2>🌧️ Conduite dans des conditions difficiles</h2>
+<div class="card" id="lesson-7"><h2>🌧️ Conduite dans des conditions difficiles</h2>
 <p>La pluie, le brouillard, le vent, la neige et les routes montagneuses nécessitent une adaptation de la vitesse et des distances.</p>
 <!-- academy-image:fr:7 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/adverse-weather.svg') }}" alt="Illustration de conduite sous la pluie, le brouillard et le vent." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Illustration de conduite sous la pluie, le brouillard et le vent.</figcaption></figure>
@@ -369,7 +369,7 @@
 <ul><li>Réduire la vitesse lorsque la visibilité ou l'adhérence diminuent.</li><li>Augmenter la distance de sécurité.</li><li>Être particulièrement attentif au vent latéral avec les véhicules hauts.</li><li>Éviter les manœuvres brusques.</li><li>Si les conditions deviennent dangereuses, s'arrêter dans un endroit sûr.</li></ul>
 </div>
 
-<div class="card"><h2>🪞 Rétroviseurs et angles morts</h2>
+<div class="card" id="lesson-8"><h2>🪞 Rétroviseurs et angles morts</h2>
 <p>Les véhicules lourds possèdent des zones qui ne peuvent pas être observées directement par le conducteur.</p>
 <ul><li>Vérifier les rétroviseurs avant un changement de direction ou de voie.</li><li>Ne pas dépendre d'un seul rétroviseur.</li><li>Être particulièrement prudent lors des virages à droite.</li><li>Se rappeler que les motos, vélos et piétons peuvent être masqués.</li><li>Utiliser correctement les systèmes d'assistance disponibles.</li></ul>
 
@@ -379,7 +379,7 @@
 
 </div>
 
-<div class="card"><h2>📋 Documents et responsabilité professionnelle</h2>
+<div class="card" id="lesson-9"><h2>📋 Documents et responsabilité professionnelle</h2>
 <p>Le conducteur professionnel doit connaître et contrôler les documents nécessaires à son trajet.</p>
 <!-- academy-image:fr:9 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/transport-documents.svg') }}" alt="Illustration des documents professionnels du transport routier." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Illustration des documents professionnels du transport routier.</figcaption></figure>
