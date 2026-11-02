@@ -5,6 +5,10 @@ return [
     'naceur_experience' => '⚠️ Experiencia: al menos 3 años en transporte de mercancías peligrosas',
     'naceur_adr' => '🛡️ Certificado ADR: clase 2 o 3 requerido',
     'naceur_contract' => '💼 Contrato: CDI — jornada completa',
+
+    'naceur_salary' => '💰 Salario anunciado: 8.000–12.000 MAD al mes; la web no aclara si es neto o bruto.',
+    'naceur_checked' => '📅 Comprobado en la página oficial de empleo el 2 de noviembre de 2026; la empresa indica tres vacantes, incluida la de conductor ADR.',
+    'naceur_adr_note' => '⚠️ El anuncio exige certificado ADR clase 2 o 3. La empresa menciona formación continua, pero no confirma que forme a conductores que aún no tengan el certificado; consulte a RR. HH. antes de solicitar.',
     'naceur_classification' => '<strong>Clasificación:</strong> 🔵 Requiere experiencia',
     'marotrans_title' => 'MAROTRANS — Conductores de camión',
     'tangier_kenitra' => '📍 Tánger / Kenitra',
