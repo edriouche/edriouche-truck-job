@@ -1,5 +1,5 @@
 @php($locale = app()->getLocale())
-<section class="card" id="coupling-uncoupling" style="border-inline-start:5px solid #0b3a68;">
+<section class="card" id="lesson-10" style="border-inline-start:5px solid #0b3a68;">
 @if($locale === 'es')
 <h2>🔗 10. Acoplamiento y desacoplamiento del semirremolque</h2>
 <p>Una operación segura exige inmovilizar el conjunto, seguir el procedimiento del fabricante y confirmar visualmente el bloqueo de la quinta rueda.</p>
