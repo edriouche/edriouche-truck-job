@@ -22,7 +22,7 @@
 </ol>
 <p><strong>Errores que deben evitarse:</strong> salir sin confirmar el bloqueo del perno rey; olvidar las conexiones o las patas de apoyo; liberar la quinta rueda antes de asegurar el semirremolque; situarse entre vehículos durante una maniobra; continuar si el acoplamiento no parece correcto.</p>
 <p><strong>Importante:</strong> esta guía es educativa. La posición de mandos, el diseño de la quinta rueda y el procedimiento pueden variar. Siga siempre el manual del fabricante, las normas de la empresa y la formación práctica supervisada.</p>
-<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/semi-trailer-coupling.svg') }}" alt="Esquema educativo del acoplamiento entre tractor y semirremolque" loading="lazy" style="width:100%;height:auto;border:1px solid #dbe3ec;border-radius:12px;"><figcaption>Esquema simplificado: quinta rueda, perno rey, patas de apoyo y conexiones. No sustituye la inspección real.</figcaption></figure>
+<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/semi-trailer-coupling.jpg') }}" alt="Esquema educativo del acoplamiento entre tractor y semirremolque" loading="lazy" style="width:100%;height:auto;border:1px solid #dbe3ec;border-radius:12px;"><figcaption>Esquema simplificado: quinta rueda, perno rey, patas de apoyo y conexiones. No sustituye la inspección real.</figcaption></figure>
 @elseif($locale === 'fr')
 <h2>🔗 10. Attelage et dételage de la semi-remorque</h2>
 <p>Une opération sûre exige d'immobiliser l'ensemble, de suivre les instructions du constructeur et de confirmer visuellement le verrouillage de la sellette.</p>
@@ -45,7 +45,7 @@
 </ol>
 <p><strong>Erreurs à éviter :</strong> partir sans confirmer le verrouillage du pivot ; oublier les raccordements ou les béquilles ; libérer la sellette avant d'avoir stabilisé la semi-remorque ; se placer entre les véhicules pendant une manœuvre ; continuer si l'attelage semble incorrect.</p>
 <p><strong>Important :</strong> ce guide est éducatif. Les commandes, la sellette et la procédure peuvent varier. Respectez le manuel du constructeur, les règles de l'entreprise et la formation pratique encadrée.</p>
-<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/semi-trailer-coupling.svg') }}" alt="Schéma éducatif de l'attelage entre tracteur et semi-remorque" loading="lazy" style="width:100%;height:auto;border:1px solid #dbe3ec;border-radius:12px;"><figcaption>Schéma simplifié : sellette, pivot d'attelage, béquilles et raccordements. Il ne remplace pas le contrôle réel.</figcaption></figure>
+<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/semi-trailer-coupling.jpg') }}" alt="Schéma éducatif de l'attelage entre tracteur et semi-remorque" loading="lazy" style="width:100%;height:auto;border:1px solid #dbe3ec;border-radius:12px;"><figcaption>Schéma simplifié : sellette, pivot d'attelage, béquilles et raccordements. Il ne remplace pas le contrôle réel.</figcaption></figure>
 @elseif($locale === 'en')
 <h2>🔗 10. Coupling and uncoupling a semi-trailer</h2>
 <p>A safe operation means securing the combination, following the manufacturer's procedure and visually confirming that the fifth wheel is locked.</p>
@@ -68,7 +68,7 @@
 </ol>
 <p><strong>Common errors to avoid:</strong> driving away without confirming kingpin lock; forgetting connections or landing legs; releasing the fifth wheel before supporting the trailer; standing between vehicles during a manoeuvre; continuing when the coupling looks incorrect.</p>
 <p><strong>Important:</strong> this is educational guidance. Controls, fifth-wheel designs and procedures vary. Always follow the manufacturer's manual, company procedures and supervised practical training.</p>
-<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/semi-trailer-coupling.svg') }}" alt="Educational diagram of tractor unit and semi-trailer coupling" loading="lazy" style="width:100%;height:auto;border:1px solid #dbe3ec;border-radius:12px;"><figcaption>Simplified diagram: fifth wheel, kingpin, landing legs and connections. It does not replace a real inspection.</figcaption></figure>
+<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/semi-trailer-coupling.jpg') }}" alt="Educational diagram of tractor unit and semi-trailer coupling" loading="lazy" style="width:100%;height:auto;border:1px solid #dbe3ec;border-radius:12px;"><figcaption>Simplified diagram: fifth wheel, kingpin, landing legs and connections. It does not replace a real inspection.</figcaption></figure>
 @else
 <h2>🔗 10. ربط وفصل نصف المقطورة (السيمي)</h2>
 <p>تتطلب هذه العملية تأمين الشاحنة والمقطورة، واتباع تعليمات المصنّع، والتأكد بصرياً من قفل القرص الخامس بشكل صحيح.</p>
@@ -91,6 +91,6 @@
 </ol>
 <p><strong>أخطاء خطيرة يجب تجنبها:</strong> الانطلاق دون التأكد من قفل مسمار الجر؛ نسيان الوصلات أو أرجل الدعم؛ تحرير القرص الخامس قبل تثبيت المقطورة؛ الوقوف بين المركبتين أثناء المناورة؛ مواصلة العمل إذا بدا الربط غير صحيح.</p>
 <p><strong>تنبيه:</strong> هذا شرح تعليمي. تختلف أدوات التحكم وتصاميم الأقراص الخامسة والإجراءات حسب المركبة. اتبع دائماً دليل المصنّع وإجراءات الشركة والتكوين التطبيقي تحت إشراف مختص.</p>
-<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/semi-trailer-coupling.svg') }}" alt="رسم تعليمي لربط الشاحنة بنصف المقطورة" loading="lazy" style="width:100%;height:auto;border:1px solid #dbe3ec;border-radius:12px;"><figcaption>رسم مبسط يوضح القرص الخامس ومسمار الجر وأرجل الدعم والوصلات. لا يغني عن الفحص الحقيقي.</figcaption></figure>
+<figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/semi-trailer-coupling.jpg') }}" alt="رسم تعليمي لربط الشاحنة بنصف المقطورة" loading="lazy" style="width:100%;height:auto;border:1px solid #dbe3ec;border-radius:12px;"><figcaption>رسم مبسط يوضح القرص الخامس ومسمار الجر وأرجل الدعم والوصلات. لا يغني عن الفحص الحقيقي.</figcaption></figure>
 @endif
 </section>
