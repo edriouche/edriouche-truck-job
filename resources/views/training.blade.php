@@ -30,6 +30,12 @@
         ul,ol{padding-inline-start:28px}
         .training-note{background:#eef6ff;border-right:5px solid #0b3a68;padding:18px;border-radius:10px;margin-bottom:20px}
         footer{text-align:center;padding:25px;color:#666}
+        .academy-nav{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 20px;padding:16px;background:#eaf3fb;border:1px solid #cbdceb;border-radius:14px}
+        .academy-nav a{display:inline-block;padding:8px 12px;background:#fff;border:1px solid #cbdceb;border-radius:9px;color:#0b3a68;text-decoration:none;font-weight:700;font-size:.92rem}
+        .academy-nav a:hover{background:#dceeff}
+        .card[id^="lesson-"]{scroll-margin-top:18px}
+        @media(max-width:600px){.container{padding:12px}.intro,.card,.warning{padding:16px}.academy-nav a{flex:1 1 42%;text-align:center}}
+
     </style>
 </head>
 
@@ -132,9 +138,20 @@
 @endif
 </div>
 
+<nav class="academy-nav" aria-label="Academy lesson index">
+@if(app()->getLocale() === 'es')
+<a href="#lesson-1">1. Seguridad</a><a href="#lesson-2">2. Ahorro</a><a href="#lesson-3">3. Maniobras</a><a href="#lesson-4">4. Frenado</a><a href="#lesson-5">5. Carga</a><a href="#lesson-6">6. Inspección</a><a href="#lesson-7">7. Clima</a><a href="#lesson-8">8. Ángulos muertos</a><a href="#lesson-9">9. Documentos</a><a href="#lesson-10">10. Semirremolque</a><a href="#lesson-11">11. Examen</a>
+@elseif(app()->getLocale() === 'fr')
+<a href="#lesson-1">1. Sécurité</a><a href="#lesson-2">2. Économie</a><a href="#lesson-3">3. Manœuvres</a><a href="#lesson-4">4. Freinage</a><a href="#lesson-5">5. Chargement</a><a href="#lesson-6">6. Inspection</a><a href="#lesson-7">7. Météo</a><a href="#lesson-8">8. Angles morts</a><a href="#lesson-9">9. Documents</a><a href="#lesson-10">10. Semi-remorque</a><a href="#lesson-11">11. Test</a>
+@elseif(app()->getLocale() === 'en')
+<a href="#lesson-1">1. Safety</a><a href="#lesson-2">2. Economy</a><a href="#lesson-3">3. Manoeuvres</a><a href="#lesson-4">4. Braking</a><a href="#lesson-5">5. Loads</a><a href="#lesson-6">6. Inspection</a><a href="#lesson-7">7. Weather</a><a href="#lesson-8">8. Blind spots</a><a href="#lesson-9">9. Documents</a><a href="#lesson-10">10. Semi-trailer</a><a href="#lesson-11">11. Test</a>
+@else
+<a href="#lesson-1">1. السلامة</a><a href="#lesson-2">2. الاقتصاد</a><a href="#lesson-3">3. المناورات</a><a href="#lesson-4">4. الفرملة</a><a href="#lesson-5">5. الحمولة</a><a href="#lesson-6">6. الفحص</a><a href="#lesson-7">7. الطقس</a><a href="#lesson-8">8. النقاط العمياء</a><a href="#lesson-9">9. الوثائق</a><a href="#lesson-10">10. نصف المقطورة</a><a href="#lesson-11">11. الاختبار</a>
+@endif
+</nav>
 <div class="cards">
 
-<div class="card"><h2>🛡️ 1. Conducción defensiva</h2>
+<div class="card" id="lesson-1"><h2>🛡️ 1. Conducción defensiva</h2>
 <p>La conducción defensiva consiste en anticiparse a los riesgos y no depender de que los demás usuarios actúen correctamente.</p>
 <!-- academy-image:es:1 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/defensive-driving.svg') }}" alt="Ilustración de conducción defensiva: anticipación, distancia de seguridad y observación." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Ilustración de conducción defensiva: anticipación, distancia de seguridad y observación.</figcaption></figure>
@@ -172,7 +189,7 @@
 <button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">تصحيح الإجابات</button>
 <p class="quiz-result" aria-live="polite" style="font-weight:bold;margin-top:14px;"></p>
 </section>
-<div class="card"><h2>⛽ 2. Conducción económica</h2>
+<div class="card" id="lesson-2"><h2>⛽ 2. Conducción económica</h2>
 <p>La conducción económica busca reducir el consumo y el desgaste sin comprometer la seguridad.</p>
 <!-- academy-image:es:2 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/eco-driving.svg') }}" alt="Ilustración de conducción económica: aceleración suave y velocidad constante." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Ilustración de conducción económica: aceleración suave y velocidad constante.</figcaption></figure>
@@ -181,7 +198,7 @@
 <ul><li>Acelerar progresivamente y evitar aceleraciones innecesarias.</li><li>Mantener una velocidad estable cuando las condiciones lo permitan.</li><li>Usar correctamente las marchas y los sistemas de retención.</li><li>Evitar frenadas y aceleraciones repetidas que podrían anticiparse.</li><li>Comprobar la presión de los neumáticos.</li><li>Realizar el mantenimiento correctamente.</li><li>No buscar ahorro mediante una conducción peligrosa.</li></ul>
 </div>
 
-<div class="card"><h2>↩️ 3. Marcha atrás con camión y remolque</h2>
+<div class="card" id="lesson-3"><h2>↩️ 3. Marcha atrás con camión y remolque</h2>
 <p>La marcha atrás requiere paciencia, velocidad muy baja y control constante.</p>
 <!-- academy-image:es:3 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/reversing-trailer.svg') }}" alt="Ilustración de marcha atrás con camión y remolque: maniobra lenta y guiada." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Ilustración de marcha atrás con camión y remolque: maniobra lenta y guiada.</figcaption></figure>
@@ -190,7 +207,7 @@
 <ul><li>Comprobar la zona antes de comenzar.</li><li>Ajustar los espejos y conocer los ángulos muertos.</li><li>Comprender que el remolque puede desplazarse en dirección contraria al movimiento inicial del volante.</li><li>Hacer maniobras pequeñas y corregir progresivamente.</li><li>Usar un señalista cuando sea necesario.</li><li>Detenerse inmediatamente si se pierde la visibilidad o existe duda.</li><li>No sacrificar la seguridad para terminar rápidamente la maniobra.</li></ul>
 </div>
 
-<div class="card"><h2>🛑 4. Frenado y control del camión</h2>
+<div class="card" id="lesson-4"><h2>🛑 4. Frenado y control del camión</h2>
 <p>El peso y la carga influyen directamente en la distancia de frenado y el comportamiento del vehículo.</p>
 <!-- academy-image:es:4 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/braking-distance.svg') }}" alt="Ilustración de frenado: distancia de parada y control del vehículo pesado." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Ilustración de frenado: distancia de parada y control del vehículo pesado.</figcaption></figure>
@@ -198,7 +215,7 @@
 <ul><li>Mantener una distancia suficiente.</li><li>Anticipar las situaciones que requieren frenado.</li><li>Usar correctamente el freno motor o retarder cuando el vehículo disponga de ellos.</li><li>En descensos prolongados, evitar depender únicamente del freno de servicio.</li><li>Controlar la velocidad antes de entrar en una curva o descenso.</li></ul>
 </div>
 
-<div class="card"><h2>⚖️ 5. Carga y distribución del peso</h2>
+<div class="card" id="lesson-5"><h2>⚖️ 5. Carga y distribución del peso</h2>
 <p>Una carga mal distribuida puede afectar a la estabilidad, frenado y comportamiento del conjunto.</p>
 <!-- academy-image:es:5 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/load-securing.svg') }}" alt="Ilustración de carga: distribución del peso y sujeción de mercancías." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Ilustración de carga: distribución del peso y sujeción de mercancías.</figcaption></figure>
@@ -207,13 +224,13 @@
 <ul><li>Respetar los límites legales de peso.</li><li>Distribuir la carga correctamente.</li><li>Asegurar la mercancía según su naturaleza.</li><li>Comprobar puertas, cierres y elementos de sujeción.</li><li>Volver a comprobar la carga después de una parada cuando sea necesario.</li></ul>
 </div>
 
-<div class="card"><h2>🔧 6. Inspección antes de salir</h2>
+<div class="card" id="lesson-6"><h2>🔧 6. Inspección antes de salir</h2>
 <p>Antes de iniciar un viaje, el conductor debe comprobar que el vehículo y el remolque están en condiciones adecuadas.</p>
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/truck-pretrip-inspection.svg') }}" alt="Inspección visual: neumáticos, frenos, luces, espejos, fugas y acoplamiento." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Inspección visual: neumáticos, frenos, luces, espejos, fugas y acoplamiento.</figcaption></figure>
 <ul><li>Neumáticos y posibles daños.</li><li>Frenos y conexiones.</li><li>Luces e indicadores.</li><li>Niveles y posibles fugas.</li><li>Espejos, puertas y elementos de seguridad.</li><li>Conexiones entre tractor y remolque.</li></ul>
 </div>
 
-<div class="card"><h2>🌧️ 7. Conducción en condiciones difíciles</h2>
+<div class="card" id="lesson-7"><h2>🌧️ 7. Conducción en condiciones difíciles</h2>
 <p>La lluvia, niebla, viento, nieve y carreteras de montaña requieren adaptación de velocidad y distancia.</p>
 <!-- academy-image:es:7 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/adverse-weather.svg') }}" alt="Ilustración de conducción con lluvia, niebla y viento." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Ilustración de conducción con lluvia, niebla y viento.</figcaption></figure>
@@ -221,7 +238,7 @@
 <ul><li>Reducir la velocidad cuando disminuye la visibilidad o adherencia.</li><li>Aumentar la distancia de seguridad.</li><li>Prestar especial atención al viento lateral con vehículos altos.</li><li>Evitar maniobras bruscas.</li><li>En condiciones peligrosas, detenerse en un lugar seguro si continuar no es razonable.</li></ul>
 </div>
 
-<div class="card"><h2>🪞 8. Espejos y ángulos muertos</h2>
+<div class="card" id="lesson-8"><h2>🪞 8. Espejos y ángulos muertos</h2>
 <p>Los vehículos pesados tienen zonas que el conductor no puede observar directamente.</p>
 <ul><li>Revisar los espejos antes de cambiar de dirección o carril.</li><li>No confiar únicamente en un espejo.</li><li>Comprobar cuidadosamente antes de girar a la derecha.</li><li>Recordar que motocicletas, bicicletas y peatones pueden quedar ocultos.</li><li>Utilizar correctamente los sistemas de asistencia disponibles.</li></ul>
 
@@ -231,7 +248,7 @@
 
 </div>
 
-<div class="card"><h2>📋 9. Documentos y responsabilidad profesional</h2>
+<div class="card" id="lesson-9"><h2>📋 9. Documentos y responsabilidad profesional</h2>
 <p>El conductor profesional debe conocer y controlar la documentación necesaria para su viaje.</p>
 <!-- academy-image:es:9 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/transport-documents.svg') }}" alt="Ilustración de documentos profesionales para el transporte por carretera." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Ilustración de documentos profesionales para el transporte por carretera.</figcaption></figure>
@@ -241,7 +258,7 @@
 
 @include('partials.semi-trailer-coupling-lesson')
 
-<div class="card"><h2>🎓 11. Test del conductor</h2>
+<div class="card" id="lesson-1"><h2>🎓 11. Test del conductor</h2>
 <p>Después de estudiar los temas, el conductor puede comprobar sus conocimientos con preguntas sobre seguridad, frenado, carga, marcha atrás, consumo y documentación.</p>
 <ol><li>¿Qué debe hacer si pierde la visión durante una maniobra marcha atrás?</li><li>¿Por qué es importante aumentar la distancia de seguridad con un vehículo pesado?</li><li>¿Qué elementos deben revisarse antes de iniciar un viaje?</li><li>¿Cómo influye una carga mal distribuida?</li><li>¿Por qué no debe buscarse el ahorro de combustible mediante una conducción peligrosa?</li></ol>
 </div>
@@ -265,7 +282,7 @@
 
 <div class="cards">
 
-<div class="card"><h2>🛡️ 1. Conduite défensive</h2>
+<div class="card" id="lesson-1"><h2>🛡️ 1. Conduite défensive</h2>
 <p>La conduite défensive consiste à anticiper les risques et à ne pas supposer que les autres usagers agiront toujours correctement.</p>
 <!-- academy-image:fr:1 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/defensive-driving.svg') }}" alt="Illustration de conduite défensive : anticipation, distance de sécurité et observation." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Illustration de conduite défensive : anticipation, distance de sécurité et observation.</figcaption></figure>
@@ -303,7 +320,7 @@
 <button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">تصحيح الإجابات</button>
 <p class="quiz-result" aria-live="polite" style="font-weight:bold;margin-top:14px;"></p>
 </section>
-<div class="card"><h2>⛽ 2. Conduite économique</h2>
+<div class="card" id="lesson-2"><h2>⛽ 2. Conduite économique</h2>
 <p>La conduite économique vise à réduire la consommation et l'usure sans compromettre la sécurité.</p>
 <!-- academy-image:fr:2 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/eco-driving.svg') }}" alt="Illustration d'éco-conduite : accélération souple et vitesse régulière." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Illustration d'éco-conduite : accélération souple et vitesse régulière.</figcaption></figure>
@@ -312,7 +329,7 @@
 <ul><li>Accélérer progressivement.</li><li>Maintenir une vitesse régulière lorsque les conditions le permettent.</li><li>Utiliser correctement les rapports et les systèmes de ralentissement.</li><li>Éviter les accélérations et freinages inutiles.</li><li>Contrôler la pression des pneus.</li><li>Respecter l'entretien du véhicule.</li><li>Ne jamais rechercher l'économie au détriment de la sécurité.</li></ul>
 </div>
 
-<div class="card"><h2>↩️ 3. Marche arrière avec camion et remorque</h2>
+<div class="card" id="lesson-3"><h2>↩️ 3. Marche arrière avec camion et remorque</h2>
 <p>La marche arrière exige patience, très faible vitesse et contrôle permanent.</p>
 <!-- academy-image:fr:3 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/reversing-trailer.svg') }}" alt="Illustration de marche arrière avec camion et remorque : manœuvre lente et guidée." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Illustration de marche arrière avec camion et remorque : manœuvre lente et guidée.</figcaption></figure>
@@ -321,7 +338,7 @@
 <ul><li>Vérifier la zone avant de commencer.</li><li>Régler les rétroviseurs et connaître les angles morts.</li><li>Comprendre la réaction de la remorque aux mouvements du volant.</li><li>Effectuer de petites corrections progressives.</li><li>Utiliser un guide lorsque cela est nécessaire.</li><li>S'arrêter immédiatement en cas de perte de visibilité ou de doute.</li><li>Ne jamais privilégier la rapidité au détriment de la sécurité.</li></ul>
 </div>
 
-<div class="card"><h2>🛑 4. Freinage et contrôle du camion</h2>
+<div class="card" id="lesson-4"><h2>🛑 4. Freinage et contrôle du camion</h2>
 <p>Le poids et la charge influencent directement la distance de freinage et le comportement du véhicule.</p>
 <!-- academy-image:fr:4 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/braking-distance.svg') }}" alt="Illustration du freinage : distance d'arrêt et contrôle du poids lourd." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Illustration du freinage : distance d'arrêt et contrôle du poids lourd.</figcaption></figure>
@@ -372,7 +389,7 @@
 
 @include('partials.semi-trailer-coupling-lesson')
 
-<div class="card"><h2>🎓 11. Test du conducteur</h2>
+<div class="card" id="lesson-1"><h2>🎓 11. Test du conducteur</h2>
 <p>Après l'étude des thèmes, le conducteur peut vérifier ses connaissances avec des questions sur la sécurité, le freinage, la charge, la marche arrière, la consommation et les documents.</p>
 <ol><li>Que faire si la visibilité est perdue pendant une marche arrière ?</li><li>Pourquoi augmenter la distance de sécurité avec un poids lourd ?</li><li>Quels éléments contrôler avant un trajet ?</li><li>Comment une mauvaise répartition de la charge influence-t-elle le véhicule ?</li><li>Pourquoi ne faut-il jamais économiser du carburant au détriment de la sécurité ?</li></ol>
 </div>
@@ -396,7 +413,7 @@
 <div class="training-note"><strong>Important:</strong> This page is for education and awareness. Always follow applicable laws, vehicle manufacturer instructions, company procedures and actual road conditions.</div>
 
 <div class="cards">
-<div class="card"><h2>🛡️ 1. Defensive driving</h2>
+<div class="card" id="lesson-1"><h2>🛡️ 1. Defensive driving</h2>
 <p>Anticipate hazards and drive safely without assuming that other road users will always act correctly.</p>
 <!-- academy-image:en:1 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/defensive-driving.svg') }}" alt="Defensive driving illustration: anticipation, safe distance and observation." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Defensive driving illustration: anticipation, safe distance and observation.</figcaption></figure>
@@ -433,7 +450,7 @@
 <button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">تصحيح الإجابات</button>
 <p class="quiz-result" aria-live="polite" style="font-weight:bold;margin-top:14px;"></p>
 </section>
-<div class="card"><h2>⛽ 2. Economical driving</h2>
+<div class="card" id="lesson-2"><h2>⛽ 2. Economical driving</h2>
 <p>Reduce fuel consumption and vehicle wear without compromising safety.</p>
 <!-- academy-image:en:2 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/eco-driving.svg') }}" alt="Eco-driving illustration: smooth acceleration and steady speed." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Eco-driving illustration: smooth acceleration and steady speed.</figcaption></figure>
@@ -441,7 +458,7 @@
 
 <ul><li>Accelerate smoothly.</li><li>Maintain a steady speed when conditions allow.</li><li>Use gears and retarders correctly.</li><li>Avoid unnecessary braking and acceleration.</li><li>Check tyre pressure and maintain the vehicle regularly.</li></ul></div>
 
-<div class="card"><h2>↩️ 3. Reversing with a truck and trailer</h2>
+<div class="card" id="lesson-3"><h2>↩️ 3. Reversing with a truck and trailer</h2>
 <p>Reversing requires patience, low speed and constant observation.</p>
 <!-- academy-image:en:3 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/reversing-trailer.svg') }}" alt="Truck and trailer reversing illustration: slow, guided manoeuvring." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Truck and trailer reversing illustration: slow, guided manoeuvring.</figcaption></figure>
@@ -449,14 +466,14 @@
 
 <ul><li>Inspect the area before manoeuvring.</li><li>Adjust mirrors and identify blind spots.</li><li>Understand how the trailer responds to steering.</li><li>Make small, gradual corrections.</li><li>Use a guide when necessary.</li><li>Stop immediately if you lose sight or are unsure.</li></ul></div>
 
-<div class="card"><h2>🛑 4. Braking and vehicle control</h2>
+<div class="card" id="lesson-4"><h2>🛑 4. Braking and vehicle control</h2>
 <p>Vehicle weight and load directly affect stopping distance and stability.</p>
 <!-- academy-image:en:4 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/braking-distance.svg') }}" alt="Braking illustration: stopping distance and heavy vehicle control." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Braking illustration: stopping distance and heavy vehicle control.</figcaption></figure>
 
 <ul><li>Keep a sufficient safety distance.</li><li>Anticipate situations requiring braking.</li><li>Use engine braking or a retarder correctly when fitted.</li><li>Do not rely only on service brakes on long descents.</li><li>Reduce speed before bends and downhill sections.</li></ul></div>
 
-<div class="card"><h2>⚖️ 5. Cargo and weight distribution</h2>
+<div class="card" id="lesson-5"><h2>⚖️ 5. Cargo and weight distribution</h2>
 <p>Poorly distributed cargo can affect stability, braking and vehicle control.</p>
 <!-- academy-image:en:5 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/load-securing.svg') }}" alt="Cargo illustration: weight distribution and load securing." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Cargo illustration: weight distribution and load securing.</figcaption></figure>
@@ -464,19 +481,19 @@
 
 <ul><li>Respect legal weight limits.</li><li>Distribute the load correctly.</li><li>Secure cargo according to its type.</li><li>Check doors, locks and securing equipment.</li><li>Recheck the load when necessary during the journey.</li></ul></div>
 
-<div class="card"><h2>🔧 6. Pre-trip vehicle inspection</h2>
+<div class="card" id="lesson-6"><h2>🔧 6. Pre-trip vehicle inspection</h2>
 <p>Check that the truck and trailer are safe and roadworthy before departure.</p>
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/truck-pretrip-inspection.svg') }}" alt="Visual check: tyres, brakes, lights, mirrors, leaks and trailer coupling." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Visual check: tyres, brakes, lights, mirrors, leaks and trailer coupling.</figcaption></figure>
 <ul><li>Tyres and visible damage.</li><li>Brakes and connections.</li><li>Lights and indicators.</li><li>Fluid levels and possible leaks.</li><li>Mirrors, doors and safety equipment.</li><li>Coupling between truck and trailer.</li></ul></div>
 
-<div class="card"><h2>🌧️ 7. Driving in difficult conditions</h2>
+<div class="card" id="lesson-7"><h2>🌧️ 7. Driving in difficult conditions</h2>
 <p>Rain, fog, wind, snow and mountain roads require adjusted speed and safety distance.</p>
 <!-- academy-image:en:7 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/adverse-weather.svg') }}" alt="Driving in rain, fog and wind illustration." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Driving in rain, fog and wind illustration.</figcaption></figure>
 
 <ul><li>Reduce speed when visibility or grip is poor.</li><li>Increase the following distance.</li><li>Watch for crosswinds, especially with high-sided vehicles.</li><li>Avoid sudden manoeuvres.</li><li>Stop in a safe place if conditions become dangerous.</li></ul></div>
 
-<div class="card"><h2>🪞 8. Mirrors and blind spots</h2>
+<div class="card" id="lesson-8"><h2>🪞 8. Mirrors and blind spots</h2>
 <p>Trucks and trailers have areas that the driver cannot see directly.</p>
 <ul><li>Check mirrors before changing direction or lane.</li><li>Never rely on only one mirror.</li><li>Pay special attention when turning right.</li><li>Look out for cyclists, pedestrians and small vehicles.</li><li>Use vehicle assistance systems correctly.</li></ul>
 
@@ -485,7 +502,7 @@
 <p>Adjust mirrors according to the manufacturer's instructions. Check the surroundings before turning, changing lanes or reversing. Take extra care on the right and watch for pedestrians, cyclists and small vehicles. Signal early and manoeuvre slowly. Cameras can help but never replace the driver's own observations. If visibility is lost or you are unsure, stop safely and ask for assistance if needed. This drawing is illustrative: consult the vehicle manual and follow local traffic rules.</p>
 </div>
 
-<div class="card"><h2>📋 9. Documents and professional responsibility</h2>
+<div class="card" id="lesson-9"><h2>📋 9. Documents and professional responsibility</h2>
 <p>Professional drivers must know and check the documents required for each journey.</p>
 <!-- academy-image:en:9 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/transport-documents.svg') }}" alt="Professional road transport documents illustration." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">Professional road transport documents illustration.</figcaption></figure>
@@ -494,7 +511,7 @@
 
 @include('partials.semi-trailer-coupling-lesson')
 
-<div class="card"><h2>🎓 11. Driver knowledge test</h2>
+<div class="card" id="lesson-1"><h2>🎓 11. Driver knowledge test</h2>
 <p>Test your knowledge of safety, braking, cargo, reversing, fuel consumption and documents.</p>
 <ol><li>What should you do if you lose sight while reversing?</li><li>Why does a heavy vehicle need a greater safety distance?</li><li>What should be checked before a journey?</li><li>How can poorly distributed cargo affect a vehicle?</li><li>Why must fuel saving never come at the expense of safety?</li></ol></div>
 </div>
@@ -516,7 +533,7 @@
 
 <div class="cards">
 
-<div class="card"><h2>🛡️ 1. السياقة الدفاعية</h2>
+<div class="card" id="lesson-1"><h2>🛡️ 1. السياقة الدفاعية</h2>
 <p>السياقة الدفاعية تعني توقع المخاطر وعدم افتراض أن مستعملي الطريق الآخرين سيتصرفون دائمًا بالشكل الصحيح.</p>
 <!-- academy-image:ar:1 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/defensive-driving.svg') }}" alt="رسم توضيحي للسياقة الدفاعية: توقع المخاطر ومسافة الأمان والمراقبة." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">رسم توضيحي للسياقة الدفاعية: توقع المخاطر ومسافة الأمان والمراقبة.</figcaption></figure>
@@ -554,7 +571,7 @@
 <button type="button" class="button quiz-submit" style="cursor:pointer;padding:10px 18px;">تصحيح الإجابات</button>
 <p class="quiz-result" aria-live="polite" style="font-weight:bold;margin-top:14px;"></p>
 </section>
-<div class="card"><h2>⛽ 2. السياقة الاقتصادية</h2>
+<div class="card" id="lesson-2"><h2>⛽ 2. السياقة الاقتصادية</h2>
 <p>السياقة الاقتصادية تهدف إلى تقليل استهلاك الوقود وتآكل الشاحنة دون التضحية بالسلامة.</p>
 <!-- academy-image:ar:2 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/eco-driving.svg') }}" alt="رسم توضيحي للسياقة الاقتصادية: التسارع السلس والسرعة المستقرة." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">رسم توضيحي للسياقة الاقتصادية: التسارع السلس والسرعة المستقرة.</figcaption></figure>
@@ -563,7 +580,7 @@
 <ul><li>التسارع تدريجيًا وتجنب التسارع غير الضروري.</li><li>الحفاظ على سرعة مستقرة عندما تسمح الظروف.</li><li>استعمال السرعات وأنظمة التباطؤ بطريقة صحيحة.</li><li>تجنب الفرملة والتسارع المتكرر الذي يمكن توقعه.</li><li>فحص ضغط الإطارات.</li><li>الالتزام بالصيانة الدورية.</li><li>عدم محاولة توفير الوقود بطريقة تعرض السائق أو الآخرين للخطر.</li></ul>
 </div>
 
-<div class="card"><h2>↩️ 3. الرجوع إلى الخلف بالشاحنة والمقطورة</h2>
+<div class="card" id="lesson-3"><h2>↩️ 3. الرجوع إلى الخلف بالشاحنة والمقطورة</h2>
 <p>الرجوع إلى الخلف يحتاج إلى الصبر والسرعة البطيئة والتحكم المستمر.</p>
 <!-- academy-image:ar:3 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/reversing-trailer.svg') }}" alt="رسم توضيحي للرجوع بالشاحنة والمقطورة: مناورة بطيئة ومراقبة." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">رسم توضيحي للرجوع بالشاحنة والمقطورة: مناورة بطيئة ومراقبة.</figcaption></figure>
@@ -572,7 +589,7 @@
 <ul><li>فحص المنطقة قبل بداية المناورة.</li><li>ضبط المرايا ومعرفة النقاط العمياء.</li><li>فهم حركة المقطورة عند تحريك المقود.</li><li>إجراء تصحيحات صغيرة وتدريجية.</li><li>الاستعانة بمراقب عند الحاجة.</li><li>التوقف فورًا عند فقدان الرؤية أو وجود شك.</li><li>عدم التضحية بالسلامة من أجل إنهاء المناورة بسرعة.</li></ul>
 </div>
 
-<div class="card"><h2>🛑 4. الفرملة والتحكم في الشاحنة</h2>
+<div class="card" id="lesson-4"><h2>🛑 4. الفرملة والتحكم في الشاحنة</h2>
 <p>وزن الشاحنة والحمولة يؤثران مباشرة على مسافة التوقف وسلوك المركبة.</p>
 <!-- academy-image:ar:4 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/braking-distance.svg') }}" alt="رسم توضيحي للفرملة: مسافة التوقف والتحكم في الشاحنة الثقيلة." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">رسم توضيحي للفرملة: مسافة التوقف والتحكم في الشاحنة الثقيلة.</figcaption></figure>
@@ -580,7 +597,7 @@
 <ul><li>الحفاظ على مسافة أمان كافية.</li><li>توقع الحالات التي تحتاج إلى الفرملة.</li><li>استعمال فرامل المحرك أو الريتاردر بطريقة صحيحة إذا كانت الشاحنة مجهزة بهما.</li><li>في المنحدرات الطويلة لا تعتمد فقط على فرامل الخدمة.</li><li>التحكم في السرعة قبل المنعطفات والمنحدرات.</li></ul>
 </div>
 
-<div class="card"><h2>⚖️ 5. الحمولة وتوزيع الوزن</h2>
+<div class="card" id="lesson-5"><h2>⚖️ 5. الحمولة وتوزيع الوزن</h2>
 <p>الحمولة غير المتوازنة قد تؤثر على الثبات والفرملة والتحكم في الشاحنة والمقطورة.</p>
 <!-- academy-image:ar:5 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/load-securing.svg') }}" alt="رسم توضيحي للحمولة: توزيع الوزن وتثبيت البضائع." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">رسم توضيحي للحمولة: توزيع الوزن وتثبيت البضائع.</figcaption></figure>
@@ -589,13 +606,13 @@
 <ul><li>احترام حدود الوزن القانونية.</li><li>توزيع الحمولة بشكل صحيح.</li><li>تثبيت البضائع حسب طبيعتها.</li><li>فحص الأبواب وأدوات الإغلاق والتثبيت.</li><li>إعادة فحص الحمولة بعد التوقف عند الحاجة.</li></ul>
 </div>
 
-<div class="card"><h2>🔧 6. فحص الشاحنة قبل الانطلاق</h2>
+<div class="card" id="lesson-6"><h2>🔧 6. فحص الشاحنة قبل الانطلاق</h2>
 <p>قبل الرحلة يجب التأكد من أن الشاحنة والمقطورة في حالة مناسبة وآمنة للسير.</p>
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/truck-pretrip-inspection.svg') }}" alt="افحص بصرياً الإطارات والفرامل والأضواء والمرايا والتسربات ووصلات المقطورة." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">افحص بصرياً الإطارات والفرامل والأضواء والمرايا والتسربات ووصلات المقطورة.</figcaption></figure>
 <ul><li>الإطارات وأي أضرار ظاهرة.</li><li>الفرامل والوصلات.</li><li>الأضواء والإشارات.</li><li>مستويات السوائل وأي تسرب.</li><li>المرايا والأبواب وعناصر السلامة.</li><li>وصلات الجر بين الشاحنة والمقطورة.</li></ul>
 </div>
 
-<div class="card"><h2>🌧️ 7. القيادة في الظروف الصعبة</h2>
+<div class="card" id="lesson-7"><h2>🌧️ 7. القيادة في الظروف الصعبة</h2>
 <p>المطر والضباب والرياح والثلوج والطرق الجبلية تحتاج إلى تكييف السرعة ومسافة الأمان.</p>
 <!-- academy-image:ar:7 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/adverse-weather.svg') }}" alt="رسم توضيحي للقيادة أثناء المطر والضباب والرياح." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">رسم توضيحي للقيادة أثناء المطر والضباب والرياح.</figcaption></figure>
@@ -603,7 +620,7 @@
 <ul><li>تخفيض السرعة عند انخفاض الرؤية أو تماسك الطريق.</li><li>زيادة مسافة الأمان.</li><li>الانتباه بشكل خاص للرياح الجانبية مع المركبات المرتفعة.</li><li>تجنب المناورات المفاجئة.</li><li>إذا أصبحت الظروف خطيرة، التوقف في مكان آمن عند الحاجة.</li></ul>
 </div>
 
-<div class="card"><h2>🪞 8. المرايا والنقاط العمياء</h2>
+<div class="card" id="lesson-8"><h2>🪞 8. المرايا والنقاط العمياء</h2>
 <p>الشاحنات والمقطورات تحتوي على مناطق لا يستطيع السائق رؤيتها مباشرة.</p>
 <ul><li>فحص المرايا قبل تغيير الاتجاه أو المسار.</li><li>عدم الاعتماد على مرآة واحدة فقط.</li><li>الانتباه بشكل خاص عند الانعطاف إلى اليمين.</li><li>تذكر أن الدراجات والراجلين والسيارات الصغيرة قد تختفي في النقاط العمياء.</li><li>استعمال أنظمة المساعدة الموجودة في المركبة بشكل صحيح.</li></ul>
 
@@ -613,7 +630,7 @@
 
 </div>
 
-<div class="card"><h2>📋 9. الوثائق والمسؤولية المهنية</h2>
+<div class="card" id="lesson-9"><h2>📋 9. الوثائق والمسؤولية المهنية</h2>
 <p>السائق المهني مسؤول عن معرفة ومراقبة الوثائق المطلوبة لرحلته.</p>
 <!-- academy-image:ar:9 -->
 <figure style="margin:16px 0;text-align:center;"><img src="{{ asset('images/transport-documents.svg') }}" alt="رسم توضيحي لوثائق النقل المهني على الطرق." loading="lazy" style="display:block;width:100%;height:auto;border-radius:12px;border:1px solid #dbe3ec;"><figcaption style="margin-top:8px;font-size:0.92em;">رسم توضيحي لوثائق النقل المهني على الطرق.</figcaption></figure>
@@ -623,7 +640,7 @@
 
 @include('partials.semi-trailer-coupling-lesson')
 
-<div class="card"><h2>🎓 11. اختبار السائق</h2>
+<div class="card" id="lesson-1"><h2>🎓 11. اختبار السائق</h2>
 <p>بعد دراسة المحاور يمكن للسائق اختبار معلوماته بأسئلة حول السلامة والفرملة والحمولة والرجوع إلى الخلف والاستهلاك والوثائق.</p>
 <ol><li>ماذا تفعل إذا فقدت الرؤية أثناء الرجوع إلى الخلف؟</li><li>لماذا يجب زيادة مسافة الأمان مع الشاحنة؟</li><li>ما العناصر التي يجب فحصها قبل الرحلة؟</li><li>كيف تؤثر الحمولة غير المتوازنة على المركبة؟</li><li>لماذا لا يجب توفير الوقود على حساب السلامة؟</li></ol>
 </div>
