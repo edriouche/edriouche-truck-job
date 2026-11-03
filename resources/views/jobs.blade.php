@@ -172,6 +172,23 @@
 
     <div class="job">
         <span class="badge">{{ __('messages.morocco') }}</span>
+        <h2>{{ __('messages.tectra_mixer_title') }}</h2>
+        <p>{{ __('messages.tectra_mixer_location') }}</p>
+        <p>
+            {{ __('messages.tectra_mixer_date') }}<br>
+            {{ __('messages.tectra_mixer_sector') }}<br>
+            {{ __('messages.tectra_mixer_experience') }}<br>
+            {{ __('messages.tectra_mixer_education') }}<br>
+            {{ __('messages.tectra_mixer_contract') }}<br>
+            {{ __('messages.tectra_mixer_notice') }}
+        </p>
+        <a href="https://talent-tectra.com/s3/annonces" class="official" target="_blank" rel="noopener noreferrer">
+            {{ __('messages.tectra_mixer_button') }}
+        </a>
+    </div>
+
+    <div class="job">
+        <span class="badge">{{ __('messages.morocco') }}</span>
         <h2>{{ __('messages.marotrans_title') }}</h2>
         <p>{{ __('messages.tangier_kenitra') }}</p>
         <p>
