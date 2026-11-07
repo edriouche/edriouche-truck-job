@@ -2,8 +2,8 @@
 
 return [
     'reference' => 'reference',
-    'title' => '🇲🇦 ANAPEC truck-driver listings — October 2026',
-    'review' => 'Links reviewed on 19 October 2026. These listings were published by job-aggregator websites; this does not confirm that vacancies remain open. Verify each reference with ANAPEC before applying.',
+    'title' => '🇲🇦 Morocco truck-driver listings — reviewed 7 November 2026',
+    'review' => 'Links reviewed on 7 November 2026. This page includes recent and older listings; publication does not confirm that a vacancy is still open. Verify with the employer or ANAPEC reference before applying.',
     'warning' => '⚠️ Apply through official channels. Do not pay an intermediary in exchange for a promise of employment.',
     'date' => '📅 Listing date',
     'positions' => 'advertised positions',
@@ -76,6 +76,61 @@ return [
             '⚠️ The published listing states that applicants must be under 40.',
             '',
             'https://www.wadifa-info.com/%D8%B9%D8%B1%D8%B6-%D8%B9%D9%85%D9%84-%D8%A7%D9%86%D8%A7%D8%A8%D9%8A%D9%83/11824/%D8%B3%D8%A7%D8%A6%D9%82-%D8%B4%D8%A7%D8%AD%D9%86%D8%A9-%D9%84%D9%86%D9%82%D9%84-%D8%A7%D9%84%D8%A8%D8%B6%D8%A7%D8%A6%D8%B9'
+        ],
+        [
+            'Essaouira',
+            'Delivery driver — category C licence',
+            'ES0211261200436',
+            '2 November 2026',
+            '15 positions | CDD fixed-term contract',
+            '🚛 Category C licence required; qualified secondary education.',
+            '🗣️ Fluent Arabic and intermediate French according to the listing; goods checks and delivery documents.',
+            '💰 Salary not stated. Application through ANAPEC is free; verify status using the reference.',
+            'https://www.wadifapublic.ma/fr/anapec/2a35d493-d228-482c-b689-8c179d69891c'
+        ],
+        [
+            'Casablanca — Casablanca-Settat region',
+            'RAHA FER — rigid truck and semi-trailer driver',
+            '—',
+            '6 November 2026',
+            'Recent listing; number of positions not specified',
+            '🚛 Category C and EC licences; at least 5 years of experience and baccalaureate level.',
+            '🗣️ Listing language: French; working language not specified. Contract and salary require confirmation because reposting sites provide conflicting details.',
+            '⚠️ Employer listing relayed by job sites; confirm directly before sending documents.',
+            'https://www.onejob.ma/job/1255886/CHAUFFEUR-POIDS-LOURDS-EXP%C3%89RIMENT%C3%89-CAMION-SOLO-amp'
+        ],
+        [
+            'Tangier — Free Zone',
+            'Elec Recyclage — Ampliroll heavy-truck driver',
+            '—',
+            'Posted 6 days ago; deadline 1 December 2026',
+            '1 advertised position',
+            '🚛 EC licence, heavy-truck experience and ability to operate an Ampliroll system.',
+            '🗣️ Listing language: French; working language not specified. Salary and contract not stated.',
+            '⚠️ Listed on Jobsquare; confirm the vacancy with the employer.',
+            'https://www.jobsquare.ma/job/24516/chauffeur-poids-lourd-permis-ec-h-f-camion-ampliroll-zone-franche-tanger/'
+        ],
+        [
+            'Nationwide Morocco — company base in Casablanca',
+            'MG Atlas Logistics — heavy-truck driver, domestic transport',
+            '—',
+            'Posted one week ago; deadline 28 November 2026',
+            '1 advertised position',
+            '🚛 EC licence; goods transport throughout Morocco, vehicle checks and load securing.',
+            '🗣️ Listing language: French; working language not specified. Salary and contract not stated.',
+            '⚠️ Listed via Jobsquare; verify details with the employer before applying.',
+            'https://www.jobsquare.ma/job/23608/chauffeur-se-poids-lourd-h-f-permis-ec-trajets-dans-tout-le-maroc-casablanca/'
+        ],
+        [
+            'Marrakech and surrounding area',
+            'TECTRA — concrete mixer truck driver',
+            '—',
+            'Posted about one week ago; deadline 20 November 2026',
+            '1 position displayed; description refers to several profiles',
+            '🚛 Appropriate heavy-vehicle licence and concrete-mixer experience; delivery of concrete to construction sites.',
+            '🗣️ Listing language: French; working language not specified. Temporary contract; salary and exact licence category not stated.',
+            '⚠️ Confirm the number of vacancies and licence category with TECTRA before applying.',
+            'https://www.jobsquare.ma/job/21941/chauffeur-se-de-camion-toupie-malaxeur-h-f-btp-r%C3%A9gion-de-marrakech/'
         ]
     ]
 ];
