@@ -55,7 +55,7 @@ return [
     'morocco_direct_title' => '🔵 Moroccan transport companies to contact directly',
     'morocco_direct_intro' => 'These transport and logistics companies may be contacted directly. Their presence here does not mean they currently have vacancies. Verify details before sending documents.',
     'no_guarantee' => '⚠️ Employment is not guaranteed. Confirm a vacancy before sending documents or paying any fee.',
-    'last_check' => '📅 Last checked: September 2026',
+    'last_check' => '📅 Page last reviewed: 7 November 2026',
 
     // English descriptions used on the jobs page
     'calsina_desc' => 'International transport and logistics between Europe and Morocco.',
