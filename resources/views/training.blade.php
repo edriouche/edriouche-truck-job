@@ -51,7 +51,8 @@
         .sign-note{background:#eef6ff;border-inline-start:4px solid #0b3a68;padding:14px;border-radius:8px;margin:14px 0}
         .signs-quiz{border:2px solid #287a52;border-radius:12px;padding:18px;margin:20px 0}
         .signs-quiz label{display:block;margin:8px 0}
-\n    </style>
+
+    </style>
 </head>
 
 <body>
