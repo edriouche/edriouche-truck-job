@@ -36,7 +36,21 @@
         .card[id^="lesson-"]{scroll-margin-top:18px}
         @media(max-width:600px){.container{padding:12px}.intro,.card,.warning{padding:16px}.academy-nav a{flex:1 1 42%;text-align:center}}
 
-    </style>
+
+        .sign-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px;margin:18px 0}
+        .sign-card{background:#f8fafc;border:1px solid #dbe3ec;border-radius:12px;padding:14px;text-align:center}
+        .sign-sample{width:72px;height:72px;margin:0 auto 10px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.5rem}
+        .sign-danger{background:#c62828;color:#c62828;clip-path:polygon(50% 2%,2% 96%,98% 96%);position:relative}
+        .sign-danger:before{content:"";position:absolute;inset:8px;background:#fff;clip-path:polygon(50% 2%,2% 96%,98% 96%)}
+        .sign-danger span{position:relative;color:#222;margin-top:18px}
+        .sign-ban{border:7px solid #c62828;border-radius:50%;background:#fff;color:#222}
+        .sign-mandatory{border-radius:50%;background:#1769aa;color:#fff}
+        .sign-stop{background:#c62828;color:#fff;clip-path:polygon(30% 0,70% 0,100% 30%,100% 70%,70% 100%,30% 100%,0 70%,0 30%);font-size:1.05rem}
+        .sign-limit{border:7px solid #c62828;border-radius:50%;background:#fff;color:#222;font-size:1.1rem}
+        .sign-temporary{background:#f4c542;color:#222;clip-path:polygon(50% 2%,2% 96%,98% 96%);font-size:1.35rem}
+        .sign-note{background:#eef6ff;border-inline-start:4px solid #0b3a68;padding:14px;border-radius:8px;margin:14px 0}
+        .signs-quiz{border:2px solid #287a52;border-radius:12px;padding:18px;margin:20px 0}
+\n    </style>
 </head>
 
 <body>
@@ -140,13 +154,13 @@
 
 <nav class="academy-nav" aria-label="Academy lesson index">
 @if(app()->getLocale() === 'es')
-<a href="#lesson-1">1. Seguridad</a><a href="#lesson-2">2. Ahorro</a><a href="#lesson-3">3. Maniobras</a><a href="#lesson-4">4. Frenado</a><a href="#lesson-5">5. Carga</a><a href="#lesson-6">6. Inspección</a><a href="#lesson-7">7. Clima</a><a href="#lesson-8">8. Ángulos muertos</a><a href="#lesson-9">9. Documentos</a><a href="#lesson-10">10. Semirremolque</a><a href="#lesson-11">11. Examen</a>
+<a href="#lesson-1">1. Seguridad</a><a href="#lesson-2">2. Ahorro</a><a href="#lesson-3">3. Maniobras</a><a href="#lesson-4">4. Frenado</a><a href="#lesson-5">5. Carga</a><a href="#lesson-6">6. Inspección</a><a href="#lesson-7">7. Clima</a><a href="#lesson-8">8. Ángulos muertos</a><a href="#lesson-9">9. Documentos</a><a href="#lesson-10">10. Semirremolque</a><a href="#lesson-11">11. Examen</a><a href="#lesson-12">12. Señales</a>
 @elseif(app()->getLocale() === 'fr')
-<a href="#lesson-1">1. Sécurité</a><a href="#lesson-2">2. Économie</a><a href="#lesson-3">3. Manœuvres</a><a href="#lesson-4">4. Freinage</a><a href="#lesson-5">5. Chargement</a><a href="#lesson-6">6. Inspection</a><a href="#lesson-7">7. Météo</a><a href="#lesson-8">8. Angles morts</a><a href="#lesson-9">9. Documents</a><a href="#lesson-10">10. Semi-remorque</a><a href="#lesson-11">11. Test</a>
+<a href="#lesson-1">1. Sécurité</a><a href="#lesson-2">2. Économie</a><a href="#lesson-3">3. Manœuvres</a><a href="#lesson-4">4. Freinage</a><a href="#lesson-5">5. Chargement</a><a href="#lesson-6">6. Inspection</a><a href="#lesson-7">7. Météo</a><a href="#lesson-8">8. Angles morts</a><a href="#lesson-9">9. Documents</a><a href="#lesson-10">10. Semi-remorque</a><a href="#lesson-11">11. Test</a><a href="#lesson-12">12. Signs</a><a href="#lesson-12">12. Signalisation</a>
 @elseif(app()->getLocale() === 'en')
 <a href="#lesson-1">1. Safety</a><a href="#lesson-2">2. Economy</a><a href="#lesson-3">3. Manoeuvres</a><a href="#lesson-4">4. Braking</a><a href="#lesson-5">5. Loads</a><a href="#lesson-6">6. Inspection</a><a href="#lesson-7">7. Weather</a><a href="#lesson-8">8. Blind spots</a><a href="#lesson-9">9. Documents</a><a href="#lesson-10">10. Semi-trailer</a><a href="#lesson-11">11. Test</a>
 @else
-<a href="#lesson-1">1. السلامة</a><a href="#lesson-2">2. الاقتصاد</a><a href="#lesson-3">3. المناورات</a><a href="#lesson-4">4. الفرملة</a><a href="#lesson-5">5. الحمولة</a><a href="#lesson-6">6. الفحص</a><a href="#lesson-7">7. الطقس</a><a href="#lesson-8">8. النقاط العمياء</a><a href="#lesson-9">9. الوثائق</a><a href="#lesson-10">10. نصف المقطورة</a><a href="#lesson-11">11. الاختبار</a>
+<a href="#lesson-1">1. السلامة</a><a href="#lesson-2">2. الاقتصاد</a><a href="#lesson-3">3. المناورات</a><a href="#lesson-4">4. الفرملة</a><a href="#lesson-5">5. الحمولة</a><a href="#lesson-6">6. الفحص</a><a href="#lesson-7">7. الطقس</a><a href="#lesson-8">8. النقاط العمياء</a><a href="#lesson-9">9. الوثائق</a><a href="#lesson-10">10. نصف المقطورة</a><a href="#lesson-11">11. الاختبار</a><a href="#lesson-12">12. التشوير</a>
 @endif
 </nav>
 <div class="cards">
@@ -668,6 +682,200 @@
 
 
 @endif
+
+
+<div class="cards">
+<section class="card" id="lesson-12">
+@if(app()->getLocale() === 'es')
+<h2>🚦 12. Señales de tráfico para camiones: Marruecos y Europa</h2>
+<p>Las señales advierten, prohíben, obligan o informan. Para un camión, una señal de peso, altura, anchura o longitud puede determinar si una ruta es segura y legal.</p>
+<h3>Reconoce las familias principales</h3>
+<div class="sign-grid">
+<div class="sign-card"><div class="sign-sample sign-danger"><span>!</span></div><strong>Peligro</strong><p>Triángulo: alerta y adapta la velocidad.</p></div>
+<div class="sign-card"><div class="sign-sample sign-ban">🚛</div><strong>Prohibición</strong><p>Círculo rojo: comprueba a qué vehículos afecta.</p></div>
+<div class="sign-card"><div class="sign-sample sign-mandatory">↑</div><strong>Obligación</strong><p>Círculo azul: sigue la dirección u obligación indicada.</p></div>
+<div class="sign-card"><div class="sign-sample sign-stop">STOP</div><strong>Prioridad</strong><p>Detente por completo y respeta la prioridad.</p></div>
+<div class="sign-card"><div class="sign-sample sign-limit">t / m</div><strong>Límites</strong><p>Peso total, carga por eje y dimensiones.</p></div>
+<div class="sign-card"><div class="sign-sample sign-temporary">⚒</div><strong>Obras</strong><p>Señalización temporal y desvíos.</p></div>
+</div>
+<h3>🇲🇦 En Marruecos</h3>
+<p>La señalización se organiza en señales de peligro, intersección y prioridad, prescripción (prohibición y obligación) e indicación. La referencia normativa incluye el arrêté conjunto 2805-14 y su modificación 3106-19. Lee siempre los paneles complementarios: pueden precisar categoría de vehículo, tonelaje, horario, distancia o excepción.</p>
+<h3>🇪🇺 En Europa</h3>
+<p>La Convención de Viena establece un marco común para muchas señales, pero cada país conserva su catálogo y algunas reglas o restricciones propias. No supongas que todos los países usan los mismos códigos o aplican idénticas prohibiciones.</p>
+<h3>🇪🇸 Ejemplos oficiales de España: límites para vehículos pesados</h3>
+<ul>
+<li><strong>R-107:</strong> prohíbe el acceso a vehículos destinados al transporte de mercancías cuya masa máxima autorizada supere la cifra indicada, incluso si circulan vacíos.</li>
+<li><strong>R-201:</strong> limita la masa real en carga; <strong>R-202</strong> limita la masa transmitida por un eje.</li>
+<li><strong>R-203, R-204 y R-205:</strong> limitan, respectivamente, longitud, anchura y altura; se incluye la carga.</li>
+<li>También debes reconocer las restricciones de adelantamiento para camiones y las señales de mercancías peligrosas cuando correspondan.</li>
+</ul>
+<h3>Antes de entrar con el camión</h3>
+<ol><li>Comprueba la masa máxima autorizada y el peso real del conjunto.</li><li>Calcula altura y anchura totales con la carga; comprueba también longitud y cargas por eje.</li><li>Lee los paneles adicionales, horarios, excepciones y distancia a la restricción.</li><li>Si la ruta no permite el paso, utiliza el desvío indicado antes de llegar; nunca improvises una maniobra marcha atrás peligrosa.</li></ol>
+<div class="sign-note"><strong>Prioridad en España:</strong> las órdenes de los agentes prevalecen; después, la señalización circunstancial o temporal, los semáforos, las señales verticales y las marcas viales. Esta jerarquía se cita aquí como regla española: comprueba la normativa del país en el que conduces.</div>
+<div class="sign-note"><strong>Importante:</strong> estos dibujos son esquemas educativos, no reproducciones oficiales a escala. Respeta siempre la señal real y la legislación local.</div>
+<div class="academy-source-link">
+<strong>Fuentes para consultar:</strong>
+<a href="https://maroctl.com/routier/code-de-la-route/lois-et-reglements-de-code-de-la-route/arrete-n-2805-14-la-signalisation-routiere/" target="_blank" rel="noopener noreferrer">Normativa de señalización de Marruecos (2805-14 y 3106-19)</a> ·
+<a href="https://unece.org/road-traffic-and-road-signs-and-signals-agreements-and-conventions" target="_blank" rel="noopener noreferrer">Convención de Viena – UNECE</a> ·
+<a href="https://www.dgt.es/muevete-con-seguridad/viaja-seguro/tractor/" target="_blank" rel="noopener noreferrer">DGT: señales de peso y dimensiones</a> ·
+<a href="https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722" target="_blank" rel="noopener noreferrer">Ley de tráfico española, artículos 53–54</a>
+</div>
+@elseif(app()->getLocale() === 'fr')
+<h2>🚦 12. Signalisation routière des poids lourds : Maroc et Europe</h2>
+<p>Les panneaux avertissent, interdisent, imposent ou renseignent. Pour un camion, une limite de poids, de hauteur, de largeur ou de longueur peut déterminer si un itinéraire est autorisé.</p>
+<h3>Reconnaître les principales familles</h3>
+<div class="sign-grid">
+<div class="sign-card"><div class="sign-sample sign-danger"><span>!</span></div><strong>Danger</strong><p>Triangle : vigilance et vitesse adaptée.</p></div>
+<div class="sign-card"><div class="sign-sample sign-ban">🚛</div><strong>Interdiction</strong><p>Cercle rouge : vérifier les véhicules concernés.</p></div>
+<div class="sign-card"><div class="sign-sample sign-mandatory">↑</div><strong>Obligation</strong><p>Cercle bleu : respecter la direction imposée.</p></div>
+<div class="sign-card"><div class="sign-sample sign-stop">STOP</div><strong>Priorité</strong><p>Arrêt complet et respect de la priorité.</p></div>
+<div class="sign-card"><div class="sign-sample sign-limit">t / m</div><strong>Limites</strong><p>Masse totale, charge par essieu et dimensions.</p></div>
+<div class="sign-card"><div class="sign-sample sign-temporary">⚒</div><strong>Travaux</strong><p>Signalisation temporaire et déviations.</p></div>
+</div>
+<h3>🇲🇦 Au Maroc</h3>
+<p>La signalisation comprend les panneaux de danger, d'intersection et de priorité, de prescription (interdiction et obligation) et d'indication. La référence réglementaire comprend l'arrêté conjoint 2805-14, modifié par 3106-19. Lisez les panonceaux : ils peuvent préciser le type de véhicule, le tonnage, les horaires, la distance ou une exception.</p>
+<h3>🇪🇺 En Europe</h3>
+<p>La Convention de Vienne fournit un cadre commun pour de nombreux panneaux, mais chaque pays conserve son catalogue et certaines règles nationales. Ne supposez pas que les codes et les restrictions sont identiques partout.</p>
+<h3>🇪🇸 Exemples officiels en Espagne : restrictions des poids lourds</h3>
+<ul>
+<li><strong>R-107 :</strong> interdit l'accès aux véhicules de transport de marchandises dont la masse maximale autorisée dépasse la valeur indiquée, même à vide.</li>
+<li><strong>R-201 :</strong> limite la masse réelle en charge ; <strong>R-202</strong> limite la masse transmise par un essieu.</li>
+<li><strong>R-203, R-204 et R-205 :</strong> limitent respectivement la longueur, la largeur et la hauteur ; le chargement est inclus.</li>
+<li>Repérez aussi les interdictions de dépassement propres aux camions et les panneaux relatifs aux marchandises dangereuses, lorsqu'ils s'appliquent.</li>
+</ul>
+<h3>Avant de vous engager avec le camion</h3>
+<ol><li>Vérifiez la masse maximale autorisée et la masse réelle de l'ensemble.</li><li>Calculez la hauteur et la largeur totales avec le chargement ; contrôlez aussi la longueur et les charges par essieu.</li><li>Lisez les panonceaux, horaires, exceptions et distances.</li><li>Si l'itinéraire est interdit, prenez la déviation avant d'atteindre la restriction ; n'improvisez jamais une marche arrière dangereuse.</li></ol>
+<div class="sign-note"><strong>Priorité en Espagne :</strong> les ordres des agents prévalent, puis la signalisation temporaire, les feux, les panneaux verticaux et le marquage au sol. Cette hiérarchie est citée comme règle espagnole ; vérifiez celle du pays où vous conduisez.</div>
+<div class="sign-note"><strong>Important :</strong> ces dessins sont des schémas pédagogiques et non des reproductions officielles à l'échelle. Respectez toujours le panneau réel et la législation locale.</div>
+<div class="academy-source-link"><strong>Sources :</strong>
+<a href="https://maroctl.com/routier/code-de-la-route/lois-et-reglements-de-code-de-la-route/arrete-n-2805-14-la-signalisation-routiere/" target="_blank" rel="noopener noreferrer">Signalisation au Maroc (2805-14 et 3106-19)</a> ·
+<a href="https://unece.org/road-traffic-and-road-signs-and-signals-agreements-and-conventions" target="_blank" rel="noopener noreferrer">Convention de Vienne – UNECE</a> ·
+<a href="https://www.dgt.es/muevete-con-seguridad/viaja-seguro/tractor/" target="_blank" rel="noopener noreferrer">DGT : poids et dimensions</a> ·
+<a href="https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722" target="_blank" rel="noopener noreferrer">Loi espagnole sur la circulation, articles 53–54</a></div>
+@elseif(app()->getLocale() === 'en')
+<h2>🚦 12. Road signs for trucks: Morocco and Europe</h2>
+<p>Road signs warn, prohibit, require or inform. For a truck, a weight, height, width or length restriction can determine whether a route is legal and safe.</p>
+<h3>Recognise the main sign families</h3>
+<div class="sign-grid">
+<div class="sign-card"><div class="sign-sample sign-danger"><span>!</span></div><strong>Warning</strong><p>Triangle: take care and adjust speed.</p></div>
+<div class="sign-card"><div class="sign-sample sign-ban">🚛</div><strong>Prohibition</strong><p>Red circle: check which vehicles are covered.</p></div>
+<div class="sign-card"><div class="sign-sample sign-mandatory">↑</div><strong>Mandatory</strong><p>Blue circle: follow the required direction.</p></div>
+<div class="sign-card"><div class="sign-sample sign-stop">STOP</div><strong>Priority</strong><p>Stop completely and give way as required.</p></div>
+<div class="sign-card"><div class="sign-sample sign-limit">t / m</div><strong>Limits</strong><p>Gross mass, axle load and dimensions.</p></div>
+<div class="sign-card"><div class="sign-sample sign-temporary">⚒</div><strong>Roadworks</strong><p>Temporary signs and diversions.</p></div>
+</div>
+<h3>🇲🇦 In Morocco</h3>
+<p>The sign system includes warning, intersection and priority, regulatory (prohibition and mandatory) and information signs. The regulatory reference includes joint order 2805-14, amended by 3106-19. Read supplementary plates carefully: they may specify vehicle type, tonnage, times, distance or an exception.</p>
+<h3>🇪🇺 In Europe</h3>
+<p>The Vienna Convention provides a common framework for many signs, but each country keeps its own catalogue and some national rules. Do not assume that sign codes and restrictions are identical in every country.</p>
+<h3>🇪🇸 Official Spanish examples: heavy-vehicle restrictions</h3>
+<ul>
+<li><strong>R-107:</strong> prohibits goods vehicles whose maximum authorised mass exceeds the displayed figure, even when travelling empty.</li>
+<li><strong>R-201:</strong> limits actual laden mass; <strong>R-202</strong> limits the mass transmitted through an axle.</li>
+<li><strong>R-203, R-204 and R-205:</strong> limit length, width and height respectively; the load is included.</li>
+<li>Also recognise truck overtaking restrictions and dangerous-goods signs where applicable.</li>
+</ul>
+<h3>Before entering a restricted road</h3>
+<ol><li>Check the vehicle's maximum authorised mass and the actual mass of the combination.</li><li>Calculate total height and width including the load; also check length and axle loads.</li><li>Read supplementary plates, time limits, exceptions and distances.</li><li>If the route is restricted, take the signed diversion before reaching it; never improvise a dangerous reverse manoeuvre.</li></ol>
+<div class="sign-note"><strong>Priority in Spain:</strong> instructions from traffic officers take precedence, followed by temporary signs, traffic lights, vertical signs and road markings. This order is stated as a Spanish rule; check the rules of the country where you drive.</div>
+<div class="sign-note"><strong>Important:</strong> these drawings are educational sketches, not official scale reproductions. Always obey the actual sign and local law.</div>
+<div class="academy-source-link"><strong>Sources:</strong>
+<a href="https://maroctl.com/routier/code-de-la-route/lois-et-reglements-de-code-de-la-route/arrete-n-2805-14-la-signalisation-routiere/" target="_blank" rel="noopener noreferrer">Morocco sign rules (2805-14 and 3106-19)</a> ·
+<a href="https://unece.org/road-traffic-and-road-signs-and-signals-agreements-and-conventions" target="_blank" rel="noopener noreferrer">Vienna Convention – UNECE</a> ·
+<a href="https://www.dgt.es/muevete-con-seguridad/viaja-seguro/tractor/" target="_blank" rel="noopener noreferrer">DGT: weight and dimensions</a> ·
+<a href="https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722" target="_blank" rel="noopener noreferrer">Spanish Traffic Law, Articles 53–54</a></div>
+@else
+<h2>🚦 12. علامات التشوير الطرقي للشاحنات: المغرب وأوروبا</h2>
+<p>علامات الطريق تحذر أو تمنع أو تفرض أو تقدم معلومات. وبالنسبة للشاحنة، قد تحدد علامة الوزن أو الارتفاع أو العرض أو الطول ما إذا كان المرور في طريق معين مسموحاً وآمناً.</p>
+<h3>تعرف على الفئات الأساسية</h3>
+<div class="sign-grid">
+<div class="sign-card"><div class="sign-sample sign-danger"><span>!</span></div><strong>علامات الخطر</strong><p>مثلث: انتبه وخفّض السرعة حسب الخطر.</p></div>
+<div class="sign-card"><div class="sign-sample sign-ban">🚛</div><strong>علامات المنع</strong><p>دائرة حمراء: تحقق من المركبات المعنية بالمنع.</p></div>
+<div class="sign-card"><div class="sign-sample sign-mandatory">↑</div><strong>علامات الإلزام</strong><p>دائرة زرقاء: اتبع الاتجاه أو الأمر المفروض.</p></div>
+<div class="sign-card"><div class="sign-sample sign-stop">قف</div><strong>الأسبقية</strong><p>توقف تماماً واحترم حق المرور.</p></div>
+<div class="sign-card"><div class="sign-sample sign-limit">طن / م</div><strong>حدود المرور</strong><p>الوزن الإجمالي، حمولة المحور، والأبعاد.</p></div>
+<div class="sign-card"><div class="sign-sample sign-temporary">⚒</div><strong>الأشغال</strong><p>علامات مؤقتة وتحويلات الطريق.</p></div>
+</div>
+<h3>🇲🇦 في المغرب</h3>
+<p>تشمل الفئات علامات الخطر، والتقاطع والأسبقية، وعلامات التعليمات (المنع والإلزام)، وعلامات الإرشاد. من المراجع التنظيمية القرار المشترك 2805.14 المعدل بالقرار 3106.19. اقرأ اللوحات الإضافية بعناية؛ فقد تحدد نوع المركبة أو الحمولة أو أوقات المنع أو المسافة أو الاستثناء.</p>
+<h3>🇪🇺 في أوروبا</h3>
+<p>توفر اتفاقية فيينا إطاراً مشتركاً لكثير من علامات التشوير، لكن لكل دولة كتالوجها وبعض قواعدها الوطنية. لا تفترض أن أرقام العلامات أو قيود الشاحنات متطابقة في جميع البلدان.</p>
+<h3>🇪🇸 أمثلة رسمية من إسبانيا: قيود مرور الشاحنات</h3>
+<ul>
+<li><strong>R-107:</strong> يمنع مرور مركبات نقل البضائع التي تتجاوز كتلتها القصوى المرخصة الرقم المحدد، حتى إن كانت تسير فارغة.</li>
+<li><strong>R-201:</strong> يحدد الحد الأقصى للكتلة الفعلية أثناء السير محمّلة؛ أما <strong>R-202</strong> فيحدد الحمولة المنقولة على محور.</li>
+<li><strong>R-203 وR-204 وR-205:</strong> تحدد على التوالي الطول والعرض والارتفاع؛ وتُحتسب الحمولة ضمن الأبعاد.</li>
+<li>تعرف أيضاً على منع التجاوز الخاص بالشاحنات وعلامات نقل البضائع الخطرة عندما تنطبق.</li>
+</ul>
+<h3>قبل دخول طريق عليه قيود</h3>
+<ol><li>تحقق من الكتلة القصوى المرخصة والوزن الفعلي لمجموعة الشاحنة والمقطورة.</li><li>احسب الارتفاع والعرض الإجماليين مع الحمولة، وتحقق كذلك من الطول وحمولة كل محور.</li><li>اقرأ اللوحات الإضافية وأوقات المنع والاستثناءات والمسافة.</li><li>إذا كان المرور ممنوعاً، اتبع التحويلة قبل الوصول إلى نقطة المنع؛ ولا ترتجل الرجوع إلى الخلف بطريقة خطرة.</li></ol>
+<div class="sign-note"><strong>ترتيب الأولوية في إسبانيا:</strong> تعليمات أعوان المرور أولاً، ثم التشوير المؤقت، فالأضواء، فالعلامات العمودية، ثم علامات الطريق الأرضية. هذا الترتيب مذكور هنا كقاعدة إسبانية؛ تحقق من قواعد البلد الذي تقود فيه.</div>
+<div class="sign-note"><strong>مهم:</strong> الرسوم هنا نماذج تعليمية مبسطة وليست نسخاً رسمية بالحجم أو التصميم الدقيق. احترم دائماً العلامة الحقيقية والقانون المحلي.</div>
+<div class="academy-source-link"><strong>مصادر للمراجعة:</strong>
+<a href="https://maroctl.com/routier/code-de-la-route/lois-et-reglements-de-code-de-la-route/arrete-n-2805-14-la-signalisation-routiere/" target="_blank" rel="noopener noreferrer">تنظيم التشوير بالمغرب (2805.14 و3106.19)</a> ·
+<a href="https://unece.org/road-traffic-and-road-signs-and-signals-agreements-and-conventions" target="_blank" rel="noopener noreferrer">اتفاقية فيينا – UNECE</a> ·
+<a href="https://www.dgt.es/muevete-con-seguridad/viaja-seguro/tractor/" target="_blank" rel="noopener noreferrer">DGT: حدود الوزن والأبعاد</a> ·
+<a href="https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722" target="_blank" rel="noopener noreferrer">قانون السير الإسباني، المادتان 53 و54</a></div>
+@endif
+
+<section class="quiz-card signs-quiz" data-quiz="{{ app()->getLocale() }}">
+@if(app()->getLocale() === 'es')
+<h3>📝 Examen correctivo de señales para camiones</h3><p>Responde las 9 preguntas. Al corregir, verás tu puntuación y la respuesta correcta de cada error.</p>
+@elseif(app()->getLocale() === 'fr')
+<h3>📝 Examen de correction : signalisation des poids lourds</h3><p>Répondez aux 9 questions. La correction affiche votre score et la bonne réponse à chaque erreur.</p>
+@elseif(app()->getLocale() === 'en')
+<h3>📝 Truck road-sign correction test</h3><p>Answer all 9 questions. The correction shows your score and the correct answer for each mistake.</p>
+@else
+<h3>📝 امتحان تصحيحي في علامات التشوير للشاحنات</h3><p>أجب عن الأسئلة التسعة. بعد التصحيح ستظهر نتيجتك والإجابة الصحيحة لكل خطأ.</p>
+@endif
+@if(app()->getLocale() === 'es')
+<fieldset data-correct="b"><legend><strong>1. ¿Qué indica normalmente una señal triangular con borde rojo?</strong></legend><label><input type="radio" name="signs_q1" value="a"> Una obligación</label><label><input type="radio" name="signs_q1" value="b"> Un peligro o advertencia</label><label><input type="radio" name="signs_q1" value="c"> Una zona de aparcamiento</label></fieldset>
+<fieldset data-correct="a"><legend><strong>2. Una señal circular roja con el símbolo de un camión indica:</strong></legend><label><input type="radio" name="signs_q2" value="a"> Una prohibición de paso para los vehículos afectados</label><label><input type="radio" name="signs_q2" value="b"> Una recomendación de aparcamiento</label><label><input type="radio" name="signs_q2" value="c"> Una entrada obligatoria a la autopista</label></fieldset>
+<fieldset data-correct="c"><legend><strong>3. En España, la señal R-107 con una cifra de tonelaje:</strong></legend><label><input type="radio" name="signs_q3" value="a"> Solo se aplica si el camión va cargado</label><label><input type="radio" name="signs_q3" value="b"> Indica la altura máxima</label><label><input type="radio" name="signs_q3" value="c"> Puede prohibir el paso aunque el vehículo vaya vacío, según su MMA</label></fieldset>
+<fieldset data-correct="b"><legend><strong>4. ¿Qué limita la señal española R-202?</strong></legend><label><input type="radio" name="signs_q4" value="a"> La altura total</label><label><input type="radio" name="signs_q4" value="b"> La masa transmitida por un eje</label><label><input type="radio" name="signs_q4" value="c"> La velocidad mínima</label></fieldset>
+<fieldset data-correct="a"><legend><strong>5. La señal R-205 limita:</strong></legend><label><input type="radio" name="signs_q5" value="a"> La altura, incluida la carga</label><label><input type="radio" name="signs_q5" value="b"> La longitud sin carga</label><label><input type="radio" name="signs_q5" value="c"> El peso por eje</label></fieldset>
+<fieldset data-correct="c"><legend><strong>6. La señal R-203 limita:</strong></legend><label><input type="radio" name="signs_q6" value="a"> La anchura</label><label><input type="radio" name="signs_q6" value="b"> La altura</label><label><input type="radio" name="signs_q6" value="c"> La longitud del vehículo o conjunto, incluida la carga</label></fieldset>
+<fieldset data-correct="b"><legend><strong>7. Una señal circular azul con una flecha blanca suele indicar:</strong></legend><label><input type="radio" name="signs_q7" value="a"> Peligro</label><label><input type="radio" name="signs_q7" value="b"> Dirección obligatoria</label><label><input type="radio" name="signs_q7" value="c"> Prohibición de entrada</label></fieldset>
+<fieldset data-correct="a"><legend><strong>8. Ante una señal STOP, el conductor debe:</strong></legend><label><input type="radio" name="signs_q8" value="a"> Detenerse completamente y respetar la prioridad</label><label><input type="radio" name="signs_q8" value="b"> Reducir un poco la velocidad sin detenerse</label><label><input type="radio" name="signs_q8" value="c"> Detenerse solo si ve otro vehículo</label></fieldset>
+<fieldset data-correct="c"><legend><strong>9. En España, ¿qué señalización tiene prioridad sobre las señales verticales permanentes?</strong></legend><label><input type="radio" name="signs_q9" value="a"> Las marcas viales</label><label><input type="radio" name="signs_q9" value="b"> Ninguna</label><label><input type="radio" name="signs_q9" value="c"> Las órdenes de los agentes y la señalización temporal, según el orden legal</label></fieldset>
+<button type="button" class="button quiz-submit">Corregir respuestas</button><p class="quiz-result" aria-live="polite"></p>
+@elseif(app()->getLocale() === 'fr')
+<fieldset data-correct="b"><legend><strong>1. Que signifie généralement un panneau triangulaire à bord rouge ?</strong></legend><label><input type="radio" name="signs_q1" value="a"> Une obligation</label><label><input type="radio" name="signs_q1" value="b"> Un danger ou un avertissement</label><label><input type="radio" name="signs_q1" value="c"> Un parking</label></fieldset>
+<fieldset data-correct="a"><legend><strong>2. Un panneau rond rouge avec un camion indique :</strong></legend><label><input type="radio" name="signs_q2" value="a"> Une interdiction d'accès pour les véhicules concernés</label><label><input type="radio" name="signs_q2" value="b"> Un conseil de stationnement</label><label><input type="radio" name="signs_q2" value="c"> Une entrée obligatoire sur autoroute</label></fieldset>
+<fieldset data-correct="c"><legend><strong>3. En Espagne, le panneau R-107 avec un tonnage :</strong></legend><label><input type="radio" name="signs_q3" value="a"> S'applique seulement lorsque le camion est chargé</label><label><input type="radio" name="signs_q3" value="b"> Indique la hauteur maximale</label><label><input type="radio" name="signs_q3" value="c"> Peut interdire le passage même à vide, selon la MMA</label></fieldset>
+<fieldset data-correct="b"><legend><strong>4. Que limite le panneau espagnol R-202 ?</strong></legend><label><input type="radio" name="signs_q4" value="a"> La hauteur totale</label><label><input type="radio" name="signs_q4" value="b"> La masse supportée par un essieu</label><label><input type="radio" name="signs_q4" value="c"> La vitesse minimale</label></fieldset>
+<fieldset data-correct="a"><legend><strong>5. Le panneau R-205 limite :</strong></legend><label><input type="radio" name="signs_q5" value="a"> La hauteur, chargement compris</label><label><input type="radio" name="signs_q5" value="b"> La longueur à vide</label><label><input type="radio" name="signs_q5" value="c"> La masse par essieu</label></fieldset>
+<fieldset data-correct="c"><legend><strong>6. Le panneau R-203 limite :</strong></legend><label><input type="radio" name="signs_q6" value="a"> La largeur</label><label><input type="radio" name="signs_q6" value="b"> La hauteur</label><label><input type="radio" name="signs_q6" value="c"> La longueur du véhicule ou de l'ensemble, chargement compris</label></fieldset>
+<fieldset data-correct="b"><legend><strong>7. Un panneau rond bleu avec une flèche blanche indique généralement :</strong></legend><label><input type="radio" name="signs_q7" value="a"> Un danger</label><label><input type="radio" name="signs_q7" value="b"> Une direction obligatoire</label><label><input type="radio" name="signs_q7" value="c"> Une interdiction d'accès</label></fieldset>
+<fieldset data-correct="a"><legend><strong>8. Devant un panneau STOP, le conducteur doit :</strong></legend><label><input type="radio" name="signs_q8" value="a"> S'arrêter complètement et respecter la priorité</label><label><input type="radio" name="signs_q8" value="b"> Ralentir sans s'arrêter</label><label><input type="radio" name="signs_q8" value="c"> S'arrêter uniquement s'il voit un véhicule</label></fieldset>
+<fieldset data-correct="c"><legend><strong>9. En Espagne, quelle signalisation prévaut sur les panneaux verticaux permanents ?</strong></legend><label><input type="radio" name="signs_q9" value="a"> Le marquage au sol</label><label><input type="radio" name="signs_q9" value="b"> Aucune</label><label><input type="radio" name="signs_q9" value="c"> Les ordres des agents et la signalisation temporaire, selon l'ordre légal</label></fieldset>
+<button type="button" class="button quiz-submit">Corriger les réponses</button><p class="quiz-result" aria-live="polite"></p>
+@elseif(app()->getLocale() === 'en')
+<fieldset data-correct="b"><legend><strong>1. What does a triangular sign with a red border normally indicate?</strong></legend><label><input type="radio" name="signs_q1" value="a"> An obligation</label><label><input type="radio" name="signs_q1" value="b"> A hazard or warning</label><label><input type="radio" name="signs_q1" value="c"> A parking area</label></fieldset>
+<fieldset data-correct="a"><legend><strong>2. A red circular sign showing a truck indicates:</strong></legend><label><input type="radio" name="signs_q2" value="a"> Entry is prohibited for the vehicles covered by the sign</label><label><input type="radio" name="signs_q2" value="b"> Recommended parking</label><label><input type="radio" name="signs_q2" value="c"> A mandatory motorway entrance</label></fieldset>
+<fieldset data-correct="c"><legend><strong>3. In Spain, an R-107 sign showing a tonnage:</strong></legend><label><input type="radio" name="signs_q3" value="a"> Applies only when the truck is loaded</label><label><input type="radio" name="signs_q3" value="b"> Shows the maximum height</label><label><input type="radio" name="signs_q3" value="c"> Can prohibit entry even when empty, according to the vehicle's maximum authorised mass</label></fieldset>
+<fieldset data-correct="b"><legend><strong>4. What does Spanish sign R-202 limit?</strong></legend><label><input type="radio" name="signs_q4" value="a"> Overall height</label><label><input type="radio" name="signs_q4" value="b"> The mass carried by an axle</label><label><input type="radio" name="signs_q4" value="c"> Minimum speed</label></fieldset>
+<fieldset data-correct="a"><legend><strong>5. Sign R-205 limits:</strong></legend><label><input type="radio" name="signs_q5" value="a"> Height, including the load</label><label><input type="radio" name="signs_q5" value="b"> Unladen length</label><label><input type="radio" name="signs_q5" value="c"> Axle mass</label></fieldset>
+<fieldset data-correct="c"><legend><strong>6. Sign R-203 limits:</strong></legend><label><input type="radio" name="signs_q6" value="a"> Width</label><label><input type="radio" name="signs_q6" value="b"> Height</label><label><input type="radio" name="signs_q6" value="c"> The length of the vehicle or combination, including the load</label></fieldset>
+<fieldset data-correct="b"><legend><strong>7. A blue circular sign with a white arrow usually indicates:</strong></legend><label><input type="radio" name="signs_q7" value="a"> A hazard</label><label><input type="radio" name="signs_q7" value="b"> A mandatory direction</label><label><input type="radio" name="signs_q7" value="c"> No entry</label></fieldset>
+<fieldset data-correct="a"><legend><strong>8. At a STOP sign, the driver must:</strong></legend><label><input type="radio" name="signs_q8" value="a"> Come to a complete stop and give way as required</label><label><input type="radio" name="signs_q8" value="b"> Slow down without stopping</label><label><input type="radio" name="signs_q8" value="c"> Stop only when another vehicle is visible</label></fieldset>
+<fieldset data-correct="c"><legend><strong>9. In Spain, which has priority over permanent vertical signs?</strong></legend><label><input type="radio" name="signs_q9" value="a"> Road markings</label><label><input type="radio" name="signs_q9" value="b"> Nothing</label><label><input type="radio" name="signs_q9" value="c"> Traffic officers' orders and temporary signs, according to the legal order</label></fieldset>
+<button type="button" class="button quiz-submit">Check answers</button><p class="quiz-result" aria-live="polite"></p>
+@else
+<fieldset data-correct="b"><legend><strong>1. ماذا تعني عادة علامة مثلثة ذات حافة حمراء؟</strong></legend><label><input type="radio" name="signs_q1" value="a"> أمر إلزامي</label><label><input type="radio" name="signs_q1" value="b"> خطر أو تحذير</label><label><input type="radio" name="signs_q1" value="c"> موقف للسيارات</label></fieldset>
+<fieldset data-correct="a"><legend><strong>2. علامة دائرية حمراء تحمل صورة شاحنة تعني:</strong></legend><label><input type="radio" name="signs_q2" value="a"> منع مرور المركبات التي تشملها العلامة</label><label><input type="radio" name="signs_q2" value="b"> موقف مستحسن للشاحنات</label><label><input type="radio" name="signs_q2" value="c"> مدخل إجباري للطريق السيار</label></fieldset>
+<fieldset data-correct="c"><legend><strong>3. في إسبانيا، علامة R-107 التي تحمل رقماً للوزن:</strong></legend><label><input type="radio" name="signs_q3" value="a"> تطبق فقط عندما تكون الشاحنة محملة</label><label><input type="radio" name="signs_q3" value="b"> تحدد الارتفاع الأقصى</label><label><input type="radio" name="signs_q3" value="c"> قد تمنع المرور حتى للشاحنة الفارغة حسب كتلتها القصوى المرخصة</label></fieldset>
+<fieldset data-correct="b"><legend><strong>4. ماذا تحدد العلامة الإسبانية R-202؟</strong></legend><label><input type="radio" name="signs_q4" value="a"> الارتفاع الإجمالي</label><label><input type="radio" name="signs_q4" value="b"> الكتلة المنقولة على أحد المحاور</label><label><input type="radio" name="signs_q4" value="c"> السرعة الدنيا</label></fieldset>
+<fieldset data-correct="a"><legend><strong>5. العلامة R-205 تحدد:</strong></legend><label><input type="radio" name="signs_q5" value="a"> الارتفاع بما في ذلك الحمولة</label><label><input type="radio" name="signs_q5" value="b"> الطول دون حمولة</label><label><input type="radio" name="signs_q5" value="c"> وزن المحور</label></fieldset>
+<fieldset data-correct="c"><legend><strong>6. العلامة R-203 تحدد:</strong></legend><label><input type="radio" name="signs_q6" value="a"> العرض</label><label><input type="radio" name="signs_q6" value="b"> الارتفاع</label><label><input type="radio" name="signs_q6" value="c"> طول المركبة أو مجموعة المركبات بما في ذلك الحمولة</label></fieldset>
+<fieldset data-correct="b"><legend><strong>7. علامة دائرية زرقاء تحمل سهماً أبيض تعني عادة:</strong></legend><label><input type="radio" name="signs_q7" value="a"> وجود خطر</label><label><input type="radio" name="signs_q7" value="b"> اتجاه إلزامي</label><label><input type="radio" name="signs_q7" value="c"> منع الدخول</label></fieldset>
+<fieldset data-correct="a"><legend><strong>8. عند رؤية علامة قف STOP يجب على السائق:</strong></legend><label><input type="radio" name="signs_q8" value="a"> التوقف التام واحترام حق الأسبقية</label><label><input type="radio" name="signs_q8" value="b"> تخفيض السرعة دون التوقف</label><label><input type="radio" name="signs_q8" value="c"> التوقف فقط إذا رأى مركبة أخرى</label></fieldset>
+<fieldset data-correct="c"><legend><strong>9. في إسبانيا، ما الذي له أولوية على العلامات العمودية الدائمة؟</strong></legend><label><input type="radio" name="signs_q9" value="a"> علامات الطريق الأرضية</label><label><input type="radio" name="signs_q9" value="b"> لا شيء</label><label><input type="radio" name="signs_q9" value="c"> تعليمات أعوان المرور والتشوير المؤقت وفق الترتيب القانوني</label></fieldset>
+<button type="button" class="button quiz-submit">تصحيح الإجابات</button><p class="quiz-result" aria-live="polite"></p>
+@endif
+</section>
+</section>
+</div>
 
 <div class="card">
 @if(app()->getLocale() === 'es')
