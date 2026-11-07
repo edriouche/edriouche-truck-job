@@ -56,6 +56,9 @@
         .sign-reference-card h4{margin:0 0 8px;color:#0b3a68}
         .sign-reference-card a{display:inline-block;margin:5px 4px 0 0;color:#0b3a68;font-weight:700}
         .sign-reference-card p{margin:6px 0}
+        .sign-illustration{margin:18px 0;text-align:center}
+        .sign-illustration img{display:block;width:100%;height:auto;border:1px solid #d6e0ea;border-radius:16px;background:#f4f7fb}
+        .sign-illustration figcaption{margin-top:8px;color:#526273;font-size:.92rem}
 
 
     </style>
@@ -710,7 +713,7 @@
 @if(app()->getLocale() === 'es')
 <h2>🚦 12. Señales de tráfico para camiones: Marruecos y Europa</h2>
 <p>Las señales advierten, prohíben, obligan o informan. Para un camión, una señal de peso, altura, anchura o longitud puede determinar si una ruta es segura y legal.</p>
-<h3>Reconoce las familias principales</h3>
+<figure class="sign-illustration"><img src="{{ asset('images/truck-road-signs-gallery.svg') }}" alt="Six educational road sign illustrations: danger, no trucks, mandatory direction, priority, truck weight and height limits, and road works." loading="lazy"><figcaption>Seis ejemplos visuales para reconocer las principales familias de señales. Consulta siempre la señal oficial y la normativa local.</figcaption></figure><h3>Reconoce las familias principales</h3>
 <div class="sign-grid">
 <div class="sign-card"><div class="sign-sample sign-danger"><span>!</span></div><strong>Peligro</strong><p>Triángulo: alerta y adapta la velocidad.</p></div>
 <div class="sign-card"><div class="sign-sample sign-ban">🚛</div><strong>Prohibición</strong><p>Círculo rojo: comprueba a qué vehículos afecta.</p></div>
@@ -744,7 +747,7 @@
 @elseif(app()->getLocale() === 'fr')
 <h2>🚦 12. Signalisation routière des poids lourds : Maroc et Europe</h2>
 <p>Les panneaux avertissent, interdisent, imposent ou renseignent. Pour un camion, une limite de poids, de hauteur, de largeur ou de longueur peut déterminer si un itinéraire est autorisé.</p>
-<h3>Reconnaître les principales familles</h3>
+<figure class="sign-illustration"><img src="{{ asset('images/truck-road-signs-gallery.svg') }}" alt="Six educational road sign illustrations: danger, no trucks, mandatory direction, priority, truck weight and height limits, and road works." loading="lazy"><figcaption>Six exemples visuels pour reconnaître les principales familles de panneaux. Référez-vous toujours au panneau officiel et à la réglementation locale.</figcaption></figure><h3>Reconnaître les principales familles</h3>
 <div class="sign-grid">
 <div class="sign-card"><div class="sign-sample sign-danger"><span>!</span></div><strong>Danger</strong><p>Triangle : vigilance et vitesse adaptée.</p></div>
 <div class="sign-card"><div class="sign-sample sign-ban">🚛</div><strong>Interdiction</strong><p>Cercle rouge : vérifier les véhicules concernés.</p></div>
@@ -776,7 +779,7 @@
 @elseif(app()->getLocale() === 'en')
 <h2>🚦 12. Road signs for trucks: Morocco and Europe</h2>
 <p>Road signs warn, prohibit, require or inform. For a truck, a weight, height, width or length restriction can determine whether a route is legal and safe.</p>
-<h3>Recognise the main sign families</h3>
+<figure class="sign-illustration"><img src="{{ asset('images/truck-road-signs-gallery.svg') }}" alt="Six educational road sign illustrations: danger, no trucks, mandatory direction, priority, truck weight and height limits, and road works." loading="lazy"><figcaption>Six visual examples of key road-sign families. Always follow the official sign and local traffic rules.</figcaption></figure><h3>Recognise the main sign families</h3>
 <div class="sign-grid">
 <div class="sign-card"><div class="sign-sample sign-danger"><span>!</span></div><strong>Warning</strong><p>Triangle: take care and adjust speed.</p></div>
 <div class="sign-card"><div class="sign-sample sign-ban">🚛</div><strong>Prohibition</strong><p>Red circle: check which vehicles are covered.</p></div>
@@ -808,7 +811,7 @@
 @else
 <h2>🚦 12. علامات التشوير الطرقي للشاحنات: المغرب وأوروبا</h2>
 <p>علامات الطريق تحذر أو تمنع أو تفرض أو تقدم معلومات. وبالنسبة للشاحنة، قد تحدد علامة الوزن أو الارتفاع أو العرض أو الطول ما إذا كان المرور في طريق معين مسموحاً وآمناً.</p>
-<h3>تعرف على الفئات الأساسية</h3>
+<figure class="sign-illustration"><img src="{{ asset('images/truck-road-signs-gallery.svg') }}" alt="Six educational road sign illustrations: danger, no trucks, mandatory direction, priority, truck weight and height limits, and road works." loading="lazy"><figcaption>ستة أمثلة بصرية للتعرّف على أهم فئات علامات التشوير. اعتمد دائماً على العلامة الرسمية وقواعد البلد الذي تقود فيه.</figcaption></figure><h3>تعرف على الفئات الأساسية</h3>
 <div class="sign-grid">
 <div class="sign-card"><div class="sign-sample sign-danger"><span>!</span></div><strong>علامات الخطر</strong><p>مثلث: انتبه وخفّض السرعة حسب الخطر.</p></div>
 <div class="sign-card"><div class="sign-sample sign-ban">🚛</div><strong>علامات المنع</strong><p>دائرة حمراء: تحقق من المركبات المعنية بالمنع.</p></div>
