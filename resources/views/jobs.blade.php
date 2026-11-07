@@ -337,7 +337,7 @@ $locale = app()->getLocale();
 
     <div class="intro">
         <p><strong>{{ __('messages.no_guarantee') }}</strong></p>
-        <p>{{ __('messages.last_check') }}</p>
+        <p>📅 {{ app()->getLocale() === 'ar' ? 'آخر مراجعة للصفحة: 7 نوفمبر 2026' : (app()->getLocale() === 'es' ? 'Última revisión de la página: 7 de noviembre de 2026' : (app()->getLocale() === 'fr' ? 'Dernière révision de la page : 7 novembre 2026' : 'Page last reviewed: 7 November 2026')) }}</p>
     </div>
 
 </div>
