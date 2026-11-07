@@ -161,7 +161,7 @@
             {{ __('messages.naceur_adr') }}<br>
             {{ __('messages.naceur_contract') }}<br>
         </p>
-        <p>{{ __('messages.naceur_classification') }}</p>
+        <p>{!! __('messages.naceur_classification') !!}</p>
         <a href="https://www.stn.ma/recrutement.html" class="official" target="_blank">
             {{ __('messages.official_recruitment') }}
         </a>
@@ -211,7 +211,7 @@
             {{ __('messages.driver_career_path') }}<br>
             {{ __('messages.recruitment_info') }}
         </p>
-        <p><strong>التصنيف:</strong> {{ __('messages.variable_conditions') }}</p>
+        <p><strong>{{ __('messages.classification') }}:</strong> {{ __('messages.variable_conditions') }}</p>
         <a href="https://www.al7.ma/" class="official" target="_blank">
             {{ __('messages.apply_official') }}
         </a>
@@ -299,7 +299,9 @@ $locale = app()->getLocale();
     @if (!empty($offer[5])) <p>{{ $offer[5] }}</p> @endif
     @if (!empty($offer[6])) <p>{{ $offer[6] }}</p> @endif
     @if (!empty($offer[7])) <p>{{ $offer[7] }}</p> @endif
-    <p>{{ __('morocco_jobs.salary') }}</p>
+    @if (empty($offer[7]) || !str_contains($offer[7], '💰'))
+        <p>{{ __('morocco_jobs.salary') }}</p>
+    @endif
     <p>{{ __('morocco_jobs.status') }}</p>
     <a href="{{ $offer[array_key_last($offer)] }}" class="official" target="_blank" rel="noopener noreferrer">{{ __('morocco_jobs.source') }}</a>
 </div>
