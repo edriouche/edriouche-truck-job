@@ -45,6 +45,7 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 <a href="/jobs">Jobs in Morocco</a>
 <a href="/spain-companies">Transport Companies in Spain</a>
 <a href="/spain-jobs">Jobs in Spain</a>
+<a href="/europe-jobs">🇪🇺 Truck Driver Jobs in Europe</a>
 <a href="/canada-jobs">🇨🇦 Truck Driver Jobs in Canada</a>
 <a href="/youth-drivers-morocco">Young Drivers in Morocco</a>
 <a href="/training">🎓 Professional Driver Academy</a>
