@@ -16,18 +16,18 @@ $copy = [
 'fr_text' => 'ابدأ ببوابة France Travail الرسمية وابحث عن Conducteur routier / poids lourd. راجع كل إعلان لمعرفة نوع الرخصة وFIMO/FCO أو التأهيل المطلوب، ومكان العمل، وهل يقبل صاحب العمل طلباً من خارج الاتحاد الأوروبي. لا يوجد في رابط البحث العام ضمان لتأشيرة أو توظيف دولي.',
 'fr_link' => 'البحث الرسمي عن وظائف النقل الثقيل في فرنسا',
 'be' => 'بلجيكا',
-'be_text' => 'استعمل بوابة VDAB الرسمية للبحث عن Chauffeur CE / vrachtwagenchauffeur. بعض الوظائف قد تتطلب Code 95 واللغة المحلية. يجب سؤال صاحب العمل عن إمكانية طلب تصريح عمل لمقيم في المغرب؛ ظهور الوظيفة على البوابة لا يثبت ذلك.',
-'be_link' => 'بوابة VDAB الرسمية للوظائف',
+'be_text' => 'بلجيكا لديها أربع خدمات توظيف عامة حسب الإقليم: VDAB في فلاندرز، Forem في والونيا، Actiris في بروكسل، وADG في المجتمع الناطق بالألمانية. ابحث عن Chauffeur CE أو vrachtwagenchauffeur في الخدمة المناسبة لمنطقة العمل. بعض الوظائف تتطلب Code 95 واللغة المحلية. اسأل صاحب العمل صراحةً عن تصريح العمل لمقيم في المغرب.',
+'be_link' => 'خدمات التوظيف العامة: VDAB وForem وActiris وADG',
 'nl' => 'هولندا',
 'nl_text' => 'استعمل Werk.nl التابعة لخدمة التوظيف العامة وابحث عن vrachtwagenchauffeur أو chauffeur CE. تحقق من شرط رخصة CE المعترف بها وCode 95 وبطاقة السائق، واسأل كتابةً عن رعاية تصريح الإقامة والعمل. بعض وكالات التوظيف تقبل مواطني الاتحاد الأوروبي فقط.',
 'nl_link' => 'بوابة Werk.nl الرسمية',
 'de' => 'ألمانيا',
 'de_text' => 'ألمانيا لديها قواعد خاصة لتوظيف سائقي الدول الثالثة. قد يسمح المسار القانوني بالدخول لاستكمال الرخصة الألمانية والتأهيل المهني خلال مدة محددة، إذا وفر صاحب العمل عقداً وخطة تأهيل واستوفى موافقة وكالة العمل. كما ظهرت صفحة توظيف لدى Spedition ELAS تذكر صراحةً دعم إجراءات التأشيرة للمتقدمين من خارج الاتحاد الأوروبي؛ لكن شروطها تتضمن رخصة CE أوروبية، لذلك يجب تأكيد قبول وضع الرخصة المغربية قبل التقديم.',
 'de_link' => 'الشرح الحكومي الألماني لمسار سائقي الدول الثالثة',
-'de_employer' => 'صفحة التوظيف لدى Spedition ELAS (تذكر دعم التأشيرة لغير الأوروبيين)',
-'de_age' => 'لمن تجاوز 45 سنة قد تنطبق شروط إضافية تتعلق بالراتب أو إثبات التقاعد بحسب نوع تصريح الإقامة. يجب التحقق من الحالة الفردية من المصدر الحكومي قبل اعتبار المسار مناسباً.',
+'de_employer' => 'Spedition ELAS: تعلن دعم التأشيرة، لكن صفحة غير الأوروبيين تفيد بأنها لا تستقبل طلبات جديدة حالياً.',
+'de_age' => 'في 2026، من تجاوز 45 سنة يحتاج في مسار التوظيف ذي الصلة إلى راتب سنوي لا يقل عن 55,770 يورو أو إثبات كافٍ لتأمين التقاعد. ينطبق الشرط بحسب نوع المسار القانوني؛ تحقق من الجهة الرسمية قبل التقديم.',
 'pt' => 'البرتغال',
-'pt_text' => 'استعمل بوابة IEFP الحكومية، وخاصة قسم التوظيف الدولي لمواطني الدول الثالثة. لا تعتبر إعلاناً مناسباً إلا بعد التأكد من قبول الرخصة والمؤهلات المطلوبة، مثل CAM وبطاقة السائق، ومن استعداد صاحب العمل لإتمام إجراءات التوظيف القانونية.',
+'pt_text' => 'لدى IEFP صفحة رسمية بعنوان وظائف لغير المقيمين من دول خارج الاتحاد الأوروبي، وموجهة صراحةً لمن يعيش خارج البرتغال. يشترط وجود عقد أو وعد بعقد من شركة برتغالية؛ وإذا اختارك صاحب العمل يمكنك طلب تأشيرة العمل. افحص كل إعلان لمعرفة ما إذا كان يقبل سائق شاحنة ومؤهلاته.',
 'pt_link' => 'بوابة IEFP للتوظيف الدولي من خارج الاتحاد الأوروبي',
 'agency_title' => 'وكالة توظيف أوروبية – ليست صاحب العمل',
 'agency_text' => 'تعرض Arktis وظائف سائقين في عدة دول أوروبية، وتذكر شروط كل إعلان وأجره وآخر أجل. تعامل معها كوسيط توظيف، وافحص كل وظيفة على حدة. لا يوجد تأكيد عام بأن كل وظائفها تقبل متقدمين من المغرب أو توفر التأشيرة.',
@@ -50,18 +50,18 @@ $copy = [
 'fr_text' => 'Consulta France Travail y busca Conducteur routier / poids lourd. Revisa cada anuncio para comprobar el permiso, FIMO/FCO o cualificación exigida, ubicación y aceptación de solicitudes desde fuera de la UE. El portal general no garantiza visado ni contratación internacional.',
 'fr_link' => 'Buscar empleos de transporte pesado en France Travail',
 'be' => 'Bélgica',
-'be_text' => 'Utiliza el portal oficial VDAB y busca Chauffeur CE / vrachtwagenchauffeur. Algunas vacantes pueden exigir Code 95 y el idioma local. Pregunta al empleador si puede tramitar un permiso para una persona residente en Marruecos; la publicación de una vacante no lo demuestra.',
-'be_link' => 'Portal oficial de empleo VDAB',
+'be_text' => 'Bélgica tiene cuatro servicios públicos de empleo regionales: VDAB en Flandes, Forem en Valonia, Actiris en Bruselas y ADG en la comunidad germanófona. Busca Chauffeur CE o vrachtwagenchauffeur en la región correspondiente. Algunas vacantes exigen Code 95 y el idioma local. Pregunta expresamente por el permiso de trabajo para residentes en Marruecos.',
+'be_link' => 'Servicios públicos de empleo: VDAB, Forem, Actiris y ADG',
 'nl' => 'Países Bajos',
 'nl_text' => 'Consulta Werk.nl, el servicio público de empleo, con las palabras vrachtwagenchauffeur o chauffeur CE. Comprueba el reconocimiento del permiso CE, Code 95 y tarjeta de conductor, y pregunta por escrito si ofrecen patrocinio del permiso de residencia y trabajo. Algunas agencias solo aceptan ciudadanos de la UE.',
 'nl_link' => 'Portal oficial Werk.nl',
 'de' => 'Alemania',
 'de_text' => 'Alemania dispone de normas específicas para contratar conductores de terceros países. En determinadas condiciones, la vía legal permite entrar para obtener el permiso alemán y la cualificación profesional dentro de un plazo establecido, si el empleador ofrece contrato y plan de formación y se obtiene la aprobación laboral. Spedition ELAS publica una página de contratación que menciona apoyo con el visado para candidatos de fuera de la UE; sin embargo, exige permiso CE europeo, por lo que hay que confirmar si acepta un permiso marroquí.',
 'de_link' => 'Información oficial alemana para conductores profesionales de terceros países',
-'de_employer' => 'Empleo en Spedition ELAS (menciona apoyo de visado para no comunitarios)',
-'de_age' => 'Para mayores de 45 años pueden aplicarse requisitos adicionales de salario o previsión de jubilación, según el tipo de autorización. Confirma el caso individual con la fuente oficial.',
+'de_employer' => 'Spedition ELAS: anuncia apoyo para el visado, pero su página para candidatos extracomunitarios indica que ahora no acepta nuevas solicitudes.',
+'de_age' => 'En 2026, para la vía de empleo correspondiente, las personas mayores de 45 años necesitan un salario anual mínimo de 55.770 euros o acreditar una previsión de jubilación suficiente. El requisito depende de la vía legal concreta; confirma tu caso con la autoridad oficial.',
 'pt' => 'Portugal',
-'pt_text' => 'Consulta el portal público IEFP, especialmente la sección de contratación internacional de nacionales de terceros países. Antes de considerar una oferta adecuada, confirma la aceptación del permiso y las cualificaciones exigidas, como CAM y tarjeta de conductor, y la disposición del empleador a tramitar la contratación legal.',
+'pt_text' => 'IEFP dispone de una página oficial de vacantes para no residentes de países terceros, dirigida expresamente a personas que viven fuera de Portugal. Se exige un contrato o una promesa de contrato de una empresa portuguesa; si el empleador te selecciona, puedes solicitar el visado de trabajo. Comprueba en cada anuncio si admite conductores de camión y qué cualificaciones exige.',
 'pt_link' => 'Portal IEFP para contratación internacional desde terceros países',
 'agency_title' => 'Agencia de contratación europea – no es el empleador',
 'agency_text' => 'Arktis publica puestos de conductor en varios países europeos e indica condiciones, salario y plazo de solicitud. Trátala como agencia de contratación y revisa cada vacante por separado. No existe una confirmación general de que todas sus ofertas acepten candidatos de Marruecos o incluyan visado.',
@@ -84,18 +84,18 @@ $copy = [
 'fr_text' => 'Consultez France Travail avec les mots Conducteur routier / poids lourd. Vérifiez chaque annonce : permis, FIMO/FCO ou qualification exigée, lieu de travail et acceptation des candidatures hors UE. Le portail général ne garantit ni visa ni recrutement international.',
 'fr_link' => 'Rechercher des emplois poids lourds sur France Travail',
 'be' => 'Belgique',
-'be_text' => 'Utilisez le portail officiel VDAB et recherchez Chauffeur CE / vrachtwagenchauffeur. Certaines offres peuvent exiger le Code 95 et la langue locale. Demandez à l’employeur s’il peut obtenir une autorisation pour une personne résidant au Maroc ; la publication d’une offre ne le prouve pas.',
-'be_link' => 'Portail officiel de l’emploi VDAB',
+'be_text' => 'La Belgique dispose de quatre services publics régionaux : VDAB en Flandre, Forem en Wallonie, Actiris à Bruxelles et ADG dans la communauté germanophone. Recherchez Chauffeur CE ou vrachtwagenchauffeur dans la région concernée. Certaines offres exigent le Code 95 et la langue locale. Demandez explicitement si l’employeur peut obtenir un permis de travail pour une personne résidant au Maroc.',
+'be_link' => 'Services publics de l’emploi : VDAB, Forem, Actiris et ADG',
 'nl' => 'Pays-Bas',
 'nl_text' => 'Consultez Werk.nl, le service public de l’emploi, avec vrachtwagenchauffeur ou chauffeur CE. Vérifiez la reconnaissance du permis CE, le Code 95 et la carte conducteur, puis demandez par écrit si l’employeur accompagne la demande de séjour et de travail. Certaines agences n’acceptent que les citoyens de l’UE.',
 'nl_link' => 'Portail officiel Werk.nl',
 'de' => 'Allemagne',
 'de_text' => 'L’Allemagne prévoit des règles spécifiques pour recruter des conducteurs de pays tiers. Sous certaines conditions, la voie légale permet une entrée afin d’obtenir le permis allemand et la qualification professionnelle dans un délai défini, avec un contrat, un plan de formation de l’employeur et l’accord de l’autorité du travail. Spedition ELAS indique soutenir les démarches de visa des candidats hors UE ; toutefois, l’entreprise demande un permis CE européen. Il faut donc confirmer l’acceptation d’un permis marocain.',
 'de_link' => 'Informations officielles allemandes pour les conducteurs de pays tiers',
-'de_employer' => 'Recrutement chez Spedition ELAS (soutien visa annoncé pour les non-UE)',
-'de_age' => 'Après 45 ans, des conditions supplémentaires de rémunération ou de retraite peuvent s’appliquer selon le titre de séjour. Faites vérifier votre situation individuelle par la source officielle.',
+'de_employer' => 'Spedition ELAS : annonce une aide au visa, mais sa page destinée aux candidats hors UE indique qu’elle ne reçoit actuellement plus de nouvelles candidatures.',
+'de_age' => 'En 2026, pour la voie d’emploi concernée, les personnes de plus de 45 ans doivent percevoir au moins 55 770 euros bruts par an ou justifier d’une prévoyance retraite suffisante. Cette condition dépend de la voie juridique ; vérifiez votre situation auprès de l’autorité officielle.',
 'pt' => 'Portugal',
-'pt_text' => 'Consultez le portail public IEFP, notamment la rubrique de recrutement international des ressortissants de pays tiers. Avant de retenir une offre, vérifiez l’acceptation du permis et des qualifications demandées, comme le CAM et la carte conducteur, ainsi que la volonté de l’employeur d’effectuer les démarches légales.',
+'pt_text' => 'L’IEFP dispose d’une page officielle d’offres pour les non-résidents de pays tiers, destinée aux personnes vivant hors du Portugal. Un contrat de travail ou une promesse de contrat d’une entreprise portugaise est requis ; en cas de sélection, vous pouvez demander un visa de travail. Vérifiez dans chaque annonce si elle concerne les conducteurs routiers et quelles qualifications sont exigées.',
 'pt_link' => 'Portail IEFP de recrutement international depuis les pays tiers',
 'agency_title' => 'Agence de recrutement européenne – pas l’employeur',
 'agency_text' => 'Arktis publie des postes de conducteurs dans plusieurs pays européens et indique les conditions, le salaire et la date limite. Considérez ce site comme une agence et vérifiez chaque offre séparément. Aucune confirmation générale n’indique que toutes les offres acceptent les candidats du Maroc ou fournissent un visa.',
@@ -118,18 +118,18 @@ $copy = [
 'fr_text' => 'Use the official France Travail portal and search for Conducteur routier / poids lourd. Check each vacancy for the licence, FIMO/FCO or qualification required, location and whether applications from outside the EU are accepted. A general search page does not guarantee a visa or international recruitment.',
 'fr_link' => 'Search heavy-goods driving jobs on France Travail',
 'be' => 'Belgium',
-'be_text' => 'Use the official VDAB job portal and search for Chauffeur CE / vrachtwagenchauffeur. Some roles may require Code 95 and the local language. Ask the employer whether it can arrange a work permit for a Morocco-based applicant; a published vacancy does not confirm this.',
-'be_link' => 'Official VDAB job portal',
+'be_text' => 'Belgium has four regional public employment services: VDAB in Flanders, Forem in Wallonia, Actiris in Brussels and ADG in the German-speaking Community. Search for Chauffeur CE or vrachtwagenchauffeur in the relevant region. Some roles require Code 95 and the local language. Ask explicitly whether the employer can arrange a work permit for an applicant living in Morocco.',
+'be_link' => 'Regional public employment services: VDAB, Forem, Actiris and ADG',
 'nl' => 'Netherlands',
 'nl_text' => 'Use Werk.nl, the public employment service, and search for vrachtwagenchauffeur or chauffeur CE. Check recognition of the CE licence, Code 95 and driver card, and ask in writing whether the employer sponsors residence and work permission. Some agencies accept EU citizens only.',
 'nl_link' => 'Official Werk.nl job portal',
 'de' => 'Germany',
 'de_text' => 'Germany has specific rules for hiring professional drivers from non-EU countries. Under certain conditions, a legal route allows entry to obtain a German driving licence and professional qualification within a defined period, if the employer provides a contract and qualification plan and the labour authority approves it. Spedition ELAS has a recruitment page explicitly mentioning visa support for non-EU applicants; however, it requires an EU CE licence, so acceptance of a Moroccan licence must be confirmed first.',
 'de_link' => 'Official German guidance for professional drivers from third countries',
-'de_employer' => 'Spedition ELAS careers (visa support stated for non-EU applicants)',
-'de_age' => 'For applicants over 45, additional salary or pension-provision requirements may apply depending on the residence route. Check the individual case with the official authority.',
+'de_employer' => 'Spedition ELAS: advertises visa support, but its non-EU applicant page currently says it is not accepting new applications.',
+'de_age' => 'In 2026, under the relevant employment route, applicants over 45 need an annual salary of at least €55,770 or proof of adequate pension provision. The rule depends on the specific legal route; confirm the individual case with the official authority.',
 'pt' => 'Portugal',
-'pt_text' => 'Use the public IEFP portal, especially its international recruitment section for third-country nationals. Before treating a vacancy as suitable, confirm acceptance of the licence and qualifications required, such as CAM and a driver card, and whether the employer will complete the legal recruitment process.',
+'pt_text' => 'IEFP has an official vacancies page specifically for non-residents from non-EU countries, aimed at people living outside Portugal. It requires an employment contract or promise of contract from a Portuguese company; if selected, you can apply for a work visa. Check each listing to see whether it is for truck drivers and what qualifications it requires.',
 'pt_link' => 'IEFP portal for international recruitment from third countries',
 'agency_title' => 'European recruitment agency – not the employer',
 'agency_text' => 'Arktis lists driver jobs in several European countries and provides requirements, pay and application deadlines. Treat it as a recruitment agency and check each vacancy separately. There is no blanket confirmation that all listings accept applicants from Morocco or provide visa sponsorship.',
@@ -169,9 +169,16 @@ $items = [
 <p>{{ $c[$item['key'].'_text'] }}</p>
 <p><span class="status">{{ $c['status'] }}: {{ $c['not_confirmed'] }}</span></p>
 <div class="links"><a href="{{ $item['url'] }}" target="_blank" rel="noopener">{{ $c[$item['key'].'_link'] }} ↗</a></div>
+@if($item['key']==='be')
+<div class="links">
+<a href="https://www.leforem.be/" target="_blank" rel="noopener">Forem – Wallonia ↗</a> ·
+<a href="https://www.actiris.brussels/" target="_blank" rel="noopener">Actiris – Brussels ↗</a> ·
+<a href="https://adg.be/" target="_blank" rel="noopener">ADG – German-speaking Community ↗</a>
+</div>
+@endif
 @if($item['key']==='de')
 <p>{{ $c['de_age'] }}</p>
-<div class="links"><a href="https://spedition-elas.com/en/karriere" target="_blank" rel="noopener">{{ $c['de_employer'] }} ↗</a></div>
+<div class="links"><a href="https://spedition-elas.com/en/karriere/nicht-eu-fahrer" target="_blank" rel="noopener">{{ $c['de_employer'] }} ↗</a></div>
 @endif
 </section>
 @endforeach
