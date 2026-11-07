@@ -128,7 +128,7 @@ return [
     'website' => '🌐 Sitio web oficial',
     'call' => '📞 Contacto directo',
     'no_guarantee' => '⚠️ No se garantiza ningún empleo. Confirme que existe una vacante antes de enviar documentos o pagar cualquier cantidad.',
-    'last_check' => '📅 Última comprobación: septiembre de 2026',
+    'last_check' => '📅 Última revisión de la página: 7 de noviembre de 2026',
     'stef_offer_badge' => 'Oferta oficial visible al verificar — 10 de octubre de 2026',
     'stef_company_intro' => 'Transporte y logística, especialmente de productos alimentarios refrigerados.',
     'stef_offer_title' => 'CONDUCTOR/A LOCAL TRAILER H/M 1',
