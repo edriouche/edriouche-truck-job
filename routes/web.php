@@ -85,6 +85,8 @@ Route::get('/spain-law', function () {
     };
 });
 
+Route::get('/europe-jobs', function () { return view('europe-jobs'); });
+
 Route::get('/spain-jobs', function () {
     return app()->getLocale() === 'en'
         ? view('spain-jobs-en')

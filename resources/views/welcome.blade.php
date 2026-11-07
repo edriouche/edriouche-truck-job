@@ -491,6 +491,7 @@
             <a href="/youth-drivers-morocco">👨‍🎓 Jóvenes conductores — inicio profesional</a><br>
             <a href="/companies">🇲🇦 Ofertas de trabajo en Marruecos</a><br>
             <a href="/spain-jobs">🇪🇸 Ofertas de trabajo en España</a><br>
+            <a href="/europe-jobs">🇪🇺 Ofertas para conductores en Europa</a><br>
 <a href="/canada-jobs">🇨🇦 Trabajo de camionero en Canadá</a><br>
             <a href="/for-companies">🤝 Para empresas y empleadores — Publica tus ofertas de empleo</a>
         </div>
@@ -523,6 +524,7 @@
             <a href="/youth-drivers-morocco">👨‍🎓 Jeunes conducteurs — début professionnel</a><br>
             <a href="/companies">🇲🇦 Offres d’emploi au Maroc</a><br>
             <a href="/spain-jobs">🇪🇸 Offres d’emploi en Espagne</a><br>
+            <a href="/europe-jobs">🇪🇺 Offres pour conducteurs en Europe</a><br>
 <a href="/canada-jobs">🇨🇦 Travail de chauffeur routier au Canada</a><br>
             <a href="/for-companies">🤝 Pour les entreprises et employeurs — Publiez vos offres d’emploi</a>
         </div>
@@ -555,6 +557,7 @@
             <a href="/youth-drivers-morocco">👨‍🎓 الشباب السائقون — بداية المسار المهني</a><br>
             <a href="/companies">🇲🇦 عروض العمل في المغرب</a><br>
             <a href="/spain-jobs">🇪🇸 عروض العمل في إسبانيا</a><br>
+            <a href="/europe-jobs">🇪🇺 فرص سائقي الشاحنات في أوروبا</a><br>
 <a href="/canada-jobs">🇨🇦 العمل في كندا لسائقي الشاحنات</a><br>
             <a href="/for-companies">🤝 للشركات وأصحاب العمل — انشر فرص العمل</a>
         </div>
