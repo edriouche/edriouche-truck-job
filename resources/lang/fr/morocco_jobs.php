@@ -2,8 +2,8 @@
 
 return [
     'reference' => 'référence',
-    'title' => '🇲🇦 Offres ANAPEC pour conducteurs de poids lourds — octobre 2026',
-    'review' => 'Liens vérifiés le 19 octobre 2026. Il s’agit d’annonces publiées sur des sites regroupant des offres d’emploi ; cela ne confirme pas que les postes sont toujours vacants. Vérifiez la référence auprès de l’ANAPEC avant de postuler.',
+    'title' => '🇲🇦 Offres de conducteurs poids lourds au Maroc — vérifiées le 7 novembre 2026',
+    'review' => 'Liens revus le 7 novembre 2026. La page regroupe des annonces récentes et plus anciennes ; leur présence ne confirme pas que les postes sont toujours vacants. Vérifiez auprès de l’entreprise ou avec la référence ANAPEC avant de postuler.',
     'warning' => '⚠️ Postulez par les canaux officiels. Ne payez aucun intermédiaire en échange d’une promesse d’embauche.',
     'date' => '📅 Date de l’annonce',
     'positions' => 'postes annoncés',
@@ -75,6 +75,61 @@ return [
             '⚠️ L’annonce publiée indique un âge inférieur à 40 ans.',
             '',
             'https://www.wadifa-info.com/%D8%B9%D8%B1%D8%B6-%D8%B9%D9%85%D9%84-%D8%A7%D9%86%D8%A7%D8%A8%D9%8A%D9%83/11824/%D8%B3%D8%A7%D8%A6%D9%82-%D8%B4%D8%A7%D8%AD%D9%86%D8%A9-%D9%84%D9%86%D9%82%D9%84-%D8%A7%D9%84%D8%A8%D8%B6%D8%A7%D8%A6%D8%B9'
+        ],
+        [
+            'Essaouira',
+            'Chauffeur livreur — permis C',
+            'ES0211261200436',
+            '2 novembre 2026',
+            '15 postes | CDD',
+            '🚛 Permis C obligatoire ; niveau secondaire qualifiant.',
+            '🗣️ Arabe courant et français moyen selon l’annonce ; contrôle des marchandises et documents de livraison.',
+            '💰 Salaire non précisé. Candidature gratuite via ANAPEC ; vérifiez le statut avec la référence.',
+            'https://www.wadifapublic.ma/fr/anapec/2a35d493-d228-482c-b689-8c179d69891c'
+        ],
+        [
+            'Casablanca — région Casablanca-Settat',
+            'RAHA FER — conducteur camion solo et semi-remorque',
+            '—',
+            '6 novembre 2026',
+            'Annonce récente ; nombre de postes non précisé',
+            '🚛 Permis C et EC ; au moins 5 ans d’expérience et niveau baccalauréat.',
+            '🗣️ Langue de l’annonce : français ; langue de travail non précisée. Contrat et salaire à confirmer en raison d’informations divergentes sur les sites relais.',
+            '⚠️ Annonce de l’employeur relayée par des sites d’emploi ; vérifiez directement avant l’envoi des documents.',
+            'https://www.onejob.ma/job/1255886/CHAUFFEUR-POIDS-LOURDS-EXP%C3%89RIMENT%C3%89-CAMION-SOLO-amp'
+        ],
+        [
+            'Tanger — zone franche',
+            'Elec Recyclage — conducteur poids lourd Ampliroll',
+            '—',
+            'Publiée il y a 6 jours ; échéance 1 décembre 2026',
+            '1 poste annoncé',
+            '🚛 Permis EC, expérience en poids lourd et maîtrise du système Ampliroll.',
+            '🗣️ Langue de l’annonce : français ; langue de travail non précisée. Salaire et contrat non indiqués.',
+            '⚠️ Annonce publiée sur Jobsquare ; confirmez la disponibilité auprès de l’entreprise.',
+            'https://www.jobsquare.ma/job/24516/chauffeur-poids-lourd-permis-ec-h-f-camion-ampliroll-zone-franche-tanger/'
+        ],
+        [
+            'Tout le Maroc — siège à Casablanca',
+            'MG Atlas Logistics — conducteur poids lourd, transport national',
+            '—',
+            'Publiée il y a une semaine ; échéance 28 novembre 2026',
+            '1 poste annoncé',
+            '🚛 Permis EC ; transport de marchandises dans tout le Maroc, contrôle du véhicule et arrimage.',
+            '🗣️ Langue de l’annonce : français ; langue de travail non précisée. Salaire et contrat non indiqués.',
+            '⚠️ Annonce via Jobsquare ; vérifiez les informations auprès de l’employeur avant de postuler.',
+            'https://www.jobsquare.ma/job/23608/chauffeur-se-poids-lourd-h-f-permis-ec-trajets-dans-tout-le-maroc-casablanca/'
+        ],
+        [
+            'Marrakech et environs',
+            'TECTRA — conducteur de camion toupie / malaxeur',
+            '—',
+            'Publiée il y a environ une semaine ; échéance 20 novembre 2026',
+            '1 poste affiché ; la description mentionne plusieurs profils',
+            '🚛 Permis adapté aux poids lourds et expérience sur camion toupie ; livraison de béton sur chantier.',
+            '🗣️ Langue de l’annonce : français ; langue de travail non précisée. Contrat temporaire ; salaire et catégorie exacte du permis non indiqués.',
+            '⚠️ Confirmez le nombre de postes et la catégorie du permis auprès de TECTRA avant de postuler.',
+            'https://www.jobsquare.ma/job/21941/chauffeur-se-de-camion-toupie-malaxeur-h-f-btp-r%C3%A9gion-de-marrakech/'
         ]
     ]
 ];
