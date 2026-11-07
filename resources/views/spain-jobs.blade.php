@@ -47,37 +47,46 @@ footer{text-align:center;padding:25px;color:#666}
 <p>{{ __("messages.recruitment_info") }}</p>
 </div>
 
+
+<div class="warning">
+<h2>{{ __("messages.spain_legal_title") }}</h2>
+<p><strong>{{ __("messages.spain_legal_intro") }}</strong></p>
+<h3>{{ __("messages.spain_licence_heading") }}</h3>
+<p>{{ __("messages.spain_licence_text") }}</p>
+<h3>{{ __("messages.spain_professional_docs_heading") }}</h3>
+<p>{{ __("messages.spain_professional_docs_text") }}</p>
+<h3>{{ __("messages.spain_recruitment_heading") }}</h3>
+<p>{{ __("messages.spain_recruitment_text") }}</p>
+<p>{{ __("messages.spain_old_licence_text") }}</p>
+<p><strong>{{ __("messages.spain_last_verified") }}</strong></p>
+</div>
+
 <div class="card">
 <h2>🟢 JCARRION</h2>
 <p><span class="badge">{{ __("messages.recruitment_info") }}</span></p>
 <p>📍 إسبانيا – نقل وطني ودولي</p>
 <p>🚛 المطلوب: C+E</p>
 <p>🎓 المتطلبات: CAP + بطاقة التاكغراف الرقمي</p>
-<p>⭐ توجد حاليًا عروض للسائقين، ومنها عروض لا تشترط الخبرة حسب الإعلان.</p>
+<p>{{ __("messages.spain_company_vacancy_check") }}</p>
 <a class="button" href="https://ofertas.jcarrion.es/jobs/conductor-a-c-e-ruta-internacional-fcabfd30-bbdb-4edd-9740-d20be90443fd?displayed_form=true" target="_blank" rel="noopener">🔗 إعلان سائق C+E</a>
 <a class="button" href="https://jobs.jcarrion.es/reclutamiento/" target="_blank" rel="noopener">{{ __("messages.official_recruitment") }}</a>
 </div>
 
 <div class="card">
 <h2>🟢 Doseguer</h2>
-<p><span class="badge">توظيف نشط حاليًا</span></p>
+<p><span class="badge">{{ __("messages.spain_recruitment_channel") }}</span></p>
 <p>📍 Almería · Granada · Murcia</p>
 <p>🚛 نقل مبرد وبضائع عامة – وطني ودولي</p>
 <p>🎓 C+E + CAP + بطاقة تاكوغراف رقمي</p>
-<p>⭐ تقبل الشركة الترشيحات، وتذكر إمكانية تكوين السائق في النقل المبرد عند توفر المتطلبات الأساسية.</p>
+<p>{{ __("messages.spain_company_vacancy_check") }}</p>
 <a class="button" href="https://www.doseguer.com/trabaja-con-nosotros/" target="_blank">🔗 التقديم الرسمي</a>
 </div>
 
 <div class="card">
 <h2>🟢 STEF</h2>
-<p><span class="badge">{{ __("messages.stef_offer_badge") }}</span></p>
+<p><span class="badge">{{ __("messages.spain_recruitment_channel") }}</span></p>
 <p>{{ __("messages.stef_company_intro") }}</p>
-<p>🚚 {{ __("messages.stef_offer_title") }}</p>
-<p>📍 {{ __("messages.stef_offer_location") }}</p>
-<p>📅 {{ __("messages.stef_offer_date") }}</p>
-<p>📄 {{ __("messages.stef_offer_contract") }}</p>
-<p>{{ __("messages.stef_offer_notice") }}</p>
-<a class="button" href="https://apply.stef.jobs/go/CDI-CDD-%28ES%29/4509901/40/?q=&amp;sortColumn=sort_shifttype&amp;sortDirection=asc" target="_blank" rel="noopener">{{ __("messages.stef_offer_button") }}</a>
+<p>{{ __("messages.spain_company_vacancy_check") }}</p>
 <a class="button" href="https://stef.jobs/es/envia-mi-solicitud/" target="_blank" rel="noopener">{{ __("messages.official_recruitment") }}</a>
 </div>
 
@@ -91,11 +100,11 @@ footer{text-align:center;padding:25px;color:#666}
 
 <div class="card">
 <h2>🔵 Grupo SGT</h2>
-<p><span class="badge">ترشيح مفتوح</span></p>
+<p><span class="badge">{{ __("messages.spain_recruitment_channel") }}</span></p>
 <p>🚛 النقل الوطني والدولي واللوجستيك</p>
 <p>🚚 C+E حسب الوظيفة</p>
 <p>🎓 CAP وخبرة حسب الوظيفة</p>
-<p>🔗 نموذج الشركة الرسمي للتوظيف والترشيح؛ لا يضمن وجود شاغر محدد.</p>
+<p>{{ __("messages.spain_company_vacancy_check") }}</p>
 <a class="button" href="https://www.gruposgt.com/trabaja-con-nosotros" target="_blank" rel="noopener">🔗 التقديم الرسمي لدى Grupo SGT</a>
 </div>
 
@@ -104,7 +113,7 @@ footer{text-align:center;padding:25px;color:#666}
 <p><span class="badge">ترشيح مفتوح</span></p>
 <p>🚛 النقل المبرد واللوجستيك</p>
 <p>🌍 إسبانيا وأوروبا</p>
-<p>👨‍✈️ يمكن إرسال طلب ترشيح عبر القناة الرسمية؛ وهذا لا يؤكد وجود وظيفة شاغرة محددة.</p>
+<p>{{ __("messages.spain_company_vacancy_check") }}</p>
 <a class="button" href="https://www.primafrio.com/trabaja-con-nosotros//" target="_blank" rel="noopener">🔗 التقديم الرسمي لدى Primafrio</a>
 </div>
 
@@ -112,7 +121,7 @@ footer{text-align:center;padding:25px;color:#666}
 <h2>🔵 Logista</h2>
 <p><span class="badge">ترشيح مفتوح</span></p>
 <p>🚛 النقل واللوجستيك والتوزيع</p>
-<p>👨‍✈️ نموذج رسمي مرتبط بالسائقين والتوصيل؛ تحقق من نوع العمل وشروطه قبل التقديم.</p>
+<p>{{ __("messages.spain_company_vacancy_check") }}</p>
 <a class="button" href="https://www.logista.com/es/home/pages/contacta-parcel-drivers.html" target="_blank" rel="noopener">🔗 نموذج السائق الرسمي لدى Logista</a>
 </div>
 
