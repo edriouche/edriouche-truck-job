@@ -59,6 +59,8 @@ footer{text-align:center;padding:25px;color:#666}
 <p>{{ __("messages.spain_recruitment_text") }}</p>
 <p>{{ __("messages.spain_old_licence_text") }}</p>
 <p><strong>{{ __("messages.spain_last_verified") }}</strong></p>
+<p>📚 <a href="https://sede.dgt.gob.es/es/permisos-de-conducir/canjes-de-permisos/canjes-de-permisos-extranjeros" target="_blank" rel="noopener">DGT — canje de permisos extranjeros</a></p>
+<p>📚 <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2021-6624" target="_blank" rel="noopener">BOE — normativa CAP y cualificación profesional</a></p>
 </div>
 
 <div class="card">
