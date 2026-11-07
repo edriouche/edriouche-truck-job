@@ -49,7 +49,8 @@
         .sign-limit{border:7px solid #c62828;border-radius:50%;background:#fff;color:#222;font-size:1.1rem}
         .sign-temporary{background:#f4c542;color:#222;clip-path:polygon(50% 2%,2% 96%,98% 96%);font-size:1.35rem}
         .sign-note{background:#eef6ff;border-inline-start:4px solid #0b3a68;padding:14px;border-radius:8px;margin:14px 0}
-        .signs-quiz{border:2px solid #287a52;border-radius:12px;padding:18px;margin:20px 0}\n        .signs-quiz label{display:block;margin:8px 0}
+        .signs-quiz{border:2px solid #287a52;border-radius:12px;padding:18px;margin:20px 0}
+        .signs-quiz label{display:block;margin:8px 0}
 \n    </style>
 </head>
 
