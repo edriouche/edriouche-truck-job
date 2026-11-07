@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Six road sign illustrations for heavy vehicle drivers</title>
+<desc id="desc">Danger, no trucks, mandatory direction, priority, truck weight and height restrictions, and road works.</desc>
+<rect width="1200" height="760" rx="28" fill="#f4f7fb"/>
+<g font-family="Arial,sans-serif" stroke-linejoin="round">
+<g transform="translate(24 24)"><rect width="368" height="340" rx="22" fill="#fff" stroke="#d6e0ea" stroke-width="3"/>
+<path d="M184 45 L328 292 H40 Z" fill="#fff" stroke="#d62828" stroke-width="22"/>
+<path d="M184 110 L184 150 M184 150 C145 160 142 195 184 205 C226 215 223 250 184 260" fill="none" stroke="#202a35" stroke-width="17" stroke-linecap="round"/>
+<path d="M145 178 L223 178" stroke="#202a35" stroke-width="13" stroke-linecap="round"/></g>
+<g transform="translate(416 24)"><rect width="368" height="340" rx="22" fill="#fff" stroke="#d6e0ea" stroke-width="3"/>
+<circle cx="184" cy="170" r="132" fill="#fff" stroke="#d62828" stroke-width="23"/>
+<g fill="#202a35"><path d="M82 164h113v72H82z M195 183h62v53h-62z M257 198h27v38h-27z"/><path d="M96 148h54l25 16H96z"/></g><circle cx="124" cy="244" r="19" fill="#202a35"/><circle cx="238" cy="244" r="19" fill="#202a35"/>
+<path d="M91 80 L278 266" stroke="#d62828" stroke-width="24" stroke-linecap="round"/></g>
+<g transform="translate(808 24)"><rect width="368" height="340" rx="22" fill="#fff" stroke="#d6e0ea" stroke-width="3"/>
+<circle cx="184" cy="170" r="132" fill="#0866b2"/>
+<path d="M184 65 L110 166 H157 V278 H211 V166 H258 Z" fill="#fff"/></g>
+<g transform="translate(24 396)"><rect width="368" height="340" rx="22" fill="#fff" stroke="#d6e0ea" stroke-width="3"/>
+<path d="M116 65 H252 L310 123 V217 L252 275 H116 L58 217 V123 Z" fill="#d62828" stroke="#fff" stroke-width="10"/>
+<text x="184" y="190" font-size="66" font-weight="700" text-anchor="middle" fill="#fff">STOP</text></g>
+<g transform="translate(416 396)"><rect width="368" height="340" rx="22" fill="#fff" stroke="#d6e0ea" stroke-width="3"/>
+<circle cx="112" cy="170" r="92" fill="#fff" stroke="#d62828" stroke-width="18"/>
+<text x="112" y="190" font-size="43" font-weight="700" text-anchor="middle" fill="#202a35">7,5 t</text>
+<rect x="224" y="82" width="112" height="176" rx="8" fill="#fff" stroke="#202a35" stroke-width="8"/>
+<path d="M280 105v28m-17-12 17-17 17 17M280 235v-28m-17 12 17 17 17-17" fill="none" stroke="#202a35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="280" y="190" font-size="32" font-weight="700" text-anchor="middle" fill="#202a35">4,0 m</text></g>
+<g transform="translate(808 396)"><rect width="368" height="340" rx="22" fill="#fff" stroke="#d6e0ea" stroke-width="3"/>
+<path d="M184 48 L326 292 H42 Z" fill="#ffd84d" stroke="#d62828" stroke-width="20"/>
+<circle cx="197" cy="125" r="17" fill="#202a35"/><path d="M190 148l-30 50 38 24 22-48 34 22 15-15-52-39zM163 195l-28 54m91-28 31 44" fill="none" stroke="#202a35" stroke-width="17" stroke-linecap="round"/>
+<path d="M292 150h30v116h-30z" fill="#f07824" stroke="#fff" stroke-width="8"/><path d="M292 183h30M292 224h30" stroke="#fff" stroke-width="12"/></g>
+</g></svg>
