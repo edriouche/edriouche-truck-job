@@ -843,6 +843,82 @@
 @endif
 
 
+
+<div class="sign-note" style="margin-top:22px;">
+@if(app()->getLocale() === 'es')
+<h3>🔄 Caso práctico: glorieta y señales azules de dirección</h3>
+<p>La fotografía muestra una señal circular azul que obliga a circular alrededor de la isleta central en el sentido indicado por las flechas. Los paneles rectangulares azules y blancos con chevrones señalan la dirección de la curva y ayudan a reconocer su trazado. No indican por sí solos quién tiene prioridad.</p>
+<h4>Cómo actuar con un camión y semirremolque</h4>
+<ol><li>Reduce la velocidad antes de llegar y selecciona con antelación el carril adecuado para tu salida.</li><li>Observa las señales de prioridad, el tráfico que ya circula, los espejos y los ángulos muertos.</li><li>En España, cede el paso a quienes ya circulan por la glorieta cuando así lo indiquen las señales y la regla general aplicable; obedece siempre semáforos y agentes.</li><li>Recuerda que las ruedas del semirremolque siguen una trayectoria más interior y pueden acercarse al bordillo. Deja espacio suficiente sin invadir otro carril ni poner en peligro a otros usuarios.</li><li>Señaliza la salida y evita cruzar carriles bruscamente. Si no puedes salir con seguridad, continúa alrededor y vuelve a intentarlo.</li></ol>
+<div class="sign-note"><strong>Atención:</strong> la señal azul obliga a seguir el sentido indicado; los chevrones orientan sobre la curva. La prioridad se determina por las señales, semáforos, agentes y normas del país.</div>
+@elseif(app()->getLocale() === 'fr')
+<h3>🔄 Cas pratique : giratoire et panneaux bleus directionnels</h3>
+<p>La photo montre un panneau rond bleu qui impose de contourner l'îlot central dans le sens indiqué par les flèches. Les panneaux rectangulaires bleus et blancs à chevrons indiquent la direction du virage et rendent son tracé plus visible. À eux seuls, ils ne déterminent pas la priorité.</p>
+<h4>Conduite d'un camion avec semi-remorque</h4>
+<ol><li>Ralentissez avant d'arriver et choisissez à l'avance la voie adaptée à votre sortie.</li><li>Observez les panneaux de priorité, les véhicules déjà engagés, les rétroviseurs et les angles morts.</li><li>En Espagne, cédez le passage aux véhicules déjà engagés lorsque la signalisation et la règle générale l'exigent ; respectez toujours les feux et les agents.</li><li>Les roues de la semi-remorque suivent une trajectoire plus intérieure et peuvent se rapprocher du bord. Gardez une marge suffisante sans empiéter dangereusement sur une autre voie.</li><li>Signalez la sortie et évitez de couper brusquement les voies. Si vous ne pouvez pas sortir en sécurité, poursuivez le tour et réessayez.</li></ol>
+<div class="sign-note"><strong>Attention :</strong> le panneau bleu impose le sens indiqué ; les chevrons orientent dans le virage. La priorité dépend des panneaux, feux, agents et règles du pays.</div>
+@elseif(app()->getLocale() === 'en')
+<h3>🔄 Practical example: roundabout and blue direction signs</h3>
+<p>The photograph shows a blue circular sign requiring traffic to circulate around the central island in the direction shown by its arrows. The blue-and-white rectangular chevron boards mark the direction of the bend and make its alignment easier to see. They do not, by themselves, establish who has priority.</p>
+<h4>How to drive a truck and semi-trailer through it</h4>
+<ol><li>Slow down before arrival and choose the lane for your exit in good time.</li><li>Check priority signs, traffic already circulating, mirrors and blind spots.</li><li>In Spain, give way to vehicles already on the roundabout where the signs and general rule require it; always obey traffic lights and officers.</li><li>The semi-trailer's wheels follow a tighter, more inward path and may come close to the kerb. Leave enough room without dangerously entering another lane.</li><li>Signal your exit and do not cut across lanes suddenly. If you cannot exit safely, continue around and try again.</li></ol>
+<div class="sign-note"><strong>Remember:</strong> the blue circular sign makes the indicated circulation direction compulsory; chevrons guide drivers through the bend. Priority is determined by signs, signals, officers and the rules of the country.</div>
+@else
+<h3>🔄 تطبيق عملي: الدوّار وعلامات الاتجاه الزرقاء</h3>
+<p>تُظهر الصورة علامة دائرية زرقاء تُلزم السائق بالسير حول الجزيرة الوسطية في اتجاه الأسهم المرسومة. أما اللوحات المستطيلة الزرقاء والبيضاء ذات الأسهم المتتابعة (الشيفرونات) فتوضح اتجاه المنعطف وتساعد على رؤية مساره. هذه اللوحات لا تحدد وحدها من له حق الأسبقية.</p>
+<h4>كيف يتصرف سائق الشاحنة ونصف المقطورة؟</h4>
+<ol><li>خفّض السرعة قبل الوصول، واختر مبكراً المسار المناسب للمخرج الذي تريده.</li><li>راقب علامات الأسبقية والمركبات الموجودة داخل الدوار والمرايا والنقاط العمياء.</li><li>في إسبانيا، أعطِ الأسبقية للمركبات الموجودة داخل الدوار عندما تفرض العلامات والقاعدة العامة ذلك، واحترم دائماً الأضواء وتعليمات أعوان المرور.</li><li>تسير عجلات نصف المقطورة في مسار داخلي أضيق وقد تقترب من الرصيف. اترك مساحة كافية دون التعدي بشكل خطر على مسار آخر.</li><li>استعمل مؤشر الخروج وتجنب قطع المسارات فجأة. إذا لم تستطع الخروج بأمان، أكمل دورة أخرى ثم حاول من جديد.</li></ol>
+<div class="sign-note"><strong>انتبه:</strong> العلامة الدائرية الزرقاء تُلزم باتباع اتجاه الدوران المرسوم، والشيفرونات توجه السائق خلال المنعطف. أما الأسبقية فتحددها العلامات والأضواء وأعوان المرور وقواعد البلد.</div>
+@endif
+<figure class="sign-illustration">
+<img src="{{ asset('images/roundabout-signs-photo.jpg') }}" alt="Real roadside roundabout sign and blue-white chevron direction boards" loading="lazy">
+<figcaption>
+@if(app()->getLocale() === 'es') Fotografía real de señales de glorieta y paneles direccionales.
+@elseif(app()->getLocale() === 'fr') Photo réelle d'un panneau de giratoire et de panneaux directionnels à chevrons.
+@elseif(app()->getLocale() === 'en') Real photograph of a roundabout sign and chevron direction boards.
+@else صورة حقيقية لعلامة الدوار ولوحات تحديد اتجاه المنعطف.
+@endif
+</figcaption>
+</figure>
+</div>
+
+<section class="quiz-card signs-quiz" data-quiz="{{ app()->getLocale() }}">
+@if(app()->getLocale() === 'es')
+<h3>📝 Test práctico: glorietas para camiones</h3><p>Responde las cinco preguntas y pulsa «Corregir respuestas».</p>
+<fieldset data-correct="b"><legend><strong>1. ¿Qué obliga a hacer la señal circular azul de la fotografía?</strong></legend><label><input type="radio" name="roundabout_q1" value="a"> Detenerse siempre</label><label><input type="radio" name="roundabout_q1" value="b"> Circular en el sentido indicado por las flechas</label><label><input type="radio" name="roundabout_q1" value="c"> Salir por la primera salida</label></fieldset>
+<fieldset data-correct="a"><legend><strong>2. ¿Cuándo debe reducir la velocidad un camión?</strong></legend><label><input type="radio" name="roundabout_q2" value="a"> Antes de llegar a la glorieta</label><label><input type="radio" name="roundabout_q2" value="b"> Solo después de entrar</label><label><input type="radio" name="roundabout_q2" value="c"> Nunca si el límite lo permite</label></fieldset>
+<fieldset data-correct="c"><legend><strong>3. En España, ¿a quién se cede el paso normalmente al entrar?</strong></legend><label><input type="radio" name="roundabout_q3" value="a"> A los vehículos que esperan detrás</label><label><input type="radio" name="roundabout_q3" value="b"> A nadie</label><label><input type="radio" name="roundabout_q3" value="c"> A los vehículos que ya circulan, cuando así lo establece la prioridad</label></fieldset>
+<fieldset data-correct="b"><legend><strong>4. ¿Qué riesgo presentan las ruedas del semirremolque?</strong></legend><label><input type="radio" name="roundabout_q4" value="a"> Siempre siguen exactamente la huella del camión</label><label><input type="radio" name="roundabout_q4" value="b"> Cortan la trayectoria y pueden acercarse al bordillo</label><label><input type="radio" name="roundabout_q4" value="c"> No afectan al giro</label></fieldset>
+<fieldset data-correct="a"><legend><strong>5. Si no puede colocarse con seguridad para salir, ¿qué debe hacer?</strong></legend><label><input type="radio" name="roundabout_q5" value="a"> Continuar alrededor y volver a intentarlo</label><label><input type="radio" name="roundabout_q5" value="b"> Cruzar los carriles de golpe</label><label><input type="radio" name="roundabout_q5" value="c"> Detenerse en medio de la glorieta</label></fieldset>
+<button type="button" class="button quiz-submit">Corregir respuestas</button><p class="quiz-result" aria-live="polite"></p>
+@elseif(app()->getLocale() === 'fr')
+<h3>📝 Test pratique : giratoires pour poids lourds</h3><p>Répondez aux cinq questions puis cliquez sur « Corriger les réponses ».</p>
+<fieldset data-correct="b"><legend><strong>1. Que impose le panneau rond bleu de la photo ?</strong></legend><label><input type="radio" name="roundabout_q1" value="a"> S'arrêter systématiquement</label><label><input type="radio" name="roundabout_q1" value="b"> Circuler dans le sens indiqué par les flèches</label><label><input type="radio" name="roundabout_q1" value="c"> Prendre la première sortie</label></fieldset>
+<fieldset data-correct="a"><legend><strong>2. Quand un camion doit-il ralentir ?</strong></legend><label><input type="radio" name="roundabout_q2" value="a"> Avant d'arriver au giratoire</label><label><input type="radio" name="roundabout_q2" value="b"> Seulement après être entré</label><label><input type="radio" name="roundabout_q2" value="c"> Jamais si la limite le permet</label></fieldset>
+<fieldset data-correct="c"><legend><strong>3. En Espagne, à qui faut-il normalement céder le passage à l'entrée ?</strong></legend><label><input type="radio" name="roundabout_q3" value="a"> Aux véhicules qui attendent derrière</label><label><input type="radio" name="roundabout_q3" value="b"> À personne</label><label><input type="radio" name="roundabout_q3" value="c"> Aux véhicules déjà engagés lorsque la priorité le prévoit</label></fieldset>
+<fieldset data-correct="b"><legend><strong>4. Quel risque présentent les roues de la semi-remorque ?</strong></legend><label><input type="radio" name="roundabout_q4" value="a"> Elles suivent toujours exactement les roues du tracteur</label><label><input type="radio" name="roundabout_q4" value="b"> Elles coupent la trajectoire et peuvent se rapprocher du bord</label><label><input type="radio" name="roundabout_q4" value="c"> Elles ne changent rien au virage</label></fieldset>
+<fieldset data-correct="a"><legend><strong>5. Si vous ne pouvez pas vous placer en sécurité pour sortir, que faire ?</strong></legend><label><input type="radio" name="roundabout_q5" value="a"> Continuer le tour et réessayer</label><label><input type="radio" name="roundabout_q5" value="b"> Couper brusquement les voies</label><label><input type="radio" name="roundabout_q5" value="c"> S'arrêter au milieu du giratoire</label></fieldset>
+<button type="button" class="button quiz-submit">Corriger les réponses</button><p class="quiz-result" aria-live="polite"></p>
+@elseif(app()->getLocale() === 'en')
+<h3>📝 Practical test: roundabouts for truck drivers</h3><p>Answer all five questions, then select “Check answers”.</p>
+<fieldset data-correct="b"><legend><strong>1. What does the blue circular sign in the photo require?</strong></legend><label><input type="radio" name="roundabout_q1" value="a"> Always stop</label><label><input type="radio" name="roundabout_q1" value="b"> Circulate in the direction shown by the arrows</label><label><input type="radio" name="roundabout_q1" value="c"> Take the first exit</label></fieldset>
+<fieldset data-correct="a"><legend><strong>2. When should a truck slow down?</strong></legend><label><input type="radio" name="roundabout_q2" value="a"> Before reaching the roundabout</label><label><input type="radio" name="roundabout_q2" value="b"> Only after entering</label><label><input type="radio" name="roundabout_q2" value="c"> Never if the speed limit allows it</label></fieldset>
+<fieldset data-correct="c"><legend><strong>3. In Spain, who normally has priority when you enter?</strong></legend><label><input type="radio" name="roundabout_q3" value="a"> Vehicles waiting behind you</label><label><input type="radio" name="roundabout_q3" value="b"> Nobody</label><label><input type="radio" name="roundabout_q3" value="c"> Vehicles already circulating, where the priority rules require it</label></fieldset>
+<fieldset data-correct="b"><legend><strong>4. What is important about semi-trailer wheels?</strong></legend><label><input type="radio" name="roundabout_q4" value="a"> They always follow exactly the truck's wheel path</label><label><input type="radio" name="roundabout_q4" value="b"> They cut inside the turn and may approach the kerb</label><label><input type="radio" name="roundabout_q4" value="c"> They do not affect turning</label></fieldset>
+<fieldset data-correct="a"><legend><strong>5. If you cannot position safely to exit, what should you do?</strong></legend><label><input type="radio" name="roundabout_q5" value="a"> Continue around and try again</label><label><input type="radio" name="roundabout_q5" value="b"> Cut across lanes suddenly</label><label><input type="radio" name="roundabout_q5" value="c"> Stop in the middle of the roundabout</label></fieldset>
+<button type="button" class="button quiz-submit">Check answers</button><p class="quiz-result" aria-live="polite"></p>
+@else
+<h3>📝 اختبار تطبيقي: الدوارات لسائقي الشاحنات</h3><p>أجب عن الأسئلة الخمسة، ثم اضغط على زر تصحيح الإجابات.</p>
+<fieldset data-correct="b"><legend><strong>1. ماذا تُلزم به العلامة الدائرية الزرقاء في الصورة؟</strong></legend><label><input type="radio" name="roundabout_q1" value="a"> التوقف دائماً</label><label><input type="radio" name="roundabout_q1" value="b"> السير في اتجاه الأسهم المرسومة</label><label><input type="radio" name="roundabout_q1" value="c"> الخروج من أول مخرج</label></fieldset>
+<fieldset data-correct="a"><legend><strong>2. متى يجب على سائق الشاحنة تخفيف السرعة؟</strong></legend><label><input type="radio" name="roundabout_q2" value="a"> قبل الوصول إلى الدوار</label><label><input type="radio" name="roundabout_q2" value="b"> بعد الدخول فقط</label><label><input type="radio" name="roundabout_q2" value="c"> لا يخففها ما دام حد السرعة يسمح</label></fieldset>
+<fieldset data-correct="c"><legend><strong>3. في إسبانيا، لمن تُعطى الأسبقية عادة عند الدخول؟</strong></legend><label><input type="radio" name="roundabout_q3" value="a"> للمركبات المنتظرة خلفك</label><label><input type="radio" name="roundabout_q3" value="b"> لا أحد</label><label><input type="radio" name="roundabout_q3" value="c"> للمركبات الموجودة داخل الدوار عندما تفرض قواعد الأسبقية ذلك</label></fieldset>
+<fieldset data-correct="b"><legend><strong>4. ما الذي يجب الانتباه إليه في عجلات نصف المقطورة؟</strong></legend><label><input type="radio" name="roundabout_q4" value="a"> تسير دائماً في المسار نفسه لعجلات الجرار</label><label><input type="radio" name="roundabout_q4" value="b"> تقطع المنعطف من الداخل وقد تقترب من الرصيف</label><label><input type="radio" name="roundabout_q4" value="c"> لا تؤثر في الانعطاف</label></fieldset>
+<fieldset data-correct="a"><legend><strong>5. إذا لم تستطع التمركز بأمان للخروج، ماذا تفعل؟</strong></legend><label><input type="radio" name="roundabout_q5" value="a"> تكمل دورة أخرى ثم تحاول من جديد</label><label><input type="radio" name="roundabout_q5" value="b"> تقطع المسارات فجأة</label><label><input type="radio" name="roundabout_q5" value="c"> تتوقف وسط الدوار</label></fieldset>
+<button type="button" class="button quiz-submit">تصحيح الإجابات</button><p class="quiz-result" aria-live="polite"></p>
+@endif
+</section>
+
+
 <div class="sign-note" style="margin-top:22px;">
 @if(app()->getLocale() === 'es')
 <h3>🚦 Caso práctico: ATENCIÓN GLORIETA – límite 40 km/h</h3>
