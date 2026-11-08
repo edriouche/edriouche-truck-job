@@ -846,36 +846,42 @@
 <div class="sign-note" style="margin-top:22px;">
 @if(app()->getLocale() === 'es')
 <h3>🚦 Caso práctico: ATENCIÓN GLORIETA – límite 40 km/h</h3>
-<p>Esta fotografía muestra un panel luminoso de advertencia. El texto <strong>ATENCIÓN GLORIETA</strong> avisa de una glorieta próxima; el triángulo con flechas circulares advierte de circulación giratoria y el círculo rojo con <strong>40</strong> establece una velocidad máxima de 40 km/h en el tramo al que se aplica la señal.</p>
-<p>Las luces ámbar intermitentes refuerzan la advertencia: no sustituyen la señal ni autorizan a ignorar el límite. Respeta también cualquier señal posterior que modifique o termine la limitación.</p>
+<p>Este panel luminoso combina una advertencia de glorieta con una limitación de velocidad. El texto <strong>ATENCIÓN GLORIETA</strong> avisa de una glorieta próxima; el triángulo con flechas circulares advierte de circulación giratoria y el círculo rojo con <strong>40</strong> establece una velocidad máxima de 40 km/h en el tramo al que se aplica la señal.</p>
+<p>Los dos elementos luminosos de color ámbar refuerzan la advertencia: no sustituyen la señal ni autorizan a ignorar el límite. Respeta también cualquier señal posterior que modifique o termine la limitación.</p>
 <h4>Cómo actuar con un camión y semirremolque</h4>
 <ol><li>Reduce progresivamente la velocidad antes de llegar; evita frenar bruscamente dentro de la glorieta.</li><li>Observa a la izquierda, los espejos y los ángulos muertos. No entres hasta que sea seguro.</li><li>En España, cede el paso a los vehículos que ya circulan por la glorieta, salvo que señales, semáforos o agentes indiquen otra cosa.</li><li>Ten en cuenta que las ruedas del remolque cortan la trayectoria y pasan más cerca del bordillo; deja espacio y evita cambios bruscos de carril.</li><li>Prepara la salida con antelación, señaliza y sal normalmente desde el carril exterior derecho. Si no puedes colocarte con seguridad, da otra vuelta.</li></ol>
 <p><strong>Regla profesional:</strong> 40 km/h es un máximo, no una velocidad que debas mantener. Con carga alta, pavimento mojado, visibilidad limitada o una curva cerrada, circula más despacio si es necesario.</p>
 @elseif(app()->getLocale() === 'fr')
 <h3>🚦 Situation pratique : ATENCIÓN GLORIETA – limitation à 40 km/h</h3>
-<p>Cette photo montre un panneau lumineux d'avertissement. <strong>ATENCIÓN GLORIETA</strong> annonce un giratoire proche ; le triangle avec flèches circulaires avertit d'une circulation giratoire et le cercle rouge <strong>40</strong> fixe une vitesse maximale de 40 km/h sur la section concernée.</p>
-<p>Les feux orange clignotants renforcent l'alerte : ils ne remplacent pas le panneau et ne permettent pas d'ignorer la limitation. Respectez tout panneau ultérieur qui la modifie ou y met fin.</p>
+<p>Ce panneau lumineux combine un avertissement de giratoire et une limitation de vitesse. <strong>ATENCIÓN GLORIETA</strong> annonce un giratoire proche ; le triangle avec flèches circulaires avertit d'une circulation giratoire et le cercle rouge <strong>40</strong> fixe une vitesse maximale de 40 km/h sur la section concernée.</p>
+<p>Les deux éléments lumineux orange renforcent l'alerte : ils ne remplacent pas le panneau et ne permettent pas d'ignorer la limitation. Respectez tout panneau ultérieur qui la modifie ou y met fin.</p>
 <h4>Conduite d'un poids lourd avec semi-remorque</h4>
 <ol><li>Ralentissez progressivement avant le giratoire ; évitez les freinages brusques dans le giratoire.</li><li>Contrôlez la gauche, les rétroviseurs et les angles morts. N'entrez que lorsque la manœuvre est sûre.</li><li>En Espagne, cédez le passage aux véhicules déjà engagés, sauf indication contraire d'un panneau, d'un feu ou d'un agent.</li><li>Les roues de la remorque coupent la trajectoire et passent plus près du bord : gardez une marge et évitez les changements brusques de voie.</li><li>Préparez la sortie à l'avance, signalez-la et sortez normalement depuis la voie extérieure droite. Si le placement n'est pas sûr, faites un tour supplémentaire.</li></ol>
 <p><strong>Règle professionnelle :</strong> 40 km/h est une vitesse maximale, pas une vitesse à maintenir. Avec un chargement haut, une chaussée mouillée, une visibilité réduite ou un virage serré, ralentissez davantage si nécessaire.</p>
 @elseif(app()->getLocale() === 'en')
 <h3>🚦 Practical example: ATENCIÓN GLORIETA – 40 km/h limit</h3>
-<p>This photo shows an illuminated warning panel. <strong>ATENCIÓN GLORIETA</strong> warns of an approaching roundabout; the triangle with circular arrows warns of circulating traffic, and the red circle showing <strong>40</strong> sets a maximum speed of 40 km/h on the section covered by the sign.</p>
-<p>The flashing amber lamps reinforce the warning. They do not replace the sign or allow the speed limit to be ignored. Follow any later sign that changes or ends the restriction.</p>
+<p>This illuminated panel combines a roundabout warning with a speed limit. <strong>ATENCIÓN GLORIETA</strong> warns of an approaching roundabout; the triangle with circular arrows warns of circulating traffic, and the red circle showing <strong>40</strong> sets a maximum speed of 40 km/h on the section covered by the sign.</p>
+<p>The two amber warning lights reinforce the warning. They do not replace the sign or allow the speed limit to be ignored. Follow any later sign that changes or ends the restriction.</p>
 <h4>How to approach in a truck and semi-trailer</h4>
 <ol><li>Slow down progressively before reaching the roundabout; avoid harsh braking while turning.</li><li>Check to the left, mirrors and blind spots. Do not enter until it is safe.</li><li>In Spain, give way to vehicles already circulating in the roundabout unless signs, traffic lights or an officer direct otherwise.</li><li>The trailer wheels cut inside the tractor's path and may pass close to the kerb; leave room and avoid sudden lane changes.</li><li>Plan the exit early, signal and normally leave from the outer right lane. If you cannot position safely, go around again.</li></ol>
 <p><strong>Professional rule:</strong> 40 km/h is a maximum, not a target speed. With a high load, wet pavement, poor visibility or a tight curve, go slower when needed.</p>
 @else
 <h3>🚦 تطبيق عملي: ATENCIÓN GLORIETA – الحد الأقصى 40 كلم/ساعة</h3>
-<p>تُظهر الصورة لوحة تحذيرية مضاءة. عبارة <strong>ATENCIÓN GLORIETA</strong> تعني: انتبه، دوّار أمامك. المثلث الذي يحمل أسهماً دائرية يحذّر من تقاطع ذي حركة دائرية، أما الدائرة الحمراء وبداخلها الرقم <strong>40</strong> فتحدد السرعة القصوى بـ40 كلم/ساعة في المقطع الذي تسري عليه العلامة.</p>
-<p>المصباحان البرتقاليان الوامضان يزيدان وضوح التنبيه، لكنهما لا يلغيان العلامة ولا يسمحان بتجاوز حد السرعة. احترم أي علامة لاحقة تغيّر هذا الحد أو تنهيه.</p>
+<p>تجمع هذه اللوحة المضيئة بين التحذير من دوّار وتحديد السرعة. عبارة <strong>ATENCIÓN GLORIETA</strong> تعني: انتبه، دوّار أمامك. المثلث الذي يحمل أسهماً دائرية يحذّر من تقاطع ذي حركة دائرية، أما الدائرة الحمراء وبداخلها الرقم <strong>40</strong> فتحدد السرعة القصوى بـ40 كلم/ساعة في المقطع الذي تسري عليه العلامة.</p>
+<p>العنصران البرتقاليان المضيئان يزيدان وضوح التنبيه، لكنهما لا يلغيان العلامة ولا يسمحان بتجاوز حد السرعة. احترم أي علامة لاحقة تغيّر هذا الحد أو تنهيه.</p>
 <h4>كيف يتصرف سائق الشاحنة ونصف المقطورة؟</h4>
 <ol><li>خفّض السرعة تدريجياً قبل الوصول إلى الدوّار، وتجنب الفرملة القوية أثناء الانعطاف.</li><li>راقب جهة اليسار والمرايا والنقاط العمياء، ولا تدخل حتى تتأكد أن الدخول آمن.</li><li>في إسبانيا، أعطِ الأسبقية للمركبات الموجودة داخل الدوّار، إلا إذا نظمت العلامات أو الأضواء أو تعليمات عون المرور الأمر بشكل مختلف.</li><li>انتبه: عجلات المقطورة تقطع مساراً أقصر من عجلات الجرار وقد تقترب من الرصيف؛ اترك مساحة كافية وتجنب تغيير المسار فجأة.</li><li>خطط للخروج مبكراً، واستعمل مؤشر الاتجاه، واخرج عادة من المسار الخارجي الأيمن. إذا لم تستطع التمركز بأمان، أكمل دورة أخرى.</li></ol>
 <p><strong>قاعدة مهنية:</strong> 40 كلم/ساعة حد أقصى وليست سرعة يجب الحفاظ عليها. إذا كانت الحمولة مرتفعة أو الطريق مبللاً أو الرؤية ضعيفة أو المنعطف حاداً، خفّض السرعة أكثر عند الحاجة.</p>
 @endif
 <figure class="sign-illustration">
 <img src="{{ asset('images/atencion-glorieta-40.svg') }}" alt="Esquema didáctico del panel ATENCIÓN GLORIETA con advertencia de glorieta y límite de 40 km/h" loading="lazy">
-<figcaption>Esquema didáctico del panel de la fotografía. No sustituye la señalización oficial instalada en la vía.</figcaption>
+<figcaption>
+@if(app()->getLocale() === 'es') Esquema didáctico del panel. No sustituye la señalización oficial instalada en la vía.
+@elseif(app()->getLocale() === 'fr') Schéma pédagogique du panneau. Il ne remplace pas la signalisation officielle sur la route.
+@elseif(app()->getLocale() === 'en') Educational diagram of the sign panel. It does not replace official roadside signs.
+@else رسم تعليمي توضيحي للوحة، ولا يعوّض علامات التشوير الرسمية المثبتة على الطريق.
+@endif
+</figcaption>
 </figure>
 <div class="sign-note">
 @if(app()->getLocale() === 'es')
