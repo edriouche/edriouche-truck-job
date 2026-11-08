@@ -27,8 +27,10 @@ $copy = [
 'de_employer' => 'Spedition ELAS: تذكر دعم إجراءات التأشيرة، لكن صفحتها المخصصة للمتقدمين من خارج الاتحاد الأوروبي تفيد بأنها لا تستقبل طلبات جديدة حالياً. لذلك لا نعرضها كفرصة مفتوحة، ولا نؤكد قبول الرخصة المغربية لديها.',
 'de_age' => 'في مسار سائقي الشاحنات المنصوص عليه في المادة 24a، من بلغ 45 سنة أو أكثر يحتاج في 2026 إلى راتب إجمالي سنوي لا يقل عن 55,770 يورو أو إثبات تأمين تقاعدي كافٍ. هذا شرط مرتبط بهذا المسار القانوني، وليس قاعدة عامة لكل وظيفة أو لكل أنواع التأشيرات في ألمانيا؛ تحقّق من انطباقه على حالتك لدى البعثة الألمانية أو الجهة المختصة.',
 'pt' => 'البرتغال',
-'pt_text' => 'لدى IEFP صفحة رسمية بعنوان وظائف لغير المقيمين من دول خارج الاتحاد الأوروبي، وموجهة صراحةً لمن يعيش خارج البرتغال. يشترط وجود عقد أو وعد بعقد من شركة برتغالية؛ وإذا اختارك صاحب العمل يمكنك طلب تأشيرة العمل. افحص كل إعلان لمعرفة ما إذا كان يقبل سائق شاحنة ومؤهلاته.',
+'pt_text' => 'لدى IEFP صفحة رسمية مخصصة لوظائف غير المقيمين من دول خارج الاتحاد الأوروبي، وهي موجهة صراحةً لمن يعيش خارج البرتغال. يلزم عقد عمل أو وعد بعقد من شركة برتغالية، وبعد الاختيار يمكن طلب تأشيرة العمل. تحققنا في 8 نوفمبر 2026 من القائمة المخصصة: تعرض 10 عروض، ولا يظهر بينها حالياً منصب سائق شاحنة. هذا لا ينفي وجود وظائف أخرى خارج هذه القناة؛ راجع القائمة الرسمية عند تحديثها.',
 'pt_link' => 'بوابة IEFP للتوظيف الدولي من خارج الاتحاد الأوروبي',
+'pt_status' => 'تقبل هذه القناة طلبات غير المقيمين من الدول الثالثة؛ لا توجد حالياً وظيفة سائق شاحنة ضمن العروض العشرة.',
+'pt_current_link' => 'الاطلاع على قائمة العروض الحالية لغير المقيمين',
 'agency_title' => 'وكالة توظيف أوروبية – ليست صاحب العمل',
 'agency_text' => 'تعرض Arktis وظائف سائقين في عدة دول أوروبية وتذكر شروط كل إعلان وأجره وآخر أجل. لكنها تعرض أيضاً إعلانات بآجال تقديم سابقة؛ لذلك تحقق من أن الإعلان ما زال مفتوحاً قبل التقديم. تعامل معها كوسيط توظيف، ولا يوجد تأكيد عام بأنها تقبل المتقدمين من المغرب أو توفر التأشيرة.',
 'agency_link' => 'قائمة وظائف سائقي الشاحنات لدى Arktis',
@@ -61,8 +63,10 @@ $copy = [
 'de_employer' => 'Spedition ELAS: menciona apoyo con los trámites de visado, pero su página para candidatos de fuera de la UE indica que actualmente no acepta nuevas solicitudes. Por tanto, no la presentamos como una vacante abierta ni afirmamos que acepte permisos marroquíes.',
 'de_age' => 'En la vía específica para conductores del artículo 24a, las personas de 45 años o más necesitan en 2026 un salario bruto anual de al menos 55.770 euros o acreditar una previsión de jubilación suficiente. Es una condición vinculada a esta vía legal, no una regla general para todos los empleos o visados en Alemania; confirma si se aplica a tu caso ante la misión alemana o la autoridad competente.',
 'pt' => 'Portugal',
-'pt_text' => 'IEFP dispone de una página oficial de vacantes para no residentes de países terceros, dirigida expresamente a personas que viven fuera de Portugal. Se exige un contrato o una promesa de contrato de una empresa portuguesa; si el empleador te selecciona, puedes solicitar el visado de trabajo. Comprueba en cada anuncio si admite conductores de camión y qué cualificaciones exige.',
+'pt_text' => 'IEFP dispone de una página oficial de vacantes para ciudadanos de terceros países que no residen en Portugal. Se requiere un contrato o una promesa de contrato de una empresa portuguesa y, si el empleador selecciona al candidato, este puede solicitar un visado de trabajo. Verificación del 8 de noviembre de 2026: la lista específica muestra 10 vacantes y ninguna corresponde actualmente a conductores de camión. Esto no excluye otras ofertas fuera de este canal; conviene revisar la lista cuando se actualice.',
 'pt_link' => 'Portal IEFP para contratación internacional desde terceros países',
+'pt_status' => 'El portal acepta expresamente solicitudes de ciudadanos de terceros países no residentes; entre las 10 vacantes actuales no figura ningún puesto de conductor de camión.',
+'pt_current_link' => 'Consultar las vacantes actuales para no residentes',
 'agency_title' => 'Agencia de contratación europea – no es el empleador',
 'agency_text' => 'Arktis publica puestos de conductor en varios países europeos e indica condiciones, salario y plazo. Sin embargo, también muestra anuncios cuyo plazo ya ha vencido; comprueba que cada vacante siga abierta antes de solicitarla. Es una agencia de contratación y no hay confirmación general de que acepte candidatos desde Marruecos o tramite visados.',
 'agency_link' => 'Ofertas de conductores en Arktis',
@@ -95,8 +99,10 @@ $copy = [
 'de_employer' => 'Spedition ELAS : mentionne une aide aux démarches de visa, mais sa page destinée aux candidats hors UE indique qu’elle ne reçoit actuellement plus de nouvelles candidatures. Nous ne la présentons donc pas comme une offre ouverte et ne confirmons pas qu’elle accepte les permis marocains.',
 'de_age' => 'Dans la voie spécifique aux conducteurs prévue à l’article 24a, les personnes âgées de 45 ans ou plus doivent, en 2026, percevoir au moins 55 770 euros bruts par an ou justifier d’une prévoyance retraite suffisante. Cette condition est liée à cette voie juridique et ne constitue pas une règle générale pour tous les emplois ou visas en Allemagne ; vérifiez son application à votre situation auprès de l’autorité compétente.',
 'pt' => 'Portugal',
-'pt_text' => 'L’IEFP dispose d’une page officielle d’offres pour les non-résidents de pays tiers, destinée aux personnes vivant hors du Portugal. Un contrat de travail ou une promesse de contrat d’une entreprise portugaise est requis ; en cas de sélection, vous pouvez demander un visa de travail. Vérifiez dans chaque annonce si elle concerne les conducteurs routiers et quelles qualifications sont exigées.',
+'pt_text' => 'L’IEFP dispose d’une page officielle destinée aux ressortissants de pays tiers qui ne résident pas au Portugal. Un contrat ou une promesse de contrat d’une entreprise portugaise est nécessaire ; en cas de sélection, le candidat peut demander un visa de travail. Vérification du 8 novembre 2026 : la liste dédiée affiche 10 offres et aucune ne concerne actuellement les conducteurs de poids lourds. Cela n’exclut pas d’autres offres en dehors de ce dispositif ; consultez la liste lors de ses mises à jour.',
 'pt_link' => 'Portail IEFP de recrutement international depuis les pays tiers',
+'pt_status' => 'Le portail accepte explicitement les candidatures de ressortissants de pays tiers non-résidents ; aucune offre de chauffeur poids lourd ne figure parmi les 10 offres affichées actuellement.',
+'pt_current_link' => 'Consulter les offres actuelles pour les non-résidents',
 'agency_title' => 'Agence de recrutement européenne – pas l’employeur',
 'agency_text' => 'Arktis publie des postes de conducteurs dans plusieurs pays européens avec les conditions, le salaire et la date limite. Toutefois, certaines annonces affichent déjà une date limite dépassée ; vérifiez que chaque poste est encore ouvert avant de postuler. Il s’agit d’une agence et rien ne confirme que toutes ses offres acceptent les candidats du Maroc ou prennent en charge un visa.',
 'agency_link' => 'Offres de conducteurs chez Arktis',
@@ -129,8 +135,10 @@ $copy = [
 'de_employer' => 'Spedition ELAS: mentions visa assistance, but its page for non-EU applicants currently says it is not accepting new applications. We therefore do not present it as an open vacancy or claim that it accepts Moroccan licences.',
 'de_age' => 'Under the specific professional-driver route in Section 24a, applicants aged 45 or older need, in 2026, a gross annual salary of at least €55,770 or proof of adequate pension provision. This condition is linked to this legal route and is not a general rule for every job or visa in Germany; confirm whether it applies to your case with the German mission or competent authority.',
 'pt' => 'Portugal',
-'pt_text' => 'IEFP has an official vacancies page specifically for non-residents from non-EU countries, aimed at people living outside Portugal. It requires an employment contract or promise of contract from a Portuguese company; if selected, you can apply for a work visa. Check each listing to see whether it is for truck drivers and what qualifications it requires.',
+'pt_text' => 'IEFP has an official vacancies page specifically for non-EU citizens who do not live in Portugal. A Portuguese employer must provide an employment contract or promise of contract; if selected, the applicant can then apply for a work visa. Checked on 8 November 2026: the dedicated list shows 10 vacancies, none currently for truck drivers. This does not rule out other vacancies outside this channel; check the official list again when it is updated.',
 'pt_link' => 'IEFP portal for international recruitment from third countries',
+'pt_status' => 'This portal explicitly accepts applications from non-EU citizens living outside Portugal; none of the 10 current listings is for a truck driver.',
+'pt_current_link' => 'View current vacancies for non-residents',
 'agency_title' => 'European recruitment agency – not the employer',
 'agency_text' => 'Arktis lists driver jobs in several European countries with requirements, pay and deadlines. However, some listings show application deadlines that have already passed; verify that each role is still open before applying. It is a recruitment agency, and there is no blanket confirmation that its roles accept applicants from Morocco or provide visa sponsorship.',
 'agency_link' => 'Truck driver vacancies listed by Arktis',
@@ -167,8 +175,11 @@ $items = [
 <section class="country">
 <h2>{{ $item['flag'] }} {{ $c[$item['key']] }}</h2>
 <p>{{ $c[$item['key'].'_text'] }}</p>
-<p><span class="status">{{ $c['status'] }}: {{ $c['not_confirmed'] }}</span></p>
+<p><span class="status">{{ $c['status'] }}: {{ $item['key'] === 'pt' ? $c['pt_status'] : $c['not_confirmed'] }}</span></p>
 <div class="links"><a href="{{ $item['url'] }}" target="_blank" rel="noopener">{{ $c[$item['key'].'_link'] }} ↗</a></div>
+@if($item['key']==='pt')
+<div class="links"><a href="https://iefponline.iefp.pt/IEFP/pesquisas/search.do?candEstadosTerceiros=true&amp;cat=ofertaEmprego" target="_blank" rel="noopener">{{ $c['pt_current_link'] }} ↗</a></div>
+@endif
 @if($item['key']==='be')
 <div class="links">
 <a href="https://www.leforem.be/" target="_blank" rel="noopener">Forem – Wallonia ↗</a> ·
