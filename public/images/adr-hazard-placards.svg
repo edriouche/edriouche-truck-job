@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1030" viewBox="0 0 1200 1030" role="img" aria-labelledby="t d">
 <title id="t">ADR hazard labels and orange plate example</title>
-<desc id="d">Nine dangerous goods hazard class diamonds and an orange plate example 33 over UN 1203 for petrol.</desc>
+<desc id="d">Selected dangerous goods hazard label examples and an orange plate example 33 over UN 1203 for petrol.</desc>
 <rect width="1200" height="1030" rx="28" fill="#f3f6fa"/>
-<text x="600" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#17324d">ADR · DANGEROUS GOODS LABELS</text>
+<text x="600" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#17324d">ADR · SELECTED HAZARD LABEL EXAMPLES</text>
 <g font-family="Arial,sans-serif" font-weight="700" text-anchor="middle">
 <!-- class 1 -->
 <g transform="translate(205 210)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#f58220" stroke="#222" stroke-width="5"/><path d="M-32 18 L-45 -5 -20 0 -12 -35 3 -7 28 -23 18 4 45 16 15 20 10 43 -5 22 -27 38Z" fill="#222"/><text y="61" font-size="27" fill="#111">1</text></g>
@@ -10,6 +10,8 @@
 <g transform="translate(505 210)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#e53935" stroke="#222" stroke-width="5"/><path d="M0 -40 C-28 -9 -32 9 -17 26 C-6 40 18 34 25 18 C34 -4 10 -18 12 -34 C-2 -23 -3 -9 -2 0 C-17 -10 -12 -26 0 -40Z" fill="#111"/><text y="61" font-size="27" fill="#111">2</text></g>
 <!-- class 2.2 -->
 <g transform="translate(805 210)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#43a047" stroke="#222" stroke-width="5"/><rect x="-13" y="-39" width="26" height="66" rx="12" fill="none" stroke="#111" stroke-width="7"/><path d="M-13 -23 H13 M-13 11 H13" stroke="#111" stroke-width="5"/><text y="61" font-size="27" fill="#111">2</text></g>
+<!-- class 2.3 toxic gas -->
+<g transform="translate(1050 210)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#fff" stroke="#222" stroke-width="5"/><path d="M-31 -8 Q-34 -38 0 -38 Q34 -38 31 -8 L20 9 H-20Z" fill="#111"/><circle cx="-12" cy="-17" r="5" fill="#fff"/><circle cx="12" cy="-17" r="5" fill="#fff"/><path d="M-10 0 L10 0 M-7 0 L-13 14 M7 0 L13 14" stroke="#fff" stroke-width="4"/><text y="61" font-size="27" fill="#111">2</text></g>
 <!-- class 3 -->
 <g transform="translate(205 465)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#e53935" stroke="#222" stroke-width="5"/><path d="M0 -40 C-28 -9 -32 9 -17 26 C-6 40 18 34 25 18 C34 -4 10 -18 12 -34 C-2 -23 -3 -9 -2 0 C-17 -10 -12 -26 0 -40Z" fill="#111"/><text y="61" font-size="27" fill="#111">3</text></g>
 <!-- class 4.1 -->
@@ -30,5 +32,5 @@
 <path d="M365 921 H835" stroke="#111" stroke-width="6"/>
 <text x="600" y="910" text-anchor="middle" font-family="Arial,sans-serif" font-size="43" font-weight="700" fill="#111">33</text>
 <text x="600" y="963" text-anchor="middle" font-family="Arial,sans-serif" font-size="43" font-weight="700" fill="#111">1203</text>
-<text x="600" y="1010" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#43556a">Illustrative training diagram · always verify the applicable ADR entry</text>
+<text x="600" y="1010" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#43556a">Illustrative examples only · classes include subdivisions · verify current ADR</text>
 </svg>
