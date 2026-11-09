@@ -1295,6 +1295,8 @@
 @endif
 </h3>
 <ul>
+<li><a href="https://www.gov.uk/government/publications/fire-safety-risk-assessment-offices-and-shops/fire-safety-risk-assessment-offices-and-shops-accessible" target="_blank" rel="noopener noreferrer">UK Government – classes of fire and extinguisher guidance</a></li>
+<li><a href="https://www.osha.gov/etools/evacuation-plans-procedures/emergency-standards/portable-extinguishers/about" target="_blank" rel="noopener noreferrer">OSHA – extinguisher types and safe use</a></li>
 <li><a href="https://unece.org/adr-2025-files" target="_blank" rel="noopener noreferrer">UNECE – texto oficial ADR 2025</a></li>
 <li><a href="https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf" target="_blank" rel="noopener noreferrer">ADR 2025, volumen II – señalización y paneles naranjas</a></li>
 <li><a href="https://maloi.ma/ar/law/loi-transport-marchandises-dangereuses" target="_blank" rel="noopener noreferrer">Marruecos – Ley 30-05 (texto legal)</a></li>
