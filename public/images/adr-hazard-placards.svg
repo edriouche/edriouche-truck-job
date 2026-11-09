@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1030" viewBox="0 0 1200 1030" role="img" aria-labelledby="t d">
+<title id="t">ADR hazard labels and orange plate example</title>
+<desc id="d">Nine dangerous goods hazard class diamonds and an orange plate example 33 over UN 1203 for petrol.</desc>
+<rect width="1200" height="1030" rx="28" fill="#f3f6fa"/>
+<text x="600" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#17324d">ADR · DANGEROUS GOODS LABELS</text>
+<g font-family="Arial,sans-serif" font-weight="700" text-anchor="middle">
+<!-- class 1 -->
+<g transform="translate(205 210)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#f58220" stroke="#222" stroke-width="5"/><path d="M-32 18 L-45 -5 -20 0 -12 -35 3 -7 28 -23 18 4 45 16 15 20 10 43 -5 22 -27 38Z" fill="#222"/><text y="61" font-size="27" fill="#111">1</text></g>
+<!-- class 2.1 -->
+<g transform="translate(505 210)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#e53935" stroke="#222" stroke-width="5"/><path d="M0 -40 C-28 -9 -32 9 -17 26 C-6 40 18 34 25 18 C34 -4 10 -18 12 -34 C-2 -23 -3 -9 -2 0 C-17 -10 -12 -26 0 -40Z" fill="#111"/><text y="61" font-size="27" fill="#111">2</text></g>
+<!-- class 2.2 -->
+<g transform="translate(805 210)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#43a047" stroke="#222" stroke-width="5"/><rect x="-13" y="-39" width="26" height="66" rx="12" fill="none" stroke="#111" stroke-width="7"/><path d="M-13 -23 H13 M-13 11 H13" stroke="#111" stroke-width="5"/><text y="61" font-size="27" fill="#111">2</text></g>
+<!-- class 3 -->
+<g transform="translate(205 465)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#e53935" stroke="#222" stroke-width="5"/><path d="M0 -40 C-28 -9 -32 9 -17 26 C-6 40 18 34 25 18 C34 -4 10 -18 12 -34 C-2 -23 -3 -9 -2 0 C-17 -10 -12 -26 0 -40Z" fill="#111"/><text y="61" font-size="27" fill="#111">3</text></g>
+<!-- class 4.1 -->
+<g transform="translate(505 465)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#fff" stroke="#222" stroke-width="5"/><g transform="rotate(45)"><path d="M-58 -58 V58 M-30 -58 V58 M-2 -58 V58 M26 -58 V58 M54 -58 V58" stroke="#d32f2f" stroke-width="13"/></g><text y="61" font-size="27" fill="#111">4</text></g>
+<!-- class 5.1 -->
+<g transform="translate(805 465)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#ffeb3b" stroke="#222" stroke-width="5"/><circle cx="0" cy="2" r="22" fill="none" stroke="#111" stroke-width="5"/><path d="M0 -42 C-19 -18 -14 -7 0 -4 C14 -7 19 -18 0 -42Z" fill="#111"/><text y="61" font-size="27" fill="#111">5.1</text></g>
+<!-- class 6.1 -->
+<g transform="translate(205 720)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#fff" stroke="#222" stroke-width="5"/><path d="M-31 -8 Q-34 -38 0 -38 Q34 -38 31 -8 L20 9 H-20Z" fill="#111"/><circle cx="-12" cy="-17" r="5" fill="#fff"/><circle cx="12" cy="-17" r="5" fill="#fff"/><path d="M-10 0 L10 0 M-7 0 L-13 14 M7 0 L13 14" stroke="#fff" stroke-width="4"/><text y="61" font-size="27" fill="#111">6</text></g>
+<!-- class 7 -->
+<g transform="translate(505 720)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#ffeb3b" stroke="#222" stroke-width="5"/><circle r="8" fill="#111"/><g fill="#111"><path d="M-6 -12 L-16 -37 Q-5 -48 7 -38 L5 -13Z"/><path d="M12 3 L39 10 Q43 24 29 31 L8 14Z"/><path d="M-8 9 L-23 34 Q-39 31 -38 16 L-13 0Z"/></g><text y="61" font-size="27" fill="#111">7</text></g>
+<!-- class 8 -->
+<g transform="translate(805 720)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#fff" stroke="#222" stroke-width="5"/><path d="M-58 -58 H58 V0 H-58Z" fill="#222"/><path d="M-27 -28 L-14 -5 M17 -28 L8 -5" stroke="#fff" stroke-width="7" stroke-linecap="round"/><path d="M-35 19 Q-15 8 -1 22 L-10 39 Q-27 35 -35 19Z M7 18 Q28 9 39 24 L27 39 Q10 35 7 18Z" fill="#222"/><text y="61" font-size="27" fill="#111">8</text></g>
+<!-- class 9 -->
+<g transform="translate(1050 465)"><rect x="-76" y="-76" width="152" height="152" transform="rotate(45)" fill="#fff" stroke="#222" stroke-width="5"/><g transform="rotate(45)" stroke="#111" stroke-width="9"><path d="M-53 -55 V-5 M-29 -55 V-5 M-5 -55 V-5 M19 -55 V-5 M43 -55 V-5"/></g><text y="61" font-size="27" fill="#111">9</text></g>
+</g>
+<text x="600" y="835" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#17324d">ORANGE PLATE EXAMPLE · PETROL</text>
+<rect x="365" y="865" width="470" height="112" rx="7" fill="#ff8a00" stroke="#111" stroke-width="7"/>
+<path d="M365 921 H835" stroke="#111" stroke-width="6"/>
+<text x="600" y="910" text-anchor="middle" font-family="Arial,sans-serif" font-size="43" font-weight="700" fill="#111">33</text>
+<text x="600" y="963" text-anchor="middle" font-family="Arial,sans-serif" font-size="43" font-weight="700" fill="#111">1203</text>
+<text x="600" y="1010" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#43556a">Illustrative training diagram · always verify the applicable ADR entry</text>
+</svg>
