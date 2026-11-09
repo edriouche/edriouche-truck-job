@@ -165,13 +165,13 @@
 
 <nav class="academy-nav" aria-label="Academy lesson index">
 @if(app()->getLocale() === 'es')
-<a href="#lesson-1">1. Seguridad</a><a href="#lesson-2">2. Ahorro</a><a href="#lesson-3">3. Maniobras</a><a href="#lesson-4">4. Frenado</a><a href="#lesson-5">5. Carga</a><a href="#lesson-6">6. Inspección</a><a href="#lesson-7">7. Clima</a><a href="#lesson-8">8. Ángulos muertos</a><a href="#lesson-9">9. Documentos</a><a href="#lesson-10">10. Semirremolque</a><a href="#lesson-11">11. Examen</a><a href="#lesson-12">12. Señales</a>
+<a href="#lesson-1">1. Seguridad</a><a href="#lesson-2">2. Ahorro</a><a href="#lesson-3">3. Maniobras</a><a href="#lesson-4">4. Frenado</a><a href="#lesson-5">5. Carga</a><a href="#lesson-6">6. Inspección</a><a href="#lesson-7">7. Clima</a><a href="#lesson-8">8. Ángulos muertos</a><a href="#lesson-9">9. Documentos</a><a href="#lesson-10">10. Semirremolque</a><a href="#lesson-11">11. Examen</a><a href="#lesson-12">12. Señales</a><a href="#lesson-13">13. ADR</a>
 @elseif(app()->getLocale() === 'fr')
-<a href="#lesson-1">1. Sécurité</a><a href="#lesson-2">2. Économie</a><a href="#lesson-3">3. Manœuvres</a><a href="#lesson-4">4. Freinage</a><a href="#lesson-5">5. Chargement</a><a href="#lesson-6">6. Inspection</a><a href="#lesson-7">7. Météo</a><a href="#lesson-8">8. Angles morts</a><a href="#lesson-9">9. Documents</a><a href="#lesson-10">10. Semi-remorque</a><a href="#lesson-11">11. Test</a><a href="#lesson-12">12. Signalisation</a>
+<a href="#lesson-1">1. Sécurité</a><a href="#lesson-2">2. Économie</a><a href="#lesson-3">3. Manœuvres</a><a href="#lesson-4">4. Freinage</a><a href="#lesson-5">5. Chargement</a><a href="#lesson-6">6. Inspection</a><a href="#lesson-7">7. Météo</a><a href="#lesson-8">8. Angles morts</a><a href="#lesson-9">9. Documents</a><a href="#lesson-10">10. Semi-remorque</a><a href="#lesson-11">11. Test</a><a href="#lesson-12">12. Signalisation</a><a href="#lesson-13">13. ADR</a>
 @elseif(app()->getLocale() === 'en')
-<a href="#lesson-1">1. Safety</a><a href="#lesson-2">2. Economy</a><a href="#lesson-3">3. Manoeuvres</a><a href="#lesson-4">4. Braking</a><a href="#lesson-5">5. Loads</a><a href="#lesson-6">6. Inspection</a><a href="#lesson-7">7. Weather</a><a href="#lesson-8">8. Blind spots</a><a href="#lesson-9">9. Documents</a><a href="#lesson-10">10. Semi-trailer</a><a href="#lesson-11">11. Test</a><a href="#lesson-12">12. Road signs</a>
+<a href="#lesson-1">1. Safety</a><a href="#lesson-2">2. Economy</a><a href="#lesson-3">3. Manoeuvres</a><a href="#lesson-4">4. Braking</a><a href="#lesson-5">5. Loads</a><a href="#lesson-6">6. Inspection</a><a href="#lesson-7">7. Weather</a><a href="#lesson-8">8. Blind spots</a><a href="#lesson-9">9. Documents</a><a href="#lesson-10">10. Semi-trailer</a><a href="#lesson-11">11. Test</a><a href="#lesson-12">12. Road signs</a><a href="#lesson-13">13. ADR</a>
 @else
-<a href="#lesson-1">1. السلامة</a><a href="#lesson-2">2. الاقتصاد</a><a href="#lesson-3">3. المناورات</a><a href="#lesson-4">4. الفرملة</a><a href="#lesson-5">5. الحمولة</a><a href="#lesson-6">6. الفحص</a><a href="#lesson-7">7. الطقس</a><a href="#lesson-8">8. النقاط العمياء</a><a href="#lesson-9">9. الوثائق</a><a href="#lesson-10">10. نصف المقطورة</a><a href="#lesson-11">11. الاختبار</a><a href="#lesson-12">12. التشوير</a>
+<a href="#lesson-1">1. السلامة</a><a href="#lesson-2">2. الاقتصاد</a><a href="#lesson-3">3. المناورات</a><a href="#lesson-4">4. الفرملة</a><a href="#lesson-5">5. الحمولة</a><a href="#lesson-6">6. الفحص</a><a href="#lesson-7">7. الطقس</a><a href="#lesson-8">8. النقاط العمياء</a><a href="#lesson-9">9. الوثائق</a><a href="#lesson-10">10. نصف المقطورة</a><a href="#lesson-11">11. الاختبار</a><a href="#lesson-12">12. التشوير</a><a href="#lesson-13">13. ADR</a>
 @endif
 </nav>
 <div class="cards">
@@ -1161,6 +1161,146 @@
 <a class="button" href="/">🏠 الرئيسية</a>
 @endif
 </div>
+
+
+<section class="card" id="lesson-13">
+@if(app()->getLocale() === 'es')
+<h2>⚠️ 13. Transporte de mercancías peligrosas (ADR)</h2>
+<p>Esta lección distingue la normativa y los procedimientos aplicables en Marruecos de los requisitos ADR utilizados en el transporte internacional por Europa. No debe suponerse que un certificado nacional se convierte automáticamente en un certificado ADR europeo.</p>
+<h3>🇲🇦 A. Formación y reglas en Marruecos</h3>
+<ul>
+<li>La Ley marroquí 30-05 regula el transporte por carretera de mercancías peligrosas y las obligaciones de los participantes.</li>
+<li>Para las categorías de vehículos determinadas por la normativa, el conductor debe disponer del certificado de formación especial. La ley prevé una formación de reciclaje cada cinco años, durante el último año del período.</li>
+<li>Los vehículos sujetos a aprobación deben llevar el certificado de homologación/aptitud correspondiente; la Ley 30-05 establece una validez anual para este certificado del vehículo.</li>
+<li>Antes de salir, compruebe la declaración de expedición, la ficha de seguridad, los documentos del vehículo y la señalización exigida para la carga concreta.</li>
+<li>El conductor debe conocer los riesgos, las instrucciones de emergencia y el equipo requerido; no debe abrir bultos o cisternas durante el transporte ni fumar o utilizar llamas durante las operaciones.</li>
+</ul>
+<h3>🇪🇺 B. Formación ADR en Europa</h3>
+<ul>
+<li>La referencia internacional vigente es ADR 2025, aplicable desde el 1 de enero de 2025; compruebe siempre las correcciones y disposiciones nacionales vigentes.</li>
+<li>La formación básica y el examen conducen al certificado ADR de conductor. Según la mercancía y el vehículo, pueden requerirse especializaciones para cisternas, clase 1 (explosivos) o clase 7 (radiactivos).</li>
+<li>El certificado ADR de conductor tiene una validez de cinco años; la renovación exige la formación y el examen correspondientes antes de su vencimiento.</li>
+<li>La documentación, el equipo, las placas y las condiciones del vehículo dependen de la mercancía, su embalaje, cantidades y modalidad de transporte.</li>
+</ul>
+<h3>🔎 C. Diferencias que debe recordar el conductor</h3>
+<table style="width:100%;border-collapse:collapse"><tr><th style="text-align:start;padding:8px;border:1px solid #ccd5df">Tema</th><th style="text-align:start;padding:8px;border:1px solid #ccd5df">Marruecos</th><th style="text-align:start;padding:8px;border:1px solid #ccd5df">Europa / ADR</th></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">Base legal</td><td style="padding:8px;border:1px solid #ccd5df">Ley 30-05 y sus textos de aplicación</td><td style="padding:8px;border:1px solid #ccd5df">ADR vigente y normativa nacional</td></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">Formación del conductor</td><td style="padding:8px;border:1px solid #ccd5df">Certificado marroquí de formación especial para las categorías sujetas</td><td style="padding:8px;border:1px solid #ccd5df">Certificado ADR y especializaciones aplicables</td></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">Vehículo</td><td style="padding:8px;border:1px solid #ccd5df">Certificado de aprobación cuando sea exigible</td><td style="padding:8px;border:1px solid #ccd5df">Aprobación y controles ADR según el tipo de vehículo</td></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">Validez</td><td style="padding:8px;border:1px solid #ccd5df">La ley prevé reciclaje del conductor cada cinco años y validez anual del certificado del vehículo</td><td style="padding:8px;border:1px solid #ccd5df">Certificado ADR del conductor: cinco años</td></tr></table>
+<p><strong>Importante:</strong> antes de aceptar un transporte internacional, confirme con la autoridad competente y la empresa qué certificado de conductor y qué aprobación del vehículo se reconocen para esa operación. No dé por hecho que basta con mostrar un certificado marroquí.</p>
+@elseif(app()->getLocale() === 'fr')
+<h2>⚠️ 13. Transport des marchandises dangereuses (ADR)</h2>
+<p>Cette leçon distingue les règles et procédures applicables au Maroc des exigences ADR utilisées pour le transport international en Europe. Un certificat national ne devient pas automatiquement un certificat ADR européen.</p>
+<h3>🇲🇦 A. Formation et règles au Maroc</h3>
+<ul>
+<li>La loi marocaine 30-05 encadre le transport routier des marchandises dangereuses et les obligations des intervenants.</li>
+<li>Pour les catégories de véhicules déterminées par la réglementation, le conducteur doit détenir une attestation de formation spéciale. La loi prévoit un recyclage tous les cinq ans, au cours de la dernière année de cette période.</li>
+<li>Les véhicules soumis à agrément doivent disposer du certificat d’agrément correspondant. La loi 30-05 prévoit une validité annuelle de ce certificat du véhicule.</li>
+<li>Avant le départ, vérifiez la déclaration d’expédition, la fiche de sécurité, les documents du véhicule et la signalisation exigée pour le chargement concerné.</li>
+<li>Le conducteur doit connaître les risques, les consignes d’urgence et les équipements requis. Il ne doit pas ouvrir les colis ou citernes pendant le transport, ni fumer ou utiliser une flamme pendant les opérations.</li>
+</ul>
+<h3>🇪🇺 B. Formation ADR en Europe</h3>
+<ul>
+<li>La référence internationale en vigueur est l’ADR 2025, applicable depuis le 1er janvier 2025. Vérifiez également les rectificatifs et les règles nationales applicables.</li>
+<li>La formation de base et l’examen permettent d’obtenir le certificat ADR conducteur. Selon la cargaison et le véhicule, des spécialisations peuvent être nécessaires pour les citernes, la classe 1 (explosifs) ou la classe 7 (radioactifs).</li>
+<li>Le certificat ADR conducteur est valable cinq ans. Son renouvellement exige la formation et l’examen requis avant son expiration.</li>
+<li>Les documents, équipements, plaques et conditions du véhicule dépendent de la marchandise, de son emballage, des quantités et du mode de transport.</li>
+</ul>
+<h3>🔎 C. Différences à retenir</h3>
+<table style="width:100%;border-collapse:collapse"><tr><th style="text-align:start;padding:8px;border:1px solid #ccd5df">Sujet</th><th style="text-align:start;padding:8px;border:1px solid #ccd5df">Maroc</th><th style="text-align:start;padding:8px;border:1px solid #ccd5df">Europe / ADR</th></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">Base juridique</td><td style="padding:8px;border:1px solid #ccd5df">Loi 30-05 et textes d’application</td><td style="padding:8px;border:1px solid #ccd5df">ADR en vigueur et règles nationales</td></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">Formation conducteur</td><td style="padding:8px;border:1px solid #ccd5df">Attestation marocaine de formation spéciale pour les catégories concernées</td><td style="padding:8px;border:1px solid #ccd5df">Certificat ADR et spécialisations nécessaires</td></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">Véhicule</td><td style="padding:8px;border:1px solid #ccd5df">Certificat d’agrément lorsqu’il est exigé</td><td style="padding:8px;border:1px solid #ccd5df">Agrément et contrôles ADR selon le véhicule</td></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">Validité</td><td style="padding:8px;border:1px solid #ccd5df">Recyclage conducteur quinquennal et certificat du véhicule valable un an selon la loi</td><td style="padding:8px;border:1px solid #ccd5df">Certificat ADR conducteur : cinq ans</td></tr></table>
+<p><strong>Important :</strong> avant un transport international, confirmez auprès de l’autorité compétente et de l’entreprise quels certificats conducteur et agréments de véhicule sont reconnus pour l’opération. Ne supposez pas qu’un certificat marocain suffit automatiquement.</p>
+@elseif(app()->getLocale() === 'en')
+<h2>⚠️ 13. Dangerous goods transport (ADR)</h2>
+<p>This lesson separates the rules and procedures applicable in Morocco from ADR requirements used for international transport in Europe. A national certificate does not automatically become a European ADR certificate.</p>
+<h3>🇲🇦 A. Training and rules in Morocco</h3>
+<ul>
+<li>Moroccan Law 30-05 regulates road transport of dangerous goods and the duties of the parties involved.</li>
+<li>For vehicle categories specified by the regulations, the driver must hold a special-training certificate. The law provides for refresher training every five years, during the final year of that period.</li>
+<li>Vehicles subject to approval must carry the relevant vehicle approval certificate. Law 30-05 provides for annual validity of this vehicle certificate.</li>
+<li>Before departure, check the consignment declaration, safety sheet, vehicle documents and the signs required for the specific load.</li>
+<li>The driver must understand the hazards, emergency instructions and required equipment. Packages or tanks must not be opened during carriage, and smoking or open flames are prohibited during the relevant operations.</li>
+</ul>
+<h3>🇪🇺 B. ADR training in Europe</h3>
+<ul>
+<li>The current international reference is ADR 2025, applicable from 1 January 2025. Always check current corrigenda and national rules as well.</li>
+<li>Basic training and an examination lead to an ADR driver certificate. Depending on the load and vehicle, additional specialisations may be required for tanks, Class 1 (explosives) or Class 7 (radioactive material).</li>
+<li>The ADR driver certificate is valid for five years. Renewal requires the relevant training and examination before expiry.</li>
+<li>Documents, equipment, plates and vehicle conditions depend on the substance, packaging, quantities and type of carriage.</li>
+</ul>
+<h3>🔎 C. Key differences</h3>
+<table style="width:100%;border-collapse:collapse"><tr><th style="text-align:start;padding:8px;border:1px solid #ccd5df">Topic</th><th style="text-align:start;padding:8px;border:1px solid #ccd5df">Morocco</th><th style="text-align:start;padding:8px;border:1px solid #ccd5df">Europe / ADR</th></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">Legal basis</td><td style="padding:8px;border:1px solid #ccd5df">Law 30-05 and implementing texts</td><td style="padding:8px;border:1px solid #ccd5df">Current ADR and national rules</td></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">Driver training</td><td style="padding:8px;border:1px solid #ccd5df">Moroccan special-training certificate for covered categories</td><td style="padding:8px;border:1px solid #ccd5df">ADR certificate and applicable specialisations</td></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">Vehicle</td><td style="padding:8px;border:1px solid #ccd5df">Vehicle approval certificate where required</td><td style="padding:8px;border:1px solid #ccd5df">ADR approval and checks according to vehicle type</td></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">Validity</td><td style="padding:8px;border:1px solid #ccd5df">Five-year driver refresher cycle and one-year vehicle certificate under the law</td><td style="padding:8px;border:1px solid #ccd5df">ADR driver certificate: five years</td></tr></table>
+<p><strong>Important:</strong> before accepting an international load, confirm with the competent authority and the employer which driver certificate and vehicle approval are recognised for that operation. Do not assume a Moroccan certificate is automatically sufficient.</p>
+@else
+<h2>⚠️ 13. نقل البضائع الخطرة (ADR)</h2>
+<p>يفصل هذا الدرس بين القواعد والإجراءات المعمول بها في المغرب ومتطلبات ADR الخاصة بالنقل الدولي في أوروبا. ولا تتحول الشهادة الوطنية تلقائيًا إلى شهادة ADR أوروبية.</p>
+<h3>🇲🇦 أ. التكوين والقواعد في المغرب</h3>
+<ul>
+<li>ينظم القانون المغربي رقم 30.05 النقل الطرقي للبضائع الخطرة، ويحدد التزامات مختلف المتدخلين.</li>
+<li>بالنسبة إلى أصناف المركبات التي تحددها النصوص التنظيمية، يجب أن يتوفر السائق على شهادة تثبت متابعة تكوين خاص. وينص القانون على إعادة التأهيل كل خمس سنوات خلال السنة الأخيرة من هذه المدة.</li>
+<li>المركبات الخاضعة للاعتماد يجب أن تتوفر على شهادة الاعتماد الخاصة بها. وينص القانون 30.05 على صلاحية سنوية لشهادة اعتماد المركبة.</li>
+<li>قبل الانطلاق، تحقق من تصريح الإرسال وبطاقة السلامة ووثائق المركبة والإشارات المطلوبة للشحنة المعنية.</li>
+<li>يجب على السائق معرفة طبيعة الأخطار وتعليمات الطوارئ والتجهيزات المطلوبة. ويمنع فتح الطرود أو الصهاريج أثناء النقل، كما يمنع التدخين أو استعمال النار أثناء العمليات المعنية.</li>
+</ul>
+<h3>🇪🇺 ب. تكوين ADR في أوروبا</h3>
+<ul>
+<li>المرجع الدولي المعمول به هو ADR 2025، الساري ابتداءً من 1 يناير 2025، مع ضرورة مراجعة التصحيحات والقواعد الوطنية السارية.</li>
+<li>يؤدي التكوين الأساسي والامتحان إلى الحصول على شهادة سائق ADR. وقد تلزم تخصصات إضافية حسب الشحنة والمركبة، مثل الصهاريج، الصنف 1 (المتفجرات)، أو الصنف 7 (المواد المشعة).</li>
+<li>صلاحية شهادة سائق ADR خمس سنوات، ويستلزم تجديدها متابعة التكوين والامتحان المطلوبين قبل انتهاء الصلاحية.</li>
+<li>تختلف الوثائق والتجهيزات واللوحات وشروط المركبة حسب المادة وتغليفها وكميتها وطريقة نقلها.</li>
+</ul>
+<h3>🔎 ج. أهم الاختلافات التي يجب على السائق معرفتها</h3>
+<table style="width:100%;border-collapse:collapse"><tr><th style="text-align:start;padding:8px;border:1px solid #ccd5df">الموضوع</th><th style="text-align:start;padding:8px;border:1px solid #ccd5df">المغرب</th><th style="text-align:start;padding:8px;border:1px solid #ccd5df">أوروبا / ADR</th></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">المرجع القانوني</td><td style="padding:8px;border:1px solid #ccd5df">القانون 30.05 ونصوصه التطبيقية</td><td style="padding:8px;border:1px solid #ccd5df">اتفاق ADR الساري والقواعد الوطنية</td></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">تكوين السائق</td><td style="padding:8px;border:1px solid #ccd5df">شهادة التكوين الخاص المغربية للأصناف المعنية</td><td style="padding:8px;border:1px solid #ccd5df">شهادة ADR والتخصصات المطلوبة</td></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">المركبة</td><td style="padding:8px;border:1px solid #ccd5df">شهادة اعتماد المركبة عند وجوبها</td><td style="padding:8px;border:1px solid #ccd5df">اعتماد ومراقبة ADR حسب نوع المركبة</td></tr>
+<tr><td style="padding:8px;border:1px solid #ccd5df">الصلاحية</td><td style="padding:8px;border:1px solid #ccd5df">إعادة تأهيل السائق كل خمس سنوات وصلاحية سنوية لشهادة المركبة وفق القانون</td><td style="padding:8px;border:1px solid #ccd5df">شهادة سائق ADR: خمس سنوات</td></tr></table>
+<p><strong>مهم:</strong> قبل قبول نقل دولي، تأكد من السلطة المختصة والشركة من الشهادة المطلوبة للسائق واعتماد المركبة المقبولين لهذه العملية. لا تفترض أن الشهادة المغربية وحدها كافية تلقائيًا.</p>
+@endif
+
+<figure class="sign-illustration">
+<img src="{{ asset('images/adr-hazard-placards.svg') }}" alt="لوحة تعليمية لرموز أصناف الخطر التسعة ولوحة برتقالية نموذجية تحمل رقم الخطر 33 ورقم الأمم المتحدة 1203 للبنزين." loading="lazy">
+<figcaption>
+@if(app()->getLocale() === 'es') Modelos didácticos de etiquetas ADR y panel naranja: 33 / UN 1203 (gasolina).
+@elseif(app()->getLocale() === 'fr') Exemples pédagogiques d’étiquettes ADR et de panneau orange : 33 / UN 1203 (essence).
+@elseif(app()->getLocale() === 'en') Educational examples of ADR hazard labels and an orange plate: 33 / UN 1203 (petrol).
+@else نماذج تعليمية لملصقات أصناف الخطر ولوحة برتقالية: 33 / UN 1203 (بنزين).
+@endif
+</figcaption>
+</figure>
+<div class="sign-note">
+@if(app()->getLocale() === 'es')
+<strong>Cómo leer el panel:</strong> el número superior identifica el peligro y el inferior es el número ONU de la sustancia. 33 / UN 1203 es un ejemplo para gasolina, no un código universal. La colocación y el número de paneles dependen del tipo de transporte y de las disposiciones ADR aplicables.
+@elseif(app()->getLocale() === 'fr')
+<strong>Lecture du panneau :</strong> le numéro supérieur identifie le danger et le numéro inférieur est le numéro ONU de la matière. 33 / UN 1203 est un exemple pour l’essence, pas un code universel. L’emplacement et le nombre de panneaux dépendent du transport et des dispositions ADR applicables.
+@elseif(app()->getLocale() === 'en')
+<strong>Reading the plate:</strong> the upper number identifies the hazard and the lower number is the substance’s UN number. 33 / UN 1203 is an example for petrol, not a universal code. Plate placement and quantity depend on the type of carriage and applicable ADR provisions.
+@else
+<strong>طريقة قراءة اللوحة:</strong> الرقم العلوي يحدد نوع الخطر، والرقم السفلي هو رقم الأمم المتحدة للمادة. 33 / UN 1203 مثال خاص بالبنزين وليس رمزًا عامًا لكل المواد. ويتحدد موضع اللوحات وعددها حسب طريقة النقل وأحكام ADR المنطبقة.
+@endif
+</div>
+<h3>
+@if(app()->getLocale() === 'es') Fuentes oficiales y consulta
+@elseif(app()->getLocale() === 'fr') Sources officielles et références
+@elseif(app()->getLocale() === 'en') Official sources and references
+@else المصادر والمراجع
+@endif
+</h3>
+<ul>
+<li><a href="https://unece.org/adr-2025-files" target="_blank" rel="noopener noreferrer">UNECE – texto oficial ADR 2025</a></li>
+<li><a href="https://www.mindop.sk/fileadmin/documents/doprava/nebezpecnetovary/cesta/ADR_2025_Vol._II._EN.pdf" target="_blank" rel="noopener noreferrer">ADR 2025, volumen II – señalización y paneles naranjas</a></li>
+<li><a href="https://maloi.ma/ar/law/loi-transport-marchandises-dangereuses" target="_blank" rel="noopener noreferrer">Marruecos – Ley 30-05 (texto legal)</a></li>
+</ul>
+<p><small>Contenido educativo. No sustituye la formación homologada, la documentación oficial ni las instrucciones de la autoridad competente.</small></p>
+</section>
 
 </div>
 
