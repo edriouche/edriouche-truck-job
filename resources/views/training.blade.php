@@ -61,6 +61,52 @@
         .sign-illustration figcaption{margin-top:8px;color:#526273;font-size:.92rem}
 
 
+
+        /* Layout repair: keep academy lessons in a single readable column. */
+        *, *::before, *::after { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { max-width: 100%; overflow-x: hidden; }
+        .container { width: 100%; max-width: 1050px; min-width: 0; }
+        .cards { display: block; width: 100%; min-width: 0; }
+        .cards > .card,
+        .cards > section,
+        .cards > .quiz-card {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            min-width: 0;
+            margin: 0 0 20px;
+            clear: both;
+        }
+        .card, .intro, .warning, .center, .training-note,
+        .card h2, .card h3, .card h4, .card p, .card li,
+        .card td, .card th, .card figcaption {
+            min-width: 0;
+            overflow-wrap: anywhere;
+            word-break: normal;
+        }
+        .card table {
+            width: 100% !important;
+            max-width: 100%;
+            table-layout: fixed;
+            border-collapse: collapse;
+        }
+        .card th, .card td {
+            white-space: normal;
+            overflow-wrap: anywhere;
+            vertical-align: top;
+        }
+        .card img, .card svg, .card figure {
+            max-width: 100%;
+        }
+        .card img { height: auto; }
+        @media (max-width: 600px) {
+            .container { padding: 12px; }
+            .intro, .card, .warning { padding: 16px; }
+            .card table { font-size: .82rem; line-height: 1.55; }
+            .card th, .card td { padding: 7px !important; }
+            .academy-nav a { flex: 1 1 42%; text-align: center; }
+        }
     </style>
 </head>
 
