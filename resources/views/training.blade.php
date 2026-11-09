@@ -917,7 +917,7 @@
 <div class="sign-note"><strong>انتبه:</strong> العلامة الدائرية الزرقاء تُلزم باتباع اتجاه الدوران المرسوم، والشيفرونات توجه السائق خلال المنعطف. أما الأسبقية فتحددها العلامات والأضواء وأعوان المرور وقواعد البلد.</div>
 @endif
 <figure class="sign-illustration">
-<img src="{{ asset('images/roundabout-signs-photo.jpg') }}" alt="Real roadside roundabout sign and blue-white chevron direction boards" loading="lazy">
+<img src="{{ asset('images/roundabout-signs-photo.jpg') }}?v=20261109" alt="Real roadside roundabout sign and blue-white chevron direction boards" loading="eager" decoding="async" style="display:block;width:100%;max-width:100%;height:auto;min-height:220px;object-fit:contain;border:1px solid #d6e0ea;border-radius:16px;background:#f4f7fb">
 <figcaption>
 @if(app()->getLocale() === 'es') Fotografía real de señales de glorieta y paneles direccionales.
 @elseif(app()->getLocale() === 'fr') Photo réelle d'un panneau de giratoire et de panneaux directionnels à chevrons.
