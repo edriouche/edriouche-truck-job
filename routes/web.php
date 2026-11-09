@@ -108,20 +108,19 @@ Route::get('/training-centers', function () {
 });
 
 Route::get('/lang/{locale}', function ($locale) {
-    if (in_array($locale, ['ar', 'es', 'fr', 'en'])) {
-        session(['locale' => $locale]);
-        app()->setLocale($locale);
-        cookie()->queue('locale', $locale, 60 * 24 * 365);
-    }
+    abort_unless(in_array($locale, ['ar', 'es', 'fr', 'en'], true), 404);
 
     $target = (string) request()->query('redirect', '/');
+    // Only allow a local path to prevent external redirects.
     if (!str_starts_with($target, '/') || str_starts_with($target, '//')) {
         $target = '/' . ltrim($target, '/');
     }
     if (str_starts_with($target, '//')) {
         $target = '/';
     }
-    return redirect($target);
+
+    // Set the language without depending on session storage.
+    return redirect($target)->withCookie(cookie('locale', $locale, 60 * 24 * 365));
 });
 Route::view('/cmr-es', 'cmr-es');
 Route::view('/cmr-fr', 'cmr-fr');
