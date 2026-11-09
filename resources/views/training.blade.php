@@ -1267,12 +1267,12 @@
 @endif
 
 <figure class="sign-illustration">
-<img src="{{ asset('images/adr-hazard-placards.svg') }}" alt="لوحة تعليمية لرموز أصناف الخطر التسعة ولوحة برتقالية نموذجية تحمل رقم الخطر 33 ورقم الأمم المتحدة 1203 للبنزين." loading="lazy">
+<img src="{{ asset('images/adr-hazard-placards.svg') }}" alt="أمثلة لملصقات الخطر ADR ولوحة برتقالية نموذجية تحمل رقم الخطر 33 ورقم الأمم المتحدة 1203 للبنزين." loading="lazy">
 <figcaption>
-@if(app()->getLocale() === 'es') Modelos didácticos de etiquetas ADR y panel naranja: 33 / UN 1203 (gasolina).
-@elseif(app()->getLocale() === 'fr') Exemples pédagogiques d’étiquettes ADR et de panneau orange : 33 / UN 1203 (essence).
-@elseif(app()->getLocale() === 'en') Educational examples of ADR hazard labels and an orange plate: 33 / UN 1203 (petrol).
-@else نماذج تعليمية لملصقات أصناف الخطر ولوحة برتقالية: 33 / UN 1203 (بنزين).
+@if(app()->getLocale() === 'es') Ejemplos didácticos de etiquetas ADR y panel naranja: 33 / UN 1203 (gasolina).
+@elseif(app()->getLocale() === 'fr') Exemples de quelques étiquettes ADR et de panneau orange : 33 / UN 1203 (essence).
+@elseif(app()->getLocale() === 'en') Selected ADR hazard label examples and an orange plate: 33 / UN 1203 (petrol).
+@else أمثلة تعليمية لبعض ملصقات الخطر ولوحة برتقالية: 33 / UN 1203 (بنزين).
 @endif
 </figcaption>
 </figure>
