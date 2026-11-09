@@ -33,6 +33,16 @@ Route::get('/companies', function () {
 Route::get('/cmr', function () { return view('cmr'); });
 Route::get('/training', [\App\Http\Controllers\TrainingController::class, 'index']);
 
+Route::get('/academy/roundabout-photo', function () {
+    $photo = public_path('images/roundabout-signs-photo.jpg');
+    abort_unless(is_file($photo), 404);
+    return response()->file($photo, [
+        'Content-Type' => 'image/jpeg',
+        'Cache-Control' => 'public, max-age=86400',
+        'X-Content-Type-Options' => 'nosniff',
+    ]);
+});
+
 Route::get('/spain', function () {
     return view('spain');
 });
