@@ -24,24 +24,24 @@
             color: #222;
             word-wrap: break-word;
             overflow-wrap: anywhere;
-        
+        }
 
         header {
             text-align: center;
             padding: 25px 15px;
-        
+        }
 
         header h1 {
             margin: 0;
             font-size: 28px;
-        
+        }
 
         .container {
             width: 100%;
             max-width: 1000px;
             margin: auto;
             padding: 30px 20px;
-        
+        }
 
         .intro {
             background: white;
@@ -49,7 +49,7 @@
             border-radius: 12px;
             text-align: center;
             margin-bottom: 25px;
-        
+        }
 
         .job {
             background: white;
@@ -57,22 +57,22 @@
             margin-bottom: 18px;
             border-radius: 12px;
             box-shadow: 0 3px 12px rgba(0,0,0,.08);
-        
+        }
 
         .job h2 {
             margin-top: 0;
-        
+        }
 
         .job p {
             line-height: 1.8;
-        
+        }
 
         .badge {
             background: #dc2626;
             padding: 6px 12px;
             border-radius: 20px;
             font-size: 14px;
-        
+        }
 
         .official { display:inline-block; margin-top:12px; padding:11px 18px; background:#111827; color:white; text-decoration:none; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,.15); font-weight:700; transition:.25s; }
         
@@ -84,7 +84,7 @@
             text-align: center;
             padding: 20px;
             margin-top: 20px;
-        
+        }
 
         @media (max-width: 600px) {
             header h1 {
