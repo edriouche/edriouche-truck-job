@@ -81,6 +81,31 @@ footer{text-align:center;padding:25px;color:#666}
 <a class="button" href="https://stef.jobs/es/envia-mi-solicitud/" target="_blank" rel="noopener">{{ __("messages.official_recruitment") }}</a>
 </div>
 
+
+@php($locale = app()->getLocale())
+<div class="card">
+<h2>🟢 Asistencias Carter — C+E roadside-assistance driver</h2>
+<p><span class="badge">{{ $locale === 'es' ? 'Oferta en la página oficial · revisada 11/11/2026' : ($locale === 'fr' ? 'Offre sur le portail officiel · vérifiée le 11/11/2026' : ($locale === 'en' ? 'Official careers listing · checked 11 Nov 2026' : 'إعلان في بوابة الشركة الرسمية · تمت مراجعته 11 نوفمبر 2026')) }}</span></p>
+<p>📍 {{ $locale === 'es' ? 'Base Chafiras, sur de Tenerife' : ($locale === 'fr' ? 'Base Chafiras, sud de Tenerife' : ($locale === 'en' ? 'Chafiras base, southern Tenerife' : 'قاعدة Chafiras، جنوب جزيرة تينيريفي')) }}</p>
+<p>🚛 {{ $locale === 'es' ? 'Rescate y remolque de vehículos averiados o accidentados; conducción de camión rígido y tráiler.' : ($locale === 'fr' ? 'Dépannage et remorquage de véhicules en panne ou accidentés ; conduite de camion rigide et de semi-remorque.' : ($locale === 'en' ? 'Roadside recovery and towing of broken-down or accident-damaged vehicles; rigid truck and trailer driving.' : 'إنقاذ وجر المركبات المعطلة أو المتضررة في الحوادث؛ قيادة شاحنة صلبة ومقطورة.')) }}</p>
+<p>🎓 {{ $locale === 'es' ? 'Requisitos: permiso C+E y CAP. Se valora experiencia con grúas de asistencia y conocimientos de mecánica básica. La empresa indica que ofrece formación para manejar la grúa.' : ($locale === 'fr' ? 'Exigences : permis C+E et CAP. L’expérience des dépanneuses et des notions de mécanique de base sont appréciées. L’entreprise indique qu’elle assure la formation à l’utilisation de la dépanneuse.' : ($locale === 'en' ? 'Requirements: C+E licence and CAP. Roadside-recovery crane experience and basic mechanical knowledge are valued. The employer says it provides training on the recovery crane.' : 'المتطلبات: رخصة C+E وشهادة CAP. تُفضّل خبرة شاحنات المساعدة على الطريق ومعرفة أساسية بالميكانيك. وتذكر الشركة أنها توفر تدريباً على تشغيل شاحنة الإنقاذ.')) }}</p>
+<p>📄 {{ $locale === 'es' ? 'Contrato indefinido, turnos rotativos y formación continua. Salario: se confirma en la entrevista.' : ($locale === 'fr' ? 'Contrat à durée indéterminée, horaires en rotation et formation continue. Salaire : à confirmer lors de l’entretien.' : ($locale === 'en' ? 'Permanent contract, rotating shifts and ongoing training. Salary: confirmed at interview.' : 'عقد غير محدد المدة، ونظام مناوبات متناوبة، وتكوين مستمر. الراتب يُحدد أثناء المقابلة.')) }}</p>
+<p>⚠️ {{ $locale === 'es' ? 'El anuncio no confirma contratación desde Marruecos ni apoyo para permisos de trabajo.' : ($locale === 'fr' ? 'L’annonce ne confirme ni le recrutement depuis le Maroc ni l’aide à l’obtention d’un permis de travail.' : ($locale === 'en' ? 'The listing does not confirm recruitment from Morocco or support with work permits.' : 'الإعلان لا يؤكد قبول التوظيف من المغرب أو المساعدة في تصريح العمل.')) }}</p>
+<a class="button" href="https://empleo.asistenciascarter.com/jobs/8683043-conductor-con-carnet-c-e-chuto-trailer-sur-tenerife" target="_blank" rel="noopener">{{ $locale === 'es' ? '🔗 Oferta y solicitud oficiales' : ($locale === 'fr' ? '🔗 Offre et candidature officielles' : ($locale === 'en' ? '🔗 Official vacancy and application' : '🔗 الإعلان والتقديم الرسمي')) }}</a>
+</div>
+
+<div class="card">
+<h2>🟢 Trans Musos S.L. — International C+E driver</h2>
+<p><span class="badge">{{ $locale === 'es' ? 'Vacante publicada en la web oficial · revisada 11/11/2026' : ($locale === 'fr' ? 'Poste publié sur le site officiel · vérifié le 11/11/2026' : ($locale === 'en' ? 'Official company vacancy · checked 11 Nov 2026' : 'وظيفة منشورة على الموقع الرسمي للشركة · تمت مراجعتها 11 نوفمبر 2026')) }}</span></p>
+<p>📍 {{ $locale === 'es' ? 'Los Cánovas, Fuente Álamo, Murcia' : ($locale === 'fr' ? 'Los Cánovas, Fuente Álamo, Murcie' : ($locale === 'en' ? 'Los Cánovas, Fuente Álamo, Murcia' : 'Los Cánovas، Fuente Álamo، مورسيا')) }}</p>
+<p>🌍 {{ $locale === 'es' ? 'Rutas internacionales por Francia, Alemania, Países Bajos y Dinamarca.' : ($locale === 'fr' ? 'Liaisons internationales vers la France, l’Allemagne, les Pays-Bas et le Danemark.' : ($locale === 'en' ? 'International routes through France, Germany, the Netherlands and Denmark.' : 'رحلات دولية عبر فرنسا وألمانيا وهولندا والدنمارك.')) }}</p>
+<p>🎓 {{ $locale === 'es' ? 'Requisitos: C+E, CAP/CPC vigente y tarjeta digital de tacógrafo.' : ($locale === 'fr' ? 'Exigences : permis C+E, CAP/CPC en cours de validité et carte numérique de tachygraphe.' : ($locale === 'en' ? 'Requirements: C+E licence, valid CAP/CPC and digital tachograph driver card.' : 'المتطلبات: رخصة C+E، وشهادة CAP/CPC سارية، وبطاقة سائق رقمية للتاكوغراف.')) }}</p>
+<p>📄 {{ $locale === 'es' ? 'Contrato indefinido y jornada completa; flota con semirremolques frigoríficos. El salario no aparece indicado.' : ($locale === 'fr' ? 'Contrat à durée indéterminée et temps plein ; flotte avec semi-remorques frigorifiques. Le salaire n’est pas indiqué.' : ($locale === 'en' ? 'Permanent, full-time contract; fleet includes refrigerated trailers. No salary is stated.' : 'عقد دائم ودوام كامل؛ أسطول بمقطورات مبردة. الراتب غير مذكور.')) }}</p>
+<p>⚠️ {{ $locale === 'es' ? 'La página no confirma contratación desde Marruecos ni apoyo para permisos de trabajo.' : ($locale === 'fr' ? 'La page ne confirme ni le recrutement depuis le Maroc ni l’aide pour les permis de travail.' : ($locale === 'en' ? 'The page does not confirm recruitment from Morocco or work-permit support.' : 'الصفحة لا تؤكد قبول التوظيف من المغرب أو المساعدة في تصاريح العمل.')) }}</p>
+<p>📞 +34 678 986 850 · ✉️ transmusos@gmail.com</p>
+<a class="button" href="https://transmusos.es/en/careers" target="_blank" rel="noopener">{{ $locale === 'es' ? '🔗 Página oficial y candidatura' : ($locale === 'fr' ? '🔗 Site officiel et candidature' : ($locale === 'en' ? '🔗 Official careers page' : '🔗 صفحة التوظيف الرسمية')) }}</a>
+</div>
+
 <div class="card">
 <h2>🟢 CONTANK</h2>
 <p><span class="badge">تحقق من الشروط في الإعلان الرسمي</span></p>
