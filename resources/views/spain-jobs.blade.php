@@ -84,7 +84,7 @@ footer{text-align:center;padding:25px;color:#666}
 
 @php($locale = app()->getLocale())
 <div class="card">
-<h2>🟢 Asistencias Carter — C+E roadside-assistance driver</h2>
+<h2>🟢 {{ $locale === 'es' ? 'Asistencias Carter — conductor C+E de grúa de asistencia' : ($locale === 'fr' ? 'Asistencias Carter — conducteur C+E de dépannage routier' : ($locale === 'en' ? 'Asistencias Carter — C+E roadside-assistance driver' : 'Asistencias Carter — سائق C+E لشاحنة المساعدة على الطريق')) }}</h2>
 <p><span class="badge">{{ $locale === 'es' ? 'Oferta en la página oficial · revisada 11/11/2026' : ($locale === 'fr' ? 'Offre sur le portail officiel · vérifiée le 11/11/2026' : ($locale === 'en' ? 'Official careers listing · checked 11 Nov 2026' : 'إعلان في بوابة الشركة الرسمية · تمت مراجعته 11 نوفمبر 2026')) }}</span></p>
 <p>📍 {{ $locale === 'es' ? 'Base Chafiras, sur de Tenerife' : ($locale === 'fr' ? 'Base Chafiras, sud de Tenerife' : ($locale === 'en' ? 'Chafiras base, southern Tenerife' : 'قاعدة Chafiras، جنوب جزيرة تينيريفي')) }}</p>
 <p>🚛 {{ $locale === 'es' ? 'Rescate y remolque de vehículos averiados o accidentados; conducción de camión rígido y tráiler.' : ($locale === 'fr' ? 'Dépannage et remorquage de véhicules en panne ou accidentés ; conduite de camion rigide et de semi-remorque.' : ($locale === 'en' ? 'Roadside recovery and towing of broken-down or accident-damaged vehicles; rigid truck and trailer driving.' : 'إنقاذ وجر المركبات المعطلة أو المتضررة في الحوادث؛ قيادة شاحنة صلبة ومقطورة.')) }}</p>
@@ -95,7 +95,7 @@ footer{text-align:center;padding:25px;color:#666}
 </div>
 
 <div class="card">
-<h2>🟢 Trans Musos S.L. — International C+E driver</h2>
+<h2>🟢 {{ $locale === 'es' ? 'Trans Musos S.L. — conductor internacional C+E' : ($locale === 'fr' ? 'Trans Musos S.L. — conducteur international C+E' : ($locale === 'en' ? 'Trans Musos S.L. — international C+E driver' : 'Trans Musos S.L. — سائق دولي C+E')) }}</h2>
 <p><span class="badge">{{ $locale === 'es' ? 'Vacante publicada en la web oficial · revisada 11/11/2026' : ($locale === 'fr' ? 'Poste publié sur le site officiel · vérifié le 11/11/2026' : ($locale === 'en' ? 'Official company vacancy · checked 11 Nov 2026' : 'وظيفة منشورة على الموقع الرسمي للشركة · تمت مراجعتها 11 نوفمبر 2026')) }}</span></p>
 <p>📍 {{ $locale === 'es' ? 'Los Cánovas, Fuente Álamo, Murcia' : ($locale === 'fr' ? 'Los Cánovas, Fuente Álamo, Murcie' : ($locale === 'en' ? 'Los Cánovas, Fuente Álamo, Murcia' : 'Los Cánovas، Fuente Álamo، مورسيا')) }}</p>
 <p>🌍 {{ $locale === 'es' ? 'Rutas internacionales por Francia, Alemania, Países Bajos y Dinamarca.' : ($locale === 'fr' ? 'Liaisons internationales vers la France, l’Allemagne, les Pays-Bas et le Danemark.' : ($locale === 'en' ? 'International routes through France, Germany, the Netherlands and Denmark.' : 'رحلات دولية عبر فرنسا وألمانيا وهولندا والدنمارك.')) }}</p>
