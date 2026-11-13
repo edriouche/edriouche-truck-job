@@ -1,10 +1,10 @@
 <?php
 
-namespace App\\Http\\Controllers;
+namespace App\Http\Controllers;
 
-use App\\Models\\AcademyImage;
-use Illuminate\\Http\\Request;
-use Illuminate\\Support\\Facades\\Storage;
+use App\Models\AcademyImage;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 class AcademyImageController extends Controller
 {
@@ -49,9 +49,10 @@ class AcademyImageController extends Controller
 
     public function media(Request $request, AcademyImage $academyImage)
     {
-        abort_unless(Storage::disk('public')->exists($academyImage->path), 404);
+        $path = Storage::disk('public')->path($academyImage->path);
+        abort_unless(is_file($path), 404);
 
-        return Storage::disk('public')->serve($request, $academyImage->path, [
+        return response()->file($path, [
             'Content-Type' => $academyImage->mime_type,
             'X-Content-Type-Options' => 'nosniff',
             'Cache-Control' => 'public, max-age=86400',
