@@ -33,6 +33,18 @@ Route::get('/companies', function () {
 Route::get('/cmr', function () { return view('cmr'); });
 Route::get('/training', [\App\Http\Controllers\TrainingController::class, 'index']);
 
+Route::get('/academy-images/{academyImage}', [\App\Http\Controllers\AcademyImageController::class, 'media'])
+    ->name('academy.images.media');
+Route::get('/admin/academy-images', [\App\Http\Controllers\AcademyImageController::class, 'index'])
+    ->middleware(['auth', 'admin'])
+    ->name('admin.academy-images');
+Route::post('/admin/academy-images', [\App\Http\Controllers\AcademyImageController::class, 'store'])
+    ->middleware(['auth', 'admin'])
+    ->name('admin.academy-images.store');
+Route::delete('/admin/academy-images/{academyImage}', [\App\Http\Controllers\AcademyImageController::class, 'destroy'])
+    ->middleware(['auth', 'admin'])
+    ->name('admin.academy-images.destroy');
+
 Route::get('/academy/roundabout-photo', function () {
     $photo = public_path('images/roundabout-signs-photo.jpg');
     abort_unless(is_file($photo), 404);
@@ -207,4 +219,4 @@ Route::post('/for-companies/request', function (Request $request) {
 
 Route::view('/youth-drivers-morocco', 'youth-drivers-morocco');
 
-Route::get('training', function () { return view('training'); });
+
