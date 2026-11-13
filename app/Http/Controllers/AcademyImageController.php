@@ -32,6 +32,12 @@ class AcademyImageController extends Controller
         $file = $request->file('image');
         $path = $file->store('academy', 'public');
 
+        if (!$path) {
+            return back()
+                ->withErrors(['image' => 'تعذر حفظ الصورة. تحقق من صلاحيات مجلد التخزين والمساحة المتاحة.'])
+                ->withInput();
+        }
+
         AcademyImage::create([
             'lesson_number' => $data['lesson_number'],
             'path' => $path,
