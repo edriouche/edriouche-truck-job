@@ -209,6 +209,51 @@
 @endif
 </div>
 
+
+@if(auth()->check() && auth()->user()->is_admin)
+    <p><a class="button" href="{{ route('admin.academy-images') }}">🖼️ إدارة الصور التعليمية</a></p>
+@endif
+
+@if(isset($academyImages) && $academyImages->isNotEmpty())
+<section class="intro" aria-labelledby="academy-visuals-title">
+    @if(app()->getLocale() === 'es')
+        <h2 id="academy-visuals-title">🖼️ Recursos visuales de las lecciones</h2>
+        <p>Imágenes educativas organizadas por lección para facilitar el aprendizaje práctico.</p>
+    @elseif(app()->getLocale() === 'fr')
+        <h2 id="academy-visuals-title">🖼️ Supports visuels des leçons</h2>
+        <p>Des images pédagogiques classées par leçon pour faciliter l’apprentissage pratique.</p>
+    @elseif(app()->getLocale() === 'en')
+        <h2 id="academy-visuals-title">🖼️ Lesson visual resources</h2>
+        <p>Educational images grouped by lesson to support practical learning.</p>
+    @else
+        <h2 id="academy-visuals-title">🖼️ الصور التعليمية للدروس</h2>
+        <p>صور توضيحية منظمة حسب الدرس لمساعدة السائقين المبتدئين على فهم المعلومات عملياً.</p>
+    @endif
+    <div class="sign-reference-grid">
+        @foreach($academyImages as $academyImage)
+            @php
+                $imageTitle = $academyImage->{'title_'.app()->getLocale()} ?: $academyImage->title_ar;
+            @endphp
+            <article class="sign-reference-card">
+                <a href="#lesson-{{ $academyImage->lesson_number }}">
+                    <img src="{{ route('academy.images.media', $academyImage) }}"
+                         alt="{{ $imageTitle }}"
+                         loading="lazy"
+                         style="display:block;width:100%;height:190px;object-fit:contain;background:#f8fafc;border-radius:10px">
+                </a>
+                <p><strong>{{ $imageTitle }}</strong></p>
+                <a href="#lesson-{{ $academyImage->lesson_number }}">
+                    @if(app()->getLocale() === 'es') Ver lección {{ $academyImage->lesson_number }}
+                    @elseif(app()->getLocale() === 'fr') Voir la leçon {{ $academyImage->lesson_number }}
+                    @elseif(app()->getLocale() === 'en') Go to lesson {{ $academyImage->lesson_number }}
+                    @else الانتقال إلى الدرس {{ $academyImage->lesson_number }} @endif
+                </a>
+            </article>
+        @endforeach
+    </div>
+</section>
+@endif
+
 <nav class="academy-nav" aria-label="Academy lesson index">
 @if(app()->getLocale() === 'es')
 <a href="#lesson-1">1. Seguridad</a><a href="#lesson-2">2. Ahorro</a><a href="#lesson-3">3. Maniobras</a><a href="#lesson-4">4. Frenado</a><a href="#lesson-5">5. Carga</a><a href="#lesson-6">6. Inspección</a><a href="#lesson-7">7. Clima</a><a href="#lesson-8">8. Ángulos muertos</a><a href="#lesson-9">9. Documentos</a><a href="#lesson-10">10. Semirremolque</a><a href="#lesson-11">11. Examen</a><a href="#lesson-12">12. Señales</a><a href="#lesson-13">13. ADR</a>
