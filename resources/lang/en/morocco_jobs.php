@@ -95,9 +95,9 @@ return [
             '6 November 2026',
             'Recent listing; number of positions not specified',
             '🚛 Category C and EC licences; at least 5 years of experience and baccalaureate level.',
-            '🗣️ Listing language: French; working language not specified. Contract and salary require confirmation because reposting sites provide conflicting details.',
+            '🗣️ Listing language: French; working language not specified. The employer-posted Indeed listing states a permanent CDI contract and publishes no salary; confirm that applications are still being accepted.',
             '⚠️ Employer listing relayed by job sites; confirm directly before sending documents.',
-            'https://www.onejob.ma/job/1255886/CHAUFFEUR-POIDS-LOURDS-EXP%C3%89RIMENT%C3%89-CAMION-SOLO-amp'
+            'https://ma.indeed.com/viewjob?jk=011560f2dcf502ca'
         ],
         [
             'Tangier — Free Zone',
