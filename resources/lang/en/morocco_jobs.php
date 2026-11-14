@@ -2,8 +2,8 @@
 
 return [
     'reference' => 'reference',
-    'title' => '🇲🇦 Morocco truck-driver listings — reviewed 14 November 2026'
-    'review' => 'Page and links reviewed on 14 November 2026. This page includes recent and older listings; publication does not confirm that a vacancy is still open. Verify with the employer or ANAPEC reference before applying.'
+    'title' => '🇲🇦 Morocco truck-driver listings — reviewed 14 November 2026',
+    'review' => 'Page and links reviewed on 14 November 2026. This page includes recent and older listings; publication does not confirm that a vacancy is still open. Verify with the employer or ANAPEC reference before applying.',
     'warning' => '⚠️ Apply through official channels. Do not pay an intermediary in exchange for a promise of employment.',
     'date' => '📅 Listing date',
     'positions' => 'advertised positions',
@@ -131,7 +131,7 @@ return [
             '🗣️ Listing language: French; working language not specified. Temporary contract; salary and exact licence category not stated.',
             '⚠️ Confirm the number of vacancies and licence category with TECTRA before applying.',
             'https://www.jobsquare.ma/job/21941/chauffeur-se-de-camion-toupie-malaxeur-h-f-btp-r%C3%A9gion-de-marrakech/'
-        ]
+        ],
         [
             'Casablanca — Dar Bouazza',
             'INTERSIG MAROC — EC heavy-truck driver',
