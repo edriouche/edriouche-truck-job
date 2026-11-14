@@ -94,9 +94,9 @@ return [
             '6 de noviembre de 2026',
             'Anuncio reciente; número de puestos no especificado',
             '🚛 Permisos C y EC; al menos 5 años de experiencia y nivel de bachillerato.',
-            '🗣️ Idioma del anuncio: francés; idioma de trabajo no especificado. Contrato y salario pendientes de confirmación por diferencias entre portales que reproducen el anuncio.',
+            '🗣️ Idioma del anuncio: francés; idioma de trabajo no especificado. La publicación del empleador en Indeed indica un contrato CDI y no publica salario; confirme que siguen aceptando candidaturas.',
             '⚠️ Anuncio del empleador difundido por portales de empleo; confirme directamente antes de enviar documentos.',
-            'https://www.onejob.ma/job/1255886/CHAUFFEUR-POIDS-LOURDS-EXP%C3%89RIMENT%C3%89-CAMION-SOLO-amp'
+            'https://ma.indeed.com/viewjob?jk=011560f2dcf502ca'
         ],
         [
             'Tánger — zona franca',
