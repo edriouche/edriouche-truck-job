@@ -2,8 +2,8 @@
 
 return [
     'reference' => 'referencia',
-    'title' => '🇲🇦 Ofertas para conductores de camión en Marruecos — revisión 7 de noviembre de 2026',
-    'review' => 'Enlaces revisados el 7 de noviembre de 2026. La página incluye anuncios recientes y otros anteriores; su publicación no confirma que las vacantes sigan abiertas. Verifique con la empresa o con la referencia ANAPEC antes de solicitar el puesto.',
+    'title' => '🇲🇦 Ofertas para conductores de camión en Marruecos — revisión 14 de noviembre de 2026',
+    'review' => 'Página y enlaces revisados el 14 de noviembre de 2026. La página incluye anuncios recientes y otros anteriores; su publicación no confirma que las vacantes sigan abiertas. Verifique con la empresa o con la referencia ANAPEC antes de solicitar el puesto.',
     'warning' => '⚠️ Presente su candidatura por canales oficiales. No pague a intermediarios a cambio de promesas de contratación.',
     'date' => '📅 Fecha del anuncio',
     'positions' => 'puestos anunciados',
@@ -94,9 +94,9 @@ return [
             '6 de noviembre de 2026',
             'Anuncio reciente; número de puestos no especificado',
             '🚛 Permisos C y EC; al menos 5 años de experiencia y nivel de bachillerato.',
-            '🗣️ Idioma del anuncio: francés; idioma de trabajo no especificado. Contrato y salario pendientes de confirmación por diferencias entre portales que reproducen el anuncio.',
+            '🗣️ Idioma del anuncio: francés; idioma de trabajo no especificado. La publicación del empleador en Indeed indica un contrato CDI y no publica salario; confirme que siguen aceptando candidaturas.',
             '⚠️ Anuncio del empleador difundido por portales de empleo; confirme directamente antes de enviar documentos.',
-            'https://www.onejob.ma/job/1255886/CHAUFFEUR-POIDS-LOURDS-EXP%C3%89RIMENT%C3%89-CAMION-SOLO-amp'
+            'https://ma.indeed.com/viewjob?jk=011560f2dcf502ca'
         ],
         [
             'Tánger — zona franca',
@@ -130,6 +130,17 @@ return [
             '🗣️ Idioma del anuncio: francés; idioma de trabajo no especificado. Contrato temporal; salario y categoría exacta del permiso no indicados.',
             '⚠️ Confirme el número de puestos y la categoría del permiso con TECTRA antes de solicitarlo.',
             'https://www.jobsquare.ma/job/21941/chauffeur-se-de-camion-toupie-malaxeur-h-f-btp-r%C3%A9gion-de-marrakech/'
-        ]
+        ],
+        [
+            'Casablanca — Dar Bouazza',
+            'INTERSIG MAROC — conductor de camión EC',
+            '—',
+            '13 de noviembre de 2026',
+            'Anuncio de contratación publicado; el anuncio original no indica el número de puestos',
+            '🚛 Permiso EC y al menos 5 años de experiencia en un puesto similar.',
+            '📍 Es obligatorio residir cerca de la zona industrial de Dar Bouazza; por ello no es adecuado para un candidato que viva fuera de esa zona.',
+            '💰 El anuncio original no indica salario ni contrato. El contacto publicado utiliza un correo del dominio de la empresa; confirme directamente que la vacante sigue abierta.',
+            'https://www.dreamjob.ma/emploi/intersig-maroc-lance-une-campagne-de-recrutement-de-chauffeurs-poids-lourds-a-dar-bouazza/'
+        ],
     ]
 ];

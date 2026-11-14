@@ -132,6 +132,17 @@ footer{text-align:center;padding:25px;color:#666}
 <a class="button" href="https://www.disfrimur.com/es/blog/noticias/367-disfrimur-incorpora-a-los-primeros-profesionales-del-programa-escuela-de-conductores" target="_blank" rel="noopener">🔗 معلومات برنامج تكوين السائقين</a>
 </div>
 
+<div class="card">
+<h2>🟡 AMAEXCO — Conductor de camión articulado volquete</h2>
+<p><span class="badge">إعلان منشور 13 نوفمبر 2026 — قيد التحقق</span></p>
+<p>📍 مدريد · 20 منصباً معلناً عبر بوابة Gala Conductores.</p>
+<p>🚛 الرخصة الظاهرة في ملخص الإعلان: C+E.</p>
+<p>📄 التفاصيل الكاملة للإعلان تتطلب الدخول إلى حساب السائق في Gala Conductores؛ لم نتمكن من التحقق من CAP أو بطاقة التاكوغراف أو الراتب أو نوع العقد.</p>
+<p>⚠️ AMAEXCO جمعية لقطاع الحفر ونقل مواد البناء وليست بالضرورة صاحب العمل المباشر. لا يوجد تأكيد بقبول مرشحين من خارج إسبانيا أو بتوفير تصريح عمل.</p>
+<a class="button" href="https://galaconductores.com/ofertas/" target="_blank" rel="noopener">🔗 قائمة عروض Gala Conductores</a>
+<a class="button" href="https://amaexco.com/" target="_blank" rel="noopener">🌐 الموقع الرسمي لـ AMAEXCO</a>
+</div>
+
 <div class="hero">
 <h2>🇪🇸 دليل السائق المغربي في إسبانيا</h2>
 <p>كل ما يحتاجه السائق للبحث عن عمل وتكوين ومعلومات موثوقة في مكان واحد.</p>

@@ -2,8 +2,8 @@
 
 return [
     'reference' => 'référence',
-    'title' => '🇲🇦 Offres de conducteurs poids lourds au Maroc — vérifiées le 7 novembre 2026',
-    'review' => 'Liens revus le 7 novembre 2026. La page regroupe des annonces récentes et plus anciennes ; leur présence ne confirme pas que les postes sont toujours vacants. Vérifiez auprès de l’entreprise ou avec la référence ANAPEC avant de postuler.',
+    'title' => '🇲🇦 Offres de conducteurs poids lourds au Maroc — vérifiées le 14 novembre 2026',
+    'review' => 'Page et liens revus le 14 novembre 2026. La page regroupe des annonces récentes et plus anciennes ; leur présence ne confirme pas que les postes sont toujours vacants. Vérifiez auprès de l’entreprise ou avec la référence ANAPEC avant de postuler.',
     'warning' => '⚠️ Postulez par les canaux officiels. Ne payez aucun intermédiaire en échange d’une promesse d’embauche.',
     'date' => '📅 Date de l’annonce',
     'positions' => 'postes annoncés',
@@ -94,9 +94,9 @@ return [
             '6 novembre 2026',
             'Annonce récente ; nombre de postes non précisé',
             '🚛 Permis C et EC ; au moins 5 ans d’expérience et niveau baccalauréat.',
-            '🗣️ Langue de l’annonce : français ; langue de travail non précisée. Contrat et salaire à confirmer en raison d’informations divergentes sur les sites relais.',
+            '🗣️ Langue de l’annonce : français ; langue de travail non précisée. L’annonce de l’employeur sur Indeed indique un CDI et ne publie pas de salaire ; confirmez que les candidatures sont toujours acceptées.',
             '⚠️ Annonce de l’employeur relayée par des sites d’emploi ; vérifiez directement avant l’envoi des documents.',
-            'https://www.onejob.ma/job/1255886/CHAUFFEUR-POIDS-LOURDS-EXP%C3%89RIMENT%C3%89-CAMION-SOLO-amp'
+            'https://ma.indeed.com/viewjob?jk=011560f2dcf502ca'
         ],
         [
             'Tanger — zone franche',
@@ -130,6 +130,17 @@ return [
             '🗣️ Langue de l’annonce : français ; langue de travail non précisée. Contrat temporaire ; salaire et catégorie exacte du permis non indiqués.',
             '⚠️ Confirmez le nombre de postes et la catégorie du permis auprès de TECTRA avant de postuler.',
             'https://www.jobsquare.ma/job/21941/chauffeur-se-de-camion-toupie-malaxeur-h-f-btp-r%C3%A9gion-de-marrakech/'
-        ]
+        ],
+        [
+            'Casablanca — Dar Bouazza',
+            'INTERSIG MAROC — conducteur poids lourd EC',
+            '—',
+            '13 novembre 2026',
+            'Annonce de recrutement publiée ; le nombre de postes n’est pas indiqué dans la source initiale',
+            '🚛 Permis EC et au moins 5 ans d’expérience dans un poste similaire.',
+            '📍 Résider à proximité de la zone industrielle de Dar Bouazza est obligatoire ; l’offre ne convient donc pas actuellement à un candidat résidant hors de cette zone.',
+            '💰 Le salaire et le contrat ne sont pas précisés dans l’annonce initiale. Le contact publié utilise un e-mail du domaine de l’entreprise ; confirmez directement que le poste est toujours vacant.',
+            'https://www.dreamjob.ma/emploi/intersig-maroc-lance-une-campagne-de-recrutement-de-chauffeurs-poids-lourds-a-dar-bouazza/'
+        ],
     ]
 ];
