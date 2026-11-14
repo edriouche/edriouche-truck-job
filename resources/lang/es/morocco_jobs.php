@@ -2,8 +2,8 @@
 
 return [
     'reference' => 'referencia',
-    'title' => '🇲🇦 Ofertas para conductores de camión en Marruecos — revisión 14 de noviembre de 2026'
-    'review' => 'Página y enlaces revisados el 14 de noviembre de 2026. La página incluye anuncios recientes y otros anteriores; su publicación no confirma que las vacantes sigan abiertas. Verifique con la empresa o con la referencia ANAPEC antes de solicitar el puesto.'
+    'title' => '🇲🇦 Ofertas para conductores de camión en Marruecos — revisión 14 de noviembre de 2026',
+    'review' => 'Página y enlaces revisados el 14 de noviembre de 2026. La página incluye anuncios recientes y otros anteriores; su publicación no confirma que las vacantes sigan abiertas. Verifique con la empresa o con la referencia ANAPEC antes de solicitar el puesto.',
     'warning' => '⚠️ Presente su candidatura por canales oficiales. No pague a intermediarios a cambio de promesas de contratación.',
     'date' => '📅 Fecha del anuncio',
     'positions' => 'puestos anunciados',
@@ -130,7 +130,7 @@ return [
             '🗣️ Idioma del anuncio: francés; idioma de trabajo no especificado. Contrato temporal; salario y categoría exacta del permiso no indicados.',
             '⚠️ Confirme el número de puestos y la categoría del permiso con TECTRA antes de solicitarlo.',
             'https://www.jobsquare.ma/job/21941/chauffeur-se-de-camion-toupie-malaxeur-h-f-btp-r%C3%A9gion-de-marrakech/'
-        ]
+        ],
         [
             'Casablanca — Dar Bouazza',
             'INTERSIG MAROC — conductor de camión EC',
