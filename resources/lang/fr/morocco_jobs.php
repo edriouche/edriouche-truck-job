@@ -2,8 +2,8 @@
 
 return [
     'reference' => 'référence',
-    'title' => '🇲🇦 Offres de conducteurs poids lourds au Maroc — vérifiées le 14 novembre 2026'
-    'review' => 'Page et liens revus le 14 novembre 2026. La page regroupe des annonces récentes et plus anciennes ; leur présence ne confirme pas que les postes sont toujours vacants. Vérifiez auprès de l’entreprise ou avec la référence ANAPEC avant de postuler.'
+    'title' => '🇲🇦 Offres de conducteurs poids lourds au Maroc — vérifiées le 14 novembre 2026',
+    'review' => 'Page et liens revus le 14 novembre 2026. La page regroupe des annonces récentes et plus anciennes ; leur présence ne confirme pas que les postes sont toujours vacants. Vérifiez auprès de l’entreprise ou avec la référence ANAPEC avant de postuler.',
     'warning' => '⚠️ Postulez par les canaux officiels. Ne payez aucun intermédiaire en échange d’une promesse d’embauche.',
     'date' => '📅 Date de l’annonce',
     'positions' => 'postes annoncés',
@@ -130,7 +130,7 @@ return [
             '🗣️ Langue de l’annonce : français ; langue de travail non précisée. Contrat temporaire ; salaire et catégorie exacte du permis non indiqués.',
             '⚠️ Confirmez le nombre de postes et la catégorie du permis auprès de TECTRA avant de postuler.',
             'https://www.jobsquare.ma/job/21941/chauffeur-se-de-camion-toupie-malaxeur-h-f-btp-r%C3%A9gion-de-marrakech/'
-        ]
+        ],
         [
             'Casablanca — Dar Bouazza',
             'INTERSIG MAROC — conducteur poids lourd EC',
