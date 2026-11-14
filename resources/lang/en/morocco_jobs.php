@@ -2,8 +2,8 @@
 
 return [
     'reference' => 'reference',
-    'title' => '🇲🇦 Morocco truck-driver listings — reviewed 7 November 2026',
-    'review' => 'Links reviewed on 7 November 2026. This page includes recent and older listings; publication does not confirm that a vacancy is still open. Verify with the employer or ANAPEC reference before applying.',
+    'title' => '🇲🇦 Morocco truck-driver listings — reviewed 14 November 2026'
+    'review' => 'Page and links reviewed on 14 November 2026. This page includes recent and older listings; publication does not confirm that a vacancy is still open. Verify with the employer or ANAPEC reference before applying.'
     'warning' => '⚠️ Apply through official channels. Do not pay an intermediary in exchange for a promise of employment.',
     'date' => '📅 Listing date',
     'positions' => 'advertised positions',
@@ -132,5 +132,16 @@ return [
             '⚠️ Confirm the number of vacancies and licence category with TECTRA before applying.',
             'https://www.jobsquare.ma/job/21941/chauffeur-se-de-camion-toupie-malaxeur-h-f-btp-r%C3%A9gion-de-marrakech/'
         ]
+        [
+            'Casablanca — Dar Bouazza',
+            'INTERSIG MAROC — EC heavy-truck driver',
+            '—',
+            '13 November 2026',
+            'Recruitment listing published; the original listing does not state the number of vacancies',
+            '🚛 EC licence and at least 5 years of experience in a similar role.',
+            '📍 Living near the Dar Bouazza industrial zone is mandatory, so this is not currently suitable for a candidate living outside that area.',
+            '💰 The original listing does not state salary or contract type. The published contact uses the company email domain; confirm directly that the vacancy remains open.',
+            'https://www.dreamjob.ma/emploi/intersig-maroc-lance-une-campagne-de-recrutement-de-chauffeurs-poids-lourds-a-dar-bouazza/'
+        ],
     ]
 ];
