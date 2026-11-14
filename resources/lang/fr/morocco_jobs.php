@@ -2,8 +2,8 @@
 
 return [
     'reference' => 'référence',
-    'title' => '🇲🇦 Offres de conducteurs poids lourds au Maroc — vérifiées le 7 novembre 2026',
-    'review' => 'Liens revus le 7 novembre 2026. La page regroupe des annonces récentes et plus anciennes ; leur présence ne confirme pas que les postes sont toujours vacants. Vérifiez auprès de l’entreprise ou avec la référence ANAPEC avant de postuler.',
+    'title' => '🇲🇦 Offres de conducteurs poids lourds au Maroc — vérifiées le 14 novembre 2026'
+    'review' => 'Page et liens revus le 14 novembre 2026. La page regroupe des annonces récentes et plus anciennes ; leur présence ne confirme pas que les postes sont toujours vacants. Vérifiez auprès de l’entreprise ou avec la référence ANAPEC avant de postuler.'
     'warning' => '⚠️ Postulez par les canaux officiels. Ne payez aucun intermédiaire en échange d’une promesse d’embauche.',
     'date' => '📅 Date de l’annonce',
     'positions' => 'postes annoncés',
@@ -131,5 +131,16 @@ return [
             '⚠️ Confirmez le nombre de postes et la catégorie du permis auprès de TECTRA avant de postuler.',
             'https://www.jobsquare.ma/job/21941/chauffeur-se-de-camion-toupie-malaxeur-h-f-btp-r%C3%A9gion-de-marrakech/'
         ]
+        [
+            'Casablanca — Dar Bouazza',
+            'INTERSIG MAROC — conducteur poids lourd EC',
+            '—',
+            '13 novembre 2026',
+            'Annonce de recrutement publiée ; le nombre de postes n’est pas indiqué dans la source initiale',
+            '🚛 Permis EC et au moins 5 ans d’expérience dans un poste similaire.',
+            '📍 Résider à proximité de la zone industrielle de Dar Bouazza est obligatoire ; l’offre ne convient donc pas actuellement à un candidat résidant hors de cette zone.',
+            '💰 Le salaire et le contrat ne sont pas précisés dans l’annonce initiale. Le contact publié utilise un e-mail du domaine de l’entreprise ; confirmez directement que le poste est toujours vacant.',
+            'https://www.dreamjob.ma/emploi/intersig-maroc-lance-une-campagne-de-recrutement-de-chauffeurs-poids-lourds-a-dar-bouazza/'
+        ],
     ]
 ];
