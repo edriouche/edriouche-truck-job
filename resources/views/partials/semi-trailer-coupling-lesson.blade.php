@@ -1,5 +1,9 @@
 @php($locale = app()->getLocale())
 <section class="card" id="lesson-10" style="border-inline-start:5px solid #0b3a68;">
+<figure style="margin:0 0 22px;overflow:hidden;border-radius:14px;background:#f4f8fc;">
+<img src="{{ asset('images/semi-trailer-coupling.svg') }}" alt="@if($locale === 'ar') رسم توضيحي لمراحل ربط نصف المقطورة وفحص قفل القرص الخامس والوصلات @elseif($locale === 'fr') Illustration des étapes d'attelage de la semi-remorque et du contrôle de la sellette @elseif($locale === 'en') Illustration of semi-trailer coupling stages and fifth-wheel lock checks @else Ilustración de las etapas de acoplamiento del semirremolque y comprobación de la quinta rueda @endif" loading="lazy" decoding="async" style="display:block;width:100%;height:auto;max-height:420px;object-fit:contain;">
+<figcaption style="padding:10px 14px;text-align:center;color:#475569;font-size:.92rem;">@if($locale === 'ar') المراحل التوضيحية: تأمين المركبتين، المحاذاة والتراجع البطيء، ثم التحقق من القفل والتوصيلات. @elseif($locale === 'fr') Étapes illustrées : immobilisation, alignement et recul lent, puis vérification du verrouillage et des raccordements. @elseif($locale === 'en') Illustrated stages: secure both vehicles, align and reverse slowly, then verify the lock and connections. @else Etapas ilustradas: inmovilizar ambos vehículos, alinear y retroceder lentamente, y comprobar el bloqueo y las conexiones. @endif</figcaption>
+</figure>
 @if($locale === 'es')
 <h2>🔗 10. Acoplamiento y desacoplamiento del semirremolque</h2>
 <p>Una operación segura exige inmovilizar el conjunto, seguir el procedimiento del fabricante y confirmar visualmente el bloqueo de la quinta rueda.</p>
