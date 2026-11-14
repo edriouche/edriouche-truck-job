@@ -94,9 +94,9 @@ return [
             '6 novembre 2026',
             'Annonce récente ; nombre de postes non précisé',
             '🚛 Permis C et EC ; au moins 5 ans d’expérience et niveau baccalauréat.',
-            '🗣️ Langue de l’annonce : français ; langue de travail non précisée. Contrat et salaire à confirmer en raison d’informations divergentes sur les sites relais.',
+            '🗣️ Langue de l’annonce : français ; langue de travail non précisée. L’annonce de l’employeur sur Indeed indique un CDI et ne publie pas de salaire ; confirmez que les candidatures sont toujours acceptées.',
             '⚠️ Annonce de l’employeur relayée par des sites d’emploi ; vérifiez directement avant l’envoi des documents.',
-            'https://www.onejob.ma/job/1255886/CHAUFFEUR-POIDS-LOURDS-EXP%C3%89RIMENT%C3%89-CAMION-SOLO-amp'
+            'https://ma.indeed.com/viewjob?jk=011560f2dcf502ca'
         ],
         [
             'Tanger — zone franche',
