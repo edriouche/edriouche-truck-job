@@ -18,6 +18,17 @@ $content = [
 'rights_text' => 'تحمي القوانين الكندية العمال الأجانب. يجب دفع الأجر المتفق عليه واحترام قواعد السلامة. لا يجوز لصاحب العمل أخذ جواز سفرك أو تحميلك رسوم التوظيف المحظورة. احتفظ بنسخة من العقد والمراسلات.',
 'licence' => '4. رخصة قيادة الشاحنات الثقيلة',
 'licence_text' => 'الرخصة المغربية لا تمنح تلقائيًا حق قيادة شاحنة تجارية في كندا. شروط الفئة المهنية والتدريب والاختبارات والاعتراف بالرخصة تختلف حسب المقاطعة أو الإقليم. تحقق من الجهة الحكومية للمقاطعة التي ستعمل فيها.',
+'francophone_title' => '5. مسار Mobilité francophone (C16) خارج كيبيك',
+'francophone_text' => 'قد يتيح هذا المسار تصريح عمل مرتبطاً بصاحب العمل دون LMIA إذا كانت الوظيفة خارج كيبيك. يجب إثبات مستوى NCLC 5 على الأقل في التحدث والاستماع بالفرنسية. قبل التقديم، يرسل صاحب العمل عرض التوظيف عبر Employer Portal باستخدام رمز الإعفاء C16، ويدفع رسم امتثال صاحب العمل البالغ 230 دولاراً كندياً، ثم يسلّم العامل رقم العرض المكوّن من 7 أرقام. يمكن إثبات اللغة بنتائج TEF/TCF للتحدث والاستماع أو وثائق دراسة بالفرنسية؛ وصف اللغة بأنها جيدة لا يغني عن الإثبات. هذا مسار قانوني محتمل وليس عرض عمل أو ضماناً للتوظيف.',
+'family_title' => '6. مرافقة الزوجة والأطفال',
+'family_text' => 'قد تكون الزوجة مؤهلة لتصريح عمل مفتوح إذا كان العامل يحمل تصريحاً صالحاً، ويعمل أو سيعمل في NOC 73300 (سائقو شاحنات النقل) المدرج ضمن قائمة محددة من وظائف TEER 3، ويعيش أو يخطط للعيش والعمل في كندا، ويبقى تصريح العامل صالحاً 16 شهراً على الأقل بعد تقديم طلب الزوجة. الأطفال القاصرون القادمون من خارج كندا يجب أن يطلبوا تصريح دراسة قبل الدخول؛ وتوضح IRCC أن خطاب القبول غير مطلوب عندما يرافق الطفل والداً يتقدم بطلب تصريح عمل. لكل فرد شروطه وموافقته الخاصة.',
+'age_title' => '7. أثر العمر على الإقامة الدائمة',
+'age_text' => 'في عوامل الاختيار لبرنامج العامل الماهر الفدرالي (FSW)، يحصل من يبلغ 47 سنة فأكثر على صفر نقطة للعمر. لذلك يقلل العمر 56 عاماً من نقاط مسار الإقامة الدائمة القائم على النقاط، لكنه لا يعني وحده رفض تصريح عمل مؤقت عبر C16؛ فالتصريح المؤقت له شروط منفصلة.',
+'francophone_source' => 'IRCC — شروط مسار Mobilité francophone',
+'francophone_apply_source' => 'IRCC — إثبات الفرنسية وخطوات التقديم',
+'family_source' => 'IRCC — أهلية تصريح العمل المفتوح للزوجة',
+'children_source' => 'IRCC — تصاريح دراسة الأطفال القاصرين',
+'age_source' => 'IRCC — نقاط العمر في برنامج العامل الماهر الفدرالي',
 'fraud' => '🛡️ كيف تتجنب الاحتيال؟',
 'fraud_text' => 'لا تدفع لوسيط مقابل وعد بعقد أو تأشيرة أو LMIA. تحقق من الشركة عبر قنواتها الرسمية، واقرأ الإعلان كاملًا، ولا ترسل وثائق حساسة قبل التأكد من الجهة المستقبلة.',
 'official' => '📚 المصادر الحكومية الرسمية',
@@ -41,6 +52,17 @@ $content = [
 'rights_text' => 'La legislación canadiense protege a los trabajadores extranjeros. El empleador debe pagar lo acordado y respetar la seguridad laboral. No puede quedarse con tu pasaporte ni cobrarte las tasas de contratación prohibidas.',
 'licence' => '4. Licencia para camiones pesados',
 'licence_text' => 'El permiso marroquí no autoriza automáticamente a conducir un camión comercial en Canadá. Los requisitos de licencia, formación y exámenes varían según la provincia o territorio.',
+'francophone_title' => '5. Movilidad francófona (C16) fuera de Quebec',
+'francophone_text' => 'Esta vía puede permitir un permiso de trabajo vinculado al empleador sin LMIA si el empleo está fuera de Quebec. El trabajador debe acreditar al menos NCLC 5 en expresión oral y comprensión auditiva en francés. Antes de la solicitud, el empleador debe presentar la oferta en el Employer Portal con la exención C16, pagar la tasa de cumplimiento del empleador de 230 CAD y entregar el número de oferta de 7 dígitos. La prueba puede incluir resultados TEF/TCF de expresión oral y comprensión auditiva o documentos de estudios en francés; decir que se habla bien francés no sustituye la prueba. Es una vía legal posible, no una oferta de empleo ni una garantía de contratación.',
+'family_title' => '6. Acompañamiento de la esposa y los hijos',
+'family_text' => 'La esposa puede ser elegible para un permiso de trabajo abierto si el trabajador tiene un permiso válido, trabaja o trabajará en el NOC 73300 (conductores de camiones de transporte), incluido en la lista de determinadas ocupaciones TEER 3, vive o prevé vivir y trabajar en Canadá y su permiso sigue siendo válido al menos 16 meses después de la solicitud de la esposa. Los hijos menores que lleguen desde el extranjero deben solicitar un permiso de estudios antes de entrar; IRCC indica que no se exige carta de aceptación cuando acompañan a un progenitor que solicita un permiso de trabajo. Cada familiar debe cumplir sus propios requisitos.',
+'age_title' => '7. Efecto de la edad en la residencia permanente',
+'age_text' => 'En los factores de selección del Programa Federal de Trabajadores Cualificados (FSW), las personas de 47 años o más reciben 0 puntos por edad. A los 56 años esto reduce la puntuación de la vía de residencia permanente basada en puntos, pero no significa por sí solo que se deniegue un permiso temporal C16, que tiene requisitos distintos.',
+'francophone_source' => 'IRCC — Requisitos de Movilidad Francófona',
+'francophone_apply_source' => 'IRCC — Prueba de francés y pasos para solicitar',
+'family_source' => 'IRCC — Elegibilidad del permiso de trabajo abierto para el cónyuge',
+'children_source' => 'IRCC — Permisos de estudio para menores',
+'age_source' => 'IRCC — Puntos por edad en el Programa Federal de Trabajadores Cualificados',
 'fraud' => '🛡️ Evitar estafas',
 'fraud_text' => 'No pagues a intermediarios por promesas de contrato, visado o LMIA. Verifica la empresa por canales oficiales y conserva una copia del contrato y de las comunicaciones.',
 'official' => '📚 Fuentes oficiales',
@@ -64,6 +86,17 @@ $content = [
 'rights_text' => 'La loi canadienne protège les travailleurs étrangers. L’employeur doit payer le salaire convenu et respecter la sécurité au travail. Il ne peut pas garder votre passeport ni vous facturer les frais de recrutement interdits.',
 'licence' => '4. Permis de conduire poids lourds',
 'licence_text' => 'Le permis marocain ne donne pas automatiquement le droit de conduire un camion commercial au Canada. Les exigences de permis, de formation et d’examen varient selon la province ou le territoire.',
+'francophone_title' => '5. Mobilité francophone (C16) hors Québec',
+'francophone_text' => 'Cette voie peut permettre un permis de travail lié à un employeur sans EIMT/LMIA si l’emploi se situe hors Québec. Le travailleur doit prouver un niveau NCLC 5 au minimum en expression orale et compréhension orale en français. Avant la demande, l’employeur doit soumettre l’offre dans le Portail des employeurs sous le code d’exemption C16, payer les frais de conformité de 230 CAD et remettre le numéro d’offre à 7 chiffres. La preuve peut comprendre les résultats TEF/TCF pour l’expression et la compréhension orales ou des documents d’études en français; dire que l’on parle bien français ne remplace pas cette preuve. Il s’agit d’une voie légale possible, pas d’une offre d’emploi ni d’une garantie d’embauche.',
+'family_title' => '6. Accompagnement de l’épouse et des enfants',
+'family_text' => 'L’épouse peut être admissible à un permis de travail ouvert si le travailleur détient un permis valide, travaille ou travaillera dans la profession CNP 73300 (conducteurs de camions de transport), incluse dans la liste de certaines professions TEER 3, vit ou prévoit vivre et travailler au Canada et si son permis reste valide au moins 16 mois après la demande de l’épouse. Les enfants mineurs venant de l’étranger doivent demander un permis d’études avant l’entrée; IRCC précise qu’une lettre d’acceptation n’est pas exigée lorsqu’ils accompagnent un parent qui demande un permis de travail. Chaque membre doit satisfaire à ses propres conditions.',
+'age_title' => '7. Effet de l’âge sur la résidence permanente',
+'age_text' => 'Dans les facteurs de sélection du Programme fédéral des travailleurs qualifiés (FSW), les personnes de 47 ans ou plus obtiennent 0 point pour l’âge. À 56 ans, cela réduit le score de la voie de résidence permanente fondée sur des points, mais ne signifie pas à lui seul un refus d’un permis temporaire C16, qui répond à des critères différents.',
+'francophone_source' => 'IRCC — Conditions de Mobilité francophone',
+'francophone_apply_source' => 'IRCC — Preuve de français et étapes de demande',
+'family_source' => 'IRCC — Admissibilité au permis de travail ouvert du conjoint',
+'children_source' => 'IRCC — Permis d’études pour les enfants mineurs',
+'age_source' => 'IRCC — Points d’âge du Programme fédéral des travailleurs qualifiés',
 'fraud' => '🛡️ Éviter les arnaques',
 'fraud_text' => 'Ne payez pas un intermédiaire pour une promesse de contrat, de visa ou de LMIA. Vérifiez l’entreprise par ses canaux officiels et conservez une copie du contrat et des échanges.',
 'official' => '📚 Sources officielles',
@@ -87,6 +120,17 @@ $content = [
 'rights_text' => 'Canadian law protects foreign workers. Employers must pay agreed wages and respect workplace safety. They cannot keep your passport or charge prohibited recruitment fees. Keep a copy of your contract and communications.',
 'licence' => '4. Commercial truck driving licence',
 'licence_text' => 'A Moroccan licence does not automatically authorize commercial truck driving in Canada. Licence classes, training, tests and recognition requirements vary by province or territory.',
+'francophone_title' => '5. Francophone Mobility (C16) outside Quebec',
+'francophone_text' => 'This route may allow an employer-specific work permit without an LMIA when the job is outside Quebec. The worker must prove at least NCLC 5 in French speaking and listening. Before the application, the employer must submit the offer through the Employer Portal using exemption code C16, pay the CAD 230 employer compliance fee and give the worker the 7-digit offer number. Proof can include TEF/TCF speaking and listening results or documents showing French-language studies; describing your French as “good” is not enough without evidence. This is a possible legal route, not a job offer or a hiring guarantee.',
+'family_title' => '6. Accompanying spouse and children',
+'family_text' => 'The spouse may qualify for an open work permit if the worker holds a valid work permit, is or will be employed in NOC 73300 (Transport truck drivers), which appears on the selected TEER 3 occupation list, plans to live and work in Canada, and the worker’s permit remains valid for at least 16 months after the spouse applies. Minor children coming from outside Canada must apply for study permits before entering; IRCC says a letter of acceptance is not required when they accompany a parent applying for a work permit. Each family member must meet their own requirements.',
+'age_title' => '7. How age affects permanent residence',
+'age_text' => 'Under the Federal Skilled Worker selection factors, applicants aged 47 or older receive 0 age points. At age 56, this reduces the score in the points-based permanent-residence route, but it does not by itself mean a temporary C16 work permit will be refused; that permit has separate requirements.',
+'francophone_source' => 'IRCC — Francophone Mobility eligibility',
+'francophone_apply_source' => 'IRCC — French-language proof and application steps',
+'family_source' => 'IRCC — Spouse open work permit eligibility',
+'children_source' => 'IRCC — Study permits for minor children',
+'age_source' => 'IRCC — Federal Skilled Worker age points',
 'fraud' => '🛡️ Avoid recruitment scams',
 'fraud_text' => 'Do not pay an intermediary for a promise of a job contract, visa or LMIA. Verify the employer through official channels and keep copies of contracts and communications.',
 'official' => '📚 Official government sources',
@@ -144,6 +188,14 @@ footer{text-align:center;padding:22px;color:#526174}
 <h3>{{ $t['licence'] }}</h3><p>{{ $t['licence_text'] }}</p>
 </section>
 <section class="card">
+<h2>{{ $t['francophone_title'] }}</h2>
+<p>{{ $t['francophone_text'] }}</p>
+<h3>{{ $t['family_title'] }}</h3>
+<p>{{ $t['family_text'] }}</p>
+<h3>{{ $t['age_title'] }}</h3>
+<p>{{ $t['age_text'] }}</p>
+</section>
+<section class="card">
 <h2>🧭
 @if($locale === 'ar') خطوات التقديم من خارج كندا
 @elseif($locale === 'es') Pasos para solicitar empleo desde el extranjero
@@ -173,6 +225,11 @@ Prepare an accurate CV and evidence of experience. Search clear Job Bank listing
 <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/employer-specific.html" target="_blank" rel="noopener">Canada.ca — Employer-specific work permits</a>
 <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/worker-rights.html" target="_blank" rel="noopener">Canada.ca — Foreign worker rights</a>
 <a href="https://www.jobbank.gc.ca/temporary-foreign-workers" target="_blank" rel="noopener">Job Bank — Temporary foreign workers</a>
+<a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/special-instructions/francophone-mobility/eligibility.html" target="_blank" rel="noopener">{{ $t['francophone_source'] }}</a>
+<a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/special-instructions/francophone-mobility/apply.html" target="_blank" rel="noopener">{{ $t['francophone_apply_source'] }}</a>
+<a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/special-instructions/spouses-dependent-children/eligibility.html" target="_blank" rel="noopener">{{ $t['family_source'] }}</a>
+<a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/prepare/minor-children.html" target="_blank" rel="noopener">{{ $t['children_source'] }}</a>
+<a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/federal-skilled-workers.html" target="_blank" rel="noopener">{{ $t['age_source'] }}</a>
 </div>
 </section>
 <section class="card warning">
