@@ -15,7 +15,7 @@ class InjectGoogleAnalytics
         $response = $next($request);
 
         if (
-            !$response->headers->contains('Content-Type', 'text/html')
+            !str_contains((string) $response->headers->get('Content-Type'), 'text/html')
             || !is_string($response->getContent())
         ) {
             return $response;
