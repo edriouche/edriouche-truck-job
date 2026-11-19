@@ -204,6 +204,9 @@ $t = $text[$lang];
     <p class="intro">{{ $t["intro"] }}</p>
 
     @if(auth()->check() && auth()->user()->is_admin)
+        <p style="margin:12px 0;">
+            <a href="{{ route('admin.academy-images') }}" class="button login">🖼️ إدارة الصور التعليمية للأكاديمية</a>
+        </p>
         <div class="upload-box">
             <h2>📤 {{ $t["upload"] }}</h2>
 
