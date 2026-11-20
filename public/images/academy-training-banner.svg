@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+<title id="title">Professional truck driver academy</title><desc id="desc">A modern European truck in a professional training workshop with a trainer and trainee.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#092c4d"/><stop offset="1" stop-color="#17618a"/></linearGradient>
+ <linearGradient id="cab" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#c9d9e7"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#72c4e8"/><stop offset="1" stop-color="#174d70"/></linearGradient>
+ <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#dce8ef"/><stop offset="1" stop-color="#8299a9"/></linearGradient>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feGaussianBlur stdDeviation="13"/></filter>
+</defs>
+<rect width="1200" height="560" rx="28" fill="url(#bg)"/>
+<path d="M0 355H1200V560H0Z" fill="url(#floor)" opacity=".95"/>
+<path d="M40 55H1160V355H40Z" fill="#d6e8f2" opacity=".12" stroke="#b9d7e8" stroke-width="5"/>
+<path d="M80 70V340M270 70V340M460 70V340M650 70V340M840 70V340M1030 70V340" stroke="#c6e4f2" stroke-width="8" opacity=".35"/>
+<path d="M45 360H1155" stroke="#fff" stroke-width="8" opacity=".5"/>
+<ellipse cx="700" cy="470" rx="430" ry="38" fill="#0a2033" opacity=".35" filter="url(#shadow)"/>
+<!-- trailer -->
+<path d="M510 170H1080Q1100 170 1100 192V390H510Z" fill="#edf4f8" stroke="#a8c1d0" stroke-width="7"/>
+<path d="M535 195H1075V220H535Z" fill="#d1e1e9"/>
+<path d="M535 238H1075" stroke="#b7ccd8" stroke-width="5"/>
+<!-- cab -->
+<path d="M245 245Q260 180 330 165H485Q520 165 540 215L585 365H230Z" fill="url(#cab)" stroke="#f7fbff" stroke-width="8"/>
+<path d="M305 192H470Q493 192 507 222L535 290H275Z" fill="url(#glass)" stroke="#8caec1" stroke-width="6"/>
+<path d="M420 195V288" stroke="#d9eaf3" stroke-width="7"/>
+<path d="M230 300H560L585 370H220Z" fill="#174f76"/>
+<path d="M230 325H565L585 365H220Z" fill="#f5b735"/>
+<rect x="248" y="290" width="32" height="17" rx="6" fill="#ffe8a0"/><rect x="520" y="290" width="32" height="17" rx="6" fill="#ffe8a0"/>
+<path d="M250 245L210 265L210 285L250 280M535 240L570 245L588 267" fill="none" stroke="#dceaf2" stroke-width="10" stroke-linecap="round"/>
+<rect x="210" y="355" width="380" height="28" rx="8" fill="#0c2d47"/>
+<!-- wheels -->
+<g><circle cx="320" cy="390" r="57" fill="#172b3a"/><circle cx="320" cy="390" r="31" fill="#b8c8d2"/><circle cx="320" cy="390" r="12" fill="#526d7d"/>
+<circle cx="515" cy="390" r="57" fill="#172b3a"/><circle cx="515" cy="390" r="31" fill="#b8c8d2"/><circle cx="515" cy="390" r="12" fill="#526d7d"/>
+<circle cx="890" cy="390" r="57" fill="#172b3a"/><circle cx="890" cy="390" r="31" fill="#b8c8d2"/><circle cx="890" cy="390" r="12" fill="#526d7d"/></g>
+<!-- trainer -->
+<g transform="translate(690 210)">
+ <circle cx="70" cy="48" r="31" fill="#b97952"/><path d="M40 43Q45 5 91 17Q112 26 103 48Q82 30 56 38Z" fill="#263849"/>
+ <path d="M30 87Q70 65 111 88L128 210H12Z" fill="#f4c542"/><path d="M39 92L99 92L112 205H24Z" fill="#193c59"/>
+ <path d="M42 115L-2 172M103 115L150 145" stroke="#b97952" stroke-width="18" stroke-linecap="round"/>
+ <path d="M38 207L25 260M98 207L113 260" stroke="#1e3548" stroke-width="22" stroke-linecap="round"/>
+ <rect x="124" y="130" width="66" height="82" rx="7" fill="#f5f8fb" stroke="#385a70" stroke-width="5"/>
+ <path d="M137 151H176M137 166H176M137 181H168" stroke="#6a91a6" stroke-width="5"/>
+</g>
+<!-- trainee -->
+<g transform="translate(840 245)">
+ <circle cx="45" cy="40" r="27" fill="#9b654a"/><path d="M18 34Q25 4 60 14L76 37Q49 27 18 43Z" fill="#172b3a"/>
+ <path d="M8 76Q45 59 82 78L98 190H-5Z" fill="#1b4770"/>
+ <path d="M18 94L-12 145M76 94L113 120" stroke="#9b654a" stroke-width="16" stroke-linecap="round"/>
+ <path d="M18 188L8 245M70 188L82 245" stroke="#253849" stroke-width="20" stroke-linecap="round"/>
+</g>
+<!-- training icons -->
+<g fill="none" stroke="#fff" stroke-width="7" opacity=".85">
+ <circle cx="100" cy="130" r="38"/><path d="M80 130L94 145L121 111"/>
+ <circle cx="1100" cy="105" r="34"/><path d="M1080 105H1120M1100 85V125"/>
+</g>
+<path d="M70 500H1130" stroke="#fff" stroke-width="3" opacity=".28"/>
+<text x="600" y="530" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="3">SAFETY • SKILLS • PROFESSIONAL DEVELOPMENT</text>
+</svg>
