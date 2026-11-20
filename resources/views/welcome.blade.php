@@ -366,7 +366,18 @@
                 padding: 25px 18px;
             }
         }
-    </style>
+    
+        .academy-feature { padding-top: 28px; padding-bottom: 28px; }
+        .academy-feature-link { position: relative; display: block; min-height: 300px; overflow: hidden; border-radius: 24px; background: #0b3152; box-shadow: 0 14px 34px rgba(11,58,104,.18); color: #fff; }
+        .academy-feature-link img { display: block; width: 100%; height: 360px; object-fit: cover; transition: transform .35s ease; }
+        .academy-feature-link:hover img { transform: scale(1.025); }
+        .academy-feature-copy { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 38px; max-width: 610px; background: linear-gradient(90deg,rgba(5,29,51,.96),rgba(5,29,51,.76) 68%,transparent); }
+        .academy-kicker { display: inline-block; padding: 6px 13px; border-radius: 30px; background: #f5b735; color: #102b42; font-size: 14px; font-weight: 800; }
+        .academy-feature-copy h2 { margin: 15px 0 8px; color: #fff; font-size: 32px; line-height: 1.35; }
+        .academy-feature-copy p { margin: 0 0 18px; color: #e7f1f8; font-size: 17px; max-width: 480px; }
+        .academy-cta { display: inline-block; padding: 10px 17px; border-radius: 10px; background: #f5b735; color: #102b42; font-weight: 800; }
+        @media (max-width: 650px) { .academy-feature-link img { height: 390px; } .academy-feature-copy { padding: 24px; justify-content: flex-end; background: linear-gradient(0deg,rgba(5,29,51,.97),rgba(5,29,51,.8) 55%,rgba(5,29,51,.05)); } .academy-feature-copy h2 { font-size: 25px; } .academy-feature-copy p { font-size: 15px; } }
+</style>
 </head>
 
 <body>
@@ -413,57 +424,29 @@
 </section>
 
 
-<section class="section loyal-drivers-announcement" dir="rtl" style="max-width:1000px;margin:25px auto;padding:24px;background:#f0f7ff;border:1px solid #cbdff2;border-radius:14px;line-height:1.9;">
-    @if(app()->getLocale() === 'es')
-        <h2 dir="ltr" style="text-align:center;color:#12304a;">📢 Anuncio de LOYAL DRIVERS 🚛🇪🇺</h2>
-    @elseif(app()->getLocale() === 'fr')
-        <h2 dir="ltr" style="text-align:center;color:#12304a;">📢 Annonce de LOYAL DRIVERS 🚛🇪🇺</h2>
-    @else
-        <h2 dir="rtl" style="text-align:center;color:#12304a;">📢 إعلان صادر عن LOYAL DRIVERS 🚛🇪🇺</h2>
-    @endif
-    @if(app()->getLocale() === 'es')
-        <p>Hola a todos los conductores:</p>
-        <p>Para todos los conductores interesados en oportunidades de trabajo con empresas europeas, por favor, enviadnos los siguientes documentos e información:</p>
-        <p>✅ <strong>1. CV en inglés</strong>, actualizado e incluyendo toda vuestra información y experiencia profesional.</p>
-        <p>✅ <strong>2. Un vídeo breve de presentación</strong>, en el que cada persona se presente en inglés e indique:</p>
-        <ul><li>Nombre completo y edad.</li><li>Años de experiencia en conducción profesional.</li><li>Tipos de camiones conducidos (C o CE).</li><li>Países en los que ha trabajado, si tiene experiencia internacional.</li><li>Nivel de inglés.</li></ul>
-        <p>📌 El vídeo debe ser claro y breve (de uno a dos minutos), con voz clara y una presentación profesional.</p>
-        <p>📩 Enviad el CV y el vídeo directamente por WhatsApp.</p>
-        <p>Esta información ayudará a LOYAL DRIVERS a conocer mejor vuestro perfil y presentar vuestras candidaturas a empresas europeas según vuestra experiencia y cualificaciones.</p>
-        <p><strong>Importante:</strong> todos deben enviar el CV y el vídeo. Incluso quienes ya enviaron el CV deben enviar también el vídeo.</p>
-        <p>Gracias por vuestra colaboración y confianza en <strong>LOYAL DRIVERS</strong>. 🚛🇪🇺</p>
-    @elseif(app()->getLocale() === 'fr')
-        <p>Bonjour à tous les conducteurs,</p>
-        <p>Pour tous ceux qui s’intéressent aux opportunités d’emploi auprès d’entreprises européennes, veuillez nous envoyer les documents et informations suivants :</p>
-        <p>✅ <strong>1. Un CV en anglais</strong>, à jour et contenant toutes vos informations et votre expérience professionnelle.</p>
-        <p>✅ <strong>2. Une courte vidéo de présentation</strong>, dans laquelle chacun se présente en anglais et indique :</p>
-        <ul><li>Nom complet et âge.</li><li>Nombre d’années d’expérience en conduite professionnelle.</li><li>Types de camions conduits (C ou CE).</li><li>Pays dans lesquels vous avez travaillé, si vous avez une expérience internationale.</li><li>Niveau d’anglais.</li></ul>
-        <p>📌 La vidéo doit être claire et courte (une à deux minutes), avec une voix audible et une présentation professionnelle.</p>
-        <p>📩 Envoyez directement le CV et la vidéo par WhatsApp.</p>
-        <p>Ces informations aideront LOYAL DRIVERS à mieux connaître votre profil et à présenter vos candidatures aux entreprises européennes selon vos qualifications et votre expérience.</p>
-        <p><strong>Important :</strong> tout le monde doit envoyer son CV et sa vidéo. Même si vous avez déjà envoyé votre CV, vous devez également envoyer la vidéo.</p>
-        <p>Merci pour votre coopération et votre confiance en <strong>LOYAL DRIVERS</strong>. 🚛🇪🇺</p>
-    @else
-        <p>السلام عليكم الإخوان،</p>
-        <p>بالنسبة لجميع السائقين المهتمين بفرص العمل مع الشركات الأوروبية، المرجو منكم تصيفطو لينا هاد الوثائق والمعلومات:</p>
-        <p>✅ <strong>1. CV باللغة الإنجليزية</strong>، يكون محدّث وفيه جميع المعلومات ديالكم والتجربة المهنية ديالكم.</p>
-        <p>✅ <strong>2. فيديو تقديمي قصير</strong>، كل واحد يصوّر راسو بالفيديو ويقدّم فيه راسو باللغة الإنجليزية، ويذكر:</p>
-        <ul><li>الاسم الكامل والسن.</li><li>شحال من عام ديال التجربة فالسياقة المهنية.</li><li>أنواع الشاحنات اللي سبق ليه خدم بها (C أو CE).</li><li>البلدان اللي سبق ليه خدم فيها، إلا كانت عندو تجربة دولية.</li><li>المستوى ديالو فاللغة الإنجليزية.</li></ul>
-        <p>📌 المرجو يكون الفيديو واضح، قصير (من دقيقة حتى لجوج دقايق)، وتكونو كتهضرو بصوت واضح وبطريقة مهنية.</p>
-        <p>📩 صيفطو لينا الـ CV والفيديو مباشرة فـ WhatsApp.</p>
-        <p>هاد المعلومات غادي تعاوننا نتعرفو عليكم مزيان ونقدمو ملفاتكم للشركات الأوروبية حسب المؤهلات والتجربة ديال كل واحد.</p>
-        <p><strong>مهم:</strong> المرجو من الجميع يرسل الـ CV والفيديو، حتى اللي سبق ليه صيفط الـ CV، خاصو يصيفط الفيديو حتى هو.</p>
-        <p>شكراً على تعاونكم وثقتكم في <strong>LOYAL DRIVERS</strong>. 🚛🇪🇺</p>
-    @endif
-    @if(app()->getLocale() === 'es')
-        <p dir="ltr" style="font-size:0.9em;color:#475569;">Nota: este anuncio procede de LOYAL DRIVERS. Contactad directamente con ellos para confirmar el número de WhatsApp y cómo enviar los documentos.</p>
-    @elseif(app()->getLocale() === 'fr')
-        <p dir="ltr" style="font-size:0.9em;color:#475569;">Remarque : cette annonce provient de LOYAL DRIVERS. Contactez-les directement pour confirmer le numéro WhatsApp et les modalités d’envoi des documents.</p>
-    @elseif(app()->getLocale() === 'en')
-        <p dir="ltr" style="font-size:0.9em;color:#475569;">Note: this announcement is from LOYAL DRIVERS. Contact them directly to confirm the WhatsApp number and document-submission instructions.</p>
-    @else
-        <p dir="rtl" style="font-size:0.9em;color:#475569;">ملاحظة: الإعلان صادر عن LOYAL DRIVERS. يُرجى التواصل معهم مباشرة لمعرفة طريقة إرسال الوثائق ورقم WhatsApp المعتمد.</p>
-    @endif
+
+<section class="section academy-feature">
+    <a class="academy-feature-link" href="/training" aria-label="Open the Professional Driver Academy">
+        <img src="{{ asset('images/academy-training-banner.svg') }}" alt="شاحنة أوروبية داخل مركز تدريب مهني مع مدرب وسائق يتعلمان فحص الشاحنة">
+        <div class="academy-feature-copy">
+            @if(app()->getLocale() === 'es')
+                <span class="academy-kicker">🎓 Formación profesional</span>
+                <h2>Academia del Conductor Profesional</h2>
+                <p>Aprende seguridad vial, inspección mecánica y habilidades prácticas para tu carrera.</p>
+                <span class="academy-cta">Explorar la academia →</span>
+            @elseif(app()->getLocale() === 'fr')
+                <span class="academy-kicker">🎓 Formation professionnelle</span>
+                <h2>Académie du Conducteur Professionnel</h2>
+                <p>Développez vos compétences en sécurité, inspection mécanique et conduite professionnelle.</p>
+                <span class="academy-cta">Découvrir l’académie →</span>
+            @else
+                <span class="academy-kicker">🎓 التكوين المهني المستمر</span>
+                <h2>أكاديمية السائق المحترف</h2>
+                <p>طوّر مهاراتك في السلامة الطرقية، والفحص الميكانيكي، والقيادة المهنية.</p>
+                <span class="academy-cta">اكتشف الأكاديمية ←</span>
+            @endif
+        </div>
+    </a>
 </section>
 
     @include('partials.home-gallery')
