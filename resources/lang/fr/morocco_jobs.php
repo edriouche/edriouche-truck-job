@@ -2,8 +2,8 @@
 
 return [
     'reference' => 'référence',
-    'title' => '🇲🇦 Offres de conducteurs poids lourds au Maroc — vérifiées le 14 novembre 2026',
-    'review' => 'Page et liens revus le 14 novembre 2026. La page regroupe des annonces récentes et plus anciennes ; leur présence ne confirme pas que les postes sont toujours vacants. Vérifiez auprès de l’entreprise ou avec la référence ANAPEC avant de postuler.',
+    'title' => '🇲🇦 Offres de conducteurs poids lourds au Maroc — vérifiées le 20 novembre 2026',
+    'review' => 'Page et liens revus le 20 novembre 2026. La page regroupe des annonces récentes et plus anciennes ; leur présence ne confirme pas que les postes sont toujours vacants. Vérifiez auprès de l’entreprise ou avec la référence ANAPEC avant de postuler.',
     'warning' => '⚠️ Postulez par les canaux officiels. Ne payez aucun intermédiaire en échange d’une promesse d’embauche.',
     'date' => '📅 Date de l’annonce',
     'positions' => 'postes annoncés',
@@ -141,6 +141,17 @@ return [
             '📍 Résider à proximité de la zone industrielle de Dar Bouazza est obligatoire ; l’offre ne convient donc pas actuellement à un candidat résidant hors de cette zone.',
             '💰 Le salaire et le contrat ne sont pas précisés dans l’annonce initiale. Le contact publié utilise un e-mail du domaine de l’entreprise ; confirmez directement que le poste est toujours vacant.',
             'https://www.dreamjob.ma/emploi/intersig-maroc-lance-une-campagne-de-recrutement-de-chauffeurs-poids-lourds-a-dar-bouazza/'
+        ],
+        [
+            "Casablanca — Aïn Sebaâ",
+            "GTI — chauffeur poids lourd",
+            "—",
+            "Annonce récente ; vérifiée le 20 novembre 2026",
+            "Poste annoncé ; nombre non précisé",
+            "🚛 Permis C et EC selon le véhicule ; expérience souhaitée et disponibilité immédiate.",
+            "📍 Casablanca — Aïn Sebaâ. Transport et livraison, vérification courante du véhicule et respect des règles de sécurité.",
+            "📧 s.recrutement@groupegtiinvest.com · WhatsApp : 0661312271. Salaire non indiqué ; confirmez la disponibilité.",
+            "https://ma.indeed.com/m/viewjob?jk=94c5106a9a50a360"
         ],
     ]
 ];
