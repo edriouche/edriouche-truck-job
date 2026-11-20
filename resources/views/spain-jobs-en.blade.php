@@ -171,29 +171,29 @@ footer{text-align:center;padding:25px;color:#666}
 <p>Recruitment status can change. Verify the official advert before applying.</p>
 </div>
 
-<!-- New verified Spain driver vacancies — reviewed 20 November 2026 -->
+<!-- Spain driver listings reviewed — 20 November 2026 -->
 <div class="card">
 <h2>🟢 Trans Musos S.L. — International C+E driver</h2>
 <p><strong>Current recruitment information</strong></p>
 <p>📍 Fuente Álamo (Murcia) — international refrigerated transport to France, Germany, the Netherlands and Denmark.</p>
-<p>Requirements: C+E, valid Spanish CAP and digital tachograph card. Permanent full-time contract. Overseas visa sponsorship is not stated.</p>
+<p>Requirements: C+E, valid Spanish CAP and digital tachograph card. Permanent full-time contract. The official company page does not state salary, vacancy count, closing date or overseas work-permit sponsorship.</p>
 <p>Contact: +34 678 986 850 · transmusos@gmail.com</p>
 <a class="button" href="https://transmusos.es/en/careers" target="_blank" rel="noopener">Official application</a>
 </div>
 <div class="card">
 <h2>🟢 ESP Solutions — International C+E driver</h2>
-<p><strong>Listing checked 20 November 2026</strong></p>
+<p><strong>LinkedIn listing viewed 20 November 2026 — posted about one month ago; no closing date shown, availability not confirmed.</strong></p>
 <p>📍 Ceutí / Murcia — international freight transport; permanent full-time role.</p>
 <p>Requirements: C+E, digital tachograph card, CAP and previous international-route experience. No overseas sponsorship is stated.</p>
 <a class="button" href="https://espsolutions.eu/unete-al-equipo/" target="_blank" rel="noopener">Company recruitment page</a>
 <a class="button" href="https://es.linkedin.com/jobs/view/conductor-a-de-cami%C3%B3n-internacional-c%2Be-at-esp-solutions-group-4472794383" target="_blank" rel="noopener">Specific job advert</a>
 </div>
 <div class="card">
-<h2>🟢 Servicio Regional de Empleo y Formación (SEF) — C+E driver</h2>
-<p><strong>Open until 2 December 2026</strong></p>
-<p>📍 Lorquí, Murcia — 2 positions, regional supermarket deliveries. Gross salary €2,100/month in 12 payments. Full-time temporary contract with possible permanent conversion.</p>
-<p>Requirements: C+E, valid CAP and digital tachograph card; 12 months’ experience is an advantage. Applicants must be registered with an employment office in Spain. Candidates registered outside Murcia but within Spain may email their CV to sef-molina-seleccion@carm.es. Not an overseas recruitment offer.</p>
-<a class="button" href="https://sefoficinavirtual.carm.es/sefoficinavirtual/public/oferta/detalle-oferta.xhtml?faces-redirect=true&amp;id=58191" target="_blank" rel="noopener">Official SEF listing</a>
+<h2>⚪ Servicio Regional de Empleo y Formación (SEF) — C+E driver</h2>
+<p><strong>Expired — closed 4 November 2026</strong></p>
+<p>Historical details: Lorquí, Murcia — 2 positions for regional supermarket deliveries; gross salary €2,100/month in 12 payments; full-time temporary contract with possible permanent conversion. The official SEF page states that applications closed at 23:59 on 4 November 2026. This vacancy is no longer open.</p>
+<p>The former requirements were C+E, valid CAP and digital tachograph card; 12 months’ experience was an advantage, secondary education was required, and applicants had to be registered with an employment office in Spain. It was not an overseas recruitment offer.</p>
+<a class="button" href="https://sefoficinavirtual.carm.es/sefoficinavirtual/public/oferta/detalle-oferta.xhtml?faces-redirect=true&amp;id=58191" target="_blank" rel="noopener">Original SEF listing (expired)</a>
 </div>
 <div class="hero">
 <h2>🇪🇸 Official resources for drivers</h2>
