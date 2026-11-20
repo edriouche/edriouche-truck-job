@@ -2,8 +2,8 @@
 
 return [
     'reference' => 'reference',
-    'title' => '🇲🇦 Morocco truck-driver listings — reviewed 14 November 2026',
-    'review' => 'Page and links reviewed on 14 November 2026. This page includes recent and older listings; publication does not confirm that a vacancy is still open. Verify with the employer or ANAPEC reference before applying.',
+    'title' => '🇲🇦 Morocco truck-driver listings — reviewed 20 November 2026',
+    'review' => 'Page and links reviewed on 20 November 2026. This page includes recent and older listings; publication does not confirm that a vacancy is still open. Verify with the employer or ANAPEC reference before applying.',
     'warning' => '⚠️ Apply through official channels. Do not pay an intermediary in exchange for a promise of employment.',
     'date' => '📅 Listing date',
     'positions' => 'advertised positions',
@@ -142,6 +142,17 @@ return [
             '📍 Living near the Dar Bouazza industrial zone is mandatory, so this is not currently suitable for a candidate living outside that area.',
             '💰 The original listing does not state salary or contract type. The published contact uses the company email domain; confirm directly that the vacancy remains open.',
             'https://www.dreamjob.ma/emploi/intersig-maroc-lance-une-campagne-de-recrutement-de-chauffeurs-poids-lourds-a-dar-bouazza/'
+        ],
+        [
+            "Casablanca — Aïn Sebaâ",
+            "GTI — heavy truck driver",
+            "—",
+            "Recent listing; checked 20 November 2026",
+            "Vacancy advertised; number of positions not specified",
+            "🚛 Category C and EC licence depending on vehicle; experience preferred and immediate availability required.",
+            "📍 Casablanca — Aïn Sebaâ. Goods transport and delivery, routine vehicle checks and safety compliance.",
+            "📧 s.recrutement@groupegtiinvest.com · WhatsApp: 0661312271. Salary not stated; confirm vacancy is still open.",
+            "https://ma.indeed.com/m/viewjob?jk=94c5106a9a50a360"
         ],
     ]
 ];
