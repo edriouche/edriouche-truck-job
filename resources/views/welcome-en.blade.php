@@ -20,6 +20,17 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 .notice{background:#fff5d9;padding:14px;border-radius:8px}
 .languages{text-align:center;padding:14px}
 .languages a{margin:6px}
+
+.academy-feature{margin:28px 0}
+.academy-feature-link{position:relative;display:block;min-height:300px;overflow:hidden;border-radius:20px;background:#0b3152;color:#fff;text-decoration:none;box-shadow:0 14px 34px rgba(11,58,104,.18)}
+.academy-feature-link img{display:block;width:100%;height:360px;object-fit:cover;transition:transform .35s ease}
+.academy-feature-link:hover img{transform:scale(1.025)}
+.academy-feature-copy{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:38px;max-width:610px;background:linear-gradient(90deg,rgba(5,29,51,.96),rgba(5,29,51,.76) 68%,transparent)}
+.academy-kicker{display:inline-block;padding:6px 13px;border-radius:30px;background:#f5b735;color:#102b42;font-size:14px;font-weight:800}
+.academy-feature-copy h2{margin:15px 0 8px;color:#fff;font-size:32px;line-height:1.35}
+.academy-feature-copy p{margin:0 0 18px;color:#e7f1f8;font-size:17px;max-width:480px}
+.academy-cta{display:inline-block;padding:10px 17px;border-radius:10px;background:#f5b735;color:#102b42;font-weight:800}
+@media(max-width:650px){.academy-feature-link img{height:390px}.academy-feature-copy{padding:24px;justify-content:flex-end;background:linear-gradient(0deg,rgba(5,29,51,.97),rgba(5,29,51,.8) 55%,rgba(5,29,51,.05))}.academy-feature-copy h2{font-size:25px}.academy-feature-copy p{font-size:15px}}
 </style>
 </head>
 <body>
@@ -53,19 +64,17 @@ a{color:#075da8}nav a{padding:10px 14px;border:1px solid #cbd7e2;border-radius:8
 <a href="/for-companies">For Transport Companies</a>
 </nav>
 
-<section class="loyal-drivers-announcement" style="max-width:1000px;margin:25px auto;padding:24px;background:#f0f7ff;border:1px solid #cbdff2;border-radius:14px;line-height:1.9;">
-<h2 style="text-align:center;color:#12304a;">📢 Announcement from LOYAL DRIVERS 🚛🇪🇺</h2>
-<p>Hello, drivers!</p>
-<p>For all drivers interested in job opportunities with European companies, please send us the following documents and information:</p>
-<p>✅ <strong>1. An up-to-date CV in English</strong>, including all your information and professional experience.</p>
-<p>✅ <strong>2. A short introduction video</strong>, in which you introduce yourself in English and mention:</p>
-<ul><li>Full name and age.</li><li>Years of professional driving experience.</li><li>Types of trucks driven (C or CE).</li><li>Countries where you have worked, if you have international experience.</li><li>Your English-language level.</li></ul>
-<p>📌 Please make the video clear and short (one to two minutes), speaking clearly and professionally.</p>
-<p>📩 Send your CV and video directly via WhatsApp.</p>
-<p>This information will help LOYAL DRIVERS learn more about your profile and present your applications to European companies according to your qualifications and experience.</p>
-<p><strong>Important:</strong> everyone should send both the CV and the video. If you have already sent your CV, you must still send the video.</p>
-<p>Thank you for your cooperation and trust in <strong>LOYAL DRIVERS</strong>. 🚛🇪🇺</p>
-<p style="font-size:0.9em;color:#475569;">Note: This announcement is from LOYAL DRIVERS. Contact them directly for the approved WhatsApp number and submission instructions.</p>
+
+<section class="academy-feature">
+<a class="academy-feature-link" href="/training" aria-label="Explore the Professional Driver Academy">
+<img src="/images/academy-training-banner.svg" alt="Modern truck in a professional training workshop with a trainer and trainee">
+<div class="academy-feature-copy">
+<span class="academy-kicker">🎓 Professional development</span>
+<h2>Professional Driver Academy</h2>
+<p>Build practical skills in road safety, mechanical inspection and professional driving.</p>
+<span class="academy-cta">Explore the academy →</span>
+</div>
+</a>
 </section>
 
     @include('partials.home-gallery')
