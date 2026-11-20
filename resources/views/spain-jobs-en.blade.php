@@ -181,7 +181,7 @@ footer{text-align:center;padding:25px;color:#666}
 <a class="button" href="https://transmusos.es/en/careers" target="_blank" rel="noopener">Official application</a>
 </div>
 <div class="card">
-<h2>🟢 ESP Solutions — International C+E driver</h2>
+<h2>🟡 ESP Solutions — International C+E driver</h2>
 <p><strong>LinkedIn listing viewed 20 November 2026 — posted about one month ago; no closing date shown, availability not confirmed.</strong></p>
 <p>📍 Ceutí / Murcia — international freight transport; permanent full-time role.</p>
 <p>Requirements: C+E, digital tachograph card, CAP and previous international-route experience. No overseas sponsorship is stated.</p>
