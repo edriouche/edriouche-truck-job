@@ -2,8 +2,8 @@
 
 return [
     'reference' => 'referencia',
-    'title' => '🇲🇦 Ofertas para conductores de camión en Marruecos — revisión 14 de noviembre de 2026',
-    'review' => 'Página y enlaces revisados el 14 de noviembre de 2026. La página incluye anuncios recientes y otros anteriores; su publicación no confirma que las vacantes sigan abiertas. Verifique con la empresa o con la referencia ANAPEC antes de solicitar el puesto.',
+    'title' => '🇲🇦 Ofertas para conductores de camión en Marruecos — revisión 20 de noviembre de 2026',
+    'review' => 'Página y enlaces revisados el 20 de noviembre de 2026. La página incluye anuncios recientes y otros anteriores; su publicación no confirma que las vacantes sigan abiertas. Verifique con la empresa o con la referencia ANAPEC antes de solicitar el puesto.',
     'warning' => '⚠️ Presente su candidatura por canales oficiales. No pague a intermediarios a cambio de promesas de contratación.',
     'date' => '📅 Fecha del anuncio',
     'positions' => 'puestos anunciados',
@@ -141,6 +141,17 @@ return [
             '📍 Es obligatorio residir cerca de la zona industrial de Dar Bouazza; por ello no es adecuado para un candidato que viva fuera de esa zona.',
             '💰 El anuncio original no indica salario ni contrato. El contacto publicado utiliza un correo del dominio de la empresa; confirme directamente que la vacante sigue abierta.',
             'https://www.dreamjob.ma/emploi/intersig-maroc-lance-une-campagne-de-recrutement-de-chauffeurs-poids-lourds-a-dar-bouazza/'
+        ],
+        [
+            "Casablanca — Aïn Sebaâ",
+            "GTI — conductor de camión pesado",
+            "—",
+            "Anuncio reciente; comprobado el 20 de noviembre de 2026",
+            "Vacante publicada; número de puestos no especificado",
+            "🚛 Permiso C y EC según el vehículo; experiencia valorada y disponibilidad inmediata.",
+            "📍 Casablanca — Aïn Sebaâ. Transporte y entrega de mercancías, revisión básica del vehículo y cumplimiento de las normas de seguridad.",
+            "📧 s.recrutement@groupegtiinvest.com · WhatsApp: 0661312271. Salario no indicado; confirme que sigue abierta.",
+            "https://ma.indeed.com/m/viewjob?jk=94c5106a9a50a360"
         ],
     ]
 ];
