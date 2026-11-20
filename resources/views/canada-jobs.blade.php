@@ -28,7 +28,9 @@ $content = [
 'francophone_apply_source' => 'IRCC — إثبات الفرنسية وخطوات التقديم',
 'family_source' => 'IRCC — أهلية تصريح العمل المفتوح للزوجة',
 'children_source' => 'IRCC — تصاريح دراسة الأطفال القاصرين',
-'age_source' => 'IRCC — نقاط العمر في برنامج العامل الماهر الفدرالي',
+'express_entry_title' => '8. تحديث نقاط عرض العمل في Express Entry منذ 3 نوفمبر 2026',
+'express_entry_text' => 'منذ 3 نوفمبر 2026، لم تعد IRCC تشترط LMIA كي يُحتسب عرض العمل ضمن عامل التوظيف المرتب في برنامج العامل الماهر الفدرالي (FSW) داخل Express Entry، كما أن وجود LMIA لا يمنح نقاط CRS إضافية ولا أولوية للملف. هذا التغيير يخص نقاط الإقامة الدائمة فقط؛ ولا يلغي متطلبات تصريح العمل المؤقت، إذ قد تظل LMIA الإيجابية مطلوبة لتصريح عمل مرتبط بصاحب العمل ما لم ينطبق إعفاء قانوني مثل C16. ويجب أن يكون عرض العمل حقيقياً ومستوفياً لشروط البرنامج.',
+'age_source' => 'IRCC — نقاط العمر وتغييرات عروض العمل في Express Entry',
 'fraud' => '🛡️ كيف تتجنب الاحتيال؟',
 'fraud_text' => 'لا تدفع لوسيط مقابل وعد بعقد أو تأشيرة أو LMIA. تحقق من الشركة عبر قنواتها الرسمية، واقرأ الإعلان كاملًا، ولا ترسل وثائق حساسة قبل التأكد من الجهة المستقبلة.',
 'official' => '📚 المصادر الحكومية الرسمية',
@@ -62,7 +64,9 @@ $content = [
 'francophone_apply_source' => 'IRCC — Prueba de francés y pasos para solicitar',
 'family_source' => 'IRCC — Elegibilidad del permiso de trabajo abierto para el cónyuge',
 'children_source' => 'IRCC — Permisos de estudio para menores',
-'age_source' => 'IRCC — Puntos por edad en el Programa Federal de Trabajadores Cualificados',
+'express_entry_title' => '8. Cambio en los puntos por oferta de empleo en Express Entry desde el 3 de noviembre de 2026',
+'express_entry_text' => 'Desde el 3 de noviembre de 2026, IRCC ya no exige una LMIA para que una oferta de empleo cuente en el factor de empleo concertado del Programa Federal de Trabajadores Cualificados (FSW) dentro de Express Entry. Tener una LMIA tampoco concede puntos CRS adicionales ni prioridad. Este cambio se refiere únicamente a la puntuación de residencia permanente; no elimina los requisitos de los permisos de trabajo temporales. Un permiso de trabajo vinculado al empleador puede seguir requiriendo una LMIA positiva, salvo que se aplique una exención legal como C16. La oferta debe ser genuina y cumplir los requisitos del programa.',
+'age_source' => 'IRCC — Puntos por edad y cambios en ofertas de empleo de Express Entry',
 'fraud' => '🛡️ Evitar estafas',
 'fraud_text' => 'No pagues a intermediarios por promesas de contrato, visado o LMIA. Verifica la empresa por canales oficiales y conserva una copia del contrato y de las comunicaciones.',
 'official' => '📚 Fuentes oficiales',
@@ -96,7 +100,9 @@ $content = [
 'francophone_apply_source' => 'IRCC — Preuve de français et étapes de demande',
 'family_source' => 'IRCC — Admissibilité au permis de travail ouvert du conjoint',
 'children_source' => 'IRCC — Permis d’études pour les enfants mineurs',
-'age_source' => 'IRCC — Points d’âge du Programme fédéral des travailleurs qualifiés',
+'express_entry_title' => '8. Changement des points liés à l’offre d’emploi dans Entrée express depuis le 3 novembre 2026',
+'express_entry_text' => 'Depuis le 3 novembre 2026, IRCC n’exige plus d’EIMT/LMIA pour qu’une offre d’emploi compte au titre du facteur « emploi réservé » du Programme fédéral des travailleurs qualifiés (FSW) dans Entrée express. Une EIMT ne donne pas non plus de points SCG supplémentaires ni de priorité. Ce changement concerne le calcul des points pour la résidence permanente; il ne supprime pas les exigences des permis de travail temporaires. Un permis de travail lié à un employeur peut encore exiger une EIMT positive, sauf exemption légale comme C16. L’offre doit rester authentique et satisfaire aux règles du programme.',
+'age_source' => 'IRCC — Points d’âge et changements des offres d’emploi dans Entrée express',
 'fraud' => '🛡️ Éviter les arnaques',
 'fraud_text' => 'Ne payez pas un intermédiaire pour une promesse de contrat, de visa ou de LMIA. Vérifiez l’entreprise par ses canaux officiels et conservez une copie du contrat et des échanges.',
 'official' => '📚 Sources officielles',
@@ -130,7 +136,9 @@ $content = [
 'francophone_apply_source' => 'IRCC — French-language proof and application steps',
 'family_source' => 'IRCC — Spouse open work permit eligibility',
 'children_source' => 'IRCC — Study permits for minor children',
-'age_source' => 'IRCC — Federal Skilled Worker age points',
+'express_entry_title' => '8. Express Entry job-offer points change from November 3, 2026',
+'express_entry_text' => 'Since November 3, 2026, IRCC no longer requires an LMIA for a job offer to count under the arranged-employment factor of the Federal Skilled Worker (FSW) Program within Express Entry. Having an LMIA also no longer gives extra CRS points or priority. This change concerns permanent-residence points only; it does not remove temporary work-permit requirements. An employer-specific work permit may still require a positive LMIA unless a legal exemption such as C16 applies. The job offer must still be genuine and meet the program rules.',
+'age_source' => 'IRCC — FSW age points and Express Entry job-offer changes',
 'fraud' => '🛡️ Avoid recruitment scams',
 'fraud_text' => 'Do not pay an intermediary for a promise of a job contract, visa or LMIA. Verify the employer through official channels and keep copies of contracts and communications.',
 'official' => '📚 Official government sources',
@@ -214,6 +222,8 @@ footer{text-align:center;padding:22px;color:#526174}
 <p>{{ $t['family_text'] }}</p>
 <h3>{{ $t['age_title'] }}</h3>
 <p>{{ $t['age_text'] }}</p>
+<h3>{{ $t['express_entry_title'] }}</h3>
+<p>{{ $t['express_entry_text'] }}</p>
 </section>
 <section class="card">
 <h2>🧭
