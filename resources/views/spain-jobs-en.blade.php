@@ -195,6 +195,13 @@ footer{text-align:center;padding:25px;color:#666}
 <p>Requirements: C+E, valid CAP and digital tachograph card; 12 months’ experience is an advantage. Applicants must be registered with an employment office in Spain. Candidates registered outside Murcia but within Spain may email their CV to sef-molina-seleccion@carm.es. Not an overseas recruitment offer.</p>
 <a class="button" href="https://sefoficinavirtual.carm.es/sefoficinavirtual/public/oferta/detalle-oferta.xhtml?faces-redirect=true&amp;id=58191" target="_blank" rel="noopener">Official SEF listing</a>
 </div>
+<div class="card warning">
+<h2>🟡 SEF / SNE — Long-haul truck driver (national trailer transport), Alcantarilla</h2>
+<p><strong>Deadline: 30 November 2026</strong></p>
+<p>📍 Alcantarilla, Murcia — 1 position. Official offer 142026005463, dated 20 October 2026. Permanent full-time contract; work Monday to Sunday with statutory rest. Salary stated as €1,700 plus allowances and mileage; gross/net status and exact hours are not specified. The employer is not named in the official listing.</p>
+<p>Requirements: C+E and CAP for trailer driving, at least one year of trailer experience, and registration with a Spanish employment office. No language level is stated. The advert does not mention a digital tachograph card; this does not prove it is unnecessary. Applicants registered outside Murcia may send a CV only if registered with an employment office in Spain. No overseas recruitment or work-permit support is stated.</p>
+<a class="button" href="https://www.sistemanacionalempleo.es/SNE_ListadoOfertasDifusionWEB/consultarOfertasFrm.do?CA=14&amp;filtroCA=14&amp;idFlujo=98ae1vPTPz9YrIz5h049MXP7044&amp;modo=verPDF" target="_blank" rel="noopener">Official National Employment System listing (PDF)</a>
+</div>
 <div class="hero">
 <h2>🇪🇸 Official resources for drivers</h2>
 <p>Where possible, we rely on official sources rather than intermediaries or unknown accounts.</p>
