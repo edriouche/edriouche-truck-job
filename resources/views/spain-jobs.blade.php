@@ -68,6 +68,78 @@ footer{text-align:center;padding:25px;color:#666}
 <a class="button" href="https://www.doseguer.com/trabaja-con-nosotros/" target="_blank">🔗 التقديم الرسمي</a>
 </div>
 
+@php
+$viaAugustaCopy = [
+    'ar' => [
+        'title' => 'Vía Augusta — سائق شاحنة C+E مع ADR في سرقسطة',
+        'source' => 'إعلان عبر TDR Jobs؛ ليس إعلاناً من صفحة التوظيف الرسمية للشركة',
+        'location' => 'سرقسطة، إسبانيا',
+        'posted' => 'تاريخ النشر: 6 نوفمبر 2026',
+        'deadline' => 'آخر أجل المعلن: 8 يناير 2027',
+        'requirements' => 'رخصة C+E وCAP وADR الأساسي + صهاريج (Cisternas) إلزامية.',
+        'experience' => 'خبرة من سنة إلى 3 سنوات في الشاحنة نصف المقطورة؛ وتُفضّل خبرة سنتين أو أكثر. النقل وطني ودولي.',
+        'salary' => '32,000–36,000 يورو إجمالي سنوياً؛ عقد مؤقت مع إمكانية الاستقرار حسب الكفاءة.',
+        'status' => 'لم تؤكد الشركة قبول مرشحين من خارج الاتحاد الأوروبي أو دعم تصريح العمل. تحقق مباشرة ولا تدفع لأي وسيط.',
+        'apply' => 'تفاصيل الإعلان والتقديم عبر TDR Jobs',
+        'company' => 'الموقع الرسمي للشركة للتحقق'
+    ],
+    'es' => [
+        'title' => 'Vía Augusta — Conductor/a C+E con ADR en Zaragoza',
+        'source' => 'Oferta publicada en TDR Jobs; no es una publicación en la página oficial de empleo de la empresa.',
+        'location' => 'Zaragoza, España',
+        'posted' => 'Publicada: 6 de noviembre de 2026',
+        'deadline' => 'Plazo indicado: 8 de enero de 2027',
+        'requirements' => 'Permiso C+E, CAP y ADR básico + cisternas obligatorios.',
+        'experience' => 'Experiencia de 1 a 3 años con tráiler; se valoran 2 años o más. Transporte nacional e internacional.',
+        'salary' => '32.000–36.000 € brutos/año; contrato eventual con posibilidad de estabilidad según la valía.',
+        'status' => 'La empresa no ha confirmado que acepte candidatos de fuera de la UE ni que tramite permisos de trabajo. Verifica directamente y no pagues a intermediarios.',
+        'apply' => 'Ver la oferta y solicitar en TDR Jobs',
+        'company' => 'Web oficial de la empresa (verificación)'
+    ],
+    'fr' => [
+        'title' => 'Vía Augusta — Conducteur/trice C+E avec ADR à Saragosse',
+        'source' => 'Annonce publiée sur TDR Jobs ; ce n’est pas une offre publiée sur la page officielle de recrutement de l’entreprise.',
+        'location' => 'Saragosse, Espagne',
+        'posted' => 'Publication : 6 novembre 2026',
+        'deadline' => 'Date limite indiquée : 8 janvier 2027',
+        'requirements' => 'Permis C+E, CAP et ADR de base + citernes obligatoires.',
+        'experience' => 'Expérience de 1 à 3 ans en semi-remorque ; 2 ans ou plus appréciés. Transport national et international.',
+        'salary' => '32 000–36 000 € brut/an ; contrat temporaire avec possibilité de stabilité selon le profil.',
+        'status' => 'L’entreprise n’a pas confirmé accepter les candidats hors UE ni prendre en charge un permis de travail. Vérifiez directement et ne payez aucun intermédiaire.',
+        'apply' => 'Voir l’annonce et postuler sur TDR Jobs',
+        'company' => 'Site officiel de l’entreprise (vérification)'
+    ],
+    'en' => [
+        'title' => 'Vía Augusta — C+E truck driver with ADR in Zaragoza',
+        'source' => 'Listing published on TDR Jobs; not posted on the company’s official recruitment page.',
+        'location' => 'Zaragoza, Spain',
+        'posted' => 'Published: 6 November 2026',
+        'deadline' => 'Advertised deadline: 8 January 2027',
+        'requirements' => 'C+E licence, CAP and basic ADR + tankers are required.',
+        'experience' => '1–3 years of articulated-truck experience; 2+ years preferred. National and international transport.',
+        'salary' => '€32,000–€36,000 gross/year; temporary contract with possible stable employment depending on suitability.',
+        'status' => 'The company has not confirmed accepting non-EU applicants or sponsoring work permits. Verify directly and never pay an intermediary.',
+        'apply' => 'View listing and apply through TDR Jobs',
+        'company' => 'Official company website (verification)'
+    ]
+];
+$v = $viaAugustaCopy[app()->getLocale()] ?? $viaAugustaCopy['ar'];
+@endphp
+
+<div class="card">
+<h2>🟢 {{ $v['title'] }}</h2>
+<p><span class="badge">{{ $v['source'] }}</span></p>
+<p>📍 {{ $v['location'] }}</p>
+<p>📅 {{ $v['posted'] }}</p>
+<p>⏳ {{ $v['deadline'] }}</p>
+<p>🚛 {{ $v['requirements'] }}</p>
+<p>⭐ {{ $v['experience'] }}</p>
+<p>💶 {{ $v['salary'] }}</p>
+<p><strong>⚠️ {{ $v['status'] }}</strong></p>
+<a class="button" href="https://www.tdrjobs.com/es/ofertas-empleo/conductor-ce-adr-zaragoza-camion-trailer-cisternas-ruta-nacional-internacional-4635" target="_blank" rel="noopener">{{ $v['apply'] }}</a>
+<a class="button" href="https://www.via-augusta.com/" target="_blank" rel="noopener">{{ $v['company'] }}</a>
+</div>
+
 <div class="card">
 <h2>🟢 STEF</h2>
 <p><span class="badge">{{ __("messages.stef_offer_badge") }}</span></p>
