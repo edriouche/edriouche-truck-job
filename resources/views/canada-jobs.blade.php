@@ -260,5 +260,6 @@ Prepare an accurate CV and evidence of experience. Search clear Job Bank listing
 <p><a href="/">{{ $t['home'] }}</a></p>
 </main>
 <footer>Edriouche Truck Job · Information for professional drivers</footer>
+@include('partials.growth-navigation')
 </body>
 </html>

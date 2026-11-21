@@ -243,5 +243,6 @@
 
 @endif
 
+@include('partials.growth-navigation')
 </body>
 </html>

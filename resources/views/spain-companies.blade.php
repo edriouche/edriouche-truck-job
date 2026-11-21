@@ -614,5 +614,6 @@
 <p style="font-size:14px;text-align:center;margin-top:22px;">{{ $locale==="es" ? "Aviso: aparecer en esta página no significa que exista una vacante para todos los candidatos ni garantiza contrato, visado o contratación." : ($locale==="fr" ? "Attention : la présence sur cette page ne garantit pas un poste pour chaque candidat, ni un contrat, un visa ou un recrutement." : "تنبيه: إدراج الجهة في هذه الصفحة لا يعني وجود شاغر لكل المتقدمين ولا يضمن عقد عمل أو تأشيرة أو توظيفًا.") }}</p>
 </section>
 
+@include('partials.growth-navigation')
 </body>
 </html>

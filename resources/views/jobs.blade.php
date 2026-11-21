@@ -346,5 +346,6 @@ $locale = app()->getLocale();
     © 2026 Edriouche Truck Job
 </footer>
 
+@include('partials.growth-navigation')
 </body>
 </html>

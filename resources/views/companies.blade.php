@@ -767,6 +767,7 @@ p{font-size:17px!important;line-height:1.75!important}
 </div>
 </section>
 
+@include('partials.growth-navigation')
 </body>
 </html>
 ('

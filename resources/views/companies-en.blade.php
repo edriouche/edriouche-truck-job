@@ -115,5 +115,6 @@ function searchCompanies() {
     });
 }
 </script>
+@include('partials.growth-navigation')
 </body>
 </html>
