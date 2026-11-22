@@ -1,5 +1,4 @@
 
-@include("partials.language-switcher")
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}" dir="{{ app()->getLocale() === "ar" ? "rtl" : "ltr" }}">
 <head>
@@ -15,7 +14,7 @@
       gtag("config", "G-PJJ9CPZRBW");
     </script>
 <title>Edriouche Truck Job</title>
-    <meta name="description" content="Edriouche Truck Job - فرص العمل والمعلومات المهنية للسائقين من المغرب إلى أوروبا.">
+    <meta name="description" content="@if(app()->getLocale() === 'es') Empleo, formación e información profesional para conductores marroquíes en Marruecos y Europa. @elseif(app()->getLocale() === 'fr') Emploi, formation et informations professionnelles pour les conducteurs marocains au Maroc et en Europe. @elseif(app()->getLocale() === 'en') Jobs, training and professional information for Moroccan truck drivers in Morocco and Europe. @else فرص العمل والتكوين والمعلومات المهنية للسائقين المغاربة في المغرب وأوروبا. @endif">
 
     <style>
         * { box-sizing: border-box; }
@@ -382,7 +381,15 @@
 
 <body>
 <div class="topbar">
-    🚛 من المغرب إلى أوروبا — خدمة السائق بالمعلومة المهنية الموثوقة
+    @if(app()->getLocale() === 'es')
+        🚛 De Marruecos a Europa — información profesional fiable para conductores
+    @elseif(app()->getLocale() === 'fr')
+        🚛 Du Maroc vers l’Europe — des informations professionnelles fiables pour les conducteurs
+    @elseif(app()->getLocale() === 'en')
+        🚛 From Morocco to Europe — reliable professional information for drivers
+    @else
+        🚛 من المغرب إلى أوروبا — خدمة السائق بالمعلومة المهنية الموثوقة
+    @endif
 </div>
 
 <header>
