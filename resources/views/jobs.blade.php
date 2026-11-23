@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ __('messages.jobs_heading') }} - Edriouche Truck Job</title>
+    <meta name="description" content="@if(app()->getLocale() === 'es') Ofertas e información de empleo para conductores de camión en Marruecos. Consulta los requisitos y verifica cada oportunidad. @elseif(app()->getLocale() === 'fr') Offres et informations d’emploi pour les conducteurs routiers au Maroc. Vérifiez les conditions de chaque opportunité. @elseif(app()->getLocale() === 'en') Truck driver job information and opportunities in Morocco. Review requirements and verify every vacancy with the employer. @else معلومات وفرص عمل لسائقي الشاحنات في المغرب. تعرّف على الشروط وتحقق من كل إعلان لدى الشركة. @endif">
+    <link rel="canonical" href="https://edriouchetruckjobs.ma/jobs">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Edriouche Truck Job">
+    <meta property="og:title" content="{{ __('messages.jobs_heading') }} | Edriouche Truck Job">
+    <meta property="og:description" content="@if(app()->getLocale() === 'es') Ofertas e información de empleo para conductores de camión en Marruecos. @elseif(app()->getLocale() === 'fr') Offres et informations d’emploi pour les conducteurs routiers au Maroc. @elseif(app()->getLocale() === 'en') Truck driver job information and opportunities in Morocco. @else معلومات وفرص عمل لسائقي الشاحنات في المغرب. @endif">
+    <meta property="og:url" content="https://edriouchetruckjobs.ma/jobs">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ __('messages.jobs_heading') }} | Edriouche Truck Job">
 
     <style>
         * {
