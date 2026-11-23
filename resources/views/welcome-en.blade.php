@@ -4,6 +4,29 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Truck driver jobs, professional training and reliable road transport information for drivers in Morocco, Europe and Canada.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://edriouchetruckjobs.ma/#organization",
+      "name": "Edriouche Truck Job",
+      "url": "https://edriouchetruckjobs.ma/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://edriouchetruckjobs.ma/#website",
+      "url": "https://edriouchetruckjobs.ma/",
+      "name": "Edriouche Truck Job",
+      "publisher": {
+        "@id": "https://edriouchetruckjobs.ma/#organization"
+      },
+      "inLanguage": ["ar", "es", "fr", "en"]
+    }
+  ]
+}
+</script>
 <link rel="canonical" href="https://edriouchetruckjobs.ma/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Edriouche Truck Job">
