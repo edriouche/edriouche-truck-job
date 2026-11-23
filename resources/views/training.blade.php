@@ -14,6 +14,15 @@
     @else
         <title>تكوين السائقين | Edriouche Truck Job</title>
     @endif
+    <meta name="description" content="@if(app()->getLocale() === 'es') Formación profesional para conductores: seguridad vial, inspección del camión, conducción eficiente y desarrollo de habilidades. @elseif(app()->getLocale() === 'fr') Formation professionnelle des conducteurs : sécurité routière, inspection du camion, conduite économique et compétences pratiques. @elseif(app()->getLocale() === 'en') Practical truck driver training in road safety, vehicle inspections, efficient driving, cargo security and professional skills. @else أكاديمية تكوين سائقي الشاحنات: السلامة الطرقية وفحص الشاحنة والقيادة الاقتصادية وتأمين الحمولة وتطوير المهارات المهنية. @endif">
+    <link rel="canonical" href="https://edriouchetruckjobs.ma/training">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Edriouche Truck Job">
+    <meta property="og:title" content="@if(app()->getLocale() === 'es') Formación profesional para conductores @elseif(app()->getLocale() === 'fr') Formation professionnelle des conducteurs @elseif(app()->getLocale() === 'en') Professional Truck Driver Training @else أكاديمية تكوين السائقين المهنيين @endif | Edriouche Truck Job">
+    <meta property="og:description" content="@if(app()->getLocale() === 'es') Seguridad vial, inspección del vehículo y habilidades profesionales. @elseif(app()->getLocale() === 'fr') Sécurité routière, inspection du véhicule et compétences professionnelles. @elseif(app()->getLocale() === 'en') Road safety, truck inspections and practical professional driving skills. @else السلامة الطرقية وفحص الشاحنة والمهارات المهنية العملية. @endif">
+    <meta property="og:url" content="https://edriouchetruckjobs.ma/training">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="@if(app()->getLocale() === 'es') Formación profesional para conductores @elseif(app()->getLocale() === 'fr') Formation professionnelle des conducteurs @elseif(app()->getLocale() === 'en') Professional Truck Driver Training @else أكاديمية تكوين السائقين @endif | Edriouche Truck Job">
 
     <style>
         body{margin:0;font-family:Arial,sans-serif;background:#f4f6f8;color:#222;line-height:1.8}
