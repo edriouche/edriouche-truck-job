@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="{{ app()->getLocale() }}" dir="{{ app()->getLocale() === 'ar' ? 'rtl' : 'ltr' }}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#1f4e79">
-<title>شركات النقل | Edriouche Truck Job</title>
+<title>@if(app()->getLocale() === 'es') Empresas de transporte de Marruecos @elseif(app()->getLocale() === 'fr') Entreprises de transport au Maroc @elseif(app()->getLocale() === 'en') Moroccan Transport Companies @else شركات النقل المغربية @endif | Edriouche Truck Job</title>
+<meta name="description" content="@if(app()->getLocale() === 'es') Directorio de empresas marroquíes de transporte y logística. Consulta sus sitios oficiales y verifica directamente la información de contratación. @elseif(app()->getLocale() === 'fr') Annuaire des entreprises marocaines de transport et de logistique. Consultez leurs sites officiels et vérifiez directement les recrutements. @elseif(app()->getLocale() === 'en') Directory of Moroccan transport and logistics companies with official website links. Check recruitment information directly with each company. @else دليل شركات النقل واللوجستيك المغربية مع روابط المواقع الرسمية للتحقق من نشاط الشركات وفرص التوظيف مباشرة. @endif">
+<link rel="canonical" href="https://edriouchetruckjobs.ma/companies">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Edriouche Truck Job">
+<meta property="og:title" content="@if(app()->getLocale() === 'es') Empresas de transporte de Marruecos @elseif(app()->getLocale() === 'fr') Entreprises de transport au Maroc @elseif(app()->getLocale() === 'en') Moroccan Transport Companies @else شركات النقل المغربية @endif | Edriouche Truck Job">
+<meta property="og:description" content="@if(app()->getLocale() === 'es') Directorio de empresas de transporte y logística de Marruecos. @elseif(app()->getLocale() === 'fr') Annuaire des entreprises de transport et de logistique au Maroc. @elseif(app()->getLocale() === 'en') Official links to Moroccan transport and logistics companies. @else دليل شركات النقل واللوجستيك المغربية. @endif">
+<meta property="og:url" content="https://edriouchetruckjobs.ma/companies">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Moroccan Transport Companies | Edriouche Truck Job">
 <style>
 body{text-align:center;padding:25px;color:#666;font-size:18px;line-height:1.7}
 .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:15px}
