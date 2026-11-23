@@ -5,7 +5,7 @@ $copy = [
 'ar' => [
 'title' => 'فرص سائقي الشاحنات في أوروبا',
 'intro' => 'دليل مستقل لفرص فرنسا وبلجيكا وهولندا وألمانيا والبرتغال. هذه الصفحة منفصلة عن عروض إسبانيا، وتفرّق بين إعلان وظيفة محدد وبوابة بحث وترشيح عام.',
-'date' => 'آخر مراجعة للمصادر: 7 نوفمبر 2026',
+'date' => 'آخر مراجعة للمصادر: 23 نوفمبر 2026',
 'notice_title' => 'تنبيه قبل التقديم',
 'notice' => 'وجود إعلان أو بوابة توظيف لا يعني أن صاحب العمل يقبل مرشحاً من المغرب أو يوفر تصريح عمل. لا تعتبر أي فرصة مؤكدة من المغرب إلا إذا ذكر صاحب العمل ذلك صراحةً. لا تدفع أموالاً لوسيط مقابل عقد أو تأشيرة.',
 'lic_title' => 'افهم الوثائق قبل التقديم',
@@ -41,7 +41,7 @@ $copy = [
 'es' => [
 'title' => 'Ofertas para conductores de camión en Europa',
 'intro' => 'Guía independiente para Francia, Bélgica, Países Bajos, Alemania y Portugal. Esta página está separada de las ofertas de España y distingue entre vacantes concretas, portales de empleo y candidaturas generales.',
-'date' => 'Última revisión de las fuentes: 7 de noviembre de 2026',
+'date' => 'Última revisión de las fuentes: 23 de noviembre de 2026',
 'notice_title' => 'Aviso antes de solicitar',
 'notice' => 'Que exista una oferta o un portal de empleo no significa que la empresa acepte candidatos desde Marruecos ni que tramite un permiso de trabajo. No consideres confirmada una oportunidad para Marruecos salvo que la empresa lo indique expresamente. No pagues a intermediarios por contratos o visados.',
 'lic_title' => 'Documentación: no confundir requisitos',
@@ -77,7 +77,7 @@ $copy = [
 'fr' => [
 'title' => 'Offres pour conducteurs routiers en Europe',
 'intro' => 'Guide indépendant pour la France, la Belgique, les Pays-Bas, l’Allemagne et le Portugal. Cette page est distincte des offres en Espagne et différencie les postes précis, les portails d’emploi et les candidatures spontanées.',
-'date' => 'Dernière vérification des sources : 7 novembre 2026',
+'date' => 'Dernière vérification des sources : 23 novembre 2026',
 'notice_title' => 'Avertissement avant de postuler',
 'notice' => 'La présence d’une annonce ou d’un portail ne signifie pas que l’employeur accepte les candidats résidant au Maroc ou prend en charge un permis de travail. Une possibilité depuis le Maroc n’est confirmée que si l’employeur le précise explicitement. Ne payez aucun intermédiaire pour un contrat ou un visa.',
 'lic_title' => 'Documents : ne pas confondre',
@@ -193,6 +193,23 @@ $items = [
 @endif
 </section>
 @endforeach
+<!-- New vacancies verified against original sources on 23 November 2026 -->
+<section class="country">
+<h2>🇧🇪 Accent Jobs — سائق CE لنقل الحاويات البحرية (Mendonk)</h2>
+<p><strong>نُشر 19 نوفمبر 2026 · آخر تحقق 23 نوفمبر 2026</strong></p>
+<p>رخصة CE سارية. ADR للطرود وخبرة الحاويات ميزتان إضافيتان. Code 95 وبطاقة التاكوغراف غير مذكورين في الإعلان.</p>
+<p>الأجر الإجمالي 15.6285 يورو للساعة؛ تعويض ARAB الصافي 1.8175 يورو للساعة؛ تعويض المبيت الإجمالي 47.9310 يورو لليلة. دوام كامل نهاري، عمل مؤقت مع إمكانية عقد دائم. بداية العمل بين 04:00 و06:00؛ 15–18 رحلة يومياً مع احتمال رحلات متعددة الأيام والمبيت.</p>
+<p>عدد المناصب وآخر أجل غير مذكورين. التوظيف من المغرب ودعم تصريح العمل غير مذكورين.</p>
+<div class="links"><a href="https://www.vdab.be/vindeenjob/vacatures/75087192/chauffeur-ce-zeecontainers" target="_blank" rel="noopener">VDAB — الإعلان الأصلي ↗</a> · <a href="https://accentjobs.be/nl/vacature/chauffeur-ce-zeecontainers-579240" target="_blank" rel="noopener">Accent Jobs ↗</a></div>
+</section>
+<section class="country">
+<h2>🇩🇪 ZAG Menschen & Perspektiven — سائق شاحنة CE (Staßfurt)</h2>
+<p><strong>نُشر تقريباً 16 نوفمبر 2026 · آخر تحقق 23 نوفمبر 2026</strong></p>
+<p>رخصة CE مع Code 95 وتأهيل مهني مناسب؛ الخبرة الأولية في نقل البضائع مفضلة. بطاقة التاكوغراف غير مذكورة.</p>
+<p>18.50 يورو للساعة؛ الإعلان الأصلي لا يحدد صراحة هل المبلغ إجمالي أم صافٍ. دوام كامل بنظام الإعارة الوظيفية، وبداية فورية. ساعات العمل الأسبوعية وعدد المناصب وآخر أجل غير مذكورة.</p>
+<p>التوظيف من المغرب ودعم تصريح العمل غير مذكورين.</p>
+<div class="links"><a href="https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-41d90c4e-ce6f-4a92--S" target="_blank" rel="noopener">Bundesagentur für Arbeit — الإعلان الرسمي ↗</a> · <a href="https://www.heyjobs.co/de-de/jobs/41d90c4e-ce6f-4a92-a8a2-c424d3be5d5d" target="_blank" rel="noopener">تفاصيل ZAG ↗</a></div>
+</section>
 <section class="agency"><h2>🌍 {{ $c['agency_title'] }}</h2><p>{{ $c['agency_text'] }}</p><div class="links"><a href="https://arktis.group/jobs/drive/" target="_blank" rel="noopener">{{ $c['agency_link'] }} ↗</a></div></section>
 <section class="checks"><h2>✔️ {{ $c['how_title'] }}</h2><ul>@foreach($c['how'] as $line)<li>{{ $line }}</li>@endforeach</ul></section>
 <footer>{{ $c['footer'] }}<br>© 2026 Edriouche Truck Job</footer>
