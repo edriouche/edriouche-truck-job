@@ -13,7 +13,7 @@
       gtag("js", new Date());
       gtag("config", "G-PJJ9CPZRBW");
     </script>
-<title>@if(app()->getLocale() === 'es') Edriouche Truck Job | Empleo y formación para camioneros @elseif(app()->getLocale() === 'fr') Edriouche Truck Job | Emploi et formation des conducteurs routiers @else Edriouche Truck Job | فرص عمل وتكوين سائقي الشاحنات @endif</title>
+<title>@if(app()->getLocale() === 'es') Edriouche Truck Job | Empleo y formación para camioneros @elseif(app()->getLocale() === 'fr') Edriouche Truck Job | Emploi et formation des conducteurs routiers @elseif(app()->getLocale() === 'en') Edriouche Truck Job | Truck Driver Jobs, Training & Road Transport @else Edriouche Truck Job | فرص عمل وتكوين سائقي الشاحنات @endif</title>
     <meta name="description" content="@if(app()->getLocale() === 'es') Empleo, formación e información profesional para conductores de camión en Marruecos y Europa. @elseif(app()->getLocale() === 'fr') Emploi, formation et informations professionnelles pour les conducteurs routiers au Maroc et à l’international. @elseif(app()->getLocale() === 'en') Truck driver jobs, professional training and reliable transport information for drivers in Morocco, Europe and Canada. @else فرص العمل والتكوين والمعلومات المهنية الموثوقة لسائقي الشاحنات في المغرب وأوروبا وكندا. @endif">
     <script type="application/ld+json">
     {
