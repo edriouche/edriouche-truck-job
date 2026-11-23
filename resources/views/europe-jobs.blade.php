@@ -5,7 +5,7 @@ $copy = [
 'ar' => [
 'title' => 'فرص سائقي الشاحنات في أوروبا',
 'intro' => 'دليل مستقل لفرص فرنسا وبلجيكا وهولندا وألمانيا والبرتغال. هذه الصفحة منفصلة عن عروض إسبانيا، وتفرّق بين إعلان وظيفة محدد وبوابة بحث وترشيح عام.',
-'date' => 'آخر مراجعة للمصادر: 7 نوفمبر 2026',
+'date' => 'آخر مراجعة للمصادر: 23 نوفمبر 2026',
 'notice_title' => 'تنبيه قبل التقديم',
 'notice' => 'وجود إعلان أو بوابة توظيف لا يعني أن صاحب العمل يقبل مرشحاً من المغرب أو يوفر تصريح عمل. لا تعتبر أي فرصة مؤكدة من المغرب إلا إذا ذكر صاحب العمل ذلك صراحةً. لا تدفع أموالاً لوسيط مقابل عقد أو تأشيرة.',
 'lic_title' => 'افهم الوثائق قبل التقديم',
@@ -41,7 +41,7 @@ $copy = [
 'es' => [
 'title' => 'Ofertas para conductores de camión en Europa',
 'intro' => 'Guía independiente para Francia, Bélgica, Países Bajos, Alemania y Portugal. Esta página está separada de las ofertas de España y distingue entre vacantes concretas, portales de empleo y candidaturas generales.',
-'date' => 'Última revisión de las fuentes: 7 de noviembre de 2026',
+'date' => 'Última revisión de las fuentes: 23 de noviembre de 2026',
 'notice_title' => 'Aviso antes de solicitar',
 'notice' => 'Que exista una oferta o un portal de empleo no significa que la empresa acepte candidatos desde Marruecos ni que tramite un permiso de trabajo. No consideres confirmada una oportunidad para Marruecos salvo que la empresa lo indique expresamente. No pagues a intermediarios por contratos o visados.',
 'lic_title' => 'Documentación: no confundir requisitos',
@@ -77,7 +77,7 @@ $copy = [
 'fr' => [
 'title' => 'Offres pour conducteurs routiers en Europe',
 'intro' => 'Guide indépendant pour la France, la Belgique, les Pays-Bas, l’Allemagne et le Portugal. Cette page est distincte des offres en Espagne et différencie les postes précis, les portails d’emploi et les candidatures spontanées.',
-'date' => 'Dernière vérification des sources : 7 novembre 2026',
+'date' => 'Dernière vérification des sources : 23 novembre 2026',
 'notice_title' => 'Avertissement avant de postuler',
 'notice' => 'La présence d’une annonce ou d’un portail ne signifie pas que l’employeur accepte les candidats résidant au Maroc ou prend en charge un permis de travail. Une possibilité depuis le Maroc n’est confirmée que si l’employeur le précise explicitement. Ne payez aucun intermédiaire pour un contrat ou un visa.',
 'lic_title' => 'Documents : ne pas confondre',
@@ -113,7 +113,7 @@ $copy = [
 'en' => [
 'title' => 'Truck Driver Opportunities in Europe',
 'intro' => 'An independent guide to France, Belgium, the Netherlands, Germany and Portugal. This page is separate from Spain jobs and distinguishes specific vacancies, job portals and general applications.',
-'date' => 'Sources last reviewed: 7 November 2026',
+'date' => 'Sources last reviewed: 23 November 2026',
 'notice_title' => 'Important before applying',
 'notice' => 'A vacancy or job portal does not mean the employer accepts applicants from Morocco or sponsors a work permit. Treat an opportunity as open to applicants in Morocco only when the employer explicitly confirms this. Never pay an intermediary for a job contract or visa.',
 'lic_title' => 'Understand the documents',
@@ -193,6 +193,24 @@ $items = [
 @endif
 </section>
 @endforeach
+<!-- New vacancies verified against original sources on 23 November 2026 -->
+<!-- New vacancies verified against original sources on 23 November 2026 -->
+<section class="country">
+<h2>🇧🇪 Accent Jobs — @if($locale==='en')CE driver, maritime container transport (Mendonk)@elseif($locale==='es')Conductor CE para transporte de contenedores marítimos (Mendonk)@elseif($locale==='fr')Chauffeur CE — transport de conteneurs maritimes (Mendonk)@else سائق CE لنقل الحاويات البحرية (Mendonk)@endif</h2>
+<p><strong>@if($locale==='en')Published 19 November 2026 · Checked 23 November 2026 @elseif($locale==='es')Publicado el 19 de noviembre de 2026 · Verificado el 23 de noviembre de 2026 @elseif($locale==='fr')Publié le 19 novembre 2026 · Vérifié le 23 novembre 2026 @else نُشر 19 نوفمبر 2026 · آخر تحقق 23 نوفمبر 2026 @endif</strong></p>
+<p>@if($locale==='en')Valid CE licence. ADR (packages) and container experience are advantages. Code 95 and tachograph card are not specified in the advert. @elseif($locale==='es')Permiso CE válido. ADR (bultos) y experiencia con contenedores son ventajas. El anuncio no especifica Code 95 ni tarjeta de tacógrafo. @elseif($locale==='fr')Permis CE valide. ADR colis et expérience des conteneurs sont des atouts. L’annonce ne précise pas le Code 95 ni la carte tachygraphe. @else رخصة CE سارية. ADR للطرود وخبرة الحاويات ميزتان إضافيتان. الإعلان لا يحدد Code 95 أو بطاقة التاكوغراف. @endif</p>
+<p>@if($locale==='en')Gross pay: €15.6285/hour; net ARAB allowance: €1.8175/hour; gross overnight allowance: €47.9310/night. Full-time daytime work, temporary agency contract with possibility of permanent employment. Start between 04:00 and 06:00; 15–18 trips daily, sometimes multi-day with overnight stays. @elseif($locale==='es')Salario bruto: 15,6285 €/hora; complemento ARAB neto: 1,8175 €/hora; dieta bruta por pernocta: 47,9310 €/noche. Jornada completa diurna, contrato temporal con posibilidad de indefinido. Inicio entre 04:00 y 06:00; 15–18 trayectos diarios, a veces de varios días con pernocta. @elseif($locale==='fr')Salaire brut : 15,6285 €/h ; indemnité ARAB nette : 1,8175 €/h ; indemnité brute de nuitée : 47,9310 €/nuit. Temps plein de jour, intérim avec possibilité de CDI. Début entre 04h00 et 06h00 ; 15 à 18 trajets par jour, parfois sur plusieurs jours avec nuitée. @else الأجر الإجمالي 15.6285 يورو للساعة؛ تعويض ARAB الصافي 1.8175 يورو للساعة؛ تعويض المبيت الإجمالي 47.9310 يورو لليلة. دوام كامل نهاري، عمل مؤقت مع إمكانية عقد دائم. بداية العمل بين 04:00 و06:00؛ 15–18 رحلة يومياً مع احتمال رحلات متعددة الأيام والمبيت. @endif</p>
+<p>@if($locale==='en')Vacancy count and deadline are not stated. Recruitment from Morocco and work-permit support are not stated. @elseif($locale==='es')No se indican el número de puestos ni la fecha límite. Tampoco se indica la contratación desde Marruecos ni el apoyo para obtener permiso de trabajo. @elseif($locale==='fr')Le nombre de postes et la date limite ne sont pas précisés. Le recrutement depuis le Maroc et l’aide au permis de travail ne sont pas indiqués. @else عدد المناصب وآخر أجل غير مذكورين. التوظيف من المغرب ودعم تصريح العمل غير مذكورين. @endif</p>
+<div class="links"><a href="https://www.vdab.be/vindeenjob/vacatures/75087192/chauffeur-ce-zeecontainers" target="_blank" rel="noopener">VDAB — @if($locale==='en')original vacancy @elseif($locale==='es')oferta original @elseif($locale==='fr')annonce originale @else الإعلان الأصلي @endif ↗</a> · <a href="https://accentjobs.be/nl/vacature/chauffeur-ce-zeecontainers-579240" target="_blank" rel="noopener">Accent Jobs ↗</a></div>
+</section>
+<section class="country">
+<h2>🇩🇪 ZAG Menschen & Perspektiven — @if($locale==='en')CE truck driver (Staßfurt)@elseif($locale==='es')Conductor de camión CE (Staßfurt)@elseif($locale==='fr')Conducteur poids lourd CE (Staßfurt)@else سائق شاحنة CE (Staßfurt)@endif</h2>
+<p><strong>@if($locale==='en')Published approximately 16 November 2026 · Checked 23 November 2026 @elseif($locale==='es')Publicado aproximadamente el 16 de noviembre de 2026 · Verificado el 23 de noviembre de 2026 @elseif($locale==='fr')Publié vers le 16 novembre 2026 · Vérifié le 23 novembre 2026 @else نُشر تقريباً في 16 نوفمبر 2026 · آخر تحقق 23 نوفمبر 2026 @endif</strong></p>
+<p>@if($locale==='en')CE licence with Code 95 and relevant professional qualification required; initial freight-transport experience is preferred. Tachograph-card requirement is not stated. @elseif($locale==='es')Se exige permiso CE con Code 95 y la cualificación profesional correspondiente; se valora experiencia inicial en transporte de mercancías. No se especifica la tarjeta de tacógrafo. @elseif($locale==='fr')Permis CE avec Code 95 et qualification professionnelle correspondante exigés ; une première expérience en transport de marchandises est souhaitable. La carte tachygraphe n’est pas précisée. @else رخصة CE مع Code 95 وتأهيل مهني مناسب؛ الخبرة الأولية في نقل البضائع مفضلة. بطاقة التاكوغراف غير مذكورة. @endif</p>
+<p>@if($locale==='en')€18.50/hour; the original advert does not explicitly say whether gross or net. Full-time employee-leasing assignment, immediate start. Weekly hours, number of vacancies and deadline are not stated. @elseif($locale==='es')18,50 €/hora; el anuncio original no aclara si el importe es bruto o neto. Jornada completa mediante cesión de trabajadores, incorporación inmediata. No se indican las horas semanales, el número de puestos ni el plazo. @elseif($locale==='fr')18,50 €/h ; l’annonce originale ne précise pas s’il s’agit d’un montant brut ou net. Temps plein en mise à disposition de personnel, début immédiat. Les heures hebdomadaires, le nombre de postes et la date limite ne sont pas précisés. @else 18.50 يورو للساعة؛ الإعلان الأصلي لا يحدد صراحة هل المبلغ إجمالي أم صافٍ. دوام كامل بنظام الإعارة الوظيفية، وبداية فورية. ساعات العمل الأسبوعية وعدد المناصب وآخر أجل غير مذكورة. @endif</p>
+<p>@if($locale==='en')Recruitment from Morocco and work-permit support are not stated. @elseif($locale==='es')No se indican la contratación desde Marruecos ni el apoyo para obtener permiso de trabajo. @elseif($locale==='fr')Le recrutement depuis le Maroc et l’aide au permis de travail ne sont pas précisés. @else التوظيف من المغرب ودعم تصريح العمل غير مذكورين. @endif</p>
+<div class="links"><a href="https://www.arbeitsagentur.de/jobsuche/jobdetail/12951-41d90c4e-ce6f-4a92--S" target="_blank" rel="noopener">Bundesagentur für Arbeit — @if($locale==='en')official vacancy @elseif($locale==='es')oferta oficial @elseif($locale==='fr')annonce officielle @else الإعلان الرسمي @endif ↗</a> · <a href="https://www.heyjobs.co/de-de/jobs/41d90c4e-ce6f-4a92-a8a2-c424d3be5d5d" target="_blank" rel="noopener">ZAG ↗</a></div>
+</section>
 <section class="agency"><h2>🌍 {{ $c['agency_title'] }}</h2><p>{{ $c['agency_text'] }}</p><div class="links"><a href="https://arktis.group/jobs/drive/" target="_blank" rel="noopener">{{ $c['agency_link'] }} ↗</a></div></section>
 <section class="checks"><h2>✔️ {{ $c['how_title'] }}</h2><ul>@foreach($c['how'] as $line)<li>{{ $line }}</li>@endforeach</ul></section>
 <footer>{{ $c['footer'] }}<br>© 2026 Edriouche Truck Job</footer>
