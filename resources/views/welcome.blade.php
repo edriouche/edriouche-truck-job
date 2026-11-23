@@ -14,7 +14,18 @@
       gtag("config", "G-PJJ9CPZRBW");
     </script>
 <title>Edriouche Truck Job</title>
-    <meta name="description" content="@if(app()->getLocale() === 'es') Empleo, formación e información profesional para conductores marroquíes en Marruecos y Europa. @elseif(app()->getLocale() === 'fr') Emploi, formation et informations professionnelles pour les conducteurs marocains au Maroc et en Europe. @elseif(app()->getLocale() === 'en') Jobs, training and professional information for Moroccan truck drivers in Morocco and Europe. @else فرص العمل والتكوين والمعلومات المهنية للسائقين المغاربة في المغرب وأوروبا. @endif">
+    <meta name="description" content="@if(app()->getLocale() === 'es') Empleo, formación e información profesional para conductores de camión en Marruecos y Europa. @elseif(app()->getLocale() === 'fr') Emploi, formation et informations professionnelles pour les conducteurs routiers au Maroc et à l’international. @elseif(app()->getLocale() === 'en') Truck driver jobs, professional training and reliable transport information for drivers in Morocco, Europe and Canada. @else فرص العمل والتكوين والمعلومات المهنية الموثوقة لسائقي الشاحنات في المغرب وأوروبا وكندا. @endif">
+    <link rel="canonical" href="https://edriouchetruckjobs.ma/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Edriouche Truck Job">
+    <meta property="og:title" content="Edriouche Truck Job | Truck Driver Jobs, Training & Road Transport">
+    <meta property="og:description" content="@if(app()->getLocale() === 'es') Empleo, formación e información profesional para conductores de camión. @elseif(app()->getLocale() === 'fr') Emploi, formation et informations professionnelles pour les conducteurs routiers. @elseif(app()->getLocale() === 'en') Truck driver jobs, professional training and reliable road transport information. @else فرص العمل والتكوين والمعلومات المهنية لسائقي الشاحنات. @endif">
+    <meta property="og:url" content="https://edriouchetruckjobs.ma/">
+    <meta property="og:image" content="https://edriouchetruckjobs.ma/images/founder.jpg?v=2">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Edriouche Truck Job | Truck Driver Jobs & Training">
+    <meta name="twitter:description" content="Professional driver jobs, training and reliable road transport information.">
+    <meta name="twitter:image" content="https://edriouchetruckjobs.ma/images/founder.jpg?v=2">
 
     <style>
         * { box-sizing: border-box; }
