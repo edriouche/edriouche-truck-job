@@ -167,6 +167,25 @@ footer{text-align:center;padding:25px;color:#666}
 <p>@if(app()->getLocale()==='en')Requirements: C+E, valid CAP and digital tachograph card; 12 months’ experience is an advantage. Applicants must be registered with an employment office in Spain. Candidates registered outside Murcia but within Spain may email their CV to sef-molina-seleccion@carm.es. Not an overseas recruitment offer.@elseif(app()->getLocale()==='fr')Exigences : C+E, CAP valide et carte de tachygraphe numérique ; 12 mois d’expérience appréciés. Inscription obligatoire auprès d’un service public de l’emploi en Espagne. Les candidats inscrits hors de Murcie mais en Espagne peuvent envoyer leur CV à sef-molina-seleccion@carm.es. Cette offre ne concerne pas le recrutement depuis l’étranger.@elseif(app()->getLocale()==='es')Requisitos: C+E, CAP vigente y tarjeta de tacógrafo digital; se valoran 12 meses de experiencia. Es obligatorio estar inscrito en una oficina de empleo en España. Quienes estén inscritos fuera de Murcia pero dentro de España pueden enviar el CV a sef-molina-seleccion@carm.es. No es una oferta de contratación desde el extranjero.@else المتطلبات: C+E وCAP ساري وبطاقة تاكوغراف رقمية؛ خبرة 12 شهراً ميزة. يجب التسجيل في مكتب تشغيل داخل إسبانيا. يمكن للمسجلين خارج مورسيا ولكن داخل إسبانيا إرسال السيرة الذاتية إلى sef-molina-seleccion@carm.es. هذا ليس عرض توظيف من خارج إسبانيا. @endif</p>
 <a class="button" href="https://sefoficinavirtual.carm.es/sefoficinavirtual/public/oferta/detalle-oferta.xhtml?faces-redirect=true&amp;id=58191" target="_blank" rel="noopener">@if(app()->getLocale()==='en')Official SEF listing @elseif(app()->getLocale()==='fr')Annonce officielle SEF @elseif(app()->getLocale()==='es')Oferta oficial SEF @else الإعلان الرسمي SEF @endif</a>
 </div>
+<!-- New official SEPE vacancies checked 23 November 2026 -->
+<div class="card">
+<h2>🟢 SEPE 052026008024 — سائق توزيع شاحنة C1</h2>
+<p><strong>@if(app()->getLocale()==='en')Official vacancy · checked 23 November 2026 @elseif(app()->getLocale()==='fr')Offre officielle · vérifiée le 23 novembre 2026 @elseif(app()->getLocale()==='es')Oferta oficial · verificada el 23 de noviembre de 2026 @else إعلان رسمي · آخر تحقق 23 نوفمبر 2026 @endif</strong></p>
+<p>📍 لاس تشافيراس، سان ميغيل دي أبونا، تينيريفي. النشر 18 نوفمبر؛ آخر أجل 28 نوفمبر 2026.</p>
+<p>الرخصة C1 وCAP ساري إلزاميان. عقد دائم ودوام كامل من الاثنين إلى الجمعة، 07:00–15:00. الراتب 1,500 يورو صافياً شهرياً. عدد المناصب وبطاقة التاكوغراف غير مذكورين.</p>
+<p><strong>التوظيف من المغرب وتصريح العمل غير مذكورين. وظيفة توزيع محلي وليست نقلاً دولياً.</strong></p>
+<a class="button" href="https://www.sistemanacionalempleo.es/OfertaDifusionWEB/detalleOferta.do?id=052026008024&amp;modo=inicio&amp;origen=ultimasOfertas&amp;ret=A" target="_blank" rel="noopener">🔗 الإعلان الرسمي SEPE</a>
+</div>
+<div class="card">
+<h2>🟢 SEPE 052026008009 — سائق شاحنة C</h2>
+<p><strong>إعلان رسمي · آخر تحقق 23 نوفمبر 2026</strong></p>
+<p>📍 لوس رياليخوس، تينيريفي. النشر 17 نوفمبر؛ آخر أجل 27 نوفمبر 2026.</p>
+<p>الرخصة C/C1 وCAP ساري إلزاميان؛ خبرة 12 شهراً مطلوبة. عقد دائم ودوام كامل من الاثنين إلى الجمعة 08:00–13:00 و15:00–18:00. الراتب وعدد المناصب وبطاقة التاكوغراف غير مذكورة.</p>
+<p><strong>التوظيف من المغرب وتصريح العمل غير مذكورين. وظيفة توزيع محلي.</strong></p>
+<a class="button" href="https://www.sistemanacionalempleo.es/OfertaDifusionWEB/detalleOferta.do?CA=05&amp;id=052026008009&amp;modo=inicio&amp;origen=ultimasOfertas&amp;ret=A" target="_blank" rel="noopener">🔗 الإعلان الرسمي SEPE</a>
+</div>
+<div class="warning"><p><strong>تنبيه: هذان المنصبان محليان في تينيريفي؛ لا يذكر الإعلان قبول المقيمين في المغرب أو توفير تصريح عمل. تحقق من المصدر الأصلي قبل التقديم.</strong></p></div>
+
 <div class="hero">
 <h2>🇪🇸 دليل السائق المغربي في إسبانيا</h2>
 <p>كل ما يحتاجه السائق للبحث عن عمل وتكوين ومعلومات موثوقة في مكان واحد.</p>
