@@ -4,6 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{{ __("messages.spain_jobs_title") }} | Edriouche Truck Job</title>
+<meta name="description" content="Truck driver job information in Spain, including employer recruitment links, C+E licence and professional qualification requirements. Verify each vacancy with the official employer.">
+<link rel="canonical" href="https://edriouchetruckjobs.ma/spain-jobs">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Edriouche Truck Job">
+<meta property="og:title" content="Truck Driver Jobs in Spain | Edriouche Truck Job">
+<meta property="og:description" content="Employer recruitment links and practical requirements for truck drivers seeking work in Spain.">
+<meta property="og:url" content="https://edriouchetruckjobs.ma/spain-jobs">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Truck Driver Jobs in Spain | Edriouche Truck Job">
 <style>
 body{font-family:Arial,sans-serif;background:#f5f7fa;margin:0;color:#222;line-height:1.8}
 .container{max-width:900px;margin:auto;padding:15px}
