@@ -148,6 +148,15 @@ $t = $content[$locale] ?? $content['ar'];
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ $t['title'] }} | Edriouche Truck Job</title>
 <meta name="description" content="{{ $t['intro'] }}">
+<link rel="canonical" href="https://edriouchetruckjobs.ma/canada-jobs">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Edriouche Truck Job">
+<meta property="og:title" content="{{ $t['title'] }} | Edriouche Truck Job">
+<meta property="og:description" content="{{ $t['intro'] }}">
+<meta property="og:url" content="https://edriouchetruckjobs.ma/canada-jobs">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ $t['title'] }} | Edriouche Truck Job">
+<meta name="twitter:description" content="{{ $t['intro'] }}">
 <style>
 body{margin:0;background:#f4f7fb;color:#172033;font-family:Arial,sans-serif;line-height:1.8}
 header{background:#15304b;color:#fff;padding:24px 16px;text-align:center}
