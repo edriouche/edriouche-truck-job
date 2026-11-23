@@ -5,6 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#1f4e79">
 <title>Moroccan Transport Companies | Edriouche Truck Job</title>
+<meta name="description" content="Explore a directory of Moroccan road transport and logistics companies, with official website links and practical recruitment verification guidance for professional drivers.">
+<link rel="canonical" href="https://edriouchetruckjobs.ma/companies">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Edriouche Truck Job">
+<meta property="og:title" content="Moroccan Transport Companies | Edriouche Truck Job">
+<meta property="og:description" content="Official links to Moroccan transport and logistics companies. Verify recruitment information directly with each employer.">
+<meta property="og:url" content="https://edriouchetruckjobs.ma/companies">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Moroccan Transport Companies | Edriouche Truck Job">
 <style>
 body{margin:0;padding:20px;font-family:Arial,sans-serif;color:#333;background:#f5f8fc;line-height:1.7}
 header,section,.company{background:white;padding:20px;margin:18px auto;border-radius:14px;max-width:1100px}
