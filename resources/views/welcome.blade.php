@@ -925,21 +925,5 @@
     <?php endif; ?>
 </div>
 <?php endif; ?>
-
-    @auth
-        <form method="POST" action="{{ route('home-image.caption') }}" style="margin-top:10px;">
-            @csrf
-            <input type="text" name="caption" value="{{ $caption }}" placeholder="اكتب موضوع الصورة" maxlength="200" style="width:80%;padding:8px;">
-            <button type="submit">✏️ حفظ الموضوع</button>
-        </form>
-
-        <form method="POST" action="{{ route('home-image.destroy') }}" style="margin-top:8px;">
-            @csrf
-            @method('DELETE')
-            <button type="submit" onclick="return confirm('هل تريد حذف الصورة وموضوعها؟')">🗑️ حذف الصورة</button>
-        </form>
-    @endauth
-</div>
-@endif
 </body>
 </html>
