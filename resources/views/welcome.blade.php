@@ -13,8 +13,31 @@
       gtag("js", new Date());
       gtag("config", "G-PJJ9CPZRBW");
     </script>
-<title>Edriouche Truck Job</title>
+<title>@if(app()->getLocale() === 'es') Edriouche Truck Job | Empleo y formación para camioneros @elseif(app()->getLocale() === 'fr') Edriouche Truck Job | Emploi et formation des conducteurs routiers @else Edriouche Truck Job | فرص عمل وتكوين سائقي الشاحنات @endif</title>
     <meta name="description" content="@if(app()->getLocale() === 'es') Empleo, formación e información profesional para conductores de camión en Marruecos y Europa. @elseif(app()->getLocale() === 'fr') Emploi, formation et informations professionnelles pour les conducteurs routiers au Maroc et à l’international. @elseif(app()->getLocale() === 'en') Truck driver jobs, professional training and reliable transport information for drivers in Morocco, Europe and Canada. @else فرص العمل والتكوين والمعلومات المهنية الموثوقة لسائقي الشاحنات في المغرب وأوروبا وكندا. @endif">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://edriouchetruckjobs.ma/#organization",
+          "name": "Edriouche Truck Job",
+          "url": "https://edriouchetruckjobs.ma/"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://edriouchetruckjobs.ma/#website",
+          "url": "https://edriouchetruckjobs.ma/",
+          "name": "Edriouche Truck Job",
+          "publisher": {
+            "@id": "https://edriouchetruckjobs.ma/#organization"
+          },
+          "inLanguage": ["ar", "es", "fr", "en"]
+        }
+      ]
+    }
+    </script>
     <link rel="canonical" href="https://edriouchetruckjobs.ma/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Edriouche Truck Job">
