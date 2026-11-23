@@ -50,21 +50,21 @@
     <meta name="description" content="{{ $homeSeoDescription }}">
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
+      "@@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "Organization",
-          "@id": "https://edriouchetruckjobs.ma/#organization",
+          "@@type": "Organization",
+          "@@id": "https://edriouchetruckjobs.ma/#organization",
           "name": "Edriouche Truck Job",
           "url": "https://edriouchetruckjobs.ma/"
         },
         {
-          "@type": "WebSite",
-          "@id": "https://edriouchetruckjobs.ma/#website",
+          "@@type": "WebSite",
+          "@@id": "https://edriouchetruckjobs.ma/#website",
           "url": "https://edriouchetruckjobs.ma/",
           "name": "Edriouche Truck Job",
           "publisher": {
-            "@id": "https://edriouchetruckjobs.ma/#organization"
+            "@@id": "https://edriouchetruckjobs.ma/#organization"
           },
           "inLanguage": ["ar", "es", "fr", "en"]
         }
