@@ -13,8 +13,41 @@
       gtag("js", new Date());
       gtag("config", "G-PJJ9CPZRBW");
     </script>
-<title>@if(app()->getLocale() === 'es') Edriouche Truck Job | Empleo y formación para camioneros @elseif(app()->getLocale() === 'fr') Edriouche Truck Job | Emploi et formation des conducteurs routiers @elseif(app()->getLocale() === 'en') Edriouche Truck Job | Truck Driver Jobs, Training & Road Transport @else Edriouche Truck Job | فرص عمل وتكوين سائقي الشاحنات @endif</title>
-    <meta name="description" content="@if(app()->getLocale() === 'es') Empleo, formación e información profesional para conductores de camión en Marruecos y Europa. @elseif(app()->getLocale() === 'fr') Emploi, formation et informations professionnelles pour les conducteurs routiers au Maroc et à l’international. @elseif(app()->getLocale() === 'en') Truck driver jobs, professional training and reliable transport information for drivers in Morocco, Europe and Canada. @else فرص العمل والتكوين والمعلومات المهنية الموثوقة لسائقي الشاحنات في المغرب وأوروبا وكندا. @endif">
+@php
+    $homeLocale = app()->getLocale();
+    $homeSeoTitle = match ($homeLocale) {
+        'es' => 'Edriouche Truck Job | Empleo y formación para camioneros',
+        'fr' => 'Edriouche Truck Job | Emploi et formation des conducteurs routiers',
+        'en' => 'Edriouche Truck Job | Truck Driver Jobs, Training & Road Transport',
+        default => 'Edriouche Truck Job | فرص عمل وتكوين سائقي الشاحنات',
+    };
+    $homeSeoDescription = match ($homeLocale) {
+        'es' => 'Empleo, formación e información profesional para conductores de camión en Marruecos y Europa.',
+        'fr' => 'Emploi, formation et informations professionnelles pour les conducteurs routiers au Maroc et à l’international.',
+        'en' => 'Truck driver jobs, professional training and reliable transport information for drivers in Morocco, Europe and Canada.',
+        default => 'فرص العمل والتكوين والمعلومات المهنية الموثوقة لسائقي الشاحنات في المغرب وأوروبا وكندا.',
+    };
+    $homeOgDescription = match ($homeLocale) {
+        'es' => 'Empleo, formación e información profesional para conductores de camión.',
+        'fr' => 'Emploi, formation et informations professionnelles pour les conducteurs routiers.',
+        'en' => 'Truck driver jobs, professional training and reliable road transport information.',
+        default => 'فرص العمل والتكوين والمعلومات المهنية لسائقي الشاحنات.',
+    };
+    $homeOgLocale = match ($homeLocale) {
+        'es' => 'es_ES',
+        'fr' => 'fr_FR',
+        'en' => 'en_US',
+        default => 'ar_MA',
+    };
+    $homeTwitterTitle = match ($homeLocale) {
+        'es' => 'Edriouche Truck Job | Empleo y formación',
+        'fr' => 'Edriouche Truck Job | Emploi et formation',
+        'en' => 'Edriouche Truck Job | Truck Driver Jobs & Training',
+        default => 'Edriouche Truck Job | فرص عمل وتكوين',
+    };
+@endphp
+<title>{{ $homeSeoTitle }}</title>
+    <meta name="description" content="{{ $homeSeoDescription }}">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -41,13 +74,13 @@
     <link rel="canonical" href="https://edriouchetruckjobs.ma/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Edriouche Truck Job">
-    <meta property="og:title" content="@if(app()->getLocale() === 'es') Edriouche Truck Job | Empleo y formación para camioneros @elseif(app()->getLocale() === 'fr') Edriouche Truck Job | Emploi et formation des conducteurs routiers @elseif(app()->getLocale() === 'en') Edriouche Truck Job | Truck Driver Jobs, Training & Road Transport @else Edriouche Truck Job | فرص عمل وتكوين سائقي الشاحنات @endif">
-    <meta property="og:locale" content="@if(app()->getLocale() === 'es') es_ES @elseif(app()->getLocale() === 'fr') fr_FR @elseif(app()->getLocale() === 'en') en_US @else ar_MA @endif">
-    <meta property="og:description" content="@if(app()->getLocale() === 'es') Empleo, formación e información profesional para conductores de camión. @elseif(app()->getLocale() === 'fr') Emploi, formation et informations professionnelles pour les conducteurs routiers. @elseif(app()->getLocale() === 'en') Truck driver jobs, professional training and reliable road transport information. @else فرص العمل والتكوين والمعلومات المهنية لسائقي الشاحنات. @endif">
+    <meta property="og:title" content="{{ $homeSeoTitle }}">
+    <meta property="og:locale" content="{{ $homeOgLocale }}">
+    <meta property="og:description" content="{{ $homeOgDescription }}">
     <meta property="og:url" content="https://edriouchetruckjobs.ma/">
     <meta property="og:image" content="https://edriouchetruckjobs.ma/images/founder.jpg?v=2">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="@if(app()->getLocale() === 'es') Edriouche Truck Job | Empleo y formación @elseif(app()->getLocale() === 'fr') Edriouche Truck Job | Emploi et formation @elseif(app()->getLocale() === 'en') Edriouche Truck Job | Truck Driver Jobs & Training @else Edriouche Truck Job | فرص عمل وتكوين @endif">
+    <meta name="twitter:title" content="{{ $homeTwitterTitle }}">
     <meta name="twitter:description" content="Professional driver jobs, training and reliable road transport information.">
     <meta name="twitter:image" content="https://edriouchetruckjobs.ma/images/founder.jpg?v=2">
 
