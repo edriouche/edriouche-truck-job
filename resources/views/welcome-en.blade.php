@@ -3,8 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Truck driving jobs and training information for Moroccan drivers seeking opportunities in Morocco and Europe.">
-<title>Edriouche Truck Job | Driver Jobs & Training</title>
+<meta name="description" content="Truck driver jobs, professional training and reliable road transport information for drivers in Morocco, Europe and Canada.">
+<link rel="canonical" href="https://edriouchetruckjobs.ma/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Edriouche Truck Job">
+<meta property="og:title" content="Edriouche Truck Job | Truck Driver Jobs, Training & Road Transport">
+<meta property="og:description" content="Truck driver jobs, professional training and reliable road transport information for drivers in Morocco, Europe and Canada.">
+<meta property="og:url" content="https://edriouchetruckjobs.ma/">
+<meta property="og:image" content="https://edriouchetruckjobs.ma/images/founder.jpg?v=2">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Edriouche Truck Job | Truck Driver Jobs & Training">
+<meta name="twitter:description" content="Professional driver jobs, training and reliable road transport information.">
+<meta name="twitter:image" content="https://edriouchetruckjobs.ma/images/founder.jpg?v=2">
+<title>Edriouche Truck Job | Global Truck Driver Jobs & Training</title>
 <style>
 body{font-family:Arial,sans-serif;line-height:1.7;margin:0;background:#f4f7fa;color:#17212b}
 header,main,footer{max-width:900px;margin:auto;padding:22px}
