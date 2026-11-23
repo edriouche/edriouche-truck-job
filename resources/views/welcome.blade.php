@@ -902,13 +902,29 @@
     $caption = '';
 @endphp
 
-@if($homeImageExists)
+<?php if ($homeImageExists): ?>
 <div style="text-align:center; margin:20px 0;">
     <img src="{{ asset('storage/' . $homeImage) }}" alt="Edriouche Truck Job" style="max-width:100%; height:auto;">
 
-    @if($caption)
+    <?php if ($caption): ?>
         <div style="margin-top:10px;">{{ $caption }}</div>
-    @endif
+    <?php endif; ?>
+
+    <?php if (auth()->check()): ?>
+        <form method="POST" action="{{ route('home-image.caption') }}" style="margin-top:10px;">
+            @csrf
+            <input type="text" name="caption" value="{{ $caption }}" placeholder="اكتب موضوع الصورة" maxlength="200" style="width:80%;padding:8px;">
+            <button type="submit">✏️ حفظ الموضوع</button>
+        </form>
+
+        <form method="POST" action="{{ route('home-image.destroy') }}" style="margin-top:8px;">
+            @csrf
+            @method('DELETE')
+            <button type="submit" onclick="return confirm('هل تريد حذف الصورة وموضوعها؟')">🗑️ حذف الصورة</button>
+        </form>
+    <?php endif; ?>
+</div>
+<?php endif; ?>
 
     @auth
         <form method="POST" action="{{ route('home-image.caption') }}" style="margin-top:10px;">
