@@ -41,12 +41,13 @@
     <link rel="canonical" href="https://edriouchetruckjobs.ma/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Edriouche Truck Job">
-    <meta property="og:title" content="Edriouche Truck Job | Truck Driver Jobs, Training & Road Transport">
+    <meta property="og:title" content="@if(app()->getLocale() === 'es') Edriouche Truck Job | Empleo y formación para camioneros @elseif(app()->getLocale() === 'fr') Edriouche Truck Job | Emploi et formation des conducteurs routiers @elseif(app()->getLocale() === 'en') Edriouche Truck Job | Truck Driver Jobs, Training & Road Transport @else Edriouche Truck Job | فرص عمل وتكوين سائقي الشاحنات @endif">
+    <meta property="og:locale" content="@if(app()->getLocale() === 'es') es_ES @elseif(app()->getLocale() === 'fr') fr_FR @elseif(app()->getLocale() === 'en') en_US @else ar_MA @endif">
     <meta property="og:description" content="@if(app()->getLocale() === 'es') Empleo, formación e información profesional para conductores de camión. @elseif(app()->getLocale() === 'fr') Emploi, formation et informations professionnelles pour les conducteurs routiers. @elseif(app()->getLocale() === 'en') Truck driver jobs, professional training and reliable road transport information. @else فرص العمل والتكوين والمعلومات المهنية لسائقي الشاحنات. @endif">
     <meta property="og:url" content="https://edriouchetruckjobs.ma/">
     <meta property="og:image" content="https://edriouchetruckjobs.ma/images/founder.jpg?v=2">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Edriouche Truck Job | Truck Driver Jobs & Training">
+    <meta name="twitter:title" content="@if(app()->getLocale() === 'es') Edriouche Truck Job | Empleo y formación @elseif(app()->getLocale() === 'fr') Edriouche Truck Job | Emploi et formation @elseif(app()->getLocale() === 'en') Edriouche Truck Job | Truck Driver Jobs & Training @else Edriouche Truck Job | فرص عمل وتكوين @endif">
     <meta name="twitter:description" content="Professional driver jobs, training and reliable road transport information.">
     <meta name="twitter:image" content="https://edriouchetruckjobs.ma/images/founder.jpg?v=2">
 
