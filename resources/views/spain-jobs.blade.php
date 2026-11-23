@@ -4,6 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{{ __("messages.spain_jobs_title") }} | Edriouche Truck Job</title>
+<meta name="description" content="@if(app()->getLocale() === 'es') Información y ofertas de empleo para conductores de camión en España. Consulta requisitos, empresas y enlaces oficiales de contratación. @elseif(app()->getLocale() === 'fr') Informations et offres d’emploi pour chauffeurs routiers en Espagne. Consultez les conditions et les liens officiels des employeurs. @elseif(app()->getLocale() === 'en') Truck driver jobs in Spain: employer information, licence requirements and official recruitment links. Verify each vacancy before applying. @else معلومات فرص عمل سائقي الشاحنات في إسبانيا، وشروط الرخصة والشركات وروابط التوظيف الرسمية. تحقق من كل عرض قبل التقديم. @endif">
+<link rel="canonical" href="https://edriouchetruckjobs.ma/spain-jobs">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Edriouche Truck Job">
+<meta property="og:title" content="{{ __('messages.spain_jobs_title') }} | Edriouche Truck Job">
+<meta property="og:description" content="@if(app()->getLocale() === 'es') Ofertas e información para conductores de camión en España. @elseif(app()->getLocale() === 'fr') Offres et informations pour chauffeurs routiers en Espagne. @elseif(app()->getLocale() === 'en') Truck driver jobs and official recruitment information in Spain. @else فرص ومعلومات عمل سائقي الشاحنات في إسبانيا. @endif">
+<meta property="og:url" content="https://edriouchetruckjobs.ma/spain-jobs">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ __('messages.spain_jobs_title') }} | Edriouche Truck Job">
 <style>
 body{font-family:Arial,sans-serif;background:#f5f7fa;margin:0;color:#222;line-height:1.8}
 .container{max-width:900px;margin:auto;padding:15px}
