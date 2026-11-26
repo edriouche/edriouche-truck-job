@@ -231,7 +231,7 @@
 <div class="container" style="margin-top:35px;">
 <div class="intro">
 <h2>🇲🇦 عروض حديثة لسائقي الشاحنات في المغرب</h2>
-<p>آخر مراجعة تحريرية: 24 نوفمبر 2026. هذه مراجعة للمعلومات المنشورة وليست تأكيدًا لاستمرار الشغور؛ تحقق مباشرة من الشركة قبل إرسال الوثائق أو السفر.</p>
+<p>آخر مراجعة تحريرية: 26 نوفمبر 2026. هذه مراجعة للمعلومات المنشورة وليست تأكيدًا لاستمرار الشغور؛ تحقق مباشرة من الشركة قبل إرسال الوثائق أو السفر.</p>
 </div>
 <div class="job">
 <span class="badge">المغرب</span>
@@ -346,7 +346,7 @@ $locale = app()->getLocale();
 
     <div class="intro">
         <p><strong>{{ __('messages.no_guarantee') }}</strong></p>
-        <p>📅 {{ app()->getLocale() === 'ar' ? 'آخر مراجعة للصفحة: 24 نوفمبر 2026' : (app()->getLocale() === 'es' ? 'Última revisión de la página: 24 de noviembre de 2026' : (app()->getLocale() === 'fr' ? 'Dernière révision de la page : 24 novembre 2026' : 'Page last reviewed: 24 November 2026')) }}</p>
+        <p>📅 {{ app()->getLocale() === 'ar' ? 'آخر مراجعة للصفحة: 26 نوفمبر 2026' : (app()->getLocale() === 'es' ? 'Última revisión de la página: 26 de noviembre de 2026' : (app()->getLocale() === 'fr' ? 'Dernière révision de la page : 26 novembre 2026' : 'Page last reviewed: 26 November 2026')) }}</p>
     </div>
 
 </div>
