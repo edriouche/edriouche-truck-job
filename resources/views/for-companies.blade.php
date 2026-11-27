@@ -243,6 +243,19 @@
 
 @endif
 
+{{-- Count a lead only after Laravel confirms the request was saved successfully. --}}
+@if(session('success'))
+<script>
+    if (typeof window.gtag === 'function') {
+        window.gtag('event', 'generate_lead', {
+            form_name: 'company_advertising_request',
+            page_path: window.location.pathname,
+            transport_type: 'beacon'
+        });
+    }
+</script>
+@endif
+
 @include('partials.growth-navigation')
 </body>
 </html>
